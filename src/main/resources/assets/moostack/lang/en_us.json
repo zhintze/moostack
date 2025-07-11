@@ -1,0 +1,13 @@
+{
+  "itemGroup.moostack": "Example Mod Tab",
+  "block.moostack.example_block": "Example Block",
+  "item.moostack.example_item": "Example Item",
+
+  "moostack.configuration.title": "mooStack Configs",
+  "moostack.configuration.section.moostack.common.toml": "mooStack Configs",
+  "moostack.configuration.section.moostack.common.toml.title": "mooStack Configs",
+  "moostack.configuration.items": "Item List",
+  "moostack.configuration.logDirtBlock": "Log Dirt Block",
+  "moostack.configuration.magicNumberIntroduction": "Magic Number Text",
+  "moostack.configuration.magicNumber": "Magic Number"
+}
