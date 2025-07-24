@@ -20,7 +20,17 @@ build
 # other
 eclipse
 run
-runs
+runs/**
 run-data
+
+# ✅ Unignore parent paths first
+!runs/client/
+!runs/client/kubejs/
+!runs/client/kubejs/server_scripts/
+!runs/client/kubejs/server_scripts/**
+!runs/client/kubejs/startup_scripts/
+!runs/client/kubejs/startup_scripts/**
+!runs/client/kubejs/client_scripts/
+!runs/client/kubejs/client_scripts/**
 
 repo
