@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console appender -->
+        <Console name="SysOut" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] [%logger{36}/%marker]: %msg%n"/>
+        </Console>
+        
+        <!-- File appender -->
+        <RollingFile name="File" fileName="logs/latest.log" filePattern="logs/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="[%d{ddMMyyyy HH:mm:ss.SSS}] [%t/%level] [%logger{36}/%marker]: %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="200MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    
+    <Loggers>
+        <!-- Suppress ArsAdditions weather status spam -->
+        <Logger name="co.gi.ja.ar.ArsAdditions" level="WARN" additivity="false">
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <!-- Suppress other common spam -->
+        <Logger name="com.betterchunkloading.BetterChunkLoading" level="ERROR" additivity="false">
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <!-- Suppress mixin debug messages -->
+        <Logger name="mixin" level="WARN" additivity="false">
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <!-- Suppress SodiumExtras whitelist checks -->
+        <Logger name="SodiumExtras" level="WARN" additivity="false">
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <!-- Root logger -->
+        <Root level="INFO">
+            <AppenderRef ref="SysOut"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
