@@ -229,6 +229,10 @@ dependencies {
 
     implementation "blank:industrialforegoing-chemlib-edition"
     implementation "blank:chemlibmekanized-1.0.0"
+    implementation "blank:exchangers-3.6.0"
+    implementation "blank:equestriansdelight-1.0.0"
+    implementation "blank:horsestats-1.0.0"
+    implementation "blank:constructionwand-1.21.1-2.12"
 
 
 
@@ -276,7 +280,7 @@ dependencies {
     implementation "curse.maven:occultism-361026:6082790"
     implementation "curse.maven:theurgy-430636:5920165"
     implementation "curse.maven:productiveBees-377897:6029033"
-    implementation "curse.maven:industrialForegoing-266515:6030556"
+    //implementation "curse.maven:industrialForegoing-266515:6030556"
     implementation "curse.maven:evilCraft-74610:6079207"
     implementation "curse.maven:powah-633483:6483151"
 
