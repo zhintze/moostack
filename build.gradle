@@ -233,6 +233,7 @@ dependencies {
     implementation "blank:equestriansdelight-1.0.0"
     implementation "blank:horsestats-1.0.0"
     implementation "blank:constructionwand-1.21.1-2.12"
+    implementation "blank:butchercraft-2.6.3"
 
 
 
