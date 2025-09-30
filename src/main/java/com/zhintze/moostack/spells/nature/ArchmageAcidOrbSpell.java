@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 @AutoSpellConfig
 public class ArchmageAcidOrbSpell extends AcidOrbSpell {
     private final DefaultConfig defaultConfig = new DefaultConfig()
-        .setMinRarity(SpellRarity.EPIC)
+        .setMinRarity(SpellRarity.LEGENDARY)
         .setSchoolResource(SchoolRegistry.NATURE_RESOURCE)
         .setMaxLevel(10)
         .setCooldownSeconds(15.0)

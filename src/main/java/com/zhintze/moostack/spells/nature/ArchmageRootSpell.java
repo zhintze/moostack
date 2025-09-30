@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 @AutoSpellConfig
 public class ArchmageRootSpell extends RootSpell {
     private final DefaultConfig defaultConfig = new DefaultConfig()
-        .setMinRarity(SpellRarity.EPIC)
+        .setMinRarity(SpellRarity.LEGENDARY)
         .setSchoolResource(SchoolRegistry.NATURE_RESOURCE)
         .setMaxLevel(10)
         .setCooldownSeconds(35.0)

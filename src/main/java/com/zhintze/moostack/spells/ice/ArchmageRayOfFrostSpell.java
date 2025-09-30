@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 @AutoSpellConfig
 public class ArchmageRayOfFrostSpell extends RayOfFrostSpell {
     private final DefaultConfig defaultConfig = new DefaultConfig()
-        .setMinRarity(SpellRarity.EPIC)
+        .setMinRarity(SpellRarity.LEGENDARY)
         .setSchoolResource(SchoolRegistry.ICE_RESOURCE)
         .setMaxLevel(10)
         .setCooldownSeconds(15.0)

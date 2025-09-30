@@ -35,6 +35,11 @@ repositories {
         name = "curse.maven"
         url = "https://cursemaven.com"
     }
+
+    maven {
+        name = "Iron's Maven - Release"
+        url = "https://code.redspace.io/releases"
+    }
 }
 
 base {
@@ -278,7 +283,7 @@ dependencies {
 
     implementation "curse.maven:VicsPointBlank-961053:6028992"
     implementation "curse.maven:ImmersiveEngineering-231951:5828000"
-    implementation "curse.maven:ironSpells-855414:6054197"
+    implementation "curse.maven:ironSpells-855414:7036419"
     implementation "curse.maven:silentGear-297039:6070229"
     implementation "curse.maven:lootr-361276:6085253"
 
@@ -329,8 +334,8 @@ dependencies {
 
 
     //---- Ars Nouveau ----//
-    implementation "curse.maven:arsNouveau-401955:6758174"
-    implementation "curse.maven:arsAdditions-974408:6392486"
+    implementation "blank:ars_nouveau-1.21.1-5.10.4" //use local jar to reduce loot rates
+    implementation "blank:ars_additions-1.21.1-21.2.3"//use local jar to reduce loot rates
     implementation "curse.maven:arsElemental-561470:6701129"
     implementation "curse.maven:arsOcultas-907843:6015723"
     implementation "curse.maven:arsCreo-575698:6279953"

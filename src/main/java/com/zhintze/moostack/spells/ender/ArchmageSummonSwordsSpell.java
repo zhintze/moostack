@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceLocation;
 @AutoSpellConfig
 public class ArchmageSummonSwordsSpell extends SummonSwordsSpell {
     private final DefaultConfig defaultConfig = new DefaultConfig()
-        .setMinRarity(SpellRarity.EPIC)
+        .setMinRarity(SpellRarity.LEGENDARY)
         .setSchoolResource(SchoolRegistry.ENDER_RESOURCE)
         .setMaxLevel(10)
         .setCooldownSeconds(150.0)
