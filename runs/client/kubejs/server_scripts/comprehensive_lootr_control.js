@@ -9,8 +9,7 @@ const OLD_SYSTEM_ENABLED = false
 
 if (!OLD_SYSTEM_ENABLED) {
     console.log('Old system disabled - using Ultimate Tiered Lootr System instead')
-    // Early return to prevent execution
-}
+} else {
 
 LootJS.modifiers(event => {
     console.log(`PRIORITY BLOCKING: Processing ${event.id}`)
@@ -326,3 +325,5 @@ ServerEvents.tick(event => {
 
 console.log('=== COMPREHENSIVE LOOTR CONTROL COMPLETE ===')
 console.log('Maximum Lootr transformation rates and total loot control active!')
+
+} // End of OLD_SYSTEM_ENABLED check

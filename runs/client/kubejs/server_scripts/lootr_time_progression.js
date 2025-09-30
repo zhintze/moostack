@@ -95,9 +95,10 @@ function getDimensionMultiplier(dimensionId) {
 
 LootJS.modifiers(event => {
     // Skip if we don't have proper context
-    if (!event.getLootingPlayer() || event.type !== 'chest') return
-    
-    let player = event.getLootingPlayer()
+    if (event.type !== 'chest') return
+
+    let player = event.getPlayer()
+    if (!player) return
     let level = player.level
     let pos = player.blockPosition()
     let dimension = level.dimension.location().toString()
@@ -206,10 +207,11 @@ ServerEvents.loaded(event => {
 const STRUCTURE_ENCOUNTERS = new Map()
 
 LootJS.modifiers(event => {
-    if (event.type !== 'chest' || !event.getLootingPlayer()) return
-    
+    if (event.type !== 'chest') return
+
     let tableId = event.id
-    let player = event.getLootingPlayer()
+    let player = event.getPlayer()
+    if (!player) return
     let playerId = player.uuid
     
     // Track first encounters with major structures

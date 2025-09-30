@@ -23,21 +23,7 @@ ServerEvents.loaded(event => {
 })
 
 // ===== CUSTOM WARNING FILTER =====
-// This attempts to filter specific warning patterns
-
-ServerEvents.commandRegistry(event => {
-    // Add a command to toggle warning verbosity if needed
-    event.register(commands => 
-        commands.literal('warnings')
-            .requires(source => source.hasPermission(4))
-            .then(commands.literal('toggle')
-                .executes(context => {
-                    console.log('Warning verbosity toggled via command')
-                    return 1
-                })
-            )
-    )
-})
+// Command system disabled - ServerEvents.commandRegistry not available in this KubeJS version
 
 // ===== PERIODIC WARNING CLEANUP =====
 // Check for excessive warning patterns and provide recommendations

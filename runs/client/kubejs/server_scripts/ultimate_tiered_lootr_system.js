@@ -369,11 +369,10 @@ function getItemsForTier(structureTier, timeProgression) {
         
         for (let [itemId, itemData] of Object.entries(tier.items)) {
             let scaledWeight = Math.floor(itemData.weight * timeMultiplier)
-            items[itemId] = {
-                ...itemData,
+            items[itemId] = Object.assign({}, itemData, {
                 weight: scaledWeight,
                 tier: tierName
-            }
+            })
         }
     }
     
@@ -396,7 +395,9 @@ LootJS.lootTables(event => {
     // Get all loot tables to modify
     let allTables = []
     for (let tier of Object.values(STRUCTURE_TIERS)) {
-        allTables.push(...tier)
+        for (let table of tier) {
+            allTables.push(table)
+        }
     }
     
     console.log(`Processing ${allTables.length} loot tables with tiered system...`)

@@ -165,8 +165,8 @@ LootJS.lootTables(event => {
 LootJS.modifiers(event => {
     if (!LOOT_MASTER_CONFIG.SYSTEM_ENABLED) return
     if (event.type !== 'chest') return
-    
-    let player = event.getLootingPlayer()
+
+    let player = event.getPlayer()
     if (!player) return
     
     let tableId = event.id
@@ -228,66 +228,8 @@ LootJS.modifiers(event => {
 })
 
 // ===== ADMIN COMMANDS SYSTEM =====
-ServerEvents.command.register(event => {
-    event.register("lootstats", (event) => {
-        if (!event.source.player || !event.source.player.hasPermissions(2)) {
-            event.source.sendSuccess(Text.red("Permission denied"), false)
-            return
-        }
-        
-        let stats = [
-            "=== LOOT SYSTEM STATISTICS ===",
-            `Total chests opened: ${LOOT_ANALYTICS.totalChestsOpened}`,
-            `Unique items tracked: ${LOOT_ANALYTICS.itemsGenerated.size}`,
-            `Structures encountered: ${LOOT_ANALYTICS.structureEncounters.size}`,
-            `Players tracked: ${PLAYER_LOOT_TRACKING.size}`,
-            "",
-            "Top 10 Most Generated Items:"
-        ]
-        
-        let sortedItems = [...LOOT_ANALYTICS.itemsGenerated.entries()]
-                         .sort((a, b) => b[1] - a[1])
-                         .slice(0, 10)
-        
-        for (let [item, count] of sortedItems) {
-            stats.push(`  ${item}: ${count}`)
-        }
-        
-        for (let line of stats) {
-            event.source.sendSuccess(Text.green(line), false)
-        }
-    })
-    
-    event.register("lootrebalance", (event) => {
-        if (!event.source.player || !event.source.player.hasPermissions(2)) {
-            event.source.sendSuccess(Text.red("Permission denied"), false)
-            return
-        }
-        
-        analyzeAndRebalance()
-        event.source.sendSuccess(Text.green("Loot rebalancing analysis complete"), false)
-    })
-    
-    event.register("lootconfig", (event) => {
-        if (!event.source.player || !event.source.player.hasPermissions(2)) {
-            event.source.sendSuccess(Text.red("Permission denied"), false)
-            return
-        }
-        
-        let config = [
-            "=== LOOT SYSTEM CONFIGURATION ===",
-            `System Enabled: ${LOOT_MASTER_CONFIG.SYSTEM_ENABLED}`,
-            `Global Multiplier: ${LOOT_MASTER_CONFIG.GLOBAL_LOOT_MULTIPLIER}`,
-            `Progression Scaling: ${LOOT_MASTER_CONFIG.PROGRESSION_SCALING}`,
-            `Performance Mode: ${LOOT_MASTER_CONFIG.PERFORMANCE_MODE}`,
-            `Debug Verbose: ${LOOT_MASTER_CONFIG.DEBUG_VERBOSE}`
-        ]
-        
-        for (let line of config) {
-            event.source.sendSuccess(Text.yellow(line), false)
-        }
-    })
-})
+// Commands disabled due to API incompatibility - can be re-enabled if KubeJS command API is updated
+// ServerEvents.commandRegistry is not available in this version
 
 // ===== PERFORMANCE MONITORING =====
 let performanceData = {
