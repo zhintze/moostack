@@ -1,0 +1,159 @@
+// KubeJS Script: Extended Croptopia Item Removal
+// This is an EXTENDED version that also removes derived corn/peanut items
+// To enable: rename from .js.disabled to .js
+// Removes 79+ base items PLUS 7 derived items (86 total)
+
+ServerEvents.recipes(event => {
+    console.log('Starting EXTENDED Croptopia item removal...')
+
+    const itemsToRemove = {
+        pizza: [
+            'croptopia:pizza',
+            'croptopia:cheese_pizza',
+            'croptopia:supreme_pizza',
+            'croptopia:pineapple_pepperoni_pizza',
+            'croptopia:anchovy_pizza'
+        ],
+        burgers: [
+            'croptopia:hamburger',
+            'croptopia:cheeseburger'
+        ],
+        pies: [
+            'croptopia:apple_pie',
+            'croptopia:cherry_pie',
+            'croptopia:pecan_pie',
+            'croptopia:rhubarb_pie'
+        ],
+        soups: [
+            'croptopia:beef_stew',
+            'croptopia:pumpkin_soup',
+            'croptopia:potato_soup'
+        ],
+        salads: [
+            'croptopia:fruit_salad'
+        ],
+        dairy: [
+            'croptopia:cheese',
+            'croptopia:butter',
+            'croptopia:yoghurt',
+            'croptopia:flour',
+            'croptopia:dough',
+            'croptopia:noodle',
+            'croptopia:salt',
+            'croptopia:olive_oil',
+            'croptopia:soy_sauce',
+            'croptopia:chocolate',
+            'croptopia:tortilla'
+        ],
+        beverages: [
+            'croptopia:beer',
+            'croptopia:mead',
+            'croptopia:milk_bottle',
+            'croptopia:apple_juice',
+            'croptopia:melon_juice',
+            'croptopia:coffee',
+            'croptopia:tea',
+            'croptopia:lemonade',
+            'croptopia:wine'
+        ],
+        meats: [
+            'croptopia:cooked_bacon',
+            'croptopia:sausage',
+            'croptopia:pepperoni'
+        ],
+        crops: [
+            'croptopia:corn',
+            'croptopia:corn_seed',
+            'croptopia:peanut',
+            'croptopia:peanut_seed'
+        ],
+        // EXTENDED: Derived corn/peanut items
+        derived: [
+            'croptopia:peanut_butter',
+            'croptopia:peanut_butter_and_jam',
+            'croptopia:peanut_butter_with_celery',
+            'croptopia:cornish_pasty',
+            'croptopia:corn_bread',
+            'croptopia:corn_husk',
+            'croptopia:popcorn'
+        ],
+        sandwiches: [
+            'croptopia:blt',
+            'croptopia:grilled_cheese'
+        ],
+        desserts: [
+            'croptopia:brownies',
+            'croptopia:doughnut',
+            'croptopia:cinnamon_roll',
+            'croptopia:vanilla_ice_cream',
+            'croptopia:chocolate_ice_cream',
+            'croptopia:strawberry_ice_cream'
+        ],
+        mexican: [
+            'croptopia:taco',
+            'croptopia:burrito',
+            'croptopia:quesadilla',
+            'croptopia:enchilada',
+            'croptopia:tamales'
+        ],
+        jams: [
+            'croptopia:strawberry_jam',
+            'croptopia:blueberry_jam',
+            'croptopia:cherry_jam',
+            'croptopia:apricot_jam',
+            'croptopia:blackberry_jam',
+            'croptopia:grape_jam',
+            'croptopia:peach_jam',
+            'croptopia:raspberry_jam'
+        ],
+        snacks: [
+            'croptopia:potato_chips',
+            'croptopia:french_fries'
+        ],
+        meals: [
+            'croptopia:ratatouille',
+            'croptopia:fried_chicken',
+            'croptopia:oatmeal',
+            'croptopia:mashed_potatoes',
+            'croptopia:hashed_brown',
+            'croptopia:fish_and_chips',
+            'croptopia:quiche'
+        ]
+    }
+
+    const allItemsToRemove = Object.values(itemsToRemove).flat()
+
+    let removedCount = 0
+    allItemsToRemove.forEach(item => {
+        event.remove({ output: item })
+        removedCount++
+    })
+
+    console.log(`Removed ${removedCount} Croptopia item recipes (EXTENDED)`)
+
+    allItemsToRemove.forEach(item => {
+        event.remove({ input: item })
+    })
+
+    console.log('Removed recipes using removed items as ingredients')
+    console.log('EXTENDED Croptopia Removal Summary:')
+    console.log(`  Pizza items: ${itemsToRemove.pizza.length}`)
+    console.log(`  Burgers: ${itemsToRemove.burgers.length}`)
+    console.log(`  Pies: ${itemsToRemove.pies.length}`)
+    console.log(`  Soups/Stews: ${itemsToRemove.soups.length}`)
+    console.log(`  Salads: ${itemsToRemove.salads.length}`)
+    console.log(`  Dairy/Ingredients: ${itemsToRemove.dairy.length}`)
+    console.log(`  Beverages: ${itemsToRemove.beverages.length}`)
+    console.log(`  Meats: ${itemsToRemove.meats.length}`)
+    console.log(`  Crops: ${itemsToRemove.crops.length}`)
+    console.log(`  Derived Items (corn/peanut): ${itemsToRemove.derived.length} [EXTENDED]`)
+    console.log(`  Sandwiches: ${itemsToRemove.sandwiches.length}`)
+    console.log(`  Desserts: ${itemsToRemove.desserts.length}`)
+    console.log(`  Mexican Food: ${itemsToRemove.mexican.length}`)
+    console.log(`  Jams: ${itemsToRemove.jams.length}`)
+    console.log(`  Snacks: ${itemsToRemove.snacks.length}`)
+    console.log(`  Other Meals: ${itemsToRemove.meals.length}`)
+    console.log(`  TOTAL: ${allItemsToRemove.length} items (EXTENDED VERSION)`)
+
+    console.log('EXTENDED Croptopia item removal complete!')
+})

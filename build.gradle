@@ -123,7 +123,8 @@ dependencies {
 
     // The Delights
     implementation "curse.maven:FarmersDelight-398521:6597295"
-    implementation "blank:extradelight-2.4.2"
+    implementation "blank:extradelight-2.5.10"
+    implementation "blank:spiceoflifeascension-1.0.0"
     implementation "curse.maven:MyNethersDelight-1003673:6460371"
     implementation "curse.maven:BrewinAndChewin-637808:6445492"
     implementation "curse.maven:Butchercraft-265715:6058964"
@@ -135,7 +136,7 @@ dependencies {
     implementation ('curse.maven:EpheroLib-885449:5872111')
     implementation ("vazkii.patchouli:Patchouli:1.21.1-92-NEOFORGE")
     //implementation ('curse.maven:Croptopia-415438:6092073')
-    implementation "blank:croptopia_1.21.1_NEO-FORGE-4.1.0"
+    implementation "blank:croptopia-1.0.0"
 
 
     //---- PERFORMANCE ----//
@@ -178,14 +179,10 @@ dependencies {
     implementation "curse.maven:geckolib-388172:6659026"
     implementation "curse.maven:balm-531761:6447094"
     implementation "curse.maven:resourcefulconfig-714059:5808466" //betterarcnheology
-    implementation "curse.maven:placebo-283644:6068449" //apotheosis
-    implementation "curse.maven:apothicEnchanting-1063926:6084297" //apotheosis
     implementation "curse.maven:playeranimator-658587:6024462" //irons spellbooks
     implementation "curse.maven:prism-638111:5625115" //legendary tooltip
-    implementation "curse.maven:bookshelf-228525:6079580" //attribute fix
     implementation "curse.maven:clothConfig-348521:5729127" //artifacts
     implementation "curse.maven:resourcefulLib-570073:5793500" //chipped
-    implementation "curse.maven:apothicSpawners-986583:6058055" //apotheosis
     implementation "curse.maven:mysteriousmountainlib-368098:5852852" //cornDelight
     implementation "curse.maven:modonomicon-538392:6065157" //occultism
     implementation "curse.maven:athena-841890:5629395" //chipped
@@ -233,7 +230,8 @@ dependencies {
 
 
     //implementation "blank:industrialforegoing-chemlib-edition"
-    //implementation "blank:chemlibmekanized-1.0.0"
+    implementation "blank:chemlibmekanized-1.0.0"
+    implementation "blank:adastramekanized-1.0.0"
     implementation "blank:exchangers-3.6.0"
     implementation "blank:equestriansdelight-1.0.0"
     implementation "blank:horsestats-1.0.0"
@@ -282,7 +280,9 @@ dependencies {
     // BIOM GENERATION END
 
     implementation "curse.maven:VicsPointBlank-961053:6028992"
-    implementation "curse.maven:ImmersiveEngineering-231951:5828000"
+    implementation "curse.maven:VicsPointBlankCrashFix-1310209:6789029"
+    implementation "curse.maven:VicsPointBlankBlockInteraction-1310557:6791284"
+    implementation "blank:ImmersiveEngineering-1.21.1-12.4.3-194"
     implementation "curse.maven:ironSpells-855414:7036419"
     implementation "curse.maven:silentGear-297039:6070229"
     implementation "curse.maven:lootr-361276:6085253"
@@ -295,16 +295,23 @@ dependencies {
     implementation "curse.maven:evilCraft-74610:6079207"
     implementation "curse.maven:powah-633483:6483151"
 
-    implementation "curse.maven:curios-309927:6076118"
+    implementation "curse.maven:curios-309927:6529130"
 
-    implementation "curse.maven:apotheosis-313970:6078226"
-    implementation "curse.maven:apothicAttributes-898963:6060907"
-    // implementation "curse.maven:attributeFix-280510:5824104" // REMOVED: Conflicts with PrickleMC
     implementation "curse.maven:prickle-1023259:6546240" //attribute fix (replaces AttributeFix)
+
+    implementation "curse.maven:apotheosis-313970:7180713"
+    implementation "curse.maven:apothicAttributes-898963:6751650"
+    implementation "curse.maven:apothicSpawners-986583:6751589" //apotheosis
+    implementation "curse.maven:placebo-283644:6926281" //apotheosis
+    implementation "curse.maven:apothicEnchanting-1063926:6926290" //apotheosis
     implementation "curse.maven:maxHealthFix-492246:5824111"
+    implementation "curse.maven:bookshelf-228525:7161606"
+
+
+
 
     implementation "curse.maven:aquaCulture2-60028:5919626"
-    implementation "curse.maven:corailTombstone-243707:6052769"
+    implementation "blank:tombstone-neoforge-1.21.1-9.4.8"
     implementation "curse.maven:structureCompass-319598:5774341"
     implementation "curse.maven:natureCompass-252848:5696042"
     implementation "curse.maven:SophisticatedCore-618298:6074769"
@@ -317,8 +324,22 @@ dependencies {
     implementation "curse.maven:artifacts-312353:5624722"
     implementation "curse.maven:chipped-456956:5813117"
 
-    //Applied Energistics 2
-    implementation "curse.maven:AppliedEnergistics2-223794:6626602"
+    // Applied Energistics 2 (Custom Build)
+    // Original: curse.maven:AppliedEnergistics2-223794:6626602
+    // Using local modified build from: /home/keroppi/Development/Minecraft/Applied-Energistics-2
+    // Modifications:
+    //   - Spatial IO power multiplier reduced 75% (1250 -> 312.5)
+    //   - Spatial pylon recipe output doubled (2 -> 4 per craft)
+    //   - Energy Cell capacity 2x (200k -> 400k AE)
+    //   - Dense Energy Cell capacity 4x (16M -> 64M AE)
+    //   - All cable channel capacities doubled:
+    //       * Normal cables: 8 -> 16 channels
+    //       * Dense cables: 32 -> 64 channels
+    //       * Controller faces: 32 -> 64 channels
+    //       * Quantum bridges: 32 -> 64 channels
+    //   - Achievement thresholds updated to match new channel capacities
+    //   - Guidebook documentation updated
+    implementation "blank:appliedenergistics2-19.2.18-SNAPSHOT"
     implementation "curse.maven:polymorphEnergistics-941096:5545923"
     implementation "curse.maven:arsEnergistique-905641:6203425"
     implementation "curse.maven:appliedMekanistics-574300:5978711"
@@ -342,6 +363,7 @@ dependencies {
     //---- END Ars Nouveau ----//
 
 
+    implementation "curse.maven:carryon-274259:5649344"
 
 
     implementation "curse.maven:timekeeperCalendars-1185099:6432257"
@@ -365,6 +387,12 @@ dependencies {
     implementation "blank:MekanismAdditions-1.21.1-10.7.14.homebaked"
     implementation "blank:MekanismGenerators-1.21.1-10.7.14.homebaked"
     implementation "blank:MekanismTools-1.21.1-10.7.14.homebaked"
+
+
+
+    // MOBS
+    implementation "curse.maven:endermanOverhaul-574409:6023706"
+    //implementation "curse.maven:choccosmobs-1192171:7099778" requires 1.21.4
 
 
 }

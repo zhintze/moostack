@@ -1,0 +1,67 @@
+// KubeJS script to remove duplicate Croptopia items that conflict with ExtraDelight/FarmersDelight
+// These items are completely removed from the game to avoid confusion
+
+ServerEvents.recipes(event => {
+    console.info('ExtraDelight: Removing duplicate Croptopia items that conflict with ExtraDelight/FarmersDelight...')
+
+    // Items to completely remove from the game (duplicates of ExtraDelight/FarmersDelight items)
+    const duplicateItemsToRemove = [
+        // Pies - ExtraDelight has pie block versions (apple_pie uses FD version)
+        'croptopia:apple_pie',          // Use FarmersDelight apple_pie instead
+        'croptopia:cherry_pie',         // ExtraDelight has croptopia_cherry_pie block
+        'croptopia:pecan_pie',          // ExtraDelight has croptopia_pecan_pie block
+        'croptopia:rhubarb_pie',        // ExtraDelight has croptopia_rhubarb_pie block
+        'croptopia:banana_cream_pie',   // ExtraDelight has croptopia_banana_cream_pie block
+
+        // Baked goods (conflict with ExtraDelight)
+        'croptopia:corn_bread',     // ExtraDelight has cornbread + feast
+        'croptopia:cinnamon_roll',  // ExtraDelight has cinnamon_roll + feast
+        'croptopia:brownies',       // ExtraDelight has brownies_block + feast
+        'croptopia:quiche',         // ExtraDelight has quiche + quiche_slice (sliceable)
+
+        // Simple crafting items that should use oven instead
+        'croptopia:biscuit',
+        'croptopia:banana_bread',
+        'croptopia:coffee_cake'
+    ]
+
+    duplicateItemsToRemove.forEach(itemId => {
+        // Remove ALL recipes that create this item (from any mod/method)
+        event.remove({ output: itemId })
+        console.info(`ExtraDelight: Completely removed item: ${itemId}`)
+    })
+
+    // Also remove by specific recipe IDs for extra safety
+    const recipeIdsToRemove = [
+        'croptopia:apple_pie',
+        'croptopia:cherry_pie',
+        'croptopia:pecan_pie',
+        'croptopia:rhubarb_pie',
+        'croptopia:banana_cream_pie',
+        'croptopia:corn_bread',
+        'croptopia:cornbread',  // Alternative name
+        'croptopia:cinnamon_roll',
+        'croptopia:brownies',
+        'croptopia:quiche',
+        'croptopia:biscuit',
+        'croptopia:banana_bread',
+        'croptopia:coffee_cake',
+        'croptopia:shaped_biscuit',
+        'croptopia:shapeless_biscuit'
+    ]
+
+    recipeIdsToRemove.forEach(recipeId => {
+        event.remove({ id: recipeId })
+    })
+
+    // Remove FarmersDelight crafting table apple pie recipe (keep oven recipe only)
+    event.remove({ id: 'farmersdelight:apple_pie' })
+    event.remove({ type: 'minecraft:crafting_shaped', output: 'farmersdelight:apple_pie' })
+    event.remove({ type: 'minecraft:crafting_shapeless', output: 'farmersdelight:apple_pie' })
+    console.info('ExtraDelight: Removed FarmersDelight crafting table apple pie recipe (oven recipe remains)')
+
+    console.info('ExtraDelight: Duplicate Croptopia item removal completed!')
+    console.info('Players should use ExtraDelight/FarmersDelight versions instead:')
+    console.info('- Use FarmersDelight apple_pie (from oven) instead of croptopia:apple_pie')
+    console.info('- Use ExtraDelight cornbread, cinnamon_roll, brownies, quiche instead of Croptopia versions')
+})
