@@ -284,6 +284,7 @@ dependencies {
     implementation "curse.maven:VicsPointBlankBlockInteraction-1310557:6791284"
     implementation "blank:ImmersiveEngineering-1.21.1-12.4.3-194"
     implementation "curse.maven:ironSpells-855414:7036419"
+    implementation "blank:ironsspellssummoningexpansion-1.0.0"
     implementation "curse.maven:silentGear-297039:6070229"
     implementation "curse.maven:lootr-361276:6085253"
 

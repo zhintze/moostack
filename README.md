@@ -105,7 +105,7 @@ See `EXTRADELIGHT_BREWINANDCHEWIN_UNIFICATION.md` for details.
   - Commands: `/undeadnights difficulty`, `/undeadnights stats`
 
 ### Magic Systems
-- Iron's Spells 'n Spellbooks
+- Iron's Spells 'n Spellbooks + Summoning Expansion (38 creature summons)
 - Ars Nouveau + Extensions (reduced loot rates)
 - Occultism, Theurgy, Evilcraft
 
@@ -300,6 +300,78 @@ Enhanced Celestials provides the Blood Moon events that trigger Undead Nights ho
 - Blood Moon start/end detected via chat messages
 - Super Blood Moon activates enhanced horde multipliers
 - Lunar event state persisted in world save data
+
+---
+
+## Iron's Spells Summoning Expansion
+
+A custom expansion for Iron's Spells 'n Spellbooks that adds a new Summoning school of magic with 38 creature summon spells.
+
+### Summoning School
+
+**New Magic School:**
+- Adds "Summoning" as a new school type alongside Fire, Ice, Lightning, etc.
+- Uses bone as the school focus for ScrollForge crafting
+- Full integration with Iron's Spells crafting and loot systems
+
+### Summonable Creatures (38 Total)
+
+**Hostile Mob Summons (Combat):**
+| Creature | Type | Abilities |
+|----------|------|-----------|
+| Zombie | Undead | Melee, sun-immune |
+| Skeleton | Undead | Ranged bow attacks, sun-immune |
+| Creeper | Explosive | Self-destruct attack |
+| Spider/Cave Spider | Arthropod | Wall climbing, poison (cave) |
+| Enderman | Ender | Teleportation, melee |
+| Blaze | Nether | Ranged fireballs |
+| Phantom | Undead | Flying, dive attacks, sun-immune |
+| Witch | Illager | Potion throwing |
+| Vindicator/Pillager | Illager | Melee axe / Ranged crossbow |
+| Drowned | Undead | Trident attacks, sun-immune |
+| Husk/Stray | Undead | Hunger effect / Slowness arrows, sun-immune |
+| Piglin/Zombified Piglin | Nether | Group attacks, gold armor |
+| Hoglin | Nether | Charging attacks |
+| Warden | Deep Dark | Sonic boom, high damage |
+| Ravager | Illager | Heavy melee, roar stun |
+
+**Defensive Summons:**
+| Creature | Type | Role |
+|----------|------|------|
+| Iron Golem | Construct | Heavy tank, high damage |
+| Wolf | Animal | Fast melee, pack tactics |
+| Polar Bear | Animal | Strong melee |
+| Bee | Insect | Swarming, poison sting |
+| Panda | Animal | Defensive |
+| Llama | Animal | Ranged spit attack |
+| Dolphin | Aquatic | Water combat |
+
+**Companion Summons (Cosmetic):**
+- Cow, Pig, Sheep, Chicken, Rabbit
+- Horse, Cat, Fox
+- Snow Golem, Villager
+
+### Spell Acquisition
+
+**ScrollForge Crafting:**
+- Ink + Paper + Bone = Summoning Scroll
+- Bone serves as the Summoning school focus item
+- Works with all ink tiers for different spell levels
+
+**World Loot:**
+- Witches: ~3-9% drop chance (scales with Looting)
+- Dungeon chests: ~25% chance (dungeons, mineshafts, strongholds, ancient cities)
+- Woodland mansion chests: ~35% chance with higher quality scrolls
+
+### Summon Behavior
+
+All summoned creatures:
+- Follow and protect their summoner
+- Attack anything that damages the summoner
+- Do not attack the summoner's allies
+- Teleport to summoner if too far away
+- Immune to friendly fire from summoner
+- Undead summons do not burn in sunlight
 
 ---
 
@@ -905,6 +977,7 @@ Available via `/equestriansdelight`:
 | `chemlibmekanized-1.0.0.jar` | Standalone ChemLib replacement with 118 elements, 50+ compounds, 60+ metal slurries, Mekanism chemical integration, IF dissolution recipes |
 | `adastramekanized-1.0.0.jar` | Space exploration with Mekanism integration: 5 planets, 4-tier rockets, 3-tier space suits, oxygen distribution system, 4 unique space metals, 112+ blocks |
 | `extradelight-2.5.10.jar` | Croptopia/Brewin' and Chewin'/Farmer's Delight integration: 14 cooking equipment types, 250+ recipes, fruit/cream pies, equipment unification |
+| `ironsspellssummoningexpansion-1.0.0.jar` | Iron's Spells expansion: Summoning school with 38 creature summons (combat, defensive, cosmetic), bone focus for ScrollForge crafting, loot integration (witch drops, dungeon/mansion chests), sun-immune undead |
 | `constructionwand-1.21.1-2.12.jar` | Updated to 1.21.1 for this modpack |
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
 
