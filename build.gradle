@@ -251,14 +251,12 @@ dependencies {
     implementation "curse.maven:rfToolsUtility-342466:6362249"
 
     //Create
-    implementation "curse.maven:create-328085:6323264"
-    implementation "curse.maven:createCraftsAndAdditions-439890:6445614"
+    implementation "curse.maven:create-328085:7178775"
+    implementation "curse.maven:createCraftsAndAdditions-439890:7262496"
 
 
     // BIOM GENERATION
     implementation "curse.maven:terralith-513688:6090387"
-    implementation "curse.maven:tectonic-686836:6596485"
-    implementation "curse.maven:terraBlender-940057:6054947"
     implementation "curse.maven:biomsOPlenty-220318:6501142"
     implementation "curse.maven:glitchCore-955399:5660740" //dependency: biomsOPlenty
     implementation "curse.maven:incendium-591388:5962249"
@@ -275,15 +273,22 @@ dependencies {
     implementation "curse.maven:ValhelsiaFurniture-694349:6341023" //dependency
 
 
+    // TECTONIC WORLDGEN SYSTEM (REQUIRED dependencies for planet generation)
+    // TerraBlender for NeoForge 1.21.1
+    implementation "curse.maven:terrablender-940057:6054947"
 
-    implementation "curse.maven:lithostitched-936015:6201869" //tectonics dependency
+    // Tectonic for NeoForge 1.21.1
+    implementation "curse.maven:tectonic-686836:7128220"
+
+    // Lithostitched (required by Tectonic) - using latest
+    implementation "curse.maven:lithostitched-936015:7063201"
     // BIOM GENERATION END
 
     implementation "curse.maven:VicsPointBlank-961053:6028992"
     implementation "curse.maven:VicsPointBlankCrashFix-1310209:6789029"
     implementation "curse.maven:VicsPointBlankBlockInteraction-1310557:6791284"
     implementation "blank:ImmersiveEngineering-1.21.1-12.4.3-194"
-    implementation "curse.maven:ironSpells-855414:7036419"
+    implementation "blank:irons_spellbooks-1.21.1-3.14.8" // local build with spawn placement fix (Operation.REPLACE)
     implementation "blank:ironsspellssummoningexpansion-1.0.0"
     implementation "curse.maven:silentGear-297039:6070229"
     implementation "curse.maven:lootr-361276:6085253"
@@ -358,7 +363,7 @@ dependencies {
     //---- Ars Nouveau ----//
     implementation "blank:ars_nouveau-1.21.1-5.10.4" //use local jar to reduce loot rates
     implementation "blank:ars_additions-1.21.1-21.2.3"//use local jar to reduce loot rates
-    implementation "curse.maven:arsElemental-561470:6701129"
+    implementation "blank:ars_elemental-1.21.1-0.7.6.10" // local build with spawn placement fix (Operation.REPLACE)
     implementation "curse.maven:arsOcultas-907843:6015723"
     implementation "curse.maven:arsCreo-575698:6279953"
     //---- END Ars Nouveau ----//
@@ -392,7 +397,7 @@ dependencies {
 
 
     // MOBS
-    implementation "curse.maven:endermanOverhaul-574409:6023706"
+    implementation "blank:endermanoverhaul-neoforge-1.21.1-2.0.2" // local build with spawn placement fix (Operation.REPLACE)
     //implementation "curse.maven:choccosmobs-1192171:7099778" requires 1.21.4
 
 
