@@ -40,12 +40,13 @@ Based on your diversity score, complex foods grant Farmer's Delight effects:
 - **Nourishment** - Bonus saturation regeneration
 - **Comfort** - Damage resistance and warmth
 
-**Food Journal:**
-Craftable item that opens a GUI showing:
-- Current diversity score and benefit tier
-- Queue status and unique food count
-- Recent foods with occurrence indicators
-- Progress to next benefit tier
+**Gourmand's Tome:**
+Craftable Patchouli guidebook that provides comprehensive documentation:
+- Food complexity system explanation and tier breakdowns
+- Diversity scoring mechanics and diminishing returns
+- Cooking method multipliers and benefits
+- Benefit tier thresholds and effects (Nourishment/Comfort)
+- Quick tips for maximizing food diversity
 
 **Tooltips show:**
 - Food complexity tier and score
@@ -54,6 +55,8 @@ Craftable item that opens a GUI showing:
 - Applicable buffs (Nourishment/Comfort)
 
 ### Croptopia + Extra Delight Integration
+
+**Authority Hierarchy:** BnC > ED > FD > Croptopia (higher priority mods provide duplicate items)
 
 **31 New Pie Types** with placeable feast blocks:
 - 8 Berry Pies (blackberry, blueberry, cranberry, currant, elderberry, grape, raspberry, strawberry)
@@ -64,11 +67,12 @@ Craftable item that opens a GUI showing:
 **Machine Requirements:**
 | Machine | Used For |
 |---------|----------|
-| Oven | Baked pies, breads, cookies, casseroles |
+| Oven | Baked pies, breads, cookies, casseroles, toast |
 | Chiller | Ice cream, no-bake cream pies, frozen desserts |
-| Cooking Pot | Soups, stews, sauces |
+| Cooking Pot | Soups, stews, sauces, complex meals |
 | Mixing Bowl | Salads, dips, cold preparations |
-| Drying Rack | Jerky, dried fruits, candied items |
+| Mortar & Pestle | Grinding (olives to cooking oil 350mb, spices) |
+| Drying Rack | Jerky, dried fruits, raisins |
 | Cutting Board | Slicing pies/cakes into portions |
 
 **Oven Pan Durability:**
@@ -77,16 +81,67 @@ Oven pans (sheet, tray, loaf pan, pie dish, square pan, baking stone, muffin tin
 - Damaged pans can be combined in a crafting grid to merge durability (like tools)
 - When durability is depleted, the pan breaks
 
+**Croptopia Items Removed (Provided by Other Mods):**
+| Removed Item | Now Provided By | Reason |
+|--------------|-----------------|--------|
+| Flour, Dough | Farmer's Delight | FD recipe integration |
+| Butter, Cheese | Brewin' and Chewin' | Aging/fermentation system |
+| Beer, Mead, Wine | Brewin' and Chewin' | Keg fermentation |
+| Beef/Pork Jerky | Brewin' and Chewin' | Fermentation preservation |
+| Pizza variants | Brewin' and Chewin' | Feast block system |
+| Coffee, Chocolate | Extra Delight | Processing chains |
+| Ice Cream (all) | Extra Delight | Chiller system |
+| Brownies, Cinnamon Roll | Extra Delight | Feast blocks |
+| All Jams | Extra Delight/BnC | Specialized processing |
+| Fried Chicken, French Fries | Extra Delight | Breading/frying system |
+| Grilled Cheese, Trail Mix | Extra Delight | Skillet/oven recipes |
+| Cooking Pot, Frying Pan | Farmer's Delight | FD equipment |
+| Knife, Mortar & Pestle | Extra Delight | ED tools |
+
+**Recipe Migrations (Crafting Table to Machines):**
+| Recipe | Machine | Notes |
+|--------|---------|-------|
+| Toast | Oven/Furnace/Smoker | From ED bread_slice |
+| Baked Beans | Cooking Pot | From blackbeans |
+| Burrito | Oven | With blackbeans, removed cooking pot recipe |
+| Chimichanga | Cooking Pot | Burrito + cooking oil (fried burrito) |
+| Caramel, Molasses | Cooking Pot | Sugar processing |
+| Raisins | Drying Rack | From grapes |
+| Ajvar | Removed mixing recipe | Uses c:ajvar tag for ajvar_toast |
+| Salsa | Mixing Bowl | Outputs 1 instead of 2 |
+| Olive Oil | Mortar grinding | 350mb per olive |
+
 **Removed Crafting Recipes:**
 - All Croptopia baked goods (use oven instead)
 - Farmer's Delight pie crust (use oven instead)
 - All simple pie recipes (use appropriate machine)
+- Beef stir fry (item removed)
+- Stir fry (item removed)
 
 See `CROPTOPIA_OVEN_INTEGRATION.md` for detailed documentation.
 
 ### Extra Delight + Brewin' and Chewin' Unification
 
 Resolves recipe conflicts and standardizes cooking methods between ED and BnC.
+
+**Cross-Mod Tag Unification:**
+| Tag | Items Included | Used By |
+|-----|----------------|---------|
+| c:garlic | ED garlic, garlic_clove, grated_garlic | All garlic recipes |
+| c:ajvar | Croptopia ajvar | Ajvar toast recipe |
+| c:toast | Croptopia toast | Toast-based recipes |
+| c:soy_sauce | Croptopia bottled_soy_sauce | Asian cuisine recipes |
+| c:cooking_oil | ED cooking oil fluids | Frying recipes |
+
+**ED Items Removed (Unified):**
+- Soy Sauce Item: Use Croptopia bottled_soy_sauce (c:soy_sauce tag)
+- Toast: Use Croptopia toast (made from ED bread_slice)
+- Cheese: Use Brewin' and Chewin' cheese wedges
+
+**Soy Sauce Processing:**
+1. Soybeans in Cooking Pot with water/salt = Croptopia bottled_soy_sauce
+2. All ED recipes using soy sauce now use c:soy_sauce tag
+3. Works interchangeably with any mod's soy sauce
 
 See `EXTRADELIGHT_BREWINANDCHEWIN_UNIFICATION.md` for details.
 
@@ -115,6 +170,7 @@ See `EXTRADELIGHT_BREWINANDCHEWIN_UNIFICATION.md` for details.
 - Applied Energistics 2 + Addons
 - Industrial Foregoing
 - Immersive Engineering (customized - see below)
+- Immersive Aircraft with Create recipes (mechanical crafting for aircraft)
 
 ---
 
@@ -781,14 +837,15 @@ Reaching diversity score thresholds grants Farmer's Delight effects:
 | 5 | 120+ | Both II | 5 min |
 | 6 | 175+ | Both III | 10 min |
 
-### Food Journal
+### Gourmand's Tome
 
-A craftable item that displays:
-- Current diversity score
-- Recent food history
-- Score breakdown by food
-- Next benefit tier progress
-- Diminishing returns warnings
+A craftable Patchouli guidebook that provides:
+- Complete food complexity system documentation
+- Diversity scoring mechanics and diminishing returns explanation
+- Cooking method multipliers and their effects
+- Benefit tier thresholds (Nourishment/Comfort effects)
+- Quick tips for maximizing food variety
+- In-game reference for all mod mechanics
 
 ### Commands
 
@@ -805,6 +862,15 @@ An extensive expansion to Farmer's Delight featuring 14+ cooking equipment types
 ### Overview
 
 Extra Delight transforms simple crafting recipes into immersive multi-step cooking processes using specialized equipment. It integrates Croptopia, Brewin' and Chewin', and Farmer's Delight into a unified cooking experience.
+
+**Key Integration Changes:**
+- Toast recipe uses ED bread_slice (smelt/smoke/oven methods)
+- Olive grinding produces 350mb cooking oil via mortar
+- c:garlic tag includes garlic, garlic_clove, and grated_garlic for recipe flexibility
+- Soy sauce item removed (use Croptopia bottled_soy_sauce with c:soy_sauce tag)
+- Cheese item removed (use Brewin' and Chewin' cheese wedges)
+- Toast item removed (use Croptopia toast)
+- Beef stir fry, ajvar mixing, and stir fry recipes removed
 
 ### Cooking Equipment (14 Types)
 
@@ -970,13 +1036,13 @@ Available via `/equestriansdelight`:
 | `appliedenergistics2-19.2.18-SNAPSHOT.jar` | Spatial IO power -75%, doubled channel capacities |
 | `Mekanism-1.21.1-10.7.14.homebaked.jar` | Custom homebaked build |
 | `ars_nouveau-1.21.1-5.10.4.jar` | Reduced loot rates |
-| `croptopia-1.0.0.jar` | Machine-based cooking integration |
-| `spiceoflifeascension-1.0.0.jar` | Food complexity/diversity system with tier-based hunger, logarithmic saturation, diminishing returns, and Farmer's Delight buff integration |
+| `croptopia-1.0.0.jar` | Machine-based cooking integration: 70+ items removed (unified with ED/BnC/FD), recipe migrations to machines, c:ajvar/c:toast tags added, ginger/peanut crops removed (use ED), utensils removed (use FD/ED) |
+| `spiceoflifeascension-1.0.0.jar` | Food complexity/diversity system with tier-based hunger, logarithmic saturation, diminishing returns, Farmer's Delight buff integration, Gourmand's Tome Patchouli guidebook |
 | `ImmersiveEngineering-1.21.1-12.4.3-194.jar` | 42 juice fluids with buff system (3 max active, 30min duration), 77+ VPB weapon blueprints with tiered Mekanism progression, gun condition/durability system, gun oil maintenance, tiered ammunition recipes, native IE firearms removed |
 | `equestriansdelight-1.0.0.jar` | Horse stat visualization, improved breeding mechanics, swimming, horse calling, lead hitching |
 | `chemlibmekanized-1.0.0.jar` | Standalone ChemLib replacement with 118 elements, 50+ compounds, 60+ metal slurries, Mekanism chemical integration, IF dissolution recipes |
 | `adastramekanized-1.0.0.jar` | Space exploration with Mekanism integration: 5 planets, 4-tier rockets, 3-tier space suits, oxygen distribution system, 4 unique space metals, 112+ blocks |
-| `extradelight-2.5.10.jar` | Croptopia/Brewin' and Chewin'/Farmer's Delight integration: 14 cooking equipment types, 250+ recipes, fruit/cream pies, equipment unification |
+| `extradelight-2.5.10.jar` | Croptopia/BnC/FD integration: 14 cooking equipment types, 250+ recipes, fruit/cream pies, toast from bread_slice (smelt/smoke/oven), olive grinding (350mb oil), c:garlic tag (garlic/clove/grated), soy_sauce/cheese/toast items removed (use Croptopia/BnC), beef_stir_fry/ajvar_mixing/stir_fry recipes removed |
 | `ironsspellssummoningexpansion-1.0.0.jar` | Iron's Spells expansion: Summoning school with 38 creature summons (combat, defensive, cosmetic), bone focus for ScrollForge crafting, loot integration (witch drops, dungeon/mansion chests), sun-immune undead |
 | `constructionwand-1.21.1-2.12.jar` | Updated to 1.21.1 for this modpack |
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
@@ -1016,7 +1082,21 @@ mooStack/
 Located in `runs/client/kubejs/server_scripts/`:
 
 - `croptopia_crafting_removal.js` - Removes crafting recipes moved to machines
+- `create_immersive_aircraft.js` - Create mechanical crafting recipes for Immersive Aircraft
 - Additional scripts for recipe modifications
+
+---
+
+## Bundled Resource Packs
+
+Resource packs included in `runs/client/resourcepacks/`:
+
+| Resource Pack | Description |
+|---------------|-------------|
+| **Create Immersive Aircraft** | Create-themed textures for all Immersive Aircraft vehicles and components. Reskins aircraft, engines, propellers, hulls, and accessories to match Create's industrial aesthetic. |
+| **Chunky Cats** | Makes cats chubby and adorable. Uses OptiFine CEM (Custom Entity Models) - requires Entity Model Features and Entity Texture Features mods. |
+
+To enable: Options -> Resource Packs -> Move desired packs to the right side.
 
 ---
 
