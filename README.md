@@ -171,6 +171,7 @@ See `EXTRADELIGHT_BREWINANDCHEWIN_UNIFICATION.md` for details.
 - Industrial Foregoing
 - Immersive Engineering (customized - see below)
 - Immersive Aircraft with Create recipes (mechanical crafting for aircraft)
+- PneumaticCraft: Repressurized (fluid unification - see below)
 
 ---
 
@@ -306,6 +307,53 @@ Combine gun oil with VPB weapon in crafting grid to restore condition.
 - Farmer's Delight + Extra Delight
 - Brewin' and Chewin'
 - Productive Bees
+
+---
+
+## PneumaticCraft Fluid Unification
+
+### Overview
+
+mooStack unifies plant oil and biodiesel fluids across PneumaticCraft: Repressurized, Immersive Engineering, and Create Crafts & Additions into a single fluid system using IE fluids as the standard.
+
+### Fluid Unification
+
+| Original Fluid | Unified To | Source Mod |
+|----------------|------------|------------|
+| pneumaticcraft:vegetable_oil | immersiveengineering:plantoil | PNC |
+| pneumaticcraft:biodiesel | immersiveengineering:biodiesel | PNC |
+| createaddition:seed_oil | immersiveengineering:plantoil | CCA |
+
+**PNC Recipe Changes:**
+- Thermopneumatic Processing Plant outputs IE plantoil instead of PNC vegetable_oil
+- Fluid Mixer outputs IE biodiesel instead of PNC biodiesel
+- All downstream PNC recipes work with IE fluids
+
+**Create Crafts & Additions:**
+- Seed pressing via Create compacting now outputs IE plantoil (50mb per seed)
+- Original CCA seed_oil recipes removed
+
+### JEI Fluid Hiding
+
+Unified fluids are hidden from JEI to reduce confusion:
+- `pneumaticcraft:biodiesel` (bucket and fluid)
+- `pneumaticcraft:vegetable_oil` (bucket and fluid)
+- `createaddition:seed_oil` (bucket and fluid)
+
+### Cooking Oil Integration
+
+**IE Refinery Recipe:**
+- Input: 500mb IE plantoil + 50mb lime juice + charcoal catalyst
+- Output: 800mb ExtraDelight cooking oil fluid
+- Energy: 400 FE
+
+**IE Bottling Machine Recipes:**
+| Input Fluid | + Item | Output |
+|-------------|--------|--------|
+| extradelight:oil_fluid (250mb) | Glass Bottle | extradelight:cooking_oil |
+| extradelight:vinegar_fluid (250mb) | Glass Bottle | extradelight:vinegar |
+
+This creates a complete processing chain: seeds -> IE plantoil -> ED cooking oil fluid -> ED cooking oil item
 
 ---
 
@@ -1038,7 +1086,8 @@ Available via `/equestriansdelight`:
 | `ars_nouveau-1.21.1-5.10.4.jar` | Reduced loot rates |
 | `croptopia-1.0.0.jar` | Machine-based cooking integration: 70+ items removed (unified with ED/BnC/FD), recipe migrations to machines, c:ajvar/c:toast tags added, ginger/peanut crops removed (use ED), utensils removed (use FD/ED) |
 | `spiceoflifeascension-1.0.0.jar` | Food complexity/diversity system with tier-based hunger, logarithmic saturation, diminishing returns, Farmer's Delight buff integration, Gourmand's Tome Patchouli guidebook |
-| `ImmersiveEngineering-1.21.1-12.4.3-194.jar` | 42 juice fluids with buff system (3 max active, 30min duration), 77+ VPB weapon blueprints with tiered Mekanism progression, gun condition/durability system, gun oil maintenance, tiered ammunition recipes, native IE firearms removed |
+| `ImmersiveEngineering-1.21.1-12.4.3-194.jar` | 42 juice fluids with buff system (3 max active, 30min duration), 77+ VPB weapon blueprints with tiered Mekanism progression, gun condition/durability system, gun oil maintenance, tiered ammunition recipes, native IE firearms removed, refinery recipe for plantoil->cooking oil fluid, bottling recipes for ED cooking oil/vinegar |
+| `pneumaticcraft-repressurized-8.2.15+mc1.21.1.jar` | Fluid unification: vegetable_oil outputs changed to IE plantoil, biodiesel outputs changed to IE biodiesel, compatible with IE fluid processing chain |
 | `equestriansdelight-1.0.0.jar` | Horse stat visualization, improved breeding mechanics, swimming, horse calling, lead hitching |
 | `chemlibmekanized-1.0.0.jar` | Standalone ChemLib replacement with 118 elements, 50+ compounds, 60+ metal slurries, Mekanism chemical integration, IF dissolution recipes |
 | `adastramekanized-1.0.0.jar` | Space exploration with Mekanism integration: 5 planets, 4-tier rockets, 3-tier space suits, oxygen distribution system, 4 unique space metals, 112+ blocks |
@@ -1083,7 +1132,13 @@ Located in `runs/client/kubejs/server_scripts/`:
 
 - `croptopia_crafting_removal.js` - Removes crafting recipes moved to machines
 - `create_immersive_aircraft.js` - Create mechanical crafting recipes for Immersive Aircraft
-- Additional scripts for recipe modifications
+- `cca_seed_oil_replacement.js` - Replaces CCA seed_oil with IE plantoil via Create compacting
+- `ie_bottling_recipes.js` - IE Bottling Machine recipes for ExtraDelight cooking oil and vinegar
+
+Located in `runs/client/kubejs/client_scripts/`:
+
+- `pnc_fluid_hiding.js` - Hides PNC biodiesel and vegetable_oil from JEI
+- `cca_fluid_hiding.js` - Hides CCA seed_oil from JEI
 
 ---
 
