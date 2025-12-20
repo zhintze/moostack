@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             { tag: 'c:seeds' }
         ],
         results: [
-            { fluid: 'immersiveengineering:plantoil', amount: 50 }
+            { id: 'immersiveengineering:plantoil', amount: 50 }
         ]
     }).id('moostack:compacting/plantoil_from_seeds')
 

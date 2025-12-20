@@ -357,6 +357,94 @@ This creates a complete processing chain: seeds -> IE plantoil -> ED cooking oil
 
 ---
 
+## Create O' Plenty
+
+Integration between Create mod and Biomes O' Plenty, adding crushing, milling, mixing, and compacting recipes for BOP materials.
+
+### Custom Sandpapers
+
+Three new sandpaper variants craftable from BOP sand types:
+
+| Sandpaper | Recipe |
+|-----------|--------|
+| Black Sand Paper | Paper + Black Sand |
+| Orange Sand Paper | Paper + Orange Sand |
+| White Sand Paper | Paper + White Sand |
+
+All sandpapers function identically to vanilla Create sandpaper for polishing recipes.
+
+### Crushing & Milling Recipes
+
+**Sandstone Processing:**
+| Input | Output |
+|-------|--------|
+| Black/Orange/White Sandstone | Respective colored sand |
+
+**Block Processing:**
+| Input | Output |
+|-------|--------|
+| Flesh Block | 4 Rotten Flesh + 25% Bone Meal |
+| Porous Flesh | 4 Rotten Flesh + 25% Bone Meal |
+| Rose Quartz Block | 3 Rose Quartz Chunks + 50% bonus |
+| Rose Quartz Cluster | 7 Rose Quartz Chunks + 50% bonus |
+| Thermal Calcite | 75% Bone Meal |
+| Brimstone | 75% Cinder Flour + 20% Gold Nugget + 10% Gunpowder |
+
+**Plant Processing:**
+| Input | Output |
+|-------|--------|
+| Eye Bulb | 80% Butchercraft Eyeball + 5% Ender Eye |
+| Toadstool | Red Mushroom + 50% Brown Dye |
+| Glowshroom | 2 Glowstone Dust + 25% bonus |
+| Reed | Paper + 25% String |
+| Willow Vine | 2 String + 50% bonus |
+| Spanish Moss | 2 String + 50% bonus |
+
+**Flower Milling (Dye Production):**
+| Flower | Primary Output | Secondary Output |
+|--------|----------------|------------------|
+| Icy Iris | 2 Light Blue Dye | 20% Light Blue Dye |
+| Endbloom | 2 Light Gray Dye | 10% Orange Dye |
+| Waterlily | 2 Red Dye | 20% Lime + 10% Pink Dye |
+| Cattail | 2 Brown Dye | 20% Green Dye |
+| Lavender | 2 Purple Dye | 20% Green Dye |
+| Tall Lavender | 3 Purple Dye | 25% Purple + 5% Green Dye |
+| Goldenrod | 3 Yellow Dye | 25% Yellow + 5% Lime Dye |
+| Violet | 2 Purple Dye | 25% Purple Dye |
+| Wildflower | 2 Magenta Dye | 25% Magenta Dye |
+| Orange Cosmos | 2 Orange Dye | 25% Orange Dye |
+| Pink Daffodil | 2 Pink Dye | 25% Pink Dye |
+| Pink Hibiscus | 2 Pink Dye | 25% Pink Dye |
+| Glowflower | 2 Cyan Dye | 20% Glowstone Dust |
+| Blue Hydrangea | 2 Light Blue Dye | 25% Light Blue Dye |
+| Burning Blossom | 2 Orange Dye | 15% Blaze Powder |
+| Rose | 2 Red Dye | 25% Red Dye |
+| Clover | Lime Dye | 25% Green Dye |
+| Huge Clover Petal | 3 Lime Dye | 25% Green Dye |
+
+### Mixing Recipes (Heated)
+
+| Input | Output | Heat Required |
+|-------|--------|---------------|
+| Calcite | Thermal Calcite | Heated |
+| 2x BOP Rose Quartz Chunk | Create Rose Quartz | Heated |
+
+### Compacting Recipes
+
+| Inputs | Output |
+|--------|--------|
+| Thermal Calcite + Flint + 100mb Lava | Diorite |
+| 4x Rotten Flesh + 250mb Honey | Flesh Block |
+
+### Stripped Log Compatibility
+
+All 13 BOP wood types are tagged with `c:stripped_logs` for Create andesite casing crafting:
+- Fir, Redwood, Mahogany, Jacaranda, Palm
+- Willow, Dead, Umbran, Hellbark, Magic
+- Empyreal, Maple, Pine
+
+---
+
 ## Enhanced Celestials
 
 A lunar event system that adds special moon events with unique gameplay effects, mob spawning modifications, and visual changes.
@@ -1095,6 +1183,7 @@ Available via `/equestriansdelight`:
 | `ironsspellssummoningexpansion-1.0.0.jar` | Iron's Spells expansion: Summoning school with 38 creature summons (combat, defensive, cosmetic), bone focus for ScrollForge crafting, loot integration (witch drops, dungeon/mansion chests), sun-immune undead |
 | `constructionwand-1.21.1-2.12.jar` | Updated to 1.21.1 for this modpack |
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
+| `createoplenty-2.0.0.jar` | Create + BOP integration: 3 custom sandpapers (black/orange/white sand), 50+ KubeJS recipes for crushing/milling/mixing/compacting BOP materials, heated mixing for thermal calcite and rose quartz, 13 BOP stripped log types tagged for andesite casing |
 
 ## Project Structure
 
@@ -1134,6 +1223,7 @@ Located in `runs/client/kubejs/server_scripts/`:
 - `create_immersive_aircraft.js` - Create mechanical crafting recipes for Immersive Aircraft
 - `cca_seed_oil_replacement.js` - Replaces CCA seed_oil with IE plantoil via Create compacting
 - `ie_bottling_recipes.js` - IE Bottling Machine recipes for ExtraDelight cooking oil and vinegar
+- `create_bop_recipes.js` - Create O' Plenty recipes: sandpaper crafting, 50+ crushing/milling/mixing/compacting recipes for BOP materials
 
 Located in `runs/client/kubejs/client_scripts/`:
 
