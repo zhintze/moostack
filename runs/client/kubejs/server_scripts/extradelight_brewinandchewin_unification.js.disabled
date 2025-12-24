@@ -1,0 +1,26 @@
+// KubeJS Script: ExtraDelight & BrewinAndChewin Quiche Unification
+// NOTE: Cheese and kimchi already removed from ExtraDelight at source level
+// Only quiche removal is still needed
+
+ServerEvents.recipes(event => {
+    console.log('Starting ExtraDelight quiche unification...')
+
+    // ===== REMOVE EXTRADELIGHT QUICHE =====
+    // NOTE: ED cheese and kimchi were removed at source level, only quiche remains
+    console.log('Removing ExtraDelight quiche items...')
+    const quicheItems = [
+        'extradelight:quiche',
+        'extradelight:quiche_slice'
+    ]
+
+    quicheItems.forEach(item => {
+        event.remove({ output: item })
+    })
+
+    // Replace ExtraDelight quiche with BrewinAndChewin quiche in recipes
+    console.log('Replacing ExtraDelight quiche with BrewinAndChewin quiche in recipes...')
+    event.replaceInput({}, 'extradelight:quiche', 'brewinandchewin:quiche')
+    event.replaceInput({}, 'extradelight:quiche_slice', 'brewinandchewin:quiche_slice')
+
+    console.log('Quiche unification complete - using BrewinAndChewin quiche & slices')
+})

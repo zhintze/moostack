@@ -228,7 +228,7 @@ ServerEvents.recipes(event => {
         { item: 'croptopia:asparagus' },
         { item: 'croptopia:asparagus' },
         { item: 'croptopia:lemon' },
-        { item: 'croptopia:ginger' },
+        { item: 'extradelight:ginger' },
         { item: 'croptopia:garlic' }
     ], Item.of('croptopia:roasted_asparagus', 2), 0.35, 200).id('moostack:cooking/roasted_asparagus')
     console.log('  Added: roasted_asparagus via FD Cooking Pot')
@@ -454,7 +454,7 @@ ServerEvents.recipes(event => {
         ingredients: [
             { item: 'minecraft:pumpkin' },
             { item: 'croptopia:cinnamon' },
-            { item: 'croptopia:ginger' },
+            { item: 'extradelight:ginger' },
             { item: 'croptopia:nutmeg' },
             { item: 'croptopia:vanilla' },
             { tag: 'c:butter' },

@@ -308,6 +308,79 @@ Combine gun oil with VPB weapon in crafting grid to restore condition.
 - Brewin' and Chewin'
 - Productive Bees
 
+### Fishing
+- Aquaculture 2 with Silent Gear integration
+- Silent Gear fishing rod support with custom hooks and tackle boxes
+
+---
+
+## Aquaculture 2 + Silent Gear Integration
+
+### Overview
+
+mooStack integrates Aquaculture 2's fishing system with Silent Gear's modular tool system, allowing Silent Gear fishing rods to use Aquaculture's tackle box attachments and gain their bonuses.
+
+### Silent Gear Fishing Rod Support
+
+**Tackle Box Compatibility:**
+Silent Gear fishing rods can be placed in Aquaculture's tackle box and equipped with:
+
+| Slot | Attachment Type | Effect |
+|------|-----------------|--------|
+| 0 | Hook | Special effects (note, double catch, etc.) |
+| 1 | Bait | Increased catch rates |
+| 2 | Fishing Line | Visual customization |
+| 3 | Bobber | Visual customization |
+
+**Hook Effects Working with SG Rods:**
+- Note Hook - Plays note sound when fish bites
+- Double Catch Hook - Chance for double loot
+- All Aquaculture hook bonuses apply correctly
+
+### Technical Implementation
+
+**Entity Replacement System:**
+When a Silent Gear rod with Aquaculture attachments is cast:
+1. Vanilla FishingHook entity spawn is intercepted
+2. Replaced with AquaFishingBobberEntity
+3. Hook effects and bonuses are applied from rod's inventory
+4. Enchantments (Lure, Luck of the Sea) properly calculated
+
+**Cast Texture Support:**
+Silent Gear fishing rods now display the correct cast texture when the line is in the water:
+- Uses vanilla `cast` model property
+- Switches between idle and cast textures automatically
+- Generated via data provider for proper integration
+
+**Data Component Storage:**
+Aquaculture attachments stored on Silent Gear rods via `ROD_INVENTORY` data component:
+- Network synchronized for multiplayer
+- Persists across saves
+- Compatible with tackle box UI
+
+### Neptunium Material
+
+Silent Gear material definition for Aquaculture's Neptunium:
+
+| Property | Value |
+|----------|-------|
+| Tier | 4 (Netherite equivalent) |
+| Durability | 2500 |
+| Harvest Speed | 10.0 |
+| Melee Damage | 5.0 |
+| Magic Damage | 3.0 |
+| Enchantability | 18 |
+| Rarity | Epic |
+
+**Special Traits:**
+- Aquatic - Enhanced underwater performance
+- Malleable - Improved repair efficiency
+
+**Crafting:**
+Neptunium ingots from Aquaculture can be used in Silent Gear crafting:
+- Main parts (sword blades, pickaxe heads, etc.)
+- Requires Neptunium Ingot items
+
 ---
 
 ## PneumaticCraft Fluid Unification
@@ -1184,6 +1257,288 @@ Available via `/equestriansdelight`:
 | `constructionwand-1.21.1-2.12.jar` | Updated to 1.21.1 for this modpack |
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
 | `createoplenty-2.0.0.jar` | Create + BOP integration: 3 custom sandpapers (black/orange/white sand), 50+ KubeJS recipes for crushing/milling/mixing/compacting BOP materials, heated mixing for thermal calcite and rose quartz, 13 BOP stripped log types tagged for andesite casing |
+| `Aquaculture-1.21.1-2.7.17.jar` | Silent Gear integration: SG fishing rods work with tackle box (hooks, bait, line, bobber), entity replacement system for hook effects, ROD_INVENTORY data component with network sync, hook tooltips always visible (no shift required), fish fillet cutting board recipes for JEI |
+| `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support |
+| `silent-lib-1.21.1-neoforge-10.5.1.jar` | Required dependency for Silent Gear |
+| `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. |
+
+---
+
+## Silent Gear Material Expansion
+
+### Overview
+
+mooStack massively expands Silent Gear's material system with 450+ materials from integrated mods, a new tier 7 ultimate material system, custom traits, and thematic trait distribution across material categories.
+
+### Material Sources
+
+| Source | Materials Added | Examples |
+|--------|-----------------|----------|
+| ChemLib Mekanized | 118 elements + crystals + plates | All periodic table elements as gear materials |
+| Ad Astra Mekanized | 4 space metals | Desh, Ostrum, Calorite, Etrium |
+| Mekanism | 5 processed metals | Refined Obsidian, Refined Glowstone, Bronze, Steel, Osmium |
+| Immersive Engineering | 8 metals + fluids | Constantan, Hop Graphite, Plant Oil coating |
+| PneumaticCraft | 2 metals + fluids | Compressed Iron, Plastic |
+| Food/Organic | 25+ coatings/linings | BBQ Sauce, Cooking Oil, Lard, Fat, Butter, Jams |
+
+### Tier 7 Ultimate Materials (NEW)
+
+Six new ultimate-tier materials requiring two-step crafting: Super Mixer alloying followed by Starlight Charger enhancement.
+
+| Material | Theme | Key Stats | Recipe Highlights |
+|----------|-------|-----------|-------------------|
+| **Stellar Apex** | Cosmic/Tech | dur 1100, atk 7.5, armor 38 | Nether Star + Cosmic Steel + Refined Glowstone |
+| **Voidforged Eternium** | Void/Ender | dur 1000, atk 8.5, armor 35 | 4x Echo Shard + Tyrian Steel + Ender Pearl |
+| **Draconic Infernium** | Dragon/Fire | dur 1150, atk 9.0, armor 33 | Dragon Breath + Crimson Steel + Blaze Gold |
+| **Abyssal Titanide** | Ocean/Pressure | dur 950, atk 6.5, armor 42 | Heart of the Sea + Neptunium Alloy + Prismarine |
+| **Phoenix Sanctum** | Divine/Rebirth | dur 900, atk 7.0, armor 37 | Totem of Undying + Holy Gold + Enchanted Golden Apple |
+| **Aetherium** | Flight/Light | dur 850, atk 6.0, armor 34 | Elytra + Stellar Alloy + Titanium |
+
+**Tier 7 Traits:**
+- Stellar Apex: stellar 5, superconducting 4
+- Voidforged Eternium: void_ward 4, terminus 3
+- Draconic Infernium: fiery 5, heat_resistant 5
+- Abyssal Titanide: aquatic 5, rustic 4
+- Phoenix Sanctum: renew 4, holy 4
+- Aetherium: light 5, moonwalker 4
+
+### Material Tier System
+
+| Tier | Durability Range | Armor Range | Examples |
+|------|------------------|-------------|----------|
+| 1 | 30-60 | 3-6 | Wood, Leather, Flint |
+| 2 | 60-130 | 6-10 | Stone, Copper, Bronze |
+| 3 | 130-250 | 10-14 | Iron, Gold, Silver |
+| 4 | 250-400 | 14-20 | Diamond, Netherite, Neptunium |
+| 5 | 260-320 | 12-15 | Demoted transuranics (Lawrencium, Einsteinium, etc.) |
+| 6 | 400-700 | 20-30 | Cosmic Steel, Tyrian Steel, Crimson Steel |
+| 7 | 850-1150 | 33-42 | Tier 7 Ultimate Materials |
+
+### Custom Traits
+
+**Saucy Trait (NEW):**
+Makes targets slide backwards as if on ice when hit. Applied to food-based coating materials.
+- Weapons: Enemies slide away on hit with knockback
+- Armor: Attackers slide when hitting the armored player
+- Levels 1-5 with increasing effect strength
+
+**Materials with Saucy:**
+| Material | Saucy Level | Part Types |
+|----------|-------------|------------|
+| Lard | 5 | Coating, Lining |
+| Fat | 5 | Coating, Lining |
+| BBQ Sauce | 5 | Coating, Lining |
+| Cooking Oil | 4 | Coating, Lining |
+| Gravy | 5 | Coating, Lining |
+| Butter | 3 | Coating, Lining |
+| IE Plant Oil | 5 | Coating, Lining |
+| Gelatin | 2 | Coating, Lining |
+
+### Thematic Trait Distribution
+
+**Radioactive Elements (ChemLib):**
+- Uranium, Plutonium, Thorium: radioactive 3-5, eroded 1-2
+- Transuranic elements: plagued 1-3, eroded 1
+
+**FE/Energy Materials (Mekanism):**
+- Refined Glowstone: luminous 4, energized 3
+- Refined Obsidian: adamant 4, hard 3
+- Signalum, Lumium: conductive 3-4, charged 2-3
+
+**Elemental Materials:**
+- Fire-themed: fiery, heat_resistant, ignite
+- Ice-themed: chilled, freezing
+- Void-themed: void_ward, terminus, ender_affinity
+
+### Coating & Lining Materials
+
+Food-based materials provide coating (weapons) and lining (armor) bonuses:
+
+| Material | Coating Bonus | Lining Bonus | Traits |
+|----------|---------------|--------------|--------|
+| BBQ Sauce | +8% attack damage | +82 armor dur, +9.5 armor | yummy 3, saucy 5 |
+| Cooking Oil | +8% durability | +36 armor dur, +4.2 armor | flammable 3, saucy 4 |
+| Lard | +15% durability | +10% armor durability | saucy 5 |
+| Fat | +10% durability | +5% armor durability | flammable 3, saucy 5 |
+| Honey | +12% durability | +8% armor durability | sticky 3 |
+| Jam varieties | +5-10% various | +3-8% various | sweet 2-4 |
+
+### Aquaculture Integration
+
+Silent Gear fishing rods fully integrate with Aquaculture's tackle system:
+
+**Tackle Box Compatibility:**
+- SG rods can be placed in Aquaculture tackle boxes
+- Hooks, bait, fishing line, and bobbers apply effects to SG rods
+- Hook effects (note, double catch) work correctly
+- ROD_INVENTORY data component with network sync
+
+**Cast Texture Support:**
+- Proper cast model property for fishing rod texture switching
+- Data-generated cast texture override
+- Automatic idle/cast texture switching
+
+**Neptunium Material:**
+- Tier 4 (Netherite equivalent)
+- Durability: 2500, Harvest Speed: 10
+- Traits: aquatic 5, malleable 3
+
+---
+
+## Apotheosis Silent Gear Integration
+
+### Overview
+
+mooStack integrates Apotheosis's loot system with Silent Gear's modular tool/armor system. ALL Apotheosis loot drops (mobs, chests, bosses, any loot source) now generate Silent Gear items instead of vanilla gear. Generated items receive BOTH Silent Gear material traits AND Apotheosis affixes.
+
+### Core Features
+
+**Complete Loot Replacement:**
+- Every Apotheosis loot drop generates a Silent Gear item
+- Mob equipment (from Apotheosis boss system) uses dynamically generated SG gear
+- Chest loot, boss drops, all loot sources affected
+- Items gain dual bonuses: SG material traits + Apotheosis affixes
+
+**8-Tier Material System:**
+
+Materials are organized into 8 tiers (0-7) mapped to Apotheosis world tiers:
+
+| SG Tier | Name | Example Materials |
+|---------|------|-------------------|
+| 0 | Basic | Wood, Flint, Leather |
+| 1 | Common | Stone, Copper, Iron |
+| 2 | Improved | Steel, Bronze, Silver |
+| 3 | Intermediate | Gold, Lapis, Prismarine |
+| 4 | Advanced | Diamond, Emerald, Neptunium |
+| 5 | Superior | Netherite, Refined Obsidian |
+| 6 | Elite | Cosmic Steel, Tyrian Steel, Osmium |
+| 7 | Ultimate | Stellar Apex, Voidforged Eternium, Draconic Infernium |
+
+### World Tier Mapping
+
+Apotheosis world tiers determine which SG material tiers can drop:
+
+| Apoth Tier | SG Tier Distribution |
+|------------|---------------------|
+| HAVEN | 40% T0, 40% T1, 20% T2 |
+| FRONTIER | 20% T1, 60% T2, 20% T3 |
+| ASCENT | 20% T2, 60% T3, 20% T4 |
+| SUMMIT | 15% T3, 60% T4, 25% T5 |
+| PINNACLE | 10% T4, 50% T5, 30% T6, 10% T7 |
+
+Luck stat modifies tier selection, pushing rolls toward higher tiers.
+
+### Rarity-Based Part Completeness
+
+Higher Apotheosis rarities generate items with more parts:
+
+| Rarity | Part Chance | Extra Part Chance |
+|--------|-------------|-------------------|
+| Common | 5% | 0% |
+| Uncommon | 15% | 5% |
+| Rare | 30% | 15% |
+| Epic | 50% | 30% |
+| Mythic | 70% | 50% |
+| Ancient | 90% | 75% |
+
+**Part Types by Gear Category:**
+
+| Gear Type | Required Parts | Optional Parts | Extra Parts |
+|-----------|---------------|----------------|-------------|
+| Melee Weapons | Main, Rod | Tip, Binding, Grip | Coating |
+| Ranged (Bow/Crossbow) | Main, Rod, Cord | Binding, Grip | Coating |
+| Tools (Pickaxe, Shovel, etc.) | Main, Rod | Tip, Binding, Grip | Coating |
+| Armor | Main | Lining | Coating |
+| Shield | Main | Grip | Coating |
+
+### Gear Type Mapping
+
+Apotheosis LootCategories map to Silent Gear types:
+
+| Apoth Category | SG Gear Types (Weighted) |
+|----------------|-------------------------|
+| MELEE_WEAPON | Sword (40), Katana (15), Machete (10), Knife (10), Dagger (10), Axe (10), Mace (5) |
+| BREAKER | Pickaxe (35), Shovel (20), Axe (15), Hammer (10), Excavator (10), Paxel (5), Mattock (5) |
+| BOW | Bow (60), Crossbow (30), Slingshot (10) |
+| TRIDENT | Spear (70), Trident (30) |
+| HELMET | Helmet (100) |
+| CHESTPLATE | Chestplate (90), Elytra (10) |
+| LEGGINGS | Leggings (100) |
+| BOOTS | Boots (100) |
+| SHIELD | Shield (100) |
+
+### Material Selection
+
+**Main Part:** Random material from the determined tier
+
+**Secondary Parts:** Tier variance for realism:
+- Rod: 70% same tier, 30% one tier lower
+- Tip: 50% same tier, 40% one tier higher, 10% one tier lower
+- Binding: 1-2 tiers lower (organic materials preferred)
+- Grip: 50% same tier, 50% one tier lower
+- Coating: Random +/- 1 tier
+
+### Supported Material Sources (145+)
+
+| Source Mod | Material Count | Examples |
+|------------|----------------|----------|
+| Silent Gear Core | 30+ | Iron, Diamond, Netherite, etc. |
+| ChemLib Mekanized | 60+ | All periodic elements as materials |
+| Mekanism | 8 | Osmium, Refined Obsidian, Refined Glowstone, Bronze, Steel |
+| Ad Astra Mekanized | 4 | Desh, Ostrum, Calorite, Etrium |
+| Immersive Engineering | 6 | Constantan, Electrum, Hop Graphite, Uranium |
+| Create | 4 | Brass, Zinc, Andesite Alloy |
+| Aquaculture | 1 | Neptunium |
+| Butchercraft | 3 | Bone variants |
+
+Materials are automatically detected based on which mods are loaded.
+
+### Technical Implementation
+
+**New Apotheosis Classes:**
+```
+dev.shadowsoffire.apotheosis.silentgear/
+  SilentGearCompat.java         - Master toggle, mod detection
+  ModMaterialDetector.java      - Detects which material mods are loaded
+  WeightedMaterial.java         - Weighted material selection
+  MaterialTierRegistry.java     - 8-tier material organization
+  ApothSGTierMapping.java       - World tier to SG tier mapping
+  SilentGearReflectionHelper.java - SG API access
+  GearTypeMapping.java          - LootCategory to GearType mapping
+  PartTypeResolver.java         - Rarity-based part selection
+  SilentGearItemGenerator.java  - Core item generation
+  SilentGearCategoryResolver.java - SG item category detection
+```
+
+**Modified Apotheosis Classes:**
+- `LootCategory.java` - Detects SG items for affix application
+- `LootController.java` - Replaces vanilla gear with SG items
+
+### Example Generated Items
+
+A Mythic-rarity MELEE_WEAPON drop in SUMMIT tier might generate:
+
+```
+Silent Gear Katana
+ - Main: Refined Obsidian (T5)
+ - Rod: Steel (T4)
+ - Tip: Diamond (T4)
+ - Binding: Leather (T1)
+ - Grip: Bronze (T3)
+ - Coating: BBQ Sauce (saucy trait)
+
+ SG Traits: adamant 4, hard 3, saucy 5
+ Apotheosis Affixes: Cleaving III, Life Steal II, etc.
+```
+
+### Configuration
+
+The integration is automatically enabled when Silent Gear is detected. No manual configuration required.
+
+**Runtime Detection:**
+- Checks for Silent Gear mod presence at startup
+- Initializes material tier registry from available mods
+- Falls back to standard Apotheosis loot if SG not present
 
 ## Project Structure
 

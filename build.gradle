@@ -175,6 +175,11 @@ dependencies {
     implementation "curse.maven:journeyMap-32274:6689206"
     implementation "curse.maven:journeyMapIntegration-525447:6508946"
 
+
+
+    implementation "curse.maven:kotlinforge-351264:6994056"
+
+
     // Generic Dependencies
     implementation "curse.maven:geckolib-388172:6659026"
     implementation "curse.maven:balm-531761:6447094"
@@ -182,7 +187,7 @@ dependencies {
     implementation "curse.maven:playeranimator-658587:6024462" //irons spellbooks
     implementation "curse.maven:prism-638111:5625115" //legendary tooltip
     implementation "curse.maven:clothConfig-348521:5729127" //artifacts
-    implementation "curse.maven:resourcefulLib-570073:5793500" //chipped
+    implementation "curse.maven:resourcefulLib-570073:5973188" //chipped
     implementation "curse.maven:mysteriousmountainlib-368098:5852852" //cornDelight
     implementation "curse.maven:modonomicon-538392:6065157" //occultism
     implementation "curse.maven:athena-841890:5629395" //chipped
@@ -192,10 +197,9 @@ dependencies {
     implementation "curse.maven:iceberg-520110:5804224"
     implementation "curse.maven:smartBrainLib-661293:6035663"
     implementation "curse.maven:titanium-287342:5897690"
-    implementation "curse.maven:McJtyLib-233105:6362246"
     //implementation "curse.maven:theOneProbe-245211:5836106"
     implementation "curse.maven:guideme-1173950:6688687" //ae2
-    implementation "curse.maven:silentLib-242998:6040692" //silentgear
+    implementation "blank:silent-lib-1.21.1-neoforge-10.5.1" //silentgear
 
 
     //---- QOL ----//
@@ -236,7 +240,6 @@ dependencies {
     implementation "blank:equestriansdelight-1.0.0"
     implementation "blank:horsestats-1.0.0"
     implementation "blank:constructionwand-1.21.1-2.12"
-    implementation "blank:butchercraft-2.6.3"
 
 
 
@@ -246,13 +249,16 @@ dependencies {
 
 
     //RF Tools
-    implementation "curse.maven:rfToolsBase-326041:6362247"
-    implementation "curse.maven:rfToolsPower-290209:6310518"
-    implementation "curse.maven:rfToolsUtility-342466:6362249"
+    implementation "curse.maven:rfToolsBase-326041:7263404"
+    implementation "curse.maven:rfToolsPower-290209:7263410"
+    implementation "curse.maven:rfToolsUtility-342466:7263408"
+    implementation "curse.maven:rfToolsControl-250763:7284657"
+    implementation "curse.maven:McJtyLib-233105:7299488"
 
     //Create
     implementation "curse.maven:create-328085:7178775"
     implementation "curse.maven:createCraftsAndAdditions-439890:7262496"
+    implementation "blank:createoplenty-2.0.0" // Create + BOP compatibility
 
 
     // BIOM GENERATION
@@ -290,22 +296,30 @@ dependencies {
     implementation "blank:ImmersiveEngineering-1.21.1-12.4.3-194"
     implementation "blank:irons_spellbooks-1.21.1-3.14.8" // local build with spawn placement fix (Operation.REPLACE)
     implementation "blank:ironsspellssummoningexpansion-1.0.0"
-    implementation "curse.maven:silentGear-297039:6070229"
+    implementation "blank:silent-gear-1.21.1-neoforge-4.0.30"
     implementation "curse.maven:lootr-361276:6085253"
+
+
 
     implementation "curse.maven:securityCraft-64760:5950155"
     implementation "curse.maven:occultism-361026:6082790"
-    implementation "curse.maven:theurgy-430636:5920165"
+    //implementation "curse.maven:theurgy-430636:5920165"
     implementation "curse.maven:productiveBees-377897:6029033"
     implementation "curse.maven:industrialForegoing-266515:6030556"
     implementation "curse.maven:evilCraft-74610:6079207"
-    implementation "curse.maven:powah-633483:6483151"
+    implementation "blank:bloodmagic-3.4.0-46-alpha" // local build for sulfur unification
+    implementation "blank:pneumaticcraft-repressurized-8.2.15+mc1.21.1" // local build with IE fluid unification
 
     implementation "curse.maven:curios-309927:6529130"
 
     implementation "curse.maven:prickle-1023259:6546240" //attribute fix (replaces AttributeFix)
 
-    implementation "curse.maven:apotheosis-313970:7180713"
+    // Local Apotheosis build with Silent Gear integration
+    // - Generates Silent Gear items for ALL Apotheosis loot drops
+    // - Maps Apotheosis world tiers to SG material tiers (0-7)
+    // - Applies both SG traits (materials) and Apotheosis affixes (rarity)
+    // - 145+ materials supported from multiple mods
+    implementation "blank:Apotheosis-1.21.1-8.4.1"
     implementation "curse.maven:apothicAttributes-898963:6751650"
     implementation "curse.maven:apothicSpawners-986583:6751589" //apotheosis
     implementation "curse.maven:placebo-283644:6926281" //apotheosis
@@ -314,10 +328,13 @@ dependencies {
     implementation "curse.maven:bookshelf-228525:7161606"
 
 
+    implementation "curse.maven:tempad-514923:6517779"
 
 
-    implementation "curse.maven:aquaCulture2-60028:5919626"
+    implementation "blank:Aquaculture-1.21.1-2.7.17"
     implementation "blank:tombstone-neoforge-1.21.1-9.4.8"
+    //implementation "curse.maven:corailtombstone-243707:6919850"
+
     implementation "curse.maven:structureCompass-319598:5774341"
     implementation "curse.maven:natureCompass-252848:5696042"
     implementation "curse.maven:SophisticatedCore-618298:6074769"
@@ -376,6 +393,11 @@ dependencies {
     implementation "curse.maven:mobgrindingutils-254241:6588170"
     implementation "curse.maven:betterArcheology-835687:6423649"
 
+    implementation "curse.maven:immersiveAircraft-666014:6992093"
+    implementation "curse.maven:createImmersiveAircraft-1352665:7031059"
+    implementation "curse.maven:createEnchantment-688768:7216917"
+    implementation "curse.maven:createDragonsPlus-1216624:7231493"
+    implementation "curse.maven:createslicendice-659674:7162937"
 
 
     //---- Mystical Agriculture ----//

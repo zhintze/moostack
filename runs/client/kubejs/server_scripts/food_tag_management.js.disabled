@@ -1,0 +1,34 @@
+// KubeJS Script: Food Mod Tag Management
+// Populates common tags with replacement items from ED/FD/BnC
+// NOTE: Croptopia items already removed at source level, no need for Phase 2 cleanup
+
+ServerEvents.tags('item', event => {
+    console.log('Starting food mod tag management...')
+
+    // ===== ADD REPLACEMENT ITEMS TO COMMON TAGS =====
+    console.log('Adding replacement items to common tags...')
+
+    // c:flour - add ExtraDelight flour
+    event.add('c:flour', 'extradelight:flour')
+
+    // c:dough - add FarmersDelight dough
+    event.add('c:dough', 'farmersdelight:wheat_dough')
+
+    // c:butter - add ExtraDelight butter
+    event.add('c:butter', 'extradelight:butter')
+
+    // c:cooking_oil / c:cooking_oils - add ExtraDelight cooking oil
+    event.add('c:cooking_oil', 'extradelight:cooking_oil')
+    event.add('c:cooking_oils', 'extradelight:cooking_oil')
+
+    // c:pasta - add FarmersDelight raw_pasta
+    event.add('c:pasta', 'farmersdelight:raw_pasta')
+
+    // c:cheese - add BnC cheese wedges (tag reference)
+    event.add('c:cheese', '#brewinandchewin:foods/cheese_wedge')
+
+    // c:milk_bottles - add FarmersDelight milk_bottle
+    event.add('c:milk_bottles', 'farmersdelight:milk_bottle')
+
+    console.log('Food mod tag management complete!')
+})

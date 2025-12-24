@@ -1,0 +1,145 @@
+// KubeJS Script: Replace Croptopia Removed Items in Recipes
+// Part of Food Mod Integration Plan
+// Replaces removed Croptopia items with their ED/BnC equivalents in ALL recipes
+
+ServerEvents.recipes(event => {
+    console.log('Starting Croptopia input replacements...')
+
+    // =====================================================
+    // REPLACEMENTS WITH EXTRADELIGHT ITEMS
+    // =====================================================
+    console.log('Replacing Croptopia items with ExtraDelight equivalents...')
+
+    // Peanut Butter -> ED Nut Butter (peanut_butter_bottle)
+    event.replaceInput(
+        {},
+        'croptopia:peanut_butter',
+        'extradelight:peanut_butter_bottle'
+    )
+    console.log('  Replaced: croptopia:peanut_butter -> extradelight:peanut_butter_bottle')
+
+    // Soy Milk -> ED Soy Milk
+    event.replaceInput(
+        {},
+        'croptopia:soy_milk',
+        'extradelight:soy_milk'
+    )
+    console.log('  Replaced: croptopia:soy_milk -> extradelight:soy_milk')
+
+    // Ginger -> ED Ginger
+    event.replaceInput(
+        {},
+        'croptopia:ginger',
+        'extradelight:ginger'
+    )
+    console.log('  Replaced: croptopia:ginger -> extradelight:ginger')
+
+    // Trail Mix -> ED Trail Mix
+    event.replaceInput(
+        {},
+        'croptopia:trail_mix',
+        'extradelight:trail_mix'
+    )
+    console.log('  Replaced: croptopia:trail_mix -> extradelight:trail_mix')
+
+    // =====================================================
+    // REPLACEMENTS WITH BREWINANDCHEWIN ITEMS
+    // =====================================================
+    console.log('Replacing Croptopia items with BrewinAndChewin equivalents...')
+
+    // Beef Jerky -> BnC Jerky
+    event.replaceInput(
+        {},
+        'croptopia:beef_jerky',
+        'brewinandchewin:jerky'
+    )
+    console.log('  Replaced: croptopia:beef_jerky -> brewinandchewin:jerky')
+
+    // Pork Jerky -> BnC Jerky
+    event.replaceInput(
+        {},
+        'croptopia:pork_jerky',
+        'brewinandchewin:jerky'
+    )
+    console.log('  Replaced: croptopia:pork_jerky -> brewinandchewin:jerky')
+
+    // =====================================================
+    // REPLACEMENTS WITH FARMERSDELIGHT ITEMS
+    // =====================================================
+    console.log('Replacing Croptopia items with FarmersDelight equivalents...')
+
+    // Flour -> Already handled by c:flour tag population
+    // But add explicit replacement for any hardcoded references
+    event.replaceInput(
+        {},
+        'croptopia:flour',
+        'extradelight:flour'
+    )
+    console.log('  Replaced: croptopia:flour -> extradelight:flour')
+
+    // Dough -> FD Wheat Dough
+    event.replaceInput(
+        {},
+        'croptopia:dough',
+        'farmersdelight:wheat_dough'
+    )
+    console.log('  Replaced: croptopia:dough -> farmersdelight:wheat_dough')
+
+    // Milk Bottle -> FD Milk Bottle
+    event.replaceInput(
+        {},
+        'croptopia:milk_bottle',
+        'farmersdelight:milk_bottle'
+    )
+    console.log('  Replaced: croptopia:milk_bottle -> farmersdelight:milk_bottle')
+
+    // =====================================================
+    // REPLACEMENTS WITH TAGS (for flexibility)
+    // =====================================================
+    console.log('Replacing Croptopia items with common tags where appropriate...')
+
+    // Butter -> c:butter tag (populated with ED butter)
+    event.replaceInput(
+        {},
+        'croptopia:butter',
+        '#c:butter'
+    )
+    console.log('  Replaced: croptopia:butter -> #c:butter')
+
+    // Cheese -> c:cheese tag (populated with BnC cheese)
+    event.replaceInput(
+        {},
+        'croptopia:cheese',
+        '#c:cheese'
+    )
+    console.log('  Replaced: croptopia:cheese -> #c:cheese')
+
+    // Olive Oil -> c:cooking_oil tag (populated with ED cooking_oil)
+    event.replaceInput(
+        {},
+        'croptopia:olive_oil',
+        '#c:cooking_oil'
+    )
+    console.log('  Replaced: croptopia:olive_oil -> #c:cooking_oil')
+
+    // Salt -> c:salts tag
+    event.replaceInput(
+        {},
+        'croptopia:salt',
+        '#c:salts'
+    )
+    console.log('  Replaced: croptopia:salt -> #c:salts')
+
+    // =====================================================
+    // SUMMARY
+    // =====================================================
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    console.log('Croptopia Input Replacement Summary:')
+    console.log('  ExtraDelight replacements: 4 (peanut_butter, soy_milk, ginger, trail_mix)')
+    console.log('  BrewinAndChewin replacements: 2 (beef_jerky, pork_jerky)')
+    console.log('  FarmersDelight replacements: 3 (flour, dough, milk_bottle)')
+    console.log('  Tag replacements: 4 (butter, cheese, olive_oil, salt)')
+    console.log('  Total: 13 input replacements')
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    console.log('Croptopia input replacements complete!')
+})
