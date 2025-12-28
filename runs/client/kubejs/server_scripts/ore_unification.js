@@ -444,11 +444,11 @@ LootJS.modifiers(event => {
     console.info('[Ore Unification] Modifying ore loot tables...')
 
     // Occultism silver ore -> IE raw silver
-    event.addBlockLootModifier('occultism:silver_ore')
+    event.addBlockModifier('occultism:silver_ore')
         .replaceLoot('occultism:raw_silver', 'immersiveengineering:raw_silver')
 
     // Occultism deepslate silver ore -> IE raw silver
-    event.addBlockLootModifier('occultism:silver_ore_deepslate')
+    event.addBlockModifier('occultism:silver_ore_deepslate')
         .replaceLoot('occultism:raw_silver', 'immersiveengineering:raw_silver')
 
     console.info('[Ore Unification] Loot table modifications complete.')
