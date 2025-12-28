@@ -88,6 +88,10 @@ dependencies {
     // NeoForge
     implementation "net.neoforged:neoforge:${neo_version}"
 
+
+    implementation "curse.maven:EpicFight-405076:6968128"
+
+
     // JEI
     compileOnly "mezz.jei:jei-${jei_minecraft}-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-${jei_minecraft}-neoforge-api:${jei_version}"
@@ -304,7 +308,15 @@ dependencies {
     implementation "curse.maven:securityCraft-64760:5950155"
     implementation "curse.maven:occultism-361026:6082790"
     //implementation "curse.maven:theurgy-430636:5920165"
-    implementation "curse.maven:productiveBees-377897:6029033"
+    // Productive Bees (Local Build)
+    // Original: curse.maven:productiveBees-377897:6029033
+    // Using local modified build from: /home/keroppi/Development/Minecraft/productive-bees
+    // Modifications:
+    //   - 80 centrifuge recipes for ChemLib metals (output chemlibmekanized nuggets)
+    //   - 65 new breeding recipes for complete periodic table chains
+    //   - 18 Mekanism pigment bees with color-theory breeding chains
+    //   - Etrium bee for AdAstraMekanized integration
+    implementation "blank:productivebees-1.21.1-13.12.0"
     implementation "curse.maven:industrialForegoing-266515:6030556"
     implementation "curse.maven:evilCraft-74610:6079207"
     implementation "blank:bloodmagic-3.4.0-46-alpha" // local build for sulfur unification
