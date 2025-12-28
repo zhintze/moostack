@@ -19,11 +19,11 @@ ServerEvents.recipes(event => {
     }).id('moostack:craftable_saddle')
 
     // Iron Horse Armor
-    //   I
+    //     I
     // I W I
     // I I I
     event.shaped('minecraft:iron_horse_armor', [
-        ' I ',
+        '  I',
         'IWI',
         'III'
     ], {
@@ -32,11 +32,11 @@ ServerEvents.recipes(event => {
     }).id('moostack:craftable_iron_horse_armor')
 
     // Gold Horse Armor
-    //   G
+    //     G
     // G W G
     // G G G
     event.shaped('minecraft:golden_horse_armor', [
-        ' G ',
+        '  G',
         'GWG',
         'GGG'
     ], {
@@ -45,11 +45,11 @@ ServerEvents.recipes(event => {
     }).id('moostack:craftable_golden_horse_armor')
 
     // Diamond Horse Armor
-    //   D
+    //     D
     // D W D
     // D D D
     event.shaped('minecraft:diamond_horse_armor', [
-        ' D ',
+        '  D',
         'DWD',
         'DDD'
     ], {
