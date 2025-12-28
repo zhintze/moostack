@@ -141,7 +141,16 @@ dependencies {
     implementation ("vazkii.patchouli:Patchouli:1.21.1-92-NEOFORGE")
     //implementation ('curse.maven:Croptopia-415438:6092073')
     implementation "blank:croptopia-1.0.0"
+    implementation "curse.maven:amendments-896746:7352178"
 
+    implementation "curse.maven:animalFeedingTrough-445838:5617654"
+
+    implementation "curse.maven:charmOfUndying-316873:5846603"
+
+    implementation "curse.maven:betterclimbing-655619:5514197"
+
+    implementation "curse.maven:beautfiedchatclient-514797:6186476"
+    implementation "curse.maven:attackthroughgrass-934895:5869497"
 
     //---- PERFORMANCE ----//
     implementation "curse.maven:ferriteCore-429235:5850121"
@@ -160,12 +169,16 @@ dependencies {
 
     implementation "curse.maven:modernfix-790626:6766126"
 
+    implementation "curse.maven:netherdepthsupgrade-670011:6430271"
+
+    //implementation "curse.maven:immersiveUI-1021685:6886575"
 
     //---- END PERFORMANCE ----//
     implementation "curse.maven:sophisticatedstorage-619320:7035859"
     implementation "curse.maven:sophistcatedBackpacks-422301:7036490"
     implementation "curse.maven:sophistcatedCore-618298:7045249"
 
+    implementation "curse.maven:coolrain-1346978:7270449"
 
     // FTB
     implementation "curse.maven:FTBLibrary-404465:6016745"
@@ -204,7 +217,19 @@ dependencies {
     //implementation "curse.maven:theOneProbe-245211:5836106"
     implementation "curse.maven:guideme-1173950:6688687" //ae2
     implementation "blank:silent-lib-1.21.1-neoforge-10.5.1" //silentgear
+    implementation "curse.maven:immersiveThunder-1220929:6711308"
 
+    implementation "curse.maven:redstonePen-461710:6102752"
+    implementation "curse.maven:octolib-916747:6932487" //immersive ui dependency
+
+    implementation "curse.maven:omniHopper-1325306:6875414"
+
+    implementation "curse.maven:nyfsSpiders-686058:6121607"
+    implementation "curse.maven:cursors-1184736:7312250"
+    implementation "curse.maven:hardcoreRevival-274036:7316149"
+    implementation "curse.maven:doorknocking-1056025:5581378"
+
+    implementation "curse.maven:explorify-698309:7092252"
 
     //---- QOL ----//
     implementation "curse.maven:waystones-245755:6552633"
@@ -230,11 +255,16 @@ dependencies {
     implementation "curse.maven:commonCapabilities-247007:6059616"
     implementation "blank:moreoverlays-1.23.2-mc1.21-neoforge"
     implementation "curse.maven:improvedSignEditing-952629:5609614"
-    implementation "curse.maven:collectiveLib-342584:5840217" //improvedSignEditing dependency
+    implementation "curse.maven:collectiveLib-342584:7148969" //improvedSignEditing dependency
     implementation "curse.maven:experimentalWarning-1009556:5609644"
     implementation "curse.maven:craftingTweaks-233071:6023041"
     implementation "curse.maven:controlling-250398:6368976"
 
+    // Simple Voice Chat
+    implementation "curse.maven:mapAtlases-519759:6782726"
+
+
+    implementation "blank:voicechat-neoforge-1.21.1-2.6.8"
 
 
     //implementation "blank:industrialforegoing-chemlib-edition"
@@ -251,6 +281,7 @@ dependencies {
     implementation "curse.maven:entityModelFeatures-844662:6922725"
     implementation "curse.maven:entityTextureFeatures-568563:6954772"
 
+    implementation "curse.maven:moonlightlib-499980:7385410" // for map atlases
 
     //RF Tools
     implementation "curse.maven:rfToolsBase-326041:7263404"
@@ -276,6 +307,7 @@ dependencies {
     implementation "curse.maven:DungeonCrawl-324973:6047162"
     implementation "curse.maven:WhenDungeonsArise-442508:6078710"
     implementation "curse.maven:WhenDungeonsAriseSevenSeas-953637:5661269"
+    implementation "blank:adventuredungeons-neoforge-1.21-1.3.1"
 
     // Structures
     implementation "curse.maven:Valhelsia-347488:6360484"
@@ -326,6 +358,12 @@ dependencies {
 
     implementation "curse.maven:prickle-1023259:6546240" //attribute fix (replaces AttributeFix)
 
+    implementation "curse.maven:whatAreTheyUpTo-945479:6418577"
+    implementation "curse.maven:coroUtil-237749:5622966" //whatAreTheyUpTo dependency
+
+    implementation "curse.maven:villagerNames-345854:6184882"
+    implementation "curse.maven:villagerHat-501456:5640259"
+
     // Local Apotheosis build with Silent Gear integration
     // - Generates Silent Gear items for ALL Apotheosis loot drops
     // - Maps Apotheosis world tiers to SG material tiers (0-7)
@@ -338,6 +376,9 @@ dependencies {
     implementation "curse.maven:apothicEnchanting-1063926:6926290" //apotheosis
     implementation "curse.maven:maxHealthFix-492246:5824111"
     implementation "curse.maven:bookshelf-228525:7161606"
+
+    implementation "blank:yo_hooks-neoforge-1.0.0"
+
 
 
     implementation "curse.maven:tempad-514923:6517779"
