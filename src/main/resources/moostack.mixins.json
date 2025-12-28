@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zhintze.moostack.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WanderingTraderSpawnerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

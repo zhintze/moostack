@@ -34,6 +34,43 @@ public class Config {
             .comment("A list of items to log on common setup.")
             .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), () -> "", Config::validateItemName);
 
+    // Wandering Trader Village-Only Spawning Configuration
+    public static final ModConfigSpec.IntValue TRADER_MIN_VILLAGERS = BUILDER
+            .comment("Minimum number of villagers required for a village to spawn wandering traders.",
+                    "This matches iron golem spawn requirements. Default: 10")
+            .defineInRange("wanderingTrader.minVillagers", 10, 1, 100);
+
+    public static final ModConfigSpec.IntValue TRADER_MIN_BEDS = BUILDER
+            .comment("Minimum number of beds required for a village to spawn wandering traders.",
+                    "This matches iron golem spawn requirements. Default: 20")
+            .defineInRange("wanderingTrader.minBeds", 20, 1, 200);
+
+    public static final ModConfigSpec.IntValue TRADER_SPAWN_CHANCE_DIVISOR = BUILDER
+            .comment("Spawn chance divisor. Higher = rarer spawns.",
+                    "Vanilla uses 10 (1 in 10 chance). Default: 20 (1 in 20 chance, half as often as vanilla).",
+                    "Set to 40 for quarter the spawn rate, 100 for very rare spawns.")
+            .defineInRange("wanderingTrader.spawnChanceDivisor", 20, 1, 1000);
+
+    public static final ModConfigSpec.IntValue TRADER_VILLAGE_SEARCH_RADIUS = BUILDER
+            .comment("Radius (in blocks) around players to search for valid villages.",
+                    "Default: 128")
+            .defineInRange("wanderingTrader.villageSearchRadius", 128, 32, 512);
+
+    public static final ModConfigSpec.IntValue TRADER_VILLAGER_COUNT_RADIUS = BUILDER
+            .comment("Radius (in blocks) around village center to count villagers.",
+                    "Default: 48 (same as vanilla village detection)")
+            .defineInRange("wanderingTrader.villagerCountRadius", 48, 16, 128);
+
+    public static final ModConfigSpec.IntValue TRADER_BED_COUNT_RADIUS = BUILDER
+            .comment("Radius (in blocks) around village center to count beds.",
+                    "Default: 48 (same as vanilla village detection)")
+            .defineInRange("wanderingTrader.bedCountRadius", 48, 16, 128);
+
+    public static final ModConfigSpec.IntValue TRADER_SPAWN_RADIUS = BUILDER
+            .comment("Radius (in blocks) around village center where trader can spawn.",
+                    "Default: 48")
+            .defineInRange("wanderingTrader.spawnRadius", 48, 8, 128);
+
     static final ModConfigSpec SPEC = BUILDER.build();
 
     private static boolean validateItemName(final Object obj) {

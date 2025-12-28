@@ -568,6 +568,78 @@ Enhanced Celestials provides the Blood Moon events that trigger Undead Nights ho
 
 ---
 
+## Wandering Trader Village-Only Spawning
+
+### Overview
+
+mooStack modifies Wandering Trader spawning to only occur in established villages that meet iron golem spawn requirements. This makes traders feel more immersive as traveling merchants visiting actual settlements rather than randomly appearing near players in the wilderness.
+
+### Behavior Changes
+
+| Aspect | Vanilla | mooStack |
+|--------|---------|----------|
+| **Spawn Location** | Near random player (or bell within 48 blocks) | Only at village centers (bells) in valid villages |
+| **Village Requirements** | None | 10+ villagers AND 20+ beds |
+| **Spawn Chance** | 1 in 10 (10%) per attempt | 1 in 20 (5%) per attempt |
+| **Player Dependency** | Must have player online nearby | Spawns in any valid village near online players |
+| **Wander Behavior** | Wanders near spawn point | Restricted to 16 blocks around village center |
+
+### Village Requirements
+
+A village must meet iron golem spawn thresholds to attract wandering traders:
+
+| Requirement | Minimum | Detection Radius |
+|-------------|---------|------------------|
+| Villagers | 10 | 48 blocks from bell |
+| Beds (claimed) | 20 | 48 blocks from bell |
+| Village Center | Bell (MEETING POI) | Required |
+
+### Spawn Mechanics
+
+1. Every ~20 minutes, the game checks for spawn opportunity (vanilla timer)
+2. Spawn chance starts at 25%, increases to 50%, then 75% on consecutive failures
+3. If chance succeeds, a 1-in-20 roll determines actual spawn (reduced from vanilla 1-in-10)
+4. System searches for valid villages near online players (128 block radius)
+5. Each village is validated for villager count and bed count
+6. If valid, trader spawns within 48 blocks of village center with 2 llamas
+
+### Configuration
+
+All values are configurable in `moostack-common.toml`:
+
+```toml
+[wanderingTrader]
+# Minimum villagers required (default: 10)
+minVillagers = 10
+
+# Minimum beds required (default: 20)
+minBeds = 20
+
+# Spawn chance divisor - higher = rarer (default: 20, vanilla is 10)
+spawnChanceDivisor = 20
+
+# Radius to search for villages near players (default: 128)
+villageSearchRadius = 128
+
+# Radius around village center to count villagers (default: 48)
+villagerCountRadius = 48
+
+# Radius around village center to count beds (default: 48)
+bedCountRadius = 48
+
+# Radius around village center where trader can spawn (default: 48)
+spawnRadius = 48
+```
+
+### Gameplay Impact
+
+- **Early Game**: No wandering traders until you build a proper village
+- **Mid Game**: Traders visit your established settlements
+- **Multiplayer**: Each qualifying village can potentially receive a trader
+- **Immersion**: Traders feel like actual merchants visiting towns, not random wilderness spawns
+
+---
+
 ## Iron's Spells Summoning Expansion
 
 A custom expansion for Iron's Spells 'n Spellbooks that adds a new Summoning school of magic with 38 creature summon spells.
@@ -1260,7 +1332,64 @@ Available via `/equestriansdelight`:
 | `Aquaculture-1.21.1-2.7.17.jar` | Silent Gear integration: SG fishing rods work with tackle box (hooks, bait, line, bobber), entity replacement system for hook effects, ROD_INVENTORY data component with network sync, hook tooltips always visible (no shift required), fish fillet cutting board recipes for JEI |
 | `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support |
 | `silent-lib-1.21.1-neoforge-10.5.1.jar` | Required dependency for Silent Gear |
-| `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. |
+| `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. Tower spawn rate reduced ~2x (spacing 26→52, separation 18→32). |
+
+---
+
+## Epic Fight 2D Weapon Integration
+
+### Overview
+
+Silent Gear weapons now feature Epic Fight-style 2D stretched textures when held, while maintaining standard 16x16 textures in the GUI/inventory. This uses NeoForge's `separate_transforms` model loader for context-aware rendering.
+
+### Supported Weapons
+
+| Weapon | Status | Features |
+|--------|--------|----------|
+| Longsword | Complete | Full 2D held textures, GUI textures, all layers |
+| Greatsword | Complete | Full 2D held textures, GUI textures, all layers |
+| Tachi | Complete | Full 2D held textures, GUI textures, all layers |
+| Katana | Complete | Full 2D held textures, sheath system prepared |
+| Spear | Complete | Full 2D held textures, stretched polearm display |
+
+### Technical Implementation
+
+**Dual Texture System:**
+- **GUI View (16x16):** Standard Silent Gear textures with material tinting
+- **Held View (32x32):** Stretched 2D textures matching Epic Fight's visual style
+
+**Layer/Tint Mapping:**
+| Layer | Part | Fallback |
+|-------|------|----------|
+| layer0 | Rod | - |
+| layer1 | Main/Coating | - |
+| layer2 | Empty placeholder | Required for consecutive layers |
+| layer3 | Tip | Main color if no tip part |
+| layer4 | Grip | - |
+
+**Model Structure:**
+```
+models/item/{weapon}.json          # Main model with separate_transforms
+models/item/{weapon}_gui.json      # GUI-specific model (16x16)
+models/item/{weapon}_transforms.json # Display transforms from Epic Fight
+
+textures/item/{weapon}/
+  main.png, rod.png, tip.png, grip.png    # GUI textures (16x16)
+  held/
+    main.png, rod.png, tip.png, grip.png  # Held textures (32x32)
+```
+
+**Key Code Changes:**
+- `GearItem.java`: Tip color fallback to main/coating when no tip part exists
+- `ModItemModelProvider.java`: Excluded Epic Fight weapons from auto-generation
+- Manual item models bypass data generator conflicts
+
+### Katana Sheath System
+
+Prepared but deferred for future work:
+- Uses Epic Fight's `item_skins.json` for alternate rendering
+- Sheath displays when katana is in offhand while attacking
+- Sheath color uses grip color with rod fallback
 
 ---
 
@@ -1302,6 +1431,38 @@ Six new ultimate-tier materials requiring two-step crafting: Super Mixer alloyin
 - Phoenix Sanctum: renew 4, holy 4
 - Aetherium: light 5, moonwalker 4
 
+### Transcendent Alloy & Neutronium (Pinnacle Materials)
+
+The ultimate crafting progression for Silent Gear materials, crafted in the Super Mixer:
+
+| Material | Tier | Recipe | Stats | Traits |
+|----------|------|--------|-------|--------|
+| **Transcendent Alloy** | 6 | Cosmic Steel + Nether Star Fragment + Echo Shard | dur 4500, armor 60, atk 9 | void_ward 5, ancient 4, stellar 3 |
+| **Neutronium** | 7 | Transcendent Alloy + Nether Star + Dragon Breath | dur 5500, armor 70, atk 11 | adamant 5, stellar 5, refractive 4 |
+
+**Color Theming:**
+- Transcendent Alloy: Deep purple with ethereal teal influence (#7858A8) - reflecting cosmic steel base with echo shard and nether essence
+- Neutronium: Pale silvery lavender (#C8B8E0) - the ultimate ethereal material transcending physical limits
+
+### ChemLib Element Color System
+
+All 118 periodic table elements now use authentic ChemLib-derived colors for consistent visual theming across all material forms (ingots, plates, rods, crystals, blocks).
+
+**Rod Support:**
+55 ChemLib metals now support rod crafting, including:
+- Common metals: Aluminum, Titanium, Zinc, Nickel, Silver, Platinum
+- Rare metals: Tungsten, Chromium, Manganese, Cobalt, Cadmium
+- Precious metals: Palladium, Rhodium, Iridium, Ruthenium
+- Radioactive elements: Thorium, Neptunium, Plutonium, Americium
+- Lanthanides & Actinides: Full series support
+
+**Cross-Mod Color Fixes:**
+| Mod | Materials | Color Fix |
+|-----|-----------|-----------|
+| Ad Astra | Desh, Ostrum, Calorite, Etrium | Authentic Ad Astra palette colors |
+| Immersive Engineering | Constantan, Hop Graphite | Proper alloy/graphite coloring |
+| Industrial Foregoing | Pink Slime | Correct pink coloring |
+
 ### Material Tier System
 
 | Tier | Durability Range | Armor Range | Examples |
@@ -1311,8 +1472,8 @@ Six new ultimate-tier materials requiring two-step crafting: Super Mixer alloyin
 | 3 | 130-250 | 10-14 | Iron, Gold, Silver |
 | 4 | 250-400 | 14-20 | Diamond, Netherite, Neptunium |
 | 5 | 260-320 | 12-15 | Demoted transuranics (Lawrencium, Einsteinium, etc.) |
-| 6 | 400-700 | 20-30 | Cosmic Steel, Tyrian Steel, Crimson Steel |
-| 7 | 850-1150 | 33-42 | Tier 7 Ultimate Materials |
+| 6 | 400-700 | 20-30 | Cosmic Steel, Tyrian Steel, Crimson Steel, Transcendent Alloy |
+| 7 | 850-5500 | 33-70 | Tier 7 Ultimate Materials, Neutronium |
 
 ### Custom Traits
 
