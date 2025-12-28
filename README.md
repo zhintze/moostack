@@ -1731,6 +1731,21 @@ mooStack/
 
 ---
 
+## Built-in Recipe Overrides
+
+Recipe changes integrated directly into the mod (automatically applied):
+
+| Recipe | Change | Rationale |
+|--------|--------|-----------|
+| **Rail** | Iron Ingot -> Copper Ingot | Copper is abundant and thematic for electrical conductivity |
+| **Powered Rail** | Iron Ingot -> Copper Ingot | Maintains consistency with base rails |
+| **Detector Rail** | Iron Ingot -> Copper Ingot | Redstone detection uses copper wiring |
+| **Activator Rail** | Iron Ingot -> Copper Ingot | Completes the copper rail set |
+
+All rail recipes now use copper ingots instead of iron ingots, giving copper more utility.
+
+---
+
 ## KubeJS Scripts
 
 Located in `runs/client/kubejs/server_scripts/`:
