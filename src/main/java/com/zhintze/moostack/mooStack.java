@@ -6,14 +6,20 @@ import com.mojang.logging.LogUtils;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Blocks;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+
+import com.zhintze.moostack.client.AutoBattleModeHandler;
+import com.zhintze.moostack.client.KeyBindings;
+import com.zhintze.moostack.config.ClientConfig;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(mooStack.MODID)
@@ -36,9 +42,16 @@ public class mooStack {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Register client-side Auto-Battle Mode handler
+        // Automatically switches battle mode when holding melee weapons
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            modEventBus.addListener(KeyBindings::register);
+            NeoForge.EVENT_BUS.register(AutoBattleModeHandler.class);
+        }
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.CLIENT, ClientConfig.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

@@ -115,5 +115,9 @@
   "spell.moostack.archmage_pocket_dimension": "Archmage's Pocket Dimension",
   "spell.moostack.archmage_sculk_tentacles": "Archmage's Sculk Tentacles",
   "spell.moostack.archmage_sonic_boom": "Archmage's Sonic Boom",
-  "spell.moostack.archmage_telekinesis": "Archmage's Telekinesis"
+  "spell.moostack.archmage_telekinesis": "Archmage's Telekinesis",
+  "key.categories.moostack": "mooStack",
+  "key.moostack.auto_battle_toggle": "Auto-Battle Mode",
+  "moostack.message.auto_battle_on": "Auto-Battle Mode: ON",
+  "moostack.message.auto_battle_off": "Auto-Battle Mode: OFF"
 }

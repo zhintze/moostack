@@ -164,6 +164,9 @@ See `EXTRADELIGHT_BREWINANDCHEWIN_UNIFICATION.md` for details.
 - Ars Nouveau + Extensions (reduced loot rates)
 - Occultism, Theurgy, Evilcraft
 
+### Communication
+- Mighty Mail - In-game mail system for sending items and messages between players
+
 ### Technology
 - Mekanism (homebaked v10.7.14)
 - Create
@@ -1328,11 +1331,85 @@ Available via `/equestriansdelight`:
 | `ironsspellssummoningexpansion-1.0.0.jar` | Iron's Spells expansion: Summoning school with 38 creature summons (combat, defensive, cosmetic), bone focus for ScrollForge crafting, loot integration (witch drops, dungeon/mansion chests), sun-immune undead |
 | `constructionwand-1.21.1-2.12.jar` | Updated to 1.21.1 for this modpack |
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
+| `stronger_leads-1.0.1.jar` | Customizable lead length/strength: craft leads with string (+2 length per string, max +8), iron ingots (+2 constrain per ingot), or shears (-2 length). Reinforced leads have increased break distance. JEI integration shows upgrade recipes. Updated to NeoForge 1.21.1. |
 | `createoplenty-2.0.0.jar` | Create + BOP integration: 3 custom sandpapers (black/orange/white sand), 50+ KubeJS recipes for crushing/milling/mixing/compacting BOP materials, heated mixing for thermal calcite and rose quartz, 13 BOP stripped log types tagged for andesite casing |
 | `Aquaculture-1.21.1-2.7.17.jar` | Silent Gear integration: SG fishing rods work with tackle box (hooks, bait, line, bobber), entity replacement system for hook effects, ROD_INVENTORY data component with network sync, hook tooltips always visible (no shift required), fish fillet cutting board recipes for JEI |
 | `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support |
 | `silent-lib-1.21.1-neoforge-10.5.1.jar` | Required dependency for Silent Gear |
 | `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. Tower spawn rate reduced ~2x (spacing 26→52, separation 18→32). |
+
+---
+
+## Epic Fight Auto-Battle Mode
+
+### Overview
+
+mooStack implements an intelligent Auto-Battle Mode system that automatically switches between Epic Fight's battle mode and mining mode based on the item held in the player's main hand. This eliminates the need for manual mode switching while maintaining full control when desired.
+
+### Auto-Battle Mode Features
+
+**Automatic Mode Switching:**
+- Holding a melee weapon automatically enters Epic Fight battle mode (3rd person combat)
+- Switching to non-combat items exits to mining mode
+- 5-tick cooldown prevents rapid switching during item changes
+
+**Default Configuration:**
+- Auto-Battle Mode: ON by default for all players
+- Epic Fight Battle Mode: ON by default (initialMode = 1)
+- Both toggle keybinds: UNBOUND by default (can be bound manually if desired)
+
+**Recognized Melee Weapon Categories:**
+- sword, longsword, katana, tachi, spear, greatsword
+- uchigatana, dagger, axe, great_axe, hammer, fist
+
+### Epic Fight Weapon Capability Configuration
+
+Custom weapon types configured for mod integration:
+
+**Silent Gear Weapons:**
+| Weapon | Epic Fight Type | Notes |
+|--------|-----------------|-------|
+| Machete | Dagger | Dual-wieldable, 20% slower attack speed |
+| Mace | Tachi | Tachi combat moves and special attacks |
+| Axe | Greatsword | Greatsword combat moves |
+| Spear | Spear | Standard spear configuration |
+
+**Blood Magic:**
+| Weapon | Epic Fight Type |
+|--------|-----------------|
+| Sentient Scythe | Tachi |
+
+### Item Preferences Configuration
+
+Pre-configured item preferences for optimal gameplay:
+
+**Combat Preferred Items:**
+- All Epic Fight weapons, Iron's Spellbooks weapons
+- Silent Gear combat weapons (sword, katana, machete, etc.)
+- Mekanism Tools swords, AE2 swords
+- Mystical Agriculture weapons
+
+**Mining Preferred Items (moved from combat):**
+- Silent Gear tools: axe, hammer, mattock, prospector_hammer, saw, excavator, hoe, shears, paxel, shovel, pickaxe
+- Butchercraft: gut_knife, bone_saw, skinning_knife, butcher_knife
+- Extra Delight spoons (all tiers)
+
+### Configuration Files
+
+| File | Purpose |
+|------|---------|
+| `defaultconfigs/moostack-client.toml` | Auto-Battle Mode settings |
+| `defaultconfigs/epicfight-client.toml` | Epic Fight item preferences |
+| `defaultconfigs/epicfight-common.toml` | Epic Fight default battle mode |
+| `data/silentgear/capabilities/weapons/*.json` | Silent Gear weapon types |
+| `data/bloodmagic/capabilities/weapons/*.json` | Blood Magic weapon types |
+
+### Mixin Integration
+
+**EpicFightKeyMappingsMixin:**
+- Unbinds Epic Fight's SWITCH_MODE keybind by default
+- Players can rebind manually if they prefer manual control
+- Located in client mixin package
 
 ---
 

@@ -1,0 +1,18 @@
+[autoBattleMode]
+	#Whether Auto-Battle Mode is enabled.
+	#When enabled, automatically enters battle mode when holding melee weapons.
+	#Default: true
+	enabled = true
+	#Whether to force 3rd person camera in battle mode.
+	#When true, entering battle mode will switch to 3rd person,
+	#and exiting will switch to 1st person.
+	#Default: true
+	forceThirdPerson = true
+	#Epic Fight weapon categories considered as melee weapons.
+	#When holding a weapon from one of these categories, battle mode will activate.
+	#Categories are case-insensitive and matched against Epic Fight's WeaponCategory names.
+	meleeWeaponCategories = ["sword", "longsword", "katana", "tachi", "spear", "greatsword", "uchigatana", "dagger", "axe", "great_axe", "hammer", "fist"]
+	#Additional item IDs to treat as melee weapons.
+	#Use full resource location format: 'modid:item_name'
+	#These items will trigger battle mode even if Epic Fight doesn't recognize them.
+	additionalMeleeItems = []

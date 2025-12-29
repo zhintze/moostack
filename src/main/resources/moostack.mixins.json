@@ -6,7 +6,9 @@
   "mixins": [
     "WanderingTraderSpawnerMixin"
   ],
-  "client": [],
+  "client": [
+    "client.EpicFightKeyMappingsMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

@@ -259,9 +259,13 @@ dependencies {
     implementation "curse.maven:experimentalWarning-1009556:5609644"
     implementation "curse.maven:craftingTweaks-233071:6023041"
     implementation "curse.maven:controlling-250398:6368976"
+    implementation "curse.maven:catelogue-459701:6926815"
 
     // Simple Voice Chat
     implementation "curse.maven:mapAtlases-519759:6782726"
+
+    implementation "curse.maven:goblintraders-363703:6427515"
+    implementation "curse.maven:mightymail-902986:6542124"
 
 
     implementation "blank:voicechat-neoforge-1.21.1-2.6.8"
@@ -273,6 +277,7 @@ dependencies {
     implementation "blank:exchangers-3.6.0"
     implementation "blank:equestriansdelight-1.0.0"
     implementation "blank:horsestats-1.0.0"
+    implementation "blank:stronger_leads-1.0.1"
     implementation "blank:constructionwand-1.21.1-2.12"
 
 
@@ -328,7 +333,6 @@ dependencies {
 
     implementation "curse.maven:VicsPointBlank-961053:6028992"
     implementation "curse.maven:VicsPointBlankCrashFix-1310209:6789029"
-    implementation "curse.maven:VicsPointBlankBlockInteraction-1310557:6791284"
     implementation "blank:ImmersiveEngineering-1.21.1-12.4.3-194"
     implementation "blank:irons_spellbooks-1.21.1-3.14.8" // local build with spawn placement fix (Operation.REPLACE)
     implementation "blank:ironsspellssummoningexpansion-1.0.0"
@@ -355,6 +359,7 @@ dependencies {
     implementation "blank:pneumaticcraft-repressurized-8.2.15+mc1.21.1" // local build with IE fluid unification
 
     implementation "curse.maven:curios-309927:6529130"
+    implementation "curse.maven:framework-549225:7339258" //crayfrish dependency
 
     implementation "curse.maven:prickle-1023259:6546240" //attribute fix (replaces AttributeFix)
 
