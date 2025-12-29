@@ -1,13 +1,13 @@
 {
 	"attributes": {
 		"one_hand": {
-			"armor_negation": 10.0,
-			"impact": 2.5,
+			"armor_negation": 8.0,
+			"impact": 2.2,
 			"max_strikes": 3
 		},
 		"two_hand": {
-			"armor_negation": 13.0,
-			"impact": 3.0,
+			"armor_negation": 11.0,
+			"impact": 2.7,
 			"max_strikes": 4
 		}
 	},

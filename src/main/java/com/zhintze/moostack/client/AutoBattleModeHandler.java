@@ -4,8 +4,8 @@ import com.zhintze.moostack.config.ClientConfig;
 import com.zhintze.moostack.mooStack;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
@@ -18,6 +18,10 @@ import yesman.epicfight.world.capabilities.item.CapabilityItem;
  *
  * When enabled, automatically switches between Epic Fight's battle mode
  * when holding melee weapons and mining mode otherwise.
+ *
+ * Uses Epic Fight's combat_preferred_items and mining_preferred_items from
+ * epicfight-client.toml as the SINGLE SOURCE OF TRUTH for determining
+ * whether an item should trigger combat mode.
  *
  * Uses Epic Fight's existing LocalPlayerPatch.toEpicFightMode()/toVanillaMode()
  * which handles mode switching and camera correctly.
@@ -147,32 +151,56 @@ public class AutoBattleModeHandler {
 
     /**
      * Check if the given item is considered a melee weapon.
+     *
+     * Uses Epic Fight's combat_preferred_items and mining_preferred_items
+     * as the SINGLE SOURCE OF TRUTH:
+     * 1. If item is in mining_preferred_items -> NOT a melee weapon
+     * 2. If item is in combat_preferred_items -> IS a melee weapon
+     * 3. Otherwise, check Epic Fight's weapon category for combat types
      */
     private static boolean isMeleeWeapon(ItemStack stack) {
         if (stack.isEmpty()) {
             return false;
         }
 
-        // Check Epic Fight weapon capability
+        Item item = stack.getItem();
+
+        // SINGLE SOURCE OF TRUTH: Check Epic Fight's preferred item lists first
+        // These are populated from epicfight-client.toml combat_preferred_items and mining_preferred_items
+
+        // If in mining preferred, definitely NOT a melee weapon
+        if (yesman.epicfight.config.ClientConfig.miningPreferredItems != null &&
+            yesman.epicfight.config.ClientConfig.miningPreferredItems.contains(item)) {
+            return false;
+        }
+
+        // If in combat preferred, definitely IS a melee weapon
+        if (yesman.epicfight.config.ClientConfig.combatPreferredItems != null &&
+            yesman.epicfight.config.ClientConfig.combatPreferredItems.contains(item)) {
+            return true;
+        }
+
+        // For items not in either list, check Epic Fight weapon capability
+        // Only consider it a melee weapon if it has a recognized combat category
         CapabilityItem cap = EpicFightCapabilities.getItemStackCapability(stack);
         if (cap != null && cap != CapabilityItem.EMPTY) {
             var category = cap.getWeaponCategory();
             if (category != null) {
                 String categoryName = category.toString().toLowerCase();
-                // Check against configured melee categories
-                for (String configCategory : ClientConfig.MELEE_WEAPON_CATEGORIES.get()) {
-                    if (categoryName.contains(configCategory.toLowerCase())) {
-                        return true;
-                    }
-                }
-            }
-        }
-
-        // Check additional item IDs from config
-        String itemId = BuiltInRegistries.ITEM.getKey(stack.getItem()).toString();
-        for (String configItem : ClientConfig.ADDITIONAL_MELEE_ITEMS.get()) {
-            if (itemId.equals(configItem)) {
-                return true;
+                // Check against known melee weapon categories
+                // These are combat weapon types that should trigger battle mode
+                return categoryName.contains("sword") ||
+                       categoryName.contains("longsword") ||
+                       categoryName.contains("katana") ||
+                       categoryName.contains("tachi") ||
+                       categoryName.contains("spear") ||
+                       categoryName.contains("greatsword") ||
+                       categoryName.contains("uchigatana") ||
+                       categoryName.contains("dagger") ||
+                       categoryName.contains("hammer") ||
+                       categoryName.contains("fist");
+                // NOTE: axe and great_axe are intentionally excluded
+                // NOTE: pickaxe is not a combat type
             }
         }
 

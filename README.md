@@ -1334,7 +1334,7 @@ Available via `/equestriansdelight`:
 | `stronger_leads-1.0.1.jar` | Customizable lead length/strength: craft leads with string (+2 length per string, max +8), iron ingots (+2 constrain per ingot), or shears (-2 length). Reinforced leads have increased break distance. JEI integration shows upgrade recipes. Updated to NeoForge 1.21.1. |
 | `createoplenty-2.0.0.jar` | Create + BOP integration: 3 custom sandpapers (black/orange/white sand), 50+ KubeJS recipes for crushing/milling/mixing/compacting BOP materials, heated mixing for thermal calcite and rose quartz, 13 BOP stripped log types tagged for andesite casing |
 | `Aquaculture-1.21.1-2.7.17.jar` | Silent Gear integration: SG fishing rods work with tackle box (hooks, bait, line, bobber), entity replacement system for hook effects, ROD_INVENTORY data component with network sync, hook tooltips always visible (no shift required), fish fillet cutting board recipes for JEI |
-| `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support |
+| `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support, **Glove fist weapon** (3D cube model, Epic Fight fist moveset with 20% armor negation, reduced invuln frames for combo attacks) |
 | `silent-lib-1.21.1-neoforge-10.5.1.jar` | Required dependency for Silent Gear |
 | `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. Tower spawn rate reduced ~2x (spacing 26→52, separation 18→32). |
 
@@ -1345,6 +1345,14 @@ Available via `/equestriansdelight`:
 ### Overview
 
 mooStack implements an intelligent Auto-Battle Mode system that automatically switches between Epic Fight's battle mode and mining mode based on the item held in the player's main hand. This eliminates the need for manual mode switching while maintaining full control when desired.
+
+### Single Source of Truth
+
+The Auto-Battle Mode uses Epic Fight's `combat_preferred_items` and `mining_preferred_items` lists in `epicfight-client.toml` as the **single source of truth** for determining what triggers combat mode:
+
+1. Items in `mining_preferred_items` -> Never trigger combat mode
+2. Items in `combat_preferred_items` -> Always trigger combat mode
+3. Items in neither list -> Use Epic Fight weapon category detection
 
 ### Auto-Battle Mode Features
 
@@ -1360,49 +1368,58 @@ mooStack implements an intelligent Auto-Battle Mode system that automatically sw
 
 **Recognized Melee Weapon Categories:**
 - sword, longsword, katana, tachi, spear, greatsword
-- uchigatana, dagger, axe, great_axe, hammer, fist
+- uchigatana, dagger, hammer, fist
+- Note: Axes are intentionally excluded to prevent combat mode triggering while mining
 
 ### Epic Fight Weapon Capability Configuration
 
-Custom weapon types configured for mod integration:
+Custom weapon types configured via datapacks in `data/<modid>/capabilities/weapons/`:
 
-**Silent Gear Weapons:**
+**Scythes (Tachi Style):**
 | Weapon | Epic Fight Type | Notes |
 |--------|-----------------|-------|
-| Machete | Dagger | Dual-wieldable, 20% slower attack speed |
-| Mace | Tachi | Tachi combat moves and special attacks |
-| Axe | Greatsword | Greatsword combat moves |
-| Spear | Spear | Standard spear configuration |
+| Mystical Agriculture Scythes | Tachi | All tiers (inferium through awakened supremium) |
+| Blood Magic Sentient Scythe | Tachi | High armor negation |
+| Iron's Spells Decrepit Scythe | Tachi | |
 
-**Blood Magic:**
-| Weapon | Epic Fight Type |
-|--------|-----------------|
-| Sentient Scythe | Tachi |
+**Staffs (Spear Style):**
+| Weapon | Epic Fight Type | Notes |
+|--------|-----------------|-------|
+| Iron's Spells Staffs | Spear | All 6 staffs (blood, dev, graybeard, ice, pyrium, staff_of_the_nines) |
+
+**Maces (Axe Style):**
+| Weapon | Epic Fight Type | Notes |
+|--------|-----------------|-------|
+| minecraft:mace | Axe | Vanilla mace |
+| silentgear:mace | Axe | |
+| evilcraft:mace_of_distortion | Axe | |
+| evilcraft:mace_of_destruction | Axe | |
 
 ### Item Preferences Configuration
 
 Pre-configured item preferences for optimal gameplay:
 
 **Combat Preferred Items:**
-- All Epic Fight weapons, Iron's Spellbooks weapons
-- Silent Gear combat weapons (sword, katana, machete, etc.)
+- All Epic Fight weapons, Iron's Spellbooks melee weapons and staffs
+- Silent Gear combat weapons (sword, katana, machete, mace, etc.)
 - Mekanism Tools swords, AE2 swords
-- Mystical Agriculture weapons
+- Mystical Agriculture melee weapons and scythes
+- All maces and staffs
 
-**Mining Preferred Items (moved from combat):**
+**Mining Preferred Items (won't trigger combat mode):**
 - Silent Gear tools: axe, hammer, mattock, prospector_hammer, saw, excavator, hoe, shears, paxel, shovel, pickaxe
 - Butchercraft: gut_knife, bone_saw, skinning_knife, butcher_knife
 - Extra Delight spoons (all tiers)
+- All bows, crossbows, and slingshots from all mods (minecraft, silentgear, ars_nouveau, mekanism, mysticalagriculture, aquaculture, irons_spellbooks)
 
 ### Configuration Files
 
 | File | Purpose |
 |------|---------|
-| `defaultconfigs/moostack-client.toml` | Auto-Battle Mode settings |
-| `defaultconfigs/epicfight-client.toml` | Epic Fight item preferences |
+| `defaultconfigs/moostack-client.toml` | Auto-Battle Mode enable/disable toggle only |
+| `defaultconfigs/epicfight-client.toml` | Single source of truth for combat/mining item preferences |
 | `defaultconfigs/epicfight-common.toml` | Epic Fight default battle mode |
-| `data/silentgear/capabilities/weapons/*.json` | Silent Gear weapon types |
-| `data/bloodmagic/capabilities/weapons/*.json` | Blood Magic weapon types |
+| `data/*/capabilities/weapons/*.json` | Epic Fight weapon type datapacks |
 
 ### Mixin Integration
 
@@ -1428,6 +1445,7 @@ Silent Gear weapons now feature Epic Fight-style 2D stretched textures when held
 | Tachi | Complete | Full 2D held textures, GUI textures, all layers |
 | Katana | Complete | Full 2D held textures, sheath system prepared |
 | Spear | Complete | Full 2D held textures, stretched polearm display |
+| Glove | Complete | 3D cube model over hand, Epic Fight fist moveset, 20% armor negation |
 
 ### Technical Implementation
 
@@ -1467,6 +1485,39 @@ Prepared but deferred for future work:
 - Uses Epic Fight's `item_skins.json` for alternate rendering
 - Sheath displays when katana is in offhand while attacking
 - Sheath color uses grip color with rod fallback
+
+### Glove (Fist Weapon)
+
+A unique 3D-rendered fist weapon that uses Epic Fight's fist combat moveset.
+
+**Combat Features:**
+- Epic Fight weapon type: `fist` with 20% armor negation
+- Fast attack speed with reduced target invulnerability frames (50%)
+- Allows rapid combo potential through faster follow-up hits
+- Only requires main material (no rod part needed)
+
+**Rendering System:**
+- 3D cube model rendered over player's hand (not a held 2D item)
+- Uses UV-mapped 16x16 grayscale texture for material tinting
+- Supports main material color (tintindex 1) and tip overlay (tintindex 3)
+- NeoForge `separate_transforms` loader for GUI vs held display
+
+**Model Files:**
+```
+models/item/glove.json           # Main model with separate_transforms
+models/item/glove_gui.json       # GUI display (rotation matching Epic Fight)
+models/item/glove_held.json      # 3D cube with UV-mapped faces
+
+textures/item/glove/
+  main.png                       # Grayscale UV-mapped texture (material tint)
+  tip.png                        # Tip overlay texture
+  main_generic_hc.png            # Plate item texture for crafting
+  _highlight.png                 # Plate item highlight
+```
+
+**Epic Fight Integration:**
+- `item_skins/glove.json` with `"renderer": "minecraft:base"` and `"alwaysInHand": true`
+- GUI rotation `[40.96, -29.63, 159.66]` matches Epic Fight's original glove
 
 ---
 
