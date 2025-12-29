@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"netherdepthsupgrade:lava_pufferfish",
+		"netherdepthsupgrade:glowdine",
+		"netherdepthsupgrade:soulsucker",
+		"netherdepthsupgrade:obsidianfish",
+		"netherdepthsupgrade:bonefish",
+		"netherdepthsupgrade:wither_bonefish",
+		"netherdepthsupgrade:fortress_grouper",
+		"netherdepthsupgrade:eyeball_fish",
+		"netherdepthsupgrade:blazefish",
+		"netherdepthsupgrade:searing_cod",
+		"netherdepthsupgrade:magmacubefish",
+		"netherdepthsupgrade:blazefish_slice",
+		"netherdepthsupgrade:glowdine_slice",
+		"netherdepthsupgrade:lava_pufferfish_slice",
+		"netherdepthsupgrade:magmacubefish_slice",
+		"netherdepthsupgrade:obsidianfish_slice",
+		"netherdepthsupgrade:searing_cod_slice",
+		"netherdepthsupgrade:soulsucker_slice"
+	]
+}
