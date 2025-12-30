@@ -7,7 +7,9 @@
     "WanderingTraderSpawnerMixin"
   ],
   "client": [
-    "client.EpicFightKeyMappingsMixin"
+    "client.EpicFightKeyMappingsMixin",
+    "client.KeyBindsListMixin",
+    "client.ControllingKeyBindsListMixin"
   ],
   "injectors": {
     "defaultRequire": 1
