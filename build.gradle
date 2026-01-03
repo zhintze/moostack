@@ -199,7 +199,9 @@ dependencies {
 
     // Generic Dependencies
     implementation "curse.maven:geckolib-388172:6659026"
+    implementation "curse.maven:azurelib-817423:7070757"  // AzureLib 2.x for samurai_cosmetics (Epic Fight compatible)
     implementation "curse.maven:balm-531761:6447094"
+    implementation "curse.maven:default-options-232131:6972485" // Ship default keybinds/options
     implementation "curse.maven:resourcefulconfig-714059:5808466" //betterarcnheology
     implementation "curse.maven:playeranimator-658587:6024462" //irons spellbooks
     implementation "curse.maven:prism-638111:5625115" //legendary tooltip
@@ -276,7 +278,7 @@ dependencies {
     implementation "blank:adastramekanized-1.0.0"
     implementation "blank:exchangers-3.6.0"
     implementation "blank:equestriansdelight-1.0.0"
-    implementation "blank:horsestats-1.0.0"
+    implementation "blank:horsestats-1.1.0"
     implementation "blank:stronger_leads-1.0.1"
     implementation "blank:constructionwand-1.21.1-2.12"
 
@@ -363,8 +365,8 @@ dependencies {
 
     implementation "curse.maven:prickle-1023259:6546240" //attribute fix (replaces AttributeFix)
 
-    implementation "curse.maven:whatAreTheyUpTo-945479:6418577"
-    implementation "curse.maven:coroUtil-237749:5622966" //whatAreTheyUpTo dependency
+    //implementation "curse.maven:whatAreTheyUpTo-945479:6418577"
+    //implementation "curse.maven:coroUtil-237749:5622966" //whatAreTheyUpTo dependency
 
     implementation "curse.maven:villagerNames-345854:6184882"
     implementation "curse.maven:villagerHat-501456:5640259"
@@ -434,6 +436,15 @@ dependencies {
     implementation "curse.maven:megaCells-622112:6633684"
     //---- END Applied Energistics 2 ----//
 
+    implementation "curse.maven:cosmeticarmorreworked-237307:5610814"
+    implementation "blank:samurai_dynasty-1.0.0"
+
+    // Epic Knights Armor (armor only - weapons/shields hidden via KubeJS)
+    // Local builds with metal unification: removed steel/bronze/tin items, uses Mekanism metals via tags
+    // Small plates produced via Create pressing from #c:nuggets/*
+    implementation "blank:epic-knights-1.21.1-neoforge-10.2"
+    implementation "blank:epic-knights-addon-2.1-1.21.1-neoforge"
+    implementation "blank:epic-knights-antique-legacy-1.21.1-neoforge-1.12"
 
     //---- Ars Nouveau ----//
     implementation "blank:ars_nouveau-1.21.1-5.10.4" //use local jar to reduce loot rates
@@ -451,11 +462,16 @@ dependencies {
     implementation "curse.maven:mobgrindingutils-254241:6588170"
     implementation "curse.maven:betterArcheology-835687:6423649"
 
-    implementation "curse.maven:immersiveAircraft-666014:6992093"
+    implementation "curse.maven:repurposedStructures-368293:6797352"
+
+    implementation "blank:immersive_aircraft-1.4.1+1.21.1-createtextures"
     implementation "curse.maven:createImmersiveAircraft-1352665:7031059"
     implementation "curse.maven:createEnchantment-688768:7216917"
     implementation "curse.maven:createDragonsPlus-1216624:7231493"
     implementation "curse.maven:createslicendice-659674:7162937"
+    //implementation "blank:create_mixed_casing-1.21.1-1.1.0"
+
+    implementation "blank:immersive_gambling-1.0.0"
 
 
     //---- Mystical Agriculture ----//
@@ -479,6 +495,8 @@ dependencies {
     // MOBS
     implementation "blank:endermanoverhaul-neoforge-1.21.1-2.0.2" // local build with spawn placement fix (Operation.REPLACE)
     //implementation "curse.maven:choccosmobs-1192171:7099778" requires 1.21.4
+
+    implementation "blank:MultiblockProjector-1.21.1-1.0.0.homebaked"
 
 
 }

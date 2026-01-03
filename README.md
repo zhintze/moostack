@@ -305,6 +305,105 @@ Combine gun oil with VPB weapon in crafting grid to restore condition.
 - Javelin missiles
 - Hand grenades, 20mm/40mm grenades
 
+---
+
+## Immersive Gambling
+
+A gambling mod featuring slot machines and blackjack tables with full Immersive Engineering integration for coin minting.
+
+### Gambling Machines
+
+**Slot Machine:**
+- Place on the ground to use
+- Right-click with coins to gamble
+- 4-tier win system with Animated Java animations
+- Tier-scaled sounds, particles, and celebration duration
+
+**Slot Machine Win Rates:**
+| Tier | Symbol | Chance | Payout |
+|------|--------|--------|--------|
+| 4 (Jackpot) | 777 | 0.2% | 3x payouts over 6 seconds |
+| 3 (Large) | LEMON | 1.0% | 2x payouts over 3.75 seconds |
+| 2 (Medium) | CHERRY/PLUM | 6.0% | 1x payout over 2.25 seconds |
+| 1 (Small) | BAR | 12.0% | 1x payout over 1.25 seconds |
+| 0 (Loss) | - | 80.8% | No payout |
+
+**Blackjack Table:**
+- Classic blackjack gameplay
+- Right-click to hit, sneak + right-click to stand
+- Bet stacking supported (place entire stack on bet spot)
+- Payouts: Normal win 2x, Blackjack 2.5x (3:2 odds)
+
+**Client Configuration:**
+| Option | Description |
+|--------|-------------|
+| Hide Dealer Chatter | Hides random dealer dialogue messages |
+| Hide Card Dealt | Hides "Card Dealt:" notifications |
+
+Important messages (dealer bust, bet errors, confirmations) always display.
+
+### Coin Minting System
+
+A 3-stage industrial process using Immersive Engineering machines:
+
+**Stage 1: Blanking (Metal Press)**
+| Input | Mold | Output | Energy |
+|-------|------|--------|--------|
+| Copper Ingot | Blank Mold | 4x Copper Blank | 1200 FE |
+| Nickel Ingot | Blank Mold | 4x Nickel Blank | 1200 FE |
+| Silver Ingot | Blank Mold | 4x Silver Blank | 1200 FE |
+
+**Stage 2: Annealing (Alloy Kiln)**
+| Input 1 | Input 2 | Output | Time |
+|---------|---------|--------|------|
+| Copper Blank | Coke Dust | Annealed Copper Blank | 100 ticks |
+| Nickel Blank | Coke Dust | Annealed Nickel Blank | 100 ticks |
+| Silver Blank | Coke Dust | Annealed Silver Blank | 100 ticks |
+
+Annealed blanks display an enchantment glint effect.
+
+**Stage 3: Stamping (Metal Press)**
+| Input | Die | Output | Energy |
+|-------|-----|--------|--------|
+| Annealed Copper Blank | Copper Coin Die | Copper Coin | 800 FE |
+| Annealed Nickel Blank | Nickel Coin Die | Nickel Coin | 800 FE |
+| Annealed Silver Blank | Silver Coin Die | Silver Coin | 800 FE |
+
+### Tooling (Blueprint Recipes)
+
+All molds and dies are crafted at the Engineer's Workbench using the Molds blueprint:
+
+| Tool | Recipe | Durability |
+|------|--------|------------|
+| Blank Mold | 3x Steel Plate + Wirecutter | - |
+| Copper Coin Die | 3x Steel Plate + Wirecutter | 1000 uses |
+| Nickel Coin Die | 3x Steel Plate + Wirecutter | 1000 uses |
+| Silver Coin Die | 3x Steel Plate + Wirecutter | 1000 uses |
+
+### Machine Crafting
+
+**Slot Machine:**
+```
+i t i
+g b g
+i r i
+```
+- i = Iron Block
+- t = Electronic Component (IE)
+- g = Gold Block
+- b = Bell
+- r = Redstone
+
+**Blackjack Table:**
+```
+f f f
+w g w
+w w w
+```
+- f = Green Wool
+- w = Any Planks
+- g = Gold Block
+
 ### Farming & Food
 - Croptopia (customized)
 - Farmer's Delight + Extra Delight
@@ -1333,10 +1432,12 @@ Available via `/equestriansdelight`:
 | `exchangers-3.6.0.jar` | Updated to 1.21.1 for this modpack |
 | `stronger_leads-1.0.1.jar` | Customizable lead length/strength: craft leads with string (+2 length per string, max +8), iron ingots (+2 constrain per ingot), or shears (-2 length). Reinforced leads have increased break distance. JEI integration shows upgrade recipes. Updated to NeoForge 1.21.1. |
 | `createoplenty-2.0.0.jar` | Create + BOP integration: 3 custom sandpapers (black/orange/white sand), 50+ KubeJS recipes for crushing/milling/mixing/compacting BOP materials, heated mixing for thermal calcite and rose quartz, 13 BOP stripped log types tagged for andesite casing |
+| `immersive_gambling-1.0.0.jar` | Gambling machines with IE integration: Slot machine (4-tier wins with Animated Java animations), blackjack table, 3-stage coin minting system (Metal Press + Alloy Kiln), blueprint recipes for molds/dies, configurable dealer chatter |
 | `Aquaculture-1.21.1-2.7.17.jar` | Silent Gear integration: SG fishing rods work with tackle box (hooks, bait, line, bobber), entity replacement system for hook effects, ROD_INVENTORY data component with network sync, hook tooltips always visible (no shift required), fish fillet cutting board recipes for JEI |
 | `silent-gear-1.21.1-neoforge-4.0.30.jar` | Massive material expansion: 450+ materials from ChemLib/Mekanism/Ad Astra/IE/PNC integration, 6 new tier 7 ultimate materials (Super Mixer + Starlight Charger), custom "saucy" trait for food coatings, thematic trait distribution (radioactive/FE/elemental), Aquaculture fishing rod integration, cast texture support, **Glove fist weapon** (3D cube model, Epic Fight fist moveset with 20% armor negation, reduced invuln frames for combo attacks) |
 | `silent-lib-1.21.1-neoforge-10.5.1.jar` | Required dependency for Silent Gear |
-| `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. Tower spawn rate reduced ~2x (spacing 26→52, separation 18→32). |
+| `Apotheosis-1.21.1-8.4.1.jar` | Silent Gear loot integration: ALL Apotheosis loot drops generate Silent Gear items instead of vanilla gear. 8-tier material system (BASIC through ULTIMATE) mapped to Apotheosis world tiers (HAVEN through PINNACLE). Items receive both SG material traits AND Apotheosis affixes. Higher rarities generate more complete gear parts (tip, binding, grip, coating). 145+ materials supported from SG Core, ChemLib, Mekanism, Ad Astra, IE, Create, Aquaculture, Butchercraft. Mob equipment uses dynamic SG gear generation. Tower spawn rate reduced ~2x (spacing 26→52, separation 18→32). **Boss Summoner recipe added:** 6 Gem Dust + 1 Uncommon Material + 1 Rare Material + 1 Eye of Ender. |
+| `MultiblockProjector-1.21.1-1.0.0.homebaked.jar` | Universal multiblock projection tool: ghost block projections for any mod's multiblocks (IE, Mekanism, etc.), real-time validation with correct/incorrect block feedback, rotation & mirroring controls, auto-completion detection. Right-click to select structure, aim and left-click to place projection, build to match. Ported from ImmersivePetroleum and enhanced for universal compatibility. |
 
 ---
 
@@ -1518,6 +1619,90 @@ textures/item/glove/
 **Epic Fight Integration:**
 - `item_skins/glove.json` with `"renderer": "minecraft:base"` and `"alwaysInHand": true`
 - GUI rotation `[40.96, -29.63, 159.66]` matches Epic Fight's original glove
+
+---
+
+## Samurai Dynasty Armor Integration
+
+### Overview
+
+mooStack integrates the Samurai Dynasty mod's 3D armors with Epic Fight's combat system. All 96 armor pieces render correctly in both vanilla mode (via AzureLib) and Epic Fight battle mode (via custom animmodels).
+
+### Epic Fight Animmodel Support
+
+Epic Fight uses a separate model format (animmodels) for rendering armor during combat animations. These models are located at:
+
+```
+assets/samurai_dynasty/animmodels/armor/<item_name>.json
+```
+
+**Animmodel Format:**
+- `vertices`: positions, uvs, normals, indices, vcounts, weights, vindices
+- `render_properties.texture_path`: texture reference (e.g., `samurai_dynasty:textures/models/armor/...`)
+
+### Armor Categories
+
+| Category | Count | Examples |
+|----------|-------|----------|
+| Samurai Armor Sets | 68 | Iron, Diamond, Netherite, Amethyst, Quartz, Neptunium, etc. |
+| Ninja Armor Sets | 20 | Iron, Gold, Diamond, Steel, Netherite variants |
+| Steel Armor | 4 | Steel helmet, chestplate, leggings, boots |
+| Headwear/Masks | 7 | Straw Hat, Mask+Straw Hat, Kitsune Mask, Oni Mask, Masked Samurai Helmets |
+| Cosmetics | 1 | Kimono |
+
+### Headwear Items
+
+Special headpieces with Epic Fight animmodel support:
+
+| Item | Description | Animmodel |
+|------|-------------|-----------|
+| `straw_hat` | Simple conical straw hat | `straw_hat.json` |
+| `mask_straw_hat` | Straw hat with integrated face mask | `mask_straw_hat.json` |
+| `kitsune_mask` | Japanese fox mask | `kitsune_mask.json` |
+| `oni_mask` | Demon mask | `oni_mask.json` |
+| `mask_amethyst_samurai_helmet` | Amethyst helmet with mask | `mask_amethyst_samurai_helmet.json` |
+| `mask_netherite_samurai_helmet` | Netherite helmet with mask | `mask_netherite_samurai_helmet.json` |
+| `mask_quartz_samurai_helmet` | Quartz helmet with mask | `mask_quartz_samurai_helmet.json` |
+
+### Epic Fight Capabilities
+
+Armor capabilities define Epic Fight combat attributes and are located at:
+
+```
+data/samurai_dynasty/capabilities/armors/<item_name>.json
+```
+
+**Capability Format:**
+```json
+{
+    "attributes": {
+        "stun_armor": 0.0,
+        "weight": 0.5
+    }
+}
+```
+
+- `stun_armor`: Resistance to stun attacks
+- `weight`: Affects movement speed and stamina in combat
+
+### Namespace Configuration
+
+**Critical:** Epic Fight looks for animmodels using the item's mod namespace:
+
+```
+assets/<mod_namespace>/animmodels/armor/<item_registry_name>.json
+```
+
+For `samurai_dynasty:mask_straw_hat`, Epic Fight expects:
+- Animmodel: `assets/samurai_dynasty/animmodels/armor/mask_straw_hat.json`
+- Capability: `data/samurai_dynasty/capabilities/armors/mask_straw_hat.json`
+
+### Technical Notes
+
+- AzureLib handles 3D armor rendering in vanilla/non-combat mode using `.geo.json` models
+- Epic Fight overrides rendering during combat using animmodels
+- Both systems work independently - no explicit swapping code needed
+- Textures are shared between both systems at `textures/models/armor/`
 
 ---
 
