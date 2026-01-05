@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "58B828B79F7FC742"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "E6B90D2298857756"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "072C41A99E2504F3"
+			min_width: 300
+			rewards: [{
+				id: "33F4E0C1CEBB374D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "E252876DAA6132F0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["072C41A99E2504F3"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "8D100C8019C03219"
+			rewards: [
+				{
+					id: "7F352003139301A9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "7F352003139301AA"
+					item: {
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "115524A8FE9EE5FB"
+					item: {
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "115524A8FE9EE5FC"
+					item: {
+						id: "minecraft:barrel"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8D100C8019C03219"]
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "4E969D2B183D3F61"
+			rewards: [
+				{
+					id: "9BF8877A302FD540"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "64AA7AFDF9861F74"
+				item: {
+					id: "sophisticatedstorage:chest"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E969D2B183D3F61"]
+			icon: {
+				id: "sophisticatedstorage:stack_upgrade_tier_1"
+			}
+			id: "78B0EB0D04E98822"
+			rewards: [
+				{
+					id: "AEA8993BA801FC17"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "AEA8993BA801FC18"
+					item: {
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "ACA6FD4A61B465B9"
+				item: {
+					id: "sophisticatedstorage:stack_upgrade_tier_1"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["072C41A99E2504F3"]
+			icon: {
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			id: "36A55E92F25E26BB"
+			rewards: [
+				{
+					id: "18758BA3F8C4E2E1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "27564B88B63EBAAE"
+				item: {
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8D100C8019C03219"]
+			icon: {
+				id: "storagedrawers:oak_full_drawers_1"
+			}
+			id: "113C1C50C2ABC533"
+			rewards: [
+				{
+					id: "92AF00CD3468D13A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "92AF00CD3468D13B"
+					item: {
+						id: "storagedrawers:upgrade_template"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C4D67E89B0EFCA6"
+				item: {
+					id: "storagedrawers:oak_full_drawers_1"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E969D2B183D3F61", "113C1C50C2ABC533"]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "D01D59B9649F59EB"
+			min_width: 280
+			rewards: [{
+				id: "22F67DA01845317B"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "401DADB91D0FA93E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78B0EB0D04E98822", "36A55E92F25E26BB", "D01D59B9649F59EB"]
+			icon: {
+				id: "minecraft:ender_chest"
+			}
+			id: "187CFA2F69AF6CF3"
+			rewards: [{
+				id: "C11B839FBFACDD20"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7C8FC671407BE280"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

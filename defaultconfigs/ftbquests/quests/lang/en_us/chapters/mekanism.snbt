@@ -1,0 +1,40 @@
+{
+	quest.36B4BC178AC9644B.title: "Getting Started with Mekanism"
+	quest.36B4BC178AC9644B.quest_desc: ["&6Mekanism Basics&r\\n\\nMekanism is THE tech mod for ore processing and chemical systems.\\n\\nStart by crafting:\\n- &eSteel Casing&r: Core of most machines\\n- &eBasic Energy Cube&r: Power storage\\n\\nSteel requires the Metallurgic Infuser (coal + iron). This is the canonical steel source in mooStack!\\n\\n&7Tip: Osmium ore is Mekanism-specific. Mine it for advanced recipes!&r"]
+	quest.7FEE8AC0A192B22D.title: "Basic Ore Processing (2x)"
+	quest.7FEE8AC0A192B22D.quest_desc: ["&6Double Your Ores!&r\\n\\nThe &eEnrichment Chamber&r doubles ore output:\\n\\nRaw Iron -> 2x Enriched Iron -> Smelt -> 2 Iron Ingots\\n\\nThis is your first ore multiplication. Essential for resource efficiency!\\n\\nPower it with an Energy Cube and generators."]
+	quest.DB7147B5F5DF8904.title: "Advanced Ore Processing"
+	quest.DB7147B5F5DF8904.quest_desc: ["&6Ore Processing Tiers&r\\n\\n- &a2x&r: Enrichment Chamber (ore -> enriched)\\n- &a3x&r: + Purification Chamber (ore -> clump -> dirty dust)\\n- &a4x&r: + Chemical Injection Chamber\\n- &a5x&r: + Chemical Dissolution Chamber\\n\\nEach tier requires more machines but yields more ingots per ore!\\n\\nSubmit an iron clump to prove 3x processing."]
+	quest.4600FA2CD5E0AB42.title: "Factory Automation"
+	quest.4600FA2CD5E0AB42.quest_desc: ["&6Factories Scale Production!&r\\n\\nFactories process multiple items simultaneously:\\n\\n- &aBasic&r: 3 slots\\n- &aAdvanced&r: 5 slots\\n- &aElite&r: 7 slots\\n- &aUltimate&r: 9 slots\\n\\nUpgrade machines using Tier Installers, or craft factories directly.\\n\\nSubmit an Elite Enriching Factory to prove scaling!"]
+	quest.B7196648754B2FAA.title: "Essential Machines"
+	quest.B7196648754B2FAA.quest_desc: ["&eKey Mekanism Machines&r\\n\\n&eMetallurgic Infuser&r:\\n- Infuses materials (coal + iron = steel)\\n- Critical for circuits and alloys\\n\\n&ePrecision Sawmill&r:\\n- 6 planks per log + sawdust\\n- Sawdust is useful for bio-fuel\\n\\nBoth are workhorses for your factory!"]
+	quest.D86C02948E87A769.title: "Chemical Basics"
+	quest.D86C02948E87A769.quest_desc: ["&6Chemical Processing&r\\n\\nMekanism handles gases and chemicals:\\n\\n&eChemical Oxidizer&r: Solid -> Gas\\n&eChemical Infuser&r: Gas + Gas -> Gas\\n&eRotary Condensentrator&r: Gas <-> Fluid\\n\\nMake &eSulfuric Acid&r:\\n1. Sulfur dust -> Sulfur Dioxide (Oxidizer)\\n2. Sulfur Dioxide + Oxygen -> Sulfur Trioxide (Infuser)\\n3. Sulfur Trioxide + Water Vapor -> Sulfuric Acid\\n\\nSubmit a bucket of sulfuric acid!"]
+	quest.0FEDB7EF59B1E3CF.title: "Mekanism Logistics"
+	quest.0FEDB7EF59B1E3CF.quest_desc: ["&6Mekanism Pipes&r\\n\\n- &eLogistical Transporter&r: Items (configurable routing!)\\n- &eMechanical Pipe&r: Fluids\\n- &ePressurized Tube&r: Gases\\n- &eUniversal Cable&r: Power\\n- &eThermodynamic Conductor&r: Heat\\n\\nTransporters are especially powerful - they can filter, sort, and route items intelligently!"]
+	quest.6ED2CFC4D846E972.title: "Power Options"
+	quest.6ED2CFC4D846E972.quest_desc: ["&6Mekanism Power Generation&r\\n\\n&eHeat Generator&r: Burns fuel, lava passive\\n&eSolar Generator&r: Daylight power\\n&eWind Generator&r: Y-level based, higher = more\\n&eAdvanced Solar&r: Better solar\\n&eGas-Burning Generator&r: Burns gases (ethylene!)\\n\\nFor serious power, build the Industrial Turbine or reactors later!"]
+	quest.77AD5481B4A30205.title: "Digital Miner"
+	quest.77AD5481B4A30205.quest_desc: ["&6Automated Mining!&r\\n\\nThe &eDigital Miner&r automatically mines in a configurable area.\\n\\nFeatures:\\n- Set filters for specific ores\\n- Inverse mining (leave blocks behind)\\n- Silk touch mode\\n- Fortune mode\\n\\nPower-hungry but extremely efficient. Configure via GUI!"]
+	quest.F6B9AF48A6F8FA8A.title: "Atomic Disassembler"
+	quest.F6B9AF48A6F8FA8A.quest_desc: ["&6The Ultimate Multi-Tool!&r\\n\\nThe &eAtomic Disassembler&r is a powered all-in-one tool:\\n\\n- Mines all block types\\n- Configurable mining modes (normal/vein/extended vein)\\n- Melee weapon\\n- Hoe function\\n\\nCharge it in an Energy Cube. Never carry multiple tools again!"]
+	quest.7C68DF660D49746C.title: "Osmium Processing"
+	quest.7C68DF660D49746C.quest_desc: ["&eOsmium&r is Mekanism's unique resource.\\n\\nMine osmium ore (generates like iron) and process it. Used in:\\n- Circuits (basic/advanced/elite/ultimate)\\n- Machine frames\\n- Advanced components\\n\\nAlways keep a good supply - you'll need lots!"]
+	quest.6B6CBBDC58679805.title: "Advanced Chemistry"
+	quest.6B6CBBDC58679805.quest_desc: ["&6Chemical Mastery&r\\n\\nAdvanced chemical processing unlocks:\\n\\n- &eHydrogen Chloride&r: For 4x processing\\n- &eEthylene&r: Powerful generator fuel\\n- &eLithium&r: For tritium/fusion\\n- &eSodium&r: Chemical reactions\\n\\nMaster the Chemical Infuser and Dissolution Chamber to produce these!"]
+	task.97BD37FD1FCDD63A.title: "Advanced Chemistry"
+	quest.063DB1834251EB64.title: "Uranium and Nuclear"
+	quest.063DB1834251EB64.quest_desc: ["&6Nuclear Power (Future)&r\\n\\nUranium processing leads to nuclear power:\\n\\n1. Uranium Ore -> Yellow Cake Uranium\\n2. Yellow Cake -> Uranium Pellets\\n3. Pellets -> Fission Fuel\\n\\n&cFission Reactors&r can melt down if mismanaged!\\n&aFusion Reactors&r are the ultimate power source.\\n\\n&7Nuclear content is advanced - this is just an introduction!&r"]
+	task.90A20F1C39D905E1.title: "Nuclear Basics"
+	quest.84B78F08E310DFA8.title: "Gas Networks"
+	quest.84B78F08E310DFA8.quest_desc: ["&6Piping Gases and Fluids&r\\n\\n&ePressurized Tubes&r carry gases between machines. Essential for chemical processing chains.\\n\\n&eMechanical Pipes&r carry fluids. Can be configured with Configurator.\\n\\nBoth support pull/push modes. Use the Configurator tool (right-click) to set modes!"]
+	quest.EA4D7EA08D4E9AEA.title: "Quantum Entangloporter"
+	quest.EA4D7EA08D4E9AEA.quest_desc: ["&6Cross-Dimension Transport!&r\\n\\nThe &eQuantum Entangloporter&r transfers items, fluids, gases, and power across ANY distance - even dimensions!\\n\\nSet a frequency on each entangloporter. Matching frequencies share inventory.\\n\\nPerfect for:\\n- Base-to-base transport\\n- Dimension resource sharing\\n- Remote power delivery"]
+	quest.1E50AF250453D946.title: "Machine Upgrades"
+	quest.1E50AF250453D946.quest_desc: ["&6Upgrade Your Machines!&r\\n\\nUpgrade types:\\n- &eSpeed&r: Faster processing\\n- &eEnergy&r: Lower power use\\n- &eMuffling&r: Quieter operation\\n- &eGas&r: Better gas efficiency\\n\\nMost machines accept up to 8 of each type. Speed upgrades increase power draw!"]
+	quest.684C018AD425996B.title: "Energy Cube Tiers"
+	quest.684C018AD425996B.quest_desc: ["&6Power Storage Scaling&r\\n\\nEnergy Cube tiers:\\n- &aBasic&r: 4M FE\\n- &aAdvanced&r: 16M FE\\n- &aElite&r: 64M FE\\n- &aUltimate&r: 256M FE\\n\\nHigher tiers also transfer power faster. Upgrade with Tier Installers or craft directly!"]
+	quest.A193CD4B7DA4A3E6.title: "Mekanism Mastery"
+	quest.A193CD4B7DA4A3E6.quest_desc: ["&aMekanism Mastery Achieved!&r\\n\\nYou now understand:\\n- Ore processing (2x-5x)\\n- Factory automation\\n- Chemical processing\\n- Logistics networks\\n- Power generation\\n- Advanced tools\\n\\nThe &eUltimate Control Circuit&r represents full Mekanism mastery.\\n\\n&7Future content: Fission/Fusion reactors, MekaSuit armor, Robit!&r"]
+}

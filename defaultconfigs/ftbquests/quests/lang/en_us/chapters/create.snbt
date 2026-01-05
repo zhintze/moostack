@@ -1,0 +1,42 @@
+{
+	quest.246D72E640A9CC04.title: "Understanding Rotation"
+	quest.246D72E640A9CC04.quest_desc: ["&6Create Mod Basics&r\\n\\nCreate uses &eRotational Power&r measured in Stress Units (SU).\\n\\nKey concepts:\\n- &aRPM&r: Speed of rotation (faster = more processing)\\n- &aStress&r: Load on your system (machines consume SU)\\n- &aTorque&r: Power available (generators produce SU)\\n\\nConnect machines with &eshafts&r and &ecogwheels&r. Use &egearboxes&r to change speed/torque ratios.\\n\\nThe &eGoggles&r item shows stress information when worn!"]
+	task.7C52AD945F492551.title: "Rotation Basics"
+	quest.073BABDD7469E490.title: "Water Wheel Power"
+	quest.073BABDD7469E490.quest_desc: ["The &eWater Wheel&r is your first reliable power source.\\n\\nPlace it so water flows against the paddles. More water contact = more power!\\n\\n&7Tip: A 3-wide water stream on one side provides excellent power.&r"]
+	quest.01D4E0A3A330A93B.title: "Hand Crank Basics"
+	quest.01D4E0A3A330A93B.quest_desc: ["The &eHand Crank&r provides manual power for testing setups.\\n\\nRight-click to generate rotation. Useful for:\\n- Testing machine connections\\n- Powering single machines temporarily\\n- Early game before water wheels"]
+	quest.28D012CD89BE1C67.title: "Windmill Power"
+	quest.28D012CD89BE1C67.quest_desc: ["The &eWindmill Bearing&r creates powerful wind generators.\\n\\nAttach sail-like blocks (wool, sails) in a fan pattern. Larger windmills = more power!\\n\\nRight-click the bearing to start rotation. Windmills work anywhere with open sky."]
+	quest.ED52C5F4FE9574C2.title: "The Millstone"
+	quest.ED52C5F4FE9574C2.quest_desc: ["The &eMillstone&r is basic processing - crushing items.\\n\\nUseful for:\\n- Wheat -> Flour\\n- Bone -> Bone Meal\\n- Ores -> Crushed Ore (early ore doubling!)\\n\\nFaster than the Crushing Wheels but less versatile."]
+	quest.48FF9390AAC2E51C.title: "Mechanical Press"
+	quest.48FF9390AAC2E51C.quest_desc: ["&6CRITICAL: The Mechanical Press&r\\n\\nThe press is essential for mooStack! It creates:\\n- &eIron Sheets&r (canonical source!)\\n- &eCopper Sheets&r (canonical source!)\\n- Other plates and compressed items\\n\\nPlace above a &eDepot&r or &eBelt&r. The press activates automatically when items are below it."]
+	quest.5EB7135102C3174E.title: "Basin Mixing"
+	quest.5EB7135102C3174E.quest_desc: ["The &eBasin&r holds items and fluids for mixing recipes.\\n\\nPlace items/fluids in the basin, then use a Mechanical Mixer above it to combine them.\\n\\nEssential for:\\n- Andesite Alloy\\n- Brass\\n- Many other alloys and compounds"]
+	quest.A3A93C948F4BE7EB.title: "Mechanical Mixer"
+	quest.A3A93C948F4BE7EB.quest_desc: ["The &eMechanical Mixer&r combines items in a Basin.\\n\\nPlace above a Basin and provide rotation. The mixer automatically processes valid recipes.\\n\\n&7Tip: Higher RPM = faster mixing!&r"]
+	quest.C71F27CD5D190BDD.title: "Shafts and Belts"
+	quest.C71F27CD5D190BDD.quest_desc: ["&6Power Transmission&r\\n\\n&eShafts&r: Transfer rotation in a straight line\\n&eCogwheels&r: Transfer at 90 degrees, can change speed\\n&eBelts&r: Connect pulleys, also transport items!\\n&eGearboxes&r: Change rotation direction and speed ratios\\n\\nBelts are especially useful - they move items AND transmit power!"]
+	quest.72D5D7901C1725ED.title: "Funnels and Chutes"
+	quest.72D5D7901C1725ED.quest_desc: ["&6Item Logistics&r\\n\\n&eFunnels&r: Insert/extract items from inventories\\n- Brass funnels can be filtered\\n- Andesite funnels are cheaper but unfiltered\\n\\n&eChutes&r: Vertical item transport\\n- Items fall down naturally\\n- Can be powered to push items up"]
+	quest.3CED4646A855A768.title: "The Deployer"
+	quest.3CED4646A855A768.quest_desc: ["The &eDeployer&r simulates player actions!\\n\\nPlace an item in its filter slot - it will 'use' that item on blocks/entities in front of it.\\n\\nEssential for:\\n- Sequenced Assembly recipes\\n- Automated crafting\\n- Block placement/breaking"]
+	quest.92AAEA70995DA805.title: "Mechanical Crafting"
+	quest.92AAEA70995DA805.quest_desc: ["&eMechanical Crafters&r enable automation of crafting recipes.\\n\\nArrange crafters in a grid matching the recipe shape. Connect them with the wrench.\\n\\nPlace ingredients in each crafter, provide rotation, and the recipe completes automatically!\\n\\n&7Tip: A 3x3 grid handles most recipes.&r"]
+	quest.BE3A2B63A4AC45BB.title: "Sequenced Assembly"
+	quest.BE3A2B63A4AC45BB.quest_desc: ["&6Sequenced Assembly&r is Create's advanced crafting.\\n\\nItems pass through multiple machines in sequence:\\n1. Press\\n2. Deployer\\n3. Spout\\n4. etc.\\n\\nThe &ePrecision Mechanism&r is your first sequenced recipe - required for advanced Create machines!"]
+	quest.109BECC9EAAE866E.title: "Spout Filling"
+	quest.109BECC9EAAE866E.quest_desc: ["The &eSpout&r precisely dispenses fluids onto items.\\n\\nConnect a fluid tank above (or pipe fluids in) and place items below on a depot or belt.\\n\\nUsed in:\\n- Sequenced Assembly\\n- Filling bottles/buckets\\n- Fluid-based crafting"]
+	quest.B023C2FB495B4A10.title: "Contraptions"
+	quest.B023C2FB495B4A10.quest_desc: ["&6Moving Contraptions&r\\n\\nCreate can build moving structures!\\n\\n&eMechanical Pistons&r: Push/pull structures\\n&eBearings&r: Rotate structures\\n&eCart Assemblers&r: Mobile contraptions on rails\\n\\nAttached inventories, machines, and even passengers move with the contraption!\\n\\nExperiment with small builds first."]
+	task.6FD1A9A62212BF9C.title: "Contraption Basics"
+	quest.9E730777559A6A4C.title: "Create Power Conversion"
+	quest.9E730777559A6A4C.quest_desc: ["&6RF/FE Integration&r\\n\\nCreate's rotation can convert to/from RF power!\\n\\n&eAlternator&r: Rotation -> RF\\n&eElectric Motor&r: RF -> Rotation\\n\\nThis bridges Create with Mekanism, IE, and other tech mods.\\n\\n&7Note: Conversion ratios vary - check JEI for specifics.&r"]
+	task.C6596FA12E80ABCC.title: "Power Conversion"
+	quest.73AF02F444F9CA06.title: "Brass Alloy"
+	quest.73AF02F444F9CA06.quest_desc: ["&eBrass&r is Create's advanced material.\\n\\nCraft by mixing in a Basin:\\n- Copper Ingot\\n- Zinc Ingot\\n\\nBrass is used for:\\n- Advanced machines (deployer, crafter)\\n- Brass funnels and tunnels\\n- Precision mechanisms"]
+	quest.F4E43E9043A2051E.title: "Create Mastery"
+	quest.F4E43E9043A2051E.quest_desc: ["&aCreate Mastery Achieved!&r\\n\\nYou now understand:\\n- Rotational power generation\\n- Sheet production (canonical for mooStack!)\\n- Mixing and processing\\n- Sequenced assembly\\n- Power conversion\\n\\nCreate integrates with almost every mod in mooStack. Use it for:\\n- IE fluid transport\\n- Mekanism power bridging\\n- AE2 autocrafting\\n\\nContinue to the &eTechnology&r chapters for more!"]
+	task.4240AB6A938EB431.title: "Create Complete"
+}

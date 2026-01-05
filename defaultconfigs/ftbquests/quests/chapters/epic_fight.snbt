@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epic_fight"
+	group: "48EC47994FC72362"
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "2A7B4C9E1F3D8056"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "A1B2C3D4E5F67890"
+			rewards: [
+				{
+					id: "B2C3D4E5F6789012"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "C3D4E5F678901234"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F67890"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "D4E5F6789012345A"
+			min_width: 280
+			rewards: [
+				{
+					id: "E5F67890123456AB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "F6789012345678BC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D4E5F6789012345A"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "789012345678ABCD"
+			min_width: 280
+			rewards: [{
+				id: "89012345678ABCDE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "9012345678ABCDEF"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["D4E5F6789012345A"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "012345678ABCDEF0"
+			min_width: 300
+			rewards: [{
+				id: "12345678ABCDEF01"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2345678ABCDEF012"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["D4E5F6789012345A"]
+			icon: {
+				id: "minecraft:diamond_axe"
+			}
+			id: "345678ABCDEF0123"
+			min_width: 300
+			rewards: [{
+				id: "45678ABCDEF01234"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5678ABCDEF012345"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["012345678ABCDEF0"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "678ABCDEF0123456"
+			rewards: [{
+				id: "78ABCDEF01234567"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "8ABCDEF012345678"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 25L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["345678ABCDEF0123"]
+			icon: {
+				id: "minecraft:netherite_axe"
+			}
+			id: "ABCDEF0123456789"
+			rewards: [{
+				id: "BCDEF0123456789A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "CDEF0123456789AB"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 25L
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F67890"]
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "DEF0123456789ABC"
+			min_width: 280
+			rewards: [{
+				id: "EF0123456789ABCD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "F0123456789ABCDE"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["DEF0123456789ABC"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "0123456789ABCDEF"
+			rewards: [{
+				id: "123456789ABCDEF0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "23456789ABCDEF01"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A1B2C3D4E5F67890"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "3456789ABCDEF012"
+			shape: "hexagon"
+			rewards: [
+				{
+					id: "456789ABCDEF0123"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "56789ABCDEF01234"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3456789ABCDEF012"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "6789ABCDEF012345"
+			rewards: [{
+				id: "789ABCDEF0123456"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "89ABCDEF01234567"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6789ABCDEF012345"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "9ABCDEF012345678"
+			rewards: [{
+				id: "ABCDEF0123456789"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "BCDEF0123456789A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["678ABCDEF0123456"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "CDEF0123456789AB"
+			rewards: [{
+				id: "DEF0123456789ABC"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "EF0123456789ABCD"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["789012345678ABCD"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "F0123456789ABCDE"
+			min_width: 280
+			rewards: [{
+				id: "0123456789ABCDEF"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "123456789ABCDEF0"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"CDEF0123456789AB"
+				"9ABCDEF012345678"
+				"F0123456789ABCDE"
+				"0123456789ABCDEF"
+			]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "23456789ABCDEF01"
+			rewards: [{
+				id: "3456789ABCDEF012"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "456789ABCDEF0123"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

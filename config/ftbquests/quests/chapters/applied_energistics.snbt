@@ -1,0 +1,445 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "58B828B79F7FC742"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "DC9D6848B4CDA318"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "913D0D54210F10A8"
+			rewards: [
+				{
+					id: "D719EB6F5A0FC689"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "D719EB6F5A0FC68A"
+					item: {
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "D719EB6F5A0FC688"
+				item: {
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["913D0D54210F10A8"]
+			icon: {
+				id: "ae2:quartz_growth_accelerator"
+			}
+			id: "10DDB05887BA9F1C"
+			min_width: 280
+			rewards: [
+				{
+					id: "54F8EFC091FEBBD2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "54F8EFC091FEBBD1"
+				item: {
+					id: "ae2:quartz_growth_accelerator"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["913D0D54210F10A8"]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "867D4EE512A3F067"
+			rewards: [
+				{
+					id: "75400123C96706F0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "75400123C96706EF"
+				item: {
+					id: "ae2:inscriber"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["867D4EE512A3F067"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "9BE11FE6B66170A0"
+			min_width: 280
+			rewards: [
+				{
+					id: "563DA3C8123E22E0"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "563DA3C8123E22E1"
+					item: {
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "563DA3C8123E22DF"
+					item: {
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "563DA3C8123E22E2"
+					item: {
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "563DA3C8123E22E3"
+					item: {
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["9BE11FE6B66170A0"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "2948E6B53D0199B1"
+			shape: "hexagon"
+			size: 1.5d
+			rewards: [
+				{
+					id: "BFBA577BEBD755BE"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "BFBA577BEBD755BD"
+				item: {
+					id: "ae2:controller"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2948E6B53D0199B1"]
+			icon: {
+				id: "ae2:item_storage_cell_4k"
+			}
+			id: "2FBA7E8667CDFC80"
+			rewards: [
+				{
+					id: "EA2975353A00A89C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "EA2975353A00A89D"
+					item: {
+						id: "ae2:item_storage_cell_1k"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "EA2975353A00A89B"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2948E6B53D0199B1"]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "73C9253052AB8D16"
+			rewards: [
+				{
+					id: "10EA203CAF12CCE2"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "10EA203CAF12CCE1"
+					item: {
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					id: "10EA203CAF12CCE3"
+					item: {
+						id: "ae2:terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73C9253052AB8D16"]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			id: "92132038E9AA730A"
+			min_width: 300
+			rewards: [{
+				id: "48D03492E3B01F75"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "48D03492E3B01F74"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73C9253052AB8D16"]
+			icon: {
+				id: "ae2:import_bus"
+			}
+			id: "E21F3097A0095E3D"
+			rewards: [
+				{
+					id: "B27781E045DFDCC2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "B27781E045DFDCC1"
+					item: {
+						id: "ae2:import_bus"
+					}
+					type: "item"
+				}
+				{
+					id: "B27781E045DFDCC3"
+					item: {
+						id: "ae2:export_bus"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["73C9253052AB8D16"]
+			icon: {
+				id: "ae2:storage_bus"
+			}
+			id: "1AAAEB9F9359AFCB"
+			min_width: 280
+			rewards: [{
+				id: "B17F6866E9875AE7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "B17F6866E9875AE6"
+				item: {
+					id: "ae2:storage_bus"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["73C9253052AB8D16"]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			id: "CB8BCE3F7905F15D"
+			rewards: [
+				{
+					id: "A2D1C6DDBDB5B7A0"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "A2D1C6DDBDB5B7A1"
+					item: {
+						id: "ae2:blank_pattern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "A2D1C6DDBDB5B79F"
+					item: {
+						id: "ae2:pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					id: "A2D1C6DDBDB5B7A2"
+					item: {
+						id: "ae2:pattern_encoding_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["CB8BCE3F7905F15D"]
+			icon: {
+				id: "ae2:crafting_unit"
+			}
+			id: "D5B41C7ED77B33DE"
+			rewards: [
+				{
+					id: "B036399330BC859E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "B036399330BC859D"
+					item: {
+						id: "ae2:crafting_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "B036399330BC859F"
+					item: {
+						id: "ae2:1k_crafting_storage"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["D5B41C7ED77B33DE", "CB8BCE3F7905F15D"]
+			icon: {
+				id: "ae2:crafting_terminal"
+			}
+			id: "17C643AC50E75A2E"
+			min_width: 280
+			rewards: [{
+				id: "D3F772683AD3D7B1"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "D3F772683AD3D7B0"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2FBA7E8667CDFC80"]
+			icon: {
+				id: "ae2:fluid_storage_cell_4k"
+			}
+			id: "610CF2A9F2AF669E"
+			rewards: [
+				{
+					id: "5541B95587699EF9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "5541B95587699EF8"
+				item: {
+					id: "ae2:fluid_storage_cell_4k"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"17C643AC50E75A2E"
+				"E21F3097A0095E3D"
+				"610CF2A9F2AF669E"
+				"1AAAEB9F9359AFCB"
+			]
+			icon: {
+				id: "ae2:cell_workbench"
+			}
+			id: "9A3D335D2829E2A9"
+			rewards: [{
+				id: "B7200C8C195FFF79"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "B7200C8C195FFF78"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+}

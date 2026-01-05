@@ -1,0 +1,22 @@
+{
+	quest.7A8B9C0D1E2F3041.title: "Apotheosis Overview"
+	quest.7A8B9C0D1E2F3041.quest_desc: ["&6Apotheosis - Gear Empowerment!&r\\n\\nApotheosis overhauls multiple systems:\\n\\n&eEnchanting:&r Higher levels, better control\\n&eAffixes:&r Random gear modifiers (like Diablo!)\\n&eGems:&r Socket-able stat boosters\\n&eBosses:&r Challenging rare spawns\\n\\nCombines beautifully with Silent Gear!\\n\\n&7Find powerful loot from dangerous foes!&r"]
+	quest.0D1E2F3041526374.title: "Enhanced Enchanting"
+	quest.0D1E2F3041526374.quest_desc: ["&eEnchanting Overhaul!&r\\n\\nApotheosis improves enchanting:\\n\\n- Enchantments can exceed vanilla limits\\n- More control over what you get\\n- Special bookshelves for better results\\n- Treasure enchantments on the table\\n\\n&eBookshelves matter:&r\\n- Hellshelves (Nether)\\n- Seashelves (Ocean)\\n- Endshelves (End)\\n\\n&7Build the ultimate enchanting setup!&r"]
+	quest.30415263748596A7.title: "Affix System"
+	quest.30415263748596A7.quest_desc: ["&eAffixes - Random Modifiers!&r\\n\\nAffixed items drop from mobs with random bonuses:\\n\\n&aCommon&r: Minor stat boosts\\n&eUncommon&r: Better bonuses\\n&bRare&r: Significant power\\n&dEpic&r: Major stat increases\\n&6Mythic&r: Legendary power!\\n\\nAffixes stack with enchantments and Silent Gear traits!\\n\\n&7Hunt powerful mobs for better affixes!&r"]
+	quest.63748596A7B8C9D0.title: "Hellshelf Crafting"
+	quest.63748596A7B8C9D0.quest_desc: ["&cNether Bookshelves!&r\\n\\n&eHellshelves&r boost enchanting power:\\n\\n- Crafted with Nether materials\\n- Increase enchanting level cap\\n- Enable higher-tier enchantments\\n\\nBuild a ring of Hellshelves around your enchanting table!\\n\\n&7Essential for endgame enchanting!&r"]
+	quest.96A7B8C9D0E1F203.title: "Gem System"
+	quest.96A7B8C9D0E1F203.quest_desc: ["&eGems - Socketable Power!&r\\n\\nGems drop from mobs and chests:\\n\\n- Socket into gear with gem slots\\n- Provide stat bonuses\\n- Multiple rarity tiers\\n- Can be combined for better gems\\n\\n&eGem Types:&r\\nWeapon gems, Armor gems, Shield gems\\n\\n&7Gems add another layer of customization!&r"]
+	quest.C9D0E1F203142536.title: "Endshelf Crafting"
+	quest.C9D0E1F203142536.quest_desc: ["&5End-tier Enchanting!&r\\n\\n&eEndshelves&r are the ultimate bookshelf:\\n\\n- Crafted from End materials\\n- Maximum enchanting power\\n- Required for best enchantments\\n\\nCombine with Hellshelves and Seashelves for optimal enchanting setup!\\n\\n&7The pinnacle of enchanting infrastructure!&r"]
+	quest.F203142536475869.title: "Salvaging"
+	quest.F203142536475869.quest_desc: ["&eSalvage Unwanted Gear!&r\\n\\nThe &eSalvaging Table&r breaks down items:\\n\\n- Recover materials from gear\\n- Extract gems from socketed items\\n- Get affix dust from affixed items\\n\\nDon't throw away old gear - salvage it!\\n\\n&7Essential for gem and material recycling!&r"]
+	quest.2536475869708192.title: "Apotheosis Bosses"
+	quest.2536475869708192.quest_desc: ["&cBoss Encounters!&r\\n\\nApotheosis adds rare boss mobs:\\n\\n- Spawn rarely in the world\\n- Much stronger than normal mobs\\n- Guaranteed affix drops\\n- Better gems and loot\\n\\n&eBoss Summoners&r let you spawn bosses on demand!\\n\\n&7High risk, high reward!&r"]
+	quest.5869708192031425.title: "Boss Hunting"
+	quest.5869708192031425.quest_desc: ["&cHunt the Bosses!&r\\n\\nPrepare for boss fights:\\n\\n&eRecommended:&r\\n- Full armor set (SG recommended)\\n- Good weapon with affixes\\n- Healing items\\n- Escape plan (totem!)\\n\\nBosses drop the best affixed gear!\\n\\n&7Epic Fight skills are crucial for boss fights!&r"]
+	quest.8192031425364758.title: "Apotheosis Mastery"
+	quest.8192031425364758.quest_desc: ["&aApotheosis Mastery!&r\\n\\nYou've mastered gear empowerment!\\n\\nAchievements:\\n- Built ultimate enchanting setup\\n- Collected powerful gems\\n- Hunted affixed gear\\n- Defeated Apotheosis bosses\\n- Mastered salvaging\\n\\n&eAncient Tomes&r contain special enchantments beyond normal limits!\\n\\n&7Your gear is now legendary!&r"]
+}

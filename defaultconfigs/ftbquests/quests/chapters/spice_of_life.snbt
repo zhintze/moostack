@@ -1,0 +1,234 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spice_of_life"
+	group: "14D36494C21521AE"
+	icon: {
+		id: "minecraft:golden_apple"
+	}
+	id: "7E3A9C5B1D8F2046"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "A8B1C2D3E4F50617"
+			rewards: [
+				{
+					id: "B9C2D3E4F5061728"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "B9C2D3E4F5061729"
+					item: {
+						id: "minecraft:bread"
+					}
+					count: 8
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "C0D3E4F506172839"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A8B1C2D3E4F50617"]
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "D1E4F5061728394A"
+			rewards: [
+				{
+					id: "E2F506172839405B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "E2F506172839405C"
+					item: {
+						id: "minecraft:cooked_chicken"
+					}
+					count: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "F3061728394A516C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D1E4F5061728394A"]
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "041728394A5B627D"
+			rewards: [
+				{
+					id: "15283940B5C6738E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "263940A5B6C7849F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["041728394A5B627D"]
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "374A5B6C7D8E95A0"
+			rewards: [
+				{
+					id: "485B6C7D8E9F06B1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "596C7D8E9F0A17C2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["374A5B6C7D8E95A0"]
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "6A7D8E9F0A1B28D3"
+			rewards: [
+				{
+					id: "7B8E9F0A1B2C39E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "8C9F0A1B2C3D40F5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A8B1C2D3E4F50617"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "9D0A1B2C3D4E5106"
+			min_width: 280
+			rewards: [{
+				id: "0E1B2C3D4E5F6217"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1F2C3D4E5F607328"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A8B1C2D3E4F50617"]
+			icon: {
+				id: "immersiveengineering:bottling_machine"
+			}
+			id: "203D4E5F60718439"
+			min_width: 280
+			rewards: [{
+				id: "314E5F6071829540"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "425F607182930651"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9D0A1B2C3D4E5106"]
+			icon: {
+				id: "croptopia:coffee"
+			}
+			id: "536071829304B762"
+			rewards: [{
+				id: "64718293A4B5C873"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7582930A4B5C6984"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["203D4E5F60718439"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "86930A4B5C6D7A95"
+			min_width: 280
+			rewards: [{
+				id: "97A40B5C6D7E8BA6"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "08B50C6D7E8F9CB7"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"536071829304B762"
+				"86930A4B5C6D7A95"
+			]
+			icon: {
+				id: "ae2:molecular_assembler"
+			}
+			id: "19C60D7E8F90ADC8"
+			rewards: [{
+				id: "20D70E8F9A01BED9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31E80F9A0B12CFEA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

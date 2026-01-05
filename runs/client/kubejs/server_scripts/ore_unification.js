@@ -2,12 +2,32 @@
 // Canonical Sources:
 //   - Lead: Mekanism
 //   - Uranium: Mekanism
+//   - Osmium: Mekanism
+//   - Tin: Mekanism
 //   - Silver: Immersive Engineering
+//   - Aluminum: Immersive Engineering
+//   - Nickel: Immersive Engineering
+//   - Platinum: ChemLib Mekanized (sole owner)
 //   - Sulfur: Mekanism
-//   - Steel: Mekanism (ingot, dust, nugget, block), Ad Astra Mekanized (plates/sheets, rods)
-//   - Iron Rods: Ad Astra Mekanized
+//   - Steel: Mekanism (ingot, dust, nugget, block), Ad Astra Mekanized (sheets, rods)
+//   - Iron: Vanilla (ingot), Create (sheets), Ad Astra Mekanized (rods)
+//   - Copper: Vanilla (ingot), Create (sheets)
+//   - Gold: Vanilla (ingot), Create (golden_sheet)
+//   - Bronze: Mekanism (ingot, nugget, dust, block), Epic Knights Antique Legacy (sheets via Create press)
+//   - Zinc: Create
 //
-// Note: IE plates are kept as-is since Mekanism doesn't have plates (except steel -> Ad Astra)
+// Note: Epic Knights Antique Legacy bronze_mixture removed - use Mekanism bronze directly
+// Note: Mystical Agriculture essence recipes redirected to canonical ingots
+// Note: IE Alloy Kiln bronze recipe redirected to Mekanism bronze
+// Note: ChemLib Mekanized ExcludedMetals.java removes duplicate items at registration time:
+//       - Mekanism metals (osmium, tin, lead, uranium): only element item exists
+//       - IE metals (silver, aluminum, nickel): processing chain exists, final products excluded
+//       - Platinum: ChemLib retains full ownership (sole provider)
+//
+// Worldgen Policy:
+//   - Antique Legacy tin/deepslate_tin ores do NOT worldgen per mod author
+//   - KubeJS 1.21.1 NeoForge does not support WorldgenEvents (known bug)
+//   - No defensive worldgen disable needed; ores exist as items only
 
 ServerEvents.recipes(event => {
     console.info('[Ore Unification] Starting recipe modifications...')
@@ -139,13 +159,20 @@ ServerEvents.recipes(event => {
     )
 
     // ===========================================
-    // SULFUR: Use Mekanism as canonical (Blood Magic -> Mekanism)
+    // SULFUR: Use Mekanism as canonical (Blood Magic + IE -> Mekanism)
     // ===========================================
 
     // Replace Blood Magic sulfur outputs with Mekanism
     event.replaceOutput(
         { id: /^bloodmagic:.*/ },
         'bloodmagic:sulfur',
+        'mekanism:dust_sulfur'
+    )
+
+    // Replace IE sulfur dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_sulfur',
         'mekanism:dust_sulfur'
     )
 
@@ -224,6 +251,319 @@ ServerEvents.recipes(event => {
         'mekanism:block_steel'
     )
 
+    // Remove ALL recipes that output Epic Knights (magistuarmory) steel items
+    // This is more reliable than removing by ID
+    event.remove({ output: 'magistuarmory:steel_ingot' })
+    event.remove({ output: 'magistuarmory:steel_nugget' })
+    event.remove({ output: 'magistuarmory:steel_plate' })
+    event.remove({ output: 'magistuarmory:small_steel_plate' })
+
+    // Also remove by ID for recipes in subfolders
+    event.remove({ id: /^magistuarmory:.*steel_ingot.*/ })
+    event.remove({ id: /^magistuarmory:.*steel_nugget.*/ })
+    event.remove({ id: /^magistuarmory:.*steel_plate.*/ })
+
+    // ===========================================
+    // BRONZE: Use Mekanism as canonical (Epic Knights Antique Legacy -> Mekanism)
+    // Sheets: Use antiquelegacy:bronze_plate crafted via Create pressing
+    // ===========================================
+
+    // Replace Epic Knights bronze ingot outputs with Mekanism
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:bronze_ingot',
+        'mekanism:ingot_bronze'
+    )
+
+    // Replace Epic Knights bronze nugget outputs with Mekanism
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:bronze_nugget',
+        'mekanism:nugget_bronze'
+    )
+
+    // Redirect IE Alloy Kiln bronze recipe output to Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:ingot_bronze',
+        'mekanism:ingot_bronze'
+    )
+
+    // Redirect Silent Gear bronze ingot outputs to Mekanism
+    event.replaceOutput(
+        { id: /^silentgear:.*/ },
+        'silentgear:bronze_ingot',
+        'mekanism:ingot_bronze'
+    )
+
+    // Redirect any Mystical Agriculture recipe that outputs Silent Gear bronze to Mekanism
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*/ },
+        'silentgear:bronze_ingot',
+        'mekanism:ingot_bronze'
+    )
+
+    // Remove Epic Knights bronze_mixture recipes entirely
+    event.remove({ id: 'antiquelegacy:bronze_mixture' })
+    event.remove({ output: 'antiquelegacy:bronze_mixture' })
+
+    // Remove Epic Knights native bronze plate recipes (we'll add Create pressing instead)
+    event.remove({ id: /^antiquelegacy:.*bronze_plate.*/ })
+    event.remove({ output: 'antiquelegacy:bronze_plate', id: /^antiquelegacy:.*/ })
+
+    // Add Create pressing recipe for bronze sheet
+    event.custom({
+        type: 'create:pressing',
+        ingredients: [{ tag: 'c:ingots/bronze' }],
+        results: [{ item: 'antiquelegacy:bronze_plate' }]
+    })
+
+    // ===========================================
+    // TIN: Use Mekanism as canonical (Epic Knights Antique Legacy -> Mekanism)
+    // Note: Antique Legacy tin ore exists but does NOT worldgen per mod author
+    // ===========================================
+
+    // Replace Epic Knights tin ingot outputs with Mekanism
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:tin_ingot',
+        'mekanism:ingot_tin'
+    )
+
+    // Replace Epic Knights tin nugget outputs with Mekanism
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:tin_nugget',
+        'mekanism:nugget_tin'
+    )
+
+    // Replace Epic Knights raw tin outputs with Mekanism
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:raw_tin',
+        'mekanism:raw_tin'
+    )
+
+    // ===========================================
+    // IRON SHEETS: Use Create as canonical (IE + Epic Knights + ChemLib -> Create iron_sheet)
+    // ===========================================
+
+    // Replace IE iron plate outputs with Create iron sheet
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:plate_iron',
+        'create:iron_sheet'
+    )
+
+    // Replace Epic Knights iron plate outputs with Create iron sheet
+    event.replaceOutput(
+        { id: /^antiquelegacy:.*/ },
+        'antiquelegacy:iron_plate',
+        'create:iron_sheet'
+    )
+
+    // Replace ChemLib iron plate outputs with Create iron sheet
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:iron_plate',
+        'create:iron_sheet'
+    )
+
+    // Remove Epic Knights small iron plate recipes
+    event.remove({ output: 'antiquelegacy:small_iron_plate' })
+
+    // ===========================================
+    // COPPER SHEETS: Use Create as canonical (IE + ChemLib -> Create copper_sheet)
+    // ===========================================
+
+    // Replace IE copper plate outputs with Create copper sheet
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:plate_copper',
+        'create:copper_sheet'
+    )
+
+    // Replace ChemLib copper plate outputs with Create copper sheet
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:copper_plate',
+        'create:copper_sheet'
+    )
+
+    // ===========================================
+    // GOLD SHEETS: Use Create as canonical (IE + ChemLib -> Create golden_sheet)
+    // ===========================================
+
+    // Replace IE gold plate outputs with Create golden sheet
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:plate_gold',
+        'create:golden_sheet'
+    )
+
+    // Replace ChemLib gold plate outputs with Create golden sheet
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:gold_plate',
+        'create:golden_sheet'
+    )
+
+    // ===========================================
+    // ZINC: Use Create as canonical (ChemLib Mekanized -> Create)
+    // ===========================================
+
+    // Replace ChemLib Mekanized zinc ingot outputs with Create
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:zinc_ingot',
+        'create:zinc_ingot'
+    )
+
+    // Replace ChemLib Mekanized zinc nugget outputs with Create
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:zinc_nugget',
+        'create:zinc_nugget'
+    )
+
+    // Replace ChemLib Mekanized zinc block outputs with Create
+    event.replaceOutput(
+        { id: /^chemlibmekanized:.*/ },
+        'chemlibmekanized:zinc_block',
+        'create:zinc_block'
+    )
+
+    // ===========================================
+    // MYSTICAL AGRICULTURE: Replace essence -> ingot recipe outputs
+    // Redirect to canonical sources for all metals
+    // ===========================================
+
+    // Bronze essence -> Mekanism bronze
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*bronze.*/ },
+        /mysticalagriculture:.*bronze_ingot/,
+        'mekanism:ingot_bronze'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*bronze.*/ },
+        /mysticalagadditions:.*bronze_ingot/,
+        'mekanism:ingot_bronze'
+    )
+
+    // Tin essence -> Mekanism tin
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*tin.*/ },
+        /mysticalagriculture:.*tin_ingot/,
+        'mekanism:ingot_tin'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*tin.*/ },
+        /mysticalagadditions:.*tin_ingot/,
+        'mekanism:ingot_tin'
+    )
+
+    // Lead essence -> Mekanism lead
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*lead.*/ },
+        /mysticalagriculture:.*lead_ingot/,
+        'mekanism:ingot_lead'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*lead.*/ },
+        /mysticalagadditions:.*lead_ingot/,
+        'mekanism:ingot_lead'
+    )
+
+    // Uranium essence -> Mekanism uranium
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*uranium.*/ },
+        /mysticalagriculture:.*uranium_ingot/,
+        'mekanism:ingot_uranium'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*uranium.*/ },
+        /mysticalagadditions:.*uranium_ingot/,
+        'mekanism:ingot_uranium'
+    )
+
+    // Steel essence -> Mekanism steel
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*steel.*/ },
+        /mysticalagriculture:.*steel_ingot/,
+        'mekanism:ingot_steel'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*steel.*/ },
+        /mysticalagadditions:.*steel_ingot/,
+        'mekanism:ingot_steel'
+    )
+
+    // Zinc essence -> Create zinc
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*zinc.*/ },
+        /mysticalagriculture:.*zinc_ingot/,
+        'create:zinc_ingot'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*zinc.*/ },
+        /mysticalagadditions:.*zinc_ingot/,
+        'create:zinc_ingot'
+    )
+
+    // Iron essence -> Vanilla iron (enforce canonical output)
+    event.replaceOutput(
+        { id: /^mysticalagriculture:.*iron.*/ },
+        /mysticalagriculture:.*iron_ingot/,
+        'minecraft:iron_ingot'
+    )
+    event.replaceOutput(
+        { id: /^mysticalagadditions:.*iron.*/ },
+        /mysticalagadditions:.*iron_ingot/,
+        'minecraft:iron_ingot'
+    )
+
+    // ===========================================
+    // ALUMINUM: Use IE as canonical (ChemLib processing -> IE final products)
+    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
+    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
+    // ===========================================
+
+    // ChemLib aluminum crystal smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
+    event.blasting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
+
+    // ChemLib aluminum dust (from processing chain) smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
+    event.blasting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
+
+    // ===========================================
+    // NICKEL: Use IE as canonical (ChemLib processing -> IE final products)
+    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
+    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
+    // ===========================================
+
+    // ChemLib nickel crystal smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
+    event.blasting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
+
+    // ChemLib nickel dust (from processing chain) smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
+    event.blasting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
+
+    // ===========================================
+    // SILVER: ChemLib processing outputs IE (supplements Occultism handling)
+    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
+    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
+    // ===========================================
+
+    // ChemLib silver crystal smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
+    event.blasting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
+
+    // ChemLib silver dust (from processing chain) smelts to IE ingot
+    event.smelting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
+    event.blasting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
+
     // ===========================================
     // Replace inputs for non-mod-specific recipes
     // This ensures recipes accept both versions via tags
@@ -290,6 +630,13 @@ ServerEvents.recipes(event => {
     event.replaceInput(
         { not: { id: /^bloodmagic:.*/ } },
         'bloodmagic:sulfur',
+        '#c:dusts/sulfur'
+    )
+
+    // Sulfur inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_sulfur',
         '#c:dusts/sulfur'
     )
 
@@ -361,6 +708,131 @@ ServerEvents.recipes(event => {
         '#c:rods/iron'
     )
 
+    // Steel inputs: replace specific Epic Knights (magistuarmory) items with tag
+    event.replaceInput(
+        { not: { id: /^magistuarmory:.*/ } },
+        'magistuarmory:steel_ingot',
+        '#c:ingots/steel'
+    )
+
+    event.replaceInput(
+        { not: { id: /^magistuarmory:.*/ } },
+        'magistuarmory:steel_nugget',
+        '#c:nuggets/steel'
+    )
+
+    event.replaceInput(
+        { not: { id: /^magistuarmory:.*/ } },
+        'magistuarmory:steel_plate',
+        '#c:plates/steel'
+    )
+
+    event.replaceInput(
+        { not: { id: /^magistuarmory:.*/ } },
+        'magistuarmory:small_steel_plate',
+        '#c:plates/steel'
+    )
+
+    // Bronze inputs: replace specific Epic Knights items with tag
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:bronze_ingot',
+        '#c:ingots/bronze'
+    )
+
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:bronze_nugget',
+        '#c:nuggets/bronze'
+    )
+
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:bronze_plate',
+        '#c:plates/bronze'
+    )
+
+    // Bronze inputs: replace specific Silent Gear items with tag
+    event.replaceInput(
+        { not: { id: /^silentgear:.*/ } },
+        'silentgear:bronze_ingot',
+        '#c:ingots/bronze'
+    )
+
+    // Tin inputs: replace specific Epic Knights items with tag
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:tin_ingot',
+        '#c:ingots/tin'
+    )
+
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:tin_nugget',
+        '#c:nuggets/tin'
+    )
+
+    event.replaceInput(
+        { not: { id: /^antiquelegacy:.*/ } },
+        'antiquelegacy:raw_tin',
+        '#c:raw_materials/tin'
+    )
+
+    // Iron sheet inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:plate_iron',
+        '#c:plates/iron'
+    )
+
+    // Copper sheet inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:plate_copper',
+        '#c:plates/copper'
+    )
+
+    // Copper sheet inputs: replace specific ChemLib items with tag
+    event.replaceInput(
+        { not: { id: /^chemlibmekanized:.*/ } },
+        'chemlibmekanized:copper_plate',
+        '#c:plates/copper'
+    )
+
+    // Iron sheet inputs: replace specific ChemLib items with tag
+    event.replaceInput(
+        { not: { id: /^chemlibmekanized:.*/ } },
+        'chemlibmekanized:iron_plate',
+        '#c:plates/iron'
+    )
+
+    // Gold sheet inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:plate_gold',
+        '#c:plates/gold'
+    )
+
+    // Gold sheet inputs: replace specific ChemLib items with tag
+    event.replaceInput(
+        { not: { id: /^chemlibmekanized:.*/ } },
+        'chemlibmekanized:gold_plate',
+        '#c:plates/gold'
+    )
+
+    // Zinc inputs: replace specific ChemLib items with tag
+    event.replaceInput(
+        { not: { id: /^chemlibmekanized:.*/ } },
+        'chemlibmekanized:zinc_ingot',
+        '#c:ingots/zinc'
+    )
+
+    event.replaceInput(
+        { not: { id: /^chemlibmekanized:.*/ } },
+        'chemlibmekanized:zinc_nugget',
+        '#c:nuggets/zinc'
+    )
+
     console.info('[Ore Unification] Recipe modifications complete.')
 })
 
@@ -410,11 +882,13 @@ ServerEvents.tags('item', event => {
     event.add('c:storage_blocks/raw_silver', 'immersiveengineering:raw_block_silver')
     event.add('c:storage_blocks/raw_silver', 'occultism:raw_silver_block')
 
-    // Sulfur tags - ensure both Mekanism and Blood Magic items are in tags
+    // Sulfur tags - ensure Mekanism, Blood Magic, and IE items are in tags
     event.add('c:dusts/sulfur', 'mekanism:dust_sulfur')
     event.add('c:dusts/sulfur', 'bloodmagic:sulfur')
+    event.add('c:dusts/sulfur', 'immersiveengineering:dust_sulfur')
 
-    // Steel tags - ensure Mekanism, IE, and Ad Astra Mekanized items are in tags
+    // Steel tags - ensure Mekanism, IE, Ad Astra Mekanized items are in tags
+    // NOTE: magistuarmory steel items are intentionally NOT added - they are removed from the game
     event.add('c:ingots/steel', 'mekanism:ingot_steel')
     event.add('c:ingots/steel', 'immersiveengineering:ingot_steel')
     event.add('c:ingots/steel', 'adastramekanized:steel_ingot')
@@ -433,12 +907,92 @@ ServerEvents.tags('item', event => {
     event.add('c:rods/iron', 'immersiveengineering:stick_iron')
     event.add('c:rods/iron', 'adastramekanized:iron_rod')
 
+    // Bronze tags - ensure Mekanism, Epic Knights, IE, and Silent Gear items are in tags
+    event.add('c:ingots/bronze', 'mekanism:ingot_bronze')
+    event.add('c:ingots/bronze', 'antiquelegacy:bronze_ingot')
+    event.add('c:ingots/bronze', 'immersiveengineering:ingot_bronze')
+    event.add('c:ingots/bronze', 'silentgear:bronze_ingot')
+    event.add('c:nuggets/bronze', 'mekanism:nugget_bronze')
+    event.add('c:nuggets/bronze', 'antiquelegacy:bronze_nugget')
+    event.add('c:dusts/bronze', 'mekanism:dust_bronze')
+    event.add('c:storage_blocks/bronze', 'mekanism:block_bronze')
+    event.add('c:plates/bronze', 'antiquelegacy:bronze_plate')
+
+    // Tin tags - ensure Mekanism and Epic Knights items are in tags
+    event.add('c:ingots/tin', 'mekanism:ingot_tin')
+    event.add('c:ingots/tin', 'antiquelegacy:tin_ingot')
+    event.add('c:nuggets/tin', 'mekanism:nugget_tin')
+    event.add('c:nuggets/tin', 'antiquelegacy:tin_nugget')
+    event.add('c:dusts/tin', 'mekanism:dust_tin')
+    event.add('c:raw_materials/tin', 'mekanism:raw_tin')
+    event.add('c:raw_materials/tin', 'antiquelegacy:raw_tin')
+    event.add('c:storage_blocks/tin', 'mekanism:block_tin')
+    event.add('c:storage_blocks/raw_tin', 'mekanism:block_raw_tin')
+
+    // Iron plate/sheet tags - ensure Create, IE, Epic Knights, and ChemLib items are in tags
+    event.add('c:plates/iron', 'create:iron_sheet')
+    event.add('c:plates/iron', 'immersiveengineering:plate_iron')
+    event.add('c:plates/iron', 'antiquelegacy:iron_plate')
+    event.add('c:plates/iron', 'chemlibmekanized:iron_plate')
+
+    // Copper plate/sheet tags - ensure Create, IE, and ChemLib items are in tags
+    event.add('c:plates/copper', 'create:copper_sheet')
+    event.add('c:plates/copper', 'immersiveengineering:plate_copper')
+    event.add('c:plates/copper', 'chemlibmekanized:copper_plate')
+
+    // Gold plate/sheet tags - ensure Create, IE, and ChemLib items are in tags
+    event.add('c:plates/gold', 'create:golden_sheet')
+    event.add('c:plates/gold', 'immersiveengineering:plate_gold')
+    event.add('c:plates/gold', 'chemlibmekanized:gold_plate')
+
+    // Zinc tags - ensure Create and ChemLib items are in tags
+    event.add('c:ingots/zinc', 'create:zinc_ingot')
+    event.add('c:ingots/zinc', 'chemlibmekanized:zinc_ingot')
+    event.add('c:nuggets/zinc', 'create:zinc_nugget')
+    event.add('c:nuggets/zinc', 'chemlibmekanized:zinc_nugget')
+    event.add('c:storage_blocks/zinc', 'create:zinc_block')
+    event.add('c:storage_blocks/zinc', 'chemlibmekanized:zinc_block')
+
+    // Aluminum tags - IE is canonical, ChemLib provides processing intermediates only
+    event.add('c:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
+    event.add('c:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
+    event.add('c:dusts/aluminum', 'immersiveengineering:dust_aluminum')
+    event.add('c:plates/aluminum', 'immersiveengineering:plate_aluminum')
+    event.add('c:raw_materials/aluminum', 'immersiveengineering:raw_aluminum')
+    event.add('c:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum')
+    event.add('c:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum')
+
+    // Nickel tags - IE is canonical, ChemLib provides processing intermediates only
+    event.add('c:ingots/nickel', 'immersiveengineering:ingot_nickel')
+    event.add('c:nuggets/nickel', 'immersiveengineering:nugget_nickel')
+    event.add('c:dusts/nickel', 'immersiveengineering:dust_nickel')
+    event.add('c:plates/nickel', 'immersiveengineering:plate_nickel')
+    event.add('c:raw_materials/nickel', 'immersiveengineering:raw_nickel')
+    event.add('c:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
+    event.add('c:storage_blocks/raw_nickel', 'immersiveengineering:raw_block_nickel')
+
+    // Platinum tags - ChemLib Mekanized is canonical owner (sole provider)
+    event.add('c:ingots/platinum', 'chemlibmekanized:platinum_ingot')
+    event.add('c:nuggets/platinum', 'chemlibmekanized:platinum_nugget')
+    event.add('c:dusts/platinum', 'chemlibmekanized:platinum_dust')
+    event.add('c:plates/platinum', 'chemlibmekanized:platinum_plate')
+    event.add('c:storage_blocks/platinum', 'chemlibmekanized:platinum_block')
+
+    // Osmium tags - Mekanism is canonical (ChemLib only provides element, no items)
+    event.add('c:ingots/osmium', 'mekanism:ingot_osmium')
+    event.add('c:nuggets/osmium', 'mekanism:nugget_osmium')
+    event.add('c:dusts/osmium', 'mekanism:dust_osmium')
+    event.add('c:raw_materials/osmium', 'mekanism:raw_osmium')
+    event.add('c:storage_blocks/osmium', 'mekanism:block_osmium')
+    event.add('c:storage_blocks/raw_osmium', 'mekanism:block_raw_osmium')
+
     console.info('[Ore Unification] Common tags verified.')
 })
 
 // ===========================================
 // LOOT TABLE MODIFICATIONS
 // Make Occultism silver ores drop IE raw silver
+// Make Epic Knights tin ores drop Mekanism raw tin
 // ===========================================
 LootJS.modifiers(event => {
     console.info('[Ore Unification] Modifying ore loot tables...')
@@ -450,6 +1004,15 @@ LootJS.modifiers(event => {
     // Occultism deepslate silver ore -> IE raw silver
     event.addBlockModifier('occultism:silver_ore_deepslate')
         .replaceLoot('occultism:raw_silver', 'immersiveengineering:raw_silver')
+
+    // Epic Knights tin ore -> Mekanism raw tin
+    // Note: Antique Legacy tin ore does NOT worldgen per mod author, but handle if placed/obtained
+    event.addBlockModifier('antiquelegacy:tin_ore')
+        .replaceLoot('antiquelegacy:raw_tin', 'mekanism:raw_tin')
+
+    // Epic Knights deepslate tin ore -> Mekanism raw tin
+    event.addBlockModifier('antiquelegacy:deepslate_tin_ore')
+        .replaceLoot('antiquelegacy:raw_tin', 'mekanism:raw_tin')
 
     console.info('[Ore Unification] Loot table modifications complete.')
 })

@@ -1,0 +1,17 @@
+{
+	quest.404EE0935C6480B4.title: "Waystone Network"
+	quest.404EE0935C6480B4.quest_desc: ["&6Waystones&r provide fast travel across your world.\\n\\nCraft a waystone and place it at your base. You'll find more waystones generated in villages and other structures.\\n\\nRight-click a waystone to access the teleport network. Once discovered, waystones can be teleported to from anywhere!\\n\\n&7Tip: The Warp Stone lets you teleport without being at a waystone.&r"]
+	quest.BC6F1B6B95A988B2.title: "JourneyMap Basics"
+	quest.BC6F1B6B95A988B2.quest_desc: ["&6JourneyMap&r is your mapping companion.\\n\\n&eJ&r - Open fullscreen map\\n&eKey shown in controls&r - Open minimap options\\n\\nFeatures:\\n- &aWaypoints&r: Mark important locations\\n- &aMinimap&r: Corner display while playing\\n- &aWeb Map&r: View in browser (localhost:8080)\\n\\nThe map auto-generates as you explore!"]
+	task.2426AB1B507FA676.title: "Open Your Map"
+	quest.7ACF3F1272416053.title: "Backpack Basics"
+	quest.7ACF3F1272416053.quest_desc: ["&6Sophisticated Backpacks&r expand your inventory.\\n\\nCraft a basic backpack from leather and string. It can be:\\n- Equipped in your Curios back slot\\n- Upgraded with more slots and features\\n- Enhanced with pickup/filter/void upgrades\\n\\nRight-click to open, or use the keybind while equipped."]
+	quest.4E989CED511D8B4E.title: "Curios Equipment Slots"
+	quest.4E989CED511D8B4E.quest_desc: ["&6Curios&r adds accessory slots to your inventory.\\n\\nPress the Curios button in your inventory (or use the keybind) to see available slots:\\n\\n- &eBack&r: Backpacks, capes\\n- &eNecklace&r: Amulets, pendants\\n- &eRing&r: Rings (x2)\\n- &eCharm&r: Various trinkets\\n- &eBelt&r: Belts, pouches\\n\\nMany mods add items for these slots. Artifacts especially!"]
+	task.1DC33C7E5AFA15AF.title: "Understanding Curios"
+	quest.D8D4859E8783F3E5.title: "Sophisticated Storage"
+	quest.D8D4859E8783F3E5.quest_desc: ["&6Sophisticated Storage&r upgrades your chests and barrels.\\n\\nCraft a sophisticated barrel - it works like a normal barrel but can be upgraded with:\\n\\n- &eStack Upgrades&r: More items per slot\\n- &eVoid Upgrades&r: Destroy overflow\\n- &eMagnet Upgrades&r: Pull nearby items\\n- And many more!\\n\\nThese work great for early storage before AE2."]
+	quest.539E7122F8FD0BA2.title: "Early Organization"
+	quest.539E7122F8FD0BA2.quest_desc: ["&aQuality of Life Established!&r\\n\\nYou now have:\\n\\n- &eWaystone&r for fast travel\\n- &eBackpack&r for extra inventory\\n- &eSophisticated Storage&r for base organization\\n\\nThese tools will serve you well until you unlock AE2's ME system for ultimate storage and automation.\\n\\nContinue to the &eTechnology&r chapters to expand your capabilities!"]
+	task.6C23BF675CBE7BDE.title: "QoL Complete"
+}

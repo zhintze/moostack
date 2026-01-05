@@ -1,0 +1,18 @@
+{
+	quest.F1A2B3C4D5E60718.title: "Getting Started with Cooking"
+	quest.F1A2B3C4D5E60718.quest_desc: ["&6Farmer's Delight Basics!&r\\n\\nFarmer's Delight transforms Minecraft cooking into a proper culinary experience!\\n\\nStart with the &eCutting Board&r:\\n- Place it in the world\\n- Put ingredients on top\\n- Use a knife to slice/prep\\n\\nThis is how you prepare ingredients for advanced recipes!\\n\\n&7Works great with Spice of Life for food variety!&r"]
+	quest.C4D5E6F71829304B.title: "Better Knives"
+	quest.C4D5E6F71829304B.quest_desc: ["&eKnife Upgrades!&r\\n\\nKnives are essential tools for food prep:\\n\\n- &7Flint Knife&r: Basic, cheap\\n- &fIron Knife&r: Durable, efficient\\n- &eGolden Knife&r: Fast cutting\\n- &bDiamond Knife&r: Best durability\\n- &dNetherite Knife&r: Ultimate knife\\n\\nKnives also work as weapons with sweep attacks!"]
+	quest.F718293041526E7E.title: "The Cooking Pot"
+	quest.F718293041526E7E.quest_desc: ["&6The Heart of Your Kitchen!&r\\n\\nThe &eCooking Pot&r is your main cooking station:\\n\\n1. Place over heat source (fire, lava, stove)\\n2. Add ingredients (up to 6 slots)\\n3. Add a bowl/container for output\\n4. Wait for cooking to complete!\\n\\nMakes soups, stews, and multi-ingredient meals.\\n\\n&7Check JEI for all Cooking Pot recipes!&r"]
+	quest.2A4152637485910B.title: "The Stove"
+	quest.2A4152637485910B.quest_desc: ["&eConvenient Cooking Heat!&r\\n\\nThe &eStove&r is a dedicated heat source:\\n\\n- Powers Cooking Pots placed above\\n- Can cook items directly on top (like a furnace)\\n- Uses any furnace fuel\\n- Looks great in kitchens!\\n\\nNo more open fire pits - cook in style!"]
+	quest.5D748596A7B824E.title: "Your First Stew"
+	quest.5D748596A7B824E.quest_desc: ["&aComfort Food!&r\\n\\nCook your first proper meal!\\n\\n&eBeef Stew Recipe:&r\\n- Cooked Beef\\n- Carrot\\n- Potato\\n- Bowl (for output)\\n\\nStews restore significant hunger and provide nourishment effects!\\n\\n&7Nourishment gives slow health regeneration - very useful!&r"]
+	quest.809718A9B0CB157.title: "Growing FD Crops"
+	quest.809718A9B0CB157.quest_desc: ["&eFarmer's Delight Crops&r\\n\\nGrow these essential ingredients:\\n\\n&eCabbage&r: Found in village farms, makes salads and coleslaw\\n&eTomato&r: Climbing vine crop, used in many dishes\\n&eOnion&r: Underground crop like carrots, adds flavor\\n&eRice&r: Grows in water like sugarcane\\n\\nFind seeds in village chests or break wild crops!"]
+	quest.B3CA41D2E3FE48A.title: "The Skillet"
+	quest.B3CA41D2E3FE48A.quest_desc: ["&eFried Foods!&r\\n\\nThe &eSkillet&r cooks items when placed over heat:\\n\\n- Quick single-item cooking\\n- Great for eggs, meats, and more\\n- Portable cooking solution\\n- Works on stoves or campfires\\n\\nPerfect for simple fried dishes!"]
+	quest.E6FD74A5162B7BD.title: "Farmer's Delight Mastery"
+	quest.E6FD74A5162B7BD.quest_desc: ["&aFarmer's Delight Mastery!&r\\n\\nYou've mastered the art of modded cooking!\\n\\nYou now have:\\n- Full kitchen equipment\\n- Crop farming knowledge\\n- Multi-ingredient recipe skills\\n\\nThe &eHoney Glazed Ham&r is a feast-worthy centerpiece dish!\\n\\n&7Continue exploring:&r\\n- Farmer's Delight addons (Brewin' and Chewin', etc.)\\n- Croptopia for more ingredients\\n- Cultural Delights for international cuisine"]
+}

@@ -1,0 +1,32 @@
+{
+	quest.1E8F4A2C7D5B3906.title: "Getting Started with Ars Nouveau"
+	quest.1E8F4A2C7D5B3906.quest_desc: ["&6Welcome to Ars Nouveau!&r\\n\\nArs Nouveau is a spell-crafting magic mod. Unlike Iron's Spells, YOU design your spells from individual glyphs!\\n\\nStart by crafting a &eNovice Spell Book&r. It holds your custom spells and serves as your casting focus.\\n\\n&7Tip: The Worn Notebook (from the mod) has full documentation!&r"]
+	quest.4C1B7D5E0F8A6239.title: "Source Storage"
+	quest.4C1B7D5E0F8A6239.quest_desc: ["&eSource&r is the magical energy that powers Ars Nouveau.\\n\\n&eSource Jars&r store source for later use. Place them near machines that need source, or use them to charge your spell book.\\n\\nTo get source, you'll need a Source Generator (Sourcelink) or Sourceberries!"]
+	quest.7F4EA081C3BD956C.title: "Sourceberry Farming"
+	quest.7F4EA081C3BD956C.quest_desc: ["&eSourceberry Bushes&r are the simplest source of... Source!\\n\\nFind them in the wild or grow them yourself. Harvest the berries and throw them into a Source Jar to convert them into usable source.\\n\\nGreat for early game source generation!"]
+	quest.0C7BD3B4F6EA289F.title: "Automated Source"
+	quest.0C7BD3B4F6EA289F.quest_desc: ["&eSourcelinks&r automatically generate source from activities nearby.\\n\\n&eAgronomic Sourcelink&r: Generates source when crops grow nearby. Place near farms!\\n\\nOther types exist:\\n- Alchemical (potions)\\n- Mycelial (mushrooms)\\n- Vitalic (mob spawns)\\n\\nConnect to jars with &eSource Relay&r blocks."]
+	quest.3FA0E6E7C91D5BC2.title: "The Enchanting Apparatus"
+	quest.3FA0E6E7C91D5BC2.quest_desc: ["&6Core Crafting Station!&r\\n\\nThe &eEnchanting Apparatus&r is how you craft glyphs, upgrade items, and perform magical recipes.\\n\\nSetup requires:\\n- 1 Arcane Core (center)\\n- 1 Enchanting Apparatus (on top)\\n- 8 Arcane Pedestals (surrounding)\\n\\nPower with Source Jars nearby!"]
+	quest.6CD319BAFC4A8EF5.title: "Your First Glyphs"
+	quest.6CD319BAFC4A8EF5.quest_desc: ["&eGlyphs&r are the building blocks of spells!\\n\\nThree glyph types:\\n- &aCast Methods&r: How spell travels (Projectile, Touch, Self)\\n- &aEffects&r: What happens (Break, Harm, Ignite)\\n- &aAugments&r: Modifiers (Amplify, Extend, Pierce)\\n\\nCraft &eProjectile&r and &eBreak&r to start. Combine in your spell book!"]
+	quest.9FA64CEDCF7DB128.title: "Combat Glyphs"
+	quest.9FA64CEDCF7DB128.quest_desc: ["&eCombat Spells!&r\\n\\n&eIgnite&r: Sets targets on fire\\n&eHarm&r: Deals magic damage\\n&eLaunch&r: Knocks targets into the air\\n&eCrush&r: Pulls targets down\\n\\nCombine with augments like &eAmplify&r for more damage or &ePierce&r to hit multiple targets!"]
+	quest.2CD97FB02A0E45B.title: "Apprentice Spell Book"
+	quest.2CD97FB02A0E45B.quest_desc: ["&aUpgrade Time!&r\\n\\nThe &eApprentice Spell Book&r unlocks:\\n- More spell slots\\n- Tier 2 glyphs\\n- Better mana capacity\\n\\nCraft it at the Enchanting Apparatus with your Novice book + materials."]
+	quest.5FAC02E35D3178E.title: "Archmage Spell Book"
+	quest.5FAC02E35D3178E.quest_desc: ["&6The Ultimate Casting Tool!&r\\n\\nThe &eArchmage Spell Book&r is the pinnacle of Ars Nouveau spellcasting:\\n- Maximum spell slots\\n- All glyph tiers unlocked\\n- Best mana regeneration\\n\\nRequires significant resources to craft. Worth it!"]
+	quest.8CDF35B68A64AB1.title: "Starbuncle"
+	quest.8CDF35B68A64AB1.quest_desc: ["&eFamiliars & Helpers!&r\\n\\nThe &eStarbuncle&r is a cute creature that collects items for you!\\n\\nUse the Starbuncle Charm on a Starbuncle to bond it to a chest. It will gather nearby dropped items and deposit them.\\n\\nGive it gold nuggets to keep it happy!"]
+	quest.1FAC68E9BD97DE4.title: "Whirlisprig"
+	quest.1FAC68E9BD97DE4.quest_desc: ["&eNature's Helper&r\\n\\nThe &eWhirlisprig&r bonemeals nearby crops automatically!\\n\\nPlace flowers nearby to keep it happy. The more flowers, the faster it works.\\n\\nPerfect for automated farming alongside your Agronomic Sourcelink!"]
+	quest.4CDF9B1CE02A017.title: "Drygmy"
+	quest.4CDF9B1CE02A017.quest_desc: ["&eMob Drop Farmer&r\\n\\nThe &eDrygmy&r periodically generates mob drops from nearby mobs WITHOUT killing them!\\n\\nSet up a pen with passive animals or trapped hostile mobs. The Drygmy harvests their drops sustainably.\\n\\nRequires a Drygmy Charm and nearby source."]
+	quest.7FAC2E4FB35D34A.title: "Advanced Sourcelinks"
+	quest.7FAC2E4FB35D34A.quest_desc: ["&eMore Source Generation!&r\\n\\n&eVolcanic Sourcelink&r: Generates source from lava and fire. Place near lava pools!\\n\\n&eAlchemical Sourcelink&r: Generates source when potions are brewed nearby.\\n\\nDifferent sourcelinks for different builds!"]
+	quest.0CDF5B7CE68A67D.title: "Ritual Magic"
+	quest.0CDF5B7CE68A67D.quest_desc: ["&eRituals for Big Effects!&r\\n\\nThe &eRitual Brazier&r performs powerful rituals when given the right tablets.\\n\\nExamples:\\n- Moonfall: Changes time to night\\n- Sunrise: Changes time to day\\n- Flight: Grants temporary flight\\n- Fertility: Accelerates breeding\\n\\nCraft tablets at the Enchanting Apparatus!"]
+	quest.3FAC8E0FC9BD9A0.title: "Ars Nouveau Mastery"
+	quest.3FAC8E0FC9BD9A0.quest_desc: ["&aArs Nouveau Mastery!&r\\n\\nYou've mastered the arts of spell crafting!\\n\\nYou now understand:\\n- Source generation and storage\\n- Glyph crafting and spell design\\n- Familiar summoning and automation\\n- Ritual magic\\n- Spell book progression\\n\\nThe &eWilden Tribute&r proves your mastery - you've conquered the Wilden bosses!\\n\\n&7Continue exploring Ars addons: Ars Additions, Ars Elemental, Ars Creo!&r"]
+}

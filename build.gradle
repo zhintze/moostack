@@ -150,7 +150,7 @@ dependencies {
     implementation "curse.maven:betterclimbing-655619:5514197"
 
     implementation "curse.maven:beautfiedchatclient-514797:6186476"
-    implementation "curse.maven:attackthroughgrass-934895:5869497"
+    implementation "curse.maven:attackthroughgrass-934895:6224388"
 
     //---- PERFORMANCE ----//
     implementation "curse.maven:ferriteCore-429235:5850121"
@@ -344,7 +344,11 @@ dependencies {
 
 
     implementation "curse.maven:securityCraft-64760:5950155"
-    implementation "curse.maven:occultism-361026:6082790"
+    // Occultism (Local Build)
+    // Original: curse.maven:occultism-361026:6082790
+    // Modifications:
+    //   - Removed silver ore worldgen (biome modifiers, configured/placed features)
+    implementation "blank:occultism-1.21.1-1.161.0-nosilver"
     //implementation "curse.maven:theurgy-430636:5920165"
     // Productive Bees (Local Build)
     // Original: curse.maven:productiveBees-377897:6029033
@@ -443,7 +447,7 @@ dependencies {
     // Local builds with metal unification: removed steel/bronze/tin items, uses Mekanism metals via tags
     // Small plates produced via Create pressing from #c:nuggets/*
     implementation "blank:epic-knights-1.21.1-neoforge-10.2"
-    implementation "blank:epic-knights-addon-2.1-1.21.1-neoforge"
+    implementation "blank:epic-knights-addon-1.24-1.21.1-neoforge"
     implementation "blank:epic-knights-antique-legacy-1.21.1-neoforge-1.12"
 
     //---- Ars Nouveau ----//

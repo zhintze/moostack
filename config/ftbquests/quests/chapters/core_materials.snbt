@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "core_materials"
+	group: "BFBF2F37C0E19448"
+	icon: {
+		id: "mekanism:ingot_steel"
+	}
+	id: "E07FC4E62A004563"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "9F0C3D215E4C140E"
+			min_width: 300
+			rewards: [{
+				id: "98F67F3FFEE7E16C"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "D37CF32B1E03C06C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F0C3D215E4C140E"]
+			icon: {
+				id: "jei:jei_icon"
+			}
+			id: "74E90159726350A6"
+			min_width: 280
+			rewards: [{
+				id: "A657A4D0CC708CD4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "17AEF4C3AC578780"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "6A5D06E15CBF0192"
+			rewards: [
+				{
+					id: "98F9676C72985387"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "98F9676C72985388"
+					item: {
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "653A625A7BCC50F3"
+				item: {
+					tag: "c:ingots/iron"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "C7F9AE65C0B22DB2"
+			rewards: [
+				{
+					id: "75262E6337911F0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "75262E6337911F0D"
+					item: {
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "C5AB29ACB6446A5A"
+				item: {
+					tag: "c:ingots/copper"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "8AB8302181669AAC"
+			rewards: [
+				{
+					id: "A80608B2FE1D4F4F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "A80608B2FE1D4F50"
+					item: {
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "9EBE8E7E790AF711"
+				item: {
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "mekanism:ingot_bronze"
+			}
+			id: "0B41941EABFD0B68"
+			rewards: [
+				{
+					id: "FA73EFDF27E8FFEE"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "FA73EFDF27E8FFEF"
+					item: {
+						id: "mekanism:ingot_bronze"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6ED073B00AD61A12"
+				item: {
+					tag: "c:ingots/bronze"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "mekanism:ingot_lead"
+			}
+			id: "38A2EC0687E218B8"
+			rewards: [
+				{
+					id: "059EB4DFE5C2EC0F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "059EB4DFE5C2EC10"
+					item: {
+						id: "mekanism:ingot_lead"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0544E84A2C2707"
+				item: {
+					tag: "c:ingots/lead"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "immersiveengineering:ingot_silver"
+			}
+			id: "DD47A55BB2CDCBC3"
+			rewards: [
+				{
+					id: "1FC722C2F5679994"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1FC722C2F5679995"
+					item: {
+						id: "immersiveengineering:ingot_silver"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D78EDFD93D389FC9"
+				item: {
+					tag: "c:ingots/silver"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["74E90159726350A6"]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "5E6C1D846BC05069"
+			rewards: [
+				{
+					id: "E1B38C12ABDCC144"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "E1B38C12ABDCC145"
+					item: {
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "D873A96F2F602E25"
+				item: {
+					tag: "c:ingots/zinc"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A5D06E15CBF0192"]
+			icon: {
+				id: "create:iron_sheet"
+			}
+			id: "159490AC92314FE6"
+			rewards: [
+				{
+					id: "37693B221A33E408"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "37693B221A33E409"
+					item: {
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4DEB472DD79B85C7"
+				item: {
+					id: "create:iron_sheet"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C7F9AE65C0B22DB2"]
+			icon: {
+				id: "create:copper_sheet"
+			}
+			id: "2EE05307CA11F58A"
+			rewards: [
+				{
+					id: "1E0351DB9AF3C164"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "1E0351DB9AF3C165"
+					item: {
+						id: "create:copper_sheet"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "A8F2ECA58A570BDE"
+				item: {
+					id: "create:copper_sheet"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"159490AC92314FE6"
+				"2EE05307CA11F58A"
+				"8AB8302181669AAC"
+				"0B41941EABFD0B68"
+				"38A2EC0687E218B8"
+				"DD47A55BB2CDCBC3"
+				"5E6C1D846BC05069"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "1ED4634F1473F26E"
+			rewards: [
+				{
+					id: "26DB4C834CE8E5D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "FA409844A5B3E22F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

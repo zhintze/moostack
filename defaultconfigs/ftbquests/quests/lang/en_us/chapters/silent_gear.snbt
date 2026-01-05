@@ -1,0 +1,26 @@
+{
+	quest.1A2B3C4D5E6F7081.title: "Getting Started with Silent Gear"
+	quest.1A2B3C4D5E6F7081.quest_desc: ["&6Silent Gear - Modular Tools & Armor!&r\\n\\nSilent Gear replaces vanilla gear with fully customizable equipment!\\n\\n&eCore Concept:&r\\n- Craft &eBlueprint Paper&r first\\n- Make blueprints for each item type\\n- Combine blueprints + materials = custom gear\\n\\nEvery material has unique stats and traits!\\n\\n&7Your gear, your way!&r"]
+	quest.4D5E6F7081920314.title: "Weapon Blueprints"
+	quest.4D5E6F7081920314.quest_desc: ["&eWeapon Blueprints!&r\\n\\nCraft blueprints for weapons:\\n\\n- &eSword Blueprint&r\\n- &eKatana Blueprint&r\\n- &eAxe Blueprint&r\\n- &eSpear Blueprint&r\\n- And many more!\\n\\nBlueprints are reusable - craft once, use forever!\\n\\n&7Match weapon types to Epic Fight styles!&r"]
+	quest.708192031425364F.title: "Tool Blueprints"
+	quest.708192031425364F.quest_desc: ["&eTool Blueprints!&r\\n\\nCraft blueprints for tools:\\n\\n- &ePickaxe Blueprint&r\\n- &eShovel Blueprint&r\\n- &eAxe Blueprint&r (dual-purpose!)\\n- &eHammer Blueprint&r (3x3 mining)\\n- &eExcavator Blueprint&r (3x3 digging)\\n\\nTools can have special traits based on materials!"]
+	quest.0314253647586970.title: "Your First SG Weapon"
+	quest.0314253647586970.quest_desc: ["&aCraft Your First Weapon!&r\\n\\nAt a crafting table:\\n- Sword Blueprint\\n- Main material (blade)\\n- Rod material (handle)\\n\\nThe materials you choose determine:\\n- Damage\\n- Durability\\n- Attack speed\\n- Special traits\\n\\n&7Experiment with different combinations!&r"]
+	quest.3647586970819203.title: "Your First SG Tool"
+	quest.3647586970819203.quest_desc: ["&aCraft Your First Tool!&r\\n\\nSilent Gear tools excel because:\\n\\n- Mix materials for optimal stats\\n- Upgrade without full re-craft\\n- Special traits from materials\\n- Repairable with any valid material\\n\\nCraft a pickaxe to start your mining career!"]
+	quest.6970819203142536.title: "Armor Blueprints"
+	quest.6970819203142536.quest_desc: ["&eArmor Blueprints!&r\\n\\nProtect yourself with custom armor:\\n\\n- &eHelmet Blueprint&r\\n- &eChestplate Blueprint&r\\n- &eLeggings Blueprint&r\\n- &eBoots Blueprint&r\\n\\nArmor materials affect Epic Fight weight class!\\n\\n&7Choose materials that match your combat style!&r"]
+	quest.9203142536475869.title: "Full Armor Set"
+	quest.9203142536475869.quest_desc: ["&aComplete Armor Set!&r\\n\\nCraft a full set of Silent Gear armor!\\n\\nConsider:\\n- Light materials for agility\\n- Heavy materials for protection\\n- Mixed sets for balance\\n\\nYour armor choice affects Epic Fight combat significantly!\\n\\n&7Traits like Sturdy or Flexible change combat feel!&r"]
+	quest.2536475869708192.title: "Material Tiers"
+	quest.2536475869708192.quest_desc: ["&eMaterial Progression!&r\\n\\nSilent Gear materials have tiers:\\n\\n&7Tier 0&r: Wood, Stone, Flint\\n&fTier 1&r: Iron, Copper\\n&aTier 2&r: Steel, Bronze, Gold\\n&bTier 3&r: Diamond, Osmium\\n&dTier 4&r: Netherite, Refined Obsidian\\n&6Tier 5&r: Endgame alloys\\n\\n&eCanonical mooStack materials:&r\\n- Steel from Mekanism\\n- Bronze from Mekanism\\n- Osmium from Mekanism"]
+	quest.5869708192031425.title: "Diamond Tier Gear"
+	quest.5869708192031425.quest_desc: ["&bDiamond Tier!&r\\n\\nDiamond remains excellent for Silent Gear:\\n\\n- High durability\\n- Good damage/protection\\n- Enchantable\\n- Pairs well with traits\\n\\nConsider mixing diamond with other materials for unique builds!"]
+	quest.8192031425364758.title: "Netherite Tier Gear"
+	quest.8192031425364758.quest_desc: ["&dNetherite Tier!&r\\n\\nThe vanilla endgame material:\\n\\n- Highest base stats\\n- Fire resistant\\n- Floats in lava\\n- Excellent trait synergy\\n\\n&eMekanism tip:&r Process Ancient Debris for bonus output!\\n\\n&7Netherite + good traits = ultimate gear!&r"]
+	quest.1425364758697081.title: "Upgrades & Parts"
+	quest.1425364758697081.quest_desc: ["&eGear Upgrades!&r\\n\\nSilent Gear items can be upgraded:\\n\\n&eTip Upgrades:&r Change tool head material\\n&eCoating:&r Add surface effects\\n&eGrip:&r Modify handle properties\\n&eBowstring:&r For ranged weapons\\n\\nUpgrade existing gear without full re-craft!\\n\\n&7Mix and match for optimal builds!&r"]
+	quest.4758697081920314.title: "Silent Gear Mastery"
+	quest.4758697081920314.quest_desc: ["&aSilent Gear Mastery!&r\\n\\nYou've mastered modular gear crafting!\\n\\nYou now understand:\\n- Blueprint system\\n- Material tiers and traits\\n- Weapon/Tool/Armor crafting\\n- Upgrade system\\n- Material synergies\\n\\n&eNetherwood Trees&r are Silent Gear's special trees - find them in the Nether!\\n\\n&7Combine with Apotheosis affixes for ultimate gear!&r"]
+}

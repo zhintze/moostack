@@ -1,0 +1,32 @@
+{
+	quest.A1B2C3D4E5F60718.title: "Getting Started with Iron's Spells"
+	quest.A1B2C3D4E5F60718.quest_desc: ["&6Welcome to Iron's Spells 'n Spellbooks!&r\\n\\nUnlike Ars Nouveau, Iron's Spells uses pre-made spells that you discover and inscribe into spell books.\\n\\nStart by crafting an &eInscription Table&r. This is where you:\\n- Learn spells from scrolls\\n- Inscribe spells into books\\n- Upgrade spell levels\\n\\n&7Find spell scrolls in dungeons and from mob drops!&r"]
+	quest.D4E5F6071829304B.title: "Spell Scrolls"
+	quest.D4E5F6071829304B.quest_desc: ["&eScrolls&r are consumable spells!\\n\\nFind scrolls in:\\n- Dungeon chests\\n- Mob drops\\n- Structure loot\\n- Villager trades\\n\\nUse scrolls directly for one-time casting, or bring them to your Inscription Table to learn the spell permanently!\\n\\nHigher rarity scrolls = stronger spells."]
+	quest.071829304B5C637E.title: "Your First Spell Book"
+	quest.071829304B5C637E.quest_desc: ["&eSpell Books hold your inscribed spells!&r\\n\\nThe &eCopper Spell Book&r is your starting spell book:\\n- Holds 4 spells\\n- Basic mana capacity\\n- Low cooldown multiplier\\n\\nEquip it and use the spell wheel (R by default) to select and cast spells!"]
+	quest.3A4B5C6D7E8F960B.title: "Iron Spell Book"
+	quest.3A4B5C6D7E8F960B.quest_desc: ["&aUpgrade Your Casting!&r\\n\\nThe &eIron Spell Book&r offers:\\n- 6 spell slots\\n- Better mana capacity\\n- Improved cooldown reduction\\n\\nCraft at the Inscription Table by upgrading your Copper book."]
+	quest.6D7E8F9A0B1C293E.title: "Gold Spell Book"
+	quest.6D7E8F9A0B1C293E.quest_desc: ["&6Advanced Casting Power!&r\\n\\nThe &eGold Spell Book&r provides:\\n- 8 spell slots\\n- Large mana pool\\n- Significant cooldown reduction\\n\\nGreat for mid-game spellcasting!"]
+	quest.9A0B1C2D3E4F5C6B.title: "Arcane Essence"
+	quest.9A0B1C2D3E4F5C6B.quest_desc: ["&eArcane Essence&r is the core crafting material!\\n\\nObtain from:\\n- Killing magical mobs\\n- Disenchanting items\\n- Processing arcane debris\\n\\nUsed to craft:\\n- Inks for spell leveling\\n- Spell book upgrades\\n- Magical equipment"]
+	quest.2D3E4F5A6B7C8F9E.title: "Uncommon Ink"
+	quest.2D3E4F5A6B7C8F9E.quest_desc: ["&eInk Tiers&r determine spell power!\\n\\n&7Common Ink&r: Level 1-3 spells\\n&aUncommon Ink&r: Level 4-6 spells\\n&bRare Ink&r: Level 7-8 spells\\n&dEpic Ink&r: Level 9-10 spells\\n\\nCraft higher tier inks at the Inscription Table using Arcane Essence!"]
+	quest.5A6B7C8D9E0F1C2B.title: "Rare Ink"
+	quest.5A6B7C8D9E0F1C2B.quest_desc: ["&bRare Ink&r unlocks powerful spell levels!\\n\\nWith Rare Ink, your spells can reach level 7-8:\\n- More damage\\n- Longer duration\\n- Greater effects\\n\\nRequires significant Arcane Essence to craft."]
+	quest.8D9E0F1A2B3C4F5E.title: "School: Fire"
+	quest.8D9E0F1A2B3C4F5E.quest_desc: ["&cFire Magic School!&r\\n\\nFire spells include:\\n- &eFireball&r: Classic explosive projectile\\n- &eFirebolt&r: Quick fire attack\\n- &eBurning Dash&r: Dash through enemies, setting them ablaze\\n- &eWall of Fire&r: Create barriers of flame\\n\\nThe &eFire Spell Book&r boosts fire spell power!"]
+	quest.1A2B3C4D5E6F708B.title: "School: Ice"
+	quest.1A2B3C4D5E6F708B.quest_desc: ["&bIce Magic School!&r\\n\\nIce spells include:\\n- &eCone of Cold&r: Freezing cone attack\\n- &eIcicle&r: Piercing ice projectile\\n- &eFrostbite&r: Slow and damage\\n- &eIce Block&r: Encase in protective ice\\n\\nThe &eIce Spell Book&r boosts ice spell power!"]
+	quest.4D5E6F70819203BE.title: "School: Lightning"
+	quest.4D5E6F70819203BE.quest_desc: ["&eLightning Magic School!&r\\n\\nLightning spells include:\\n- &eLightning Bolt&r: Strike from the sky\\n- &eChain Lightning&r: Bounces between targets\\n- &eElectrocute&r: Continuous shock\\n- &eThunderstorm&r: Area devastation\\n\\nThe &eLightning Spell Book&r boosts lightning spell power!"]
+	quest.708192A3B4C536EB.title: "Armor & Curios"
+	quest.708192A3B4C536EB.quest_desc: ["&eGear for Spellcasters!&r\\n\\nIron's Spells adds armor sets that boost magic:\\n\\n- &eWandering Magician&r: All-around bonuses\\n- &eScholar Robes&r: Mana regeneration\\n- &eCultist Robes&r: Dark magic power\\n- &eArchmage Robes&r: Ultimate casting gear\\n\\nFind them in dungeons or craft from boss drops!"]
+	quest.A3B4C5D6E7F8691E.title: "Epic Ink"
+	quest.A3B4C5D6E7F8691E.quest_desc: ["&dEpic Ink&r - Maximum Spell Power!\\n\\nWith Epic Ink, spells reach level 9-10:\\n- Maximum damage output\\n- Longest durations\\n- Most powerful effects\\n\\nRequires rare materials and significant Arcane Essence!"]
+	quest.D6E7F8A9B0C19C4B.title: "Diamond Spell Book"
+	quest.D6E7F8A9B0C19C4B.quest_desc: ["&bDiamond Spell Book&r\\n\\nA powerful spell book tier:\\n- 10 spell slots\\n- Excellent mana capacity\\n- Strong cooldown reduction\\n\\nPerfect for serious spellcasters!"]
+	quest.A9B0C1D2E3F4CF7E.title: "Iron's Spells Mastery"
+	quest.A9B0C1D2E3F4CF7E.quest_desc: ["&aIron's Spells Mastery!&r\\n\\nYou've mastered the art of pre-made spellcasting!\\n\\nYou now understand:\\n- Scroll discovery and inscription\\n- Spell book progression\\n- Ink tiers and spell leveling\\n- Magic schools and synergies\\n- Armor and curio bonuses\\n\\nThe &eNecronomicon&r is one of the most powerful spell books - congratulations!\\n\\n&7Combine with Epic Fight for devastating magic combat!&r"]
+}

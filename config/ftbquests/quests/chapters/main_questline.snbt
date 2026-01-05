@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_questline"
+	group: "C5CAF87C5F3936AC"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "8A1B2C3D4E5F6078"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "B1C2D3E4F5A60718"
+			rewards: [{
+				id: "C2D3E4F5A6071829"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "D3E4F5A60718293A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B1C2D3E4F5A60718"]
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "E4F5A6071829304B"
+			min_width: 280
+			rewards: [{
+				id: "F5A60718293A415C"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "A60718293A4B526D"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B1C2D3E4F5A60718"]
+			icon: {
+				id: "ars_nouveau:creative_spell_book"
+			}
+			id: "0718293A4B5C637E"
+			min_width: 280
+			rewards: [{
+				id: "18293A4B5C6D748F"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "293A4B5C6D7E859A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E4F5A6071829304B", "0718293A4B5C637E"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "3A4B5C6D7E8F960B"
+			min_width: 280
+			rewards: [{
+				id: "4B5C6D7E8F9A071C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C6D7E8F9A0B182D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A4B5C6D7E8F960B"]
+			icon: {
+				id: "silentgear:pickaxe"
+			}
+			id: "6D7E8F9A0B1C293E"
+			min_width: 280
+			rewards: [{
+				id: "7E8F9A0B1C2D3A4F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "8F9A0B1C2D3E4B5A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A4B5C6D7E8F960B"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "9A0B1C2D3E4F5C6B"
+			min_width: 280
+			rewards: [{
+				id: "0B1C2D3E4F5A6D7C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "1C2D3E4F5A6B7E8D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D7E8F9A0B1C293E", "9A0B1C2D3E4F5C6B"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "2D3E4F5A6B7C8F9E"
+			rewards: [{
+				id: "3E4F5A6B7C8D9A0F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4F5A6B7C8D9E0B1A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D3E4F5A6B7C8F9E"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "5A6B7C8D9E0F1C2B"
+			rewards: [{
+				id: "6B7C8D9E0F1A2D3C"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7C8D9E0F1A2B3E4D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

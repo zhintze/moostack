@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "48EC47994FC72362"
+	icon: {
+		id: "minecraft:enchanting_table"
+	}
+	id: "6E9F3A7B2C1D8045"
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "7A8B9C0D1E2F3041"
+			rewards: [
+				{
+					id: "8B9C0D1E2F304152"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "9C0D1E2F30415263"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3041"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "0D1E2F3041526374"
+			min_width: 280
+			rewards: [{
+				id: "1E2F304152637485"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2F30415263748596"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3041"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "30415263748596A7"
+			min_width: 280
+			rewards: [{
+				id: "415263748596A7B8"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5263748596A7B8C9"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D1E2F3041526374"]
+			icon: {
+				id: "apotheosis:hellshelf"
+			}
+			id: "63748596A7B8C9D0"
+			rewards: [{
+				id: "748596A7B8C9D0E1"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "8596A7B8C9D0E1F2"
+				item: {
+					id: "apotheosis:hellshelf"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30415263748596A7"]
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "96A7B8C9D0E1F203"
+			rewards: [{
+				id: "A7B8C9D0E1F20314"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "B8C9D0E1F2031425"
+				item: {
+					id: "apotheosis:gem"
+				}
+				match: "ignore_nbt"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63748596A7B8C9D0"]
+			icon: {
+				id: "apotheosis:endshelf"
+			}
+			id: "C9D0E1F203142536"
+			rewards: [{
+				id: "D0E1F20314253647"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "E1F2031425364758"
+				item: {
+					id: "apotheosis:endshelf"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["96A7B8C9D0E1F203"]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "F203142536475869"
+			rewards: [{
+				id: "0314253647586970"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "1425364758697081"
+				item: {
+					id: "apotheosis:salvaging_table"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3041"]
+			icon: {
+				id: "apotheosis:boss_summoner"
+			}
+			id: "2536475869708192"
+			min_width: 280
+			rewards: [{
+				id: "3647586970819203"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "4758697081920314"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2536475869708192"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "5869708192031425"
+			rewards: [{
+				id: "6970819203142536"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7081920314253647"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"C9D0E1F203142536"
+				"F203142536475869"
+				"5869708192031425"
+			]
+			icon: {
+				id: "apotheosis:ancient_tome"
+			}
+			id: "8192031425364758"
+			rewards: [{
+				id: "9203142536475869"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0314253647586970"
+				item: {
+					id: "apotheosis:ancient_tome"
+				}
+				match: "ignore_nbt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

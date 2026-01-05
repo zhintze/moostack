@@ -1,0 +1,29 @@
+{
+	quest.9F0C3D215E4C140E.title: "Why Unification?"
+	quest.9F0C3D215E4C140E.quest_desc: ["&6Material Unification&r\\n\\nIn mooStack, many mods add the same materials (steel, bronze, lead, etc.). To prevent confusion, we've unified them:\\n\\n- &eOne canonical source&r per material\\n- Duplicate items are &chidden from JEI&r\\n- Recipes are &aredirected&r to use canonical items\\n\\nThis means you never need to ask 'which steel do I use?' - there's only one!\\n\\nComplete this chapter to learn all the canonical sources."]
+	task.D37CF32B1E03C06C.title: "Understanding Unification"
+	quest.74E90159726350A6.title: "Finding the Canonical Source"
+	quest.74E90159726350A6.quest_desc: ["&6Using JEI&r\\n\\nWhen you need a material, press &eR&r on it in JEI to see recipes.\\n\\nThe &acanonical source&r is always shown. Hidden duplicates won't appear in recipes.\\n\\n&7Tip: If a recipe shows a tag like #c:ingots/steel, any steel ingot works - but Mekanism's is the one you should be making!&r"]
+	task.17AEF4C3AC578780.title: "JEI Basics"
+	quest.6A5D06E15CBF0192.title: "Iron: The Foundation"
+	quest.6A5D06E15CBF0192.quest_desc: ["Iron is vanilla Minecraft's iron - no unification needed.\\n\\nMine iron ore (below Y=64) and smelt it, or process through Mekanism for bonus output later."]
+	quest.C7F9AE65C0B22DB2.title: "Copper Conducting"
+	quest.C7F9AE65C0B22DB2.quest_desc: ["Copper is vanilla Minecraft's copper.\\n\\nUsed heavily in wiring, Create machines, and electrical systems. Abundant in the world."]
+	quest.8AB8302181669AAC.title: "Steel: Mekanism's Gift"
+	quest.8AB8302181669AAC.quest_desc: ["&6IMPORTANT: Steel is from Mekanism&r\\n\\nSteel is THE most important unified material. It's used in:\\n- Mekanism machines\\n- IE multiblocks (redirected)\\n- Silent Gear tools\\n- Epic Knights armor\\n\\nCraft it by:\\n1. Enrichment Chamber: Iron Ingot -> Enriched Iron\\n2. Blast the enriched iron in a Mekanism Blast Furnace\\n\\n&7Early game: The IE Blast Furnace also works!&r"]
+	quest.0B41941EABFD0B68.title: "Bronze Age"
+	quest.0B41941EABFD0B68.quest_desc: ["&6Bronze is from Mekanism&r\\n\\nBronze = Copper + Tin (3:1 ratio in Metallurgic Infuser)\\n\\nUsed in:\\n- Epic Knights bronze armor\\n- Create machines\\n- Various mod recipes"]
+	quest.38A2EC0687E218B8.title: "Lead: Heavy Metal"
+	quest.38A2EC0687E218B8.quest_desc: ["&6Lead is from Mekanism&r\\n\\nLead ore generates in the world. Process it through Mekanism's ore processing chain.\\n\\nUsed in:\\n- Mekanism batteries and casings\\n- IE machines (redirected)\\n- Radiation shielding"]
+	quest.DD47A55BB2CDCBC3.title: "Silver: IE's Standard"
+	quest.DD47A55BB2CDCBC3.quest_desc: ["&6Silver is from Immersive Engineering&r\\n\\nSilver ore generates underground. Smelt or process through Mekanism.\\n\\nUsed in:\\n- IE wiring and connectors\\n- Magic mod components\\n- Occultism (redirected)"]
+	quest.5E6C1D846BC05069.title: "Zinc from Create"
+	quest.5E6C1D846BC05069.quest_desc: ["&6Zinc is from Create&r\\n\\nZinc ore generates in the world. Smelt or wash crushed zinc.\\n\\nUsed primarily for:\\n- Brass (Zinc + Copper in mixing)\\n- Create machines\\n- Some other mod recipes (redirected)"]
+	quest.159490AC92314FE6.title: "Iron Sheets via Create"
+	quest.159490AC92314FE6.quest_desc: ["&6Iron Sheets are from Create&r\\n\\nPress iron ingots in a Create Mechanical Press to make iron sheets.\\n\\nUsed in:\\n- IE machines (redirected)\\n- Create contraptions\\n- Various casings and plates"]
+	quest.2EE05307CA11F58A.title: "Copper Pressing"
+	quest.2EE05307CA11F58A.quest_desc: ["&6Copper Sheets are from Create&r\\n\\nPress copper ingots in a Create Mechanical Press.\\n\\nUsed heavily in IE wiring, Create machines, and electrical systems."]
+	quest.1ED4634F1473F26E.title: "Material Master"
+	quest.1ED4634F1473F26E.quest_desc: ["&aCongratulations!&r\\n\\nYou now understand mooStack's material unification system.\\n\\n&6Quick Reference:&r\\n- Steel: Mekanism\\n- Bronze: Mekanism\\n- Lead: Mekanism\\n- Silver: Immersive Engineering\\n- Zinc: Create\\n- Iron/Copper Sheets: Create\\n\\nWhen in doubt, check JEI for the canonical source!"]
+	task.FA409844A5B3E22F.title: "All Materials Learned"
+}

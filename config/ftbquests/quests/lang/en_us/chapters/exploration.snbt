@@ -1,0 +1,22 @@
+{
+	quest.E1F2A3B4C5D60718.title: "The World Awaits"
+	quest.E1F2A3B4C5D60718.quest_desc: ["&6Exploration in mooStack!&r\\n\\nThe world is filled with wonders to discover!\\n\\n&eWorldgen Mods:&r\\n- &aTerralith&r: Stunning overworld biomes\\n- &aBiomes O' Plenty&r: Classic biome variety\\n- &aIncendium&r: Overhauled Nether\\n- &aNullscape&r: Transformed End\\n\\n&eStructure Mods:&r\\n- YUNG's Better Structures\\n- Towns and Towers\\n- And many more!\\n\\n&7Use JourneyMap to track your discoveries!&r"]
+	quest.B4C5D6E71829304B.title: "Biome Discovery"
+	quest.B4C5D6E71829304B.quest_desc: ["&eTerralith & Beyond!&r\\n\\nExplore the enhanced overworld biomes:\\n\\n&aHighlights:&r\\n- Skylands (floating islands)\\n- Volcanic regions\\n- Crystal caves\\n- Ancient forests\\n- Painted deserts\\n\\nEach biome may have unique resources, mobs, and structures!\\n\\n&7Visit at least 10 different biomes to appreciate the variety!&r"]
+	quest.E718293041526E7F.title: "Structure Hunting"
+	quest.E718293041526E7F.quest_desc: ["&eDungeons & Loot!&r\\n\\nFind and conquer various structures:\\n\\n&aMust-Visit:&r\\n- YUNG's Better Dungeons\\n- Better Mineshafts\\n- Better Strongholds\\n- Towns and Towers\\n- Iron's Spells structures (magic loot!)\\n\\n&cDanger:&r Structures often have tough mobs. Bring gear!\\n\\n&7Structure Compasses can help locate specific types!&r"]
+	quest.1A415263748592A2.title: "Waystone Network"
+	quest.1A415263748592A2.quest_desc: ["&eFast Travel Setup!&r\\n\\nBuild a waystone network for easy travel:\\n\\n&eWaystone Types:&r\\n- &aWaystone&r: Standard teleport point\\n- &aSharestone&r: Team-shared waypoints\\n- &aPortstone&r: Portable waystone\\n- &aWarp Stone&r: One-time use teleport\\n\\nFind village waystones or craft your own!\\n\\n&7Essential for exploring distant locations!&r"]
+	quest.4D748596A7B8C5D5.title: "Woodland Mansion"
+	quest.4D748596A7B8C5D5.quest_desc: ["&6Raid a Mansion!&r\\n\\nWoodland Mansions contain:\\n- Evokers (drop Totem of Undying!)\\n- Vindicators\\n- Valuable loot\\n\\nThe &eTotem of Undying&r is incredibly valuable - it saves you from death once!\\n\\n&cWarning:&r Mansions are dangerous. Prepare well!\\n\\n&7Find mansions with Woodland Explorer Maps from cartographer villagers.&r"]
+	quest.70A718B9C0DBF808.title: "Enter the Nether"
+	quest.70A718B9C0DBF808.quest_desc: ["&cThe Nether Awaits!&r\\n\\nIncendium transforms the Nether with:\\n\\n&eNew Biomes:&r\\n- Volcanic wastelands\\n- Crystalline caverns\\n- Corrupted forests\\n- Infernal dunes\\n\\n&eNew Structures:&r\\n- Fortresses (enhanced)\\n- Nether cities\\n- Mysterious ruins\\n\\n&7Prepare fire resistance and good armor!&r"]
+	quest.A3DA41E2F30E2B3B.title: "Ancient Debris"
+	quest.A3DA41E2F30E2B3B.quest_desc: ["&eNetherite Preparation!&r\\n\\nAncient Debris is found:\\n- Y level 8-22 (most common at 15)\\n- Blast resistant (use beds or TNT!)\\n- Very rare\\n\\n&eProcess:&r\\n1. Smelt debris into Netherite Scrap\\n2. 4 Scraps + 4 Gold = 1 Netherite Ingot\\n3. Upgrade diamond gear at smithing table\\n\\n&7Mekanism can multiply debris output!&r"]
+	quest.D60D74B5C631E6E.title: "The End"
+	quest.D60D74B5C631E6E.quest_desc: ["&5Enter The End!&r\\n\\nNullscape transforms the End dimension:\\n\\n&ePrepare For:&r\\n- Ender Dragon fight\\n- End City exploration\\n- Unique End biomes\\n- New structures and mobs\\n\\n&eRequirements:&r\\n- 12 Eyes of Ender\\n- Stronghold located\\n- Good gear and potions\\n\\n&7The End has the best loot - Elytra, Shulker Shells, and more!&r"]
+	quest.093A07E8F964191.title: "Elytra Wings"
+	quest.093A07E8F964191.quest_desc: ["&dFlight Achieved!&r\\n\\nThe &eElytra&r grants gliding flight!\\n\\nFound in:\\n- End City ship loot\\n\\n&eUsage:&r\\n- Equip in chestplate slot\\n- Jump from height to glide\\n- Use fireworks for powered flight\\n\\n&7Essential for efficient exploration!&r\\n\\nCombine with Curios slots to wear both armor and Elytra!"]
+	quest.3C6D3A1B2C974C4.title: "Exploration Mastery"
+	quest.3C6D3A1B2C974C4.quest_desc: ["&aExploration Mastery!&r\\n\\nYou've conquered the dimensions!\\n\\nAchievements:\\n- Explored Terralith's biomes\\n- Conquered enhanced structures\\n- Built a waystone network\\n- Braved Incendium's Nether\\n- Tamed Nullscape's End\\n\\nThe &eDragon Egg&r is proof of your ultimate victory!\\n\\n&7The world holds no more secrets from you. What will you build next?&r"]
+}

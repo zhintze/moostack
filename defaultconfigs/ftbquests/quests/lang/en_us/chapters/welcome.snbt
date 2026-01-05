@@ -1,0 +1,14 @@
+{
+	quest.C05C4E4EF55EBB68.title: "&dWelcome to mooStack!"
+	quest.C05C4E4EF55EBB68.quest_desc: ["mooStack is an integrated modpack where unified materials, cross-mod loops, and shared progression rails define the player experience.\\n\\nThis is not a kitchen sink pack - systems are designed to work together. Steel comes from Mekanism, sheets from Create, and everything flows through standardized pipelines.\\n\\nExplore the quests to learn how the pack works!"]
+	quest.4209DDD97D1E5861.quest_desc: ["&6Pack Philosophy&r\\n\\nmooStack emphasizes:\\n\\n- &aUnified Materials&r: One canonical source for each material\\n- &aCross-Mod Integration&r: Systems that connect and synergize\\n- &aProgression Rails&r: Clear paths through technology and magic\\n- &aEpic Fight Combat&r: Skill-based combat as the core system\\n- &aSpice of Life&r: Food variety is survival, not optional\\n\\nQuests teach, demonstrate, then require mastery."]
+	task.4D9A09E80739F58C.title: "Pack Philosophy"
+	quest.1178CF5CA0D108E4.quest_desc: ["&6Unified Materials&r\\n\\nIn mooStack, materials are standardized:\\n\\n- &eSteel&r: Mekanism (ingots), Ad Astra Mekanized (sheets)\\n- &eSheets&r: Create pressing for iron/copper\\n- &eBronze&r: Mekanism\\n- &eSilver&r: Immersive Engineering\\n\\nAlways check JEI for the canonical source. Duplicate items are hidden or redirected.\\n\\nSee the &aCore Materials&r chapter for full details!"]
+	task.AEF1169190FB1E5F.title: "Unified Materials"
+	quest.E16C8E518F6B06A7.quest_desc: ["&6Useful Commands&r\\n\\n&e/sethome&r <name> - Set a teleport home\\n&e/home&r <name> - Teleport to your home\\n&e/spawn&r - Return to world spawn\\n&e/rtp&r - Random teleport (wilderness exploration)\\n&e/back&r - Return to last death/teleport location\\n\\nThese commands have cooldowns. Server operators can adjust limits in:\\n&oworld/serverconfig/ftbessentials.snbt&r"]
+	task.7DAB52FA21E199D8.title: "Useful Commands"
+	quest.42CB375D6A285763.quest_desc: ["&6Claiming Chunks&r\\n\\nTo protect your builds:\\n\\n1. Open your map with &6M&r\\n2. Click the &aClaimed Chunks&r icon (top left)\\n3. Left-click and drag to claim chunks\\n4. Shift-left-click to force load chunks (keeps them active when away)\\n\\nForce loaded chunks show diagonal lines across them."]
+	task.C65C09223F6E8707.title: "Claiming Chunks"
+	quest.47F453CC1FED7365.quest_desc: ["&6Creating a Team&r\\n\\nTo play with friends:\\n\\n&a/ftbteams party create <team name>&r\\n\\nTeam members share:\\n- Claimed chunks\\n- Quest progress\\n- FTB utilities\\n\\nInvite players with &a/ftbteams party invite <player>&r"]
+	task.BC4C75C55453304B.title: "Creating a Team"
+}

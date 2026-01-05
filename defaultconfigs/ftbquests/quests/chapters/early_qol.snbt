@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_qol"
+	group: "BFBF2F37C0E19448"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "16DB0F3AFB6FE3F9"
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "404EE0935C6480B4"
+			min_width: 280
+			rewards: [
+				{
+					id: "7AC7F5BB15130715"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7AC7F5BB15130716"
+					item: {
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "44C096E6F6D143E2"
+				item: {
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "BC6F1B6B95A988B2"
+			min_width: 300
+			rewards: [{
+				id: "4EC54373116C170C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2426AB1B507FA676"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "7ACF3F1272416053"
+			rewards: [
+				{
+					id: "28597C060AD271F5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "28597C060AD271F6"
+					item: {
+						id: "sophisticatedbackpacks:pickup_upgrade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "8F9420FC35A55D4E"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "curios:curio"
+			}
+			id: "4E989CED511D8B4E"
+			min_width: 280
+			rewards: [{
+				id: "68138D55A36CAD53"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1DC33C7E5AFA15AF"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ACF3F1272416053"]
+			icon: {
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "D8D4859E8783F3E5"
+			rewards: [
+				{
+					id: "63BE2DC89294A8E7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "63BE2DC89294A8E8"
+					item: {
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A965CF391EC4E72"
+				item: {
+					id: "sophisticatedstorage:barrel"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"404EE0935C6480B4"
+				"7ACF3F1272416053"
+				"D8D4859E8783F3E5"
+			]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "539E7122F8FD0BA2"
+			min_width: 280
+			rewards: [{
+				id: "28610EE2832D78AD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6C23BF675CBE7BDE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

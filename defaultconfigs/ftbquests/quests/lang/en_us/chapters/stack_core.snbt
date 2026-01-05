@@ -1,0 +1,22 @@
+{
+	quest.A1B2C3D4E5F6A718.title: "The Stack Core"
+	quest.A1B2C3D4E5F6A718.quest_desc: ["&6&lThe Stack Core - Ultimate Achievement!&r\\n\\nThis is it. The culmination of your mooStack journey.\\n\\nThe Stack Core represents mastery of:\\n- All technology pillars\\n- Magic systems\\n- Combat excellence\\n- Exploration completion\\n\\n&eGather the components below to craft the ultimate item!&r\\n\\n&7This is the endgame. Are you ready?&r"]
+	quest.D4E5F6A71829304B.title: "Tech Core: Mekanism"
+	quest.D4E5F6A71829304B.quest_desc: ["&eMekanism Contribution!&r\\n\\nThe &eUltimate Control Circuit&r represents Mekanism mastery:\\n\\n- Requires all circuit tiers\\n- Needs advanced chemical processing\\n- Proves factory automation\\n\\nThis is one of Mekanism's most complex crafts!\\n\\n&7Ore processing 5x helps gather materials!&r"]
+	quest.A718293041526E7F.title: "Tech Core: AE2"
+	quest.A718293041526E7F.quest_desc: ["&eApplied Energistics Contribution!&r\\n\\nA &eSingularity&r represents AE2 mastery:\\n\\n- Requires massive item compression\\n- Created in Matter Condenser\\n- Proves storage infrastructure\\n\\nSingularities are used for quantum linking!\\n\\n&7Your autocrafting can help produce this!&r"]
+	quest.3041526374859602.title: "Tech Core: Create"
+	quest.3041526374859602.quest_desc: ["&eCreate Contribution!&r\\n\\n&ePrecision Mechanisms&r (x4) represent Create mastery:\\n\\n- Complex sequenced assembly\\n- Multiple processing steps\\n- Proves mechanical automation\\n\\nPrecision Mechanisms are Create's signature component!\\n\\n&7Automate production for efficiency!&r"]
+	quest.6374859607182935.title: "Tech Core: IE"
+	quest.6374859607182935.quest_desc: ["&eImmersive Engineering Contribution!&r\\n\\n&eSteel Mechanical Components&r (x4) represent IE mastery:\\n\\n- Requires multiblock infrastructure\\n- Uses processed steel\\n- Proves industrial capability\\n\\nIE's heavy industry contribution!\\n\\n&7The Metal Press produces these!&r"]
+	quest.9607182930415263.title: "Magic Core"
+	quest.9607182930415263.quest_desc: ["&eMagic Contribution!&r\\n\\n&eSource Gem Blocks&r (x4) represent magic mastery:\\n\\n- Concentrated magical energy\\n- Requires significant source generation\\n- Proves spellcasting infrastructure\\n\\nAlternatively, high-tier Iron's Spells components work!\\n\\n&7Your source farms power this!&r"]
+	quest.2930415263748596.title: "Combat Core"
+	quest.2930415263748596.quest_desc: ["&eCombat Contribution!&r\\n\\nA &eNetherite Block&r represents combat mastery:\\n\\n- Requires Ancient Debris hunting\\n- Proves Nether exploration\\n- Shows gear progression\\n\\n9 Netherite Ingots compressed into ultimate material!\\n\\n&7Your combat skills earned this through Nether raids!&r"]
+	quest.5263748596071829.title: "Exploration Core"
+	quest.5263748596071829.quest_desc: ["&eExploration Contribution!&r\\n\\n&eDragon's Breath&r (x4) represents exploration mastery:\\n\\n- Only from Ender Dragon\\n- Proves End completion\\n- Unique collectible\\n\\nCollect during the Dragon fight using glass bottles!\\n\\n&7The ultimate exploration proof!&r"]
+	quest.8596071829304152.title: "Core Assembly"
+	quest.8596071829304152.quest_desc: ["&6Assemble the Components!&r\\n\\nWith all components gathered, you need a &eBeacon&r as the assembly base:\\n\\n- Nether Star (Wither kill)\\n- Glass and Obsidian\\n\\nThe Beacon represents the focus point for all your achievements!\\n\\n&7One step away from completion!&r"]
+	quest.1829304152637485.title: "Stack Core Complete!"
+	quest.1829304152637485.quest_desc: ["&a&l*** CONGRATULATIONS! ***&r\\n\\n&6You have completed the Stack Core!&r\\n\\nYou are now a &eStack Master&r!\\n\\n&aRewards:&r\\n- Permanent +2 hearts\\n- Stack Master title\\n- Unique particle effect\\n- Eternal bragging rights\\n\\nYou've mastered every major system in mooStack:\\n- Technology: Mekanism, AE2, Create, IE\\n- Magic: Ars Nouveau / Iron's Spells\\n- Combat: Epic Fight, Silent Gear, Apotheosis\\n- Survival: 100+ foods, all dimensions\\n\\n&7Thank you for playing mooStack!&r\\n\\n&dThe journey was the destination.&r"]
+}
