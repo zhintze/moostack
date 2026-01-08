@@ -397,10 +397,32 @@ Common task types and their requirements:
 These are the actual IDs from `runs/client/config/`:
 - Welcome: `02FF33D22B10EA88`
 - Applied Energistics 2: `4614511FF43DF71B`
-- Create: `066DA60724499F83`
+- Create: `100C477F4E63F20A`
 - Industrial Foregoing: `193F91842D2ED7D9`
+- Occultism: `4C507C004144BFEE`
 
 **Note**: These IDs may change if chapters are recreated. Always verify against actual chapter files.
+
+### Known Pitfalls: Lang File Mismatches
+
+**Issue (discovered 2026-01-08)**: It's possible to end up with lang entries that don't match the chapter file IDs. This can happen when:
+1. Multiple port attempts create conflicting ID sets
+2. Per-chapter lang files (`lang/en_us/chapters/`) have correct IDs but main `en_us.snbt` has old/wrong IDs
+3. FTB Quests regenerates chapter IDs but lang isn't updated
+
+**Detection**: Run this verification script after any port:
+```python
+import re
+# Read chapter file and extract quest IDs
+# Read main lang file and extract quest IDs in chapter section
+# Compare - all chapter quest IDs should have lang entries and vice versa
+```
+
+**Fix**: If mismatch is detected:
+1. Determine which file has the "correct" IDs (usually the chapter file)
+2. Replace the mismatched section in the main lang file
+3. Update chapter ID in lang to match chapter file
+4. Sync all files to defaultconfigs directories
 
 ### Combined Lang File Structure
 The main `runs/client/config/ftbquests/quests/lang/en_us.snbt` file contains ALL localizations for ALL chapters. When adding a new chapter:

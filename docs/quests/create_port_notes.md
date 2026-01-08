@@ -5,11 +5,12 @@
 - **Source Chapter**: `config/ftbquests/quests/chapters/create.snbt`
 - **Target Pack**: mooStack
 - **Port Date**: 2026-01-04
+- **Last Updated**: 2026-01-08 (lang file fix)
 
 ## Quest Statistics
 - **ATM Quest Count**: 90 quests
 - **mooStack Quest Count**: 90 quests (100% match)
-- **Chapter ID**: `E9658F9C62318FA6`
+- **Chapter ID**: `100C477F4E63F20A`
 
 ## Structural Changes
 
@@ -152,3 +153,21 @@ All original Create item rewards were kept as-is. The only modifications were:
 ## Files Modified
 - `runs/client/config/ftbquests/quests/chapters/create.snbt` (new file)
 - `runs/client/config/ftbquests/quests/lang/en_us.snbt` (added Create chapter entries)
+- `runs/client/config/ftbquests/quests/lang/en_us/chapters/create.snbt` (per-chapter lang backup)
+- `runs/client/defaultconfigs/ftbquests/quests/chapters/create.snbt` (synced)
+- `runs/client/defaultconfigs/ftbquests/quests/lang/en_us.snbt` (synced)
+- `defaultconfigs/ftbquests/quests/chapters/create.snbt` (distribution)
+- `defaultconfigs/ftbquests/quests/lang/en_us.snbt` (distribution)
+
+## 2026-01-08 Fix
+**Issue**: The main lang file `en_us.snbt` had an incorrect Create section with quest IDs that did not match the chapter file.
+- Old chapter ID in lang: `066DA60724499F83`
+- Correct chapter ID: `100C477F4E63F20A`
+- The old Create section (269 entries) was using quest IDs from a different/older port attempt
+- The per-chapter file `lang/en_us/chapters/create.snbt` had the correct IDs
+
+**Fix**: Replaced the Create section in the main `en_us.snbt` with the correct content from the per-chapter lang file:
+- Updated chapter ID to match chapter file
+- Replaced 269 incorrect quest entries with 192 correct entries (matching 90 quests)
+- Verified all quest IDs now match between chapter and lang files
+- Synced updated files to defaultconfigs directories

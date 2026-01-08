@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "02FF33D22B10EA88"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "78B3F7AD4FC47CAA"
+			rewards: [{
+				id: "426939131DE5431D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3523A4E16FCB834A"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "4209DDD97D1E5861"
+			min_width: 300
+			rewards: [{
+				id: "41C3EE8BBDEB7EE2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4D9A09E80739F58C"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "1178CF5CA0D108E4"
+			min_width: 280
+			rewards: [{
+				id: "4EC3305B156CFE08"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "02C6EAD6367B3526"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "30A1B0A1B54A0AEE"
+			min_width: 350
+			rewards: [{
+				id: "1BE900BD96D8196B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7DAB52FA21E199D8"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "42CB375D6A285763"
+			min_width: 300
+			rewards: [{
+				id: "5773DCCD904B565D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5FBEEC9714E97684"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "47F453CC1FED7365"
+			min_width: 280
+			rewards: [{
+				id: "01FE9E6BC0A2D1F7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4DA8DEE31EB00E44"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+	]
+}
