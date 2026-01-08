@@ -2,9 +2,125 @@
 
 This document captures learnings from setting up FTB Quests localization. Use this as a reference for future quest development.
 
+---
+
+## CRITICAL: The Three Directories and Data Flow
+
+**This section documents hard-learned lessons. Read this FIRST before doing ANY quest work.**
+
+### The Three Directories
+
+There are THREE directories involved in FTB Quests. Understanding their relationship is critical:
+
+```
+runs/client/config/ftbquests/    <-- RUNTIME (game reads from here)
+         |
+         | (manual copy when chapter is COMPLETE and TESTED)
+         v
+defaultconfigs/ftbquests/        <-- DISTRIBUTION (template for new worlds)
+         |
+         | (keep in sync)
+         v
+config/ftbquests/                <-- GIT TRACKED (mirrors defaultconfigs)
+```
+
+### Directory Purposes
+
+| Directory | Purpose | Git Tracked? | Game Reads? |
+|-----------|---------|--------------|-------------|
+| `runs/client/config/ftbquests/` | **Active development & runtime** | NO | **YES** |
+| `defaultconfigs/ftbquests/` | Distribution template for new worlds | YES | No (copied once) |
+| `config/ftbquests/` | Git-tracked mirror of defaultconfigs | YES | No |
+
+### The Golden Rules
+
+1. **DEVELOP in `runs/client/config/ftbquests/`** - This is where the game actually reads quests
+2. **TEST in-game** - The game loads from runs/client, so test there
+3. **COPY to `defaultconfigs/` ONLY when a chapter is 100% complete and tested**
+4. **SYNC `config/` to match `defaultconfigs/`** - These two should always be identical
+5. **NEVER edit `config/` or `defaultconfigs/` directly** - Always copy FROM runs/client
+
+### Data Flow (ONE DIRECTION ONLY)
+
+```
+SOURCE OF TRUTH: runs/client/config/ftbquests/
+                           |
+                           | Copy chapter when COMPLETE
+                           v
+DISTRIBUTION:    defaultconfigs/ftbquests/
+                           |
+                           | Keep in sync (copy or symlink)
+                           v
+GIT TRACKED:     config/ftbquests/
+```
+
+**NEVER reverse this flow.** Do not copy from config/ or defaultconfigs/ back to runs/client/.
+
+### What Happens When You Break the Rules
+
+| Mistake | Consequence |
+|---------|-------------|
+| Edit config/ directly | Changes don't appear in-game; work is wasted |
+| Edit defaultconfigs/ directly | Changes don't appear until new world; may overwrite good work |
+| Copy from config/ to runs/client/ | May overwrite newer/better work in runs/client/ |
+| Forget to copy finished work to defaultconfigs/ | Work exists only in runs/ which isn't git-tracked |
+
+### Step-by-Step: Adding a New Quest Chapter
+
+```bash
+# 1. DEVELOP: Create/edit quests in runs/client (use in-game editor or edit files)
+runs/client/config/ftbquests/quests/chapters/my_chapter.snbt
+runs/client/config/ftbquests/quests/lang/en_us.snbt  # Add localizations here
+
+# 2. TEST: Run the game, verify everything works
+./gradlew runClient
+
+# 3. BACKUP: Save a golden copy before any more changes
+cp runs/client/config/ftbquests/quests/chapters/my_chapter.snbt \
+   runs/client/config/ftbquests/quests/chapters/my_chapter.snbt.golden
+
+# 4. FINALIZE: When 100% complete, copy to defaultconfigs
+cp runs/client/config/ftbquests/quests/chapters/my_chapter.snbt \
+   defaultconfigs/ftbquests/quests/chapters/
+cp runs/client/config/ftbquests/quests/lang/en_us.snbt \
+   defaultconfigs/ftbquests/quests/lang/  # Or merge relevant entries
+
+# 5. SYNC: Mirror to config/ for git tracking
+cp defaultconfigs/ftbquests/quests/chapters/my_chapter.snbt \
+   config/ftbquests/quests/chapters/
+
+# 6. COMMIT: Now it's safe to commit
+git add config/ftbquests/ defaultconfigs/ftbquests/
+git commit -m "Add my_chapter quest chapter"
+```
+
+### Before Starting ANY Quest Work
+
+1. **CHECK runs/client/ first** - This is where the real work lives
+2. **BACKUP any existing work** in runs/client/ before making changes
+3. **NEVER assume** config/ or defaultconfigs/ has the correct/latest version
+4. **ASK yourself**: "Am I editing the right directory?"
+
+### Disaster Recovery
+
+If you've lost quest work:
+1. **Check runs/client/config/** - The game may have preserved it
+2. **Check for .golden files** - We save backups with .golden extension
+3. **Check git stash**: `git stash list`
+4. **Check world save**: `runs/client/saves/WORLDNAME/serverconfig/ftbquests/`
+
+### Example of Properly Implemented Chapter: Occultism
+
+The `occultism` chapter in this project serves as the reference implementation. Study its structure:
+- Chapter file: `runs/client/config/ftbquests/quests/chapters/occultism.snbt`
+- Lang entries in: `runs/client/config/ftbquests/quests/lang/en_us.snbt`
+- Backup: `runs/client/config/ftbquests/quests/chapters/occultism.snbt.golden`
+
+---
+
 ## Directory Structure
 
-There are TWO important locations for FTB Quests configs:
+There are THREE locations for FTB Quests configs:
 
 ### 1. Source Location (defaultconfigs)
 ```
