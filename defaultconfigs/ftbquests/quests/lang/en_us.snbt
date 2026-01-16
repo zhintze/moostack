@@ -12,6 +12,7 @@
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
 	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.4C507C004144BFEE.title: "Occultism"
+	chapter.5347000000000000.title: "Silent Gear"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
@@ -130,10 +131,6 @@
 		"The Scrolls are Light Green with Dark Green text."
 	]
 	quest.000C1ECD781F3F81.title: "Nature"
-	quest.0010000000000001.quest_desc: ["Locate a Pyromancer Tower. These structures contain fire-themed loot, scrolls, and a Pyromancer boss at the top."]
-	quest.0010000000000001.title: "Pyromancer Tower"
-	quest.0010000000000002.quest_desc: ["Locate a Mountain Tower. This ice-themed structure houses the Cryomancer and contains frost spell materials."]
-	quest.0010000000000002.title: "Mountain Tower"
 	quest.0010000000000003.quest_desc: ["Locate a Mangrove Hut. This swamp structure contains nature and holy spell materials and the Priest enemy."]
 	quest.0010000000000003.title: "Mangrove Hut"
 	quest.0010000000000004.quest_desc: ["Locate an Evoker Fort. This dark oak structure contains evocation spell materials and the Archevoker boss."]
@@ -142,24 +139,10 @@
 	quest.0010000000000005.title: "Ancient Battleground"
 	quest.0010000000000006.quest_desc: ["Locate the Catacombs dungeon. This underground structure contains blood magic materials and leads to the Dead King."]
 	quest.0010000000000006.title: "Catacombs"
-	quest.0011000000000001.quest_desc: ["Kill a Pyromancer. This fire mage boss guards the top of Pyromancer Towers and drops fire-related materials."]
-	quest.0011000000000001.title: "Defeat Pyromancer"
-	quest.0011000000000002.quest_desc: ["Kill a Cryomancer. This ice mage boss inhabits Mountain Towers and drops ice-related materials."]
-	quest.0011000000000002.title: "Defeat Cryomancer"
-	quest.0011000000000003.quest_desc: ["Kill a Priest. This holy caster spawns in Mangrove Huts and drops holy-related materials."]
-	quest.0011000000000003.title: "Defeat Priest"
-	quest.0011000000000004.quest_desc: ["Kill an Archevoker. This evocation master guards Evoker Forts and drops evocation-related materials."]
-	quest.0011000000000004.title: "Defeat Archevoker"
 	quest.0011000000000005.quest_desc: ["Kill the Dead King. This undead boss lurks in the Catacombs and drops blood magic materials and the Necronomicon."]
 	quest.0011000000000005.title: "Defeat Dead King"
 	quest.0011000000000006.quest_desc: ["Kill an Apothecarist. This nature-focused enemy spawns in swamp structures and drops nature-related materials."]
 	quest.0011000000000006.title: "Defeat Apothecarist"
-	quest.0012000000000001.quest_desc: ["Enter the Deep Dark biome. Eldritch magic materials are found in ancient cities alongside the Warden threat."]
-	quest.0012000000000001.title: "Deep Dark Descent"
-	quest.0012000000000002.quest_desc: ["Obtain an Ancient Knowledge Fragment. These rare items are found in ancient city loot chests and from sculk catalysts."]
-	quest.0012000000000002.title: "Ancient Knowledge"
-	quest.0012000000000003.quest_desc: ["Obtain an Eldritch Manuscript and craft an Eldritch Blast scroll. This represents mastery of the most forbidden magic."]
-	quest.0012000000000003.title: "Eldritch Power"
 	quest.00143D4FC12AEFD9.quest_subtitle: "Causes multiple projectiles at once"
 	quest.001DE8028CAF0A08.quest_desc: ["&5&lMekanism&r &5Machines&r can be pretty loud! \\n\\nLet's stop that!"]
 	quest.001DE8028CAF0A08.quest_subtitle: "shhhhh... too loud...."
@@ -258,6 +241,8 @@
 	quest.01F7F3589EBD8872.quest_subtitle: "Flower: Brown Mushroom (Check JEI)"
 	quest.01F7F3589EBD8872.subtitle: "Flower: Brown Mushroom (Check JEI)"
 	quest.01F7F3589EBD8872.title: "Brown Shroombee"
+	quest.021CB5F245634F80.quest_desc: ["Increases altar crafting speed. Place in your altar ring for faster LP infusion."]
+	quest.021CB5F245634F80.title: "Speed Rune"
 	quest.02643BAD1AE747C6.quest_desc: ["The &3Advanced Liquid Compressor&r works the same as the Liquid Compressor, only way better!"]
 	quest.026A71F98A52E3A5.quest_desc: [
 		"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
@@ -328,6 +313,8 @@
 		"If you can kill him he will drop Scrolls of all sorts, Blank Runes, and possibly drop the Blood Staff and Necronomicon."
 	]
 	quest.0436DF3308681913.title: "The Dead King"
+	quest.04880D91A89233B7.quest_desc: ["Kills mobs to generate LP. More efficient than self-sacrifice for filling altars."]
+	quest.04880D91A89233B7.title: "Dagger of Sacrifice"
 	quest.048BD38532A1DDCF.quest_desc: [
 		"The Master Blood Orb provides massive LP storage for your network."
 		"Required for tier 4 operations and powering multiple sigils simultaneously."
@@ -378,6 +365,8 @@
 	]
 	quest.05DA7F48E2A1B77F.title: "Robit"
 	quest.05DBDD86FCFF3BA8.title: "Lightning Upgrade Orb"
+	quest.0601006A79916377.quest_desc: ["Ritual-crafted oil used in advanced recipes. Made via the Crystallize Tau ritual."]
+	quest.0601006A79916377.title: "Weak Tau"
 	quest.06044B4452A6B720.quest_desc: ["When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
 	quest.06044B4452A6B720.quest_subtitle: "Lures bees in Desert Biomes"
 	quest.06094615950AC062.quest_desc: [
@@ -417,6 +406,8 @@
 	quest.0672462DA3599484.quest_subtitle: "512,000mb"
 	quest.06A7A3FC8634D2DA.quest_subtitle: "Tier: &c5"
 	quest.06A7A3FC8634D2DA.title: "Netherite Seeds"
+	quest.06E8DD6F395BBAA2.quest_desc: ["Place stone in the altar with LP to create slates. Slates are the base material for all Blood Magic crafting."]
+	quest.06E8DD6F395BBAA2.title: "Blank Slates"
 	quest.06EAA74E0A10CBB6.quest_subtitle: "Range: &b36&r Blocks"
 	quest.06EAA74E0A10CBB6.title: "&9Imperium Growth Accelerator"
 	quest.06F2C42E6408149E.quest_desc: ["I hope you didn't steal this from the Pyromancer, he's the nice one!"]
@@ -500,6 +491,8 @@
 	quest.097DE7038A746847.quest_subtitle: "Spawns from a Reed Nest"
 	quest.09830BB2A23E94B4.quest_desc: ["Some &5Machines&r will use &cChemicals&r especially to add to &eItems&r. Think, &9&lMetallurgic Infuser&r, &c&lChemical Injector&r, and &b&lPurifiers&r. \\n\\nThese will basically use less &cChemicals&r for the same Tasks! \\n\\nI can't promise it'll work with every &eItem&r and &5Machine&r. And no, I am not testing with every Machine!"]
 	quest.09830BB2A23E94B4.title: "&cChemical &8Upgrade"
+	quest.0989CF0F03195545.quest_desc: ["Craft the altar and dagger. Use the dagger on yourself while standing on the altar to generate LP."]
+	quest.0989CF0F03195545.title: "Blood Altar"
 	quest.09936F8FCEA72C5C.quest_desc: [
 		"The &aCart Assembler&r can be placed on tracks. Anything you build on top of it will be picked up by a &7Minecart&r if the &aAssembler&r has a &4Redstone signal&r."
 		""
@@ -663,6 +656,8 @@
 	quest.0D5015B8FF482D0A.title: "Amadron"
 	quest.0D50BDEFA0319EA1.quest_desc: ["This will drop the finished product into your output chest."]
 	quest.0D50BDEFA0319EA1.quest_subtitle: "Always Required"
+	quest.0D58B69F05228D40.quest_desc: ["Further increases crafting speed. Stacks with Speed Runes."]
+	quest.0D58B69F05228D40.title: "Acceleration Rune"
 	quest.0D5D76B3551CD5A7.quest_desc: ["Yes, it's called an Aluminium Bee."]
 	quest.0D5D76B3551CD5A7.quest_subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.0D5D76B3551CD5A7.subtitle: "Breed: Crystalline + Ashy Mining Bee"
@@ -732,6 +727,8 @@
 		"Check JEI for acceptable logs and Latex amounts. The best log to use is Acacia."
 	]
 	quest.0EC2053B191C55C6.title: "Fluid Extractor"
+	quest.0EC9E9DDD0D636CF.quest_desc: ["Marks and teleports to locations. Bind a location, then activate to teleport."]
+	quest.0EC9E9DDD0D636CF.title: "Teleposition Sigil"
 	quest.0EE2D22A577D10B0.quest_desc: [
 		"Acceleration Runes speed up all altar operations, including crafting and LP transfer."
 		"Combine with other runes for extremely efficient automated altar setups."
@@ -800,9 +797,13 @@
 	quest.100ACB5C8A359BF0.subtitle: "Breed: Redstone + Blue Banded Bee"
 	quest.100ACB5C8A359BF0.title: "Lapis Bee"
 	quest.1038054E334AC792.quest_subtitle: "Extends duration of buffs and summons"
+	quest.103B459C063ACC42.quest_desc: ["Core blocks for ritual construction. The Master Stone activates the ritual."]
+	quest.103B459C063ACC42.title: "Ritual Stones"
 	quest.104BF57D4A006688.quest_subtitle: "Flower: Sculk Shrieker (Check JEI)"
 	quest.104BF57D4A006688.subtitle: "Flower: Sculk Shrieker (Check JEI)"
 	quest.104BF57D4A006688.title: "Sculk Bee"
+	quest.108535577B19132D.quest_desc: ["Stores small amounts of demon will. Used in forge recipes and sentient tool crafting."]
+	quest.108535577B19132D.title: "Petty Tartaric Gem"
 	quest.109310AF19AAC482.quest_desc: ["The &4Flamethrower&r is one of the Ranged Weapons &5&lMekanism&r offers. \\n\\nLike the &cJetpack&r it uses Hydrogen as Fuel and is loaded just the same way as the &cJetpack&r. \\n\\nWe can press (N) to change its modes. \\n\\n&eCombat&r: will set Mobs on &6Fire&r and do Damage, but won't Burn Blocks or Items. \\n&6Heat&r: from what I can tell can only do the same. \\n\\n&4Inferno&r: Burns everything!"]
 	quest.109310AF19AAC482.title: "&4Flamethrower"
 	quest.109AD73F016D576B.quest_desc: ["Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!\\n\\nThese can hold 3 Bees each, but we won't be using it for long...\\n\\nBees will only create Honey and Honeycombs if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check JEI for more info."]
@@ -856,6 +857,8 @@
 	quest.11D57C768032E3F7.quest_desc: ["Magnet with configurable range and filters."]
 	quest.11D57C768032E3F7.quest_subtitle: "More Filtering Options"
 	quest.11D57C768032E3F7.title: "Advanced Magnet Upgrade"
+	quest.11F3091574B12757.quest_desc: ["Copies written books, enchanted books, name tags, and train schedules. Supply Liquid Experience and a source item to produce duplicates."]
+	quest.11F3091574B12757.title: "Printer"
 	quest.120572510F525930.quest_desc: [
 		"The &6&lThermal Evaporation Plant&r is a Multiblock that takes &9Water&r, and uses &6Heat&r to make it into &eBrine&r. It will also use &6Heat&r to make &eBrine&r into &6Liquid Lithium&r! \\n\\nTo start you'll need a lotta &6Thermal Evaporation Blocks&r. The base is 4x4 and only ever 4x4 of &6Thermal Evaporation Blocks&r. \\n\\nThe Walls need to be atleast 3 Blocks tall and a max of 18. The inside and top must be hollow like most Multiblocks. The &9Water &fand &eBrine&r needs to be held somewhere. \\n\\nWithin the Walls (not the corners) we can put our &6Valves &fand &6Controller&r! The &6Controller&r is how we access the &6&lThermal Evaporation Plant's&r GUI. There we can see the &6Heat&r that is has. We'll only need 1 &6Controller&r. \\n\\n&6Valves&r are how we move &9Water &fand &eBrine&f in, &eBrine &fand &6Liquid Lithium&r out, and optionally &6Heat&r in! You won't need to configure the &6Valves&r, only the &bPipes &fand &6Conductors&r need to be configured. \\n\\nThe top layer of the &6&lPlant&r can't have the corners filled in with &6Thermal Evaporation Blocks&r. You can add &e&l&oAdvanced Solar Generators&r on the corners of the top layer though if you want more &6Heat&r!"
 		"{@pagebreak}"
@@ -875,6 +878,10 @@
 		"&9Important Note&r: Certain Bees will only live in Nests and will not go into Advanced Hives. If they don't produce Honeycomb, they need to live in a Nest instead."
 	]
 	quest.120BDCB70AD352AC.quest_subtitle: "Honey Treats Required"
+	quest.12175A15A5259430.quest_desc: ["Expand to 48 runes. Adds a second ring of pillars."]
+	quest.12175A15A5259430.title: "Tier 4 Altar"
+	quest.121FF0D9B07F82F8.quest_desc: ["Requires Demonic Slate. Maximum LP storage for endgame content."]
+	quest.121FF0D9B07F82F8.title: "Master Orb"
 	quest.12274935C3D20C74.quest_desc: ["There is tons of different Building Blocks you can use, lots of the &6&lCreate&r Casings look clean and Concretes can help give a more slick look. \\n\\nYou can also use Doors and Trapdoors within the &5Train&r which can also be used when the &5Train&r is moving. \\n\\nWhat about making it look pretty? Well Stairs, Slabs, and Trapdoors help give Shape to it as well as the Flywheel or &dCogs&r give nice round edges. \\n\\nHeck you can even put a Campfire on it to make a Steam Engine!"]
 	quest.12274935C3D20C74.title: "Decorating your &5Train&r"
 	quest.122EDEC12C9A05D2.quest_desc: [
@@ -890,6 +897,8 @@
 	]
 	quest.123C0417D85B9DB2.quest_subtitle: "Helmet"
 	quest.123C0417D85B9DB2.title: "Solar Recharging Unit"
+	quest.124F1EA288C74015.quest_desc: ["Stores up to 5 sigils inside. Shift-click to cycle between stored sigils."]
+	quest.124F1EA288C74015.title: "Sigil of Holding"
 	quest.127F9EAC7C305BF5.quest_desc: ["Trust me when I say, you'll need a &6Wrench&r! \\n\\nThe &6Wrench&r is the perfect Swiss Army Knife like Tool for &6&lCreate&r. You can rotate Blocks, break them, set their configs, what can't you do with it! \\n\\nTo break Blocks just Shift Right Click any &6&lCreate&r Block and it'll break them. \\n\\nTo Rotate a Block just normal Right Click them with the &6Wrench&r. Unfortunately this doesn't give us free &dRotational Power&r, but it is still useful for slip ups! \\n\\nIt will also be useful for setting up &aContraptions&r, but that is for later."]
 	quest.127F9EAC7C305BF5.title: "&6Wrench"
 	quest.128A14A3842325FE.quest_subtitle: "Are the Bees still real?"
@@ -935,6 +944,8 @@
 	quest.1348995F64A94396.quest_subtitle: "Download more VRAM"
 	quest.135A16EDEEE27FA9.quest_desc: ["Everything related to &cWires&r and &cpower&r in &8&lIE&r can be Tiered. &6Low Voltage&r (&6LV&r), &eMedium Voltage&r (&eMV&r), and &5High Voltage&r (&5HV&r). \\n\\nThe higher the Voltage the more &cEnergy&r can be moved and used. Some Machines will need higher Voltage to be used. \\n\\nIn order to transfer different Voltages you'll need &cTransformers&r, check out their Quest!"]
 	quest.135A16EDEEE27FA9.title: "Tiered Voltage"
+	quest.138C7E96BBBD3EEE.quest_desc: ["Damage scales with stored demon will. Collects will from kills automatically."]
+	quest.138C7E96BBBD3EEE.title: "Sentient Sword"
 	quest.13A5748DF69D832E.quest_desc: [
 		"The QIO Drive Array doesn't do much on its own, instead we'll need to add a QIO Dashboard!"
 		"The QIO Dashboard, like all Items QIO related, needs to be set to the same Network. When it is finally ready we can deposit and access Items into our QIO System."
@@ -1033,6 +1044,8 @@
 	quest.155A843A562DB7C4.title: "Zombie Seeds"
 	quest.156FF8B7B724DC38.quest_desc: ["Controls which items can enter or exit the backpack via automation."]
 	quest.156FF8B7B724DC38.title: "Filter Upgrade"
+	quest.15C852ADA390B123.quest_desc: ["Advanced crafting materials. Blood Shards are key for Tier 4+ progression."]
+	quest.15C852ADA390B123.title: "Blood Materials"
 	quest.15C9CCCC8E06D430.quest_subtitle: "Flower: Black Quartz Block (Check JEI)"
 	quest.15C9CCCC8E06D430.subtitle: "Flower: Black Quartz Block (Check JEI)"
 	quest.15C9CCCC8E06D430.title: "Black Quartz Bee"
@@ -1127,6 +1140,8 @@
 		"Great for farming or collecting drops without running around."
 	]
 	quest.1780A9FDD6983403.title: "Magnetism Sigil"
+	quest.1794A299F36702C8.quest_desc: ["Opens Blood Magic dungeon doors. Dungeons contain loot and materials."]
+	quest.1794A299F36702C8.title: "Dungeon Key"
 	quest.1796E08BBDC09B84.quest_desc: ["&b&lDynamic &cTanks&r are Multiblocks which can be made at any size that is atleast 3x3x3! \\n\\n&b&lDynamic &cTanks&r will hold a ton of one &bFluid &for &cChemical&r. How many Buckets of that &bFluid &for &cChemical&r can the &c&lTank&r hold? That matters on the size. \\n\\n&b&lDynamic &cTanks&r are made out of &bDynamic &cTank &fBlocks&r with the inside of the Structure being hollow. The Walls can be made with Structure or Reactor Glass but the frame will need to be made of &bDynamic &cTank&r Blocks. \\n\\nYou'll also need &bDynamic &cTank&r Ports in the Walls to actually take and place Fluids and Chemicals. Whether it takes or places is determined by whether they Push or Pull."]
 	quest.1796E08BBDC09B84.title: "&b&lDynamic &cTank&r Multiblock"
 	quest.17989643018D00C1.quest_desc: ["Do Hives annoy you when they drip? If so, you're in luck because there's an easy solution.\\n\\nYou can place a &eSponge&r in the Bottle slot of an Advanced Hive to stop it from dripping."]
@@ -1137,6 +1152,8 @@
 		"We'll need a Thermal Evaporation Plant to take our Water and make Brine. Then, we can use an Electrolytic Separator to get our Sodium!"
 	]
 	quest.17E2C05C48B03043.title: "Sodium Coolant"
+	quest.1820AC47BF39FA46.quest_desc: ["Requires Tier 4 altar and 15,000 LP. Unlocks demon realm access and dusk rituals."]
+	quest.1820AC47BF39FA46.title: "Demonic Slates"
 	quest.1823CC81D613892B.quest_desc: [
 		"Passive Mobs -> More Pink Slime"
 		"Hostile Mobs -> More Meat"
@@ -1187,6 +1204,8 @@
 	quest.195729280394ABFB.quest_desc: ["The &7&lMachine&r creates two really strong ingots: &eRefined Glowstone&f and &5Refined Obsidian&r.\\n\\nIt &7Infuses&r an &eItem&r with &7Osmium&r to create a more powerful Ingot. \\n\\nWe'll need to place &7Osmium Ingots&f, &7Osmium Blocks&f, or a &cChemical Tank&f with &7Osmium Chemical&r in it to feed the &l&7Compressor&r &7Osmium&r!"]
 	quest.195729280394ABFB.quest_subtitle: "Really Only Good For 2 Things"
 	quest.195729280394ABFB.title: "&7&lOsmium Compressor"
+	quest.195D738428EE7F5F.quest_desc: ["Maximum will storage. Required for the most powerful sentient items."]
+	quest.195D738428EE7F5F.title: "Greater Tartaric Gem"
 	quest.196E55B64667AE35.quest_desc: [
 		"You can place Bee Flowers on Feeding Slabs that are placed in front of Hives, as shown in the image below.\\n"
 		"{image:atm:textures/questpics/bees/feeder.png width:175 height:100 align:center fit:true}"
@@ -1250,6 +1269,10 @@
 	quest.1ACB3EDBCB732514.quest_subtitle: "Flower: Monazite blocks (Check JEI)"
 	quest.1ACB3EDBCB732514.subtitle: "Flower: Monazite blocks (Check JEI)"
 	quest.1ACB3EDBCB732514.title: "Monazite Bee"
+	quest.1ACF52EC2B34C502.quest_desc: ["Creates temporary light sources. Click to place lights during exploration."]
+	quest.1ACF52EC2B34C502.title: "Blood Light Sigil"
+	quest.1ACFF2DBE8B2D76F.quest_desc: ["Processes materials using LP. Creates blood shards and processes ores."]
+	quest.1ACFF2DBE8B2D76F.title: "Alchemical Reactor"
 	quest.1AEFF93A398B8BBF.quest_desc: ["&b&lElite Tier&r comes right after &c&lAdvanced&r. These have the same buffs as &c&lAdvanced&r... just more! \\n\\n&b&lElite&r are made with &bReinforced Alloys&f, &bElite Control Circuits&f, and most times &eGold Ingots&r. \\n\\nYou can get &bReinforced Alloys&r from Infusing an &cInfused Alloy&r with 20mb of &bDiamond&r. That is 2 &bDiamond Dust&r or 1/4 &bEnriched Diamond&r! \\n\\nYou can then use those &bReinforced Alloys&r (2 of them) with an &cAdvanced Control Circuit&r to make the &bElite Control Circuit&r. "]
 	quest.1AEFF93A398B8BBF.title: "&b&lElite Tier"
 	quest.1B182A30604655E2.quest_desc: ["&cBlaze Burners&r are pretty easy to Craft, you'll just need some &7Iron Plates&r with a singular Block of &4Netherrack&r. \\n\\nThen you'll need to use a &oMysterious Conversion&r to make it less Empty! That is just Right Clicking a &cBlaze&r with your &cEmpty Blaze Burner&r. \\n\\nWhen we place him though, he seems a little small and... lukewarm... \\n\\nWe'll need to feed him! No, not Steak, &cBlazes&r don't like Steaks. He'll need either Furnace Fuels like Wood or Coal, or his favorite: the &cBlaze Cakes&r! \\n\\nThe Furnace Fuel will get them only a bit Heated, but the &cBlaze Cakes&r will make them &bSuper-Heated&r! Yes, &bSuper-Heated&r is hotter than &6Orange&r Hot. \\n\\nSome Recipes and &6Machines&r will need to be Heated, like &6Automated Brewing&r, &6Mixing&r, and the Steam Boiler will! "]
@@ -1486,6 +1509,8 @@
 		"Connect containers by placing them adjacent to the controller or to other connected containers. Maximum range: 14 blocks from controller."
 	]
 	quest.1FE17B1C7C639F88.title: "Storage Controller"
+	quest.1FF399274FFAB76A.quest_desc: ["The Diviner places ritual patterns automatically. The Crystal activates completed rituals."]
+	quest.1FF399274FFAB76A.title: "Ritual Tools"
 	quest.20054D077AFE3F56.quest_desc: [
 		"We got our Plutonium and the rest is what we should already have! A P.R.C., Water, and Fluorite Dust!"
 		"Combine 1,000mB Water, with 1,000mB Plutonium, and 1 Fluorite Dust to make 1 Plutonium Pellet and 1,000mB Spent Nuclear Waste."
@@ -1580,6 +1605,8 @@
 		"Pairs well with the Sewer for a complete cycle."
 	]
 	quest.224C07AC71C5F40E.title: "Plant Fertilizer"
+	quest.2252B2C3B43F141A.quest_desc: ["Increases LP gained from mob sacrifice. Effective when using the Dagger of Sacrifice."]
+	quest.2252B2C3B43F141A.title: "Sacrifice Rune"
 	quest.22572456571C3F8D.quest_desc: ["The &3Charging Module&r depressurizes any pressurizable things in containers it points at."]
 	quest.2262AB9F934165D0.quest_desc: ["I don't care how you got it, I just need you to get it! \\n\\n&8&lImmersive Engineering&r adds a whole lot more uses to &8Steel&r than just simple builds, almost everything will need &8Steel&r to make it! \\n\\nTools, Mechanical Parts, and Building Blocks mainly. A lot are made with &8Steel Plates&r or &8Scaffolding&r. \\n\\nYou'll need a lot of it but the &l&cCrude Blast Furnace&r and &l&6Alloy Kin&r can't be automated so we might need a... "]
 	quest.2262AB9F934165D0.title: "&8Steel Ingot"
@@ -1614,6 +1641,13 @@
 	quest.22CF5AD56C1BB8D5.quest_subtitle: "Flower: Dark Block (Evilcraft)"
 	quest.22CF5AD56C1BB8D5.subtitle: "Convert: Diamond Bee + Dark Block"
 	quest.22CF5AD56C1BB8D5.title: "Dark Gem Bee"
+	quest.22F7FDDE8A99325A.quest_desc: [
+		"Super Enchanting Templates allow enchantments to exceed their normal maximum level."
+		""
+		"Use with the Blaze Enchanter to break enchantment limits and create overpowered gear."
+	]
+	quest.22F7FDDE8A99325A.quest_subtitle: "Beyond the Limits"
+	quest.22F7FDDE8A99325A.title: "Super Enchanting"
 	quest.230463E830D6FFEB.quest_desc: ["Now that we have plastic, the next step is getting some finished PCBs, first make some &3Empty PCBs&r in the Pressure Chamber."]
 	quest.230463E830D6FFEB.quest_subtitle: "The path to PCBs"
 	quest.2307F31643E35B57.quest_desc: ["Shows linked information. Multiple lines of data. Use for status displays."]
@@ -1903,6 +1937,8 @@
 		"Use it with your Otherworld Goggles to mine special ores like &eIesnium&f."
 	]
 	quest.2A3683BF7E50EF83.title: "Infused Pickaxe"
+	quest.2A3F6C2356EE64F7.quest_desc: ["Crafts sentient tools and tartaric gems. Requires demon will as fuel."]
+	quest.2A3F6C2356EE64F7.title: "Hellfire Forge"
 	quest.2A5004EB99AE4F96.quest_desc: [
 		"The &bOtherworld Goggles&f allow you to see things normally invisible - including Otherworld trees and special ores."
 		""
@@ -2016,6 +2052,8 @@
 	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
 	quest.2CD1B2BCEDA0D473.quest_subtitle: "Exchanges blocks or swaps entity locations"
+	quest.2CD21FB8228AAB58.quest_desc: ["Place on a fluid tank to deposit or withdraw experience directly. Sneak-click to extract XP, or click to store your experience as liquid."]
+	quest.2CD21FB8228AAB58.title: "Experience Hatch"
 	quest.2CF96A264EB5522C.quest_desc: [
 		"End-game materials include dragon-touched items."
 		""
@@ -2033,6 +2071,8 @@
 	quest.2D1CBCEC82F1B37D.title: "&6Fuelwood Heater"
 	quest.2D41B04C75FA02BC.quest_desc: ["The &6Mechanical Press&r is very helpful for making even more &6Machines&r! \\n\\nWhen powered with &dRotational Power&r (and a lot of Stress Units) it will send the &6Metal Press&r down to Blocks below it. Like a Hydraulic Press! \\n\\nAny Items below it: either on a &eBelt&r, &eDepot&r, or even just dropped, will be &6Pressed&r. \\n\\nThis is mainly for turning &7Ingots &finto &7Plates&r with no charge. You can also use it to get Paper from Sugarcane and Paths from Dirt! \\n\\nIf you place a &8Basin&r beneath it you can then use the &6Press&r to combine &bLiquids&r, &eItems&r, and Blocks to create new &eItems&r. \\n\\nAnother option with the &8Basin&r below our Press is Compacting Crafting. This is automated Crafting for Recipes that contain only one type of &eItem&r, like 9 &7Iron Ingots&f into an &7Iron Block&r."]
 	quest.2D41B04C75FA02BC.title: "&6Mechanical Press"
+	quest.2D762C3E7CFA9972.quest_desc: ["Temporarily removes nearby fluids. Creates a dry zone around you."]
+	quest.2D762C3E7CFA9972.title: "Suppression Sigil"
 	quest.2D8945975D29130B.quest_desc: ["Transfers items to moving contraptions. Place matching pair on base and contraption."]
 	quest.2D8945975D29130B.title: "Portable Storage Interface"
 	quest.2D96965317D3CFEC.quest_desc: ["Yay, complicated subjects! This time it is &5Conductors&r and &5Train Schedules&r. \\n\\nFirst is getting our &5Conductor&r, these are any Lead-able Mobs or &cBlaze Burners&r. If we have a Seat next to the Train Controls we can Lead a Mob into the Seat where it will wait to become a &5Conductor&r. \\n\\n&cBlaze Burners&r work similar, just without the need for a seat, they bring their own. \\n\\nThen, we can hand our Mob or &cBlaze Burner&r, a filled out &5Schedule&r to give them that task plus a &5Conductor's Hat&r. \\n\\n&5Schedules&r are Items that can be \"Coded\" to order our &5Conductors&r to preform certain tasks. The tasks are either: go to &5Station&r, pickup or drop off Packages, change title, or change max speed. \\n\\nOnce we add a task, we can edit its configs to change when it will start the next task! These can be either a certain Time waited, Time of Day, amount of stuff in &5Train&r, or even &4Redstone&r!"]
@@ -2108,6 +2148,8 @@
 		"Cells can also be given a higher or lower 'priority' via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
 	]
 	quest.2F5AECF5CDC8D8DB.quest_subtitle: "Causes forms to target normally untargetable blocks"
+	quest.2F894CE5ABDEC1E0.quest_desc: ["Standard will storage for most recipes. Keeps a good reserve of demon will."]
+	quest.2F894CE5ABDEC1E0.title: "Common Tartaric Gem"
 	quest.2F8D117F802FEAF0.quest_desc: ["Commandos are the light troops. \\n\\nThey have 12 Hearts and no Armor. \\n\\nTheir weapon is a &d&lRevolver&r and a Shield they hold in their Offhand. \\n\\nOn death they will drop Revolver parts with different stats, similar to Apotheosis stats!"]
 	quest.2F8D117F802FEAF0.title: "Commando"
 	quest.2F9B0C642A6BE30C.quest_desc: ["Increased storage capacity and upgrade slots."]
@@ -2130,6 +2172,8 @@
 		"This gem is used in the most advanced summoning and binding rituals."
 	]
 	quest.2FD22502E6481269.title: "Trinity Gem"
+	quest.300357A59A789E28.quest_desc: ["Crafts sigil reagents and components. Place near your altar for easy access."]
+	quest.300357A59A789E28.title: "Alchemy Table"
 	quest.3009018DEC1EC952.quest_desc: ["There's 6 structures in the Overworld that the bosses can spawn in! (There's a 7th but no boss in there)."]
 	quest.3009018DEC1EC952.title: "Adventure Time!"
 	quest.300F2E45D185A9A1.quest_desc: [
@@ -2157,6 +2201,8 @@
 	quest.3054D016D2EF25FF.quest_subtitle: "Breed: Gold + Silver"
 	quest.3054D016D2EF25FF.subtitle: "Breed: Gold + Silver"
 	quest.3054D016D2EF25FF.title: "Electrum Bee"
+	quest.30745609A27013CF.quest_desc: ["Increases orb charging rate. Fills your Blood Orb faster from the altar."]
+	quest.30745609A27013CF.title: "Charging Rune"
 	quest.308581359FEF32E9.quest_desc: [
 		"The ARC (Alchemical Reaction Chamber) processes materials with various tools and effects."
 		"Insert items, add a tool (cutting fluid, explosive, resonator), and provide Demon Will or LP to operate."
@@ -2226,6 +2272,8 @@
 		"Additionally, the shield will repair itself over time using the wearer's mana."
 	]
 	quest.3182E8AF755104E4.title: "Enchanter's Shield"
+	quest.319135E3536D6225.quest_desc: ["Advanced altar info display. Shows crafting progress and detailed LP stats."]
+	quest.319135E3536D6225.title: "Seer Sigil"
 	quest.3195A7AA874163CD.quest_desc: [
 		"The &bEqual Distribution Card&f is an upgrade for storage cells that pre-allocates a certain amount of items that can be taken up by any individual type."
 		""
@@ -2274,6 +2322,8 @@
 		""
 	]
 	quest.32384DE59539557D.title: "&l&4Crusher"
+	quest.3283CDAB2B659EA0.quest_desc: ["Throw snares at mobs to capture demon will on death. Will powers the Hellfire Forge and sentient tools."]
+	quest.3283CDAB2B659EA0.title: "Soul Snares"
 	quest.328B3A517152FA75.quest_desc: ["Shows stress network information when worn. Essential for debugging kinetic setups."]
 	quest.328B3A517152FA75.title: "Goggles"
 	quest.329A441FFCED444F.quest_desc: ["Drains or fills fluid bodies. Lower into liquid source. Infinite drain from large bodies."]
@@ -2309,6 +2359,8 @@
 	quest.33422FBDAE11AE82.title: "Fluix Bee"
 	quest.33532408B21A5378.quest_desc: ["The Pitiful Generator generates a small amount of FE using burnable fuels like Coal."]
 	quest.33532408B21A5378.title: "Pitiful Generator"
+	quest.3367722CDC81746D.quest_desc: ["Requires Tier 2 altar and 2,000 LP. Unlocks mid-tier recipes and the Apprentice Orb."]
+	quest.3367722CDC81746D.title: "Reinforced Slates"
 	quest.33732EE8110A0911.quest_desc: ["The &8&lIE&r Dev forgot the &4&lMining Drill&r can also be used for Mining so last minute he put in Fortune III. \\n\\nThat being the Rock Softening Acid."]
 	quest.3384308C78D86059.quest_subtitle: "Tier: &a2"
 	quest.3384308C78D86059.title: "Chicken Seeds"
@@ -2500,6 +2552,8 @@
 	quest.375FF0D8ACD2E17F.title: "Imbued Slates"
 	quest.376532CD98D39781.quest_desc: ["&c&lChemical Infuser&r will take 2 different &cChemicals&r and... combine them. \\n\\nThis isn't helpful early game, but later on it'll be very important! \\n\\nFirst &cChemical&r goes in the &4Red Bar&r on the Left and the Second &cChemical&r goes in the &6Orange Bar&r on the Right. \\n\\nYes the pattern they are in matters. That I learned the hard way!"]
 	quest.376532CD98D39781.title: "&c&lChemical Infuser"
+	quest.37763FDE1B4499C1.quest_desc: ["Craft runes to expand your altar. Runes form rings around the altar to unlock higher tiers."]
+	quest.37763FDE1B4499C1.title: "Blood Runes"
 	quest.377F505175DFB790.quest_desc: ["Consumes food items to generate power for the Mycelial Reactor."]
 	quest.377F505175DFB790.title: "Mycelial Culinary Generator"
 	quest.37CD9BF281903F56.quest_subtitle: "Flower: Red Mushroom (Check JEI)"
@@ -2509,6 +2563,8 @@
 	quest.37D4E5ACB35D8BF1.quest_subtitle: "Requires Hydrogen to Work!"
 	quest.37D4E5ACB35D8BF1.title: "&cJetpack"
 	quest.3801E818308438FF.quest_subtitle: "Affects a larger area around targets"
+	quest.383568675B982C5C.quest_desc: ["Obtain gold to begin Blood Magic. The guidebook explains all mechanics and multiblock patterns."]
+	quest.383568675B982C5C.title: "Getting Started"
 	quest.38622692756F1F27.quest_subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.title: "Spatial Bee"
@@ -2555,6 +2611,8 @@
 	quest.396AA75774059D0B.title: "Ethereal Slates"
 	quest.397E2D14BDE7DED0.quest_desc: ["All Bees will give Comb Blocks instead of Combs, effectively quadrupling outputs!"]
 	quest.397E2D14BDE7DED0.quest_subtitle: "4x Comb"
+	quest.39984552349F17EE.quest_desc: ["Large capacity increase. More effective than standard Capacity Runes."]
+	quest.39984552349F17EE.title: "Augmented Capacity Rune"
 	quest.399882F3C51DD282.quest_subtitle: "Flower: Wither Rose (Check JEI)"
 	quest.399882F3C51DD282.subtitle: "Flower: Wither Rose (Check JEI)"
 	quest.399882F3C51DD282.title: "Withered Bee"
@@ -2606,6 +2664,8 @@
 	quest.3AADA53EC01FB0ED.title: "Lava Sigil"
 	quest.3ABD696164C15C17.quest_desc: ["Wireless redstone transmission. Set frequency with two items. Pairs send/receive."]
 	quest.3ABD696164C15C17.title: "Redstone Link"
+	quest.3AE8CAAD25D6A15A.quest_desc: ["Removes fluid blocks on click. Useful for clearing water or lava."]
+	quest.3AE8CAAD25D6A15A.title: "Void Sigil"
 	quest.3AF1DC02E9A0010C.quest_desc: ["&cPressurized Tubes&r will pretty much anything the other Pipes can't move! &cChemicals&f, &cPigments&f, and &cInfuse Types&r are all moved with &cPressurized Tubes&r. \\n\\nIn order to move &cChemicals&r in to &5Machines&r though, we'll need to change the Configs within the &5Machine&r. Those are in the Top Left of the Machine's GUI, Side Configs. They'll need to bet set to Auto-Eject to Output! \\n\\nYou can Craft them with 2 &8Steel Ingots&r and a piece of Glass, any Glass! Then upgrade them with 8 &cTubes&r and a Control Circuit. \\n\\n&a&lBasic&r: will hold 4 Buckets of Chemicals and move 750mB of Chemicals each Tick. \\n&c&lAdvanced&r: will hold 16 Buckets of Chemicals and move 2 Buckets of Chemicals each Tick. \\n\\n&b&lElite&r: will hold 256 Buckets of Chemicals and will move 64 Buckets each Tick. \\n\\n&d&lUltimate&r: will hold 1,024 Buckets and will move 256 Buckets each Tick."]
 	quest.3AF1DC02E9A0010C.quest_subtitle: "Chemicals, Pigments, Infuse Types"
 	quest.3AF1DC02E9A0010C.title: "&cPressurized Tubes"
@@ -2620,6 +2680,8 @@
 		"No more anvil XP costs!"
 	]
 	quest.3AFDE3396861A944.title: "Enchantment Applicator"
+	quest.3B125D8A777E01B1.quest_desc: ["Place 8 runes in a ring around your altar. Check the guidebook for exact placement."]
+	quest.3B125D8A777E01B1.title: "Tier 2 Altar"
 	quest.3B2FEA663AC25F36.quest_desc: ["Moves items and applies bulk processing. Blowing through fire smelts, water washes."]
 	quest.3B2FEA663AC25F36.title: "Encased Fan"
 	quest.3B3B38B17CF5D81C.quest_desc: ["&ePackage Frogports&r are adorable and helpful &6Machines&r used for mixing &ePackages&f and &8Chain Conveyors&r! \\n\\nFirst, Right Click a part of the &8Chain &fon a &8Chain Conveyor&r with the &eFrogport&r in Hand, this will set it as the &eFrogports&r destination. \\n\\nThen, when placed we can mess with its GUI. Here we can change the name of its Address, determine whether it takes and gives &ePackages&r or just gives &ePackages&r. \\n\\nThey have 18 Slots to Hold &ePackages&r for moving. \\n\\nIf the Address of the &ePackage&r doesn't match the Address you gave the &eFrogport&f, the &eFrogport&r will send the &ePackage&r onto the &8Chain Conveyor&r. \\n\\nIf it matches the Address, the &ePackage&r will be taken into the &eFrogport&r. If there is no matching Address the &ePackage&r will just go in circles! \\n\\n&ePackages&r can also be automatically sent and taken from &eFrogports&r with &eFunnels &fand &eBelts&r."]
@@ -2627,6 +2689,8 @@
 	quest.3B42CCC19D23EC6D.quest_desc: ["The second tier of storage component, providing &e4096&f bytes of storage."]
 	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
 	quest.3B42CCC19D23EC6D.title: "4k Storage Component"
+	quest.3B54433C990880E9.quest_desc: ["An automated enchanting table powered by Liquid Experience. Supply enchanted books via belt or funnel to apply specific enchantments to items."]
+	quest.3B54433C990880E9.title: "Blaze Enchanter"
 	quest.3B936CA3F0F7B26B.quest_desc: [
 		"The Digital Miner is a 3x2x3 Machine. We all know of Void Miners but come on those are weird! This Mines actual Blocks!"
 		"We can Right Click it to open its GUI, here we can see a whole bunch! Buttons, Screens, and even Slots!"
@@ -2963,6 +3027,12 @@
 	]
 	quest.42F50CE7FE715583.quest_subtitle: "Expanding dimensional storage"
 	quest.42F50CE7FE715583.title: "Storage Stabilizers"
+	quest.4308CDFF0587E1C0.quest_desc: [
+		"Liquid Experience is the foundation of all Enchantment Industry machines. Obtain it by killing mobs near encased fans, using the Experience Hatch, or extracting from enchanted items."
+		""
+		"Items enchanted with Mending can be repaired by Spout using Liquid Experience on a belt."
+	]
+	quest.4308CDFF0587E1C0.title: "Liquid Experience"
 	quest.430CAC90C8B34A17.quest_subtitle: "Delays spell effects for a few moments"
 	quest.431C44439CA54077.quest_desc: [
 		"The Tier 4 altar requires 48 Blood Runes in an expanded pattern."
@@ -2977,6 +3047,8 @@
 	quest.437DB2CE10D33A08.quest_subtitle: "Spawns: Glowstone Nest (Nether)"
 	quest.437DB2CE10D33A08.subtitle: "Spawns: Glowstone Nest (Nether)"
 	quest.437DB2CE10D33A08.title: "Glowing Bee"
+	quest.437E17FD2916894E.quest_desc: ["Requires Tier 5 altar and 30,000 LP. Unlocks the most powerful Blood Magic items."]
+	quest.437E17FD2916894E.title: "Ethereal Slates"
 	quest.438F734D16DA9638.quest_desc: [
 		"We got our Polonium and the rest is what we should already have! A P.R.C., Water, and Fluorite Dust!"
 		"Combine 1,000mB Water, with 1,000mB Polonium, and 1 Fluorite Dust to make 1 Polonium Pellet and 1,000mB Spent Nuclear Waste."
@@ -3003,6 +3075,8 @@
 	quest.4407BD7B5F033765.title: "Enchanted Spell Book"
 	quest.440B1E1D4951F808.quest_desc: ["The &3Smart Chest&r is a blast-proof Chest with 72 slots, includes a built in, fully configurable Omnidirectional Hopper and has upgrade slots. Not Double Chest-able. Also works like a Shulker Box."]
 	quest.440B1E1D4951F808.quest_subtitle: "The Nerds of Chests"
+	quest.441D994CB752E6A8.quest_desc: ["Armor that gains experience through combat. Develops upgrades based on your playstyle."]
+	quest.441D994CB752E6A8.title: "Living Armor"
 	quest.442B1A1900BADAFC.quest_desc: ["Some Machines in &8&lIE&r aren't Multiblocks, rather they are single-blocked! \\n\\nDon't think that, just because they are made with 1 Block that, they aren't important though! "]
 	quest.442B1A1900BADAFC.title: "Small Machines"
 	quest.4447EEEB8D762721.quest_desc: [
@@ -3212,6 +3286,8 @@
 	quest.4A076530297F4A97.quest_desc: ["With these 3 components you can create some amazing &3Elevators&r. Check the PNC:R guide book for building instructions."]
 	quest.4A076530297F4A97.title: "Elevators"
 	quest.4A41FCBFE985D81E.quest_subtitle: "Grants Elytra-like flight"
+	quest.4A45357A4CE13374.quest_desc: ["Base material for sigil crafting. Combine with reagents to create sigil components."]
+	quest.4A45357A4CE13374.title: "Arcane Ashes"
 	quest.4A4747302A2C8232.quest_desc: ["Emits redstone based on fill level. Set thresholds with interface. Inventory management."]
 	quest.4A4747302A2C8232.title: "Stockpile Switch"
 	quest.4A854CD5EC70733E.quest_desc: ["Adds portable crafting grid to the backpack."]
@@ -3414,6 +3490,8 @@
 		"Also gives a boost to Evocation!"
 	]
 	quest.4E3355FDCB65BB63.title: "Grimoire of Evocation"
+	quest.4E719CDE89D63317.quest_desc: ["Enhanced rune variants. Significantly more effective than standard runes."]
+	quest.4E719CDE89D63317.title: "Tier 2 Runes"
 	quest.4E7823C2FCEBE4DC.quest_desc: ["Just a normal Bow that takes &aEnergy&r instead of Durability."]
 	quest.4E7823C2FCEBE4DC.title: "&3Electric Bow"
 	quest.4E7990AEBCCC3C95.quest_subtitle: "Tier: &c5"
@@ -3486,6 +3564,8 @@
 	]
 	quest.4F56BFE6E4716F6D.title: "&8&lArc Furnace"
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "Applies the Wither debuff"
+	quest.4F6859CE7216618F.quest_desc: ["Attracts nearby items to you. Toggle on for automatic item collection."]
+	quest.4F6859CE7216618F.title: "Magnetism Sigil"
 	quest.4F8119B6298EA753.quest_subtitle: "Changes weather: clear, rain, or storm"
 	quest.4F8119B6298EA753.title: "Ritual of Cloudshaping"
 	quest.4F9C8D90ACF563F5.quest_desc: [
@@ -3797,8 +3877,519 @@
 	]
 	quest.5316DF321B45D2CA.quest_subtitle: "Demonic Summoning Magic"
 	quest.5316DF321B45D2CA.title: "Occultism"
+	quest.532D2E7B07BC3CB6.quest_desc: ["An automated anvil that combines enchantments, repairs items, and renames name tags. Uses Liquid Experience instead of player levels."]
+	quest.532D2E7B07BC3CB6.title: "Blaze Forger"
 	quest.532F3E6868A29037.quest_desc: ["Think of the previous Upgrade: Speed, now think of it making things even faster! \\n\\nThese Upgrades can be used in the Machines to make them work 40% faster! \\nYes, their effects stack. \\n\\nNo, they can not be used in Hives, that's what Productivity is for!"]
 	quest.532F3E6868A29037.quest_subtitle: "Sonic everything but Bees"
+	quest.5347017ECBE90CB0.quest_desc: [
+		"Industrial Foregoing materials offer automation-themed traits."
+		""
+		"Pink Slime: Bouncy trait reduces fall damage, flexible material."
+		"Plastic: Lightweight with decent durability."
+		""
+		"Good mid-tier options before reaching Mekanism processing."
+	]
+	quest.5347017ECBE90CB0.title: "Industrial Materials"
+	quest.5347025F21CA9975.quest_desc: [
+		"Craft a tool or armor piece from Cosmic Steel."
+		""
+		"This represents near-ultimate Silent Gear progression."
+	]
+	quest.5347025F21CA9975.title: "Cosmic Gear"
+	quest.53470530DB70C21E.quest_desc: ["Improved repair capacity. Fill with materials, combine with damaged item."]
+	quest.53470530DB70C21E.title: "Crude Repair Kit"
+	quest.534705C0FAFD5415.quest_desc: ["Head protection. Add linings for extra traits and comfort."]
+	quest.534705C0FAFD5415.title: "Helmet Blueprint"
+	quest.53470CC3EB9EEE11.quest_desc: [
+		"Tier 2 pillar caps. Replace Crimson Steel with Azure Electrum blocks."
+		""
+		"Minimum pillar tier = structure level. All 4 must match for upgrade."
+		"Enables Tier 2 catalysts (Azure Silver Dust)."
+	]
+	quest.53470CC3EB9EEE11.title: "Azure Electrum Pillars"
+	quest.53470EE46A7F573E.quest_desc: ["Higher damage than sword with slower attack speed. Heavy hitter."]
+	quest.53470EE46A7F573E.title: "Katana Blueprint"
+	quest.534710C9FABCE2E4.quest_desc: ["Classic ranged weapon. Material affects draw speed and damage."]
+	quest.534710C9FABCE2E4.title: "Bow Blueprint"
+	quest.5347141E20363CB8.quest_desc: ["Very fast attacks with reduced invincibility frames. Low damage per hit."]
+	quest.5347141E20363CB8.title: "Dagger Blueprint"
+	quest.53471422C8F3ED77.quest_desc: ["Combines hoe and shovel functions. Versatile farming tool."]
+	quest.53471422C8F3ED77.title: "Mattock Blueprint"
+	quest.53471D8DBA78643F.quest_desc: [
+		"Silent Gear lets you build customizable tools, weapons, and armor from component parts."
+		""
+		"Each material provides unique stats and traits. Better materials yield better gear."
+	]
+	quest.53471D8DBA78643F.title: "Welcome to Silent Gear"
+	quest.53471E126EEE9F63.quest_desc: ["Utility weapon with moderate speed. Can harvest certain mob drops."]
+	quest.53471E126EEE9F63.title: "Knife Blueprint"
+	quest.53471FA5869C1BDB.quest_desc: [
+		"Materials have synergy values. Compatible materials boost each other."
+		""
+		"Synergistic, Crude, and Rustic traits affect compatibility."
+	]
+	quest.53471FA5869C1BDB.title: "Synergy System"
+	quest.534724D4F128B241.quest_desc: ["Balanced melee weapon with good damage and attack speed."]
+	quest.534724D4F128B241.title: "Sword Blueprint"
+	quest.534726067DB594E6.quest_desc: ["Combines pickaxe, axe, and shovel. Saves inventory space."]
+	quest.534726067DB594E6.title: "Paxel Blueprint"
+	quest.53472B5FA0AFB635.quest_desc: [
+		"Attribute traits directly modify player stats when equipped."
+		""
+		"Lucky: Increases luck for better loot table rolls."
+		"Light: Increases movement speed on armor."
+		"Heavy: Decreases movement speed (negative trait)."
+		"Mighty: Grants Strength and Haste buffs."
+		"Reach: Extends block interaction distance."
+		""
+		"Lapis Lazuli provides Lucky, Bastion, Mighty, and Reach as tip/setting."
+	]
+	quest.53472B5FA0AFB635.title: "Attribute Traits"
+	quest.53472C93A94C195C.quest_desc: [
+		"The Blueprint Book stores all your blueprints in one item."
+		""
+		"Right-click to access any stored blueprint. Essential for organization."
+	]
+	quest.53472C93A94C195C.title: "Blueprint Book"
+	quest.53472F19EFB76849.quest_desc: ["Tier 1 grader catalyst. Basic chance at material grades."]
+	quest.53472F19EFB76849.title: "Glowing Dust"
+	quest.53472F734DAFDF65.quest_desc: [
+		"Diamond from overworld mining. Crimson Iron from the Nether."
+		""
+		"These Tier 2 materials unlock advanced tool crafting."
+	]
+	quest.53472F734DAFDF65.title: "Diamond and Crimson Iron"
+	quest.53473143E9B3843B.quest_desc: ["Advanced alloy from Crimson Iron. First endgame-tier material."]
+	quest.53473143E9B3843B.title: "Crimson Steel"
+	quest.534733267D8A1B68.quest_desc: ["Connects head to rod. Adds durability and traits."]
+	quest.534733267D8A1B68.title: "Binding Blueprint"
+	quest.5347359FB4CDAEB8.quest_desc: [
+		"Crimson Iron is smelted from Crimson Iron Ore found in the Nether."
+		""
+		"Your first alloy. Better than iron for many applications."
+	]
+	quest.5347359FB4CDAEB8.title: "Crimson Iron"
+	quest.53473B4A216C01A3.quest_desc: ["Pinnacle Tier 4 alloy. Crafted only in the Alloy Forge."]
+	quest.53473B4A216C01A3.title: "Tyrian Steel"
+	quest.53473C367FD413A4.quest_desc: [
+		"ChemLib Mekanized adds periodic table elements as materials."
+		""
+		"Lithium and other alkali metals provide unique lightweight traits."
+		"Process elements through Mekanism machines for ingots."
+	]
+	quest.53473C367FD413A4.title: "Chemical Elements"
+	quest.53473D50E2FB91EF.quest_desc: [
+		"Maximum tier pillar caps using Neutronium blocks."
+		""
+		"Neutronium is the ultimate material from Super Mixer."
+		"Enables Tier 6 catalysts (Neutronium Dust) - maximum charging power."
+	]
+	quest.53473D50E2FB91EF.title: "Neutronium Pillars"
+	quest.534740E07E62F08F.quest_desc: ["Lower body protection. Second highest armor value after chestplate."]
+	quest.534740E07E62F08F.title: "Leggings Blueprint"
+	quest.534744C80114F97A.quest_desc: [
+		"Tier 5 pillar caps using Cosmic Steel blocks."
+		""
+		"Cosmic Steel crafted in Super Mixer from Tyrian Steel + Calorite."
+		"Enables Tier 5 catalysts (Transcendent Alloy Dust)."
+	]
+	quest.534744C80114F97A.title: "Cosmic Steel Pillars"
+	quest.534744DD0137B354.quest_desc: ["Epic Fight weapon. Japanese-style sword with quick combos."]
+	quest.534744DD0137B354.title: "Tachi Blueprint"
+	quest.5347465734E23D9A.quest_desc: ["Customizable fishing rod. Better materials improve durability and luck."]
+	quest.5347465734E23D9A.title: "Fishing Rod Blueprint"
+	quest.534749480183027A.quest_desc: [
+		"Tier 4 pillar caps using Calorite blocks from Ad Astra."
+		""
+		"Requires space exploration to Venus for Calorite ore."
+		"Enables Tier 4 catalysts (Cosmic Steel Dust)."
+	]
+	quest.534749480183027A.title: "Calorite Pillars"
+	quest.53474B2D803889A7.quest_desc: ["Custom elytra repaired with materials instead of phantom membranes."]
+	quest.53474B2D803889A7.title: "Elytra Blueprint"
+	quest.53474C73739CFFAE.quest_desc: [
+		"Iron and copper are the foundation of early Silent Gear tools."
+		""
+		"Iron provides durability. Copper offers enchantability."
+	]
+	quest.53474C73739CFFAE.title: "Basic Metals"
+	quest.534755D0EBC8F4E1.quest_desc: ["Accessory providing passive bonuses. Requires curios slot to wear."]
+	quest.534755D0EBC8F4E1.title: "Ring Blueprint"
+	quest.534756122848BF6D.quest_desc: ["Tool handles that affect durability, speed, and traits."]
+	quest.534756122848BF6D.title: "Rod Blueprint"
+	quest.534756ABDF07D955.quest_desc: ["Epic Fight weapon. Massive two-handed sword with devastating damage."]
+	quest.534756ABDF07D955.title: "Greatsword Blueprint"
+	quest.534758E5CACEEB19.quest_desc: [
+		"Combat traits determine weapon damage, attack speed, and special effects."
+		""
+		"Key combat traits: Fiery (ignites targets), Sharp (scales damage with durability loss),"
+		"Deadly (radiation damage), Piercing (armor penetration), Venom (poison damage),"
+		"Holy (bonus vs undead), Bloodlust (life steal)."
+		""
+		"Blaze Gold provides Fiery trait. Craft in the Nether with gold and blaze powder."
+	]
+	quest.534758E5CACEEB19.title: "Combat Traits"
+	quest.534759376A112765.quest_desc: [
+		"Create mod materials offer unique crafting options."
+		""
+		"Andesite Alloy: Early-game metal alternative with decent durability."
+		"Rose Quartz: Aesthetic material with balanced stats."
+		"Brass: Good conductivity, works well with electric traits."
+		""
+		"Combine with Create mechanisms for automated gear production."
+	]
+	quest.534759376A112765.title: "Create Materials"
+	quest.534759CE3C3CF6C5.quest_desc: ["Tier 3 grader catalyst. Best chance at MAX grade materials."]
+	quest.534759CE3C3CF6C5.title: "Glittery Dust"
+	quest.53475A356B1014AF.quest_desc: ["High-capacity repair kit for endgame gear maintenance."]
+	quest.53475A356B1014AF.title: "Crimson Repair Kit"
+	quest.53475B02249430EC.quest_desc: [
+		"Craft 3 different alloys in the Crude Mixer."
+		""
+		"Experiment with metal combinations to discover recipes."
+	]
+	quest.53475B02249430EC.title: "Basic Alloys"
+	quest.53475B28E6EEFEDE.quest_desc: [
+		"Template Boards are crafted from planks. Use them to create Templates for part crafting."
+		""
+		"Templates are consumed when crafting parts, unlike reusable Blueprints."
+	]
+	quest.53475B28E6EEFEDE.title: "Template Boards"
+	quest.53475C730A27513B.quest_desc: ["Fire-infused alloy crafted in the Crude Mixer. Grants Fiery trait."]
+	quest.53475C730A27513B.title: "Blaze Gold"
+	quest.53475E89F15EA340.quest_desc: [
+		"Combine a tool head with a rod to create your first Silent Gear tool."
+		""
+		"The stats depend on materials used. Experiment to find optimal combinations."
+	]
+	quest.53475E89F15EA340.title: "Your First Tool"
+	quest.53475EF1771D627A.quest_desc: ["Epic Fight weapon. Two-handed sword with sweeping attacks."]
+	quest.53475EF1771D627A.title: "Longsword Blueprint"
+	quest.53475F138762AE25.quest_desc: [
+		"Assigns grades to materials. Higher grades provide better stats."
+		""
+		"Use catalysts to roll for grades. MAX grade is the goal."
+	]
+	quest.53475F138762AE25.title: "Material Grader"
+	quest.534764DC68994854.quest_desc: [
+		"Tier 2 charger catalyst (Azure Silver Dust)."
+		""
+		"Requires Tier 2+ pillar structure (Azure Electrum blocks minimum)."
+		"Higher energy cost but better charging results than Tier 1."
+	]
+	quest.534764DC68994854.title: "Azure Silver Dust"
+	quest.5347650B23BA23CF.quest_desc: [
+		"Early game alloy mixer built from stone and planks."
+		""
+		"Recipe: Stone blocks around planks center, flax string on top."
+		"Place up to 4 materials in input slots. Output appears automatically."
+		""
+		"Creates Crude Alloys like Crimson Iron combinations."
+		"10 second craft time. Toggle work on/off via GUI button."
+	]
+	quest.5347650B23BA23CF.title: "Crude Mixer"
+	quest.534769AFFD17651E.quest_desc: [
+		"Multiblock structure that charges materials with starlight."
+		""
+		"Build: Polished Blackstone base, Glass center, Quartz corners,"
+		"Blaze Gold block foundation. Requires 4 PILLAR CAPS at corners."
+		""
+		"Pillars must be 3 blocks diagonal from charger, 2 blocks up."
+		"Pillar tier determines max catalyst tier (Crimson Steel=1, Tyrian=3)."
+		""
+		"Insert material + catalyst dust. Charges at night with sky view."
+		"Star Charged materials gain enhanced traits and stats."
+	]
+	quest.534769AFFD17651E.title: "Starlight Charger"
+	quest.53476DDDD1D30C7A.quest_desc: [
+		"Iron's Spellbooks materials provide magic-focused traits."
+		""
+		"Mithril: High enchantability with Spell Power trait (+5% magic damage per level)."
+		"Arcane Ingot: Balanced stats with Mana Reservoir (bonus health, slow repair)."
+		""
+		"Ideal for hybrid magic-melee builds. Combine with spell-enhancing armor."
+	]
+	quest.53476DDDD1D30C7A.title: "Magic Materials"
+	quest.53476ECCB740CBD1.quest_desc: ["Desh and Ostrum from space exploration unlock cosmic progression."]
+	quest.53476ECCB740CBD1.title: "Ad Astra Materials"
+	quest.5347708A908ED10E.quest_desc: ["Surface treatment adding material traits without changing base tool."]
+	quest.5347708A908ED10E.title: "Coating Blueprint"
+	quest.5347756846F42ECC.quest_desc: [
+		"Electric traits integrate with tech mod energy systems (FE/RF)."
+		""
+		"Capacitive: Adds FE storage with damage bonus when charged."
+		"Energized: Enhanced FE storage with attack speed bonus."
+		"Conductive: Increases FE transfer rates."
+		"Superconducting: Zero-loss energy transfer, durability protection when charged."
+		""
+		"Mekanism Refined Obsidian and Osmium provide electric traits."
+	]
+	quest.5347756846F42ECC.title: "Electric Traits"
+	quest.534775815B4F514C.quest_desc: [
+		"Breaks down gear into component materials."
+		""
+		"Essential for recovering materials from unwanted equipment."
+	]
+	quest.534775815B4F514C.title: "Salvager"
+	quest.534775CA0467819C.quest_desc: ["Detects nearby ores when striking stone. Essential for mining expeditions."]
+	quest.534775CA0467819C.title: "Prospector Hammer Blueprint"
+	quest.5347787CA686772D.quest_desc: ["Basic repair kit for early game gear maintenance."]
+	quest.5347787CA686772D.title: "Very Crude Repair Kit"
+	quest.5347791507312AEA.quest_desc: [
+		"Durability traits affect how gear wears and repairs."
+		""
+		"Positive: Sturdy (less damage), Flexible/Malleable (occasional damage reduction),"
+		"Indestructible (no durability loss), Renew (slow self-repair)."
+		""
+		"Negative: Brittle/Bending (extra damage), Chipping (armor loss over time)."
+		""
+		"Crimson Steel provides Sturdy, Malleable, and Flexible traits."
+	]
+	quest.5347791507312AEA.title: "Durability Traits"
+	quest.53477A052D7BB7D3.quest_desc: [
+		"You have crafted alloys in all three mixers."
+		""
+		"Your understanding of material combination is complete."
+	]
+	quest.53477A052D7BB7D3.title: "Alloy Master"
+	quest.53477C2F5635B6A3.quest_desc: [
+		"You have mastered Tier 4 materials and cross-mod integration."
+		""
+		"The cosmic tier awaits those who venture into space."
+	]
+	quest.53477C2F5635B6A3.title: "Tyrian Steel Mastery"
+	quest.53477DA2B1E9288A.quest_desc: [
+		"Blueprint Paper creates reusable Blueprints that replace consumable Templates."
+		""
+		"Blueprints are essential for efficient part crafting at scale."
+	]
+	quest.53477DA2B1E9288A.title: "Blueprint Paper"
+	quest.53477E2E290F39CC.quest_desc: ["Chops a 3x3 area of wood. Ideal for tree farming operations."]
+	quest.53477E2E290F39CC.title: "Saw Blueprint"
+	quest.53477EA8D0037BD3.quest_desc: [
+		"Flint, wood, and stone are starter materials for basic tools."
+		""
+		"These provide low stats but are readily available early game."
+	]
+	quest.53477EA8D0037BD3.title: "Wood and Stone"
+	quest.5347805151D4DFBD.quest_desc: ["Mid-tier repair kit. Greater capacity than crude variants."]
+	quest.5347805151D4DFBD.title: "Sturdy Repair Kit"
+	quest.5347815798590749.quest_desc: ["Tier 2 grader catalyst. Better chances at higher grades."]
+	quest.5347815798590749.title: "Blazing Dust"
+	quest.53478444A2BC2427.quest_desc: [
+		"Utility traits add convenience and special mining abilities."
+		""
+		"Mining: Fortunate (extra drops), Silky (silk touch), Widen (larger mining area),"
+		"Greedy (faster ore mining), Gold Digger/Imperial (bonus nuggets/gems)."
+		""
+		"Collection: Magnetic (item attraction), Void Touch (direct inventory)."
+		""
+		"Diamond provides Lustrous trait for brightness-based mining speed."
+	]
+	quest.53478444A2BC2427.title: "Utility Traits"
+	quest.5347857816B421B9.quest_desc: [
+		"Leather and string provide grips and bindings."
+		""
+		"Essential for comfortable tool handles and armor padding."
+	]
+	quest.5347857816B421B9.title: "Organic Materials"
+	quest.53478C91AC1A5AEA.quest_desc: ["Consistent damage regardless of draw time. Stays loaded until fired."]
+	quest.53478C91AC1A5AEA.title: "Crossbow Blueprint"
+	quest.5347939593E5098C.quest_desc: [
+		"Tier 1 charger catalyst (Blaze Gold Dust)."
+		""
+		"Place in catalyst slot with material to charge. Consumed per operation."
+		"Requires Tier 1+ pillar structure. Lower energy cost than higher tiers."
+	]
+	quest.5347939593E5098C.title: "Blaze Gold Dust"
+	quest.5347974853FF82C1.quest_desc: [
+		"You have completed the Silent Gear progression."
+		""
+		"You understand blueprints, materials, traits, alloys, and machines."
+	]
+	quest.5347974853FF82C1.title: "Silent Gear Master"
+	quest.5347997ED733AE2C.quest_desc: [
+		"Azure Silver is a rare End dimension material."
+		""
+		"High enchantability with Holy trait (bonus damage to undead)."
+		"Essential ingredient for Tyrian Steel and cosmic alloys."
+		""
+		"Mine in End cities or trade with Endermen for higher yields."
+	]
+	quest.5347997ED733AE2C.title: "Azure Silver"
+	quest.53479AD8370EC6D7.quest_desc: ["Blocks incoming damage. Durability depends on material choice."]
+	quest.53479AD8370EC6D7.title: "Shield Blueprint"
+	quest.53479CEA2CC6E56D.quest_desc: [
+		"Tier 1 pillar caps for Starlight Charger multiblock."
+		""
+		"Place 4 Crimson Steel blocks at corners, 3 blocks diagonal from charger."
+		"Pillars must be 2 blocks above charger level. Enables Tier 1 catalysts."
+	]
+	quest.53479CEA2CC6E56D.title: "Crimson Steel Pillars"
+	quest.53479E39C777684C.quest_desc: ["Tier 3 charger catalyst. Maximum star charging efficiency."]
+	quest.53479E39C777684C.title: "Starmetal Dust"
+	quest.53479FB60D300E3C.quest_desc: ["Handle wrapping for better control. Affects attack speed."]
+	quest.53479FB60D300E3C.title: "Grip Blueprint"
+	quest.5347A0F19B5748E7.quest_desc: ["Mines stone, ores, and hard materials. Essential for resource gathering."]
+	quest.5347A0F19B5748E7.title: "Pickaxe Blueprint"
+	quest.5347A0F98F9A31A8.quest_desc: [
+		"Design your own alloy combinations in the Super Mixer."
+		""
+		"Combine materials strategically for optimal trait coverage."
+	]
+	quest.5347A0F98F9A31A8.title: "Custom Alloys"
+	quest.5347A50030046730.quest_desc: ["Faster than sword with lower damage. Clears vegetation quickly."]
+	quest.5347A50030046730.title: "Machete Blueprint"
+	quest.5347A7339E0C66CD.quest_desc: ["Digs a 3x3 area of soft materials. Pairs with Hammer for full coverage."]
+	quest.5347A7339E0C66CD.title: "Excavator Blueprint"
+	quest.5347AA7F66DBD001.quest_desc: ["Upgrades mining level. Add diamond tip to mine obsidian with iron."]
+	quest.5347AA7F66DBD001.title: "Tip Blueprint"
+	quest.5347ABD27AF64712.quest_desc: ["Fires pebbles and small items. Early game ranged option."]
+	quest.5347ABD27AF64712.title: "Slingshot Blueprint"
+	quest.5347ACF01C1DEAA9.quest_desc: [
+		"Lapis and amethyst offer enchantability and unique traits."
+		""
+		"Useful for magical gear and specialized tools."
+	]
+	quest.5347ACF01C1DEAA9.title: "Basic Gems"
+	quest.5347ADA79141E5D2.quest_desc: [
+		"Elemental affinities apply debuffs and bonus damage based on conditions."
+		""
+		"Ice Affinity: Attacks apply Slowness and Mining Fatigue."
+		"Lightning Affinity: Attacks apply Weakness, bonus damage to wet targets."
+		"Ender Affinity: Attacks apply Blindness, Levitation at high levels."
+		""
+		"Powder snow and end materials provide elemental traits."
+	]
+	quest.5347ADA79141E5D2.title: "Elemental Traits"
+	quest.5347AF26CDCDE16B.quest_desc: ["Throwable melee weapon. Effective both in and out of water."]
+	quest.5347AF26CDCDE16B.title: "Trident Blueprint"
+	quest.5347AFE7A63AAD69.quest_desc: ["Neck accessory. Another way to gain material traits."]
+	quest.5347AFE7A63AAD69.title: "Necklace Blueprint"
+	quest.5347B08E9E15DF48.quest_desc: ["Collects wool, leaves, and shear-harvestable blocks."]
+	quest.5347B08E9E15DF48.title: "Shears Blueprint"
+	quest.5347B401611891D3.quest_desc: ["Alloy of Azure Silver. Excellent all-around endgame material."]
+	quest.5347B401611891D3.title: "Azure Electrum"
+	quest.5347B70CC5C8E3F8.quest_desc: ["Inner armor layer adding traits without affecting appearance."]
+	quest.5347B70CC5C8E3F8.title: "Lining Blueprint"
+	quest.5347B99B3C8357E3.quest_desc: ["Heavy blunt weapon. High damage with knockback effect."]
+	quest.5347B99B3C8357E3.title: "Mace Blueprint"
+	quest.5347BB6EAB1F2388.quest_desc: ["Tills soil for farming. Higher tiers provide bonus range."]
+	quest.5347BB6EAB1F2388.title: "Hoe Blueprint"
+	quest.5347BD4B3A3E6EFE.quest_desc: ["Core armor piece with highest protection value. Priority investment."]
+	quest.5347BD4B3A3E6EFE.title: "Chestplate Blueprint"
+	quest.5347C13F415BBECE.quest_desc: ["Arrow fins that affect flight accuracy and characteristics."]
+	quest.5347C13F415BBECE.title: "Fletching Blueprint"
+	quest.5347C3370D7773F4.quest_desc: ["Extended reach weapon. Keep enemies at bay with consistent poke damage."]
+	quest.5347C3370D7773F4.title: "Spear Blueprint"
+	quest.5347C617BF7CA0C3.quest_desc: ["Breaks dirt, sand, and soft materials quickly. Essential for excavation."]
+	quest.5347C617BF7CA0C3.title: "Shovel Blueprint"
+	quest.5347C8D103A194CA.quest_desc: ["Harvests crops and plants in an area. Essential for farmers."]
+	quest.5347C8D103A194CA.title: "Sickle Blueprint"
+	quest.5347CB6B2CCE6F08.quest_desc: ["Wrist accessory with passive material traits."]
+	quest.5347CB6B2CCE6F08.title: "Bracelet Blueprint"
+	quest.5347CBD3FFF32A13.quest_desc: ["Chops wood and functions as a high-damage melee weapon."]
+	quest.5347CBD3FFF32A13.title: "Axe Blueprint"
+	quest.5347D0003D883A9C.quest_desc: [
+		"The Stone Anvil is your first crafting station for Silent Gear parts."
+		""
+		"Place materials and templates on the anvil to create tool components."
+	]
+	quest.5347D0003D883A9C.title: "Stone Anvil"
+	quest.5347D18DE8ECF69C.quest_desc: [
+		"Special traits offer unique effects from rare materials."
+		""
+		"Radioactive: Applies poison/wither, damages nearby enemies."
+		"Stellar: Speed/jump boost on armor, slow self-repair."
+		"Solar Forged: Fire immunity, bonus damage in sunlight."
+		"Pressurized: Environmental protection, enhanced underwater breathing."
+		""
+		"Cosmic Steel and Neutronium provide the rarest traits."
+	]
+	quest.5347D18DE8ECF69C.title: "Special Traits"
+	quest.5347D27B92F48C0D.quest_desc: ["Mines a 3x3 area of stone and ores. Ideal for strip mining."]
+	quest.5347D27B92F48C0D.title: "Hammer Blueprint"
+	quest.5347D36A816D1535.quest_desc: [
+		"Defensive traits provide protection beyond base armor values."
+		""
+		"Key defensive traits: Flame Ward (fire resistance), Void Ward (void protection),"
+		"Bounce (fall damage negation), Radiation Shield (wither/poison immunity),"
+		"Bastion (bonus armor), Heat-Resistant (reduced fire damage)."
+		""
+		"Crimson Iron provides Heat-Resistant trait. Found in the Nether."
+	]
+	quest.5347D36A816D1535.title: "Defensive Traits"
+	quest.5347D448084DCD1E.quest_desc: ["Unarmed combat weapon. Fast punches with material-based damage."]
+	quest.5347D448084DCD1E.title: "Glove Blueprint"
+	quest.5347D5192902C908.quest_desc: [
+		"Craft 3 super mixer alloys to demonstrate mastery."
+		""
+		"Super alloys combine traits from all component materials."
+	]
+	quest.5347D5192902C908.title: "Advanced Alloys"
+	quest.5347D52FABFC6E57.quest_desc: [
+		"Endgame mixer for the most powerful alloy combinations."
+		""
+		"Recipe: Tyrian Steel blocks base, Beacon center, Dimerald on top."
+		"Same 4-slot input system as Crude Mixer."
+		""
+		"Creates Super Alloys: Cosmic Steel, Frost Steel, Plutonium Steel."
+		"Required for Neutronium and transcendent materials."
+	]
+	quest.5347D52FABFC6E57.title: "Super Mixer"
+	quest.5347DBBB44FC64DB.quest_desc: [
+		"Mekanism metals provide tech-focused and durability traits."
+		""
+		"Osmium: Balanced stats with Electric trait. Good all-around choice."
+		"Refined Obsidian: High durability with Capacitive trait for FE storage."
+		"Refined Glowstone: Light trait with Lustrous for brightness-based bonuses."
+		""
+		"Combine with Processing Units for enhanced energy integration."
+	]
+	quest.5347DBBB44FC64DB.title: "Mekanism Materials"
+	quest.5347DCBFA56BB088.quest_desc: ["Ultimate material. Maximum possible stats and rare traits."]
+	quest.5347DCBFA56BB088.title: "Neutronium"
+	quest.5347E7639FCEE685.quest_desc: ["Tier 3 pillar caps. Excellent charging multiplier."]
+	quest.5347E7639FCEE685.title: "Tyrian Steel Pillars"
+	quest.5347E9DDC06C8590.quest_desc: [
+		"Calorite is the highest tier Ad Astra material."
+		""
+		"Provides Fireproof trait (immune to fire/lava destruction)."
+		"High durability and harvest level. Heat-resistant for Nether use."
+		""
+		"Requires space exploration to Venus. Combine with Netherite for best results."
+	]
+	quest.5347E9DDC06C8590.title: "Calorite"
+	quest.5347F2A0F3A8015A.quest_desc: ["Top-tier repair kit. Maximum efficiency for valuable equipment."]
+	quest.5347F2A0F3A8015A.title: "Azure Repair Kit"
+	quest.5347F2E9A62F4C7F.quest_desc: ["Custom arrows from any material. Higher tiers deal more damage."]
+	quest.5347F2E9A62F4C7F.title: "Arrow Blueprint"
+	quest.5347F3FCC4D0E258.quest_desc: ["Foot protection. Some materials provide movement bonuses."]
+	quest.5347F3FCC4D0E258.title: "Boots Blueprint"
+	quest.5347F84500720917.quest_desc: [
+		"Metal-only alloy station for ingot combinations."
+		""
+		"Unlike mixers, only accepts METAL and DUST category materials."
+		"4-slot input creates standard alloy ingots."
+		""
+		"Key recipes: Azure Electrum (Azure Silver + Gold + Ender Pearl),"
+		"Crimson Steel (Crimson Iron + Blaze materials),"
+		"Tyrian Steel (Azure Silver + Crimson Steel + materials)."
+	]
+	quest.5347F84500720917.title: "Alloy Forge"
+	quest.5347FDCCE74427FE.quest_desc: [
+		"Magic traits enhance spellcasting and provide supernatural effects."
+		""
+		"Spell Power: +5% magic damage per level, stacks with spell upgrades."
+		"Mana Reservoir: Bonus health and slow self-repair over time."
+		"Void Sever: Teleportation effects on critical hits."
+		"Soul Siphon: Absorbs soul essence on kills for temporary buffs."
+		""
+		"Combine with Iron's Spellbooks armor for maximum magic synergy."
+	]
+	quest.5347FDCCE74427FE.title: "Magic Traits"
+	quest.5347FFB8573B4876.quest_desc: ["Tier 5 alloy combining space materials. Near-ultimate tier."]
+	quest.5347FFB8573B4876.title: "Cosmic Steel"
 	quest.53518D4ED99A242F.quest_desc: ["The &3Camouflage Applicator&r can be used to hide PneumaticCraft machinery inside of other blocks."]
 	quest.53518D4ED99A242F.quest_subtitle: "Want to make your setup look cool?"
 	quest.5361F72BAB72D318.quest_desc: [
@@ -3831,6 +4422,8 @@
 	quest.54169B69725C49DF.quest_desc: ["Place your Liquid Plastic onto the ground or store some in a Chest with a Heat Frame attached and there's your &3Plastic Sheet&r!"]
 	quest.54169B69725C49DF.quest_subtitle: "Finally!"
 	quest.54169B69725C49DF.title: "&fPlastic"
+	quest.5425794AFEA7D706.quest_desc: ["Places lava source blocks. Useful for fuel generation or mob farms."]
+	quest.5425794AFEA7D706.title: "Lava Sigil"
 	quest.542C6D76B579886C.quest_desc: ["Magebloom is a magical fiber used for crafting various cloth-based items and equipment."]
 	quest.542C6D76B579886C.title: "Magebloom Fiber"
 	quest.54378277B8D28B1D.quest_desc: [
@@ -3852,6 +4445,8 @@
 		"When killed he will drop Arcane Essence, Inks, Nature Runes, and Nature Scrolls!"
 	]
 	quest.548F85EE6B6F1811.title: "Apothecarist"
+	quest.54C872C7D362761F.quest_desc: ["Increased will storage. Needed for more advanced forge recipes."]
+	quest.54C872C7D362761F.title: "Lesser Tartaric Gem"
 	quest.54D6F7F8FE859729.quest_desc: ["Prosperity Shards are a core crafting ingredient in the mod. To find some Prosperity Ore, go mining."]
 	quest.54D6F7F8FE859729.quest_subtitle: "Can we finally have Prosperity?"
 	quest.54D6F7F8FE859729.title: "&bProsperity Shards"
@@ -3901,6 +4496,8 @@
 	quest.5563BD4934297522.quest_desc: ["Once you have a Diamond Bee, breed it with the Slimy Bee to create an Emerald Bee!"]
 	quest.5563BD4934297522.quest_subtitle: "Diamond Bee + Slimy Bee"
 	quest.5563BD4934297522.title: "Emerald Bee"
+	quest.556F2C603CBA1EE9.quest_desc: ["Requires Imbued Slate. Needed for advanced sigils and ritual activation."]
+	quest.556F2C603CBA1EE9.title: "Magician Orb"
 	quest.55702BE0151D33FE.quest_desc: [
 		"Induction Ports are how we'll get our Energy in and out of our Energized Induction Matrix."
 		"Like in what seems to be every single Multiblock, you'll need to place the Ports within the Walls of the Induction Matrix."
@@ -4175,6 +4772,13 @@
 	quest.5B18676A77CD6069.title: "Quantum Item Orchestration"
 	quest.5B1E0E3E876339E7.quest_subtitle: "Tier 5 Armor"
 	quest.5B1E0E3E876339E7.title: "&4Supremium Gear"
+	quest.5B2CCD2B425620CE.quest_desc: [
+		"Create: Enchantment Industry adds automated enchanting, disenchanting, and experience manipulation."
+		""
+		"Convert XP into liquid form for storage and use in powerful machines."
+	]
+	quest.5B2CCD2B425620CE.quest_subtitle: "Create Add-On"
+	quest.5B2CCD2B425620CE.title: "Enchantment Industry"
 	quest.5B36DE3826F26963.quest_desc: ["&dRotational Power&r is the most important and confusing part of &6&lCreate&r. \\n\\nAll Machines will need some sort of &dRotational Power&r to work, but what is it and how do we use it? \\n\\n&dRotational Power&r is simply our Machines moving. Blocks like Shafts and Cogs will move that &dRotational Power&r to our Machines. \\n\\nTalking about Shafts, that is our start to &dRotational Power&r. They can be placed in a straight line, next to each other. \\n\\nWhen one &8Shaft&r is moved, all &8Shafts&r connected to it (on the same axis) will move with it. \\n\\nCraft 2 &8Andesite Alloys&r to create 8 &8Shafts&r."]
 	quest.5B36DE3826F26963.title: "&d&lRotational Power"
 	quest.5B52389583A70E66.quest_subtitle: "Tier 5 Ore Seed"
@@ -4193,6 +4797,8 @@
 	quest.5B9F933ECD6B24FD.quest_desc: ["Allows you to jump higher than with Tier II."]
 	quest.5B9F933ECD6B24FD.quest_subtitle: "Max: 1"
 	quest.5BB155110168DF92.quest_subtitle: "Freezes water/lava or slows targets"
+	quest.5BB389DE5DBDF015.quest_desc: ["Increases LP gained from self-sacrifice. Reduces the health cost of filling your altar."]
+	quest.5BB389DE5DBDF015.title: "Self-Sacrifice Rune"
 	quest.5BB887411B8B38FA.quest_desc: [
 		"As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox."
 		""
@@ -4218,6 +4824,8 @@
 		"All cables can also be crafted with dye to colour them. Uncoloured ('Fluix') cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."
 	]
 	quest.5C22E3103544B120.title: "Basic Cabling"
+	quest.5C3C493FD6AA00A4.quest_desc: ["Shows altar LP level and tier. Essential for monitoring your altar status."]
+	quest.5C3C493FD6AA00A4.title: "Divination Sigil"
 	quest.5C3FF43CF16BCF30.quest_desc: ["With Source Gems, you can get started crafting the various machines by creating Sourcestones."]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "Formerly Arcane Stones"
 	quest.5C3FF43CF16BCF30.title: "Sourcestone"
@@ -4403,10 +5011,14 @@
 	quest.5F6ACDE014A61F46.title: "&cTertium Apple"
 	quest.5F75215CB5956290.quest_subtitle: "Increases projectile spell speed"
 	quest.5F7A07D0F71044D2.quest_subtitle: "Reduces duration of spell effects"
+	quest.5F8017F8DE749DF1.quest_desc: ["Accelerates plant growth in an area. Costs LP while active."]
+	quest.5F8017F8DE749DF1.title: "Green Grove Sigil"
 	quest.5FA9BC0D8476D322.quest_desc: ["Automatically feeds you food from the backpack when hungry."]
 	quest.5FA9BC0D8476D322.title: "Feeding Upgrade"
 	quest.5FE631066CAB7397.quest_desc: ["Used to trap and transport mobs easily."]
 	quest.5FE631066CAB7397.title: "Mob Imprisonment Tool"
+	quest.5FFB378EE44A660B.quest_desc: ["Requires Tier 3 altar and 5,000 LP. Unlocks rituals, ARC, and advanced sigils."]
+	quest.5FFB378EE44A660B.title: "Imbued Slates"
 	quest.600F66B13B29708B.quest_desc: ["Either with the flesh of &aPlayers&r or &dWerewolves&r, you can create an &aInfinite Food Source&r using the power of Garmonbozia!"]
 	quest.600F66B13B29708B.title: "Flesh Rejuvenated"
 	quest.602A6CF9D5B66AD3.quest_desc: ["The &5&lChemical Crystallizer&r is actually a pretty simple Machine! We just need a &cChemical &fand &aEnergy&r! \\n\\nAnd yes this one isn't only used for &lOre Processing&r! Well some of it is... but not all. \\n\\nJust throw some &7Clean Ore Slurry&r into the &5&lCrystallizer&r and it will turn it into &7Ore Crystals&r. \\n\\nYou can also feed it &dAntimatter&r to make &dAntimatter Pellets&r, or &6Lithium&r to make &6Lithium Dust&r!"]
@@ -4582,6 +5194,8 @@
 	]
 	quest.63F6F4EBCEB914B0.quest_subtitle: "Pressurizing!"
 	quest.63F6F4EBCEB914B0.title: "The Pressure Chamber"
+	quest.64111783C3458571.quest_desc: ["Propels you upward. Functions as a double-jump at LP cost."]
+	quest.64111783C3458571.title: "Air Sigil"
 	quest.6411B0FD921761C0.quest_subtitle: "Breed: Dark Green Pigment + White Pigment"
 	quest.6411B0FD921761C0.subtitle: "Breed: Dark Green Pigment + White Pigment"
 	quest.6411B0FD921761C0.title: "Bright Green Pigment Bee"
@@ -4710,7 +5324,11 @@
 	quest.66A450CAC07232E1.title: "&6Thermodynamic Conductors"
 	quest.66C52B137A4FF869.quest_subtitle: "Tier 4 - Combine 4 Imperium"
 	quest.66C52B137A4FF869.title: "Imperium Essence"
+	quest.66C86CF7701150AC.quest_desc: ["A fully automated grindstone that removes enchantments and repairs items. Also functions as a sanding machine for polishing surfaces."]
+	quest.66C86CF7701150AC.title: "Mechanical Grindstone"
 	quest.66D63DC37FCDD268.quest_subtitle: "Increases drop chance from mobs and blocks"
+	quest.66F44F7C17F65BBA.quest_desc: ["Grants Haste effect. Drains LP continuously while enabled."]
+	quest.66F44F7C17F65BBA.title: "Fast Miner Sigil"
 	quest.672F9CF5B0E626F1.quest_desc: ["&ePackagers&r are the new and very important &6Machine&r for &6&lCreate&r. In order to use pretty much everything from the Update we'll need a &ePackager&r. \\nCombine some of our new-found &eCardboard&r to make a Block of Cardboard. No, these aren't &eBoxes&r yet and they certainly don't do anything. \\n\\nWell besides Crafting our &ePackager&r! The &ePackager&r will then be placed onto a Block with an Inventory, like Chest or Barrel. You'll know it is connected when one of the sides changes to appear like a wall. \\n\\nThen, when given a &4Redstone Signal&r it will pull all &eItems&r within the Inventory into a &ePackage&r! More on that later! \\n\\nThe &ePackages&r can then be pulled out by Hand or &eBelt&r. You can also send &ePackages&r back into the &ePackager&r to put the &eItems&r back into an Inventory. \\n\\nIf you place and name a Sign on the &ePackager&r it will give all &ePackages&r that it makes an Address."]
 	quest.672F9CF5B0E626F1.title: "&ePackagers"
 	quest.67482ED4B18F828D.quest_subtitle: "Breed: Iron + Neon Cuckoo Bee"
@@ -5025,6 +5643,8 @@
 		"Tip: Brass has the Silk Touch trait when making a Silent Gear tool."
 	]
 	quest.6D484150536536B9.quest_subtitle: "Lures in Crystalline Bees in the Nether"
+	quest.6D4EE8A9403A6A73.quest_desc: ["Craft from diamond in the altar. Orbs bind to you and store LP from your network for portable use."]
+	quest.6D4EE8A9403A6A73.title: "Weak Blood Orb"
 	quest.6D54B45CDA70FEAB.quest_desc: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
 	quest.6D750A38944E9B68.quest_desc: [
 		"The &aInfusion Altar&r is how you make all of the seeds. Place down the Altar first and it'll show you where to place the Pedestals after."
@@ -5041,6 +5661,8 @@
 	quest.6D7D0A5313284B53.title: "MekaSuit Boots"
 	quest.6D8C9D7D9DF9A6DD.quest_subtitle: "Summons an illager raid in a village"
 	quest.6D8C9D7D9DF9A6DD.title: "Ritual of Challenge"
+	quest.6D908CC64A3875CC.quest_desc: ["Place below a Mechanical Grindstone to collect Liquid Experience when items are disenchanted. Higher-level enchantments yield more fluid."]
+	quest.6D908CC64A3875CC.title: "Grindstone Drain"
 	quest.6DAA82B5F94AF9F8.quest_desc: [
 		"The Jar of Light summons a floating light source that follows you."
 		""
@@ -5071,6 +5693,8 @@
 	quest.6DF215923418F56F.quest_subtitle: "Convert: Experience Bee + XP item"
 	quest.6DF215923418F56F.subtitle: "Convert: Experience Bee + Super Enchanting Template"
 	quest.6DF215923418F56F.title: "Super Experience Bee"
+	quest.6DF9308B2FD03F2C.quest_desc: ["Places water source blocks. Costs LP per use from your bound orb."]
+	quest.6DF9308B2FD03F2C.title: "Water Sigil"
 	quest.6E093D16B12E12B3.quest_subtitle: "Breed: Creeper Bee + Iron"
 	quest.6E093D16B12E12B3.subtitle: "Breed: Creeper Bee + Iron"
 	quest.6E15447FC3D678E0.quest_desc: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
@@ -5087,6 +5711,8 @@
 	quest.6EAC81649890D9E8.quest_desc: ["Immersive Aircraft. Basic aircraft component. Generates thrust when connected to an engine."]
 	quest.6EAC81649890D9E8.title: "Propeller"
 	quest.6EB53CDCB80D4B66.quest_desc: ["The &3Pneumatic Door&r acts as automatic door that can be made to only open for you!"]
+	quest.6F295CE0D73DE2A4.quest_desc: ["Enables dusk ritual construction. Required for demon realm access."]
+	quest.6F295CE0D73DE2A4.title: "Dusk Tools"
 	quest.6F3C82072672FD17.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space."
@@ -5175,6 +5801,8 @@
 	quest.71EF7B993128644D.quest_subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.title: "Pink Slimy Bee"
+	quest.7233E7A4AD5B175F.quest_desc: ["Requires Reinforced Slate. Stores more LP and activates mid-tier sigils."]
+	quest.7233E7A4AD5B175F.title: "Apprentice Orb"
 	quest.7242F591DA474B37.quest_desc: ["&bFluids &fand &bLiquids&r aren't the most important in every aspect of &6&lCreate&r, but luck is, you'll most likely run into them anyways! \\n\\nYou'll need to learn the difficult path of &bFluid Logistics&r in order to use and move them. \\n\\nAnd to start, you'll need &cCopper&r!"]
 	quest.7242F591DA474B37.title: "&b&lFluid Logistics"
 	quest.72537968598AB884.quest_desc: ["&6Engineer's Goggles are perfect for you little know-it-alls. \\n\\nWhen worn it will tell just about everything the Block or &6Machine&r has to tell! \\n\\nStressometers will tell how much Stress is given and how much it can take. Speedometers will tell how much Speed is within your system. \\n\\n&dSteam Boilers&r will tell how big, how much &9Water&r, and how much Heat they have. \\n\\nOther &6Machines&r, like &6Deployers&r or &6Mechanical Presses&r, will show how much Stress Units is being used up."]
@@ -5236,6 +5864,8 @@
 	quest.7395B41685F4BC1A.quest_desc: ["The &3Flux Compressor&r can create a ton of pressure using power. Simply pump some FE in and it will start generating some. If you have enough FE to spare, this is probably the easiest way to generate pressure."]
 	quest.7395B41685F4BC1A.quest_subtitle: "Power = Pressure"
 	quest.7395B41685F4BC1A.title: "Pressure from Power"
+	quest.7399FEABDCFA5974.quest_desc: ["Increases LP transfer speed to/from orbs. Improves network efficiency."]
+	quest.7399FEABDCFA5974.title: "Dislocation Rune"
 	quest.73C70B15582958A5.quest_desc: [
 		"The &eDirt Nest&r can be placed in any overworld biome to lure in bees."
 		""
@@ -5277,6 +5907,12 @@
 	quest.74200A48498DD7F8.title: "&e&lSolar Generator"
 	quest.7471CDF5166D38F0.quest_subtitle: "Grants creative flight to nearby players"
 	quest.7471CDF5166D38F0.title: "Ritual of Flight"
+	quest.747B6EAA50A5FC2C.quest_desc: [
+		"Absorbs nearby XP orbs and stores them as Liquid Experience."
+		""
+		"Works while mounted on contraptions. Deployers and Crushing Wheels also drop Experience Nuggets from kills."
+	]
+	quest.747B6EAA50A5FC2C.title: "Experience Lantern"
 	quest.7485BCBE366501DF.quest_desc: ["If we want even more &7Ores&r! We'll need a better way of &lProcessing&r our &7Ores&r. Hydrogen won't work, let's try &3Hydrogen Chloride&r. \\n\\nObviously for that we'll need &eChlorine&r! \\n\\nLook at the &6&lThermal Evaporation Plant&r Quest to learn in better detail how to Craft the Mutliblock, but basically we'll need one. \\n\\nFeed &9Water&f into a &6&lThermal Evaporation Plant&r to (slowly) make &eBrine&r. \\n\\nThrow that &eBrine&r into an &9&lElectrolytic Separator&r to get &7Sodium&r and &eChlorine&r! &7Sodium&r is helpful for &2&lFission Reactor&r... but not &lOre Processing&r!"]
 	quest.7485BCBE366501DF.quest_subtitle: "Tier 3 Ore Processing"
 	quest.7485BCBE366501DF.title: "Making &eChlorine "
@@ -5361,6 +5997,8 @@
 	quest.76558D23A70AFF78.title: "Ice Upgrade Orb"
 	quest.7655E1C6C5E5469F.quest_subtitle: "Range: &a18&r Blocks"
 	quest.7655E1C6C5E5469F.title: "&2Prudentium Growth Accelerator"
+	quest.7680FDFB79037F03.quest_desc: ["Final altar form with 64 runes. The largest multiblock structure."]
+	quest.7680FDFB79037F03.title: "Tier 5 Altar"
 	quest.7698A68D56DEEDF1.quest_desc: ["Aircraft body structure. Determines vehicle type and passenger capacity."]
 	quest.7698A68D56DEEDF1.title: "Hull"
 	quest.76CBFA38D021AC95.quest_desc: ["&dWindmills&r are a little more complicated than &9Water Wheels&r, but they also come with more customization and of course Speed and Stress Units! \\n\\nFirst, you'll need the heart of the &dWindmill&r, the &dWindmill Bearing&r. This Block will send the &dRotational Power&r out of it. It is also what we'll use to turn on the &dWindmill&r! \\n\\nThen, you'll need the Blocks to make the actual &dWindmill&r part. Blocks will automatically stick to the &dBearing&r, but to the rest of the &dWindmill&r you'll need &aGlue&r. Besides &dWindmill Sails&r, those attach automatically! \\n\\nWe'll also need atleast 8 &dWindmill Sail&r like Blocks, those being the &dWindmill Sails&r or Wool. The more we have, the faster the &dWindmill&r spins! \\n\\nOnce it is all set, just Right Click the &dBearing&r with an Empty Hand to start it up."]
@@ -5417,6 +6055,8 @@
 		""
 		"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
 	]
+	quest.77DD1D76333CC439.quest_desc: ["Upgraded tau oil. Required for higher-tier ritual crafting."]
+	quest.77DD1D76333CC439.title: "Strong Tau"
 	quest.77F241BEE9902751.quest_desc: ["Maximum storage capacity. Fireproof and holds the most items."]
 	quest.77F241BEE9902751.quest_subtitle: "So much room for activities!"
 	quest.77F241BEE9902751.title: "Netherite Tier"
@@ -5507,6 +6147,8 @@
 	]
 	quest.795B80BF12D23897.quest_subtitle: "Boots"
 	quest.795B80BF12D23897.title: "Frost Walker Unit"
+	quest.79905DF663865952.quest_desc: ["Increases altar LP storage. Essential for high-LP crafting operations."]
+	quest.79905DF663865952.title: "Capacity Rune"
 	quest.79BEECD4E545793F.quest_desc: ["Razor Wire works like Cobwebs... just sharper! \\n\\nThe Razor Wire will Damage and Slow anything that tries to go through it, including us! \\n\\nWe can safely take it apart with our &6Engineer's Wirecutters&r. \\n\\nOr we can use &6LV &cWires&r to make it do more Damage and a Stun Effect!"]
 	quest.79D2617E01481281.quest_desc: [
 		"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f."
@@ -5516,6 +6158,8 @@
 	quest.79D2617E01481281.title: "Certus Quartz"
 	quest.79D6A251FE3761B3.quest_desc: ["When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees."]
 	quest.79D6A251FE3761B3.quest_subtitle: "Lures in a Slimy Bee in a Swamp Biome"
+	quest.79E7D7C92B68DC80.quest_desc: ["Obtained via dusk rituals. Opens access to Tier 2 runes and demon infrastructure."]
+	quest.79E7D7C92B68DC80.title: "Demon Realm"
 	quest.7A103577EAE7B3F1.quest_subtitle: "Awakened Tier - Ultimate Power"
 	quest.7A103577EAE7B3F1.title: "Awakened Supremium Block"
 	quest.7A1E3E7E2DF17AD2.quest_desc: ["First, is the &8Sawblade&r. This is used for cutting down &2Trees&r. It will chop every Log and Leaf in the &2Tree&r above the Log that is cut. \\n\\nSecond, is the &8Rockcutter Blade&r. This one can not break &2Trees&r, rather it is used as a Pickaxe with Silk Touch. It will break Stone and give you Stone instead of Cobble. \\n\\nThird is the &8Grinding Disk&r. It won't break &2Trees&r or Stone rather it'll break &7Metal Blocks&r! Good for &8Steel Scaffolding&r and scraping Oxidization off &6Copper&r!"]
@@ -5698,6 +6342,8 @@
 	quest.7D67058592EE5958.title: "Schematic Cannon"
 	quest.7D6B4AEF806AF62E.quest_desc: ["100% way too fast! Try not to die!"]
 	quest.7D6B4AEF806AF62E.quest_subtitle: "Max: 1"
+	quest.7D7A367A1F377925.quest_desc: ["Expand to 28 runes total. The structure grows vertically with pillars at corners."]
+	quest.7D7A367A1F377925.title: "Tier 3 Altar"
 	quest.7D81F2381516204D.quest_subtitle: "Needed for Finished PCBs"
 	quest.7D81F2381516204D.title: "Transistors"
 	quest.7DC044EFFDC208D7.quest_desc: ["Uses slime-related items to generate power for the Mycelial Reactor."]
@@ -5828,165 +6474,9 @@
 	quest.A13C7B3DACACA281.title: "Dark Aqua Pigment Bee"
 	quest.AB4DE330F2FACEA3.title: "Regenerative Bee"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
-	quest.11F3091574B12757.quest_desc: ["Copies written books, enchanted books, name tags, and train schedules. Supply Liquid Experience and a source item to produce duplicates."]
-	quest.11F3091574B12757.title: "Printer"
-	quest.22F7FDDE8A99325A.quest_desc: [
-		"Super Enchanting Templates allow enchantments to exceed their normal maximum level."
-		""
-		"Use with the Blaze Enchanter to break enchantment limits and create overpowered gear."
-	]
-	quest.22F7FDDE8A99325A.quest_subtitle: "Beyond the Limits"
-	quest.22F7FDDE8A99325A.title: "Super Enchanting"
-	quest.2CD21FB8228AAB58.quest_desc: ["Place on a fluid tank to deposit or withdraw experience directly. Sneak-click to extract XP, or click to store your experience as liquid."]
-	quest.2CD21FB8228AAB58.title: "Experience Hatch"
-	quest.3B54433C990880E9.quest_desc: ["An automated enchanting table powered by Liquid Experience. Supply enchanted books via belt or funnel to apply specific enchantments to items."]
-	quest.3B54433C990880E9.title: "Blaze Enchanter"
-	quest.4308CDFF0587E1C0.quest_desc: [
-		"Liquid Experience is the foundation of all Enchantment Industry machines. Obtain it by killing mobs near encased fans, using the Experience Hatch, or extracting from enchanted items."
-		""
-		"Items enchanted with Mending can be repaired by Spout using Liquid Experience on a belt."
-	]
-	quest.4308CDFF0587E1C0.title: "Liquid Experience"
-	quest.532D2E7B07BC3CB6.quest_desc: ["An automated anvil that combines enchantments, repairs items, and renames name tags. Uses Liquid Experience instead of player levels."]
-	quest.532D2E7B07BC3CB6.title: "Blaze Forger"
-	quest.5B2CCD2B425620CE.quest_desc: [
-		"Create: Enchantment Industry adds automated enchanting, disenchanting, and experience manipulation."
-		""
-		"Convert XP into liquid form for storage and use in powerful machines."
-	]
-	quest.5B2CCD2B425620CE.quest_subtitle: "Create Add-On"
-	quest.5B2CCD2B425620CE.title: "Enchantment Industry"
-	quest.66C86CF7701150AC.quest_desc: ["A fully automated grindstone that removes enchantments and repairs items. Also functions as a sanding machine for polishing surfaces."]
-	quest.66C86CF7701150AC.title: "Mechanical Grindstone"
-	quest.6D908CC64A3875CC.quest_desc: ["Place below a Mechanical Grindstone to collect Liquid Experience when items are disenchanted. Higher-level enchantments yield more fluid."]
-	quest.6D908CC64A3875CC.title: "Grindstone Drain"
-	quest.747B6EAA50A5FC2C.quest_desc: [
-		"Absorbs nearby XP orbs and stores them as Liquid Experience."
-		""
-		"Works while mounted on contraptions. Deployers and Crushing Wheels also drop Experience Nuggets from kills."
-	]
-	quest.747B6EAA50A5FC2C.title: "Experience Lantern"
-	task.4DB77CE4063A0A38.title: "Ready to automate enchanting"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
-	quest.383568675B982C5C.quest_desc: ["Obtain gold to begin Blood Magic. The guidebook explains all mechanics and multiblock patterns."]
-	quest.383568675B982C5C.title: "Getting Started"
-	quest.0989CF0F03195545.quest_desc: ["Craft the altar and dagger. Use the dagger on yourself while standing on the altar to generate LP."]
-	quest.0989CF0F03195545.title: "Blood Altar"
-	quest.06E8DD6F395BBAA2.quest_desc: ["Place stone in the altar with LP to create slates. Slates are the base material for all Blood Magic crafting."]
-	quest.06E8DD6F395BBAA2.title: "Blank Slates"
-	quest.37763FDE1B4499C1.quest_desc: ["Craft runes to expand your altar. Runes form rings around the altar to unlock higher tiers."]
-	quest.37763FDE1B4499C1.title: "Blood Runes"
-	quest.3B125D8A777E01B1.quest_desc: ["Place 8 runes in a ring around your altar. Check the guidebook for exact placement."]
-	quest.3B125D8A777E01B1.title: "Tier 2 Altar"
-	quest.3367722CDC81746D.quest_desc: ["Requires Tier 2 altar and 2,000 LP. Unlocks mid-tier recipes and the Apprentice Orb."]
-	quest.3367722CDC81746D.title: "Reinforced Slates"
-	quest.7D7A367A1F377925.quest_desc: ["Expand to 28 runes total. The structure grows vertically with pillars at corners."]
-	quest.7D7A367A1F377925.title: "Tier 3 Altar"
-	quest.5FFB378EE44A660B.quest_desc: ["Requires Tier 3 altar and 5,000 LP. Unlocks rituals, ARC, and advanced sigils."]
-	quest.5FFB378EE44A660B.title: "Imbued Slates"
-	quest.12175A15A5259430.quest_desc: ["Expand to 48 runes. Adds a second ring of pillars."]
-	quest.12175A15A5259430.title: "Tier 4 Altar"
-	quest.1820AC47BF39FA46.quest_desc: ["Requires Tier 4 altar and 15,000 LP. Unlocks demon realm access and dusk rituals."]
-	quest.1820AC47BF39FA46.title: "Demonic Slates"
-	quest.7680FDFB79037F03.quest_desc: ["Final altar form with 64 runes. The largest multiblock structure."]
-	quest.7680FDFB79037F03.title: "Tier 5 Altar"
-	quest.437E17FD2916894E.quest_desc: ["Requires Tier 5 altar and 30,000 LP. Unlocks the most powerful Blood Magic items."]
-	quest.437E17FD2916894E.title: "Ethereal Slates"
-	quest.6D4EE8A9403A6A73.quest_desc: ["Craft from diamond in the altar. Orbs bind to you and store LP from your network for portable use."]
-	quest.6D4EE8A9403A6A73.title: "Weak Blood Orb"
-	quest.7233E7A4AD5B175F.quest_desc: ["Requires Reinforced Slate. Stores more LP and activates mid-tier sigils."]
-	quest.7233E7A4AD5B175F.title: "Apprentice Orb"
-	quest.556F2C603CBA1EE9.quest_desc: ["Requires Imbued Slate. Needed for advanced sigils and ritual activation."]
-	quest.556F2C603CBA1EE9.title: "Magician Orb"
-	quest.121FF0D9B07F82F8.quest_desc: ["Requires Demonic Slate. Maximum LP storage for endgame content."]
-	quest.121FF0D9B07F82F8.title: "Master Orb"
-	quest.021CB5F245634F80.quest_desc: ["Increases altar crafting speed. Place in your altar ring for faster LP infusion."]
-	quest.021CB5F245634F80.title: "Speed Rune"
-	quest.04880D91A89233B7.quest_desc: ["Kills mobs to generate LP. More efficient than self-sacrifice for filling altars."]
-	quest.04880D91A89233B7.title: "Dagger of Sacrifice"
-	quest.2252B2C3B43F141A.quest_desc: ["Increases LP gained from mob sacrifice. Effective when using the Dagger of Sacrifice."]
-	quest.2252B2C3B43F141A.title: "Sacrifice Rune"
-	quest.5BB389DE5DBDF015.quest_desc: ["Increases LP gained from self-sacrifice. Reduces the health cost of filling your altar."]
-	quest.5BB389DE5DBDF015.title: "Self-Sacrifice Rune"
-	quest.79905DF663865952.quest_desc: ["Increases altar LP storage. Essential for high-LP crafting operations."]
-	quest.79905DF663865952.title: "Capacity Rune"
-	quest.7399FEABDCFA5974.quest_desc: ["Increases LP transfer speed to/from orbs. Improves network efficiency."]
-	quest.7399FEABDCFA5974.title: "Dislocation Rune"
-	quest.0D58B69F05228D40.quest_desc: ["Further increases crafting speed. Stacks with Speed Runes."]
-	quest.0D58B69F05228D40.title: "Acceleration Rune"
-	quest.30745609A27013CF.quest_desc: ["Increases orb charging rate. Fills your Blood Orb faster from the altar."]
-	quest.30745609A27013CF.title: "Charging Rune"
-	quest.39984552349F17EE.quest_desc: ["Large capacity increase. More effective than standard Capacity Runes."]
-	quest.39984552349F17EE.title: "Augmented Capacity Rune"
-	quest.3283CDAB2B659EA0.quest_desc: ["Throw snares at mobs to capture demon will on death. Will powers the Hellfire Forge and sentient tools."]
-	quest.3283CDAB2B659EA0.title: "Soul Snares"
-	quest.2A3F6C2356EE64F7.quest_desc: ["Crafts sentient tools and tartaric gems. Requires demon will as fuel."]
-	quest.2A3F6C2356EE64F7.title: "Hellfire Forge"
-	quest.108535577B19132D.quest_desc: ["Stores small amounts of demon will. Used in forge recipes and sentient tool crafting."]
-	quest.108535577B19132D.title: "Petty Tartaric Gem"
-	quest.54C872C7D362761F.quest_desc: ["Increased will storage. Needed for more advanced forge recipes."]
-	quest.54C872C7D362761F.title: "Lesser Tartaric Gem"
-	quest.2F894CE5ABDEC1E0.quest_desc: ["Standard will storage for most recipes. Keeps a good reserve of demon will."]
-	quest.2F894CE5ABDEC1E0.title: "Common Tartaric Gem"
-	quest.195D738428EE7F5F.quest_desc: ["Maximum will storage. Required for the most powerful sentient items."]
-	quest.195D738428EE7F5F.title: "Greater Tartaric Gem"
-	quest.138C7E96BBBD3EEE.quest_desc: ["Damage scales with stored demon will. Collects will from kills automatically."]
-	quest.138C7E96BBBD3EEE.title: "Sentient Sword"
-	quest.300357A59A789E28.quest_desc: ["Crafts sigil reagents and components. Place near your altar for easy access."]
-	quest.300357A59A789E28.title: "Alchemy Table"
-	quest.4A45357A4CE13374.quest_desc: ["Base material for sigil crafting. Combine with reagents to create sigil components."]
-	quest.4A45357A4CE13374.title: "Arcane Ashes"
-	quest.5C3C493FD6AA00A4.quest_desc: ["Shows altar LP level and tier. Essential for monitoring your altar status."]
-	quest.5C3C493FD6AA00A4.title: "Divination Sigil"
-	quest.6DF9308B2FD03F2C.quest_desc: ["Places water source blocks. Costs LP per use from your bound orb."]
-	quest.6DF9308B2FD03F2C.title: "Water Sigil"
-	quest.5425794AFEA7D706.quest_desc: ["Places lava source blocks. Useful for fuel generation or mob farms."]
-	quest.5425794AFEA7D706.title: "Lava Sigil"
-	quest.5F8017F8DE749DF1.quest_desc: ["Accelerates plant growth in an area. Costs LP while active."]
-	quest.5F8017F8DE749DF1.title: "Green Grove Sigil"
-	quest.66F44F7C17F65BBA.quest_desc: ["Grants Haste effect. Drains LP continuously while enabled."]
-	quest.66F44F7C17F65BBA.title: "Fast Miner Sigil"
-	quest.319135E3536D6225.quest_desc: ["Advanced altar info display. Shows crafting progress and detailed LP stats."]
-	quest.319135E3536D6225.title: "Seer Sigil"
-	quest.3AE8CAAD25D6A15A.quest_desc: ["Removes fluid blocks on click. Useful for clearing water or lava."]
-	quest.3AE8CAAD25D6A15A.title: "Void Sigil"
-	quest.64111783C3458571.quest_desc: ["Propels you upward. Functions as a double-jump at LP cost."]
-	quest.64111783C3458571.title: "Air Sigil"
-	quest.1ACF52EC2B34C502.quest_desc: ["Creates temporary light sources. Click to place lights during exploration."]
-	quest.1ACF52EC2B34C502.title: "Blood Light Sigil"
-	quest.124F1EA288C74015.quest_desc: ["Stores up to 5 sigils inside. Shift-click to cycle between stored sigils."]
-	quest.124F1EA288C74015.title: "Sigil of Holding"
-	quest.4F6859CE7216618F.quest_desc: ["Attracts nearby items to you. Toggle on for automatic item collection."]
-	quest.4F6859CE7216618F.title: "Magnetism Sigil"
-	quest.0EC9E9DDD0D636CF.quest_desc: ["Marks and teleports to locations. Bind a location, then activate to teleport."]
-	quest.0EC9E9DDD0D636CF.title: "Teleposition Sigil"
-	quest.2D762C3E7CFA9972.quest_desc: ["Temporarily removes nearby fluids. Creates a dry zone around you."]
-	quest.2D762C3E7CFA9972.title: "Suppression Sigil"
-	quest.103B459C063ACC42.quest_desc: ["Core blocks for ritual construction. The Master Stone activates the ritual."]
-	quest.103B459C063ACC42.title: "Ritual Stones"
-	quest.1FF399274FFAB76A.quest_desc: ["The Diviner places ritual patterns automatically. The Crystal activates completed rituals."]
-	quest.1FF399274FFAB76A.title: "Ritual Tools"
-	quest.0601006A79916377.quest_desc: ["Ritual-crafted oil used in advanced recipes. Made via the Crystallize Tau ritual."]
-	quest.0601006A79916377.title: "Weak Tau"
-	quest.77DD1D76333CC439.quest_desc: ["Upgraded tau oil. Required for higher-tier ritual crafting."]
-	quest.77DD1D76333CC439.title: "Strong Tau"
-	quest.1794A299F36702C8.quest_desc: ["Opens Blood Magic dungeon doors. Dungeons contain loot and materials."]
-	quest.1794A299F36702C8.title: "Dungeon Key"
-	quest.1ACFF2DBE8B2D76F.quest_desc: ["Processes materials using LP. Creates blood shards and processes ores."]
-	quest.1ACFF2DBE8B2D76F.title: "Alchemical Reactor"
-	quest.15C852ADA390B123.quest_desc: ["Advanced crafting materials. Blood Shards are key for Tier 4+ progression."]
-	quest.15C852ADA390B123.title: "Blood Materials"
-	quest.6F295CE0D73DE2A4.quest_desc: ["Enables dusk ritual construction. Required for demon realm access."]
-	quest.6F295CE0D73DE2A4.title: "Dusk Tools"
-	quest.79E7D7C92B68DC80.quest_desc: ["Obtained via dusk rituals. Opens access to Tier 2 runes and demon infrastructure."]
-	quest.79E7D7C92B68DC80.title: "Demon Realm"
-	quest.4E719CDE89D63317.quest_desc: ["Enhanced rune variants. Significantly more effective than standard runes."]
-	quest.4E719CDE89D63317.title: "Tier 2 Runes"
-	quest.441D994CB752E6A8.quest_desc: ["Armor that gains experience through combat. Develops upgrades based on your playstyle."]
-	quest.441D994CB752E6A8.title: "Living Armor"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
 	task.00ED02255105A973.title: "Diamond Chests"
-	task.1F8C37B32E46FA69.title: "Build Tier 2 Altar"
 	task.01FD75641E5EA5E4.title: "Mana"
 	task.02B26D0D73E5E361.title: "Belts"
 	task.02C6EAD6367B3526.title: "I understand materials"
@@ -6041,6 +6531,7 @@
 	task.1E4979886B89B2AD.title: "Petty Tartaric Gem"
 	task.1EEC7B67E037F766.title: "Understanding Pressure"
 	task.1F1A69738DE70DB6.title: "The Mycelial Reactor"
+	task.1F8C37B32E46FA69.title: "Build Tier 2 Altar"
 	task.200CE35BF3C04F6F.title: "Copper Chests"
 	task.20D0DB49AFA7976F.title: "Any Accumulator"
 	task.212BB84583FE4B8B.title: "Farmer Bee"
@@ -6120,6 +6611,7 @@
 	task.4D9A09E80739F58C.title: "I understand the philosophy"
 	task.4DA6445DB5F3B85E.title: "Lumium Comb"
 	task.4DA8DEE31EB00E44.title: "I know where to find help"
+	task.4DB77CE4063A0A38.title: "Ready to automate enchanting"
 	task.4DFDEAD81868CEF4.title: "Chocolate Mining Bee"
 	task.4EF5B261BAD2AC7D.title: "Diamond Comb"
 	task.4EFA9FB003D8D147.title: "Lava Sigil"
@@ -6133,6 +6625,28 @@
 	task.50795B2B2A320D16.title: "Pressurized Tubes"
 	task.50823C029014781A.title: "Obsidian Comb"
 	task.529FFD7D692AEFA5.title: "Specialized Projectiles"
+	task.5347055D06E16ED4.title: "Obtain Energy Tablet"
+	task.53472306C3F4015C.title: "Obtain Blaze Gold Ingot"
+	task.53472E6B7380F3DD.title: "I understand the difference"
+	task.534753FFD8AD3EBF.title: "I am a Silent Gear Master"
+	task.53476085909C4EE7.title: "Obtain Nether Star"
+	task.5347695311E989A2.title: "Obtain Crimson Steel Ingot"
+	task.5347A34BB2A88E43.title: "I understand Silent Gear basics"
+	task.5347A936018F7B3D.title: "Craft Alloy Ingot"
+	task.5347A948C4A34148.title: "Obtain Tyrian Steel Ingot"
+	task.5347B48555033709.title: "Obtain Crimson Iron Ingot"
+	task.5347BAD1B30ECAC3.title: "Obtain Lapis Lazuli"
+	task.5347C11E500608AD.title: "Craft Super Alloy"
+	task.5347C500AD63F886.title: "Collect Powder Snow"
+	task.5347C8FAFEF344FF.title: "Obtain Diamond"
+	task.5347CAF514EDE0AE.title: "Craft Custom Ingot"
+	task.5347D2F3BEC0279C.title: "Gather Oak Planks"
+	task.5347E44A3A745493.title: "Obtain Lithium Ingot"
+	task.5347E517CBA5AE55.title: "Obtain Spell Scroll"
+	task.5347E57C0329D382.title: "Craft Pickaxe Head"
+	task.5347F5A7C653F418.title: "Craft Super Mixer"
+	task.5347F5D001519A87.title: "Craft Pickaxe Template"
+	task.5347F6073058A8D1.title: "Craft Hybrid Gem"
 	task.54A7E248C8A40239.title: "Any Tier 2 Sigil"
 	task.5580FF146C9E7EA0.title: "Barrels"
 	task.55AF014185F20835.title: "Lesser Tartaric Gem"
@@ -6206,4 +6720,108 @@
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
+
+	// Apotheosis (Apothic Enchanting) Chapter
+	chapter.282448C70744895F.title: "Apotheosis"
+
+	// Root Quests
+	quest.0EB5B926E1FBAF0E.title: "Enchanting Table"
+	quest.0EB5B926E1FBAF0E.quest_desc: "Apotheosis expands enchanting beyond vanilla limits. Specialized bookshelves modify Eterna, Quanta, and Arcana stats to control enchantment power and variety."
+
+	quest.314E41B84C8DD464.title: "Enchantment Library"
+	quest.314E41B84C8DD464.quest_desc: "Stores enchanted books by type. Shift-click to deposit, then extract at any level needed."
+
+	quest.7F042DED357DEF3C.title: "Bookshelves"
+	quest.7F042DED357DEF3C.quest_desc: "Vanilla bookshelves provide Eterna up to 30. Specialized shelves grant higher stats and unlock infusion recipes."
+
+	// Stats - taught before infusion
+	quest.353C7440B32F0A5E.title: "Eterna"
+	quest.353C7440B32F0A5E.quest_desc: "Eterna determines enchantment level. Higher values unlock stronger enchantments, with a maximum of 100."
+
+	quest.7234CB42AEF6C941.title: "Quanta"
+	quest.7234CB42AEF6C941.quest_desc: "Quanta adds randomness to enchanting. High Quanta increases enchantment variety but also curse chance."
+
+	quest.4F4B2A6997F25A5A.title: "Arcana"
+	quest.4F4B2A6997F25A5A.quest_desc: "Arcana increases enchantment count and makes rare enchantments more common. Maximum is 100%."
+
+	// Infusion Quest - depends on all three stats
+	quest.1D06097B6206BA60.title: "Infusion Basics"
+	quest.1D06097B6206BA60.quest_desc: "Infusion creates items when exact stat thresholds are met. Many advanced shelves require infusion rather than crafting."
+	task.0EE3A88719BB0221.title: "Understood"
+
+	// Hellshelf line
+	quest.50EEDDDE129D2742.title: "Hellshelves"
+	quest.50EEDDDE129D2742.quest_desc: "Hellshelves provide 3% Quanta and 3 Eterna each. Collect 16 total for infusion - 15 placed and 1 to infuse."
+
+	quest.218803812A9C332B.title: "Infused Hellshelf"
+	quest.218803812A9C332B.quest_desc: "Infused Hellshelves provide 5 Eterna (max 60) and 5% Quanta. Upgrade with Glowstone for Arcana."
+
+	quest.6C76AB8A6110C0C7.title: "Blazing Hellshelf"
+	quest.6C76AB8A6110C0C7.quest_desc: "Blazing Hellshelves provide a balanced mix of Quanta and Eterna for moderate setups."
+
+	quest.0F77A9AD1F422537.title: "Glowing Hellshelf"
+	quest.0F77A9AD1F422537.quest_desc: "Glowing Hellshelves add 3% Arcana while maintaining Eterna and Quanta. Use 12 to infuse Dormant Deepshelves."
+
+	quest.12F4980CB3BFCE0D.title: "Sightshelves"
+	quest.12F4980CB3BFCE0D.quest_desc: "Sightshelves reveal enchantments before you commit. Each shelf shows one additional enchantment clue."
+
+	// Seashelf line
+	quest.5B3CC3F66F2C3DE5.title: "Seashelves"
+	quest.5B3CC3F66F2C3DE5.quest_desc: "Seashelves provide 3% Arcana and 3 Eterna each. Collect 16 total for infusion."
+
+	quest.076DFB0B39A4259F.title: "Infused Seashelf"
+	quest.076DFB0B39A4259F.quest_desc: "Infused Seashelves provide 5 Eterna (max 60) and 5% Arcana. Upgrade with Prismarine Crystals."
+
+	quest.751189465F91B353.title: "Crystalline Seashelf"
+	quest.751189465F91B353.quest_desc: "Crystalline Seashelves add 3% Quanta while maintaining Eterna and Arcana. Use 12 to infuse Dormant Deepshelves."
+
+	quest.5FD95ABA63C56BD5.title: "Heart Seashelf"
+	quest.5FD95ABA63C56BD5.quest_desc: "Heart-Forged Seashelves require a Heart of the Sea. They provide high Arcana for advanced infusions."
+
+	// Deepshelf line
+	quest.62B2C1A24AE245EA.title: "Deepshelf"
+	quest.62B2C1A24AE245EA.quest_desc: "Deepshelves combine Hellshelf and Seashelf progression. Craft Dormant Deepshelves, then infuse with 60 Eterna, 40% Quanta, and 40% Arcana."
+
+	quest.0C596CB7C7C24615.title: "Soul-Touched Deepshelf"
+	quest.0C596CB7C7C24615.quest_desc: "Crafted from Deepshelf, Soul Lantern, and Sculk Blocks. Provides 15% Quanta and raises max Eterna to 75."
+
+	quest.405369118613F935.title: "Echoing Deepshelf"
+	quest.405369118613F935.quest_desc: "Requires Echo Shards from Ancient Cities. Provides 15% Arcana and raises max Eterna to 75."
+
+	// Sculkshelf line
+	quest.10C527C66EE4E95A.title: "Soul Sculkshelf"
+	quest.10C527C66EE4E95A.quest_desc: "Upgrade Soul-Touched Deepshelves with Sculk materials and a Warden Tendril. Provides 10 Eterna, 15% Quanta, 10% Arcana, with max 80."
+
+	quest.606780E5B8CF83BE.title: "Echoing Sculkshelf"
+	quest.606780E5B8CF83BE.quest_desc: "Upgrade Echoing Deepshelves with Sculk materials and a Warden Tendril. Provides 10 Eterna, 10% Quanta, 15% Arcana, with max 80."
+
+	// Endshelf line
+	quest.21EE522DDBF0BF72.title: "Endshelf"
+	quest.21EE522DDBF0BF72.quest_desc: "Endshelves require Infused Dragon's Breath (80 Eterna to infuse). They have max Eterna of 90."
+
+	quest.4A59DF02128DA9F3.title: "Pearl Endshelf"
+	quest.4A59DF02128DA9F3.quest_desc: "Crafted from Endshelf with End Rods and Ender Pearls. Maintains max Eterna of 90."
+
+	quest.6244032FE2E5F1E1.title: "Draconic Endshelf"
+	quest.6244032FE2E5F1E1.quest_desc: "Crafted from Endshelf with Ender Pearls and a Dragon Head. Has the maximum Eterna cap of 100."
+
+	quest.4C446F22771E2B53.title: "Optimal Setup"
+	quest.4C446F22771E2B53.quest_desc: "The best setup uses 5 Soul Sculkshelves, 5 Echoing Sculkshelves, 1 Draconic Endshelf, and 1 Treasure Shelf."
+
+	// Utility shelves
+	quest.5C56452BE7879D0A.title: "Reduction Shelves"
+	quest.5C56452BE7879D0A.quest_desc: "Melonshelf reduces Eterna, Beeshelf reduces Quanta, Stoneshelf reduces Arcana. Use for precise infusion requirements."
+
+	// Other items
+	quest.44D1B410550B6C28.title: "Other Infusions"
+	quest.44D1B410550B6C28.quest_desc: "Many items beyond bookshelves can be created through infusion. Check the Apoth Chronicle for recipes."
+
+	quest.12282CBB658F1132.title: "Potion Charms"
+	quest.12282CBB658F1132.quest_desc: "Potion Charms provide permanent effects in the Curios charm slot. High-stat infusion can make them unbreakable."
+
+	quest.5FD4F40CEC37D9FD.title: "Library of Alexandria"
+	quest.5FD4F40CEC37D9FD.quest_desc: "The ultimate enchantment storage. Holds over 1 billion points per enchantment type, compared to 32,768 for the regular library."
+
+	quest.24526FFBA093805A.title: "Inert Trident"
+	quest.24526FFBA093805A.quest_desc: "Craft an Inert Trident and infuse with 40 Eterna, 20-50% Quanta, and 35%+ Arcana to create a functional trident."
 }

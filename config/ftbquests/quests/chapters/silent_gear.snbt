@@ -3,49 +3,108 @@
 	default_quest_shape: ""
 	filename: "silent_gear"
 	group: ""
-	icon: { id: "silentgear:pickaxe_blueprint" }
-	id: "1D42B373285DEF81"
-	images: [{
-		height: 4.0d
-		image: "silentgear:textures/item/blueprint_package.png"
-		rotation: 0.0d
-		width: 4.0d
-		x: 4.0d
-		y: -3.0d
-	}]
+	icon: {
+		id: "silentgear:pickaxe_blueprint"
+	}
+	id: "5347000000000000"
 	order_index: 5
-	progression_mode: "flexible"
+	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
 		{
-			icon: { id: "minecraft:iron_pickaxe" }
-			icon_scale: 1.1d
-			id: "52EB902E76829EBB"
+			icon: {
+				id: "silentgear:blueprint_package"
+			}
+			id: "53471D8DBA78643F"
 			rewards: [{
-				id: "383D184AE6F5236A"
+				id: "5347E4AE708C6D29"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
-			shape: "square"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
-				id: "335C00992014176A"
+				id: "5347A34BB2A88E43"
 				type: "checkmark"
 			}]
-			x: -7.25d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["15DE3BF0CBD8E0B4"]
-			id: "64AB1E133E218173"
+			dependencies: ["53471D8DBA78643F"]
+			id: "5347D0003D883A9C"
+			rewards: [{
+				id: "534716964CB1EC74"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347ED1BA7A785C9"
+				item: { count: 1, id: "silentgear:stone_anvil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5347D0003D883A9C"]
+			id: "53475B28E6EEFEDE"
 			rewards: [
 				{
-					id: "5079BE02B6810490"
+					id: "5347DAFFE3242538"
 					type: "xp"
-					xp: 5
+					xp: 25
 				}
 				{
-					id: "3B33A6AFBCBD24E2"
+					count: 4
+					id: "5347BA25A004530E"
+					item: {
+						count: 1
+						id: "silentgear:template_board"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5347D0EEDDAF55B1"
+				item: { count: 1, id: "silentgear:template_board" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53475B28E6EEFEDE"]
+			icon: {
+				id: "silentgear:pickaxe_template"
+			}
+			id: "53475E89F15EA340"
+			rewards: [{
+				id: "534710689D043094"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5347F5D001519A87"
+				item: { count: 1, id: "silentgear:pickaxe_template" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53475E89F15EA340"]
+			id: "53477DA2B1E9288A"
+			rewards: [
+				{
+					id: "53472FFE0456F345"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "53474E988DB5E5E5"
 					item: {
 						count: 1
 						id: "silentgear:blueprint_package"
@@ -56,1043 +115,2175 @@
 			size: 1.5d
 			tasks: [{
 				count: 8L
-				id: "28223BD9AC4D64EA"
+				id: "53473F4A7B49E54F"
 				item: { count: 1, id: "silentgear:blueprint_paper" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			id: "0DF4B01CC5B49E4E"
-			rewards: [
-				{
-					id: "3B6BDE76C5A9446F"
-					item: { count: 1, id: "minecraft:blaze_rod" }
-					type: "item"
-				}
-				{
-					id: "16720CCB3ED1C3A2"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "6916F3E24E09B0BE"
-				item: { count: 1, id: "silentgear:sword_blueprint" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0DF4B01CC5B49E4E"]
-			id: "3722B43822F80470"
-			rewards: [{
-				id: "569FE8789232CF20"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "7929CED2B31B3355"
-				item: { count: 1, id: "silentgear:katana_blueprint" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0DF4B01CC5B49E4E"]
-			id: "39B85DB54B1037FE"
-			rewards: [{
-				id: "736360B6DCAC64DA"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "5849539271864159"
-				item: { count: 1, id: "silentgear:machete_blueprint" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0DF4B01CC5B49E4E"]
-			id: "405DCD3E36232EEA"
-			rewards: [{
-				id: "54C35AD7C673B8BD"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "233073F39E676B83"
-				item: { count: 1, id: "silentgear:spear_blueprint" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0DF4B01CC5B49E4E"]
-			id: "0D26E5EF6CFCFDBF"
-			rewards: [{
-				id: "480C996B6EF91910"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "27B86914A7EC8AFB"
-				item: { count: 1, id: "silentgear:knife_blueprint" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0DF4B01CC5B49E4E"]
-			id: "3D2C6FF462B17205"
-			rewards: [{
-				id: "6F242ECEA2C8AB26"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "07A58F926DAA9F86"
-				item: { count: 1, id: "silentgear:dagger_blueprint" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "766C80E5D7B7A916"
-			rewards: [{
-				id: "69E8C6F8D3BFA819"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5456E2D6253496B4"
-				item: { count: 1, id: "silentgear:pickaxe_blueprint" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "52CDB46F6CBF007B"
-			rewards: [{
-				id: "2D85F22E09FDB6A2"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3BA93EF95C2D2AC7"
-				item: { count: 1, id: "silentgear:shovel_blueprint" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "69383DA579901E7E"
-			rewards: [{
-				id: "5AE2EB88B968AB84"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "75DA720893D281E2"
-				item: { count: 1, id: "silentgear:axe_blueprint" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "63CAD77A4488F2CE"
-			rewards: [{
-				id: "69B3A90EBE7C08A0"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "05E69F9C3D0DC0DD"
-				item: { count: 1, id: "silentgear:paxel_blueprint" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "262036FE8E87F50A"
-			rewards: [{
-				id: "350D7AB75BA2D89D"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "640B83A35EB10103"
-				item: { count: 1, id: "silentgear:hammer_blueprint" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "3F39BEB788175CEF"
-			rewards: [{
-				id: "165EDC4330665C22"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0378C9FD1C97FC8E"
-				item: { count: 1, id: "silentgear:excavator_blueprint" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "427516AA3E8C9442"
-			rewards: [{
-				id: "55313BAC0ABC7732"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7BAEC1CCE541863A"
-				item: { count: 1, id: "silentgear:mattock_blueprint" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "083ABBA1C45FF960"
-			optional: true
-			rewards: [{
-				id: "2A72A2E5EBC9E64D"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1BD87FE9B7C97844"
-				item: { count: 1, id: "silentgear:sickle_blueprint" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "67216EC5274F08B9"
-			rewards: [{
-				id: "430D04B092F804E9"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "71F08CAC734CFABA"
-				item: { count: 1, id: "silentgear:shears_blueprint" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "462C1F75A2FB9F02"
-			optional: true
-			rewards: [{
-				id: "73AECD6F2CB1CA8B"
-				type: "xp"
-				xp: 5
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2BC129A5A112714B"
-				item: { count: 1, id: "silentgear:fishing_rod_blueprint" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "6D9CDB4D81DC164D"
-			rewards: [{
-				id: "4362F9342267B09D"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7C2EB1E97E1F7C9D"
-				item: { count: 1, id: "silentgear:bow_blueprint" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "1E8357755479E259"
-			optional: true
-			rewards: [{
-				id: "267E1DA2BC5DB5C5"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "49B566024C78B433"
-				item: { count: 1, id: "silentgear:crossbow_blueprint" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "1E2F1E036716C031"
-			optional: true
-			rewards: [{
-				id: "6DCC64F4FCD87ECA"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3F4C79848F8548D5"
-				item: { count: 1, id: "silentgear:slingshot_blueprint" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "78C112170E17FBF4"
-			rewards: [{
-				id: "696D8973F3FD3B0A"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3DA37B5163894911"
-				item: { count: 1, id: "silentgear:shield_blueprint" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "6E2806D8DC61C46F"
-			rewards: [{
-				id: "1E2C85D526645FBE"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "359631F5009F3B9F"
-				item: { count: 1, id: "silentgear:helmet_blueprint" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "35E8C65CCA676E76"
-			rewards: [{
-				id: "20589A9B4D86DD65"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "583FCEF23D524EB6"
-				item: { count: 1, id: "silentgear:chestplate_blueprint" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "22C51025DC42CDE2"
-			rewards: [{
-				id: "1243D0195D23CDB0"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "7379282EA5C084B4"
-				item: { count: 1, id: "silentgear:leggings_blueprint" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "6912C0E3D092DD27"
-			rewards: [{
-				id: "50004D6B21F8E849"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "6C02D97660F0347C"
-				item: { count: 1, id: "silentgear:boots_blueprint" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "5AB8651FCB1E2F72"
-			rewards: [{
-				id: "5CD4106705C41360"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "761B3590C99B461E"
-				item: { count: 1, id: "silentgear:elytra_blueprint" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "3844877F6C1AFE77"
-			rewards: [{
-				id: "32FDE909916929D7"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "19547966CF66B82B"
-				item: { count: 1, id: "silentgear:arrow_blueprint" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "74FA25B2E087BEC4"
-			rewards: [{
-				id: "6A8BDD8F692F157C"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "316B266E606B709C"
-				item: { count: 1, id: "silentgear:ring_blueprint" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "21234BB40DB05C78"
-			optional: true
-			rewards: [{
-				id: "6BE21A7766B057B1"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6F72BC1DF6CBCDED"
-				item: { count: 1, id: "silentgear:bracelet_blueprint" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			id: "2EB96FF06627FD9A"
-			rewards: [
-				{
-					count: 2
-					id: "4A6DD2BFE7AB5AA1"
-					item: { count: 1, id: "silentgear:crimson_iron_ingot" }
-					type: "item"
-				}
-				{
-					id: "1CB3949F1C926540"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "square"
-			size: 1.25d
-			tasks: [{
-				id: "0A289918540442AE"
-				item: { count: 1, id: "silentgear:salvager" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2EB96FF06627FD9A"]
-			id: "6A393C7A24899E3E"
-			rewards: [
-				{
-					count: 4
-					id: "2E59EBB44FCD4372"
-					item: { count: 1, id: "minecraft:glowstone_dust" }
-					type: "item"
-				}
-				{
-					id: "426DA90F446231C4"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "202BA9A48D4D4B79"
-				item: { count: 1, id: "silentgear:material_grader" }
-				type: "item"
-			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A393C7A24899E3E"]
-			id: "6B78378BC8036227"
+			dependencies: ["53477DA2B1E9288A"]
+			id: "53472C93A94C195C"
 			rewards: [
 				{
-					count: 4
-					id: "64AC530B334F9AD3"
-					item: { count: 1, id: "silentgear:glowing_dust" }
-					type: "item"
-				}
-				{
-					id: "5A302D12635EF77B"
+					id: "5347338A5AD30308"
 					type: "xp"
-					xp: 5
+					xp: 25
 				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "53E64C8F26258C07"
-				item: { count: 1, id: "silentgear:glowing_dust" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6A393C7A24899E3E"]
-			id: "002D65E4D7E8F62B"
-			rewards: [
-				{
-					count: 4
-					id: "256E614120A82059"
-					item: { count: 1, id: "silentgear:blazing_dust" }
-					type: "item"
-				}
-				{
-					id: "12A3F753875AE51A"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "425E8DACC9DD35E7"
-				item: { count: 1, id: "silentgear:blazing_dust" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6A393C7A24899E3E"]
-			id: "7D690A7D0FF6E328"
-			rewards: [
-				{
-					count: 4
-					id: "02ADE8B6A9044835"
-					item: { count: 1, id: "silentgear:glittery_dust" }
-					type: "item"
-				}
-				{
-					id: "7CDD443193BF52FB"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "699AAD43DA73386D"
-				item: { count: 1, id: "silentgear:glittery_dust" }
-				type: "item"
-			}]
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			id: "7860FD3D3273351F"
-			rewards: [
 				{
 					count: 8
-					id: "704BACF5602FB682"
-					item: { count: 1, id: "silentgear:blueprint_paper" }
+					id: "5347CD046C568986"
+					item: {
+						count: 1
+						id: "silentgear:blueprint_paper"
+					}
 					type: "item"
-				}
-				{
-					id: "151BDF4BB67DB85D"
-					type: "xp"
-					xp: 5
 				}
 			]
 			tasks: [{
-				id: "2226DC0E053E8631"
+				id: "534792B74F65BD6A"
 				item: { count: 1, id: "silentgear:blueprint_book" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3930404D5C8B44EB"]
-			id: "7C3D763CF22D167A"
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347A0F19B5748E7"
+			rewards: [{
+				id: "53473BC058106FDD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534726250E239769"
+				item: { count: 1, id: "silentgear:pickaxe_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347C617BF7CA0C3"
+			rewards: [{
+				id: "5347C213D5694B9E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534755828877594D"
+				item: { count: 1, id: "silentgear:shovel_blueprint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347CBD3FFF32A13"
+			rewards: [{
+				id: "534788A463F7F205"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347B4FFE5581A9D"
+				item: { count: 1, id: "silentgear:axe_blueprint" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347BB6EAB1F2388"
+			rewards: [{
+				id: "5347E57904FFABDF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347E09A1DFBE211"
+				item: { count: 1, id: "silentgear:hoe_blueprint" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347D27B92F48C0D"
+			rewards: [{
+				id: "5347A7E6A735C129"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347BABF86F57667"
+				item: { count: 1, id: "silentgear:hammer_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347A7339E0C66CD"
+			rewards: [{
+				id: "5347C27FB188FCBA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347F57C239684BC"
+				item: { count: 1, id: "silentgear:excavator_blueprint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53477E2E290F39CC"
+			rewards: [{
+				id: "534720138F71F79F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53471353E047A802"
+				item: { count: 1, id: "silentgear:saw_blueprint" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53471422C8F3ED77"
+			rewards: [{
+				id: "5347C4DE33B785F2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347E9C717D2F3CF"
+				item: { count: 1, id: "silentgear:mattock_blueprint" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534726067DB594E6"
+			rewards: [{
+				id: "5347E1F058B8A789"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347149A141977B0"
+				item: { count: 1, id: "silentgear:paxel_blueprint" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347C8D103A194CA"
+			rewards: [{
+				id: "5347B523AB6CB7E6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53470B5BB6E05F83"
+				item: { count: 1, id: "silentgear:sickle_blueprint" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347B08E9E15DF48"
+			rewards: [{
+				id: "5347C61631EA944A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534776BD453F9504"
+				item: { count: 1, id: "silentgear:shears_blueprint" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347465734E23D9A"
+			rewards: [{
+				id: "534776FDE0BC1752"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347A39E7237302F"
+				item: { count: 1, id: "silentgear:fishing_rod_blueprint" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534775CA0467819C"
+			rewards: [{
+				id: "53478C27F6464FF9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534779A090AC661E"
+				item: { count: 1, id: "silentgear:prospector_hammer_blueprint" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534724D4F128B241"
+			rewards: [{
+				id: "53476EDA1EE1D6BF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53478A06B007E15A"
+				item: { count: 1, id: "silentgear:sword_blueprint" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347141E20363CB8"
+			rewards: [{
+				id: "53475DF5EECAA006"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347704D3D735160"
+				item: { count: 1, id: "silentgear:dagger_blueprint" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53471E126EEE9F63"
+			rewards: [{
+				id: "53471D1FB27489C2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347D6ADA44EC194"
+				item: { count: 1, id: "silentgear:knife_blueprint" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53470EE46A7F573E"
+			rewards: [{
+				id: "53471319A398EFE0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "534751A6ECF8AA14"
+				item: { count: 1, id: "silentgear:katana_blueprint" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347A50030046730"
+			rewards: [{
+				id: "53471C80A5ED6BFC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53476CAEC3DDB385"
+				item: { count: 1, id: "silentgear:machete_blueprint" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347C3370D7773F4"
+			rewards: [{
+				id: "5347CDCD804A380E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347684105E40F2E"
+				item: { count: 1, id: "silentgear:spear_blueprint" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347B99B3C8357E3"
+			rewards: [{
+				id: "5347526762120924"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347C6EA8AF882C9"
+				item: { count: 1, id: "silentgear:mace_blueprint" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347AF26CDCDE16B"
+			rewards: [{
+				id: "534770C8B176CFA2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53470B88570F444B"
+				item: { count: 1, id: "silentgear:trident_blueprint" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53475EF1771D627A"
+			rewards: [{
+				id: "5347071CA712352B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53479F257484C979"
+				item: { count: 1, id: "silentgear:longsword_blueprint" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534744DD0137B354"
+			rewards: [{
+				id: "5347F68922A805E7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53471CE8A63B0DE9"
+				item: { count: 1, id: "silentgear:tachi_blueprint" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534756ABDF07D955"
+			rewards: [{
+				id: "53474AE660FC2E24"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347C44B4B466678"
+				item: { count: 1, id: "silentgear:greatsword_blueprint" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347D448084DCD1E"
+			rewards: [{
+				id: "5347AC562A8D126A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53471D8EA46947E2"
+				item: { count: 1, id: "silentgear:glove_blueprint" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534710C9FABCE2E4"
+			rewards: [{
+				id: "5347EDF82AB8F7CF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534790CD8DF92DEC"
+				item: { count: 1, id: "silentgear:bow_blueprint" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53478C91AC1A5AEA"
+			rewards: [{
+				id: "53474CDAB1D9CEE9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347F03C2A092F68"
+				item: { count: 1, id: "silentgear:crossbow_blueprint" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347ABD27AF64712"
+			rewards: [{
+				id: "5347FF90E33E7FFF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "534736A373CF38F9"
+				item: { count: 1, id: "silentgear:slingshot_blueprint" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347F2E9A62F4C7F"
+			rewards: [{
+				id: "5347ACDE87C86BEB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "53478F08181F3827"
+				item: { count: 1, id: "silentgear:arrow_blueprint" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347C13F415BBECE"
+			rewards: [{
+				id: "53474443838B0347"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5347DE80003EA0F6"
+				item: { count: 1, id: "silentgear:fletching_blueprint" }
+				type: "item"
+			}]
+			x: 14.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534705C0FAFD5415"
+			rewards: [{
+				id: "5347A1038CA22408"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347D253F395AA34"
+				item: { count: 1, id: "silentgear:helmet_blueprint" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347BD4B3A3E6EFE"
+			rewards: [{
+				id: "5347DB9F94CDD4F6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347A72CE3495CF8"
+				item: { count: 1, id: "silentgear:chestplate_blueprint" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534740E07E62F08F"
+			rewards: [{
+				id: "53473E2DF9D08FB5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347D07D77CAEE6D"
+				item: { count: 1, id: "silentgear:leggings_blueprint" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347F3FCC4D0E258"
+			rewards: [{
+				id: "534763E1263E80FB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347A587C64D9347"
+				item: { count: 1, id: "silentgear:boots_blueprint" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53479AD8370EC6D7"
+			rewards: [{
+				id: "53479E1814FACF3F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347E3B3ED036D21"
+				item: { count: 1, id: "silentgear:shield_blueprint" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "53474B2D803889A7"
+			rewards: [{
+				id: "5347079BF1519B27"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5347827E8E2F384C"
+				item: { count: 1, id: "silentgear:elytra_blueprint" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "534755D0EBC8F4E1"
+			rewards: [{
+				id: "534779D90DEE69AA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "53477AB3A0BFAF31"
+				item: { count: 1, id: "silentgear:ring_blueprint" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347CB6B2CCE6F08"
+			rewards: [{
+				id: "5347F61634A6CC0A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5347D13B56D64176"
+				item: { count: 1, id: "silentgear:bracelet_blueprint" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53477DA2B1E9288A"]
+			hide_dependency_lines: true
+			id: "5347AFE7A63AAD69"
+			rewards: [{
+				id: "53474DBB37DAFAEF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "534743DC70E12C7B"
+				item: { count: 1, id: "silentgear:necklace_blueprint" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53472C93A94C195C"]
+			id: "534756122848BF6D"
+			rewards: [{
+				id: "53477E164D733AB8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "534788CC0608CD9A"
+				item: { count: 1, id: "silentgear:rod_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["534756122848BF6D"]
+			id: "5347AA7F66DBD001"
+			rewards: [{
+				id: "53479D4F2638D150"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347A35D00E55476"
+				item: { count: 1, id: "silentgear:tip_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["534756122848BF6D"]
+			id: "5347708A908ED10E"
+			rewards: [{
+				id: "53475C3960E5C1F9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347436E81145BBA"
+				item: { count: 1, id: "silentgear:coating_blueprint" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["534756122848BF6D"]
+			id: "53479FB60D300E3C"
+			rewards: [{
+				id: "5347D2580A13C247"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347BE666792FD50"
+				item: { count: 1, id: "silentgear:grip_blueprint" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["534756122848BF6D"]
+			id: "534733267D8A1B68"
+			rewards: [{
+				id: "5347DEE640F3C8B3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347082AA43CDF6C"
+				item: { count: 1, id: "silentgear:binding_blueprint" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["534756122848BF6D"]
+			id: "5347B70CC5C8E3F8"
+			rewards: [{
+				id: "534712692BC5B89D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5347466B8479CA6E"
+				item: { count: 1, id: "silentgear:lining_blueprint" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53475E89F15EA340"]
+			icon: {
+				id: "minecraft:oak_planks"
+			}
+			id: "53477EA8D0037BD3"
+			rewards: [{
+				id: "5347A77F85E596E1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5347D2F3BEC0279C"
+				item: { count: 1, id: "minecraft:oak_planks" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53477EA8D0037BD3"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "53474C73739CFFAE"
+			rewards: [{
+				id: "5347BE805EA6D25E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "5347485A8E84F04D"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "534784D870BDD302"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53474C73739CFFAE"]
+			icon: {
+				id: "silentgear:crimson_iron_ingot"
+			}
+			id: "5347359FB4CDAEB8"
 			rewards: [
 				{
-					count: 3
-					id: "514A9B0ACDD05365"
+					id: "5347C4DC611C21F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "53474CBE7C97E529"
+					item: {
+						count: 1
+						id: "silentgear:crimson_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "534796CC3AE67D6D"
+				item: { count: 1, id: "silentgear:crimson_iron_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53477EA8D0037BD3"]
+			icon: {
+				id: "minecraft:leather"
+			}
+			id: "5347857816B421B9"
+			rewards: [{
+				id: "5347C33B3D27D8C6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "53478C6A45650AB6"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					id: "5347C217B733B50D"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53477EA8D0037BD3"]
+			icon: {
+				id: "minecraft:lapis_lazuli"
+			}
+			id: "5347ACF01C1DEAA9"
+			rewards: [{
+				id: "53476169C1C47B17"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "534791267157917B"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "5347F0C6200979DE"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53477EA8D0037BD3"]
+			id: "5347787CA686772D"
+			rewards: [{
+				id: "5347B3A9ACCFE3B9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "53479C7BB0819675"
+				item: { count: 1, id: "silentgear:very_crude_repair_kit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5347787CA686772D"]
+			id: "53470530DB70C21E"
+			rewards: [{
+				id: "5347BEAD2B3F5D97"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347A899330EDB15"
+				item: { count: 1, id: "silentgear:crude_repair_kit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53474C73739CFFAE"]
+			id: "534775815B4F514C"
+			rewards: [
+				{
+					id: "53479D9CAC1DD8D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "5347D1B422A7E37B"
+					item: {
+						count: 1
+						id: "silentgear:crimson_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "534709517B42C3B4"
+				item: { count: 1, id: "silentgear:salvager" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["534775815B4F514C"]
+			id: "53475F138762AE25"
+			rewards: [
+				{
+					id: "53474F653B6FB3A0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "5347893DFEE4945D"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "534723D5D30A6EFF"
+				item: { count: 1, id: "silentgear:material_grader" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53475F138762AE25"]
+			id: "53472F19EFB76849"
+			rewards: [
+				{
+					id: "53476C4E6397212C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5347518B16EDF890"
+					item: {
+						count: 1
+						id: "silentgear:glowing_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5347F966A8D382D1"
+				item: { count: 1, id: "silentgear:glowing_dust" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5347359FB4CDAEB8"]
+			id: "5347650B23BA23CF"
+			rewards: [{
+				id: "534768B0B98286FF"
+				type: "xp"
+				xp: 75
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "534710268178811D"
+				item: { count: 1, id: "silentgear:crude_mixer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5347650B23BA23CF"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "53472F734DAFDF65"
+			rewards: [{
+				id: "5347BE022FCF9EF3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5347105C0FAADA48"
 					item: { count: 1, id: "minecraft:diamond" }
 					type: "item"
 				}
 				{
-					id: "5920F91CCD994BE4"
+					id: "53472D09282DE965"
+					item: { count: 1, id: "silentgear:crimson_iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			id: "53475C730A27513B"
+			rewards: [
+				{
+					id: "5347ABC004601D13"
 					type: "xp"
-					xp: 20
+					xp: 50
+				}
+				{
+					count: 2
+					id: "5347C2F4856C1047"
+					item: {
+						count: 1
+						id: "silentgear:blaze_gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5347DD4AEB2F078A"
+				item: { count: 1, id: "silentgear:blaze_gold_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53475F138762AE25"]
+			id: "5347815798590749"
+			rewards: [
+				{
+					id: "534769B6055D3F5E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5347F9459D8BBAA6"
+					item: {
+						count: 1
+						id: "silentgear:blazing_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5347D25F42D13A65"
+				item: { count: 1, id: "silentgear:blazing_dust" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5347650B23BA23CF"]
+			icon: {
+				id: "silentgear:alloy_ingot"
+			}
+			id: "53475B02249430EC"
+			rewards: [{
+				id: "5347D20F46A543C4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5347A936018F7B3D"
+				item: { count: 1, id: "silentgear:alloy_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			id: "53473143E9B3843B"
+			rewards: [
+				{
+					id: "534786D8CAD00243"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "5347455DFDDFA3A9"
+					item: {
+						count: 1
+						id: "silentgear:crimson_steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5347350125C18356"
+				item: { count: 1, id: "silentgear:crimson_steel_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			id: "5347805151D4DFBD"
+			rewards: [{
+				id: "5347D6CC1D9ABFAB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53477462AE04C94E"
+				item: { count: 1, id: "silentgear:sturdy_repair_kit" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "5347791507312AEA"
+			rewards: [{
+				id: "5347F0D5EC1E0C81"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347695311E989A2"
+				item: { count: 1, id: "silentgear:crimson_steel_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "534758E5CACEEB19"
+			rewards: [{
+				id: "53473300C6DF7395"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "53472306C3F4015C"
+				item: { count: 1, id: "silentgear:blaze_gold_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "53478444A2BC2427"
+			rewards: [{
+				id: "5347AD5D469B5F95"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347C8FAFEF344FF"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "5347D36A816D1535"
+			rewards: [{
+				id: "5347A71493F69862"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347B48555033709"
+				item: { count: 1, id: "silentgear:crimson_iron_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "minecraft:rabbit_foot"
+			}
+			id: "53472B5FA0AFB635"
+			rewards: [{
+				id: "5347C5E06D3277D8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347BAD1B30ECAC3"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			icon: {
+				id: "silentgear:hybrid_gem"
+			}
+			id: "53471FA5869C1BDB"
+			rewards: [{
+				id: "53476BCCE60E5F3A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5347F6073058A8D1"
+				item: { count: 1, id: "silentgear:hybrid_gem" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["53473143E9B3843B"]
+			id: "5347F84500720917"
+			rewards: [
+				{
+					id: "5347AC9371DE270C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "53477402B1A8B1FE"
+					item: {
+						count: 1
+						id: "silentgear:crimson_steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "534772976EA2CEC7"
+				item: { count: 1, id: "silentgear:alloy_forge" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347F84500720917"]
+			id: "5347D52FABFC6E57"
+			rewards: [{
+				id: "53471E7B30D764B9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5347AD60BB1931C9"
+				item: { count: 1, id: "silentgear:super_mixer" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347D52FABFC6E57"]
+			icon: {
+				id: "silentgear:super_alloy"
+			}
+			id: "5347D5192902C908"
+			rewards: [{
+				id: "53470B239DE71199"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5347C11E500608AD"
+				item: { count: 1, id: "silentgear:super_alloy" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347D52FABFC6E57"]
+			id: "5347997ED733AE2C"
+			rewards: [
+				{
+					id: "5347C333D6D02BAB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "5347A056A780DF93"
+					item: {
+						count: 1
+						id: "silentgear:azure_silver_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5347D4B8981895B6"
+				item: { count: 1, id: "silentgear:azure_silver_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5347997ED733AE2C"]
+			id: "5347B401611891D3"
+			rewards: [
+				{
+					id: "53479500FD5B4AF4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5347FEBDA5A362C0"
+					item: {
+						count: 1
+						id: "silentgear:azure_electrum_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "534786027E87224B"
+				item: { count: 1, id: "silentgear:azure_electrum_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["53475F138762AE25"]
+			id: "534759CE3C3CF6C5"
+			rewards: [
+				{
+					id: "534763DEB262AAD4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "5347A5F9A86F9214"
+					item: {
+						count: 1
+						id: "silentgear:glittery_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5347CA5A61107D0A"
+				item: { count: 1, id: "silentgear:glittery_dust" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5347B401611891D3"]
+			id: "53473B4A216C01A3"
+			rewards: [
+				{
+					id: "5347777A9DBA109C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "53479131AF83FB78"
+					item: {
+						count: 1
+						id: "silentgear:tyrian_steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "534792A2121DDB80"
+				item: { count: 1, id: "silentgear:tyrian_steel_ingot" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5347D5192902C908"]
+			icon: {
+				id: "silentgear:custom_ingot"
+			}
+			id: "5347A0F98F9A31A8"
+			rewards: [{
+				id: "5347A1AB1A067209"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5347CAF514EDE0AE"
+				item: { count: 1, id: "silentgear:custom_ingot" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["53473143E9B3843B"]
+			id: "53475A356B1014AF"
+			rewards: [{
+				id: "5347F4FFDF9B3185"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "534702BD1C278546"
+				item: { count: 1, id: "silentgear:crimson_repair_kit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347B401611891D3"]
+			id: "5347F2A0F3A8015A"
+			rewards: [{
+				id: "5347460A5E19973F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5347E03DA47CD94B"
+				item: { count: 1, id: "silentgear:azure_repair_kit" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5347F84500720917"]
+			id: "534769AFFD17651E"
+			rewards: [
+				{
+					id: "53471EE47FBF966B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 3
+					id: "53470C206EE46AA4"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
 				}
 			]
 			shape: "diamond"
 			size: 1.75d
 			tasks: [{
-				id: "03C944C082828C47"
+				id: "534705F56CB53F8A"
 				item: { count: 1, id: "silentgear:starlight_charger" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 24.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["657B3116A6419420"]
-			id: "158B24939A269D83"
-			shape: "diamond"
-			tasks: [{
-				id: "4ECD1D119E695CBD"
-				item: { count: 1, id: "silentgear:tip_blueprint" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["657B3116A6419420"]
-			id: "0947B4ED95B0267E"
-			shape: "diamond"
-			tasks: [{
-				id: "3179733D8ACBDA86"
-				item: { count: 1, id: "silentgear:coating_blueprint" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["657B3116A6419420"]
-			id: "6BFD7854F078BF16"
-			shape: "diamond"
-			tasks: [{
-				id: "14B8204814A42B33"
-				item: { count: 1, id: "silentgear:grip_blueprint" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["657B3116A6419420"]
-			id: "22A0A9C81A5C85A1"
-			shape: "diamond"
-			tasks: [{
-				id: "551DBAFE45DC4804"
-				item: { count: 1, id: "silentgear:binding_blueprint" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "2098D8BFADB55D2A"
-			optional: true
-			rewards: [{
-				id: "37525488AF6404B2"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3CB5441C8E4480CC"
-				item: { count: 1, id: "silentgear:lining_blueprint" }
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["64AB1E133E218173"]
-			hide_dependency_lines: true
-			id: "3F56A5253D477B97"
-			rewards: [{
-				id: "2828EA8C5A180BAC"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "58407186583371FA"
-				item: { count: 1, id: "silentgear:fletching_blueprint" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7860FD3D3273351F"]
-			id: "657B3116A6419420"
-			rewards: [{
-				id: "3144F2282E53F770"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "146DFBC42B522A36"
-				item: { count: 1, id: "silentgear:rod_blueprint" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6A393C7A24899E3E"]
-			id: "3930404D5C8B44EB"
+			dependencies: ["534769AFFD17651E"]
+			id: "5347939593E5098C"
 			rewards: [
 				{
-					count: 2
-					id: "02BF731EB9C877A9"
-					item: { count: 1, id: "silentgear:crimson_steel_ingot" }
-					type: "item"
-				}
-				{
-					id: "2A50AB8483F114F2"
+					id: "53470D0B1596D27C"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
-			]
-			tasks: [{
-				id: "7F18323AEA5BF486"
-				item: { count: 1, id: "silentgear:alloy_forge" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "7E13007340A818C5"
-			rewards: [
 				{
 					count: 4
-					id: "726D3F0AFC299157"
-					item: { count: 1, id: "silentgear:blaze_gold_dust" }
+					id: "534739ACD1F2E7C1"
+					item: {
+						count: 1
+						id: "silentgear:blaze_gold_dust"
+					}
 					type: "item"
-				}
-				{
-					id: "34EE0AC149807BBB"
-					type: "xp"
-					xp: 10
 				}
 			]
 			shape: "circle"
 			tasks: [{
-				count: 4L
-				id: "20B21CAF35324E56"
-				item: { count: 1, id: "silentgear:crimson_steel_block" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "29131C3532610ADF"
-			rewards: [
-				{
-					count: 4
-					id: "26F88065FA41600C"
-					item: { count: 1, id: "silentgear:azure_silver_dust" }
-					type: "item"
-				}
-				{
-					id: "1215998307A8C44F"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				count: 4L
-				id: "5EB5C4ECB49D1A4B"
-				item: { count: 1, id: "silentgear:azure_electrum_block" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "3B560B2ECE331CAF"
-			rewards: [
-				{
-					count: 4
-					id: "5B4F394C75229DA8"
-					item: { count: 1, id: "silentgear:starmetal_dust" }
-					type: "item"
-				}
-				{
-					id: "78F9F7CA7518C4EB"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				count: 4L
-				id: "68EF78DC95598D3B"
-				item: { count: 1, id: "silentgear:tyrian_steel_block" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "48D358470A019E7A"
-			rewards: [
-				{
-					count: 3
-					id: "11895ED684B965A5"
-					item: { count: 1, id: "silentgear:blaze_gold_dust" }
-					type: "item"
-				}
-				{
-					id: "672ECAB1F0B4ACA5"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "2276AE38B913787C"
+				id: "534705EBF275527D"
 				item: { count: 1, id: "silentgear:blaze_gold_dust" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 24.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "2BF119DD5D977409"
+			dependencies: ["5347939593E5098C"]
+			id: "534764DC68994854"
 			rewards: [
 				{
-					count: 3
-					id: "628BD6D6D899D5E2"
-					item: { count: 1, id: "silentgear:azure_silver_dust" }
-					type: "item"
+					id: "534749A19FA67F39"
+					type: "xp"
+					xp: 50
 				}
 				{
-					id: "02A08961EBFACBAB"
-					type: "xp"
-					xp: 10
+					count: 4
+					id: "5347A0DFA0AFA046"
+					item: {
+						count: 1
+						id: "silentgear:azure_silver_dust"
+					}
+					type: "item"
 				}
 			]
 			shape: "circle"
 			tasks: [{
-				id: "0948B07BD000E2A2"
+				id: "5347BE17AB41A925"
 				item: { count: 1, id: "silentgear:azure_silver_dust" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 25.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["7C3D763CF22D167A"]
-			id: "0FEAD3CA2CC4A8B1"
+			dependencies: ["534764DC68994854"]
+			id: "53479E39C777684C"
 			rewards: [
 				{
-					count: 3
-					id: "149C0884AF0F9C96"
-					item: { count: 1, id: "silentgear:starmetal_dust" }
-					type: "item"
+					id: "53470AB09B8DADA2"
+					type: "xp"
+					xp: 75
 				}
 				{
-					id: "3645936047468429"
-					type: "xp"
-					xp: 10
+					count: 4
+					id: "53470C3F927E47B7"
+					item: {
+						count: 1
+						id: "silentgear:starmetal_dust"
+					}
+					type: "item"
 				}
 			]
 			shape: "circle"
 			tasks: [{
-				id: "4B244AC889982750"
+				id: "53478FD38AC148A5"
 				item: { count: 1, id: "silentgear:starmetal_dust" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.0d
+			x: 27.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["52EB902E76829EBB"]
-			hide_dependency_lines: true
-			id: "11B0B93D725ABE43"
+			dependencies: ["534769AFFD17651E"]
+			id: "53479CEA2CC6E56D"
 			rewards: [{
-				id: "221CA06C59187F0D"
+				id: "53472C4EDC54C344"
 				type: "xp"
-				xp: 5
+				xp: 50
 			}]
-			size: 1.5d
+			shape: "circle"
 			tasks: [{
-				id: "123B475266C035CC"
-				item: { count: 1, id: "silentgear:crude_repair_kit" }
+				count: 4L
+				id: "5347AA6569109F3E"
+				item: { count: 1, id: "silentgear:crimson_steel_block" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["53479CEA2CC6E56D"]
+			id: "53470CC3EB9EEE11"
+			rewards: [{
+				id: "5347208A936179B5"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "5347C548F599313D"
+				item: { count: 1, id: "silentgear:azure_electrum_block" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["53470CC3EB9EEE11"]
+			id: "5347E7639FCEE685"
+			rewards: [{
+				id: "534704DD8C59D7E5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "5347A35CD6852B63"
+				item: { count: 1, id: "silentgear:tyrian_steel_block" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "534759376A112765"
+			optional: true
+			rewards: [{
+				id: "5347562F2D2C3719"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "53470853C6F3978D"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					id: "5347C2F1EC305DDF"
+					item: { count: 1, id: "create:rose_quartz" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:ingot_osmium"
+			}
+			id: "5347DBBB44FC64DB"
+			optional: true
+			rewards: [{
+				id: "53473EDDFA808EE4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "53479BD42C419DF5"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+				{
+					id: "53474FC6A35196F0"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: { id: "adastramekanized:desh_ingot" }
+			id: "53476ECCB740CBD1"
+			optional: true
+			rewards: [{
+				id: "5347ED05FA405DB4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "53478DBBAA2DF55E"
+					item: { count: 1, id: "adastramekanized:desh_ingot" }
+					type: "item"
+				}
+				{
+					id: "53477294AAF3EBC5"
+					item: { count: 1, id: "adastramekanized:ostrum_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			id: "53476DDDD1D30C7A"
+			optional: true
+			rewards: [{
+				id: "5347BA29C7DA5C83"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5347E0B4A855C460"
+					item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
+					type: "item"
+				}
+				{
+					id: "53472CAC2A3066D3"
+					item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "chemlibmekanized:lithium_ingot"
+			}
+			id: "53473C367FD413A4"
+			optional: true
+			rewards: [{
+				id: "534727ED7C2673A7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5347E44A3A745493"
+				item: { count: 1, id: "chemlibmekanized:lithium_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["53472F734DAFDF65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "industrialforegoing:pink_slime"
+			}
+			id: "5347017ECBE90CB0"
+			optional: true
+			rewards: [{
+				id: "5347EE3200CAE423"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "534734BAE09774CC"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["52EB902E76829EBB"]
-			icon: { id: "silentgear:pickaxe_template" }
-			id: "15DE3BF0CBD8E0B4"
+			dependencies: ["5347791507312AEA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:energy_tablet"
+			}
+			id: "5347756846F42ECC"
+			optional: true
 			rewards: [{
-				id: "55AD7084DF68E820"
+				id: "5347C616A9CE9A6B"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			tasks: [{
-				id: "2ADE9DBE9448AC7F"
-				type: "checkmark"
+				id: "5347055D06E16ED4"
+				item: { count: 1, id: "mekanism:energy_tablet" }
+				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["52EB902E76829EBB"]
-			icon: { id: "silentgear:pickaxe_head" }
-			id: "7B690431CF1B87D0"
-			rewards: [
-				{
-					count: 8
-					id: "02F9EAB98F91686F"
-					item: { count: 1, id: "silentgear:template_board" }
-					type: "item"
-				}
-				{
-					id: "70451634EBBAFA04"
-					type: "xp"
-					xp: 10
-				}
+			dependencies: ["5347791507312AEA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:scroll"
+			}
+			id: "5347FDCCE74427FE"
+			optional: true
+			rewards: [{
+				id: "5347C593B5432BFD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5347E517CBA5AE55"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347791507312AEA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:powder_snow_bucket"
+			}
+			id: "5347ADA79141E5D2"
+			optional: true
+			rewards: [{
+				id: "53475F1E92A3D952"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5347C500AD63F886"
+				item: { count: 1, id: "minecraft:powder_snow_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5347791507312AEA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "5347D18DE8ECF69C"
+			optional: true
+			rewards: [{
+				id: "53472204360E1970"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53476085909C4EE7"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"53473B4A216C01A3"
+				"53476ECCB740CBD1"
 			]
-			tasks: [
-				{
-					count: 4L
-					id: "1ABEFFE6204BD2AD"
-					item: { count: 1, id: "silentgear:template_board" }
-					type: "item"
-				}
-				{
-					id: "3599BAFFC6D53F5E"
-					item: { count: 1, id: "silentgear:pickaxe_template" }
-					type: "item"
-				}
+			icon: {
+				id: "silentgear:tyrian_steel_ingot"
+			}
+			id: "53477C2F5635B6A3"
+			rewards: [{
+				id: "5347F0458A05908B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5347A948C4A34148"
+				item: { count: 1, id: "silentgear:tyrian_steel_ingot" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["53477C2F5635B6A3"]
+			id: "5347E9DDC06C8590"
+			rewards: [{
+				id: "5347AD1E1533E499"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "534775B5030D4214"
+				item: { count: 1, id: "adastramekanized:calorite_ingot" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5347E9DDC06C8590"]
+			id: "5347FFB8573B4876"
+			rewards: [{
+				id: "53474F198E78E59C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "53473BAFB9399DB9"
+				item: { count: 1, id: "silentgear:cosmic_steel_dust" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5347FFB8573B4876"]
+			id: "5347DCBFA56BB088"
+			rewards: [{
+				id: "53472295266B4687"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "5347CD18F67E11B2"
+				item: { count: 1, id: "silentgear:neutronium_dust" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5347E9DDC06C8590"]
+			id: "534749480183027A"
+			rewards: [{
+				id: "5347F7BA678D6325"
+				type: "xp"
+				xp: 125
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "53475F29415C1D39"
+				item: { count: 1, id: "adastramekanized:calorite_block" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5347FFB8573B4876"]
+			id: "534744C80114F97A"
+			rewards: [{
+				id: "53472AD7EEF43A4D"
+				type: "xp"
+				xp: 175
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "53472E6FBB885989"
+				item: { count: 1, id: "silentgear:cosmic_steel_block" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5347DCBFA56BB088"]
+			id: "53473D50E2FB91EF"
+			rewards: [{
+				id: "534719D80A9011AE"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "5347EA7E53A71541"
+				item: { count: 1, id: "silentgear:neutronium_block" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5347D5192902C908"]
+			icon: {
+				id: "silentgear:super_mixer"
+			}
+			id: "53477A052D7BB7D3"
+			rewards: [{
+				id: "534705A058122BF7"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5347F5A7C653F418"
+				item: { count: 1, id: "silentgear:super_mixer" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["5347FFB8573B4876"]
+			icon: {
+				id: "silentgear:pickaxe_head"
+			}
+			id: "5347025F21CA9975"
+			rewards: [{
+				id: "5347B2D98D239BBE"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5347E57C0329D382"
+				item: { count: 1, id: "silentgear:pickaxe_head" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"53477A052D7BB7D3"
+				"5347025F21CA9975"
 			]
-			x: -5.0d
-			y: 0.0d
+			icon: {
+				id: "silentgear:blueprint_package"
+			}
+			id: "5347974853FF82C1"
+			rewards: [{
+				id: "5347FB67ADE44C62"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "534753FFD8AD3EBF"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: -17.0d
 		}
 	]
 }
