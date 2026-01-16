@@ -201,26 +201,29 @@ This includes:
 
 ### ID Format (CRITICAL)
 
-**All IDs (quest, task, reward) MUST be exactly 16-character uppercase hex strings.**
+**All IDs (quest, task, reward) MUST be exactly 16-character hex strings.**
 
 Valid examples:
-- `796C5F40115A5AE3`
-- `02FF33D22B10EA88`
-- `A4B61F409A13ECDB`
+- `796C5F40115A5AE3` (random hex)
+- `02FF33D22B10EA88` (random hex)
+- `0001000000000001` (structured - section 1, quest 1)
+- `0005000000000003` (structured - section 5, quest 3)
 
 Invalid examples:
 - `AE2001000000001` (only 15 characters)
 - `quest_intro_1` (not hex)
-- `1234567890abcdef` (lowercase - may work but uppercase preferred)
 
-**When porting quests from other packs or creating quests manually:**
-1. Do NOT use human-readable ID patterns like `AE2001000000001`
-2. Generate random 16-character hex IDs using Python:
+**Two approaches for creating IDs:**
+
+1. **Structured IDs (RECOMMENDED for new chapters)**: Use a pattern like `SSSS000000000NNN` where SSSS is section number and NNN is quest number. These are human-readable AND preserved by FTB Quests. See "Creating Quest Chapters from Scratch" section for details.
+
+2. **Random hex IDs**: Generate random 16-character hex IDs using Python:
    ```python
    import random
    hex_id = ''.join(random.choices('0123456789ABCDEF', k=16))
    ```
-3. Or let FTB Quests generate IDs by creating quests in-game
+
+3. **Let FTB Quests generate IDs**: Create quests in-game and extract the generated IDs
 
 **If localizations are not showing (titles/descriptions display as blank or show the key):**
 1. First check that the ID in the lang file matches the ID in the chapter file exactly
@@ -400,8 +403,9 @@ These are the actual IDs from `runs/client/config/`:
 - Create: `100C477F4E63F20A`
 - Industrial Foregoing: `193F91842D2ED7D9`
 - Occultism: `4C507C004144BFEE`
+- Iron's Spells: `1A2B3C4D5E6F7890` (created from scratch, uses structured IDs)
 
-**Note**: These IDs may change if chapters are recreated. Always verify against actual chapter files.
+**Note**: These IDs may change if chapters are recreated. Always verify against actual chapter files. The Iron's Spells chapter uses structured IDs (`0001000000000001` through `0012000000000003`) which are preserved by FTB Quests.
 
 ### Known Pitfalls: Lang File Mismatches
 
@@ -711,16 +715,24 @@ After applying fixes, run the comparison script again to verify:
 # Remaining differences: N (expected - combined quests, missing mods, etc.)
 ```
 
-### CRITICAL: Game Will Regenerate IDs
+### ID Regeneration: When It Happens and When It Doesn't
 
-**WARNING**: FTB Quests will regenerate ALL IDs when loading a chapter file for the first time. This will:
-1. Replace your carefully generated IDs with new random ones
-2. Break all dependency references (they still point to old IDs)
-3. Break all lang file references (they still use old IDs)
+**IMPORTANT UPDATE (2026-01-11)**: ID regeneration behavior depends on the ID format used.
 
-### Golden Rule: Never Trust FTB Quests to Preserve IDs on First Load
+#### IDs That Get Regenerated
+- Malformed IDs (wrong length, non-hex characters)
+- Potentially: IDs that don't follow the expected 16-character uppercase hex format
 
-This is the most important lesson for FTB Quests development. **Accept that FTB Quests will regenerate IDs** and work WITH this behavior rather than fighting it.
+#### IDs That Are PRESERVED
+- **Valid 16-character hex IDs are preserved**, including structured human-readable ones
+- Example: `0001000000000001` (16 chars, all hex digits) is preserved
+- Example: `1A2B3C4D5E6F7890` (16 chars, all hex digits) is preserved
+
+This was discovered when creating the Iron's Spells chapter from scratch with structured IDs like `0001000000000001` through `0012000000000003` - FTB Quests accepted and preserved all of them.
+
+### Golden Rule: Use Valid 16-Character Hex IDs
+
+The key insight is that FTB Quests validates IDs but **preserves valid ones**. If your IDs are exactly 16 characters and contain only hex digits (0-9, A-F), they will be preserved.
 
 #### Safe Workflow (Strongly Recommended)
 
@@ -891,3 +903,488 @@ A successful port should show:
 - All ATM descriptions present (minus copyright)
 - All ATM task titles present (minus copyright)
 - mooStack has MORE quest titles than ATM (all 70 vs ATM's ~20 explicit titles)
+
+---
+
+## Creating Quest Chapters from Scratch
+
+This section documents creating entirely new quest chapters without porting from another modpack. This workflow was developed while creating the Iron's Spells 'n Spellbooks chapter for mooStack.
+
+### When to Create from Scratch vs Port
+
+| Situation | Approach |
+|-----------|----------|
+| Mod exists in reference pack with good quest structure | Port from reference |
+| Mod not in reference pack or reference quests are poor quality | Create from scratch |
+| Want complete control over quest flow and content | Create from scratch |
+| Adding mooStack-exclusive content (like Summoning school) | Create from scratch |
+
+### Structured ID System
+
+When creating chapters from scratch, use a **structured ID system** for human readability while maintaining FTB Quests compatibility.
+
+#### ID Format: `SSSSXXXXXXXXXNNN`
+
+```
+SSSS = Section number (0001-9999)
+XXXXXXXXX = Padding zeros (always 000000000)
+NNN = Quest number within section (001-999)
+
+Example breakdown:
+0005000000000003
+^^^^         ^^^
+|            |
+|            Quest 3 in this section
+Section 5 (Spell Progression)
+```
+
+#### Benefits of Structured IDs
+
+1. **Human readable** - Can identify section/quest at a glance
+2. **Predictable** - Easy to add new quests without collisions
+3. **Sortable** - IDs naturally sort by section then quest number
+4. **Valid hex** - Only uses digits 0-9, meets FTB Quests requirements
+5. **Preserved** - FTB Quests does NOT regenerate these IDs
+
+#### ID Allocation Example (Iron's Spells)
+
+| Section | ID Prefix | Content |
+|---------|-----------|---------|
+| 1 | `0001000000000` | Introduction (2 quests) |
+| 2 | `0002000000000` | Crafting Infrastructure (4 quests) |
+| 3 | `0003000000000` | Spell Inks (3 quests) |
+| 4 | `0004000000000` | Starter Spellbooks (2 quests) |
+| 5 | `0005000000000` | Spell Schools - 24 quests (3 per school x 8 schools) |
+| 6 | `0006000000000` | Summoning School - mooStack exclusive (3 quests) |
+| 7 | `0007000000000` | School Mastery (8 quests) |
+| 8 | `0008000000000` | Mage Armor (3 quests) |
+| 9 | `0009000000000` | Advanced Spellbooks (3 quests) |
+| 10 | `0010000000000` | Exploration (6 quests) |
+| 11 | `0011000000000` | Boss Encounters (6 quests) |
+| 12 | `0012000000000` | Eldritch Endgame (3 quests) |
+
+Chapter ID: `1A2B3C4D5E6F7890` (can be any valid 16-char hex)
+
+### Complete Workflow: Creating a New Chapter
+
+#### Step 1: Plan the Chapter Structure
+
+Before writing any files, plan:
+1. **Sections** - Logical groupings of quests
+2. **Quest count per section** - Allocate ID ranges
+3. **Dependencies** - Which quests unlock which
+4. **Quest types** - Item collection, checkmarks, kills, etc.
+
+#### Step 2: Create the Chapter File
+
+Create `runs/client/config/ftbquests/quests/chapters/your_chapter.snbt`:
+
+```snbt
+{
+    filename: "your_chapter"
+    group: ""
+    icon: "modid:icon_item"
+    id: "1A2B3C4D5E6F7890"
+    default_quest_shape: ""
+    default_hide_dependency_lines: false
+    order_index: 5
+    quests: [
+        {
+            icon: "modid:first_item"
+            id: "0001000000000001"
+            tasks: [{
+                id: "0001000000000101"
+                item: "modid:first_item"
+                type: "item"
+            }]
+            x: -6.0d
+            y: -3.0d
+            rewards: [{
+                id: "0001000000000201"
+                type: "xp"
+                xp: 100
+            }]
+        }
+        {
+            dependencies: ["0001000000000001"]
+            icon: "modid:second_item"
+            id: "0001000000000002"
+            tasks: [{
+                id: "0001000000000102"
+                item: "modid:second_item"
+                type: "item"
+            }]
+            x: -4.0d
+            y: -3.0d
+        }
+    ]
+}
+```
+
+**Key points:**
+- All IDs are exactly 16 characters
+- All IDs contain only hex digits (0-9, A-F)
+- Task IDs use pattern `SSSS000000000NTT` (N=quest, TT=task within quest)
+- Reward IDs use pattern `SSSS000000000NRR` (N=quest, RR=reward within quest)
+
+#### Step 3: Create Matching Lang Entries
+
+Add ALL localizations to `runs/client/config/ftbquests/quests/lang/en_us.snbt`:
+
+```snbt
+{
+    // ... existing entries ...
+
+    // YOUR CHAPTER Chapter
+    chapter.1A2B3C4D5E6F7890.title: "Your Chapter"
+
+    // Section 1: Introduction
+    quest.0001000000000001.title: "First Quest"
+    quest.0001000000000001.quest_desc: ["Description of the first quest."]
+
+    quest.0001000000000002.title: "Second Quest"
+    quest.0001000000000002.quest_desc: ["Description that depends on first quest."]
+
+    // Section 2: Next Section
+    // ... continue for all quests ...
+}
+```
+
+**Critical**: Every quest ID in the chapter file MUST have a matching `quest.ID.title` and `quest.ID.quest_desc` entry in the lang file.
+
+#### Step 4: Test
+
+```bash
+./gradlew runClient
+```
+
+1. Open quest book
+2. Verify chapter appears with correct title
+3. Verify all quests show titles and descriptions
+4. Verify dependency lines are correct
+5. Complete a few quests to test progression
+
+#### Step 5: Backup and Finalize
+
+```bash
+# Backup the working chapter
+cp runs/client/config/ftbquests/quests/chapters/your_chapter.snbt \
+   runs/client/config/ftbquests/quests/chapters/your_chapter.snbt.golden
+
+# When ready to distribute, copy to defaultconfigs
+cp runs/client/config/ftbquests/quests/chapters/your_chapter.snbt \
+   defaultconfigs/ftbquests/quests/chapters/
+
+# Sync lang file
+cp runs/client/config/ftbquests/quests/lang/en_us.snbt \
+   defaultconfigs/ftbquests/quests/lang/
+
+# Mirror to config for git tracking
+cp defaultconfigs/ftbquests/quests/chapters/your_chapter.snbt \
+   config/ftbquests/quests/chapters/
+cp defaultconfigs/ftbquests/quests/lang/en_us.snbt \
+   config/ftbquests/quests/lang/
+```
+
+### Task Types Reference
+
+Common task configurations for new chapters:
+
+#### Item Collection
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    item: "modid:item_name"
+    type: "item"
+}]
+```
+
+#### Item with Count
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    count: 16L
+    item: "modid:item_name"
+    type: "item"
+}]
+```
+
+#### Item with NBT (e.g., spell scrolls)
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    item: {
+        components: {
+            "irons_spellbooks:spell_container": {
+                data: {
+                    spellId: "irons_spellbooks:firebolt"
+                }
+            }
+        }
+        count: 1
+        id: "irons_spellbooks:scroll"
+    }
+    type: "item"
+}]
+```
+
+#### Kill Task
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    entity: "modid:entity_name"
+    type: "kill"
+    value: 1L
+}]
+```
+
+#### Checkmark (Manual Completion)
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    type: "checkmark"
+}]
+```
+Note: Add `task.0001000000000101.title: "Task description"` to lang file for checkmarks.
+
+#### Observation (Look at Block/Entity)
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    observe_type: 0
+    timer: 20L
+    to_observe: "modid:block_or_entity"
+    type: "observation"
+}]
+```
+
+### Quest Properties Reference
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | 16-char hex ID |
+| `x`, `y` | double | Position on quest map (use `d` suffix) |
+| `icon` | string | Item ID for quest icon |
+| `shape` | string | Quest shape: `circle`, `square`, `pentagon`, `hexagon`, `octagon`, `gear`, `diamond`, `heart` |
+| `size` | double | Quest icon size multiplier |
+| `dependencies` | array | Array of quest IDs this quest requires |
+| `hide_dependency_lines` | boolean | Hide lines to dependency quests |
+| `tasks` | array | Array of task objects |
+| `rewards` | array | Array of reward objects |
+
+### Reward Types Reference
+
+#### XP Reward
+```snbt
+rewards: [{
+    id: "0001000000000201"
+    type: "xp"
+    xp: 100
+}]
+```
+
+#### Item Reward
+```snbt
+rewards: [{
+    id: "0001000000000201"
+    item: "modid:reward_item"
+    type: "item"
+}]
+```
+
+#### Item with Count
+```snbt
+rewards: [{
+    id: "0001000000000201"
+    count: 8
+    item: "modid:reward_item"
+    type: "item"
+}]
+```
+
+#### Choice Reward (Player Picks One)
+```snbt
+rewards: [{
+    id: "0001000000000201"
+    table_id: 1234567890123456L
+    type: "choice"
+}]
+```
+
+### Creating Chapter Documentation
+
+For each chapter created from scratch, create a notes document at `docs/quests/MODNAME_notes.md`:
+
+```markdown
+# [Mod Name] Quest Chapter Notes
+
+## Overview
+- **Quest Count**: X quests across Y sections
+- **Created**: YYYY-MM-DD
+- **Style**: [Ported from ATM / Created from scratch]
+
+## Section Breakdown
+| Section | Quests | Description |
+|---------|--------|-------------|
+| 1 | N | Section description |
+| 2 | N | Section description |
+
+## mooStack-Specific Content
+- List any custom additions not from reference sources
+
+## ID Allocation
+- Chapter ID: `XXXXXXXXXXXXXXXX`
+- Quest IDs: `0001000000000001` through `00XX000000000NNN`
+
+## Testing Notes
+- Any quirks or known issues
+```
+
+---
+
+## Porting from 1.20.1 to 1.21.1 (NeoForge)
+
+This section documents critical format changes when porting FTB Quest chapters from Minecraft 1.20.1 (Forge) to 1.21.1 (NeoForge).
+
+### Critical Format Changes
+
+FTB Quests for 1.21.1/NeoForge requires different syntax for item and icon references. **If items show as "air" or icons are missing, this is likely the cause.**
+
+#### Item Format Change
+
+**1.20.1 (OLD - will show items as "air"):**
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    item: "modid:item_name"
+    type: "item"
+}]
+```
+
+**1.21.1 (NEW - required format):**
+```snbt
+tasks: [{
+    id: "0001000000000101"
+    item: { count: 1, id: "modid:item_name" }
+    type: "item"
+}]
+```
+
+#### Icon Format Change
+
+**1.20.1 (OLD - icons may not display):**
+```snbt
+{
+    icon: "modid:item_name"
+    id: "0001000000000001"
+    ...
+}
+```
+
+**1.21.1 (NEW - required format):**
+```snbt
+{
+    icon: { id: "modid:item_name" }
+    id: "0001000000000001"
+    ...
+}
+```
+
+### Conversion Commands
+
+Use these sed commands to convert an entire chapter file:
+
+```bash
+# Convert item strings to object format
+sed -E 's/item: "([^"]+)"/item: { count: 1, id: "\1" }/g' chapter.snbt > chapter_fixed.snbt
+
+# Convert icon strings to object format
+sed -E 's/icon: "([^"]+)"/icon: { id: "\1" }/g' chapter_fixed.snbt > chapter_final.snbt
+```
+
+**Note**: These commands are safe for files that already have some items in object format - they only convert string-format entries.
+
+### Items with Counts
+
+For tasks requiring multiple items, the count can be at the task level OR inside the item object:
+
+**Task-level count (preferred for detection quantity):**
+```snbt
+tasks: [{
+    count: 8L
+    id: "0001000000000101"
+    item: { count: 1, id: "modid:item_name" }
+    type: "item"
+}]
+```
+
+**Item-level count (for rewards):**
+```snbt
+rewards: [{
+    count: 4
+    id: "0001000000000201"
+    item: { count: 1, id: "modid:item_name" }
+    type: "item"
+}]
+```
+
+### Mod Item ID Changes
+
+When porting, some mods may have renamed items between versions. Always verify item IDs against the actual mod JAR for 1.21.1.
+
+**Example (Silent Gear 4.0.30):**
+| 1.20.1 ID | 1.21.1 ID | Notes |
+|-----------|-----------|-------|
+| `silentgear:metal_alloyer` | `silentgear:alloy_forge` | Block renamed |
+
+**Verification method:**
+```bash
+# List all item models in a mod JAR
+unzip -l modname-version.jar | grep "models/item" | grep -v ".mcmeta"
+
+# Check specific item exists
+unzip -l modname-version.jar | grep "models/item/itemname.json"
+
+# Search lang file for item names
+unzip -p modname-version.jar "assets/modid/lang/en_us.json" | grep -i "itemname"
+```
+
+### Complete Porting Checklist (1.20.1 -> 1.21.1)
+
+- [ ] Copy chapter file to dev environment (`runs/client/config/ftbquests/quests/chapters/`)
+- [ ] Convert all `item: "..."` strings to `item: { count: 1, id: "..." }` format
+- [ ] Convert all `icon: "..."` strings to `icon: { id: "..." }` format
+- [ ] Verify all mod item IDs exist in 1.21.1 version of each mod
+- [ ] Update any renamed items (check mod JARs or source code)
+- [ ] Update lang file references if item names changed
+- [ ] Test in-game - all items should display correctly (not as "air")
+- [ ] Copy to config/ and defaultconfigs/ when verified
+
+### Symptoms of Format Issues
+
+| Symptom | Likely Cause |
+|---------|--------------|
+| All items show as "air" | Item format is string instead of object |
+| Quest icons missing | Icon format is string instead of object |
+| Specific items show as "air" | Item ID doesn't exist in 1.21.1 mod version |
+| Items work but names wrong | Item was renamed between versions |
+
+---
+
+### Checklist: Creating a New Chapter
+
+- [ ] Plan sections and quest count
+- [ ] Allocate ID ranges for each section
+- [ ] Create chapter file with structured IDs
+- [ ] Create all lang entries (titles + descriptions)
+- [ ] Verify all IDs are exactly 16 hex characters
+- [ ] Test in-game:
+  - [ ] Chapter title displays
+  - [ ] All quest titles display
+  - [ ] All descriptions display
+  - [ ] Dependencies work correctly
+  - [ ] Quests can be completed
+- [ ] Create .golden backup
+- [ ] Create documentation in docs/quests/
+- [ ] Copy to defaultconfigs when complete
+- [ ] Sync to config for git tracking
