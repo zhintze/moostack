@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_and_armor"
+	group: ""
+	icon: {
+		id: "magistuarmory:armet"
+	}
+	id: "4FACE7A7426CE1A5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "epicfight:skill_book"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "4A050181D999577F"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0001000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0001000000000001"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "0D96B42914B65C1A"
+			tasks: [{
+				id: "0001000000000102"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0001000000000002"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "0001000000000003"
+			tasks: [{
+				id: "0001000000000103"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "147DA32CC31F58DC"
+			tasks: [{
+				id: "0002000000000101"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "7BAE1273C2564F50"
+			tasks: [{
+				id: "0002000000000102"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "66861A196EDAF149"
+			tasks: [{
+				id: "0002000000000103"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "0002000000000004"
+			tasks: [{
+				id: "0002000000000104"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0002000000000001"
+				"0002000000000002"
+				"0002000000000003"
+				"0002000000000004"
+			]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "6C03FDE5B2D3CC06"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0003000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0003000000000001"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "4D6872FE72705AC7"
+			tasks: [{
+				id: "0003000000000102"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0003000000000001"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "53CBB4ABCF61FDA2"
+			tasks: [{
+				id: "0003000000000103"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0003000000000002"
+				"0003000000000003"
+			]
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "1AE22C5745877654"
+			tasks: [{
+				id: "0003000000000104"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0003000000000004"]
+			icon: {
+				id: "magistuarmory:gambeson_chestplate"
+			}
+			id: "7AAFD8569DE1B316"
+			rewards: [{
+				id: "0004000000000201"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0004000000000101"
+				item: { count: 1, id: "magistuarmory:gambeson_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0004000000000001"]
+			icon: {
+				id: "magistuarmory:chainmail_chestplate"
+			}
+			id: "62988C8A24A1053E"
+			rewards: [{
+				id: "0004000000000202"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0004000000000102"
+				item: { count: 1, id: "magistuarmory:chainmail_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0004000000000002"]
+			icon: {
+				id: "magistuarmory:armet"
+			}
+			id: "475D3013FEA877EC"
+			rewards: [{
+				id: "0004000000000203"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0004000000000103"
+				item: { count: 1, id: "magistuarmory:armet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0004000000000003"]
+			icon: {
+				id: "magistuarmory:gothic_chestplate"
+			}
+			id: "670969FF1549CD11"
+			rewards: [{
+				id: "0004000000000204"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0004000000000104"
+				item: { count: 1, id: "magistuarmory:gothic_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0004000000000003"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "magistuarmory:big_plume"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0004000000000005"
+			rewards: [{
+				id: "0004000000000205"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0004000000000105"
+				item: { components: { "ftbquests:missing_item": "magistuarmory:big_plume" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0004000000000003"]
+			icon: {
+				id: "magistuarmory:barding"
+			}
+			id: "0004000000000006"
+			rewards: [{
+				id: "0004000000000206"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0004000000000106"
+				item: { count: 1, id: "magistuarmory:barding" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["0003000000000004"]
+			icon: {
+				id: "antiquelegacy:corinthian_helmet"
+			}
+			id: "5901453EC75161E6"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0005000000000101"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0005000000000001"]
+			icon: {
+				id: "antiquelegacy:segmentata"
+			}
+			id: "724AB1A5D11147DD"
+			rewards: [{
+				id: "0005000000000201"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0005000000000102"
+				item: { count: 1, id: "antiquelegacy:segmentata" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"0004000000000004"
+				"0004000000000005"
+				"0004000000000006"
+				"0005000000000002"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "30A16F0A565C5AC6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0006000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0006000000000001"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "295EE0B7F74229B9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0006000000000102"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+	]
+}

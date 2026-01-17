@@ -1,0 +1,1608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: ""
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [{
+					id: "irons_spellbooks:fireball"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 0b
+			}
+		}
+		id: "irons_spellbooks:scroll"
+	}
+	id: "1A2B3C4D5E6F7890"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		// ============================================
+		// SECTION 1: INTRODUCTION (2 quests)
+		// ============================================
+		{
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:fireball"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+				id: "irons_spellbooks:scroll"
+			}
+			id: "1501000000000001"
+			rewards: [{
+				count: 5
+				id: "1501000000000101"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1501000000000201"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1501000000000001"]
+			id: "1501000000000002"
+			rewards: [{
+				count: 5
+				id: "1501000000000102"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1501000000000202"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		// ============================================
+		// SECTION 2: CRAFTING INFRASTRUCTURE (4 quests)
+		// ============================================
+		{
+			dependencies: ["1501000000000002"]
+			id: "1502000000000001"
+			rewards: [{
+				count: 3
+				id: "1502000000000101"
+				item: { count: 1, id: "minecraft:paper" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1502000000000201"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1501000000000002"]
+			id: "1502000000000002"
+			rewards: [{
+				count: 3
+				id: "1502000000000102"
+				item: { count: 1, id: "irons_spellbooks:rare_ink" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1502000000000202"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1501000000000002"]
+			id: "1502000000000003"
+			rewards: [{
+				count: 3
+				id: "1502000000000103"
+				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1502000000000203"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1501000000000002"]
+			id: "1502000000000004"
+			rewards: [
+				{
+					id: "1502000000000104"
+					item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
+					type: "item"
+				}
+				{
+					id: "1502000000000105"
+					item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1502000000000204"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		// ============================================
+		// SECTION 3: SPELL INKS (3 quests)
+		// ============================================
+		{
+			dependencies: ["1502000000000004"]
+			id: "1503000000000001"
+			rewards: [{
+				count: 2
+				id: "1503000000000101"
+				item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1503000000000201"
+					item: { count: 1, id: "irons_spellbooks:common_ink" }
+					type: "item"
+				}
+				{
+					id: "1503000000000202"
+					item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1503000000000001"]
+			id: "1503000000000002"
+			rewards: [{
+				count: 2
+				id: "1503000000000102"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1503000000000203"
+					item: { count: 1, id: "irons_spellbooks:rare_ink" }
+					type: "item"
+				}
+				{
+					id: "1503000000000204"
+					item: { count: 1, id: "irons_spellbooks:epic_ink" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1503000000000002"]
+			id: "1503000000000003"
+			rewards: [{
+				count: 2
+				id: "1503000000000103"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1503000000000205"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		// ============================================
+		// SECTION 4: STARTER SPELLBOOKS (2 quests)
+		// ============================================
+		{
+			dependencies: ["1502000000000001"]
+			id: "1504000000000001"
+			rewards: [{
+				id: "1504000000000101"
+				item: { count: 1, id: "irons_spellbooks:uncommon_ink" }
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1504000000000201"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1504000000000202"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1504000000000001"]
+			id: "1504000000000002"
+			rewards: [{
+				id: "1504000000000102"
+				item: { count: 1, id: "irons_spellbooks:rare_ink" }
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1504000000000203"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1504000000000204"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:rotten_spell_book" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 8.5d
+		}
+		// ============================================
+		// SECTION 5: SPELL SCROLL PROGRESSION (24 quests)
+		// Fire School (3 quests)
+		// ============================================
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "1505000000000001"
+			rewards: [{
+				id: "1505000000000101"
+				item: { count: 1, id: "irons_spellbooks:fire_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000201"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firebolt", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000202"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:burning_dash", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000001", "1503000000000002"]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "1505000000000002"
+			rewards: [{
+				id: "1505000000000102"
+				item: { count: 1, id: "irons_spellbooks:fire_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000203"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magma_bomb", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000204"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wall_of_fire", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000002", "1503000000000003", "1511000000000001"]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "1505000000000003"
+			rewards: [{
+				id: "1505000000000103"
+				item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000205"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blaze_storm", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		// Ice School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "irons_spellbooks:frozen_bone" }
+			id: "1505000000000004"
+			rewards: [{
+				id: "1505000000000104"
+				item: { count: 1, id: "irons_spellbooks:ice_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000206"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:icicle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000207"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:snowball", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000004", "1503000000000002"]
+			icon: { id: "irons_spellbooks:frozen_bone" }
+			id: "1505000000000005"
+			rewards: [{
+				id: "1505000000000105"
+				item: { count: 1, id: "irons_spellbooks:ice_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000208"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostwave", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000209"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_block", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000005", "1503000000000003", "1511000000000002"]
+			icon: { id: "irons_spellbooks:frozen_bone" }
+			id: "1505000000000006"
+			rewards: [{
+				id: "1505000000000106"
+				item: { count: 1, id: "irons_spellbooks:ice_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000210"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:cone_of_cold", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		// Lightning School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "irons_spellbooks:lightning_bottle" }
+			id: "1505000000000007"
+			rewards: [{
+				id: "1505000000000107"
+				item: { count: 1, id: "irons_spellbooks:lightning_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000211"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:electrocute", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000212"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:charge", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000007", "1503000000000002"]
+			icon: { id: "irons_spellbooks:lightning_bottle" }
+			id: "1505000000000008"
+			rewards: [{
+				id: "1505000000000108"
+				item: { count: 1, id: "irons_spellbooks:lightning_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000213"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:shockwave", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000214"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:lightning_lance", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000008", "1503000000000003"]
+			icon: { id: "irons_spellbooks:lightning_bottle" }
+			id: "1505000000000009"
+			rewards: [{
+				id: "1505000000000109"
+				item: { count: 1, id: "irons_spellbooks:lightning_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000215"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:chain_lightning", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		// Holy School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "irons_spellbooks:divine_pearl" }
+			id: "1505000000000010"
+			rewards: [{
+				id: "1505000000000110"
+				item: { count: 1, id: "irons_spellbooks:holy_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000216"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000217"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wisp", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000010", "1503000000000002"]
+			icon: { id: "irons_spellbooks:divine_pearl" }
+			id: "1505000000000011"
+			rewards: [{
+				id: "1505000000000111"
+				item: { count: 1, id: "irons_spellbooks:holy_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000218"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fortify", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000219"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:angel_wings", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000011", "1503000000000003", "1511000000000003"]
+			icon: { id: "irons_spellbooks:divine_pearl" }
+			id: "1505000000000012"
+			rewards: [{
+				id: "1505000000000112"
+				item: { count: 1, id: "irons_spellbooks:holy_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000220"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:healing_circle", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		// Blood School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "irons_spellbooks:blood_vial" }
+			id: "1505000000000013"
+			rewards: [{
+				id: "1505000000000113"
+				item: { count: 1, id: "irons_spellbooks:blood_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000221"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blood_slash", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000222"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blood_step", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000013", "1503000000000002"]
+			icon: { id: "irons_spellbooks:blood_vial" }
+			id: "1505000000000014"
+			rewards: [{
+				id: "1505000000000114"
+				item: { count: 1, id: "irons_spellbooks:blood_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000223"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_dead", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000224"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heartstop", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000014", "1503000000000003", "1511000000000005"]
+			icon: { id: "irons_spellbooks:blood_vial" }
+			id: "1505000000000015"
+			rewards: [{
+				id: "1505000000000115"
+				item: { count: 1, id: "irons_spellbooks:blood_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000225"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:devour", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		// Evocation School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "minecraft:emerald" }
+			id: "1505000000000016"
+			rewards: [{
+				id: "1505000000000116"
+				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000226"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:gust", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000227"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:shield", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000016", "1503000000000002"]
+			icon: { id: "minecraft:emerald" }
+			id: "1505000000000017"
+			rewards: [{
+				id: "1505000000000117"
+				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000228"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_ward", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000229"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_vex", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000017", "1503000000000003", "1511000000000004"]
+			icon: { id: "minecraft:emerald" }
+			id: "1505000000000018"
+			rewards: [{
+				id: "1505000000000118"
+				item: { count: 1, id: "irons_spellbooks:evocation_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000230"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_strike", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		// Nature School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "minecraft:poisonous_potato" }
+			id: "1505000000000019"
+			rewards: [{
+				id: "1505000000000119"
+				item: { count: 1, id: "irons_spellbooks:nature_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000231"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:poison_splash", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000232"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:root", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000019", "1503000000000002"]
+			icon: { id: "minecraft:poisonous_potato" }
+			id: "1505000000000020"
+			rewards: [{
+				id: "1505000000000120"
+				item: { count: 1, id: "irons_spellbooks:nature_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000233"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blight", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000234"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:oakskin", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000020", "1503000000000003", "1511000000000006"]
+			icon: { id: "minecraft:poisonous_potato" }
+			id: "1505000000000021"
+			rewards: [{
+				id: "1505000000000121"
+				item: { count: 1, id: "irons_spellbooks:nature_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000235"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:earthquake", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		// Ender School (3 quests)
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "minecraft:ender_pearl" }
+			id: "1505000000000022"
+			rewards: [{
+				id: "1505000000000122"
+				item: { count: 1, id: "irons_spellbooks:ender_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000236"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000237"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:teleport", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1505000000000022", "1503000000000002"]
+			icon: { id: "minecraft:ender_pearl" }
+			id: "1505000000000023"
+			rewards: [{
+				id: "1505000000000123"
+				item: { count: 1, id: "irons_spellbooks:ender_rune" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1505000000000238"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:black_hole", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+				{
+					id: "1505000000000239"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1505000000000023", "1503000000000003"]
+			icon: { id: "minecraft:ender_pearl" }
+			id: "1505000000000024"
+			rewards: [{
+				id: "1505000000000124"
+				item: { count: 1, id: "irons_spellbooks:ender_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1505000000000240"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:starfall", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		// ============================================
+		// SECTION 6: SUMMONING SCHOOL - mooStack Exclusive (3 quests)
+		// ============================================
+		{
+			dependencies: ["1502000000000002", "1503000000000001"]
+			icon: { id: "minecraft:bone" }
+			id: "1506000000000001"
+			rewards: [{
+				count: 5
+				id: "1506000000000101"
+				item: { count: 1, id: "minecraft:bone" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1506000000000201"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "ironsspellssummoningexpansion:summon_zombie", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1506000000000001", "1503000000000002"]
+			icon: { id: "minecraft:bone" }
+			id: "1506000000000002"
+			rewards: [{
+				count: 3
+				id: "1506000000000102"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1506000000000202"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "ironsspellssummoningexpansion:summon_fox", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1506000000000002", "1503000000000003"]
+			icon: { id: "minecraft:bone" }
+			id: "1506000000000003"
+			rewards: [{
+				count: 5
+				id: "1506000000000103"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1506000000000203"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "ironsspellssummoningexpansion:summon_blaze", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		// ============================================
+		// SECTION 7: SCHOOL MASTERY (8 quests)
+		// ============================================
+		{
+			dependencies: ["1505000000000003"]
+			id: "1507000000000001"
+			rewards: [{
+				id: "1507000000000101"
+				item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000201"
+					item: { count: 1, id: "irons_spellbooks:fire_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000202"
+					item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000006"]
+			id: "1507000000000002"
+			rewards: [{
+				id: "1507000000000102"
+				item: { count: 1, id: "irons_spellbooks:ice_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000203"
+					item: { count: 1, id: "irons_spellbooks:ice_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000204"
+					item: { count: 1, id: "irons_spellbooks:ice_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000009"]
+			id: "1507000000000003"
+			rewards: [{
+				id: "1507000000000103"
+				item: { count: 1, id: "irons_spellbooks:lightning_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000205"
+					item: { count: 1, id: "irons_spellbooks:lightning_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000206"
+					item: { count: 1, id: "irons_spellbooks:lightning_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000012"]
+			id: "1507000000000004"
+			rewards: [{
+				id: "1507000000000104"
+				item: { count: 1, id: "irons_spellbooks:holy_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000207"
+					item: { count: 1, id: "irons_spellbooks:holy_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000208"
+					item: { count: 1, id: "irons_spellbooks:holy_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000015"]
+			id: "1507000000000005"
+			rewards: [{
+				id: "1507000000000105"
+				item: { count: 1, id: "irons_spellbooks:blood_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000209"
+					item: { count: 1, id: "irons_spellbooks:blood_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000210"
+					item: { count: 1, id: "irons_spellbooks:blood_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000018"]
+			id: "1507000000000006"
+			rewards: [{
+				id: "1507000000000106"
+				item: { count: 1, id: "irons_spellbooks:evocation_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000211"
+					item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000212"
+					item: { count: 1, id: "irons_spellbooks:evocation_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000021"]
+			id: "1507000000000007"
+			rewards: [{
+				id: "1507000000000107"
+				item: { count: 1, id: "irons_spellbooks:nature_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000213"
+					item: { count: 1, id: "irons_spellbooks:nature_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000214"
+					item: { count: 1, id: "irons_spellbooks:nature_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1505000000000024"]
+			id: "1507000000000008"
+			rewards: [{
+				id: "1507000000000108"
+				item: { count: 1, id: "irons_spellbooks:ender_upgrade_orb" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1507000000000215"
+					item: { count: 1, id: "irons_spellbooks:ender_rune" }
+					type: "item"
+				}
+				{
+					id: "1507000000000216"
+					item: { count: 1, id: "irons_spellbooks:ender_upgrade_orb" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 14.0d
+		}
+		// ============================================
+		// SECTION 8: MAGE ARMOR (3 quests)
+		// ============================================
+		{
+			dependencies: ["1507000000000001", "1507000000000002", "1507000000000003"]
+			id: "1508000000000001"
+			rewards: [{
+				count: 10
+				id: "1508000000000101"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{ id: "1508000000000201", item: { count: 1, id: "irons_spellbooks:pyromancer_helmet" }, type: "item" }
+				{ id: "1508000000000202", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }, type: "item" }
+				{ id: "1508000000000203", item: { count: 1, id: "irons_spellbooks:pyromancer_leggings" }, type: "item" }
+				{ id: "1508000000000204", item: { count: 1, id: "irons_spellbooks:pyromancer_boots" }, type: "item" }
+				{ id: "1508000000000205", item: { count: 1, id: "irons_spellbooks:cryomancer_helmet" }, type: "item" }
+				{ id: "1508000000000206", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }, type: "item" }
+				{ id: "1508000000000207", item: { count: 1, id: "irons_spellbooks:cryomancer_leggings" }, type: "item" }
+				{ id: "1508000000000208", item: { count: 1, id: "irons_spellbooks:cryomancer_boots" }, type: "item" }
+				{ id: "1508000000000209", item: { count: 1, id: "irons_spellbooks:electromancer_helmet" }, type: "item" }
+				{ id: "1508000000000210", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }, type: "item" }
+				{ id: "1508000000000211", item: { count: 1, id: "irons_spellbooks:electromancer_leggings" }, type: "item" }
+				{ id: "1508000000000212", item: { count: 1, id: "irons_spellbooks:electromancer_boots" }, type: "item" }
+			]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1507000000000005", "1507000000000008"]
+			id: "1508000000000002"
+			rewards: [{
+				count: 10
+				id: "1508000000000102"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{ id: "1508000000000213", item: { count: 1, id: "irons_spellbooks:cultist_helmet" }, type: "item" }
+				{ id: "1508000000000214", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cultist_chestplate" }, type: "item" }
+				{ id: "1508000000000215", item: { count: 1, id: "irons_spellbooks:cultist_leggings" }, type: "item" }
+				{ id: "1508000000000216", item: { count: 1, id: "irons_spellbooks:cultist_boots" }, type: "item" }
+				{ id: "1508000000000217", item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }, type: "item" }
+				{ id: "1508000000000218", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }, type: "item" }
+				{ id: "1508000000000219", item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }, type: "item" }
+				{ id: "1508000000000220", item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }, type: "item" }
+			]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1507000000000004", "1507000000000006", "1507000000000007"]
+			id: "1508000000000003"
+			rewards: [{
+				count: 10
+				id: "1508000000000103"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{ id: "1508000000000221", item: { count: 1, id: "irons_spellbooks:priest_helmet" }, type: "item" }
+				{ id: "1508000000000222", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }, type: "item" }
+				{ id: "1508000000000223", item: { count: 1, id: "irons_spellbooks:priest_leggings" }, type: "item" }
+				{ id: "1508000000000224", item: { count: 1, id: "irons_spellbooks:priest_boots" }, type: "item" }
+				{ id: "1508000000000225", item: { count: 1, id: "irons_spellbooks:plagued_helmet" }, type: "item" }
+				{ id: "1508000000000226", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:plagued_chestplate" }, type: "item" }
+				{ id: "1508000000000227", item: { count: 1, id: "irons_spellbooks:plagued_leggings" }, type: "item" }
+				{ id: "1508000000000228", item: { count: 1, id: "irons_spellbooks:plagued_boots" }, type: "item" }
+				{ id: "1508000000000229", item: { count: 1, id: "irons_spellbooks:archevoker_helmet" }, type: "item" }
+				{ id: "1508000000000230", item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:archevoker_chestplate" }, type: "item" }
+				{ id: "1508000000000231", item: { count: 1, id: "irons_spellbooks:archevoker_leggings" }, type: "item" }
+				{ id: "1508000000000232", item: { count: 1, id: "irons_spellbooks:archevoker_boots" }, type: "item" }
+			]
+			x: 9.0d
+			y: 16.0d
+		}
+		// ============================================
+		// SECTION 9: ADVANCED SPELLBOOKS (3 quests)
+		// ============================================
+		{
+			dependencies: ["1505000000000003", "1505000000000018", "1505000000000015"]
+			id: "1509000000000001"
+			rewards: [{
+				id: "1509000000000101"
+				item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [
+				{
+					id: "1509000000000201"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:blaze_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1509000000000202"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:fang_strike", index: 0, level: 6, locked: 1b }, { id: "irons_spellbooks:fang_ward", index: 1, level: 4, locked: 1b }, { id: "irons_spellbooks:summon_vex", index: 2, level: 4, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:evoker_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1509000000000203"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1505000000000012", "1505000000000021"]
+			id: "1509000000000002"
+			rewards: [{
+				id: "1509000000000102"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.3d
+			tasks: [
+				{
+					id: "1509000000000204"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:villager_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1509000000000205"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1509000000000001", "1509000000000002"]
+			id: "1509000000000003"
+			rewards: [{
+				id: "1509000000000103"
+				item: { count: 2, id: "irons_spellbooks:legendary_ink" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1509000000000206"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1509000000000207"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+					type: "item"
+				}
+				{
+					id: "1509000000000208"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		// ============================================
+		// SECTION 10: EXPLORATION (6 quests)
+		// ============================================
+		{
+			dependencies: ["1501000000000002"]
+			icon: { id: "minecraft:blackstone" }
+			id: "1510000000000001"
+			rewards: [{
+				count: 8
+				id: "1510000000000101"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000201"
+				structure: "irons_spellbooks:pyromancer_tower"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1501000000000002"]
+			icon: { id: "minecraft:packed_ice" }
+			id: "1510000000000002"
+			rewards: [{
+				count: 8
+				id: "1510000000000102"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000202"
+				structure: "irons_spellbooks:mountain_tower"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1501000000000002"]
+			icon: { id: "minecraft:mangrove_log" }
+			id: "1510000000000003"
+			rewards: [{
+				count: 8
+				id: "1510000000000103"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000203"
+				structure: "irons_spellbooks:mangrove_hut"
+				type: "structure"
+			}]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1510000000000001"]
+			icon: { id: "minecraft:dark_oak_log" }
+			id: "1510000000000004"
+			rewards: [{
+				count: 8
+				id: "1510000000000104"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000204"
+				structure: "irons_spellbooks:evoker_fort"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1510000000000001"]
+			icon: { id: "minecraft:deepslate_tiles" }
+			id: "1510000000000005"
+			rewards: [{
+				id: "1510000000000105"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000205"
+				structure: "irons_spellbooks:ancient_battleground"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1510000000000004"]
+			icon: { id: "minecraft:stone_bricks" }
+			id: "1510000000000006"
+			rewards: [{
+				count: 8
+				id: "1510000000000106"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "1510000000000206"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		// ============================================
+		// SECTION 11: BOSS ENCOUNTERS (6 quests)
+		// ============================================
+		{
+			dependencies: ["1510000000000001"]
+			icon: { id: "minecraft:fire_charge" }
+			id: "1511000000000001"
+			rewards: [{
+				count: 3
+				id: "1511000000000101"
+				item: { count: 1, id: "irons_spellbooks:fire_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:pyromancer"
+				id: "1511000000000201"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1510000000000002"]
+			icon: { id: "minecraft:snowball" }
+			id: "1511000000000002"
+			rewards: [{
+				count: 3
+				id: "1511000000000102"
+				item: { count: 1, id: "irons_spellbooks:ice_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				id: "1511000000000202"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1510000000000003"]
+			icon: { id: "minecraft:golden_apple" }
+			id: "1511000000000003"
+			rewards: [{
+				count: 3
+				id: "1511000000000103"
+				item: { count: 1, id: "irons_spellbooks:holy_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:priest"
+				id: "1511000000000203"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1510000000000004"]
+			icon: { id: "minecraft:totem_of_undying" }
+			id: "1511000000000004"
+			rewards: [{
+				count: 3
+				id: "1511000000000104"
+				item: { count: 1, id: "irons_spellbooks:evocation_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "1511000000000204"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1510000000000006"]
+			icon: { id: "minecraft:wither_skeleton_skull" }
+			id: "1511000000000005"
+			rewards: [{
+				count: 5
+				id: "1511000000000105"
+				item: { count: 1, id: "irons_spellbooks:blank_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "1511000000000205"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1510000000000003"]
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:healing"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "1511000000000006"
+			rewards: [{
+				count: 3
+				id: "1511000000000106"
+				item: { count: 1, id: "irons_spellbooks:nature_rune" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "irons_spellbooks:apothecarist"
+				id: "1511000000000206"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		// ============================================
+		// SECTION 12: ELDRITCH ENDGAME (3 quests)
+		// ============================================
+		{
+			dependencies: ["1511000000000005"]
+			icon: { id: "minecraft:sculk_sensor" }
+			id: "1512000000000001"
+			rewards: [{
+				id: "1512000000000101"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:swift_sneak": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "1512000000000201"
+				type: "biome"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1512000000000001"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			id: "1512000000000002"
+			rewards: [{
+				count: 3
+				id: "1512000000000102"
+				item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "1512000000000202"
+				item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1512000000000002"]
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			id: "1512000000000003"
+			rewards: [{
+				id: "1512000000000103"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1512000000000203"
+					item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
+					type: "item"
+				}
+				{
+					id: "1512000000000204"
+					item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:eldritch_blast", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 16.0d
+		}
+	]
+}

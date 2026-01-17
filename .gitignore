@@ -33,4 +33,13 @@ run-data
 !runs/client/kubejs/client_scripts/
 !runs/client/kubejs/client_scripts/**
 
+# FTB Quests configuration
+!runs/client/config/
+!runs/client/config/ftbquests/
+!runs/client/config/ftbquests/quests/
+!runs/client/config/ftbquests/quests/chapters/
+!runs/client/config/ftbquests/quests/chapters/**
+!runs/client/config/ftbquests/quests/lang/
+!runs/client/config/ftbquests/quests/lang/**
+
 repo
