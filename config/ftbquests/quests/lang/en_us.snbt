@@ -10,6 +10,7 @@
 	chapter.22C20C1827FE6805.title: "Immersive Engineering"
 	chapter.23983F4DC524B14B.title: "Mekanism"
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
+	chapter.282448C70744895F.title: "Apotheosis Enchanting"
 	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.4C507C004144BFEE.title: "Occultism"
 	chapter.5347000000000000.title: "Silent Gear"
@@ -426,6 +427,12 @@
 	quest.07564DBB023EE2A6.title: "Experience Seeds"
 	quest.0759CA52EECF3B49.quest_desc: ["The &6Mechanical Plough&r will plough through anything in its way! Well, that it can move atleast. \\n\\nBlocks with weak connections will immediately break when the &6Plough&r hits them. Blocks like Torches, Buttons, and Vines. \\n\\nWhen used above Dirt or Grass, it will make Farmland! Perfect for Mega-Farms! \\n\\nYou can also use the &6Plough&r to move Mobs without killing them. Well the &6Plough&r won't kill them, whatever they hit might."]
 	quest.0759CA52EECF3B49.title: "&6Mechanical Plough"
+	quest.076DFB0B39A4259F.quest_desc: [
+		"Infused Seashelves are upgraded versions with better stats. Each provides 2.5 &aEterna&r (max 40) and 7.5% &5Arcana.&r "
+		""
+		"To infuse: place a Seashelf on the table with 30 &aEterna&r and 45% &5Arcana&r nearby. This requires approximately 10 regular Seashelves around the table. Infuse 5 to progress."
+	]
+	quest.076DFB0B39A4259F.title: "Infuse Seashelves"
 	quest.077B2D62FA7650FB.quest_subtitle: "Range: &627&r Blocks"
 	quest.077B2D62FA7650FB.title: "&cTertium Growth Accelerator"
 	quest.078B69E9362A5496.quest_desc: [
@@ -609,6 +616,12 @@
 	quest.0BD6365534BF04D5.title: "Possession Rituals"
 	quest.0C0B9287E80DA7B8.quest_desc: ["Converts rotation to FE. Higher RPM produces more power. Connect to energy network."]
 	quest.0C0B9287E80DA7B8.title: "Alternator"
+	quest.0C596CB7C7C24615.quest_desc: [
+		"Soul-Touched Deepshelves provide 5 &aEterna&r (max 75), 15% &4Quanta&r, and 5% &5Arcana&r. The increased &aEterna&r cap allows access to higher enchantment levels."
+		""
+		"Craft from a Deepshelf, Soul Lantern, and Sculk Blocks. Sculk requires Silk Touch to collect from the Deep Dark biome."
+	]
+	quest.0C596CB7C7C24615.title: "Craft Soul-Touched Deepshelf"
 	quest.0CC48C2AA553A314.quest_desc: ["&3Drill Bits&r can be used in a Pneumatic Jackhammer."]
 	quest.0CD04A00529FE1C9.quest_desc: ["Optional intermediate tier. Saves iron but can be skipped by crafting iron tier directly."]
 	quest.0CD04A00529FE1C9.title: "Copper Tier"
@@ -714,6 +727,18 @@
 	quest.0EAF01037BB20BCB.quest_desc: ["The Necromancer Staff summons zombies to fight for you."]
 	quest.0EAF01037BB20BCB.quest_subtitle: "Summons Zombies"
 	quest.0EAF01037BB20BCB.title: "Necromancer Staff"
+	quest.0EB5B926E1FBAF0E.quest_desc: [
+		"Apotheosis overhauls vanilla enchanting with three stats: Eterna, Quanta, and Arcana. "
+		""
+		"&aEterna&r determines enchantment level (default 0, max 100). "
+		""
+		"&4Quanta&r adds randomness to results (default 15%, max 100%). "
+		""
+		"&5Arcana&r increases enchantment count and rare enchantment chance (default 0%, max 100%). "
+		""
+		"Specialized bookshelves provide these stats. The Apoth Chronicle guide book explains all mechanics in detail."
+	]
+	quest.0EB5B926E1FBAF0E.title: "Craft Enchanting Table"
 	quest.0EBE20E44A7AEC7E.quest_desc: [
 		"These Units will make your Feet and pretty much entire Legs, longer and stronger!"
 		"You can Sprint Jump higher and walk up higher steps. You can Jump and step higher with more Units Installed and you can change the Configs of the Unit to go even higher!"
@@ -769,6 +794,12 @@
 	quest.0F326EEEC2EBE4E5.title: "&dEnriched Items"
 	quest.0F49E9167B5E97C9.quest_desc: ["Any damage you take when falling (ignoring armor) will also be dealt to nearby mobs."]
 	quest.0F49E9167B5E97C9.quest_subtitle: "Max: 1"
+	quest.0F77A9AD1F422537.quest_desc: [
+		"Glowing Hellshelves provide 5 &aEterna&r (max 60), 7.5% &4Quanta&r, and 5% &5Arcana&r. They are the advanced Hellshelf path endpoint before Deepshelf convergence. "
+		""
+		"Craft from Infused Hellshelves with Glowstone. 12 Glowing Hellshelves provide enough stats (60 &aEterna&r, 90% &4Quanta&r, 60% &5Arcana&r) to infuse Dormant Deepshelves."
+	]
+	quest.0F77A9AD1F422537.title: "Craft Glowing Hellshelves"
 	quest.0F8FE6692717AA6A.quest_desc: [
 		"The Mycelial Reactor is the ultimate power generation in Industrial Foregoing."
 		""
@@ -808,6 +839,12 @@
 	quest.109310AF19AAC482.title: "&4Flamethrower"
 	quest.109AD73F016D576B.quest_desc: ["Using the vanilla method, go ahead and make yourself a &9Beehive&r to have your own little setup!\\n\\nThese can hold 3 Bees each, but we won't be using it for long...\\n\\nBees will only create Honey and Honeycombs if they have the right flowers. Vanilla bees can use any flower, but most bees in the mod will require a specific block! Make sure to check JEI for more info."]
 	quest.109AD73F016D576B.title: "Your First Beehive"
+	quest.10C527C66EE4E95A.quest_desc: [
+		"Soul-Touched Sculkshelves provide 10 &aEterna&r (max 80), 15% &4Quanta&r, and 10% &5Arcana&r. The 80 &aEterna&r cap approaches endgame levels."
+		""
+		"Craft from a Soul-Touched Deepshelf, Sculk Blocks, Sculk Catalyst, and a Warden Tendril. Warden Tendrils drop from the Warden boss in the Deep Dark."
+	]
+	quest.10C527C66EE4E95A.title: "Craft Soul-Touched Sculkshelf"
 	quest.10EF30B919EBA5C6.quest_desc: [
 		"It's a pickaxe with Fortune V on it. That's all."
 		""
@@ -884,6 +921,12 @@
 	quest.121FF0D9B07F82F8.title: "Master Orb"
 	quest.12274935C3D20C74.quest_desc: ["There is tons of different Building Blocks you can use, lots of the &6&lCreate&r Casings look clean and Concretes can help give a more slick look. \\n\\nYou can also use Doors and Trapdoors within the &5Train&r which can also be used when the &5Train&r is moving. \\n\\nWhat about making it look pretty? Well Stairs, Slabs, and Trapdoors help give Shape to it as well as the Flywheel or &dCogs&r give nice round edges. \\n\\nHeck you can even put a Campfire on it to make a Steam Engine!"]
 	quest.12274935C3D20C74.title: "Decorating your &5Train&r"
+	quest.12282CBB658F1132.quest_desc: [
+		"Potion Charms provide permanent potion effects while worn in a Curios charm slot. Each charm has durability that depletes over time. "
+		""
+		"At 100 &aEterna&r, you can infuse charms with Unbreaking enchantments to extend their duration significantly. Craft the base charm, then enchant or infuse as desired."
+	]
+	quest.12282CBB658F1132.title: "Craft Potion Charm"
 	quest.122EDEC12C9A05D2.quest_desc: [
 		"Did I forget to mention everything can blow up? ..."
 		""
@@ -906,6 +949,12 @@
 	quest.12F3A604329EC604.quest_desc: ["The Promise of Efficiency increases the efficiency of EvilCraft machines, reducing blood consumption."]
 	quest.12F3A604329EC604.quest_subtitle: "Increases the Efficiency of Machines"
 	quest.12F3A604329EC604.title: "Promise of Efficiency"
+	quest.12F4980CB3BFCE0D.quest_desc: [
+		"Sightshelves reveal enchantments before you commit to the operation. Each Sightshelf shows one additional enchantment that will appear. The Sightshelf T2 reveals even more. "
+		""
+		"These do not affect stats but are essential for targeting specific enchantments. Craft both tiers."
+	]
+	quest.12F4980CB3BFCE0D.title: "Craft Sightshelves"
 	quest.13124A7E22999850.quest_subtitle: "Tier: &e1"
 	quest.13124A7E22999850.title: "Earth Seeds"
 	quest.131EC039435B8878.quest_desc: [
@@ -1382,6 +1431,12 @@
 	quest.1CD2C6AFD788C35E.title: "Compacting Upgrade"
 	quest.1CF8263756EE8F2A.quest_desc: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
 	quest.1CF8263756EE8F2A.title: "&5Cognizant Dust&r"
+	quest.1D06097B6206BA60.quest_desc: [
+		"Infusion transforms bookshelves placed on the enchanting table when specific stat thresholds are met. Unlike enchanting, infusion consumes no XP or Lapis. "
+		""
+		"Each infusion recipe requires exact &aEterna&r, &4Quanta&r, and &5Arcana&r values. Check your recipe viewer for requirements. Place the item to infuse on the table, arrange shelves to meet the stat requirements, then right-click with an empty hand to infuse."
+	]
+	quest.1D06097B6206BA60.title: "Learn Infusion"
 	quest.1D3471FCA8B3BE36.quest_subtitle: "Summons a saddled horse temporarily"
 	quest.1D4E7F548431263A.quest_desc: ["Easily the simplest of these Blocks to make. \\n\\nIron and &4Redstone&r you'll just get from &2&lVanilla&r gameplay, the only \"difficult\" Item is the &7Iron Sheetmetal&r."]
 	quest.1D4E7F548431263A.title: "&4Redstone Engineering Block"
@@ -1564,6 +1619,12 @@
 	quest.21624A6500545C42.quest_subtitle: "Faster Crops"
 	quest.2182492BCC1B33D8.quest_desc: ["When installed in a Hive, it gives a 5% chance for a new baby Bee to be spawned every time honey is delivered.\\n\\nWhen placed in a Catcher, it only allows the catcher to catch baby Bees.\\n\\nYou can stack these for a greater chance."]
 	quest.2182492BCC1B33D8.quest_subtitle: "Making Babies"
+	quest.218803812A9C332B.quest_desc: [
+		"Infused Hellshelves are upgraded versions with better stats. Each provides 2.5% &aEterna&r (max 40) and 7.5% &4Quanta&r."
+		""
+		"To infuse: place a Hellshelf on the table with 30 &aEterna&r and 45% &4Quanta&r nearby. This requires approximately 10 regular Hellshelves around the table. Infuse 5 to progress."
+	]
+	quest.218803812A9C332B.title: "Infuse Hellshelves"
 	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
@@ -1577,6 +1638,12 @@
 	quest.21D8B88155648EA6.title: "&l&5Machines"
 	quest.21EC1A577B4E2FC4.quest_subtitle: "Warps entities to a warp scroll location"
 	quest.21EC1A577B4E2FC4.title: "Ritual of Warping"
+	quest.21EE522DDBF0BF72.quest_desc: [
+		"Endshelves provide access to the 90 &aEterna&r cap tier. Craft from Endstone Bricks, Ender Pearls, a Bookshelf, and Infused Dragon's Breath. "
+		""
+		"To create Infused Dragon's Breath, place Dragon's Breath on the table with 80 &aEterna&r using your Sculkshelves. Endshelves provide 15 &aEterna&r (max 90), 15% &4Quanta&r, and 15% &5Arcana&r."
+	]
+	quest.21EE522DDBF0BF72.title: "Craft Endshelf"
 	quest.21F3379C904BFD50.quest_desc: ["The &6Resistive Heater&r will also generate &6Heat&r, but instead of using Furnace Fuel, it will use &aEnergy&r! \\n\\nBy feeding it &aEnergy&r, we can choose however much &6Heat&r it will make. \\n\\nThe more &6Heat&r it makes, the more &aEnergy&r it takes! \\n\\nThe max &6Heat&r is 9,999,999 something."]
 	quest.21F3379C904BFD50.title: "&6Resistive Heater"
 	quest.21F654C968722841.quest_subtitle: "Tier: &b4"
@@ -2260,6 +2327,12 @@
 	]
 	quest.3142A40E1EAEBAA3.quest_subtitle: "Magic Finder"
 	quest.3142A40E1EAEBAA3.title: "Dowsing Rod"
+	quest.314E41B84C8DD464.quest_desc: [
+		"The Enchantment Library stores enchanted books in a single block, organized by enchantment type. Shift-click books to deposit them. "
+		""
+		"The Library tracks points per enchantment: a Sharpness V book stores 5 points, allowing you to later extract Sharpness I through V as needed. Maximum storage is 32,768 points per enchantment. Essential for managing duplicate enchanted books."
+	]
+	quest.314E41B84C8DD464.title: "Build Enchantment Library"
 	quest.3155E4212045BC8E.quest_desc: [
 		"The Obsidian Nest will lure in Draconic Bees when placed in the End."
 		""
@@ -2865,6 +2938,12 @@
 	quest.401BB95B740385B7.title: "Holy Upgrade Orb"
 	quest.40407D2CDC660866.quest_subtitle: "Destroys monsters for double experience"
 	quest.40407D2CDC660866.title: "Ritual of Disintegration"
+	quest.405369118613F935.quest_desc: [
+		"Echoing Deepshelves provide 5 &aEterna&r (max 75), 5% &4Quanta&r, and 15% &5Arcana&r. The &5Arcana&r focus complements Soul-Touched Deepshelves for balanced high-tier setups."
+		""
+		"Craft from a Deepshelf and Echo Shards. Echo Shards are found in Ancient City chests in the Deep Dark."
+	]
+	quest.405369118613F935.title: "Craft Echoing Deepshelf"
 	quest.407AD700892ADBF1.quest_subtitle: "Decreases projectile spell speed"
 	quest.407C2D00F22BD89D.quest_desc: ["This Upgrade gives space for 6 more Bullets! Making the total up to 14."]
 	quest.408203C29BAABA44.quest_desc: [
@@ -3290,6 +3369,12 @@
 	quest.4A45357A4CE13374.title: "Arcane Ashes"
 	quest.4A4747302A2C8232.quest_desc: ["Emits redstone based on fill level. Set thresholds with interface. Inventory management."]
 	quest.4A4747302A2C8232.title: "Stockpile Switch"
+	quest.4A59DF02128DA9F3.quest_desc: [
+		"Pearlescent Endshelves provide 15 &aEterna&r (max 90), 10% &4Quanta&r, and 20% &5Arcana&r. The &5Arcana&r focus makes them useful for setups prioritizing rare enchantments. "
+		""
+		"Craft from an Endshelf, End Rods, and Ender Pearls."
+	]
+	quest.4A59DF02128DA9F3.title: "Craft Pearl Endshelf"
 	quest.4A854CD5EC70733E.quest_desc: ["Adds portable crafting grid to the backpack."]
 	quest.4A854CD5EC70733E.title: "Crafting Upgrade"
 	quest.4A86BF284E35C5B4.quest_desc: ["Transfers items between marked inventories. Select inputs/outputs with wrench. Fast item routing."]
@@ -3391,6 +3476,14 @@
 	quest.4C31649D721F76B5.title: "&6Mechanical Harvester"
 	quest.4C366515E3CCB0B2.quest_desc: ["Meat through a tube, yummy."]
 	quest.4C366515E3CCB0B2.title: "Meat Feeder"
+	quest.4C446F22771E2B53.quest_desc: [
+		"The optimal setup for maximum enchanting power requires: "
+		""
+		"5 Soul-Touched Sculkshelves, 5 Echoing Sculkshelves, 1 Draconic Endshelf, and 1 Treasure Shelf (enables treasure enchantments like Mending). "
+		""
+		"Total: 100 &aEterna&r cap, 145% &4Quanta&r, 145% &5Arcana&r. Add Geode-Encased Bookshelves of Stability to reduce curse chance from high Quanta."
+	]
+	quest.4C446F22771E2B53.title: "Perfect Enchanting Setup"
 	quest.4C47EB9D2CE26BC6.quest_subtitle: "Spawns: Nether Quartz Nest (Nether)"
 	quest.4C47EB9D2CE26BC6.subtitle: "Spawns: Nether Quartz Nest (Nether)"
 	quest.4C47EB9D2CE26BC6.title: "Crystalline Bee"
@@ -3754,6 +3847,14 @@
 	quest.50ED69AEEE808B24.quest_subtitle: "Breed: Sodium + Hydrogen"
 	quest.50ED69AEEE808B24.subtitle: "Breed: Sodium + Hydrogen"
 	quest.50ED69AEEE808B24.title: "Lithium Bee"
+	quest.50EEDDDE129D2742.quest_desc: [
+		"Hellshelves are your first source of &4Quanta.&r Each Hellshelf provides 1.5 &aEterna&r (max 22.5) and 5% &4Quanta.&r "
+		""
+		"&4Quanta&r increases the variance in your enchanting results, giving access to both higher and lower tier enchantments than your &aEterna&r level would normally allow. Higher &4Quanta&r also increases the chance of receiving curses, so balance carefully. "
+		""
+		"Craft 10 Hellshelves to prepare for infusion."
+	]
+	quest.50EEDDDE129D2742.title: "Craft Hellshelves"
 	quest.50F1C4521D282C60.quest_desc: ["The Bulwark are the heavy units of these militants. \\n\\nThey have 12 Hearts with 18 Armor Points! \\n\\nTheir weapon is the &b&lChemthrower&r with a &8&lHeavy Plated Shield&r in the Offhand. \\n\\nIf you somehow kill one you will get &aEmeralds&r and Masterwork Shader Bags!"]
 	quest.50F1C4521D282C60.title: "Bulwark"
 	quest.50F23B2688D7E699.quest_desc: [
@@ -3900,12 +4001,7 @@
 	quest.53470530DB70C21E.title: "Crude Repair Kit"
 	quest.534705C0FAFD5415.quest_desc: ["Head protection. Add linings for extra traits and comfort."]
 	quest.534705C0FAFD5415.title: "Helmet Blueprint"
-	quest.53470CC3EB9EEE11.quest_desc: [
-		"Tier 2 pillar caps. Replace Crimson Steel with Azure Electrum blocks."
-		""
-		"Minimum pillar tier = structure level. All 4 must match for upgrade."
-		"Enables Tier 2 catalysts (Azure Silver Dust)."
-	]
+	quest.53470CC3EB9EEE11.quest_desc: ["Tier 2 pillar caps. Better charger structure efficiency."]
 	quest.53470CC3EB9EEE11.title: "Azure Electrum Pillars"
 	quest.53470EE46A7F573E.quest_desc: ["Higher damage than sword with slower attack speed. Heavy hitter."]
 	quest.53470EE46A7F573E.title: "Katana Blueprint"
@@ -3964,46 +4060,26 @@
 	quest.534733267D8A1B68.quest_desc: ["Connects head to rod. Adds durability and traits."]
 	quest.534733267D8A1B68.title: "Binding Blueprint"
 	quest.5347359FB4CDAEB8.quest_desc: [
-		"Crimson Iron is smelted from Crimson Iron Ore found in the Nether."
+		"Bronze is crafted from copper and tin in the Crude Mixer."
 		""
 		"Your first alloy. Better than iron for many applications."
 	]
-	quest.5347359FB4CDAEB8.title: "Crimson Iron"
+	quest.5347359FB4CDAEB8.title: "Bronze Alloy"
 	quest.53473B4A216C01A3.quest_desc: ["Pinnacle Tier 4 alloy. Crafted only in the Alloy Forge."]
 	quest.53473B4A216C01A3.title: "Tyrian Steel"
-	quest.53473C367FD413A4.quest_desc: [
-		"ChemLib Mekanized adds periodic table elements as materials."
-		""
-		"Lithium and other alkali metals provide unique lightweight traits."
-		"Process elements through Mekanism machines for ingots."
-	]
+	quest.53473C367FD413A4.quest_desc: ["ChemLib elements offer specialized traits for advanced crafting."]
 	quest.53473C367FD413A4.title: "Chemical Elements"
-	quest.53473D50E2FB91EF.quest_desc: [
-		"Maximum tier pillar caps using Neutronium blocks."
-		""
-		"Neutronium is the ultimate material from Super Mixer."
-		"Enables Tier 6 catalysts (Neutronium Dust) - maximum charging power."
-	]
+	quest.53473D50E2FB91EF.quest_desc: ["Tier 6 pillar caps. 3.0x maximum charging efficiency."]
 	quest.53473D50E2FB91EF.title: "Neutronium Pillars"
 	quest.534740E07E62F08F.quest_desc: ["Lower body protection. Second highest armor value after chestplate."]
 	quest.534740E07E62F08F.title: "Leggings Blueprint"
-	quest.534744C80114F97A.quest_desc: [
-		"Tier 5 pillar caps using Cosmic Steel blocks."
-		""
-		"Cosmic Steel crafted in Super Mixer from Tyrian Steel + Calorite."
-		"Enables Tier 5 catalysts (Transcendent Alloy Dust)."
-	]
+	quest.534744C80114F97A.quest_desc: ["Tier 5 pillar caps. 2.5x starlight charging multiplier."]
 	quest.534744C80114F97A.title: "Cosmic Steel Pillars"
 	quest.534744DD0137B354.quest_desc: ["Epic Fight weapon. Japanese-style sword with quick combos."]
 	quest.534744DD0137B354.title: "Tachi Blueprint"
 	quest.5347465734E23D9A.quest_desc: ["Customizable fishing rod. Better materials improve durability and luck."]
 	quest.5347465734E23D9A.title: "Fishing Rod Blueprint"
-	quest.534749480183027A.quest_desc: [
-		"Tier 4 pillar caps using Calorite blocks from Ad Astra."
-		""
-		"Requires space exploration to Venus for Calorite ore."
-		"Enables Tier 4 catalysts (Cosmic Steel Dust)."
-	]
+	quest.534749480183027A.quest_desc: ["Tier 4 pillar caps. 2.0x starlight charging multiplier."]
 	quest.534749480183027A.title: "Calorite Pillars"
 	quest.53474B2D803889A7.quest_desc: ["Custom elytra repaired with materials instead of phantom membranes."]
 	quest.53474B2D803889A7.title: "Elytra Blueprint"
@@ -4071,34 +4147,18 @@
 		"Use catalysts to roll for grades. MAX grade is the goal."
 	]
 	quest.53475F138762AE25.title: "Material Grader"
-	quest.534764DC68994854.quest_desc: [
-		"Tier 2 charger catalyst (Azure Silver Dust)."
-		""
-		"Requires Tier 2+ pillar structure (Azure Electrum blocks minimum)."
-		"Higher energy cost but better charging results than Tier 1."
-	]
+	quest.534764DC68994854.quest_desc: ["Tier 2 charger catalyst. Improved charging efficiency."]
 	quest.534764DC68994854.title: "Azure Silver Dust"
 	quest.5347650B23BA23CF.quest_desc: [
-		"Early game alloy mixer built from stone and planks."
+		"Early game alloy mixer. Combines metals into basic alloys."
 		""
-		"Recipe: Stone blocks around planks center, flax string on top."
-		"Place up to 4 materials in input slots. Output appears automatically."
-		""
-		"Creates Crude Alloys like Crimson Iron combinations."
-		"10 second craft time. Toggle work on/off via GUI button."
+		"Required for Bronze and other Tier 1-2 alloys."
 	]
 	quest.5347650B23BA23CF.title: "Crude Mixer"
 	quest.534769AFFD17651E.quest_desc: [
-		"Multiblock structure that charges materials with starlight."
+		"Adds Star Charged property to materials under open night sky."
 		""
-		"Build: Polished Blackstone base, Glass center, Quartz corners,"
-		"Blaze Gold block foundation. Requires 4 PILLAR CAPS at corners."
-		""
-		"Pillars must be 3 blocks diagonal from charger, 2 blocks up."
-		"Pillar tier determines max catalyst tier (Crimson Steel=1, Tyrian=3)."
-		""
-		"Insert material + catalyst dust. Charges at night with sky view."
-		"Star Charged materials gain enhanced traits and stats."
+		"Build with charger in center, pillars at corners with metal caps."
 	]
 	quest.534769AFFD17651E.title: "Starlight Charger"
 	quest.53476DDDD1D30C7A.quest_desc: [
@@ -4195,12 +4255,7 @@
 	quest.5347857816B421B9.title: "Organic Materials"
 	quest.53478C91AC1A5AEA.quest_desc: ["Consistent damage regardless of draw time. Stays loaded until fired."]
 	quest.53478C91AC1A5AEA.title: "Crossbow Blueprint"
-	quest.5347939593E5098C.quest_desc: [
-		"Tier 1 charger catalyst (Blaze Gold Dust)."
-		""
-		"Place in catalyst slot with material to charge. Consumed per operation."
-		"Requires Tier 1+ pillar structure. Lower energy cost than higher tiers."
-	]
+	quest.5347939593E5098C.quest_desc: ["Tier 1 charger catalyst. Consumed when star charging materials."]
 	quest.5347939593E5098C.title: "Blaze Gold Dust"
 	quest.5347974853FF82C1.quest_desc: [
 		"You have completed the Silent Gear progression."
@@ -4219,12 +4274,7 @@
 	quest.5347997ED733AE2C.title: "Azure Silver"
 	quest.53479AD8370EC6D7.quest_desc: ["Blocks incoming damage. Durability depends on material choice."]
 	quest.53479AD8370EC6D7.title: "Shield Blueprint"
-	quest.53479CEA2CC6E56D.quest_desc: [
-		"Tier 1 pillar caps for Starlight Charger multiblock."
-		""
-		"Place 4 Crimson Steel blocks at corners, 3 blocks diagonal from charger."
-		"Pillars must be 2 blocks above charger level. Enables Tier 1 catalysts."
-	]
+	quest.53479CEA2CC6E56D.quest_desc: ["Tier 1 pillar caps. Place 4 blocks on corner pillars."]
 	quest.53479CEA2CC6E56D.title: "Crimson Steel Pillars"
 	quest.53479E39C777684C.quest_desc: ["Tier 3 charger catalyst. Maximum star charging efficiency."]
 	quest.53479E39C777684C.title: "Starmetal Dust"
@@ -4328,13 +4378,9 @@
 	]
 	quest.5347D5192902C908.title: "Advanced Alloys"
 	quest.5347D52FABFC6E57.quest_desc: [
-		"Endgame mixer for the most powerful alloy combinations."
+		"Creates super alloys from multiple materials."
 		""
-		"Recipe: Tyrian Steel blocks base, Beacon center, Dimerald on top."
-		"Same 4-slot input system as Crude Mixer."
-		""
-		"Creates Super Alloys: Cosmic Steel, Frost Steel, Plutonium Steel."
-		"Required for Neutronium and transcendent materials."
+		"Enables the most powerful custom material combinations."
 	]
 	quest.5347D52FABFC6E57.title: "Super Mixer"
 	quest.5347DBBB44FC64DB.quest_desc: [
@@ -4367,14 +4413,9 @@
 	quest.5347F3FCC4D0E258.quest_desc: ["Foot protection. Some materials provide movement bonuses."]
 	quest.5347F3FCC4D0E258.title: "Boots Blueprint"
 	quest.5347F84500720917.quest_desc: [
-		"Metal-only alloy station for ingot combinations."
+		"Advanced alloy station for high-tier metal combinations."
 		""
-		"Unlike mixers, only accepts METAL and DUST category materials."
-		"4-slot input creates standard alloy ingots."
-		""
-		"Key recipes: Azure Electrum (Azure Silver + Gold + Ender Pearl),"
-		"Crimson Steel (Crimson Iron + Blaze materials),"
-		"Tyrian Steel (Azure Silver + Crimson Steel + materials)."
+		"Required for Tyrian Steel and other endgame alloys."
 	]
 	quest.5347F84500720917.title: "Alloy Forge"
 	quest.5347FDCCE74427FE.quest_desc: [
@@ -4781,6 +4822,14 @@
 	quest.5B2CCD2B425620CE.title: "Enchantment Industry"
 	quest.5B36DE3826F26963.quest_desc: ["&dRotational Power&r is the most important and confusing part of &6&lCreate&r. \\n\\nAll Machines will need some sort of &dRotational Power&r to work, but what is it and how do we use it? \\n\\n&dRotational Power&r is simply our Machines moving. Blocks like Shafts and Cogs will move that &dRotational Power&r to our Machines. \\n\\nTalking about Shafts, that is our start to &dRotational Power&r. They can be placed in a straight line, next to each other. \\n\\nWhen one &8Shaft&r is moved, all &8Shafts&r connected to it (on the same axis) will move with it. \\n\\nCraft 2 &8Andesite Alloys&r to create 8 &8Shafts&r."]
 	quest.5B36DE3826F26963.title: "&d&lRotational Power"
+	quest.5B3CC3F66F2C3DE5.quest_desc: [
+		"Seashelves are your first source of Arcana. Each Seashelf provides 1.5 &aEterna&r (max 22.5) and 5% &5Arcana.&r "
+		""
+		"&5Arcana&r affects two things: it increases the number of enchantments you receive per operation, and it shifts the enchantment pool toward rarer enchantments like Looting and Silk Touch instead of common ones like Smite. "
+		""
+		"Craft 10 Seashelves to prepare for infusion."
+	]
+	quest.5B3CC3F66F2C3DE5.title: "Craft Seashelves"
 	quest.5B52389583A70E66.quest_subtitle: "Tier 5 Ore Seed"
 	quest.5B52389583A70E66.title: "Uraninite Seeds"
 	quest.5B556192F060F3F1.quest_desc: ["&5Refined Obsidian&r will be important for many &eItems &fand &5Machines&r within &5&lMekanism&r especially at &d&lUltimate Tier&r. \\nFirst, we'll need to &3Crush &5Obsidian&f to get &5Obsidian Dust&r. Obviously you need to use a &4&lCrusher&r for that. \\n\\nThen, we can use the &9&lMetallurgic Infuser&r to &9Infuse&f the &5Obsidian Dust&r with &bChemical Diamond&r. I'd recommend using &bEnriched Diamonds&r to get the most bang for your buck! \\n\\nNow we get a few choices of what to do with it, either &dEnrich&r it to get more &5Chemical Refined Obsidian&r or..."]
@@ -4831,6 +4880,18 @@
 	quest.5C3FF43CF16BCF30.title: "Sourcestone"
 	quest.5C5546A5103BCF55.quest_desc: ["This one is supposed to shoot Chemicals like &bFluids&r or Gases... but it won't do it for me. \\n\\nIt can hold 2 Upgrades atleast! Those work!"]
 	quest.5C5546A5103BCF55.title: "&b&lChemical Thrower"
+	quest.5C56452BE7879D0A.quest_desc: [
+		"Some infusions require precise stat values that are difficult to achieve with additive shelves alone. "
+		""
+		"Melonshelves reduce &aEterna&r by 2.5 per shelf. "
+		""
+		"Beeshelves reduce &4Quanta&r by 7.5% per shelf. "
+		""
+		"Stoneshelves reduce &5Arcana&r by 7.5% per shelf. "
+		""
+		"Use these to fine-tune your setup when an infusion requires lower values than your current shelves provide."
+	]
+	quest.5C56452BE7879D0A.title: "Stat Reduction Shelves"
 	quest.5C7D9BCDF19B86BD.quest_desc: ["Prevents things from exploding."]
 	quest.5C7D9BCDF19B86BD.quest_subtitle: "Secure!"
 	quest.5CC9CB0911954215.quest_desc: ["A Reed Nest will work in any overworld biome, and will lure in a Mason Bee or a Reed Bee."]
@@ -5015,6 +5076,18 @@
 	quest.5F8017F8DE749DF1.title: "Green Grove Sigil"
 	quest.5FA9BC0D8476D322.quest_desc: ["Automatically feeds you food from the backpack when hungry."]
 	quest.5FA9BC0D8476D322.title: "Feeding Upgrade"
+	quest.5FD4F40CEC37D9FD.quest_desc: [
+		"The Library of Alexandria (Ender Library) is the ultimate enchanted book storage. While the standard Library holds 32,768 points per enchantment, the Library of Alexandria holds over 1 billion. "
+		""
+		"Infuse a standard Library using 80 &aEterna&r with Soul-Touched Sculkshelves, Echoing Sculkshelves, and a Draconic Endshelf setup."
+	]
+	quest.5FD4F40CEC37D9FD.title: "Build Library of Alexandria"
+	quest.5FD95ABA63C56BD5.quest_desc: [
+		"Heart of the Sea is required for Heart-Forged Seashelves. Find it in buried treasure chests located using treasure maps from shipwrecks or ocean ruins. "
+		""
+		"Heart-Forged Seashelves provide high &5Arcana&r, making them valuable for infusions requiring significant &5Arcana&r percentages."
+	]
+	quest.5FD95ABA63C56BD5.title: "Obtain Heart of the Sea"
 	quest.5FE631066CAB7397.quest_desc: ["Used to trap and transport mobs easily."]
 	quest.5FE631066CAB7397.title: "Mob Imprisonment Tool"
 	quest.5FFB378EE44A660B.quest_desc: ["Requires Tier 3 altar and 5,000 LP. Unlocks rituals, ARC, and advanced sigils."]
@@ -5035,6 +5108,12 @@
 		"Great for obtaining fish and treasure."
 	]
 	quest.605A5AC65BC7E864.title: "Marine Fisher"
+	quest.606780E5B8CF83BE.quest_desc: [
+		"Echoing Sculkshelves provide 10 &aEterna&r (max 80), 10% &4Quanta&r, and 15% &5Arcana&r. Combined with Soul-Touched Sculkshelves, you can achieve very high stats across all three categories."
+		""
+		"Craft from an Echoing Deepshelf, Sculk materials, and a Warden Tendril."
+	]
+	quest.606780E5B8CF83BE.title: "Craft Echoing Sculkshelf"
 	quest.60719C4317D39E5A.quest_desc: ["Uses liquid meat and pink slime for power generation."]
 	quest.60719C4317D39E5A.title: "Mycelial Meatallurgic Generator"
 	quest.607D9B53C632DEDE.quest_desc: ["&bPipe Valves&r work at helping sort and stop &bFluid&r flow! \\n\\nWhen used with &bFluid Pipes&r, they will make it so the &bFluid&r only goes in direction with the arrows on the &bPipe Valve&r. \\n\\nYou can also send it a &4Redstone Signal&r to which it will completely stop &bFluid&r flow!"]
@@ -5097,6 +5176,12 @@
 	quest.61BA2932EC86DA2E.quest_subtitle: "Max: 1"
 	quest.61DA739D165F0154.quest_desc: ["Powers aircraft. Burns fuel for thrust. Core component of all flying machines."]
 	quest.61DA739D165F0154.title: "Engine"
+	quest.6244032FE2E5F1E1.quest_desc: [
+		"Draconic Endshelves provide access to the maximum 100 &aEterna&r cap. Each provides 20 &aEterna&r (max 100), 20% &4Quanta&r, and 20% &5Arcana&r. "
+		""
+		"Craft from an Endshelf, Ender Pearls, and a Dragon Head. Dragon Heads are found on End Ships in End Cities. Only one Draconic Endshelf is needed to unlock 100 &aEterna&r."
+	]
+	quest.6244032FE2E5F1E1.title: "Craft Draconic Endshelf"
 	quest.6263A27182B2CE3D.quest_desc: ["Some &5Machines&r are a little more advanced, so that means we'll need more &cAdvanced Items&r to Craft them! \\n\\nTalking about &c&lAdvanced&r, they take the same Materials as &c&lAdvanced Tier&r &5Machines&r."]
 	quest.6263A27182B2CE3D.title: "Better &5Machines"
 	quest.626C07DB8B8C5A04.quest_desc: [
@@ -5122,6 +5207,12 @@
 	]
 	quest.62B29AEF8468750E.quest_subtitle: "Pants"
 	quest.62B29AEF8468750E.title: "Geothermal Generator Unit"
+	quest.62B2C1A24AE245EA.quest_desc: [
+		"The Deepshelf marks the convergence point of the Hellshelf and Seashelf paths. Place a Dormant Deepshelf on the table and achieve 60 &aEterna&r, 60% &4Quanta&r, and 60% &5Arcana&r using either 12 Glowing Hellshelves or 12 Crystal Seashelves. "
+		""
+		"Deepshelves provide 5 &aEterna&r (max 60), 10% &4Quanta&r, and 10% &5Arcana&r. From here, both paths continue into Sculk-tier progression."
+	]
+	quest.62B2C1A24AE245EA.title: "Infuse Deepshelf"
 	quest.62CE0FFAF6352287.quest_desc: [
 		"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
 		""
@@ -5586,6 +5677,12 @@
 		"Faster charging means quicker crafting cycles for orbs, slates, and sigils."
 	]
 	quest.6C57FF70679AF123.title: "Charging Rune"
+	quest.6C76AB8A6110C0C7.quest_desc: [
+		"Blazing Hellshelves provide 5 &aEterna&r (max 60), 10% &4Quanta&r, and 5% &5Arcana&r. They offer a balanced stat spread useful for infusions requiring moderate amounts of all three stats. "
+		""
+		"Craft from Infused Hellshelves with Blaze Powder and Magma Cream."
+	]
+	quest.6C76AB8A6110C0C7.title: "Craft Blazing Hellshelf"
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
 	quest.6CA01DCE1F4A0EC3.title: "Crude Oil"
@@ -5935,6 +6032,12 @@
 	]
 	quest.74FC0DDDB91DB172.quest_subtitle: "OI, OI, OI!"
 	quest.74FC0DDDB91DB172.title: "The IO"
+	quest.751189465F91B353.quest_desc: [
+		"Crystal Seashelves provide 2.5 &aEterna&r (max 40), 5% &4Quanta&r, and 10% &5Arcana&r. They are the advanced Seashelf path endpoint before Deepshelf convergence. "
+		""
+		"Craft from Infused Seashelves with Prismarine Crystals. 12 Crystal Seashelves provide enough stats (30 &aEterna&r, 60% &4Quanta&r, 120% &5Arcana&r) to infuse Dormant Deepshelves. Also craft 2 Heart-Forged Seashelves."
+	]
+	quest.751189465F91B353.title: "Craft Crystal Seashelves"
 	quest.753B3EF7CC94A6DD.quest_desc: [
 		"This is a unique drop from &aPlayers&r, including when you die!"
 		""
@@ -6168,6 +6271,12 @@
 	quest.7A41038180C06B00.title: "&cConnectors"
 	quest.7A89560F303A8BE6.quest_subtitle: "Tier: &63"
 	quest.7A89560F303A8BE6.title: "Iron Seeds"
+	quest.7A8B9C0D1E2F3A4B.quest_desc: [
+		"Dormant Deepshelves are the bridge between the Hellshelf and Seashelf progression paths. Craft from Cracked Deepslate Bricks and Books. "
+		""
+		"The Dormant Deepshelf provides 2 &aEterna&r (max 30) and no other stats. Its purpose is to be infused into a full Deepshelf using 60 &aEterna&r, 60% &4Quanta&r, and 60% &5Arcana&r. Deepshelves and beyond provide much higher Eterna caps than earlier shelves."
+	]
+	quest.7A8B9C0D1E2F3A4B.title: "Craft Dormant Deepshelf"
 	quest.7A93F07BE2E6EC97.quest_desc: [
 		"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
 		""
@@ -6421,6 +6530,12 @@
 	quest.7EFBFF5D0DA018E7.quest_desc: ["Auto-deletes specified items. Useful for clearing junk while mining."]
 	quest.7EFBFF5D0DA018E7.quest_subtitle: "Adds a filter for items you want to auto-delete in the backpack."
 	quest.7EFBFF5D0DA018E7.title: "Void Upgrade"
+	quest.7F042DED357DEF3C.quest_desc: [
+		"Vanilla bookshelves provide &aEterna&r up to a maximum of 15 shelves for 30 &aEterna.&r Apotheosis specialized shelves break this limit and add &4Quanta&r and &5Arcana.&r "
+		""
+		"Place shelves within 2 blocks horizontally and 0-1 blocks vertically from the enchanting table. Hover over the table to see your current stat totals."
+	]
+	quest.7F042DED357DEF3C.title: "Place Bookshelves"
 	quest.7F09F8F98C13F11B.quest_desc: [
 		"&bSacrificial Bowls&f hold the items required for rituals."
 		""
@@ -6502,6 +6617,7 @@
 	task.0CD67A3D64E9B49B.title: "Decor Wires"
 	task.0CDFF60D581118E3.title: "Neon Cuckoo Bee"
 	task.0D7C60D7BFBD8CF0.title: "AllRightsReserved"
+	task.0EE3A88719BB0221.title: "I understand Infusion"
 	task.0EF1CA8DED2FF38C.title: "Advanced Beehives"
 	task.0F2BCC279B5731AB.title: "Amethyst Comb"
 	task.102AEEB23B1AA7EF.title: "Weak Tau"
@@ -6641,7 +6757,7 @@
 	task.5347C8FAFEF344FF.title: "Obtain Diamond"
 	task.5347CAF514EDE0AE.title: "Craft Custom Ingot"
 	task.5347D2F3BEC0279C.title: "Gather Oak Planks"
-	task.5347E44A3A745493.title: "Obtain Lithium Ingot"
+	task.5347E44A3A745493.title: "I have used ChemLib materials"
 	task.5347E517CBA5AE55.title: "Obtain Spell Scroll"
 	task.5347E57C0329D382.title: "Craft Pickaxe Head"
 	task.5347F5A7C653F418.title: "Craft Super Mixer"
@@ -6720,108 +6836,4 @@
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
-
-	// Apotheosis (Apothic Enchanting) Chapter
-	chapter.282448C70744895F.title: "Apotheosis"
-
-	// Root Quests
-	quest.0EB5B926E1FBAF0E.title: "Enchanting Table"
-	quest.0EB5B926E1FBAF0E.quest_desc: "Apotheosis expands enchanting beyond vanilla limits. Specialized bookshelves modify Eterna, Quanta, and Arcana stats to control enchantment power and variety."
-
-	quest.314E41B84C8DD464.title: "Enchantment Library"
-	quest.314E41B84C8DD464.quest_desc: "Stores enchanted books by type. Shift-click to deposit, then extract at any level needed."
-
-	quest.7F042DED357DEF3C.title: "Bookshelves"
-	quest.7F042DED357DEF3C.quest_desc: "Vanilla bookshelves provide Eterna up to 30. Specialized shelves grant higher stats and unlock infusion recipes."
-
-	// Stats - taught before infusion
-	quest.353C7440B32F0A5E.title: "Eterna"
-	quest.353C7440B32F0A5E.quest_desc: "Eterna determines enchantment level. Higher values unlock stronger enchantments, with a maximum of 100."
-
-	quest.7234CB42AEF6C941.title: "Quanta"
-	quest.7234CB42AEF6C941.quest_desc: "Quanta adds randomness to enchanting. High Quanta increases enchantment variety but also curse chance."
-
-	quest.4F4B2A6997F25A5A.title: "Arcana"
-	quest.4F4B2A6997F25A5A.quest_desc: "Arcana increases enchantment count and makes rare enchantments more common. Maximum is 100%."
-
-	// Infusion Quest - depends on all three stats
-	quest.1D06097B6206BA60.title: "Infusion Basics"
-	quest.1D06097B6206BA60.quest_desc: "Infusion creates items when exact stat thresholds are met. Many advanced shelves require infusion rather than crafting."
-	task.0EE3A88719BB0221.title: "Understood"
-
-	// Hellshelf line
-	quest.50EEDDDE129D2742.title: "Hellshelves"
-	quest.50EEDDDE129D2742.quest_desc: "Hellshelves provide 3% Quanta and 3 Eterna each. Collect 16 total for infusion - 15 placed and 1 to infuse."
-
-	quest.218803812A9C332B.title: "Infused Hellshelf"
-	quest.218803812A9C332B.quest_desc: "Infused Hellshelves provide 5 Eterna (max 60) and 5% Quanta. Upgrade with Glowstone for Arcana."
-
-	quest.6C76AB8A6110C0C7.title: "Blazing Hellshelf"
-	quest.6C76AB8A6110C0C7.quest_desc: "Blazing Hellshelves provide a balanced mix of Quanta and Eterna for moderate setups."
-
-	quest.0F77A9AD1F422537.title: "Glowing Hellshelf"
-	quest.0F77A9AD1F422537.quest_desc: "Glowing Hellshelves add 3% Arcana while maintaining Eterna and Quanta. Use 12 to infuse Dormant Deepshelves."
-
-	quest.12F4980CB3BFCE0D.title: "Sightshelves"
-	quest.12F4980CB3BFCE0D.quest_desc: "Sightshelves reveal enchantments before you commit. Each shelf shows one additional enchantment clue."
-
-	// Seashelf line
-	quest.5B3CC3F66F2C3DE5.title: "Seashelves"
-	quest.5B3CC3F66F2C3DE5.quest_desc: "Seashelves provide 3% Arcana and 3 Eterna each. Collect 16 total for infusion."
-
-	quest.076DFB0B39A4259F.title: "Infused Seashelf"
-	quest.076DFB0B39A4259F.quest_desc: "Infused Seashelves provide 5 Eterna (max 60) and 5% Arcana. Upgrade with Prismarine Crystals."
-
-	quest.751189465F91B353.title: "Crystalline Seashelf"
-	quest.751189465F91B353.quest_desc: "Crystalline Seashelves add 3% Quanta while maintaining Eterna and Arcana. Use 12 to infuse Dormant Deepshelves."
-
-	quest.5FD95ABA63C56BD5.title: "Heart Seashelf"
-	quest.5FD95ABA63C56BD5.quest_desc: "Heart-Forged Seashelves require a Heart of the Sea. They provide high Arcana for advanced infusions."
-
-	// Deepshelf line
-	quest.62B2C1A24AE245EA.title: "Deepshelf"
-	quest.62B2C1A24AE245EA.quest_desc: "Deepshelves combine Hellshelf and Seashelf progression. Craft Dormant Deepshelves, then infuse with 60 Eterna, 40% Quanta, and 40% Arcana."
-
-	quest.0C596CB7C7C24615.title: "Soul-Touched Deepshelf"
-	quest.0C596CB7C7C24615.quest_desc: "Crafted from Deepshelf, Soul Lantern, and Sculk Blocks. Provides 15% Quanta and raises max Eterna to 75."
-
-	quest.405369118613F935.title: "Echoing Deepshelf"
-	quest.405369118613F935.quest_desc: "Requires Echo Shards from Ancient Cities. Provides 15% Arcana and raises max Eterna to 75."
-
-	// Sculkshelf line
-	quest.10C527C66EE4E95A.title: "Soul Sculkshelf"
-	quest.10C527C66EE4E95A.quest_desc: "Upgrade Soul-Touched Deepshelves with Sculk materials and a Warden Tendril. Provides 10 Eterna, 15% Quanta, 10% Arcana, with max 80."
-
-	quest.606780E5B8CF83BE.title: "Echoing Sculkshelf"
-	quest.606780E5B8CF83BE.quest_desc: "Upgrade Echoing Deepshelves with Sculk materials and a Warden Tendril. Provides 10 Eterna, 10% Quanta, 15% Arcana, with max 80."
-
-	// Endshelf line
-	quest.21EE522DDBF0BF72.title: "Endshelf"
-	quest.21EE522DDBF0BF72.quest_desc: "Endshelves require Infused Dragon's Breath (80 Eterna to infuse). They have max Eterna of 90."
-
-	quest.4A59DF02128DA9F3.title: "Pearl Endshelf"
-	quest.4A59DF02128DA9F3.quest_desc: "Crafted from Endshelf with End Rods and Ender Pearls. Maintains max Eterna of 90."
-
-	quest.6244032FE2E5F1E1.title: "Draconic Endshelf"
-	quest.6244032FE2E5F1E1.quest_desc: "Crafted from Endshelf with Ender Pearls and a Dragon Head. Has the maximum Eterna cap of 100."
-
-	quest.4C446F22771E2B53.title: "Optimal Setup"
-	quest.4C446F22771E2B53.quest_desc: "The best setup uses 5 Soul Sculkshelves, 5 Echoing Sculkshelves, 1 Draconic Endshelf, and 1 Treasure Shelf."
-
-	// Utility shelves
-	quest.5C56452BE7879D0A.title: "Reduction Shelves"
-	quest.5C56452BE7879D0A.quest_desc: "Melonshelf reduces Eterna, Beeshelf reduces Quanta, Stoneshelf reduces Arcana. Use for precise infusion requirements."
-
-	// Other items
-	quest.44D1B410550B6C28.title: "Other Infusions"
-	quest.44D1B410550B6C28.quest_desc: "Many items beyond bookshelves can be created through infusion. Check the Apoth Chronicle for recipes."
-
-	quest.12282CBB658F1132.title: "Potion Charms"
-	quest.12282CBB658F1132.quest_desc: "Potion Charms provide permanent effects in the Curios charm slot. High-stat infusion can make them unbreakable."
-
-	quest.5FD4F40CEC37D9FD.title: "Library of Alexandria"
-	quest.5FD4F40CEC37D9FD.quest_desc: "The ultimate enchantment storage. Holds over 1 billion points per enchantment type, compared to 32,768 for the regular library."
-
-	quest.24526FFBA093805A.title: "Inert Trident"
-	quest.24526FFBA093805A.quest_desc: "Craft an Inert Trident and infuse with 40 Eterna, 20-50% Quanta, and 35%+ Arcana to create a functional trident."
 }
