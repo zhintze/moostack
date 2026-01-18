@@ -31,10 +31,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["158BB749BCB514B2"]
 			icon: {
 				id: "silentgear:fishing_rod_blueprint"
 			}
-			dependencies: ["158BB749BCB514B2"]
 			id: "2C46829AF8DAD837"
 			rewards: [
 				{
@@ -62,10 +62,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:tackle_box"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "59F2EAF2D6AE2813"
 			rewards: [{
 				id: "1912E89F587E6701"
@@ -82,10 +82,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["59F2EAF2D6AE2813"]
 			icon: {
 				id: "aquaculture:iron_hook"
 			}
-			dependencies: ["59F2EAF2D6AE2813"]
 			id: "511FCADED84B28A0"
 			rewards: [
 				{
@@ -110,10 +110,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["59F2EAF2D6AE2813"]
 			icon: {
 				id: "aquaculture:fishing_line"
 			}
-			dependencies: ["59F2EAF2D6AE2813"]
 			id: "790D169C15772FAD"
 			rewards: [{
 				id: "0A5B5612D192B8AB"
@@ -129,10 +129,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:iron_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "61C39D6638D64D39"
 			rewards: [{
 				id: "79F60DFC150EFE76"
@@ -149,10 +149,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:gold_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "7E4137B4D83DEB3C"
 			rewards: [{
 				id: "284BDD512759852F"
@@ -169,10 +169,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:diamond_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "6601A169CB71BB8A"
 			rewards: [{
 				id: "39ACE39E33A6A3C7"
@@ -189,10 +189,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:light_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "373A9B66703F21CE"
 			rewards: [{
 				id: "079BD2C1FA08FEC6"
@@ -209,10 +209,10 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:heavy_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "40C92D2CC221B090"
 			rewards: [{
 				id: "3416DBAB02E1AC9E"
@@ -229,10 +229,10 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:double_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "127D3C730D1A3278"
 			rewards: [{
 				id: "7B7CE7135B5BF44E"
@@ -249,10 +249,10 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:redstone_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "0B28C7A1C4076F55"
 			rewards: [{
 				id: "4CA080C337A68B28"
@@ -269,10 +269,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:note_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "1067C6AFFE7F4122"
 			rewards: [{
 				id: "090B86A0FAA9D2FD"
@@ -289,10 +289,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["511FCADED84B28A0"]
 			icon: {
 				id: "aquaculture:nether_star_hook"
 			}
-			dependencies: ["511FCADED84B28A0"]
 			id: "3C140857B3DC5226"
 			rewards: [{
 				id: "38D3BC5738D0C2E9"
@@ -310,10 +310,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:worm_farm"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "4F7547FCD77F55DA"
 			rewards: [{
 				id: "6E715C76B12BBED6"
@@ -329,10 +329,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4F7547FCD77F55DA"]
 			icon: {
 				id: "aquaculture:worm"
 			}
-			dependencies: ["4F7547FCD77F55DA"]
 			id: "43EF1FFC08F16D1D"
 			rewards: [{
 				id: "14F9ACBBA4BB2478"
@@ -349,10 +349,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:minnow"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "69EF3F4E51C1D8E6"
 			rewards: [{
 				id: "5B0E959BD8A9B13A"
@@ -368,10 +368,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:leech"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "24A7046B10938D80"
 			rewards: [{
 				id: "5D933986AF58EFE5"
@@ -387,10 +387,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "silentgear:knife"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "048D75ABEC30AD1D"
 			rewards: [{
 				id: "5773C7EE0F0340C6"
@@ -406,10 +406,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["048D75ABEC30AD1D"]
 			icon: {
 				id: "farmersdelight:cutting_board"
 			}
-			dependencies: ["048D75ABEC30AD1D"]
 			id: "64E204F9261DF6B0"
 			rewards: [{
 				id: "60DB0C2579DE6AFA"
@@ -425,10 +425,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["64E204F9261DF6B0"]
 			icon: {
 				id: "aquaculture:fish_fillet_raw"
 			}
-			dependencies: ["64E204F9261DF6B0"]
 			id: "7F0DDF1E9CEF32EF"
 			rewards: [{
 				id: "7BF026FF6CEDA2B5"
@@ -445,10 +445,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:driftwood"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "7E842FFA18E56400"
 			rewards: [{
 				id: "3C0A03FCD5E1880C"
@@ -463,10 +463,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7E842FFA18E56400"]
 			icon: {
 				id: "aquaculture:box"
 			}
-			dependencies: ["7E842FFA18E56400"]
 			id: "1D8F93E059360C11"
 			rewards: [{
 				id: "4F734E8B35A992C1"
@@ -482,10 +482,10 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["1D8F93E059360C11"]
 			icon: {
 				id: "aquaculture:lockbox"
 			}
-			dependencies: ["1D8F93E059360C11"]
 			id: "55D95800839B5164"
 			rewards: [{
 				id: "5D447D0178F2D07C"
@@ -501,10 +501,10 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["55D95800839B5164"]
 			icon: {
 				id: "aquaculture:treasure_chest"
 			}
-			dependencies: ["55D95800839B5164"]
 			id: "4450705815FB9DD7"
 			rewards: [{
 				id: "5055BA26AF5BADF7"
@@ -521,10 +521,10 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["4450705815FB9DD7"]
 			icon: {
 				id: "aquaculture:neptunes_bounty"
 			}
-			dependencies: ["4450705815FB9DD7"]
 			id: "422D7945AA0DFB0C"
 			rewards: [{
 				id: "64B439F12603E5FB"
@@ -542,10 +542,10 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["422D7945AA0DFB0C"]
 			icon: {
 				id: "aquaculture:neptunium_ingot"
 			}
-			dependencies: ["422D7945AA0DFB0C"]
 			id: "58D085452013268B"
 			rewards: [{
 				id: "04E0603635FE56B2"
@@ -562,10 +562,10 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["58D085452013268B"]
 			icon: {
 				id: "aquaculture:neptunium_chestplate"
 			}
-			dependencies: ["58D085452013268B"]
 			id: "5CF633A236A57213"
 			rewards: [{
 				id: "7272FE2F9EC1E3FF"
@@ -581,10 +581,10 @@
 			y: -11.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			icon: {
 				id: "aquaculture:oak_fish_mount"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "77A0B2774F9DD91C"
 			rewards: [{
 				id: "23B9909662D9AE27"
@@ -600,10 +600,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["77A0B2774F9DD91C"]
 			icon: {
 				id: "aquaculture:atlantic_cod"
 			}
-			dependencies: ["77A0B2774F9DD91C"]
 			id: "36851FA3BF1C0415"
 			rewards: [{
 				id: "1C6FB26DE6E75624"
@@ -618,11 +618,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:atlantic_cod"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "0C67472338BFDFC4"
 			optional: true
 			rewards: [{
@@ -641,11 +641,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:blackfish"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "5BF68675F30916FE"
 			optional: true
 			rewards: [{
@@ -664,11 +664,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:pacific_halibut"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "3C169B4C4A56E499"
 			optional: true
 			rewards: [{
@@ -687,11 +687,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:atlantic_halibut"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "07CE305C8C7AAAF5"
 			optional: true
 			rewards: [{
@@ -710,11 +710,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:atlantic_herring"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "53D0F53DC7F37498"
 			optional: true
 			rewards: [{
@@ -733,11 +733,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:pink_salmon"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "71D9B3676793DCF1"
 			optional: true
 			rewards: [{
@@ -756,11 +756,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:pollock"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "10D3C4FE4B7E0B8D"
 			optional: true
 			rewards: [{
@@ -779,11 +779,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:rainbow_trout"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "77FA873D6B95D4E6"
 			optional: true
 			rewards: [{
@@ -802,11 +802,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:brown_trout"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "6E279FB94F751D21"
 			optional: true
 			rewards: [{
@@ -825,11 +825,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:smallmouth_bass"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "2DFF263856BCCE63"
 			optional: true
 			rewards: [{
@@ -848,11 +848,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:bluegill"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "05F7EC02C4E70FFA"
 			optional: true
 			rewards: [{
@@ -871,11 +871,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:perch"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "3B4A56EB5620E15A"
 			optional: true
 			rewards: [{
@@ -894,11 +894,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:carp"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "03C5A1247B283E1C"
 			optional: true
 			rewards: [{
@@ -917,11 +917,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:catfish"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "3E26E20B8AE80FF9"
 			optional: true
 			rewards: [{
@@ -940,11 +940,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:bayad"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "6F389530542BBD83"
 			optional: true
 			rewards: [{
@@ -963,11 +963,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:gar"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "74D15068B4388FB5"
 			optional: true
 			rewards: [{
@@ -986,11 +986,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:muskellunge"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "43DCD30F9B576606"
 			optional: true
 			rewards: [{
@@ -1009,11 +1009,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:arapaima"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "0C39FFDCC46BBD04"
 			optional: true
 			rewards: [{
@@ -1032,11 +1032,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:boulti"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "690A7182899481CC"
 			optional: true
 			rewards: [{
@@ -1055,11 +1055,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:synodontis"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "6C7B879451D57C68"
 			optional: true
 			rewards: [{
@@ -1078,11 +1078,11 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:capitaine"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "73A2DA7A9947FC07"
 			optional: true
 			rewards: [{
@@ -1101,11 +1101,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:piranha"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "44451D04A277F3FE"
 			optional: true
 			rewards: [{
@@ -1124,11 +1124,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:tambaqui"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "6A507BACD41D8D82"
 			optional: true
 			rewards: [{
@@ -1147,11 +1147,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:red_grouper"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "28596E8C65D79482"
 			optional: true
 			rewards: [{
@@ -1170,11 +1170,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:tuna"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "6F1CFF4144A36142"
 			optional: true
 			rewards: [{
@@ -1193,11 +1193,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:jellyfish"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "5CCEB9B966C41311"
 			optional: true
 			rewards: [{
@@ -1216,11 +1216,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:brown_shrooma"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "278FCF1F9278B879"
 			optional: true
 			rewards: [{
@@ -1239,11 +1239,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:red_shrooma"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "5128AE9A9F608850"
 			optional: true
 			rewards: [{
@@ -1262,11 +1262,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:goldfish"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "0A896438F293895B"
 			optional: true
 			rewards: [{
@@ -1285,11 +1285,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:box_turtle"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "3A8C7877655CDB70"
 			optional: true
 			rewards: [{
@@ -1308,11 +1308,11 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:arrau_turtle"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "70BAC0DA07CF4374"
 			optional: true
 			rewards: [{
@@ -1331,11 +1331,11 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["2C46829AF8DAD837"]
 			hide_dependency_lines: true
 			icon: {
 				id: "aquaculture:starshell_turtle"
 			}
-			dependencies: ["2C46829AF8DAD837"]
 			id: "58245132D32285F2"
 			optional: true
 			rewards: [{
@@ -1352,6 +1352,450 @@
 			}]
 			x: -4.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["2C46829AF8DAD837"]
+			icon: {
+				id: "netherdepthsupgrade:lava_fishing_rod"
+			}
+			id: "700BC974B4FA1EDA"
+			rewards: [{
+				id: "52CCF27EC9DC23C5"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "08F35DE55824ADFC"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["700BC974B4FA1EDA"]
+			icon: {
+				id: "netherdepthsupgrade:searing_cod"
+			}
+			id: "075A24CBAE5438F9"
+			rewards: [{
+				id: "55F757AEC1C44706"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5CA4FB579ABBDCEE"
+				item: { count: 1, id: "netherdepthsupgrade:searing_cod" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			icon: {
+				id: "netherdepthsupgrade:soulsucker"
+			}
+			id: "12DAE16CE73E630F"
+			rewards: [{
+				id: "01CB4166D405AF01"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5F58923E8197B013"
+				item: { count: 1, id: "netherdepthsupgrade:soulsucker" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12DAE16CE73E630F"]
+			icon: {
+				id: "netherdepthsupgrade:soul_sucker_leather"
+			}
+			id: "57986A8848660BE4"
+			rewards: [{
+				id: "7F33F28A53FA8619"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2486E491189C7F3E"
+				item: { count: 1, id: "netherdepthsupgrade:soul_sucker_leather" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57986A8848660BE4"]
+			icon: {
+				id: "netherdepthsupgrade:soul_sucker_boots"
+			}
+			id: "53129F8F52DC7541"
+			rewards: [{
+				id: "606F3431A0FB5B88"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "35A3816363A55080"
+				item: { count: 1, id: "netherdepthsupgrade:soul_sucker_boots" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			icon: {
+				id: "netherdepthsupgrade:lava_pufferfish"
+			}
+			id: "6A8013C276C08337"
+			rewards: [{
+				id: "0930E4BE2080011B"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5D95A85E40888510"
+				item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A8013C276C08337"]
+			icon: {
+				id: "minecraft:potion"
+			}
+			id: "70B585F71CA7DD45"
+			rewards: [{
+				id: "7AA7DADA7418E31B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EFC1B62C82A505C"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "71DAE8CEDC3A6DF4"
+			rewards: [{
+				id: "49B57DD4ECA264F3"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F4DAF9338441D23"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			icon: {
+				id: "netherdepthsupgrade:blazefish"
+			}
+			id: "2C617797C476DADA"
+			rewards: [{
+				id: "3D717C7BCDAB2DB1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42B5BE6E6548D8CA"
+				item: { count: 1, id: "netherdepthsupgrade:blazefish" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C617797C476DADA"]
+			icon: {
+				id: "netherdepthsupgrade:lava_sponge"
+			}
+			id: "4EB555D995329F96"
+			rewards: [{
+				id: "55F03E7138817988"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4F35EB1ADD8CA548"
+				item: { count: 1, id: "netherdepthsupgrade:lava_sponge" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:soulsucker"
+			}
+			id: "53D42EEF89628855"
+			optional: true
+			rewards: [{
+				id: "2DBE09EC1D1CFB0E"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "2853A2D104F90585"
+				item: { count: 1, id: "netherdepthsupgrade:soulsucker" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:wither_bonefish"
+			}
+			id: "2C32959B43FDEC7E"
+			optional: true
+			rewards: [{
+				id: "2E40DC1CC7F67072"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "6F627AB7063ACC68"
+				item: { count: 1, id: "netherdepthsupgrade:wither_bonefish" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:bonefish"
+			}
+			id: "4D4D4871C11487D6"
+			optional: true
+			rewards: [{
+				id: "5E4C10B4F5C18631"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "6F4D98671A8F2C61"
+				item: { count: 1, id: "netherdepthsupgrade:bonefish" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:searing_cod"
+			}
+			id: "3A5A1E2EBCA7A76C"
+			optional: true
+			rewards: [{
+				id: "4DADB6D01B451801"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "55C9D76D85465D55"
+				item: { count: 1, id: "netherdepthsupgrade:searing_cod" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:glowdine"
+			}
+			id: "6CA3A66921216063"
+			optional: true
+			rewards: [{
+				id: "0580B540D73C7412"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "064B43BBDB8FC301"
+				item: { count: 1, id: "netherdepthsupgrade:glowdine" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:lava_pufferfish"
+			}
+			id: "1E420EE26133EDBD"
+			optional: true
+			rewards: [{
+				id: "3E1E6DD181037AFC"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "50D7928F93B8FA65"
+				item: { count: 1, id: "netherdepthsupgrade:lava_pufferfish" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:obsidianfish"
+			}
+			id: "6C6C3E70AF1631E8"
+			optional: true
+			rewards: [{
+				id: "720904FEC2CF4E1C"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "7E688869BD248984"
+				item: { count: 1, id: "netherdepthsupgrade:obsidianfish" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:magmacubefish"
+			}
+			id: "1798958465646965"
+			optional: true
+			rewards: [{
+				id: "69F92C40FF95460B"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "3973B1D855BEBF78"
+				item: { count: 1, id: "netherdepthsupgrade:magmacubefish" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:blazefish"
+			}
+			id: "7A9F9F6FC00E7434"
+			optional: true
+			rewards: [{
+				id: "700E114B34F94C0C"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "2994937F563D34F9"
+				item: { count: 1, id: "netherdepthsupgrade:blazefish" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:fortress_grouper"
+			}
+			id: "783C4CE2B0173669"
+			optional: true
+			rewards: [{
+				id: "1723D5EA8C932AFB"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "6EE02DACAF991FEF"
+				item: { count: 1, id: "netherdepthsupgrade:fortress_grouper" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["075A24CBAE5438F9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "netherdepthsupgrade:eyeball_fish"
+			}
+			id: "5F609A07E5268106"
+			optional: true
+			rewards: [{
+				id: "0500CD3B703A119F"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "658BA36EE7773B77"
+				item: { count: 1, id: "netherdepthsupgrade:eyeball_fish" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
 		}
 	]
 }

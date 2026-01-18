@@ -6864,6 +6864,99 @@
 	quest.58245132D32285F2.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
 	quest.58245132D32285F2.quest_subtitle: "Turtle"
 	quest.58245132D32285F2.title: "Starshell Turtle Collection"
+	quest.700BC974B4FA1EDA.quest_desc: [
+		"The Nether's lava seas hold unique creatures that can be caught with a standard fishing rod. Simply cast your line into lava instead of water."
+		""
+		"Nether fish spawn in specific biomes, so explore different areas to find all species. Some fish provide valuable materials and brewing ingredients."
+	]
+	quest.700BC974B4FA1EDA.title: "Fishing in Fire"
+	quest.075A24CBAE5438F9.quest_desc: [
+		"Cast your fishing rod into any lava pool in the Nether and catch your first lava-dwelling fish."
+		""
+		"Different biomes contain different species. The Nether Wastes, Soul Sand Valley, Crimson Forest, Warped Forest, and Basalt Deltas each have unique fish."
+	]
+	quest.075A24CBAE5438F9.title: "Your First Lava Catch"
+	quest.12DAE16CE73E630F.quest_desc: [
+		"Soul Suckers are ghostly fish found in the Soul Sand Valley biome. They have a unique property: you can shear them for Soul Sucker Leather."
+		""
+		"This leather is used to craft special boots that improve movement on soul sand and soul soil."
+	]
+	quest.12DAE16CE73E630F.title: "Soul Sucker"
+	quest.57986A8848660BE4.quest_desc: [
+		"Use shears on a Soul Sucker to harvest Soul Sucker Leather. The fish survives the process and can be sheared again."
+		""
+		"You can keep Soul Suckers in buckets for a renewable leather source."
+	]
+	quest.57986A8848660BE4.title: "Soul Sucker Leather"
+	quest.53129F8F52DC7541.quest_desc: [
+		"Craft Soul Sucker Boots using 4 Soul Sucker Leather and 2 String in the standard boot pattern."
+		""
+		"These boots significantly increase your movement speed on Soul Sand and Soul Soil, making Soul Sand Valley traversal much easier."
+	]
+	quest.53129F8F52DC7541.title: "Soul Sucker Boots"
+	quest.6A8013C276C08337.quest_desc: [
+		"Lava Pufferfish are found in the Warped Forest biome's lava pools. Like their overworld cousins, they're useful for brewing."
+		""
+		"This fish is the key ingredient for Potion of Lava Vision, essential for underlava exploration."
+	]
+	quest.6A8013C276C08337.title: "Lava Pufferfish"
+	quest.70B585F71CA7DD45.quest_desc: [
+		"Brew a Potion of Lava Vision using a Lava Pufferfish. This potion removes the orange fog when submerged in lava, allowing clear vision."
+		""
+		"Combined with fire resistance, this makes exploring lava lakes for fish and structures much safer."
+	]
+	quest.70B585F71CA7DD45.title: "Potion of Lava Vision"
+	quest.71DAE8CEDC3A6DF4.quest_desc: [
+		"The Hell Strider enchantment can be applied to boots and has two levels. It increases your movement speed while walking through lava."
+		""
+		"Find this enchantment in Nether fortress loot, bastions, or through enchanting. Combined with fire resistance, you can wade through lava efficiently."
+	]
+	quest.71DAE8CEDC3A6DF4.title: "Hell Strider"
+	quest.2C617797C476DADA.quest_desc: [
+		"Blazefish spawn exclusively in Fortress Pieces - small structures found submerged in lava near Nether Fortresses."
+		""
+		"Look for partially submerged nether brick structures in lava lakes. Cast your line nearby to catch these fiery fish."
+	]
+	quest.2C617797C476DADA.title: "Blazefish Hunter"
+	quest.4EB555D995329F96.quest_desc: [
+		"Lava Sponges are found in small structures in the Nether. They function like regular sponges but absorb lava instead of water."
+		""
+		"Place a wet lava sponge in the overworld or use water to dry it out for reuse. Essential for draining lava pools."
+	]
+	quest.4EB555D995329F96.title: "Lava Sponge"
+	quest.53D42EEF89628855.quest_desc: ["Catch 3 Soul Suckers. Found in the Soul Sand Valley biome."]
+	quest.53D42EEF89628855.quest_subtitle: "Soul Sand Valley"
+	quest.53D42EEF89628855.title: "Soul Sucker Collection"
+	quest.2C32959B43FDEC7E.quest_desc: ["Catch 3 Wither Bonefish. Found in the Soul Sand Valley biome."]
+	quest.2C32959B43FDEC7E.quest_subtitle: "Soul Sand Valley"
+	quest.2C32959B43FDEC7E.title: "Wither Bonefish Collection"
+	quest.4D4D4871C11487D6.quest_desc: ["Catch 3 Bonefish. Found in the Nether Wastes biome."]
+	quest.4D4D4871C11487D6.quest_subtitle: "Nether Wastes"
+	quest.4D4D4871C11487D6.title: "Bonefish Collection"
+	quest.3A5A1E2EBCA7A76C.quest_desc: ["Catch 3 Searing Cod. Found in the Nether Wastes biome."]
+	quest.3A5A1E2EBCA7A76C.quest_subtitle: "Nether Wastes"
+	quest.3A5A1E2EBCA7A76C.title: "Searing Cod Collection"
+	quest.6CA3A66921216063.quest_desc: ["Catch 3 Glowdine. Found in the Crimson Forest biome."]
+	quest.6CA3A66921216063.quest_subtitle: "Crimson Forest"
+	quest.6CA3A66921216063.title: "Glowdine Collection"
+	quest.1E420EE26133EDBD.quest_desc: ["Catch 3 Lava Pufferfish. Found in the Warped Forest biome."]
+	quest.1E420EE26133EDBD.quest_subtitle: "Warped Forest"
+	quest.1E420EE26133EDBD.title: "Lava Pufferfish Collection"
+	quest.6C6C3E70AF1631E8.quest_desc: ["Catch 3 Obsidianfish. Found in the Basalt Deltas biome."]
+	quest.6C6C3E70AF1631E8.quest_subtitle: "Basalt Deltas"
+	quest.6C6C3E70AF1631E8.title: "Obsidianfish Collection"
+	quest.1798958465646965.quest_desc: ["Catch 3 Magma Cube Fish. Found in the Basalt Deltas biome."]
+	quest.1798958465646965.quest_subtitle: "Basalt Deltas"
+	quest.1798958465646965.title: "Magma Cube Fish Collection"
+	quest.7A9F9F6FC00E7434.quest_desc: ["Catch 3 Blazefish. Found near Fortress Piece structures in lava."]
+	quest.7A9F9F6FC00E7434.quest_subtitle: "Fortress Structure"
+	quest.7A9F9F6FC00E7434.title: "Blazefish Collection"
+	quest.783C4CE2B0173669.quest_desc: ["Catch 3 Fortress Grouper. Found near Nether Fortress structures."]
+	quest.783C4CE2B0173669.quest_subtitle: "Fortress Structure"
+	quest.783C4CE2B0173669.title: "Fortress Grouper Collection"
+	quest.5F609A07E5268106.quest_desc: ["Catch 3 Eyeball Fish. A rare and disturbing catch."]
+	quest.5F609A07E5268106.quest_subtitle: "Rare Catch"
+	quest.5F609A07E5268106.title: "Eyeball Fish Collection"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
