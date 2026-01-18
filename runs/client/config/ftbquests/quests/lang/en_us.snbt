@@ -12,6 +12,7 @@
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
 	chapter.282448C70744895F.title: "Apotheosis Enchanting"
 	chapter.3456E0C530C0038E.title: "EvilCraft"
+	chapter.492649F619082A45.title: "Aquaculture"
 	chapter.4C507C004144BFEE.title: "Occultism"
 	chapter.5347000000000000.title: "Silent Gear"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
@@ -4749,8 +4750,6 @@
 		"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
 	]
 	quest.5A8F4CA0F09F4842.title: "Removing &dEnchantments&r and &dCurses"
-	quest.5A94A2664BFDD7B9.quest_desc: ["This chapter covers item storage options from vanilla chests to upgradeable Sophisticated Storage containers and backpacks."]
-	quest.5A94A2664BFDD7B9.title: "Storage Basics"
 	quest.5A9D6672385D3D82.quest_desc: ["Only use 1 Lapis for an Upgrade instead of 4."]
 	quest.5A9D6672385D3D82.quest_subtitle: "Saving Lapis"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
@@ -6515,12 +6514,6 @@
 	quest.7EED2502F1F38147.title: "Water Sigil"
 	quest.7EEEEDD5FF31ACD3.quest_desc: ["The &eSmart Chute&r is a &eChute&r with the options to Filter."]
 	quest.7EEEEDD5FF31ACD3.title: "&eSmart Chute"
-	quest.7EF57BBEAA4B6B08.quest_desc: [
-		"Enchanted items, tools with durability, and other NBT-tagged items don't stack. Storing many of these in virtual storage systems (like AE2) can cause performance issues."
-		""
-		"Store NBT items in physical containers like chests or backpacks instead."
-	]
-	quest.7EF57BBEAA4B6B08.title: "NBT Items"
 	quest.7EFBAF3E281D2EBE.quest_desc: [
 		"The &bME Storage Bus&f, when facing some external storage container, will allow the container to be used as though it were part of the ME network, allowing items to be taken out from the container or inserted into it purely via ME."
 		""
@@ -6588,6 +6581,289 @@
 	quest.98C62720FC3198BB.title: "Neptunium Bee"
 	quest.A13C7B3DACACA281.title: "Dark Aqua Pigment Bee"
 	quest.AB4DE330F2FACEA3.title: "Regenerative Bee"
+	quest.158BB749BCB514B2.quest_desc: [
+		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
+		""
+		"This mod adds biome-specific fish, customizable hooks with unique effects, bait systems, and the rare Neptunium material for endgame gear."
+		""
+		"Start by crafting a fishing rod to begin your angling journey."
+	]
+	quest.158BB749BCB514B2.title: "Introduction to Aquaculture"
+	quest.2C46829AF8DAD837.quest_desc: [
+		"Craft a Silent Gear fishing rod using a blueprint. Silent Gear rods can be customized with different materials to improve durability and fishing luck."
+		""
+		"Use the Fishing Rod Blueprint with your chosen materials at a crafting station. Any material tier will work for getting started."
+	]
+	quest.2C46829AF8DAD837.title: "Your First Fishing Rod"
+	quest.59F2EAF2D6AE2813.quest_desc: [
+		"The Tackle Box stores and organizes your fishing equipment. It has dedicated slots for hooks, bait, fishing line, and bobbers."
+		""
+		"Place it near your fishing spot for quick access to your gear. You can shift-click to pick up the entire box with its contents."
+	]
+	quest.59F2EAF2D6AE2813.title: "The Tackle Box"
+	quest.511FCADED84B28A0.quest_desc: [
+		"Fishing rods can be enhanced with hooks, bait, fishing line, and bobbers. Each attachment provides different benefits."
+		""
+		"Use the Tackle Box interface to attach equipment to your rod. Hooks provide the most significant gameplay effects."
+	]
+	quest.511FCADED84B28A0.title: "Equipping Your Rod"
+	quest.790D169C15772FAD.quest_desc: [
+		"Fishing line is a basic component for fishing rods. Craft it from string and wool materials."
+		""
+		"While fishing line provides minimal mechanical benefits, it's required for a complete tackle setup."
+	]
+	quest.790D169C15772FAD.title: "Fishing Line"
+	quest.61C39D6638D64D39.quest_desc: [
+		"The Iron Hook provides a 20% chance to not consume rod durability when catching fish."
+		""
+		"A reliable early-game option that extends your rod's lifespan during long fishing sessions."
+	]
+	quest.61C39D6638D64D39.title: "Iron Hook"
+	quest.7E4137B4D83DEB3C.quest_desc: [
+		"The Gold Hook adds +1 Luck modifier to your fishing attempts."
+		""
+		"Higher luck increases your chances of catching treasure and rare items instead of junk."
+	]
+	quest.7E4137B4D83DEB3C.title: "Gold Hook"
+	quest.6601A169CB71BB8A.quest_desc: [
+		"The Diamond Hook provides a 50% chance to not consume rod durability."
+		""
+		"The best hook for rod preservation, significantly extending your equipment's lifespan."
+	]
+	quest.6601A169CB71BB8A.title: "Diamond Hook"
+	quest.373A9B66703F21CE.quest_desc: [
+		"The Light Hook makes your bobber cast further and retrieve faster."
+		""
+		"Useful for reaching distant fishing spots and speeding up your catch rate in shallow water."
+	]
+	quest.373A9B66703F21CE.title: "Light Hook"
+	quest.40C92D2CC221B090.quest_desc: [
+		"The Heavy Hook makes your bobber sink faster and deeper."
+		""
+		"Ideal for deep water fishing where fish may be found at lower depths."
+	]
+	quest.40C92D2CC221B090.title: "Heavy Hook"
+	quest.127D3C730D1A3278.quest_desc: [
+		"The Double Hook provides a 10% chance to catch two items at once."
+		""
+		"Excellent for maximizing your fishing yield during extended sessions."
+	]
+	quest.127D3C730D1A3278.title: "Double Hook"
+	quest.0B28C7A1C4076F55.quest_desc: [
+		"The Redstone Hook extends the window of opportunity to reel in a fish."
+		""
+		"Provides more forgiving timing for successful catches, helpful for less experienced anglers."
+	]
+	quest.0B28C7A1C4076F55.title: "Redstone Hook"
+	quest.1067C6AFFE7F4122.quest_desc: [
+		"The Note Hook plays an audible alert when a fish is approaching your bobber."
+		""
+		"Useful for multitasking while fishing, as you can listen for the audio cue instead of watching the bobber."
+	]
+	quest.1067C6AFFE7F4122.title: "Note Hook"
+	quest.3C140857B3DC5226.quest_desc: [
+		"The Nether Star Hook combines the best features: 50% durability protection and +1 Luck modifier."
+		""
+		"The ultimate fishing hook, requiring a Nether Star to craft. Worth the investment for serious anglers."
+	]
+	quest.3C140857B3DC5226.title: "Nether Star Hook"
+	quest.4F7547FCD77F55DA.quest_desc: [
+		"The Worm Farm produces worms from compostable materials. Fill it with organic items and it will generate worms over time."
+		""
+		"Place compostable items in the farm until it reaches level 8, then extract worms for bait."
+	]
+	quest.4F7547FCD77F55DA.title: "Building a Worm Farm"
+	quest.43EF1FFC08F16D1D.quest_desc: [
+		"Worms are the primary bait type. They increase your lure speed, causing fish to bite faster."
+		""
+		"Keep a steady supply from your Worm Farm for consistent fishing efficiency."
+	]
+	quest.43EF1FFC08F16D1D.title: "Harvesting Worms"
+	quest.69EF3F4E51C1D8E6.quest_desc: [
+		"Minnows can be caught while fishing and used as bait. They provide 50 uses and increase lure speed."
+		""
+		"A renewable bait source that doesn't require a Worm Farm to obtain."
+	]
+	quest.69EF3F4E51C1D8E6.title: "Catching Minnows"
+	quest.24A7046B10938D80.quest_desc: [
+		"Leeches are another fishing catch that doubles as bait. They provide 35 uses with lure speed bonus."
+		""
+		"Found while fishing in various biomes, leeches offer an alternative to worms and minnows."
+	]
+	quest.24A7046B10938D80.title: "Catching Leeches"
+	quest.048D75ABEC30AD1D.quest_desc: [
+		"A knife is required for processing fish into fillets. Craft a Silent Gear knife or use a Farmer's Delight knife."
+		""
+		"Silent Gear knives can be customized with different materials for improved durability."
+	]
+	quest.048D75ABEC30AD1D.title: "A Proper Knife"
+	quest.64E204F9261DF6B0.quest_desc: [
+		"The Farmer's Delight Cutting Board is used for processing fish. Place it in the world and use your knife on fish to create fillets."
+		""
+		"Right-click the cutting board with fish, then use your knife to process them."
+	]
+	quest.64E204F9261DF6B0.title: "The Cutting Board"
+	quest.7F0DDF1E9CEF32EF.quest_desc: [
+		"Fish fillets are a versatile food source. Raw fillets can be cooked in a furnace, smoker, or campfire."
+		""
+		"Cooked fillets provide better hunger restoration than whole fish and stack efficiently."
+	]
+	quest.7F0DDF1E9CEF32EF.title: "Making Fillets"
+	quest.7E842FFA18E56400.quest_desc: [
+		"Besides fish, you'll catch various items while fishing. Driftwood, tin cans, and algae are common junk items."
+		""
+		"Occasionally you'll find more valuable treasures. Keep fishing for rare rewards."
+	]
+	quest.7E842FFA18E56400.title: "Fishing Up Junk"
+	quest.1D8F93E059360C11.quest_desc: [
+		"Boxes are uncommon fishing loot containing randomized treasures. Open them for a chance at useful items."
+		""
+		"The contents vary, but boxes often contain basic materials and occasionally valuable finds."
+	]
+	quest.1D8F93E059360C11.title: "The Mysterious Box"
+	quest.55D95800839B5164.quest_desc: [
+		"Lockboxes are rarer than regular boxes and contain better loot. They have a lower catch rate but higher reward potential."
+		""
+		"Using a Gold Hook or Luck of the Sea enchantment increases your chances of finding lockboxes."
+	]
+	quest.55D95800839B5164.title: "Lockbox Discovery"
+	quest.4450705815FB9DD7.quest_desc: [
+		"Treasure Chests are the rarest standard fishing loot. They contain the best non-Neptunium rewards."
+		""
+		"Finding one is a sign of skilled or lucky fishing. Check inside for valuable treasures."
+	]
+	quest.4450705815FB9DD7.title: "Treasure Chest"
+	quest.422D7945AA0DFB0C.quest_desc: [
+		"Neptune's Bounty is an extremely rare fishing treasure containing Neptunium materials."
+		""
+		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
+	]
+	quest.422D7945AA0DFB0C.title: "Neptune's Bounty"
+	quest.58D085452013268B.quest_desc: [
+		"Neptunium Ingots are found inside Neptune's Bounty chests. This rare material creates powerful aquatic gear."
+		""
+		"Neptunium can also be used as a Silent Gear material for customized equipment with water-themed traits."
+	]
+	quest.58D085452013268B.title: "Neptunium Ingot"
+	quest.5CF633A236A57213.quest_desc: [
+		"Neptunium can be crafted into armor and tools with aquatic abilities:"
+		""
+		"&bHelmet&r: Night vision underwater"
+		"&bChestplate&r: Water breathing"
+		"&bLeggings&r: Neutral buoyancy"
+		"&bBoots&r: Faster swimming"
+		""
+		"Tools work at full efficiency underwater and deal bonus damage in water."
+	]
+	quest.5CF633A236A57213.title: "Neptunium Potential"
+	quest.77A0B2774F9DD91C.quest_desc: [
+		"Fish Mounts let you display your catches as wall decorations. They come in six wood types: Oak, Spruce, Birch, Jungle, Acacia, and Dark Oak."
+		""
+		"Craft a mount using wooden planks of your preferred type."
+	]
+	quest.77A0B2774F9DD91C.title: "Crafting a Fish Mount"
+	quest.36851FA3BF1C0415.quest_desc: [
+		"Place a fish mount on a wall, then right-click it with a caught fish to display your trophy."
+		""
+		"Mounted fish make excellent decorations for fishing lodges, kitchens, or trophy rooms."
+	]
+	quest.36851FA3BF1C0415.title: "Display Your Catch"
+	quest.0C67472338BFDFC4.quest_desc: ["Catch 5 Atlantic Cod. Found in cold ocean and beach biomes."]
+	quest.0C67472338BFDFC4.quest_subtitle: "Cold Water Fish"
+	quest.0C67472338BFDFC4.title: "Atlantic Cod Collection"
+	quest.5BF68675F30916FE.quest_desc: ["Catch 5 Blackfish. Found in cold ocean and beach biomes."]
+	quest.5BF68675F30916FE.quest_subtitle: "Cold Water Fish"
+	quest.5BF68675F30916FE.title: "Blackfish Collection"
+	quest.3C169B4C4A56E499.quest_desc: ["Catch 5 Pacific Halibut. A large flatfish found in cold waters."]
+	quest.3C169B4C4A56E499.quest_subtitle: "Cold Water Fish"
+	quest.3C169B4C4A56E499.title: "Pacific Halibut Collection"
+	quest.07CE305C8C7AAAF5.quest_desc: ["Catch 5 Atlantic Halibut. A large flatfish found in cold waters."]
+	quest.07CE305C8C7AAAF5.quest_subtitle: "Cold Water Fish"
+	quest.07CE305C8C7AAAF5.title: "Atlantic Halibut Collection"
+	quest.53D0F53DC7F37498.quest_desc: ["Catch 5 Atlantic Herring. A small schooling fish from cold waters."]
+	quest.53D0F53DC7F37498.quest_subtitle: "Cold Water Fish"
+	quest.53D0F53DC7F37498.title: "Atlantic Herring Collection"
+	quest.71D9B3676793DCF1.quest_desc: ["Catch 5 Pink Salmon. Found in temperate ocean and river biomes."]
+	quest.71D9B3676793DCF1.quest_subtitle: "Temperate Fish"
+	quest.71D9B3676793DCF1.title: "Pink Salmon Collection"
+	quest.10D3C4FE4B7E0B8D.quest_desc: ["Catch 5 Pollock. Found in temperate ocean biomes."]
+	quest.10D3C4FE4B7E0B8D.quest_subtitle: "Temperate Fish"
+	quest.10D3C4FE4B7E0B8D.title: "Pollock Collection"
+	quest.77FA873D6B95D4E6.quest_desc: ["Catch 5 Rainbow Trout. Found in temperate waters."]
+	quest.77FA873D6B95D4E6.quest_subtitle: "Temperate Fish"
+	quest.77FA873D6B95D4E6.title: "Rainbow Trout Collection"
+	quest.6E279FB94F751D21.quest_desc: ["Catch 5 Brown Trout. Found in temperate freshwater."]
+	quest.6E279FB94F751D21.quest_subtitle: "Temperate Fish"
+	quest.6E279FB94F751D21.title: "Brown Trout Collection"
+	quest.2DFF263856BCCE63.quest_desc: ["Catch 5 Smallmouth Bass. Found in temperate freshwater."]
+	quest.2DFF263856BCCE63.quest_subtitle: "Temperate Fish"
+	quest.2DFF263856BCCE63.title: "Smallmouth Bass Collection"
+	quest.05F7EC02C4E70FFA.quest_desc: ["Catch 5 Bluegill. A small freshwater fish."]
+	quest.05F7EC02C4E70FFA.quest_subtitle: "Temperate Fish"
+	quest.05F7EC02C4E70FFA.title: "Bluegill Collection"
+	quest.3B4A56EB5620E15A.quest_desc: ["Catch 5 Perch. Found in freshwater biomes."]
+	quest.3B4A56EB5620E15A.quest_subtitle: "Freshwater Fish"
+	quest.3B4A56EB5620E15A.title: "Perch Collection"
+	quest.03C5A1247B283E1C.quest_desc: ["Catch 5 Carp. A common freshwater fish."]
+	quest.03C5A1247B283E1C.quest_subtitle: "Freshwater Fish"
+	quest.03C5A1247B283E1C.title: "Carp Collection"
+	quest.3E26E20B8AE80FF9.quest_desc: ["Catch 5 Catfish. Found in various freshwater biomes."]
+	quest.3E26E20B8AE80FF9.quest_subtitle: "Catfish"
+	quest.3E26E20B8AE80FF9.title: "Catfish Collection"
+	quest.6F389530542BBD83.quest_desc: ["Catch 5 Bayad. An African catfish species."]
+	quest.6F389530542BBD83.quest_subtitle: "Catfish"
+	quest.6F389530542BBD83.title: "Bayad Collection"
+	quest.74D15068B4388FB5.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
+	quest.74D15068B4388FB5.quest_subtitle: "Predator Fish"
+	quest.74D15068B4388FB5.title: "Gar Collection"
+	quest.43DCD30F9B576606.quest_desc: ["Catch 5 Muskellunge. A large predatory fish."]
+	quest.43DCD30F9B576606.quest_subtitle: "Predator Fish"
+	quest.43DCD30F9B576606.title: "Muskellunge Collection"
+	quest.0C39FFDCC46BBD04.quest_desc: ["Catch 5 Arapaima. One of the largest freshwater fish, found in jungle biomes."]
+	quest.0C39FFDCC46BBD04.quest_subtitle: "Predator Fish"
+	quest.0C39FFDCC46BBD04.title: "Arapaima Collection"
+	quest.690A7182899481CC.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
+	quest.690A7182899481CC.quest_subtitle: "African Fish"
+	quest.690A7182899481CC.title: "Boulti Collection"
+	quest.6C7B879451D57C68.quest_desc: ["Catch 5 Synodontis. An African catfish."]
+	quest.6C7B879451D57C68.quest_subtitle: "African Fish"
+	quest.6C7B879451D57C68.title: "Synodontis Collection"
+	quest.73A2DA7A9947FC07.quest_desc: ["Catch 5 Capitaine. Also known as Nile Perch."]
+	quest.73A2DA7A9947FC07.quest_subtitle: "African Fish"
+	quest.73A2DA7A9947FC07.title: "Capitaine Collection"
+	quest.44451D04A277F3FE.quest_desc: ["Catch 5 Piranha. Found in jungle biomes. Handle with care."]
+	quest.44451D04A277F3FE.quest_subtitle: "Jungle Fish"
+	quest.44451D04A277F3FE.title: "Piranha Collection"
+	quest.6A507BACD41D8D82.quest_desc: ["Catch 5 Tambaqui. A large Amazonian fish found in jungles."]
+	quest.6A507BACD41D8D82.quest_subtitle: "Jungle Fish"
+	quest.6A507BACD41D8D82.title: "Tambaqui Collection"
+	quest.28596E8C65D79482.quest_desc: ["Catch 5 Red Grouper. Found in warm ocean biomes."]
+	quest.28596E8C65D79482.quest_subtitle: "Warm Water Fish"
+	quest.28596E8C65D79482.title: "Red Grouper Collection"
+	quest.6F1CFF4144A36142.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
+	quest.6F1CFF4144A36142.quest_subtitle: "Warm Water Fish"
+	quest.6F1CFF4144A36142.title: "Tuna Collection"
+	quest.5CCEB9B966C41311.quest_desc: ["Catch 5 Jellyfish. Can be converted to slimeballs."]
+	quest.5CCEB9B966C41311.quest_subtitle: "Special Catch"
+	quest.5CCEB9B966C41311.title: "Jellyfish Collection"
+	quest.278FCF1F9278B879.quest_desc: ["Catch 5 Brown Shrooma. A mushroom-infused fish from mushroom biomes."]
+	quest.278FCF1F9278B879.quest_subtitle: "Special Catch"
+	quest.278FCF1F9278B879.title: "Brown Shrooma Collection"
+	quest.5128AE9A9F608850.quest_desc: ["Catch 5 Red Shrooma. A mushroom-infused fish from mushroom biomes."]
+	quest.5128AE9A9F608850.quest_subtitle: "Special Catch"
+	quest.5128AE9A9F608850.title: "Red Shrooma Collection"
+	quest.0A896438F293895B.quest_desc: ["Catch 5 Goldfish. A rare decorative fish."]
+	quest.0A896438F293895B.quest_subtitle: "Special Catch"
+	quest.0A896438F293895B.title: "Goldfish Collection"
+	quest.3A8C7877655CDB70.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
+	quest.3A8C7877655CDB70.quest_subtitle: "Turtle"
+	quest.3A8C7877655CDB70.title: "Box Turtle Collection"
+	quest.70BAC0DA07CF4374.quest_desc: ["Catch 5 Arrau Turtles. Found in jungle biomes."]
+	quest.70BAC0DA07CF4374.quest_subtitle: "Turtle"
+	quest.70BAC0DA07CF4374.title: "Arrau Turtle Collection"
+	quest.58245132D32285F2.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
+	quest.58245132D32285F2.quest_subtitle: "Turtle"
+	quest.58245132D32285F2.title: "Starshell Turtle Collection"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
@@ -6836,289 +7112,4 @@
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
-	// === Aquaculture Chapter ===
-	chapter.492649F619082A45.title: "Aquaculture"
-	quest.AC01000000000001.title: "Introduction to Aquaculture"
-	quest.AC01000000000001.quest_desc: [
-		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
-		""
-		"This mod adds biome-specific fish, customizable hooks with unique effects, bait systems, and the rare Neptunium material for endgame gear."
-		""
-		"Start by crafting a fishing rod to begin your angling journey."
-	]
-	quest.AC01000000000002.title: "Your First Fishing Rod"
-	quest.AC01000000000002.quest_desc: [
-		"Craft a Silent Gear fishing rod using a blueprint. Silent Gear rods can be customized with different materials to improve durability and fishing luck."
-		""
-		"Use the Fishing Rod Blueprint with your chosen materials at a crafting station. Any material tier will work for getting started."
-	]
-	quest.AC02000000000001.title: "The Tackle Box"
-	quest.AC02000000000001.quest_desc: [
-		"The Tackle Box stores and organizes your fishing equipment. It has dedicated slots for hooks, bait, fishing line, and bobbers."
-		""
-		"Place it near your fishing spot for quick access to your gear. You can shift-click to pick up the entire box with its contents."
-	]
-	quest.AC02000000000002.title: "Equipping Your Rod"
-	quest.AC02000000000002.quest_desc: [
-		"Fishing rods can be enhanced with hooks, bait, fishing line, and bobbers. Each attachment provides different benefits."
-		""
-		"Use the Tackle Box interface to attach equipment to your rod. Hooks provide the most significant gameplay effects."
-	]
-	quest.AC02000000000003.title: "Fishing Line"
-	quest.AC02000000000003.quest_desc: [
-		"Fishing line is a basic component for fishing rods. Craft it from string and wool materials."
-		""
-		"While fishing line provides minimal mechanical benefits, it's required for a complete tackle setup."
-	]
-	quest.AC03000000000001.title: "Iron Hook"
-	quest.AC03000000000001.quest_desc: [
-		"The Iron Hook provides a 20% chance to not consume rod durability when catching fish."
-		""
-		"A reliable early-game option that extends your rod's lifespan during long fishing sessions."
-	]
-	quest.AC03000000000002.title: "Gold Hook"
-	quest.AC03000000000002.quest_desc: [
-		"The Gold Hook adds +1 Luck modifier to your fishing attempts."
-		""
-		"Higher luck increases your chances of catching treasure and rare items instead of junk."
-	]
-	quest.AC03000000000003.title: "Diamond Hook"
-	quest.AC03000000000003.quest_desc: [
-		"The Diamond Hook provides a 50% chance to not consume rod durability."
-		""
-		"The best hook for rod preservation, significantly extending your equipment's lifespan."
-	]
-	quest.AC03000000000004.title: "Light Hook"
-	quest.AC03000000000004.quest_desc: [
-		"The Light Hook makes your bobber cast further and retrieve faster."
-		""
-		"Useful for reaching distant fishing spots and speeding up your catch rate in shallow water."
-	]
-	quest.AC03000000000005.title: "Heavy Hook"
-	quest.AC03000000000005.quest_desc: [
-		"The Heavy Hook makes your bobber sink faster and deeper."
-		""
-		"Ideal for deep water fishing where fish may be found at lower depths."
-	]
-	quest.AC03000000000006.title: "Double Hook"
-	quest.AC03000000000006.quest_desc: [
-		"The Double Hook provides a 10% chance to catch two items at once."
-		""
-		"Excellent for maximizing your fishing yield during extended sessions."
-	]
-	quest.AC03000000000007.title: "Redstone Hook"
-	quest.AC03000000000007.quest_desc: [
-		"The Redstone Hook extends the window of opportunity to reel in a fish."
-		""
-		"Provides more forgiving timing for successful catches, helpful for less experienced anglers."
-	]
-	quest.AC03000000000008.title: "Note Hook"
-	quest.AC03000000000008.quest_desc: [
-		"The Note Hook plays an audible alert when a fish is approaching your bobber."
-		""
-		"Useful for multitasking while fishing, as you can listen for the audio cue instead of watching the bobber."
-	]
-	quest.AC03000000000009.title: "Nether Star Hook"
-	quest.AC03000000000009.quest_desc: [
-		"The Nether Star Hook combines the best features: 50% durability protection and +1 Luck modifier."
-		""
-		"The ultimate fishing hook, requiring a Nether Star to craft. Worth the investment for serious anglers."
-	]
-	quest.AC04000000000001.title: "Building a Worm Farm"
-	quest.AC04000000000001.quest_desc: [
-		"The Worm Farm produces worms from compostable materials. Fill it with organic items and it will generate worms over time."
-		""
-		"Place compostable items in the farm until it reaches level 8, then extract worms for bait."
-	]
-	quest.AC04000000000002.title: "Harvesting Worms"
-	quest.AC04000000000002.quest_desc: [
-		"Worms are the primary bait type. They increase your lure speed, causing fish to bite faster."
-		""
-		"Keep a steady supply from your Worm Farm for consistent fishing efficiency."
-	]
-	quest.AC04000000000003.title: "Catching Minnows"
-	quest.AC04000000000003.quest_desc: [
-		"Minnows can be caught while fishing and used as bait. They provide 50 uses and increase lure speed."
-		""
-		"A renewable bait source that doesn't require a Worm Farm to obtain."
-	]
-	quest.AC04000000000004.title: "Catching Leeches"
-	quest.AC04000000000004.quest_desc: [
-		"Leeches are another fishing catch that doubles as bait. They provide 35 uses with lure speed bonus."
-		""
-		"Found while fishing in various biomes, leeches offer an alternative to worms and minnows."
-	]
-	quest.AC05000000000001.title: "A Proper Knife"
-	quest.AC05000000000001.quest_desc: [
-		"A knife is required for processing fish into fillets. Craft a Silent Gear knife or use a Farmer's Delight knife."
-		""
-		"Silent Gear knives can be customized with different materials for improved durability."
-	]
-	quest.AC05000000000002.title: "The Cutting Board"
-	quest.AC05000000000002.quest_desc: [
-		"The Farmer's Delight Cutting Board is used for processing fish. Place it in the world and use your knife on fish to create fillets."
-		""
-		"Right-click the cutting board with fish, then use your knife to process them."
-	]
-	quest.AC05000000000003.title: "Making Fillets"
-	quest.AC05000000000003.quest_desc: [
-		"Fish fillets are a versatile food source. Raw fillets can be cooked in a furnace, smoker, or campfire."
-		""
-		"Cooked fillets provide better hunger restoration than whole fish and stack efficiently."
-	]
-	quest.AC06000000000001.title: "Fishing Up Junk"
-	quest.AC06000000000001.quest_desc: [
-		"Besides fish, you'll catch various items while fishing. Driftwood, tin cans, and algae are common junk items."
-		""
-		"Occasionally you'll find more valuable treasures. Keep fishing for rare rewards."
-	]
-	quest.AC06000000000002.title: "The Mysterious Box"
-	quest.AC06000000000002.quest_desc: [
-		"Boxes are uncommon fishing loot containing randomized treasures. Open them for a chance at useful items."
-		""
-		"The contents vary, but boxes often contain basic materials and occasionally valuable finds."
-	]
-	quest.AC06000000000003.title: "Lockbox Discovery"
-	quest.AC06000000000003.quest_desc: [
-		"Lockboxes are rarer than regular boxes and contain better loot. They have a lower catch rate but higher reward potential."
-		""
-		"Using a Gold Hook or Luck of the Sea enchantment increases your chances of finding lockboxes."
-	]
-	quest.AC06000000000004.title: "Treasure Chest"
-	quest.AC06000000000004.quest_desc: [
-		"Treasure Chests are the rarest standard fishing loot. They contain the best non-Neptunium rewards."
-		""
-		"Finding one is a sign of skilled or lucky fishing. Check inside for valuable treasures."
-	]
-	quest.AC07000000000001.title: "Neptune's Bounty"
-	quest.AC07000000000001.quest_desc: [
-		"Neptune's Bounty is an extremely rare fishing treasure containing Neptunium materials."
-		""
-		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
-	]
-	quest.AC07000000000002.title: "Neptunium Ingot"
-	quest.AC07000000000002.quest_desc: [
-		"Neptunium Ingots are found inside Neptune's Bounty chests. This rare material creates powerful aquatic gear."
-		""
-		"Neptunium can also be used as a Silent Gear material for customized equipment with water-themed traits."
-	]
-	quest.AC07000000000003.title: "Neptunium Potential"
-	quest.AC07000000000003.quest_desc: [
-		"Neptunium can be crafted into armor and tools with aquatic abilities:"
-		""
-		"&bHelmet&r: Night vision underwater"
-		"&bChestplate&r: Water breathing"
-		"&bLeggings&r: Neutral buoyancy"
-		"&bBoots&r: Faster swimming"
-		""
-		"Tools work at full efficiency underwater and deal bonus damage in water."
-	]
-	quest.AC08000000000001.title: "Crafting a Fish Mount"
-	quest.AC08000000000001.quest_desc: [
-		"Fish Mounts let you display your catches as wall decorations. They come in six wood types: Oak, Spruce, Birch, Jungle, Acacia, and Dark Oak."
-		""
-		"Craft a mount using wooden planks of your preferred type."
-	]
-	quest.AC08000000000002.title: "Display Your Catch"
-	quest.AC08000000000002.quest_desc: [
-		"Place a fish mount on a wall, then right-click it with a caught fish to display your trophy."
-		""
-		"Mounted fish make excellent decorations for fishing lodges, kitchens, or trophy rooms."
-	]
-	quest.AC09000000000001.title: "Atlantic Cod Collection"
-	quest.AC09000000000001.quest_subtitle: "Cold Water Fish"
-	quest.AC09000000000001.quest_desc: ["Catch 5 Atlantic Cod. Found in cold ocean and beach biomes."]
-	quest.AC09000000000002.title: "Blackfish Collection"
-	quest.AC09000000000002.quest_subtitle: "Cold Water Fish"
-	quest.AC09000000000002.quest_desc: ["Catch 5 Blackfish. Found in cold ocean and beach biomes."]
-	quest.AC09000000000003.title: "Pacific Halibut Collection"
-	quest.AC09000000000003.quest_subtitle: "Cold Water Fish"
-	quest.AC09000000000003.quest_desc: ["Catch 5 Pacific Halibut. A large flatfish found in cold waters."]
-	quest.AC09000000000004.title: "Atlantic Halibut Collection"
-	quest.AC09000000000004.quest_subtitle: "Cold Water Fish"
-	quest.AC09000000000004.quest_desc: ["Catch 5 Atlantic Halibut. A large flatfish found in cold waters."]
-	quest.AC09000000000005.title: "Atlantic Herring Collection"
-	quest.AC09000000000005.quest_subtitle: "Cold Water Fish"
-	quest.AC09000000000005.quest_desc: ["Catch 5 Atlantic Herring. A small schooling fish from cold waters."]
-	quest.AC09000000000006.title: "Pink Salmon Collection"
-	quest.AC09000000000006.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000006.quest_desc: ["Catch 5 Pink Salmon. Found in temperate ocean and river biomes."]
-	quest.AC09000000000007.title: "Pollock Collection"
-	quest.AC09000000000007.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000007.quest_desc: ["Catch 5 Pollock. Found in temperate ocean biomes."]
-	quest.AC09000000000008.title: "Rainbow Trout Collection"
-	quest.AC09000000000008.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000008.quest_desc: ["Catch 5 Rainbow Trout. Found in temperate waters."]
-	quest.AC09000000000009.title: "Brown Trout Collection"
-	quest.AC09000000000009.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000009.quest_desc: ["Catch 5 Brown Trout. Found in temperate freshwater."]
-	quest.AC09000000000010.title: "Smallmouth Bass Collection"
-	quest.AC09000000000010.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000010.quest_desc: ["Catch 5 Smallmouth Bass. Found in temperate freshwater."]
-	quest.AC09000000000011.title: "Bluegill Collection"
-	quest.AC09000000000011.quest_subtitle: "Temperate Fish"
-	quest.AC09000000000011.quest_desc: ["Catch 5 Bluegill. A small freshwater fish."]
-	quest.AC09000000000012.title: "Perch Collection"
-	quest.AC09000000000012.quest_subtitle: "Freshwater Fish"
-	quest.AC09000000000012.quest_desc: ["Catch 5 Perch. Found in freshwater biomes."]
-	quest.AC09000000000013.title: "Carp Collection"
-	quest.AC09000000000013.quest_subtitle: "Freshwater Fish"
-	quest.AC09000000000013.quest_desc: ["Catch 5 Carp. A common freshwater fish."]
-	quest.AC09000000000014.title: "Catfish Collection"
-	quest.AC09000000000014.quest_subtitle: "Catfish"
-	quest.AC09000000000014.quest_desc: ["Catch 5 Catfish. Found in various freshwater biomes."]
-	quest.AC09000000000015.title: "Bayad Collection"
-	quest.AC09000000000015.quest_subtitle: "Catfish"
-	quest.AC09000000000015.quest_desc: ["Catch 5 Bayad. An African catfish species."]
-	quest.AC09000000000016.title: "Gar Collection"
-	quest.AC09000000000016.quest_subtitle: "Predator Fish"
-	quest.AC09000000000016.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
-	quest.AC09000000000017.title: "Muskellunge Collection"
-	quest.AC09000000000017.quest_subtitle: "Predator Fish"
-	quest.AC09000000000017.quest_desc: ["Catch 5 Muskellunge. A large predatory fish."]
-	quest.AC09000000000018.title: "Arapaima Collection"
-	quest.AC09000000000018.quest_subtitle: "Predator Fish"
-	quest.AC09000000000018.quest_desc: ["Catch 5 Arapaima. One of the largest freshwater fish, found in jungle biomes."]
-	quest.AC09000000000019.title: "Boulti Collection"
-	quest.AC09000000000019.quest_subtitle: "African Fish"
-	quest.AC09000000000019.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
-	quest.AC09000000000020.title: "Synodontis Collection"
-	quest.AC09000000000020.quest_subtitle: "African Fish"
-	quest.AC09000000000020.quest_desc: ["Catch 5 Synodontis. An African catfish."]
-	quest.AC09000000000021.title: "Capitaine Collection"
-	quest.AC09000000000021.quest_subtitle: "African Fish"
-	quest.AC09000000000021.quest_desc: ["Catch 5 Capitaine. Also known as Nile Perch."]
-	quest.AC09000000000022.title: "Piranha Collection"
-	quest.AC09000000000022.quest_subtitle: "Jungle Fish"
-	quest.AC09000000000022.quest_desc: ["Catch 5 Piranha. Found in jungle biomes. Handle with care."]
-	quest.AC09000000000023.title: "Tambaqui Collection"
-	quest.AC09000000000023.quest_subtitle: "Jungle Fish"
-	quest.AC09000000000023.quest_desc: ["Catch 5 Tambaqui. A large Amazonian fish found in jungles."]
-	quest.AC09000000000024.title: "Red Grouper Collection"
-	quest.AC09000000000024.quest_subtitle: "Warm Water Fish"
-	quest.AC09000000000024.quest_desc: ["Catch 5 Red Grouper. Found in warm ocean biomes."]
-	quest.AC09000000000025.title: "Tuna Collection"
-	quest.AC09000000000025.quest_subtitle: "Warm Water Fish"
-	quest.AC09000000000025.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
-	quest.AC09000000000026.title: "Jellyfish Collection"
-	quest.AC09000000000026.quest_subtitle: "Special Catch"
-	quest.AC09000000000026.quest_desc: ["Catch 5 Jellyfish. Can be converted to slimeballs."]
-	quest.AC09000000000027.title: "Brown Shrooma Collection"
-	quest.AC09000000000027.quest_subtitle: "Special Catch"
-	quest.AC09000000000027.quest_desc: ["Catch 5 Brown Shrooma. A mushroom-infused fish from mushroom biomes."]
-	quest.AC09000000000028.title: "Red Shrooma Collection"
-	quest.AC09000000000028.quest_subtitle: "Special Catch"
-	quest.AC09000000000028.quest_desc: ["Catch 5 Red Shrooma. A mushroom-infused fish from mushroom biomes."]
-	quest.AC09000000000029.title: "Goldfish Collection"
-	quest.AC09000000000029.quest_subtitle: "Special Catch"
-	quest.AC09000000000029.quest_desc: ["Catch 5 Goldfish. A rare decorative fish."]
-	quest.AC09000000000030.title: "Box Turtle Collection"
-	quest.AC09000000000030.quest_subtitle: "Turtle"
-	quest.AC09000000000030.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
-	quest.AC09000000000031.title: "Arrau Turtle Collection"
-	quest.AC09000000000031.quest_subtitle: "Turtle"
-	quest.AC09000000000031.quest_desc: ["Catch 5 Arrau Turtles. Found in jungle biomes."]
-	quest.AC09000000000032.title: "Starshell Turtle Collection"
-	quest.AC09000000000032.quest_subtitle: "Turtle"
-	quest.AC09000000000032.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
 }
