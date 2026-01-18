@@ -299,6 +299,9 @@
 		"Electric Pumps are great because they're from Mekanism and integrate well with the rest of the system. Place one above a water source and pipe the output to your reactor's coolant input."
 	]
 	quest.03840E4C74731E0C.title: "Water Coolant"
+	quest.03C5A1247B283E1C.quest_desc: ["Catch 5 Carp. A common freshwater fish."]
+	quest.03C5A1247B283E1C.quest_subtitle: "Freshwater Fish"
+	quest.03C5A1247B283E1C.title: "Carp Collection"
 	quest.03E6FA4DCB71162E.quest_desc: [
 		"The &bColor Applicator&f is a chargeable tool that allows for in-world dyeing of cables. It functions more or less as a specialised &estorage cell&f to be loaded up with either vanilla dyes or &epaint balls&f for specific colours, along with &esnowballs&f to wash colours off and turn cables back to their Fluix variant."
 		""
@@ -322,6 +325,12 @@
 		"Required for tier 4 operations and powering multiple sigils simultaneously."
 	]
 	quest.048BD38532A1DDCF.title: "Master Blood Orb"
+	quest.048D75ABEC30AD1D.quest_desc: [
+		"A knife is required for processing fish into fillets. Craft a Silent Gear knife or use a Farmer's Delight knife."
+		""
+		"Silent Gear knives can be customized with different materials for improved durability."
+	]
+	quest.048D75ABEC30AD1D.title: "A Proper Knife"
 	quest.04987E54ADC2C057.title: "Drygmy"
 	quest.0498A578D0EC3254.quest_desc: ["The last of the important Infused Items is the &aBasic Control Circuit&r. \\n\\nThese ones are made by combining 20mB of &4Redstone&r with an &7Osmium Ingot&r. \\n\\nCheck out the &cInfused Alloy Quest&r to learn how to add &4Redstone&r to the &9&lMetallurgic Infuser&r!"]
 	quest.0498A578D0EC3254.quest_subtitle: "The Basic Control Circuit"
@@ -367,6 +376,9 @@
 	]
 	quest.05DA7F48E2A1B77F.title: "Robit"
 	quest.05DBDD86FCFF3BA8.title: "Lightning Upgrade Orb"
+	quest.05F7EC02C4E70FFA.quest_desc: ["Catch 5 Bluegill. A small freshwater fish."]
+	quest.05F7EC02C4E70FFA.quest_subtitle: "Temperate Fish"
+	quest.05F7EC02C4E70FFA.title: "Bluegill Collection"
 	quest.0601006A79916377.quest_desc: ["Ritual-crafted oil used in advanced recipes. Made via the Crystallize Tau ritual."]
 	quest.0601006A79916377.title: "Weak Tau"
 	quest.06044B4452A6B720.quest_desc: ["When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
@@ -428,6 +440,12 @@
 	quest.07564DBB023EE2A6.title: "Experience Seeds"
 	quest.0759CA52EECF3B49.quest_desc: ["The &6Mechanical Plough&r will plough through anything in its way! Well, that it can move atleast. \\n\\nBlocks with weak connections will immediately break when the &6Plough&r hits them. Blocks like Torches, Buttons, and Vines. \\n\\nWhen used above Dirt or Grass, it will make Farmland! Perfect for Mega-Farms! \\n\\nYou can also use the &6Plough&r to move Mobs without killing them. Well the &6Plough&r won't kill them, whatever they hit might."]
 	quest.0759CA52EECF3B49.title: "&6Mechanical Plough"
+	quest.075A24CBAE5438F9.quest_desc: [
+		"Cast your fishing rod into any lava pool in the Nether and catch your first lava-dwelling fish."
+		""
+		"Different biomes contain different species. The Nether Wastes, Soul Sand Valley, Crimson Forest, Warped Forest, and Basalt Deltas each have unique fish."
+	]
+	quest.075A24CBAE5438F9.title: "Your First Lava Catch"
 	quest.076DFB0B39A4259F.quest_desc: [
 		"Infused Seashelves are upgraded versions with better stats. Each provides 2.5 &aEterna&r (max 40) and 7.5% &5Arcana.&r "
 		""
@@ -445,6 +463,9 @@
 	quest.078B69E9362A5496.title: "Mekanism: Reactors"
 	quest.078C5B50CDC174CB.quest_desc: ["&aMechanical Bearings&r are the most simple forms of &aContraption&r movement. \\n\\nWhen given &dRotational Power&r from their bottom, they will rotate any Blocks above at the same Speed and Direction. \\nBlocks will automatically be &aGlued&r to the &aMechanical Bearing&r, but any other Blocks will need to be &aGlued&r to that Block to move as well! \\n\\nIf you use a &aMechanical Bearing&r within a &aContraption&r itself, it will try and keep the Block attached still instead of Rotating."]
 	quest.078C5B50CDC174CB.title: "&aMechanical Bearing"
+	quest.07CE305C8C7AAAF5.quest_desc: ["Catch 5 Atlantic Halibut. A large flatfish found in cold waters."]
+	quest.07CE305C8C7AAAF5.quest_subtitle: "Cold Water Fish"
+	quest.07CE305C8C7AAAF5.title: "Atlantic Halibut Collection"
 	quest.07D6CC12D577643E.quest_subtitle: "Opens the crafting menu"
 	quest.07DE3A966516EA8B.quest_subtitle: "Bone meals blocks in the surrounding area"
 	quest.07DE3A966516EA8B.title: "Ritual of Overgrowth"
@@ -540,6 +561,9 @@
 	quest.0A4962728C98DAD9.title: "&eItem Vaults"
 	quest.0A7B0D0B81E138DE.quest_desc: ["The &e&lEngineer's Toolbox&r works as a segregated Shulker. \\n\\nIt has sections: Food, which you can only put Food in. Tools, which can hold &8&lIE&r Tools or other Tools just not &bBuckets&r. &cWiring&r, which can have &cWires&r, &cConnectors&r, or &cRelays&r. And Anything, which doesn't discriminate. Try to be more like the Anything section! \\n\\nSome Items can't be held within it though, like &bBuckets full of Fluids&r or Accumulator Backpacks. \\n\\nYou can Shift Right Click to place down the &e&lToolbox&r to make it act like a Chest, then you can do the same to pick it up."]
 	quest.0A7B0D0B81E138DE.title: "&e&lEngineer's Toolbox"
+	quest.0A896438F293895B.quest_desc: ["Catch 5 Goldfish. A rare decorative fish."]
+	quest.0A896438F293895B.quest_subtitle: "Special Catch"
+	quest.0A896438F293895B.title: "Goldfish Collection"
 	quest.0A8F44B9B3C8FC0F.quest_subtitle: "Tier: &63"
 	quest.0A8F44B9B3C8FC0F.title: "Zinc Seeds"
 	quest.0A912B2E2BE34920.quest_desc: ["Although you can find Crude Oil on the surface, drilling is a great way to obtain a bunch of oil. First use a &3Seismic Sensor&r until you find oil underneath you, then use your &3Gas Lift&r filled with drill pipes to drill for oil. (This requires pressure to work)."]
@@ -569,6 +593,12 @@
 	quest.0B2210804594E7B8.quest_subtitle: "Spawn egg only (from loot)"
 	quest.0B2210804594E7B8.subtitle: "Spawn egg only (from loot)"
 	quest.0B2210804594E7B8.title: "Arcane Essence Bee"
+	quest.0B28C7A1C4076F55.quest_desc: [
+		"The Redstone Hook extends the window of opportunity to reel in a fish."
+		""
+		"Provides more forgiving timing for successful catches, helpful for less experienced anglers."
+	]
+	quest.0B28C7A1C4076F55.title: "Redstone Hook"
 	quest.0B2B8247DA280E90.quest_desc: [
 		"Capacity Runes increase your altar's internal LP storage limit."
 		"More storage means less frequent refilling and the ability to buffer large amounts for expensive operations."
@@ -617,12 +647,18 @@
 	quest.0BD6365534BF04D5.title: "Possession Rituals"
 	quest.0C0B9287E80DA7B8.quest_desc: ["Converts rotation to FE. Higher RPM produces more power. Connect to energy network."]
 	quest.0C0B9287E80DA7B8.title: "Alternator"
+	quest.0C39FFDCC46BBD04.quest_desc: ["Catch 5 Arapaima. One of the largest freshwater fish, found in jungle biomes."]
+	quest.0C39FFDCC46BBD04.quest_subtitle: "Predator Fish"
+	quest.0C39FFDCC46BBD04.title: "Arapaima Collection"
 	quest.0C596CB7C7C24615.quest_desc: [
 		"Soul-Touched Deepshelves provide 5 &aEterna&r (max 75), 15% &4Quanta&r, and 5% &5Arcana&r. The increased &aEterna&r cap allows access to higher enchantment levels."
 		""
 		"Craft from a Deepshelf, Soul Lantern, and Sculk Blocks. Sculk requires Silk Touch to collect from the Deep Dark biome."
 	]
 	quest.0C596CB7C7C24615.title: "Craft Soul-Touched Deepshelf"
+	quest.0C67472338BFDFC4.quest_desc: ["Catch 5 Atlantic Cod. Found in cold ocean and beach biomes."]
+	quest.0C67472338BFDFC4.quest_subtitle: "Cold Water Fish"
+	quest.0C67472338BFDFC4.title: "Atlantic Cod Collection"
 	quest.0CC48C2AA553A314.quest_desc: ["&3Drill Bits&r can be used in a Pneumatic Jackhammer."]
 	quest.0CD04A00529FE1C9.quest_desc: ["Optional intermediate tier. Saves iron but can be skipped by crafting iron tier directly."]
 	quest.0CD04A00529FE1C9.title: "Copper Tier"
@@ -834,6 +870,12 @@
 	quest.104BF57D4A006688.quest_subtitle: "Flower: Sculk Shrieker (Check JEI)"
 	quest.104BF57D4A006688.subtitle: "Flower: Sculk Shrieker (Check JEI)"
 	quest.104BF57D4A006688.title: "Sculk Bee"
+	quest.1067C6AFFE7F4122.quest_desc: [
+		"The Note Hook plays an audible alert when a fish is approaching your bobber."
+		""
+		"Useful for multitasking while fishing, as you can listen for the audio cue instead of watching the bobber."
+	]
+	quest.1067C6AFFE7F4122.title: "Note Hook"
 	quest.108535577B19132D.quest_desc: ["Stores small amounts of demon will. Used in forge recipes and sentient tool crafting."]
 	quest.108535577B19132D.title: "Petty Tartaric Gem"
 	quest.109310AF19AAC482.quest_desc: ["The &4Flamethrower&r is one of the Ranged Weapons &5&lMekanism&r offers. \\n\\nLike the &cJetpack&r it uses Hydrogen as Fuel and is loaded just the same way as the &cJetpack&r. \\n\\nWe can press (N) to change its modes. \\n\\n&eCombat&r: will set Mobs on &6Fire&r and do Damage, but won't Burn Blocks or Items. \\n&6Heat&r: from what I can tell can only do the same. \\n\\n&4Inferno&r: Burns everything!"]
@@ -846,6 +888,9 @@
 		"Craft from a Soul-Touched Deepshelf, Sculk Blocks, Sculk Catalyst, and a Warden Tendril. Warden Tendrils drop from the Warden boss in the Deep Dark."
 	]
 	quest.10C527C66EE4E95A.title: "Craft Soul-Touched Sculkshelf"
+	quest.10D3C4FE4B7E0B8D.quest_desc: ["Catch 5 Pollock. Found in temperate ocean biomes."]
+	quest.10D3C4FE4B7E0B8D.quest_subtitle: "Temperate Fish"
+	quest.10D3C4FE4B7E0B8D.title: "Pollock Collection"
 	quest.10EF30B919EBA5C6.quest_desc: [
 		"It's a pickaxe with Fortune V on it. That's all."
 		""
@@ -943,10 +988,22 @@
 	quest.123C0417D85B9DB2.title: "Solar Recharging Unit"
 	quest.124F1EA288C74015.quest_desc: ["Stores up to 5 sigils inside. Shift-click to cycle between stored sigils."]
 	quest.124F1EA288C74015.title: "Sigil of Holding"
+	quest.127D3C730D1A3278.quest_desc: [
+		"The Double Hook provides a 10% chance to catch two items at once."
+		""
+		"Excellent for maximizing your fishing yield during extended sessions."
+	]
+	quest.127D3C730D1A3278.title: "Double Hook"
 	quest.127F9EAC7C305BF5.quest_desc: ["Trust me when I say, you'll need a &6Wrench&r! \\n\\nThe &6Wrench&r is the perfect Swiss Army Knife like Tool for &6&lCreate&r. You can rotate Blocks, break them, set their configs, what can't you do with it! \\n\\nTo break Blocks just Shift Right Click any &6&lCreate&r Block and it'll break them. \\n\\nTo Rotate a Block just normal Right Click them with the &6Wrench&r. Unfortunately this doesn't give us free &dRotational Power&r, but it is still useful for slip ups! \\n\\nIt will also be useful for setting up &aContraptions&r, but that is for later."]
 	quest.127F9EAC7C305BF5.title: "&6Wrench"
 	quest.128A14A3842325FE.quest_subtitle: "Are the Bees still real?"
 	quest.12A70E00A63A7154.quest_subtitle: "Causes players to bounce upwards on fall"
+	quest.12DAE16CE73E630F.quest_desc: [
+		"Soul Suckers are ghostly fish found in the Soul Sand Valley biome. They have a unique property: you can shear them for Soul Sucker Leather."
+		""
+		"This leather is used to craft special boots that improve movement on soul sand and soul soil."
+	]
+	quest.12DAE16CE73E630F.title: "Soul Sucker"
 	quest.12F3A604329EC604.quest_desc: ["The Promise of Efficiency increases the efficiency of EvilCraft machines, reducing blood consumption."]
 	quest.12F3A604329EC604.quest_subtitle: "Increases the Efficiency of Machines"
 	quest.12F3A604329EC604.title: "Promise of Efficiency"
@@ -1094,6 +1151,14 @@
 	quest.155A843A562DB7C4.title: "Zombie Seeds"
 	quest.156FF8B7B724DC38.quest_desc: ["Controls which items can enter or exit the backpack via automation."]
 	quest.156FF8B7B724DC38.title: "Filter Upgrade"
+	quest.158BB749BCB514B2.quest_desc: [
+		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
+		""
+		"This mod adds biome-specific fish, customizable hooks with unique effects, bait systems, and the rare Neptunium material for endgame gear."
+		""
+		"Start by crafting a fishing rod to begin your angling journey."
+	]
+	quest.158BB749BCB514B2.title: "Introduction to Aquaculture"
 	quest.15C852ADA390B123.quest_desc: ["Advanced crafting materials. Blood Shards are key for Tier 4+ progression."]
 	quest.15C852ADA390B123.title: "Blood Materials"
 	quest.15C9CCCC8E06D430.quest_subtitle: "Flower: Black Quartz Block (Check JEI)"
@@ -1194,6 +1259,9 @@
 	quest.1794A299F36702C8.title: "Dungeon Key"
 	quest.1796E08BBDC09B84.quest_desc: ["&b&lDynamic &cTanks&r are Multiblocks which can be made at any size that is atleast 3x3x3! \\n\\n&b&lDynamic &cTanks&r will hold a ton of one &bFluid &for &cChemical&r. How many Buckets of that &bFluid &for &cChemical&r can the &c&lTank&r hold? That matters on the size. \\n\\n&b&lDynamic &cTanks&r are made out of &bDynamic &cTank &fBlocks&r with the inside of the Structure being hollow. The Walls can be made with Structure or Reactor Glass but the frame will need to be made of &bDynamic &cTank&r Blocks. \\n\\nYou'll also need &bDynamic &cTank&r Ports in the Walls to actually take and place Fluids and Chemicals. Whether it takes or places is determined by whether they Push or Pull."]
 	quest.1796E08BBDC09B84.title: "&b&lDynamic &cTank&r Multiblock"
+	quest.1798958465646965.quest_desc: ["Catch 3 Magma Cube Fish. Found in the Basalt Deltas biome."]
+	quest.1798958465646965.quest_subtitle: "Basalt Deltas"
+	quest.1798958465646965.title: "Magma Cube Fish Collection"
 	quest.17989643018D00C1.quest_desc: ["Do Hives annoy you when they drip? If so, you're in luck because there's an easy solution.\\n\\nYou can place a &eSponge&r in the Bottle slot of an Advanced Hive to stop it from dripping."]
 	quest.17989643018D00C1.quest_subtitle: "You got no Drip"
 	quest.17989643018D00C1.title: "Stopping Dripping"
@@ -1447,6 +1515,12 @@
 	quest.1D794DE95C9FF6C7.quest_desc: ["The Promise of Speed increases the processing speed of EvilCraft machines."]
 	quest.1D794DE95C9FF6C7.quest_subtitle: "Increase the Speed of Machines"
 	quest.1D794DE95C9FF6C7.title: "Promise of Speed"
+	quest.1D8F93E059360C11.quest_desc: [
+		"Boxes are uncommon fishing loot containing randomized treasures. Open them for a chance at useful items."
+		""
+		"The contents vary, but boxes often contain basic materials and occasionally valuable finds."
+	]
+	quest.1D8F93E059360C11.title: "The Mysterious Box"
 	quest.1D995548A159F291.quest_subtitle: "Feed a Soulium Dagger to a Ghostly Bee"
 	quest.1D995548A159F291.title: "Soulium Bee"
 	quest.1DA0A87C471A38AC.quest_desc: [
@@ -1483,6 +1557,9 @@
 	]
 	quest.1E3471513C75CC54.title: "Drying... &cBlood?"
 	quest.1E414D285E7A5FE2.title: "&cTertium Tools"
+	quest.1E420EE26133EDBD.quest_desc: ["Catch 3 Lava Pufferfish. Found in the Warped Forest biome."]
+	quest.1E420EE26133EDBD.quest_subtitle: "Warped Forest"
+	quest.1E420EE26133EDBD.title: "Lava Pufferfish Collection"
 	quest.1E4746630F6A8D4B.quest_desc: ["Create O'Plenty. Alternative sandpaper color from BOP black sand. Polishes items like standard sandpaper."]
 	quest.1E4746630F6A8D4B.title: "Black Sand Paper"
 	quest.1E499F94A2A193E1.quest_desc: ["Adds blast furnace interface for faster ore smelting."]
@@ -1767,6 +1844,12 @@
 	quest.24888CAD50B32B04.subtitle: "Breed: Ender + Lapis"
 	quest.248AEF5537E48B1A.quest_subtitle: "Tier 5 Resource Seed"
 	quest.248AEF5537E48B1A.title: "End Seeds"
+	quest.24A7046B10938D80.quest_desc: [
+		"Leeches are another fishing catch that doubles as bait. They provide 35 uses with lure speed bonus."
+		""
+		"Found while fishing in various biomes, leeches offer an alternative to worms and minnows."
+	]
+	quest.24A7046B10938D80.title: "Catching Leeches"
 	quest.24BA664B60E49461.quest_desc: ["Only one of the most powerful Tools in all of Modded &2&lMinecraft&r! The &6Cardboard Box&r! \\n\\nThese are made with very simple ingrediants, just 4 &6Sawdust&r. &6Sawdust&r is made from putting &7Sticks&r into a &e&lPrecision Sawmill&r. \\n\\nNow that we hopefully have one, just Right Click a Block with it and the Block will be placed into the &6Cardboard Box&r. Now we can break the &6Cardboard Box&r and move the Block by placing it again and Shift Right Clicking it to remove the Box. \\n\\nSome Blocks won't work like &8Bedrock&r or &dEnd Portal Frames&r... but there's so many more that will! Like &5Obsidian&f, &3Reinforced Deepslate&r, and Spawners! "]
 	quest.24BA664B60E49461.title: "&6Cardboard Box"
 	quest.24BAC1C0392E950E.quest_desc: ["I heard you can just take online classes to become one now."]
@@ -1858,6 +1941,9 @@
 		"Essential for mob farming automation."
 	]
 	quest.2782EA80C1C74EBD.title: "Mob Crusher"
+	quest.278FCF1F9278B879.quest_desc: ["Catch 5 Brown Shrooma. A mushroom-infused fish from mushroom biomes."]
+	quest.278FCF1F9278B879.quest_subtitle: "Special Catch"
+	quest.278FCF1F9278B879.title: "Brown Shrooma Collection"
 	quest.27A0BCE75F198A82.quest_subtitle: "Tier: &e1"
 	quest.27A0BCE75F198A82.title: "Fire Seeds"
 	quest.27E8ED4B5F8127F9.quest_subtitle: "Tier: &b4"
@@ -1878,6 +1964,9 @@
 	quest.283EDD3F65244DDD.quest_subtitle: "Breed: White Pigment + Black Pigment"
 	quest.283EDD3F65244DDD.subtitle: "Breed: White Pigment + Black Pigment"
 	quest.283EDD3F65244DDD.title: "Gray Pigment Bee"
+	quest.28596E8C65D79482.quest_desc: ["Catch 5 Red Grouper. Found in warm ocean biomes."]
+	quest.28596E8C65D79482.quest_subtitle: "Warm Water Fish"
+	quest.28596E8C65D79482.title: "Red Grouper Collection"
 	quest.287B47E27EBC2C18.quest_desc: [
 		"The Enchantment Factory creates enchanted books from essence."
 		""
@@ -2083,14 +2172,29 @@
 	quest.2C04B3BA507D5673.title: "Patterns"
 	quest.2C2958E38293717E.quest_desc: ["To start with the new &6&lCreate&r &eItems&r we'll need &eCardboard&r! \\n\\nWhich is made from &6Pressing&r Pulp. \\n\\nPulp is made from &6Mixing&r 4 Saplings and &9Water&f in a &6Mechanical Mixer&r and &8Basin&r. \\n\\nYou can combine &eCardboards&r to make &eBlocks of Cardboard&r which can make the new &eItems&r in &6&lCreate&r... or &eCardboard Armor&r!"]
 	quest.2C2958E38293717E.title: "&6&lCreate&r 1.21"
+	quest.2C32959B43FDEC7E.quest_desc: ["Catch 3 Wither Bonefish. Found in the Soul Sand Valley biome."]
+	quest.2C32959B43FDEC7E.quest_subtitle: "Soul Sand Valley"
+	quest.2C32959B43FDEC7E.title: "Wither Bonefish Collection"
 	quest.2C3CA7B9D1A7DC47.quest_desc: [
 		"Reinforced Slates unlock mid-tier recipes. They require a Tier 2 altar and 2,000 LP to craft from Blank Slates."
 		"These slates are needed for the Apprentice Blood Orb and various sigils. Keep a steady LP supply in your altar."
 	]
 	quest.2C3CA7B9D1A7DC47.title: "Reinforced Slates"
+	quest.2C46829AF8DAD837.quest_desc: [
+		"Craft a Silent Gear fishing rod using a blueprint. Silent Gear rods can be customized with different materials to improve durability and fishing luck."
+		""
+		"Use the Fishing Rod Blueprint with your chosen materials at a crafting station. Any material tier will work for getting started."
+	]
+	quest.2C46829AF8DAD837.title: "Your First Fishing Rod"
 	quest.2C47C9B566A63135.title: "Whirlisprig"
 	quest.2C5D78630C7AD57F.quest_desc: ["Increases range, does different things when used in different things."]
 	quest.2C5D78630C7AD57F.quest_subtitle: "Come Closer!"
+	quest.2C617797C476DADA.quest_desc: [
+		"Blazefish spawn exclusively in Fortress Pieces - small structures found submerged in lava near Nether Fortresses."
+		""
+		"Look for partially submerged nether brick structures in lava lakes. Cast your line nearby to catch these fiery fish."
+	]
+	quest.2C617797C476DADA.title: "Blazefish Hunter"
 	quest.2C7102478CAE5BF4.quest_desc: ["Binds non-chassis blocks to contraptions. Apply between blocks. Essential for complex builds."]
 	quest.2C7102478CAE5BF4.title: "Super Glue"
 	quest.2C73E3C5113BF2AC.quest_subtitle: "Tier: &a2"
@@ -2158,6 +2262,9 @@
 	quest.2DC4446A644A4079.title: "Hazmat Suit"
 	quest.2DE7CC686B56881F.quest_desc: ["Protects you from Mekanism radiation."]
 	quest.2DE7CC686B56881F.quest_subtitle: "Max: 1"
+	quest.2DFF263856BCCE63.quest_desc: ["Catch 5 Smallmouth Bass. Found in temperate freshwater."]
+	quest.2DFF263856BCCE63.quest_subtitle: "Temperate Fish"
+	quest.2DFF263856BCCE63.title: "Smallmouth Bass Collection"
 	quest.2DFFEB29B6CBFD99.quest_subtitle: "Breed: Iron + Blue Banded Bee"
 	quest.2DFFEB29B6CBFD99.subtitle: "Breed: Iron + Blue Banded Bee"
 	quest.2DFFEB29B6CBFD99.title: "Lead Bee"
@@ -2555,6 +2662,12 @@
 		"This dust is made from wither-touched materials and handles with care."
 	]
 	quest.367E891A50991436.title: "Witherite Dust"
+	quest.36851FA3BF1C0415.quest_desc: [
+		"Place a fish mount on a wall, then right-click it with a caught fish to display your trophy."
+		""
+		"Mounted fish make excellent decorations for fishing lodges, kitchens, or trophy rooms."
+	]
+	quest.36851FA3BF1C0415.title: "Display Your Catch"
 	quest.3697AAF8F281B247.quest_desc: ["This one's a doozy! So listen carefully! \\n1st is constructing the actual &bSteam Engine&r. The &bFluid Tanks&r will judge how much &9Water&r can be held within it and decide the Level the &bSteam Engine&r will be at. \\n\\nThen, simply attach the &bSteam Engine&r to the side of the &bFluid Tanks&r and it'll become a &bSteam Boiler&r. After, place a &8Shaft&r on the &bSteam Engine&r to get our Mechanical Arm that will give us &dRotational Power&r from it. \\n\\n2nd is a &cHeat Source&r. We'll need a &cHeat Source&r beneath the &bFluid Tanks&r to heat up the &9Water&r. There's quite a few &cHeat Sources&r: Fire, Campfire, Lava, Magma Blocks but &cBlaze Burners&r are the best! \\n\\nThe better the &cHeat Source&r, the more Stress Units! So feed those &cBlaze Burners&r some &cBlaze Cakes&r and you'll be rocking! \\n\\n3rd is &9Water&r. This is the fuel of our &bSteam Engine&r, there wouldn't be Steam without &9Water&r. \\n\\nHowever you &bPipe&r in &9Water&r is your choice, but I recommend using a Sink or &bHose Pulley&r!"]
 	quest.3697AAF8F281B247.title: "&bSteam Engine"
 	quest.369D3AF332181DA8.quest_desc: ["The Stone Nest can be placed in any overworld biome to lure in a Mason Bee or Digger Bee."]
@@ -2619,6 +2732,12 @@
 	quest.3730D350F1965768.title: "Black Pigment Bee"
 	quest.373668AE257A7A94.quest_desc: ["High Explosive Cartridges will shoot explosives at your Enemies, blowing up everything nearby like TNT would! \\n\\nDragon's Breath Shells work like Buckshot, but now the Projectiles are on Fire!!!!! \\n\\nPhial Cartridges give Potion Effects based on the Potion used in its creation. \\n\\nFlare Shells work like Fireworks in a Crossbow. \\n\\nHoming Cartridges will aim after whatever Mob is closest to you... let's hope it's a dangerous Mob. \\n\\nWolfpack Shells are like Buckshot Shells but now the Projectiles are Homing Cartridges!"]
 	quest.373668AE257A7A94.title: "Specialized Projectiles"
+	quest.373A9B66703F21CE.quest_desc: [
+		"The Light Hook makes your bobber cast further and retrieve faster."
+		""
+		"Useful for reaching distant fishing spots and speeding up your catch rate in shallow water."
+	]
+	quest.373A9B66703F21CE.title: "Light Hook"
 	quest.375FF0D8ACD2E17F.quest_desc: [
 		"Imbued Slates require a Tier 3 altar and 5,000 LP. They unlock the Magician Blood Orb and advanced sigils."
 		"The Tier 3 altar requires 28 runes in a specific pattern. Consult the guide book for the multiblock structure."
@@ -2715,6 +2834,12 @@
 	quest.3A4B5A9B432576AD.title: "&6Awakened Supremium Watering Can"
 	quest.3A4C62865C7CC862.quest_desc: ["&bFluid Tanks&r can hold &bFluids&r. Like Chests, but for &9Water&r and such! \\n\\nYou can only Input &bFluids&r with Buckets but with &bPipes&r you can Input and Output &bFluids&r from them. \\n\\nEach &bFluid Tank&r can hold 8 Buckets or 8000mB of &bFluid&r. But that number will rise when we combine them! \\n\\nYes, you heard me right! We can place multiple &bFluid Tanks&r next to each other to connect their Inventories. They will stack when placed on top of each other up to 32, or by 2x2 or 3x3."]
 	quest.3A4C62865C7CC862.title: "&bFluid Tanks"
+	quest.3A5A1E2EBCA7A76C.quest_desc: ["Catch 3 Searing Cod. Found in the Nether Wastes biome."]
+	quest.3A5A1E2EBCA7A76C.quest_subtitle: "Nether Wastes"
+	quest.3A5A1E2EBCA7A76C.title: "Searing Cod Collection"
+	quest.3A8C7877655CDB70.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
+	quest.3A8C7877655CDB70.quest_subtitle: "Turtle"
+	quest.3A8C7877655CDB70.title: "Box Turtle Collection"
 	quest.3A97E99FEC78E9C2.quest_desc: ["Uses dragon's breath for power generation."]
 	quest.3A97E99FEC78E9C2.title: "Mycelial Halitosis Generator"
 	quest.3A9A989D747FF62D.quest_desc: ["Prevents train collisions. Place on tracks at intersections. Required for multi-train networks."]
@@ -2763,6 +2888,9 @@
 	quest.3B42CCC19D23EC6D.quest_desc: ["The second tier of storage component, providing &e4096&f bytes of storage."]
 	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
 	quest.3B42CCC19D23EC6D.title: "4k Storage Component"
+	quest.3B4A56EB5620E15A.quest_desc: ["Catch 5 Perch. Found in freshwater biomes."]
+	quest.3B4A56EB5620E15A.quest_subtitle: "Freshwater Fish"
+	quest.3B4A56EB5620E15A.title: "Perch Collection"
 	quest.3B54433C990880E9.quest_desc: ["An automated enchanting table powered by Liquid Experience. Supply enchanted books via belt or funnel to apply specific enchantments to items."]
 	quest.3B54433C990880E9.title: "Blaze Enchanter"
 	quest.3B936CA3F0F7B26B.quest_desc: [
@@ -2781,6 +2909,15 @@
 	quest.3BB3AA6C29285837.title: "&2Prudentium Apple"
 	quest.3BDB90B69519496A.quest_desc: ["Transmits rotational power in a straight line. Foundation of all kinetic networks."]
 	quest.3BDB90B69519496A.title: "Shaft"
+	quest.3C140857B3DC5226.quest_desc: [
+		"The Nether Star Hook combines the best features: 50% durability protection and +1 Luck modifier."
+		""
+		"The ultimate fishing hook, requiring a Nether Star to craft. Worth the investment for serious anglers."
+	]
+	quest.3C140857B3DC5226.title: "Nether Star Hook"
+	quest.3C169B4C4A56E499.quest_desc: ["Catch 5 Pacific Halibut. A large flatfish found in cold waters."]
+	quest.3C169B4C4A56E499.quest_subtitle: "Cold Water Fish"
+	quest.3C169B4C4A56E499.title: "Pacific Halibut Collection"
 	quest.3C892B33758B7BA6.quest_desc: ["&dCogs &fand &dLarge Cogs&r can interact with each other to change Speed and Stress! \\n\\nIf you connect a &dCog&r, diagonally from a &dLarge Cog&r, the &dCog&r will double in Speed! This is because the &dLarge Cog&r has more Teeth than the &dCog&r, it takes longer to take a full &dRotation&r. \\n\\nThis also works in the reverse, if you put a &dLarge Cog&r diagonal to a &dCog&r, the &dLarge Cog&r will spin at half Speed. \\n\\nThese will also change the Stress Units from the &dCogs&r. More Speed, more Stress. Less Speed, less Stress."]
 	quest.3C892B33758B7BA6.title: "&dCog&r Teamwork!"
 	quest.3C8D9278B81BB37A.quest_desc: ["We don't have all the time in the World, let's &eSpeed&r it up a bit! \\n\\nThe &2&lReactors&r won't wait forever!"]
@@ -2854,6 +2991,9 @@
 	quest.3E16CF590C911129.quest_desc: ["The &3Air Compressor&r is an easy way of making pressure, simply put some burnable items into it, and watch the magic happen! (I recommend making at least 3 of these to start off with)."]
 	quest.3E16CF590C911129.quest_subtitle: "Feeling the Pressure"
 	quest.3E16CF590C911129.title: "Generating Pressure"
+	quest.3E26E20B8AE80FF9.quest_desc: ["Catch 5 Catfish. Found in various freshwater biomes."]
+	quest.3E26E20B8AE80FF9.quest_subtitle: "Catfish"
+	quest.3E26E20B8AE80FF9.title: "Catfish Collection"
 	quest.3E301F3EEC8C763A.quest_desc: [
 		"This can be used to speed up the growth rate of baby Bees, or to create new Spawn Eggs."
 		""
@@ -2974,6 +3114,12 @@
 	quest.40B24676E11D9410.title: "Ore Refinement Unit"
 	quest.40BC67BDEE15D1DE.quest_desc: ["To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!"]
 	quest.40BC67BDEE15D1DE.title: "Source Gems"
+	quest.40C92D2CC221B090.quest_desc: [
+		"The Heavy Hook makes your bobber sink faster and deeper."
+		""
+		"Ideal for deep water fishing where fish may be found at lower depths."
+	]
+	quest.40C92D2CC221B090.title: "Heavy Hook"
 	quest.40E4F1172A164DD1.quest_subtitle: "Chance to Spawn when breaking Cocoa Pods in a Jungle"
 	quest.40E4F1172A164DD1.title: "Sugarbag Bee"
 	quest.40E8940C92668D4F.quest_desc: [
@@ -3060,6 +3206,12 @@
 		"On top of our highest Rotor we'll place the Rotational Complex. Trust me it is important!"
 	]
 	quest.4211F29561F21643.title: "Moving parts"
+	quest.422D7945AA0DFB0C.quest_desc: [
+		"Neptune's Bounty is an extremely rare fishing treasure containing Neptunium materials."
+		""
+		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
+	]
+	quest.422D7945AA0DFB0C.title: "Neptune's Bounty"
 	quest.423B8DA485C1308C.quest_desc: ["&3Gasoline&r can be used to make LPG."]
 	quest.423B8DA485C1308C.quest_subtitle: "Gas, gas, gas"
 	quest.423B8DA485C1308C.title: "Gasoline"
@@ -3144,6 +3296,15 @@
 	]
 	quest.43DB0CFC5F5B0967.quest_subtitle: "Bodyarmor"
 	quest.43DB0CFC5F5B0967.title: "Dosimeter Unit"
+	quest.43DCD30F9B576606.quest_desc: ["Catch 5 Muskellunge. A large predatory fish."]
+	quest.43DCD30F9B576606.quest_subtitle: "Predator Fish"
+	quest.43DCD30F9B576606.title: "Muskellunge Collection"
+	quest.43EF1FFC08F16D1D.quest_desc: [
+		"Worms are the primary bait type. They increase your lure speed, causing fish to bite faster."
+		""
+		"Keep a steady supply from your Worm Farm for consistent fishing efficiency."
+	]
+	quest.43EF1FFC08F16D1D.title: "Harvesting Worms"
 	quest.43EF5513A1C52A37.quest_desc: ["The &3Thermopneumatic Processing Plant&r will be used to make Molten Plastic, simply pump in some LPG, Coal and some heat."]
 	quest.43EF5513A1C52A37.quest_subtitle: "The longer the name, the better"
 	quest.43EF5513A1C52A37.title: "Thermopneumatic Processing"
@@ -3159,12 +3320,21 @@
 	quest.441D994CB752E6A8.title: "Living Armor"
 	quest.442B1A1900BADAFC.quest_desc: ["Some Machines in &8&lIE&r aren't Multiblocks, rather they are single-blocked! \\n\\nDon't think that, just because they are made with 1 Block that, they aren't important though! "]
 	quest.442B1A1900BADAFC.title: "Small Machines"
+	quest.44451D04A277F3FE.quest_desc: ["Catch 5 Piranha. Found in jungle biomes. Handle with care."]
+	quest.44451D04A277F3FE.quest_subtitle: "Jungle Fish"
+	quest.44451D04A277F3FE.title: "Piranha Collection"
 	quest.4447EEEB8D762721.quest_desc: [
 		"The Laser Dissipation Units will upgrade the MekaSuit. Well each piece of it."
 		"Instead of quickly killing you when you walk into Lasers, they won't cause any Damage at all! A little bit of the Laser will actually pass right through you!"
 	]
 	quest.4447EEEB8D762721.quest_subtitle: "All Armor"
 	quest.4447EEEB8D762721.title: "Laser Dissipation Unit"
+	quest.4450705815FB9DD7.quest_desc: [
+		"Treasure Chests are the rarest standard fishing loot. They contain the best non-Neptunium rewards."
+		""
+		"Finding one is a sign of skilled or lucky fishing. Check inside for valuable treasures."
+	]
+	quest.4450705815FB9DD7.title: "Treasure Chest"
 	quest.445CC9AAA6F8AAB6.quest_desc: ["For the next Tier of &lOre Processing&r we'll need &l&bPurifiers&r and they'll need &bOxygen&r. So, let's make some &bOxygen&r! \\n\\nUse an &9&lElectric Pump&r or any Automated &9Water&r to feed &9Water&r into an &9&lElectrolytic Separator&r. \\n\\nOnce fed &aEnergy &fand &9Water&r, the &9&lElectrolytic Separator&r will turn that H2O into H (Hydrogen) and O (&bOxygen&r)! \\n\\nWe can dump the &bHydrogen&r, and Pipe the Oxygen into the &b&lPurifier&r. \\n\\nNow that the &b&lPurifier&r has &bOxygen&r, we can place our &7Ores&r into it to get 3 &7Ore Clumps&f from &7Ore Blocks&f or 2 &7Ore Clumps &ffrom &7Raw Ore&r."]
 	quest.445CC9AAA6F8AAB6.quest_subtitle: "Tier 2 Ore Processing"
 	quest.445CC9AAA6F8AAB6.title: "Making &bOxygen &ffor &b&lPurifier"
@@ -3550,6 +3720,9 @@
 		""
 	]
 	quest.4D193D60A3CAF435.title: "&2&lDiesel Generator"
+	quest.4D4D4871C11487D6.quest_desc: ["Catch 3 Bonefish. Found in the Nether Wastes biome."]
+	quest.4D4D4871C11487D6.quest_subtitle: "Nether Wastes"
+	quest.4D4D4871C11487D6.title: "Bonefish Collection"
 	quest.4D7B6842B9F53459.quest_desc: ["The Effortless Ring gives you a speed boost and step height!"]
 	quest.4D7B6842B9F53459.title: "Effortless Ring"
 	quest.4D8190E94851C546.quest_desc: ["Live &cWires&r (&cWires&r transporting &cEnergy&r are Live &cWires&r) will hurt you when using a &6&lSkyhook&r on them. \\n\\nUnless you Insulate your Grip!"]
@@ -3601,6 +3774,12 @@
 	]
 	quest.4E8A05C3BFA80540.quest_subtitle: "Items as a file system"
 	quest.4E8A05C3BFA80540.title: "The Storage"
+	quest.4EB555D995329F96.quest_desc: [
+		"Lava Sponges are found in small structures in the Nether. They function like regular sponges but absorb lava instead of water."
+		""
+		"Place a wet lava sponge in the overworld or use water to dry it out for reuse. Essential for draining lava pools."
+	]
+	quest.4EB555D995329F96.title: "Lava Sponge"
 	quest.4EBED8ABC8C863A4.quest_desc: ["Upgrade to Tier 3 promises for the most powerful EvilCraft machine capabilities."]
 	quest.4EBED8ABC8C863A4.title: "&aRank 3&r: Even More &cBlood"
 	quest.4EDD96EB60EF5814.quest_desc: ["If you're wondering if it is worth making this upgrade, the answer is yes.\\n\\n&e&l&oAdvanced Solar Generators&r will take up more Space and are expensive to Craft but will Generate so much more &aEnergy&r. \\n\\nThey work the same as normal &e&lSolar Generators&r, &eDaytime&f and need &bSky&r Exposure. \\n\\nThese can hold 100kFE! \\n\\nYou can also add them on top of &6&lThermal Evaporation Plants&r to produce more &6Heat&r."]
@@ -3660,6 +3839,12 @@
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "Applies the Wither debuff"
 	quest.4F6859CE7216618F.quest_desc: ["Attracts nearby items to you. Toggle on for automatic item collection."]
 	quest.4F6859CE7216618F.title: "Magnetism Sigil"
+	quest.4F7547FCD77F55DA.quest_desc: [
+		"The Worm Farm produces worms from compostable materials. Fill it with organic items and it will generate worms over time."
+		""
+		"Place compostable items in the farm until it reaches level 8, then extract worms for bait."
+	]
+	quest.4F7547FCD77F55DA.title: "Building a Worm Farm"
 	quest.4F8119B6298EA753.quest_subtitle: "Changes weather: clear, rain, or storm"
 	quest.4F8119B6298EA753.title: "Ritual of Cloudshaping"
 	quest.4F9C8D90ACF563F5.quest_desc: [
@@ -3876,6 +4061,12 @@
 		"The Enchanter's Bow can also use special Augment Arrows that empower the inscribed spell."
 	]
 	quest.51162B9185A45BB1.title: "Enchanter's Bow"
+	quest.511FCADED84B28A0.quest_desc: [
+		"Fishing rods can be enhanced with hooks, bait, fishing line, and bobbers. Each attachment provides different benefits."
+		""
+		"Use the Tackle Box interface to attach equipment to your rod. Hooks provide the most significant gameplay effects."
+	]
+	quest.511FCADED84B28A0.title: "Equipping Your Rod"
 	quest.51236544BFEF487B.quest_desc: [
 		"It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center."
 		""
@@ -3885,6 +4076,9 @@
 	]
 	quest.51236544BFEF487B.quest_subtitle: "'COMIC #42: shearching 4 bobby [Fischer]'"
 	quest.51236544BFEF487B.title: "Meteorite hunting"
+	quest.5128AE9A9F608850.quest_desc: ["Catch 5 Red Shrooma. A mushroom-infused fish from mushroom biomes."]
+	quest.5128AE9A9F608850.quest_subtitle: "Special Catch"
+	quest.5128AE9A9F608850.title: "Red Shrooma Collection"
 	quest.5134C81D96C55375.quest_desc: ["&5Train Observers&r work like a fancy Detection Rail. \\n\\nWhen a &5Train&r rolls over it the &7Track&r it is set to (which is chosen like the &5Train Station&r) it will give a &4Redstone Signal&r. \\n\\nYou can also place Filters into the &5Observer&r to only get &4Redstone Signals&r when the &5Train&r has that &eItem &for &bFluid&r within."]
 	quest.5134C81D96C55375.title: "&5Train Observer"
 	quest.515001313775DCFC.quest_subtitle: "Simulates using shears on entities/blocks"
@@ -3970,6 +4164,12 @@
 	quest.52EC3D68CF329D4C.title: "Train Schedule"
 	quest.5303509A1C2B1CCD.quest_desc: ["The &3Pneumatic Jackhammer&r uses pressure to mine, it can be upgraded to be amazing!"]
 	quest.5303509A1C2B1CCD.quest_subtitle: "Sorry Jack!"
+	quest.53129F8F52DC7541.quest_desc: [
+		"Craft Soul Sucker Boots using 4 Soul Sucker Leather and 2 String in the standard boot pattern."
+		""
+		"These boots significantly increase your movement speed on Soul Sand and Soul Soil, making Soul Sand Valley traversal much easier."
+	]
+	quest.53129F8F52DC7541.title: "Soul Sucker Boots"
 	quest.5316DF321B45D2CA.quest_desc: [
 		"&lWelcome to &dOccultism&f!"
 		""
@@ -4442,6 +4642,12 @@
 	quest.5372264ED2D55143.quest_subtitle: "Spawn egg only (from loot)"
 	quest.5372264ED2D55143.subtitle: "Spawn egg only (from loot)"
 	quest.5372264ED2D55143.title: "HOP Graphite Bee"
+	quest.53D0F53DC7F37498.quest_desc: ["Catch 5 Atlantic Herring. A small schooling fish from cold waters."]
+	quest.53D0F53DC7F37498.quest_subtitle: "Cold Water Fish"
+	quest.53D0F53DC7F37498.title: "Atlantic Herring Collection"
+	quest.53D42EEF89628855.quest_desc: ["Catch 3 Soul Suckers. Found in the Soul Sand Valley biome."]
+	quest.53D42EEF89628855.quest_subtitle: "Soul Sand Valley"
+	quest.53D42EEF89628855.title: "Soul Sucker Collection"
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"&eMarid&f are powerful water spirits requiring ocean-themed materials."
 		""
@@ -4558,6 +4764,12 @@
 	quest.55882C10292B6A3D.quest_subtitle: "Flower: Prosperity Block (Check JEI)"
 	quest.55882C10292B6A3D.subtitle: "Flower: Prosperity Block (Check JEI)"
 	quest.55882C10292B6A3D.title: "ProsperiBee"
+	quest.55D95800839B5164.quest_desc: [
+		"Lockboxes are rarer than regular boxes and contain better loot. They have a lower catch rate but higher reward potential."
+		""
+		"Using a Gold Hook or Luck of the Sea enchantment increases your chances of finding lockboxes."
+	]
+	quest.55D95800839B5164.title: "Lockbox Discovery"
 	quest.566C1DBA9829E328.quest_desc: ["The &e&lCombiner&r can automate simple 2 &eItem&r Recipes! \\n\\nLike 2 different Dyes, or Mud and Wheat to get Packed Mud. \\n\\nIt can even do some new unique Recipes like &7Cobble&f and &0Flint&r to make &7Gravel&r, or 4 &5Obsidian Dust &fand &8Deepslate&f to make &5Obsidian&r!"]
 	quest.566C1DBA9829E328.title: "&e&lCombiner"
 	quest.56B58CAFCB707565.quest_subtitle: "Tier: &63"
@@ -4618,6 +4830,12 @@
 	quest.5766C8B9E850C186.title: "Imbuement Chamber"
 	quest.576ABF43FCF886B7.quest_subtitle: "Tier 2 Farmland"
 	quest.576ABF43FCF886B7.title: "&2Prudentium Farmland"
+	quest.57986A8848660BE4.quest_desc: [
+		"Use shears on a Soul Sucker to harvest Soul Sucker Leather. The fish survives the process and can be sheared again."
+		""
+		"You can keep Soul Suckers in buckets for a renewable leather source."
+	]
+	quest.57986A8848660BE4.title: "Soul Sucker Leather"
 	quest.57A18F2E51952EB8.quest_desc: ["&5Postboxes&r will use Addresses and &5Trains&r to deliver &ePackages&r! \\n\\nFirst, &ePackages&r can be held on &5Trains&r with &eDepots&r! Obviously the &eDepot&r needs to be connected to the &5Train &fvia &aGlue&r. \\n\\nNext, we can assign the &5Postbox&r to a &5Train Station&r by Right Clicking the &5Train Station&r wtih the &5Postbox&r in Hand. \\n\\nWe can then place the &5Postbox&r nearby and when a &5Train &farrives at the &5Station&r they will interact with the &5Postbox&r. \\n\\nIn the &5Postbox's&r GUI we can change its Address, which will effect whether &ePackages&r are delivered or sent from it. If the Address of the &ePackage&r matches the Address of the &5Postbox&r, it will be sent to the &5Postbox&r. If it doesn't match, it will go from the &5Postbox&r to your &5Train&r!"]
 	quest.57A18F2E51952EB8.title: "&5Postboxes"
 	quest.57A7A5C79389A96A.quest_desc: ["Most Players will already know of &6&lCreate&r especially its billions of Addons! Not that many Mods have whole Modpacks based around them! \\n\\nIf you aren't used to &6&lCreate&r, these Quests should help you to learn the Mod. And with many &eItems &fand &6Machines&r there is a Ponder Option! Hold W while viewing the &eItem&r to watch a schematic that will teach you to understand the &eItem &for &6Machine&r. \\n\\nAnd trust me, you'll want to learn &6&lCreate&r, it is super useful! \\n\\nTo start you'll need &8Andesite&r and lots of it."]
@@ -4635,6 +4853,9 @@
 	quest.57CF8C6C867B9BDA.quest_desc: ["Enhanced filter with more slots and matching options."]
 	quest.57CF8C6C867B9BDA.quest_subtitle: "More Filtering Options"
 	quest.57CF8C6C867B9BDA.title: "Advanced Filter Upgrade"
+	quest.58245132D32285F2.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
+	quest.58245132D32285F2.quest_subtitle: "Turtle"
+	quest.58245132D32285F2.title: "Starshell Turtle Collection"
 	quest.5831B3192C0E8C56.quest_desc: [
 		"Access your dimensional storage from anywhere!"
 		""
@@ -4682,6 +4903,12 @@
 	quest.58B5EF8EB72934C2.title: "Jetpack Unit"
 	quest.58C33ED92F63EACB.quest_subtitle: "Flower: Near animals (vampire bee)"
 	quest.58C33ED92F63EACB.subtitle: "Flower: Near animals (vampire bee)"
+	quest.58D085452013268B.quest_desc: [
+		"Neptunium Ingots are found inside Neptune's Bounty chests. This rare material creates powerful aquatic gear."
+		""
+		"Neptunium can also be used as a Silent Gear material for customized equipment with water-themed traits."
+	]
+	quest.58D085452013268B.title: "Neptunium Ingot"
 	quest.58EBEC3DDE47DAC7.quest_subtitle: "Sets blocks and mobs on fire"
 	quest.58EC47584C773B82.quest_desc: [
 		"Using our Enchanting Apparatus structure, we'll want to craft our first seed, the Magebloom Seed."
@@ -4725,6 +4952,12 @@
 		"On death he will drop Arcane Essence, Inks, Fire Runes, and Fire Spells!"
 	]
 	quest.59E68086A8B99EA7.title: "Pyromancer"
+	quest.59F2EAF2D6AE2813.quest_desc: [
+		"The Tackle Box stores and organizes your fishing equipment. It has dedicated slots for hooks, bait, fishing line, and bobbers."
+		""
+		"Place it near your fishing spot for quick access to your gear. You can shift-click to pick up the entire box with its contents."
+	]
+	quest.59F2EAF2D6AE2813.title: "The Tackle Box"
 	quest.5A0860631323B5E3.quest_desc: ["Made with &3Wheat Flour&r. Can be used to make Salmon Tempura and Sourdough Bread."]
 	quest.5A0860631323B5E3.quest_subtitle: "You knead this"
 	quest.5A088F8402230BA5.quest_desc: [
@@ -4862,6 +5095,9 @@
 		"Craft it in the Blood Altar from a Diamond. Higher tier orbs store more LP and are required for advanced sigil activation."
 	]
 	quest.5BF29A151A04FEF0.title: "Weak Blood Orb"
+	quest.5BF68675F30916FE.quest_desc: ["Catch 5 Blackfish. Found in cold ocean and beach biomes."]
+	quest.5BF68675F30916FE.quest_subtitle: "Cold Water Fish"
+	quest.5BF68675F30916FE.title: "Blackfish Collection"
 	quest.5C22E3103544B120.quest_desc: [
 		"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
 		""
@@ -4895,6 +5131,9 @@
 	quest.5C7D9BCDF19B86BD.quest_subtitle: "Secure!"
 	quest.5CC9CB0911954215.quest_desc: ["A Reed Nest will work in any overworld biome, and will lure in a Mason Bee or a Reed Bee."]
 	quest.5CC9CB0911954215.quest_subtitle: "Lures bees in any Overworld Biome"
+	quest.5CCEB9B966C41311.quest_desc: ["Catch 5 Jellyfish. Can be converted to slimeballs."]
+	quest.5CCEB9B966C41311.quest_subtitle: "Special Catch"
+	quest.5CCEB9B966C41311.title: "Jellyfish Collection"
 	quest.5CD8D169181C7339.quest_desc: [
 		"These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees."
 		""
@@ -4915,6 +5154,17 @@
 	quest.5CF2A069A3CC4EF6.quest_subtitle: "Breed: Reed Bee + Resin Bee"
 	quest.5CF2A069A3CC4EF6.subtitle: "Breed: Reed Bee + Resin Bee"
 	quest.5CF2A069A3CC4EF6.title: "Silky Bee"
+	quest.5CF633A236A57213.quest_desc: [
+		"Neptunium can be crafted into armor and tools with aquatic abilities:"
+		""
+		"&bHelmet&r: Night vision underwater"
+		"&bChestplate&r: Water breathing"
+		"&bLeggings&r: Neutral buoyancy"
+		"&bBoots&r: Faster swimming"
+		""
+		"Tools work at full efficiency underwater and deal bonus damage in water."
+	]
+	quest.5CF633A236A57213.title: "Neptunium Potential"
 	quest.5CFBA24B3E0CDEDD.quest_desc: [
 		"While holding your Spellbook, you can press C to open up the spell creation page."
 		""
@@ -5061,6 +5311,9 @@
 	quest.5F56892CD904C40F.quest_desc: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
 	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
 	quest.5F56892CD904C40F.title: "256k Storage Component"
+	quest.5F609A07E5268106.quest_desc: ["Catch 3 Eyeball Fish. A rare and disturbing catch."]
+	quest.5F609A07E5268106.quest_subtitle: "Rare Catch"
+	quest.5F609A07E5268106.title: "Eyeball Fish Collection"
 	quest.5F6ACDE014A61F46.quest_desc: [
 		"Buffs:"
 		""
@@ -5173,6 +5426,12 @@
 	quest.61B479079DC1C69C.quest_subtitle: "Max: 1"
 	quest.61BA2932EC86DA2E.quest_desc: ["Allows you to jump VERY high."]
 	quest.61BA2932EC86DA2E.quest_subtitle: "Max: 1"
+	quest.61C39D6638D64D39.quest_desc: [
+		"The Iron Hook provides a 20% chance to not consume rod durability when catching fish."
+		""
+		"A reliable early-game option that extends your rod's lifespan during long fishing sessions."
+	]
+	quest.61C39D6638D64D39.title: "Iron Hook"
 	quest.61DA739D165F0154.quest_desc: ["Powers aircraft. Burns fuel for thrust. Core component of all flying machines."]
 	quest.61DA739D165F0154.title: "Engine"
 	quest.6244032FE2E5F1E1.quest_desc: [
@@ -5328,6 +5587,12 @@
 	quest.64D0E66CB4FBEC82.title: "Spell Books"
 	quest.64D34A6C3487C5DF.quest_desc: ["The &3Aerial Interface&r can be used to refill your pressurizable things with pressure. Now you can use your Pneumatic Armor without needing to recharge!"]
 	quest.64D34A6C3487C5DF.quest_subtitle: "Wireless Pressure!"
+	quest.64E204F9261DF6B0.quest_desc: [
+		"The Farmer's Delight Cutting Board is used for processing fish. Place it in the world and use your knife on fish to create fillets."
+		""
+		"Right-click the cutting board with fish, then use your knife to process them."
+	]
+	quest.64E204F9261DF6B0.title: "The Cutting Board"
 	quest.64E2E05B228EA53E.quest_desc: [
 		"&3Advanced Pressure Tubes&r are the best Pressure Tubes available, being able to hold 20 bars of pressure!"
 		""
@@ -5386,6 +5651,12 @@
 	quest.65E2AF881709C896.quest_desc: ["One of the most important materials you'll be needing is &3Reinforced Stone&r, start by making 32 using Compressed Iron and some regular stone."]
 	quest.65E2AF881709C896.quest_subtitle: "You'll need a lot of this"
 	quest.65E2AF881709C896.title: "Reinforced Stone"
+	quest.6601A169CB71BB8A.quest_desc: [
+		"The Diamond Hook provides a 50% chance to not consume rod durability."
+		""
+		"The best hook for rod preservation, significantly extending your equipment's lifespan."
+	]
+	quest.6601A169CB71BB8A.title: "Diamond Hook"
 	quest.662DD269B027B6C8.quest_desc: ["You can't wirelessly charge your &c&lAccumulator Backpack&r... but you can charge it &cwired&r! \\n\\nSimply attach your Charging Antenna to your &c&lAccumulator Backpack&r and walk up to any &cWires&r transporting &cEnergy&r and some of it will come to your &c&lBackpack&r."]
 	quest.66324D7D0C51AEAC.quest_desc: ["The Upgrade Base is used to craft the various Upgrades in Productive Bees."]
 	quest.666EA8B8F13EB292.quest_desc: [
@@ -5521,6 +5792,9 @@
 	]
 	quest.68F92455A9483AD6.quest_subtitle: "You thought using an Elytra was hard?"
 	quest.68F92455A9483AD6.title: "Jet Boots"
+	quest.690A7182899481CC.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
+	quest.690A7182899481CC.quest_subtitle: "African Fish"
+	quest.690A7182899481CC.title: "Boulti Collection"
 	quest.690B89D23134B624.quest_desc: [
 		"The &bRainbow Chalk&f combines all colors into one."
 		""
@@ -5571,6 +5845,12 @@
 	quest.69D8F6483DACD930.title: "&cTertium Watering Can"
 	quest.69EE22CB4FF1E591.quest_desc: ["&aContraptions&r are very difficult to understand but pretty much it is the art of combining different Blocks and &6Machines&r into one moving systems. \\n\\nYou'll need &6Machines&r to actually move the &aContraption&r like &aLinear Chasis&r, you'll need the &6Machines&r you want to work like &6Drills&r, and you'll need &aGlue&r to hold it all together! \\n\\nOnce it is all &aGlued&r it should move when &dRotational Power&r is given to the moving &6Machine&r of the &aContraption&r."]
 	quest.69EE22CB4FF1E591.title: "&a&lContraptions"
+	quest.69EF3F4E51C1D8E6.quest_desc: [
+		"Minnows can be caught while fishing and used as bait. They provide 50 uses and increase lure speed."
+		""
+		"A renewable bait source that doesn't require a Worm Farm to obtain."
+	]
+	quest.69EF3F4E51C1D8E6.title: "Catching Minnows"
 	quest.6A1174845810C7A1.quest_desc: [
 		"The Modification Station is how we will throw our Module Units into our Tools and Armor. It will need Energy to operate, because of course it does."
 		"When you Right Click a powered Modification Station it will open up its GUI. Here we can see our entire Inventory including Armor and Offhand."
@@ -5597,6 +5877,15 @@
 	quest.6A2B2C5E2ADCE366.title: "Backpack"
 	quest.6A4C49AE72E98727.quest_desc: ["The Tinkering Table is how you add these augments to your essence gear!"]
 	quest.6A4C49AE72E98727.title: "Tinkering Table"
+	quest.6A507BACD41D8D82.quest_desc: ["Catch 5 Tambaqui. A large Amazonian fish found in jungles."]
+	quest.6A507BACD41D8D82.quest_subtitle: "Jungle Fish"
+	quest.6A507BACD41D8D82.title: "Tambaqui Collection"
+	quest.6A8013C276C08337.quest_desc: [
+		"Lava Pufferfish are found in the Warped Forest biome's lava pools. Like their overworld cousins, they're useful for brewing."
+		""
+		"This fish is the key ingredient for Potion of Lava Vision, essential for underlava exploration."
+	]
+	quest.6A8013C276C08337.title: "Lava Pufferfish"
 	quest.6AAB831CB3FB536A.quest_desc: [
 		"Blank Slates are the foundation for crafting progression items. Place stone in the Blood Altar with sufficient LP to infuse it."
 		"Each slate tier requires more LP and a higher tier altar. Slates are used to craft orbs, sigils, and other essential items."
@@ -5676,18 +5965,27 @@
 		"Faster charging means quicker crafting cycles for orbs, slates, and sigils."
 	]
 	quest.6C57FF70679AF123.title: "Charging Rune"
+	quest.6C6C3E70AF1631E8.quest_desc: ["Catch 3 Obsidianfish. Found in the Basalt Deltas biome."]
+	quest.6C6C3E70AF1631E8.quest_subtitle: "Basalt Deltas"
+	quest.6C6C3E70AF1631E8.title: "Obsidianfish Collection"
 	quest.6C76AB8A6110C0C7.quest_desc: [
 		"Blazing Hellshelves provide 5 &aEterna&r (max 60), 10% &4Quanta&r, and 5% &5Arcana&r. They offer a balanced stat spread useful for infusions requiring moderate amounts of all three stats. "
 		""
 		"Craft from Infused Hellshelves with Blaze Powder and Magma Cream."
 	]
 	quest.6C76AB8A6110C0C7.title: "Craft Blazing Hellshelf"
+	quest.6C7B879451D57C68.quest_desc: ["Catch 5 Synodontis. An African catfish."]
+	quest.6C7B879451D57C68.quest_subtitle: "African Fish"
+	quest.6C7B879451D57C68.title: "Synodontis Collection"
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
 	quest.6CA01DCE1F4A0EC3.title: "Crude Oil"
 	quest.6CA1D90CCE17097D.quest_desc: ["The Sceptre of Thunder summons a single lightning bolt at your target location. It can only be used once."]
 	quest.6CA1D90CCE17097D.quest_subtitle: "A One-Time Use Lightning Scepter"
 	quest.6CA1D90CCE17097D.title: "Sceptre of Thunder"
+	quest.6CA3A66921216063.quest_desc: ["Catch 3 Glowdine. Found in the Crimson Forest biome."]
+	quest.6CA3A66921216063.quest_subtitle: "Crimson Forest"
+	quest.6CA3A66921216063.title: "Glowdine Collection"
 	quest.6CAB40739E6D1D96.quest_subtitle: "Breed: Glowing + Salty"
 	quest.6CAB40739E6D1D96.subtitle: "Breed: Glowing + Salty"
 	quest.6CC5FE34778F0DFA.quest_desc: [
@@ -5796,6 +6094,9 @@
 	quest.6E15447FC3D678E0.quest_desc: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
 	quest.6E15447FC3D678E0.quest_subtitle: "The remaining two IO cards"
 	quest.6E15447FC3D678E0.title: "Loosely Speaking"
+	quest.6E279FB94F751D21.quest_desc: ["Catch 5 Brown Trout. Found in temperate freshwater."]
+	quest.6E279FB94F751D21.quest_subtitle: "Temperate Fish"
+	quest.6E279FB94F751D21.title: "Brown Trout Collection"
 	quest.6E3D53D1C4569A89.quest_desc: ["Stores experience as liquid XP. Extract or inject XP to/from yourself."]
 	quest.6E3D53D1C4569A89.quest_subtitle: "Storing XP"
 	quest.6E3D53D1C4569A89.title: "XP Pump Upgrade"
@@ -5807,8 +6108,14 @@
 	quest.6EAC81649890D9E8.quest_desc: ["Immersive Aircraft. Basic aircraft component. Generates thrust when connected to an engine."]
 	quest.6EAC81649890D9E8.title: "Propeller"
 	quest.6EB53CDCB80D4B66.quest_desc: ["The &3Pneumatic Door&r acts as automatic door that can be made to only open for you!"]
+	quest.6F1CFF4144A36142.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
+	quest.6F1CFF4144A36142.quest_subtitle: "Warm Water Fish"
+	quest.6F1CFF4144A36142.title: "Tuna Collection"
 	quest.6F295CE0D73DE2A4.quest_desc: ["Enables dusk ritual construction. Required for demon realm access."]
 	quest.6F295CE0D73DE2A4.title: "Dusk Tools"
+	quest.6F389530542BBD83.quest_desc: ["Catch 5 Bayad. An African catfish species."]
+	quest.6F389530542BBD83.quest_subtitle: "Catfish"
+	quest.6F389530542BBD83.title: "Bayad Collection"
 	quest.6F3C82072672FD17.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space."
@@ -5850,12 +6157,28 @@
 		"Using this bowl reduces material costs for complex rituals."
 	]
 	quest.6FFFAE334DFAAAAB.title: "Iesnium Sacrificial Bowl"
+	quest.700BC974B4FA1EDA.quest_desc: [
+		"The Nether's lava seas hold unique creatures that can be caught with a standard fishing rod. Simply cast your line into lava instead of water."
+		""
+		"Nether fish spawn in specific biomes, so explore different areas to find all species. Some fish provide valuable materials and brewing ingredients."
+	]
+	quest.700BC974B4FA1EDA.quest_subtitle: "Fishing in Fire"
+	quest.700BC974B4FA1EDA.title: "Nether Depths Upgrade"
 	quest.7040CA41C0A3C2F2.quest_desc: ["&3PCB Blueprints&r ON SALE NOW for 8 Emeralds. (Only for a limited time)."]
 	quest.7040CA41C0A3C2F2.quest_subtitle: "Thanks Amadron!"
 	quest.7040CA41C0A3C2F2.title: "&9PCB Blueprint"
 	quest.7053E8464CC6B14D.quest_desc: ["Transfers rotation between parallel shafts. Two adjacent cogwheels reverse direction."]
 	quest.7053E8464CC6B14D.title: "Cogwheel"
 	quest.7060290E107D92AB.quest_desc: ["A lot of things will need &cEnergy&r, including some &eItems&r that can't be placed down, like the &5&lRailgun&r! So how do we charge them? \\n\\nThe Charging Station is our man for that job! \\n\\nSimply &6Input &cEnergy&r from either the Back or Bottom, and it will be ready to charge any &eItem&r put within it! \\n\\nThis includes &5&lRailguns&r, &cAccumulators&r, and stuff from other Mods! It can't charge Blocks near it though..."]
+	quest.70B585F71CA7DD45.quest_desc: [
+		"Brew a Potion of Lava Vision using a Lava Pufferfish. This potion removes the orange fog when submerged in lava, allowing clear vision."
+		""
+		"Combined with fire resistance, this makes exploring lava lakes for fish and structures much safer."
+	]
+	quest.70B585F71CA7DD45.title: "Potion of Lava Vision"
+	quest.70BAC0DA07CF4374.quest_desc: ["Catch 5 Arrau Turtles. Found in jungle biomes."]
+	quest.70BAC0DA07CF4374.quest_subtitle: "Turtle"
+	quest.70BAC0DA07CF4374.title: "Arrau Turtle Collection"
 	quest.70C878DB6AE413B2.quest_subtitle: "Breed: Magmatic + Coal"
 	quest.70C878DB6AE413B2.subtitle: "Breed: Magmatic + Coal"
 	quest.70C878DB6AE413B2.title: "Sulfur Bee"
@@ -5894,6 +6217,15 @@
 	quest.71B1B53A03A16296.title: "&bPortable Fluid Interfaces"
 	quest.71CF9E59F8F0B4A6.quest_desc: ["These &5Machines&r are even better than &c&lAdvanced&r! \\n\\nUse &eItems&r from the &b&lElite Tier&r to make these &5Machines&r!"]
 	quest.71CF9E59F8F0B4A6.title: "Even better &5Machines&r!"
+	quest.71D9B3676793DCF1.quest_desc: ["Catch 5 Pink Salmon. Found in temperate ocean and river biomes."]
+	quest.71D9B3676793DCF1.quest_subtitle: "Temperate Fish"
+	quest.71D9B3676793DCF1.title: "Pink Salmon Collection"
+	quest.71DAE8CEDC3A6DF4.quest_desc: [
+		"The Hell Strider enchantment can be applied to boots and has two levels. It increases your movement speed while walking through lava."
+		""
+		"Find this enchantment in Nether fortress loot, bastions, or through enchanting. Combined with fire resistance, you can wade through lava efficiently."
+	]
+	quest.71DAE8CEDC3A6DF4.title: "Hell Strider"
 	quest.71EF7B993128644D.quest_subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.title: "Pink Slimy Bee"
@@ -5962,6 +6294,9 @@
 	quest.7395B41685F4BC1A.title: "Pressure from Power"
 	quest.7399FEABDCFA5974.quest_desc: ["Increases LP transfer speed to/from orbs. Improves network efficiency."]
 	quest.7399FEABDCFA5974.title: "Dislocation Rune"
+	quest.73A2DA7A9947FC07.quest_desc: ["Catch 5 Capitaine. Also known as Nile Perch."]
+	quest.73A2DA7A9947FC07.quest_subtitle: "African Fish"
+	quest.73A2DA7A9947FC07.title: "Capitaine Collection"
 	quest.73C70B15582958A5.quest_desc: [
 		"The &eDirt Nest&r can be placed in any overworld biome to lure in bees."
 		""
@@ -6022,6 +6357,9 @@
 	quest.74B0308336F5E017.title: "Repairing Tools with &cBlood"
 	quest.74C9A7EF6D9E0CC3.quest_desc: ["Transfers FE between machines. No power loss. Made with Rolling Mill."]
 	quest.74C9A7EF6D9E0CC3.title: "Copper Wire"
+	quest.74D15068B4388FB5.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
+	quest.74D15068B4388FB5.quest_subtitle: "Predator Fish"
+	quest.74D15068B4388FB5.title: "Gar Collection"
 	quest.74FC0DDDB91DB172.quest_desc: [
 		"To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world."
 		""
@@ -6137,6 +6475,12 @@
 	quest.7778937DF377C1B4.quest_subtitle: "Generates Power from the Wind"
 	quest.7778937DF377C1B4.title: "&b&lWind Generator"
 	quest.779C2162C69DAE8E.quest_subtitle: "Summons two wolves to fight with you"
+	quest.77A0B2774F9DD91C.quest_desc: [
+		"Fish Mounts let you display your catches as wall decorations. They come in six wood types: Oak, Spruce, Birch, Jungle, Acacia, and Dark Oak."
+		""
+		"Craft a mount using wooden planks of your preferred type."
+	]
+	quest.77A0B2774F9DD91C.title: "Crafting a Fish Mount"
 	quest.77B5B23A2C01ED7E.quest_desc: [
 		"The &9Kineticator&r works like a magnet for items and experience."
 		""
@@ -6162,6 +6506,9 @@
 	quest.77F241BEE9902751.quest_desc: ["Maximum storage capacity. Fireproof and holds the most items."]
 	quest.77F241BEE9902751.quest_subtitle: "So much room for activities!"
 	quest.77F241BEE9902751.title: "Netherite Tier"
+	quest.77FA873D6B95D4E6.quest_desc: ["Catch 5 Rainbow Trout. Found in temperate waters."]
+	quest.77FA873D6B95D4E6.quest_subtitle: "Temperate Fish"
+	quest.77FA873D6B95D4E6.title: "Rainbow Trout Collection"
 	quest.77FB313845779AED.quest_desc: ["Now use another &a&lChemical Infuser&r to &a&lInfuse&r our Water Vapor and &cSulfur Trioxide&r. Now we have our &aSulfuric Acid&r! \\n\\nPipe the &aSulfuric Acid&r into a &3&lC.D.C.&r to &3Melt&r down our &7Ores &fwith &aAcid&r. This will give us &7Dirty Ore Slurry&r, a &cChemical&r form of &7Ores&r. \\n\\n3 &7Raw Ore&r will give 2 Buckets of &7Ore Slurry&r and 1 &7Ore Block&r will give 1 Bucket of &7Ore Slurry&r. \\n\\nWe can't go around with &7Dirty Ore Slurry&r, it's embarrassing! We'll need to clean it! Start up a &a&lChemical Washer&r and put some &9Water&r (and laundry detergent) into it. \\n\\nEvery 5mb of &7Dirty Slurry&r will be turned into 3mb of &7Ore Slurry&r. \\n\\nNow that our &7Slurry&r is all clean, we can put it into a &5&lChemical Crystallizer&r. This will give us &7Ore Crystals&r! Yes, different from &7Shards &fand &7Clumps&r. Each 200mb of &7Ore Slurry&r is equal to 1 &7Crystal&r."]
 	quest.77FB313845779AED.quest_subtitle: "Tier 4 Ore Processing"
 	quest.77FB313845779AED.title: "Melting &7Ores&f with &aAcid &fand &5Crystallizing&r them"
@@ -6172,6 +6519,9 @@
 		""
 		"Networks without an &bME Controller&f are known as 'ad-hoc' networks and only support a maximum of 8 channels."
 	]
+	quest.783C4CE2B0173669.quest_desc: ["Catch 3 Fortress Grouper. Found near Nether Fortress structures."]
+	quest.783C4CE2B0173669.quest_subtitle: "Fortress Structure"
+	quest.783C4CE2B0173669.title: "Fortress Grouper Collection"
 	quest.7846B7FFC3DD85C5.quest_desc: [
 		"The Super-Critical Phase Shifter (SPS) will turn our Polonium into Antimatter."
 		"We'll need a Port for each: 2 Ports for Energy at the sides, 1 Port for giving the SPS Polonium, and the last for taking our Antimatter out."
@@ -6220,6 +6570,12 @@
 	]
 	quest.78ECC28DD4BA9696.title: "Divination Rod"
 	quest.790C77898FED4E5D.quest_subtitle: "Deals damage to airborne targets"
+	quest.790D169C15772FAD.quest_desc: [
+		"Fishing line is a basic component for fishing rods. Craft it from string and wool materials."
+		""
+		"While fishing line provides minimal mechanical benefits, it's required for a complete tackle setup."
+	]
+	quest.790D169C15772FAD.title: "Fishing Line"
 	quest.79110ACAAC8412EA.quest_subtitle: "Spawn egg only | Flower: Tertium Block"
 	quest.79110ACAAC8412EA.subtitle: "Spawn egg only | Flower: Tertium Block"
 	quest.79110ACAAC8412EA.title: "Tertium Bee"
@@ -6284,6 +6640,9 @@
 		"You can also just do this to get rid of the rain!"
 	]
 	quest.7A93F07BE2E6EC97.title: "&aStop the &9Rain!"
+	quest.7A9F9F6FC00E7434.quest_desc: ["Catch 3 Blazefish. Found near Fortress Piece structures in lava."]
+	quest.7A9F9F6FC00E7434.quest_subtitle: "Fortress Structure"
+	quest.7A9F9F6FC00E7434.title: "Blazefish Collection"
 	quest.7AAD3CE642A34A0C.quest_subtitle: "Teleports caster to a location"
 	quest.7ACE7A6A71D3F4D2.quest_subtitle: "Temporarily turns blocks into air"
 	quest.7AD83A26A52C0983.quest_desc: ["Creative Essence is the ultimate essence in Mystical Agriculture."]
@@ -6479,6 +6838,12 @@
 	]
 	quest.7E3C84D7FCEC9D52.quest_subtitle: "Splitting 1 Element into 2"
 	quest.7E3C84D7FCEC9D52.title: "Fission Reactor"
+	quest.7E4137B4D83DEB3C.quest_desc: [
+		"The Gold Hook adds +1 Luck modifier to your fishing attempts."
+		""
+		"Higher luck increases your chances of catching treasure and rare items instead of junk."
+	]
+	quest.7E4137B4D83DEB3C.title: "Gold Hook"
 	quest.7E57964F6AD5B060.quest_subtitle: "Flower: Leaves (Check JEI)"
 	quest.7E57964F6AD5B060.subtitle: "Flower: Leaves (Check JEI)"
 	quest.7E57964F6AD5B060.title: "Tea Bee"
@@ -6494,6 +6859,12 @@
 		"Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down."
 	]
 	quest.7E79F52147B606F9.title: "&aCollecting&r &cBlood"
+	quest.7E842FFA18E56400.quest_desc: [
+		"Besides fish, you'll catch various items while fishing. Driftwood, tin cans, and algae are common junk items."
+		""
+		"Occasionally you'll find more valuable treasures. Keep fishing for rare rewards."
+	]
+	quest.7E842FFA18E56400.title: "Fishing Up Junk"
 	quest.7E9E03274A88347D.quest_desc: ["Doubles stack sizes in the backpack. Items stack to 128."]
 	quest.7E9E03274A88347D.title: "Stack Upgrade Tier 1"
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Breed: Iron + Sweat Bee"
@@ -6535,6 +6906,12 @@
 		"Place them around your pentacle according to the pattern in your Dictionary. The &bGolden Sacrificial Bowl&f is placed at the center and is where you activate the ritual."
 	]
 	quest.7F09F8F98C13F11B.title: "Sacrificial Bowls"
+	quest.7F0DDF1E9CEF32EF.quest_desc: [
+		"Fish fillets are a versatile food source. Raw fillets can be cooked in a furnace, smoker, or campfire."
+		""
+		"Cooked fillets provide better hunger restoration than whole fish and stack efficiently."
+	]
+	quest.7F0DDF1E9CEF32EF.title: "Making Fillets"
 	quest.7F0F7111552F95A9.quest_desc: ["Okay we got our fully Assembled &5Train&r, now how do we use it? \\n\\nIf you are Controlling it, you'll need to Right Click the &5Train Controls&r. \\n\\nThen, you can Hold W to move Forward or Hold S to go Backwards. No, &5Trains&r don't turn like Cars do, they just follow the &7Tracks&r. \\n\\nGoing Forward you'll pick up a lot of Speed, you can see it in the Bar that replaces your &aExperience Bar&r. Backwards won't give as much Speed. \\n\\nIf you are getting near a &5Train Station&r and not moving at the speed of light, you can Hold Space to stop the &5Train&f at the &5Station&r. This is helpful for disassembling them or even connecting more &5Boogeys&r."]
 	quest.7F0F7111552F95A9.title: "Controlling your &5Train"
 	quest.7F3EB3F473DF8385.quest_subtitle: "Summons Skeleton allies"
@@ -6581,382 +6958,6 @@
 	quest.98C62720FC3198BB.title: "Neptunium Bee"
 	quest.A13C7B3DACACA281.title: "Dark Aqua Pigment Bee"
 	quest.AB4DE330F2FACEA3.title: "Regenerative Bee"
-	quest.158BB749BCB514B2.quest_desc: [
-		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
-		""
-		"This mod adds biome-specific fish, customizable hooks with unique effects, bait systems, and the rare Neptunium material for endgame gear."
-		""
-		"Start by crafting a fishing rod to begin your angling journey."
-	]
-	quest.158BB749BCB514B2.title: "Introduction to Aquaculture"
-	quest.2C46829AF8DAD837.quest_desc: [
-		"Craft a Silent Gear fishing rod using a blueprint. Silent Gear rods can be customized with different materials to improve durability and fishing luck."
-		""
-		"Use the Fishing Rod Blueprint with your chosen materials at a crafting station. Any material tier will work for getting started."
-	]
-	quest.2C46829AF8DAD837.title: "Your First Fishing Rod"
-	quest.59F2EAF2D6AE2813.quest_desc: [
-		"The Tackle Box stores and organizes your fishing equipment. It has dedicated slots for hooks, bait, fishing line, and bobbers."
-		""
-		"Place it near your fishing spot for quick access to your gear. You can shift-click to pick up the entire box with its contents."
-	]
-	quest.59F2EAF2D6AE2813.title: "The Tackle Box"
-	quest.511FCADED84B28A0.quest_desc: [
-		"Fishing rods can be enhanced with hooks, bait, fishing line, and bobbers. Each attachment provides different benefits."
-		""
-		"Use the Tackle Box interface to attach equipment to your rod. Hooks provide the most significant gameplay effects."
-	]
-	quest.511FCADED84B28A0.title: "Equipping Your Rod"
-	quest.790D169C15772FAD.quest_desc: [
-		"Fishing line is a basic component for fishing rods. Craft it from string and wool materials."
-		""
-		"While fishing line provides minimal mechanical benefits, it's required for a complete tackle setup."
-	]
-	quest.790D169C15772FAD.title: "Fishing Line"
-	quest.61C39D6638D64D39.quest_desc: [
-		"The Iron Hook provides a 20% chance to not consume rod durability when catching fish."
-		""
-		"A reliable early-game option that extends your rod's lifespan during long fishing sessions."
-	]
-	quest.61C39D6638D64D39.title: "Iron Hook"
-	quest.7E4137B4D83DEB3C.quest_desc: [
-		"The Gold Hook adds +1 Luck modifier to your fishing attempts."
-		""
-		"Higher luck increases your chances of catching treasure and rare items instead of junk."
-	]
-	quest.7E4137B4D83DEB3C.title: "Gold Hook"
-	quest.6601A169CB71BB8A.quest_desc: [
-		"The Diamond Hook provides a 50% chance to not consume rod durability."
-		""
-		"The best hook for rod preservation, significantly extending your equipment's lifespan."
-	]
-	quest.6601A169CB71BB8A.title: "Diamond Hook"
-	quest.373A9B66703F21CE.quest_desc: [
-		"The Light Hook makes your bobber cast further and retrieve faster."
-		""
-		"Useful for reaching distant fishing spots and speeding up your catch rate in shallow water."
-	]
-	quest.373A9B66703F21CE.title: "Light Hook"
-	quest.40C92D2CC221B090.quest_desc: [
-		"The Heavy Hook makes your bobber sink faster and deeper."
-		""
-		"Ideal for deep water fishing where fish may be found at lower depths."
-	]
-	quest.40C92D2CC221B090.title: "Heavy Hook"
-	quest.127D3C730D1A3278.quest_desc: [
-		"The Double Hook provides a 10% chance to catch two items at once."
-		""
-		"Excellent for maximizing your fishing yield during extended sessions."
-	]
-	quest.127D3C730D1A3278.title: "Double Hook"
-	quest.0B28C7A1C4076F55.quest_desc: [
-		"The Redstone Hook extends the window of opportunity to reel in a fish."
-		""
-		"Provides more forgiving timing for successful catches, helpful for less experienced anglers."
-	]
-	quest.0B28C7A1C4076F55.title: "Redstone Hook"
-	quest.1067C6AFFE7F4122.quest_desc: [
-		"The Note Hook plays an audible alert when a fish is approaching your bobber."
-		""
-		"Useful for multitasking while fishing, as you can listen for the audio cue instead of watching the bobber."
-	]
-	quest.1067C6AFFE7F4122.title: "Note Hook"
-	quest.3C140857B3DC5226.quest_desc: [
-		"The Nether Star Hook combines the best features: 50% durability protection and +1 Luck modifier."
-		""
-		"The ultimate fishing hook, requiring a Nether Star to craft. Worth the investment for serious anglers."
-	]
-	quest.3C140857B3DC5226.title: "Nether Star Hook"
-	quest.4F7547FCD77F55DA.quest_desc: [
-		"The Worm Farm produces worms from compostable materials. Fill it with organic items and it will generate worms over time."
-		""
-		"Place compostable items in the farm until it reaches level 8, then extract worms for bait."
-	]
-	quest.4F7547FCD77F55DA.title: "Building a Worm Farm"
-	quest.43EF1FFC08F16D1D.quest_desc: [
-		"Worms are the primary bait type. They increase your lure speed, causing fish to bite faster."
-		""
-		"Keep a steady supply from your Worm Farm for consistent fishing efficiency."
-	]
-	quest.43EF1FFC08F16D1D.title: "Harvesting Worms"
-	quest.69EF3F4E51C1D8E6.quest_desc: [
-		"Minnows can be caught while fishing and used as bait. They provide 50 uses and increase lure speed."
-		""
-		"A renewable bait source that doesn't require a Worm Farm to obtain."
-	]
-	quest.69EF3F4E51C1D8E6.title: "Catching Minnows"
-	quest.24A7046B10938D80.quest_desc: [
-		"Leeches are another fishing catch that doubles as bait. They provide 35 uses with lure speed bonus."
-		""
-		"Found while fishing in various biomes, leeches offer an alternative to worms and minnows."
-	]
-	quest.24A7046B10938D80.title: "Catching Leeches"
-	quest.048D75ABEC30AD1D.quest_desc: [
-		"A knife is required for processing fish into fillets. Craft a Silent Gear knife or use a Farmer's Delight knife."
-		""
-		"Silent Gear knives can be customized with different materials for improved durability."
-	]
-	quest.048D75ABEC30AD1D.title: "A Proper Knife"
-	quest.64E204F9261DF6B0.quest_desc: [
-		"The Farmer's Delight Cutting Board is used for processing fish. Place it in the world and use your knife on fish to create fillets."
-		""
-		"Right-click the cutting board with fish, then use your knife to process them."
-	]
-	quest.64E204F9261DF6B0.title: "The Cutting Board"
-	quest.7F0DDF1E9CEF32EF.quest_desc: [
-		"Fish fillets are a versatile food source. Raw fillets can be cooked in a furnace, smoker, or campfire."
-		""
-		"Cooked fillets provide better hunger restoration than whole fish and stack efficiently."
-	]
-	quest.7F0DDF1E9CEF32EF.title: "Making Fillets"
-	quest.7E842FFA18E56400.quest_desc: [
-		"Besides fish, you'll catch various items while fishing. Driftwood, tin cans, and algae are common junk items."
-		""
-		"Occasionally you'll find more valuable treasures. Keep fishing for rare rewards."
-	]
-	quest.7E842FFA18E56400.title: "Fishing Up Junk"
-	quest.1D8F93E059360C11.quest_desc: [
-		"Boxes are uncommon fishing loot containing randomized treasures. Open them for a chance at useful items."
-		""
-		"The contents vary, but boxes often contain basic materials and occasionally valuable finds."
-	]
-	quest.1D8F93E059360C11.title: "The Mysterious Box"
-	quest.55D95800839B5164.quest_desc: [
-		"Lockboxes are rarer than regular boxes and contain better loot. They have a lower catch rate but higher reward potential."
-		""
-		"Using a Gold Hook or Luck of the Sea enchantment increases your chances of finding lockboxes."
-	]
-	quest.55D95800839B5164.title: "Lockbox Discovery"
-	quest.4450705815FB9DD7.quest_desc: [
-		"Treasure Chests are the rarest standard fishing loot. They contain the best non-Neptunium rewards."
-		""
-		"Finding one is a sign of skilled or lucky fishing. Check inside for valuable treasures."
-	]
-	quest.4450705815FB9DD7.title: "Treasure Chest"
-	quest.422D7945AA0DFB0C.quest_desc: [
-		"Neptune's Bounty is an extremely rare fishing treasure containing Neptunium materials."
-		""
-		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
-	]
-	quest.422D7945AA0DFB0C.title: "Neptune's Bounty"
-	quest.58D085452013268B.quest_desc: [
-		"Neptunium Ingots are found inside Neptune's Bounty chests. This rare material creates powerful aquatic gear."
-		""
-		"Neptunium can also be used as a Silent Gear material for customized equipment with water-themed traits."
-	]
-	quest.58D085452013268B.title: "Neptunium Ingot"
-	quest.5CF633A236A57213.quest_desc: [
-		"Neptunium can be crafted into armor and tools with aquatic abilities:"
-		""
-		"&bHelmet&r: Night vision underwater"
-		"&bChestplate&r: Water breathing"
-		"&bLeggings&r: Neutral buoyancy"
-		"&bBoots&r: Faster swimming"
-		""
-		"Tools work at full efficiency underwater and deal bonus damage in water."
-	]
-	quest.5CF633A236A57213.title: "Neptunium Potential"
-	quest.77A0B2774F9DD91C.quest_desc: [
-		"Fish Mounts let you display your catches as wall decorations. They come in six wood types: Oak, Spruce, Birch, Jungle, Acacia, and Dark Oak."
-		""
-		"Craft a mount using wooden planks of your preferred type."
-	]
-	quest.77A0B2774F9DD91C.title: "Crafting a Fish Mount"
-	quest.36851FA3BF1C0415.quest_desc: [
-		"Place a fish mount on a wall, then right-click it with a caught fish to display your trophy."
-		""
-		"Mounted fish make excellent decorations for fishing lodges, kitchens, or trophy rooms."
-	]
-	quest.36851FA3BF1C0415.title: "Display Your Catch"
-	quest.0C67472338BFDFC4.quest_desc: ["Catch 5 Atlantic Cod. Found in cold ocean and beach biomes."]
-	quest.0C67472338BFDFC4.quest_subtitle: "Cold Water Fish"
-	quest.0C67472338BFDFC4.title: "Atlantic Cod Collection"
-	quest.5BF68675F30916FE.quest_desc: ["Catch 5 Blackfish. Found in cold ocean and beach biomes."]
-	quest.5BF68675F30916FE.quest_subtitle: "Cold Water Fish"
-	quest.5BF68675F30916FE.title: "Blackfish Collection"
-	quest.3C169B4C4A56E499.quest_desc: ["Catch 5 Pacific Halibut. A large flatfish found in cold waters."]
-	quest.3C169B4C4A56E499.quest_subtitle: "Cold Water Fish"
-	quest.3C169B4C4A56E499.title: "Pacific Halibut Collection"
-	quest.07CE305C8C7AAAF5.quest_desc: ["Catch 5 Atlantic Halibut. A large flatfish found in cold waters."]
-	quest.07CE305C8C7AAAF5.quest_subtitle: "Cold Water Fish"
-	quest.07CE305C8C7AAAF5.title: "Atlantic Halibut Collection"
-	quest.53D0F53DC7F37498.quest_desc: ["Catch 5 Atlantic Herring. A small schooling fish from cold waters."]
-	quest.53D0F53DC7F37498.quest_subtitle: "Cold Water Fish"
-	quest.53D0F53DC7F37498.title: "Atlantic Herring Collection"
-	quest.71D9B3676793DCF1.quest_desc: ["Catch 5 Pink Salmon. Found in temperate ocean and river biomes."]
-	quest.71D9B3676793DCF1.quest_subtitle: "Temperate Fish"
-	quest.71D9B3676793DCF1.title: "Pink Salmon Collection"
-	quest.10D3C4FE4B7E0B8D.quest_desc: ["Catch 5 Pollock. Found in temperate ocean biomes."]
-	quest.10D3C4FE4B7E0B8D.quest_subtitle: "Temperate Fish"
-	quest.10D3C4FE4B7E0B8D.title: "Pollock Collection"
-	quest.77FA873D6B95D4E6.quest_desc: ["Catch 5 Rainbow Trout. Found in temperate waters."]
-	quest.77FA873D6B95D4E6.quest_subtitle: "Temperate Fish"
-	quest.77FA873D6B95D4E6.title: "Rainbow Trout Collection"
-	quest.6E279FB94F751D21.quest_desc: ["Catch 5 Brown Trout. Found in temperate freshwater."]
-	quest.6E279FB94F751D21.quest_subtitle: "Temperate Fish"
-	quest.6E279FB94F751D21.title: "Brown Trout Collection"
-	quest.2DFF263856BCCE63.quest_desc: ["Catch 5 Smallmouth Bass. Found in temperate freshwater."]
-	quest.2DFF263856BCCE63.quest_subtitle: "Temperate Fish"
-	quest.2DFF263856BCCE63.title: "Smallmouth Bass Collection"
-	quest.05F7EC02C4E70FFA.quest_desc: ["Catch 5 Bluegill. A small freshwater fish."]
-	quest.05F7EC02C4E70FFA.quest_subtitle: "Temperate Fish"
-	quest.05F7EC02C4E70FFA.title: "Bluegill Collection"
-	quest.3B4A56EB5620E15A.quest_desc: ["Catch 5 Perch. Found in freshwater biomes."]
-	quest.3B4A56EB5620E15A.quest_subtitle: "Freshwater Fish"
-	quest.3B4A56EB5620E15A.title: "Perch Collection"
-	quest.03C5A1247B283E1C.quest_desc: ["Catch 5 Carp. A common freshwater fish."]
-	quest.03C5A1247B283E1C.quest_subtitle: "Freshwater Fish"
-	quest.03C5A1247B283E1C.title: "Carp Collection"
-	quest.3E26E20B8AE80FF9.quest_desc: ["Catch 5 Catfish. Found in various freshwater biomes."]
-	quest.3E26E20B8AE80FF9.quest_subtitle: "Catfish"
-	quest.3E26E20B8AE80FF9.title: "Catfish Collection"
-	quest.6F389530542BBD83.quest_desc: ["Catch 5 Bayad. An African catfish species."]
-	quest.6F389530542BBD83.quest_subtitle: "Catfish"
-	quest.6F389530542BBD83.title: "Bayad Collection"
-	quest.74D15068B4388FB5.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
-	quest.74D15068B4388FB5.quest_subtitle: "Predator Fish"
-	quest.74D15068B4388FB5.title: "Gar Collection"
-	quest.43DCD30F9B576606.quest_desc: ["Catch 5 Muskellunge. A large predatory fish."]
-	quest.43DCD30F9B576606.quest_subtitle: "Predator Fish"
-	quest.43DCD30F9B576606.title: "Muskellunge Collection"
-	quest.0C39FFDCC46BBD04.quest_desc: ["Catch 5 Arapaima. One of the largest freshwater fish, found in jungle biomes."]
-	quest.0C39FFDCC46BBD04.quest_subtitle: "Predator Fish"
-	quest.0C39FFDCC46BBD04.title: "Arapaima Collection"
-	quest.690A7182899481CC.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
-	quest.690A7182899481CC.quest_subtitle: "African Fish"
-	quest.690A7182899481CC.title: "Boulti Collection"
-	quest.6C7B879451D57C68.quest_desc: ["Catch 5 Synodontis. An African catfish."]
-	quest.6C7B879451D57C68.quest_subtitle: "African Fish"
-	quest.6C7B879451D57C68.title: "Synodontis Collection"
-	quest.73A2DA7A9947FC07.quest_desc: ["Catch 5 Capitaine. Also known as Nile Perch."]
-	quest.73A2DA7A9947FC07.quest_subtitle: "African Fish"
-	quest.73A2DA7A9947FC07.title: "Capitaine Collection"
-	quest.44451D04A277F3FE.quest_desc: ["Catch 5 Piranha. Found in jungle biomes. Handle with care."]
-	quest.44451D04A277F3FE.quest_subtitle: "Jungle Fish"
-	quest.44451D04A277F3FE.title: "Piranha Collection"
-	quest.6A507BACD41D8D82.quest_desc: ["Catch 5 Tambaqui. A large Amazonian fish found in jungles."]
-	quest.6A507BACD41D8D82.quest_subtitle: "Jungle Fish"
-	quest.6A507BACD41D8D82.title: "Tambaqui Collection"
-	quest.28596E8C65D79482.quest_desc: ["Catch 5 Red Grouper. Found in warm ocean biomes."]
-	quest.28596E8C65D79482.quest_subtitle: "Warm Water Fish"
-	quest.28596E8C65D79482.title: "Red Grouper Collection"
-	quest.6F1CFF4144A36142.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
-	quest.6F1CFF4144A36142.quest_subtitle: "Warm Water Fish"
-	quest.6F1CFF4144A36142.title: "Tuna Collection"
-	quest.5CCEB9B966C41311.quest_desc: ["Catch 5 Jellyfish. Can be converted to slimeballs."]
-	quest.5CCEB9B966C41311.quest_subtitle: "Special Catch"
-	quest.5CCEB9B966C41311.title: "Jellyfish Collection"
-	quest.278FCF1F9278B879.quest_desc: ["Catch 5 Brown Shrooma. A mushroom-infused fish from mushroom biomes."]
-	quest.278FCF1F9278B879.quest_subtitle: "Special Catch"
-	quest.278FCF1F9278B879.title: "Brown Shrooma Collection"
-	quest.5128AE9A9F608850.quest_desc: ["Catch 5 Red Shrooma. A mushroom-infused fish from mushroom biomes."]
-	quest.5128AE9A9F608850.quest_subtitle: "Special Catch"
-	quest.5128AE9A9F608850.title: "Red Shrooma Collection"
-	quest.0A896438F293895B.quest_desc: ["Catch 5 Goldfish. A rare decorative fish."]
-	quest.0A896438F293895B.quest_subtitle: "Special Catch"
-	quest.0A896438F293895B.title: "Goldfish Collection"
-	quest.3A8C7877655CDB70.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
-	quest.3A8C7877655CDB70.quest_subtitle: "Turtle"
-	quest.3A8C7877655CDB70.title: "Box Turtle Collection"
-	quest.70BAC0DA07CF4374.quest_desc: ["Catch 5 Arrau Turtles. Found in jungle biomes."]
-	quest.70BAC0DA07CF4374.quest_subtitle: "Turtle"
-	quest.70BAC0DA07CF4374.title: "Arrau Turtle Collection"
-	quest.58245132D32285F2.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
-	quest.58245132D32285F2.quest_subtitle: "Turtle"
-	quest.58245132D32285F2.title: "Starshell Turtle Collection"
-	quest.700BC974B4FA1EDA.quest_desc: [
-		"The Nether's lava seas hold unique creatures that can be caught with a standard fishing rod. Simply cast your line into lava instead of water."
-		""
-		"Nether fish spawn in specific biomes, so explore different areas to find all species. Some fish provide valuable materials and brewing ingredients."
-	]
-	quest.700BC974B4FA1EDA.title: "Fishing in Fire"
-	quest.075A24CBAE5438F9.quest_desc: [
-		"Cast your fishing rod into any lava pool in the Nether and catch your first lava-dwelling fish."
-		""
-		"Different biomes contain different species. The Nether Wastes, Soul Sand Valley, Crimson Forest, Warped Forest, and Basalt Deltas each have unique fish."
-	]
-	quest.075A24CBAE5438F9.title: "Your First Lava Catch"
-	quest.12DAE16CE73E630F.quest_desc: [
-		"Soul Suckers are ghostly fish found in the Soul Sand Valley biome. They have a unique property: you can shear them for Soul Sucker Leather."
-		""
-		"This leather is used to craft special boots that improve movement on soul sand and soul soil."
-	]
-	quest.12DAE16CE73E630F.title: "Soul Sucker"
-	quest.57986A8848660BE4.quest_desc: [
-		"Use shears on a Soul Sucker to harvest Soul Sucker Leather. The fish survives the process and can be sheared again."
-		""
-		"You can keep Soul Suckers in buckets for a renewable leather source."
-	]
-	quest.57986A8848660BE4.title: "Soul Sucker Leather"
-	quest.53129F8F52DC7541.quest_desc: [
-		"Craft Soul Sucker Boots using 4 Soul Sucker Leather and 2 String in the standard boot pattern."
-		""
-		"These boots significantly increase your movement speed on Soul Sand and Soul Soil, making Soul Sand Valley traversal much easier."
-	]
-	quest.53129F8F52DC7541.title: "Soul Sucker Boots"
-	quest.6A8013C276C08337.quest_desc: [
-		"Lava Pufferfish are found in the Warped Forest biome's lava pools. Like their overworld cousins, they're useful for brewing."
-		""
-		"This fish is the key ingredient for Potion of Lava Vision, essential for underlava exploration."
-	]
-	quest.6A8013C276C08337.title: "Lava Pufferfish"
-	quest.70B585F71CA7DD45.quest_desc: [
-		"Brew a Potion of Lava Vision using a Lava Pufferfish. This potion removes the orange fog when submerged in lava, allowing clear vision."
-		""
-		"Combined with fire resistance, this makes exploring lava lakes for fish and structures much safer."
-	]
-	quest.70B585F71CA7DD45.title: "Potion of Lava Vision"
-	quest.71DAE8CEDC3A6DF4.quest_desc: [
-		"The Hell Strider enchantment can be applied to boots and has two levels. It increases your movement speed while walking through lava."
-		""
-		"Find this enchantment in Nether fortress loot, bastions, or through enchanting. Combined with fire resistance, you can wade through lava efficiently."
-	]
-	quest.71DAE8CEDC3A6DF4.title: "Hell Strider"
-	quest.2C617797C476DADA.quest_desc: [
-		"Blazefish spawn exclusively in Fortress Pieces - small structures found submerged in lava near Nether Fortresses."
-		""
-		"Look for partially submerged nether brick structures in lava lakes. Cast your line nearby to catch these fiery fish."
-	]
-	quest.2C617797C476DADA.title: "Blazefish Hunter"
-	quest.4EB555D995329F96.quest_desc: [
-		"Lava Sponges are found in small structures in the Nether. They function like regular sponges but absorb lava instead of water."
-		""
-		"Place a wet lava sponge in the overworld or use water to dry it out for reuse. Essential for draining lava pools."
-	]
-	quest.4EB555D995329F96.title: "Lava Sponge"
-	quest.53D42EEF89628855.quest_desc: ["Catch 3 Soul Suckers. Found in the Soul Sand Valley biome."]
-	quest.53D42EEF89628855.quest_subtitle: "Soul Sand Valley"
-	quest.53D42EEF89628855.title: "Soul Sucker Collection"
-	quest.2C32959B43FDEC7E.quest_desc: ["Catch 3 Wither Bonefish. Found in the Soul Sand Valley biome."]
-	quest.2C32959B43FDEC7E.quest_subtitle: "Soul Sand Valley"
-	quest.2C32959B43FDEC7E.title: "Wither Bonefish Collection"
-	quest.4D4D4871C11487D6.quest_desc: ["Catch 3 Bonefish. Found in the Nether Wastes biome."]
-	quest.4D4D4871C11487D6.quest_subtitle: "Nether Wastes"
-	quest.4D4D4871C11487D6.title: "Bonefish Collection"
-	quest.3A5A1E2EBCA7A76C.quest_desc: ["Catch 3 Searing Cod. Found in the Nether Wastes biome."]
-	quest.3A5A1E2EBCA7A76C.quest_subtitle: "Nether Wastes"
-	quest.3A5A1E2EBCA7A76C.title: "Searing Cod Collection"
-	quest.6CA3A66921216063.quest_desc: ["Catch 3 Glowdine. Found in the Crimson Forest biome."]
-	quest.6CA3A66921216063.quest_subtitle: "Crimson Forest"
-	quest.6CA3A66921216063.title: "Glowdine Collection"
-	quest.1E420EE26133EDBD.quest_desc: ["Catch 3 Lava Pufferfish. Found in the Warped Forest biome."]
-	quest.1E420EE26133EDBD.quest_subtitle: "Warped Forest"
-	quest.1E420EE26133EDBD.title: "Lava Pufferfish Collection"
-	quest.6C6C3E70AF1631E8.quest_desc: ["Catch 3 Obsidianfish. Found in the Basalt Deltas biome."]
-	quest.6C6C3E70AF1631E8.quest_subtitle: "Basalt Deltas"
-	quest.6C6C3E70AF1631E8.title: "Obsidianfish Collection"
-	quest.1798958465646965.quest_desc: ["Catch 3 Magma Cube Fish. Found in the Basalt Deltas biome."]
-	quest.1798958465646965.quest_subtitle: "Basalt Deltas"
-	quest.1798958465646965.title: "Magma Cube Fish Collection"
-	quest.7A9F9F6FC00E7434.quest_desc: ["Catch 3 Blazefish. Found near Fortress Piece structures in lava."]
-	quest.7A9F9F6FC00E7434.quest_subtitle: "Fortress Structure"
-	quest.7A9F9F6FC00E7434.title: "Blazefish Collection"
-	quest.783C4CE2B0173669.quest_desc: ["Catch 3 Fortress Grouper. Found near Nether Fortress structures."]
-	quest.783C4CE2B0173669.quest_subtitle: "Fortress Structure"
-	quest.783C4CE2B0173669.title: "Fortress Grouper Collection"
-	quest.5F609A07E5268106.quest_desc: ["Catch 3 Eyeball Fish. A rare and disturbing catch."]
-	quest.5F609A07E5268106.quest_subtitle: "Rare Catch"
-	quest.5F609A07E5268106.title: "Eyeball Fish Collection"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
