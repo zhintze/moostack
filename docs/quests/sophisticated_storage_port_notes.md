@@ -22,32 +22,50 @@ This port transforms the ATM-10 "Storage" chapter (which covered multiple storag
 - **Trash Cans** - Item/fluid/energy trash cans (mod not present)
 - **Dimensional Storage** - Cross-dimensional storage (mod not present)
 
-## Quest Changes
+## Rewrite History
 
-### Quests Copied 1:1 (10 quests)
-These quests were copied with minimal changes (only reward table replacements):
-1. `5A94A2664BFDD7B9` - Basic Storage (hub quest)
-2. `7EF57BBEAA4B6B08` - NBT and YOU! (info quest)
-3. `134608BB2B04D96E` - Vanilla Storage
-4. `7F990FBC1A691020` - Trapped Chest
-5. `1659A59303C15CC9` - Barrel
-6. `25AFD10D008DF30B` - Ender Chest
-7. `33AADC1B97E9F7A9` - Chest Minecart
-8. `544791880F315D5A` - Chest Boat
-9. `5E4BC0F59C90433A` - Sophisticated Storage intro
-10. `6A2B2C5E2ADCE366` - Sophisticated Backpacks intro
+### January 2026 Rewrite
 
-### Quests Lightly Modified (46 quests)
-All Sophisticated Storage and Sophisticated Backpacks quests were kept with these changes:
-- **Reward tables replaced**: ATM random/choice tables converted to XP rewards
-- **Dependencies preserved**: All quest progression chains maintained
-- **Positions preserved**: X/Y coordinates match ATM layout
+Complete chapter restructure with the following changes:
 
-Modified quest categories:
-- Sophisticated Storage tier progression (6 quests): Basic -> Copper -> Iron -> Gold -> Diamond -> Netherite
-- Sophisticated Storage utilities (4 quests): Upgrade Base, Controller, Storage Tool, Storage Link
-- Sophisticated Backpacks tier progression (6 quests): Basic -> Copper -> Iron -> Gold -> Diamond -> Netherite
-- Sophisticated Backpacks upgrades (30 quests): All upgrade types with basic/advanced variants
+#### Task Type Fixes
+Converted 8 broken `ftbfiltersystem:smart_filter` tasks to simple item tasks (FTB Filter System mod not in mooStack):
+
+| Quest | Original Filter | New Item Task |
+|-------|-----------------|---------------|
+| Chest Boat | Smart filter for chest boats | `minecraft:oak_chest_boat` |
+| Sophisticated Storage | Smart filter for SS chests | `sophisticatedstorage:chest` |
+| Copper Tier | Smart filter for copper chests | `sophisticatedstorage:copper_chest` |
+| Iron Tier | Smart filter for iron chests | `sophisticatedstorage:iron_chest` |
+| Gold Tier | Smart filter for gold chests | `sophisticatedstorage:gold_chest` |
+| Diamond Tier | Smart filter for diamond chests | `sophisticatedstorage:diamond_chest` |
+| Netherite Tier | Smart filter for netherite chests | `sophisticatedstorage:netherite_chest` |
+| Chipped Upgrade | Smart filter for chipped upgrades | `sophisticatedbackpacks:chipped/botanist_workbench_upgrade` |
+
+#### Description Rewrites
+All 66 quest descriptions rewritten with:
+- **Instructional tone**: Focus on what items do and how to use them
+- **Concise text**: Reduced reading load while preserving important information
+- **No humor/flavor**: Removed ATM-specific jokes and pack voice
+- **Practical focus**: Emphasis on mechanics and progression
+
+#### Layout Reorganization
+Backpack upgrades grouped into logical visual categories:
+1. **Fluid & Energy**: Tank, Battery, Pump, Advanced Pump, XP Pump
+2. **Stack Size**: Stack Upgrade Tiers 1-4
+3. **Utility**: Stonecutter, Jukebox, Crafting, Inception, Everlasting, Chipped
+4. **Item Collection**: Pickup, Deposit, Magnet (basic and advanced variants)
+5. **Filtering & Inventory**: Filter, Feeding, Compacting, Refill (basic and advanced)
+6. **Processing**: Smelting, Blasting, Smoking (manual and auto variants)
+7. **Automation**: Tool Swapper, Void, Restock (basic and advanced)
+
+#### Title Changes
+Cleaned up quest titles:
+- Removed color codes from tier names (`&6Copper Chest` -> `Copper Tier`)
+- Standardized naming (e.g., `NBT and YOU!` -> `NBT Items`)
+- Kept titles concise and descriptive
+
+## Quest Changes (Original Port)
 
 ### Quests Removed (22 quests)
 Removed due to mods not present in mooStack:
@@ -90,6 +108,7 @@ Removed due to mods not present in mooStack:
 | `functionalstorage:*` | REMOVED | Mod not present |
 | `trashcans:*` | REMOVED | Mod not present |
 | `dimstorage:*` | REMOVED | Mod not present |
+| `ftbfiltersystem:smart_filter` | Converted to item tasks | Mod not present |
 
 ## Reward Adjustments
 
@@ -111,16 +130,17 @@ All quest, task, and reward IDs from ATM were preserved exactly:
 
 - **Images removed**: All ATM-specific texture images (helper arrows, screenshots) removed
 - **Icon changed**: Chapter icon changed to `sophisticatedstorage:diamond_chest`
-- **Quest positions**: All X/Y coordinates preserved from ATM
+- **Quest positions**: Reorganized for logical grouping
 - **Group**: Set to ungrouped (empty string) instead of ATM group
 
 ## Files Created/Modified
 
-### Created
-- `runs/client/config/ftbquests/quests/chapters/sophisticated_storage.snbt`
-
 ### Modified
-- `runs/client/config/ftbquests/quests/lang/en_us.snbt` (added Sophisticated Storage section)
+- `runs/client/config/ftbquests/quests/chapters/sophisticated_storage.snbt` (full rewrite)
+- `runs/client/config/ftbquests/quests/lang/en_us.snbt` (new consolidated lang section)
+
+### Reference
+- `runs/client/config/ftbquests/quests/lang/en_us/chapters/sophisticated_storage.snbt` (lang reference only)
 
 ## Testing Recommendations
 
@@ -136,7 +156,7 @@ All quest, task, and reward IDs from ATM were preserved exactly:
 
 3. **Item verification**:
    - Ensure all Sophisticated Storage/Backpacks items are craftable
-   - Verify smart_filter tasks detect correct items
+   - Verify item tasks detect correct items (no more "Missing Item" errors)
 
 ## Known Differences from ATM
 
@@ -144,6 +164,8 @@ All quest, task, and reward IDs from ATM were preserved exactly:
 2. **No Functional Storage**: Players who want drawer-style storage need a different solution
 3. **No Trash Cans**: Players need to use other voiding methods (Sophisticated Backpacks void upgrade works)
 4. **Simpler rewards**: XP-only instead of ATM's random loot tables
+5. **No smart filters**: All filter-based tasks converted to specific item detection
+6. **Instructional text**: Removed ATM's humor and pack-specific voice
 
 ## Future Considerations
 

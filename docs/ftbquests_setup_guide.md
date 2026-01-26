@@ -4,6 +4,102 @@ This document captures learnings from setting up FTB Quests localization. Use th
 
 ---
 
+## CRITICAL: Avoiding Quest ID Conflicts
+
+**This is the #1 cause of broken quests in mooStack. Read this FIRST before creating any new chapter.**
+
+### The Problem
+
+Every quest, task, and reward in FTB Quests requires a unique 16-character hex ID. When two chapters use the same ID for different quests:
+- Quest text from one chapter appears in another
+- Dependency chains break (quests reference non-existent IDs)
+- FTB Quests may regenerate IDs randomly, breaking lang file mappings
+
+**Real example**: Iron's Spells chapter used IDs starting with `0001`, `0002`, etc. Epic Fight chapter also used `0001`, `0002`. Result: Epic Fight descriptions appeared in Iron's Spells quests, and dependencies were completely broken.
+
+### The Solution: Chapter-Unique ID Prefixes
+
+Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This prevents any possibility of collision.
+
+### mooStack Chapter ID Prefix Registry
+
+**BEFORE creating a new chapter, check this registry and claim a unique prefix.**
+
+| Prefix | Chapter | Notes |
+|--------|---------|-------|
+| `0001`-`0012` | **RESERVED - DO NOT USE** | Legacy conflict range (combat_and_armor uses these) |
+| `1A2B` | Iron's Spells | Chapter ID |
+| `1501`-`1512` | Iron's Spells | Quest IDs (sections 1-12) |
+| `AC01`-`AC09` | Aquaculture | Quest IDs (sections 1-9) |
+| `5347` | Silent Gear | Chapter ID |
+| `AE01`-`AE10` | Applied Energistics 2 | Quest IDs (if using structured) |
+| `BM01`-`BM10` | Blood Magic | Quest IDs (if using structured) |
+| `CR01`-`CR10` | Create | Quest IDs (if using structured) |
+| `EF01`-`EF10` | Epic Fight | Quest IDs (original range) |
+| `EV01`-`EV10` | EvilCraft | Quest IDs (if using structured) |
+| `MA01`-`MA10` | Mystical Agriculture | Quest IDs (if using structured) |
+| `MK01`-`MK10` | Mekanism | Quest IDs (if using structured) |
+| `OC01`-`OC10` | Occultism | Quest IDs (if using structured) |
+| `PB01`-`PB10` | Productive Bees | Quest IDs (if using structured) |
+| `PN01`-`PN10` | PneumaticCraft | Quest IDs (if using structured) |
+| `SS01`-`SS10` | Sophisticated Storage | Quest IDs (if using structured) |
+
+**Note**: Many existing chapters use random hex IDs (like `796C5F40115A5AE3`) which are statistically unique. The prefix system is for chapters using structured/readable IDs.
+
+### How to Choose a Unique Prefix
+
+1. **Check the registry above** - ensure your prefix isn't already used
+2. **Use 2-character letter+number or letter+letter combos** - Examples: `1B`, `AC`, `AE`, `BM`
+3. **Only use valid hex characters**: `0-9` and `A-F`
+4. **Update this registry** when you claim a prefix
+
+#### Valid Prefix Examples
+- `1A`, `1B`, `1C`, ... `1F` (letter combos with numbers)
+- `2A`, `2B`, ... `9F`
+- `A1`, `A2`, ... `AF`, `B1`, ... `FF`
+- `AA`, `AB`, `AC`, ... `FF`
+
+#### Invalid Prefixes (NOT hex)
+- `GH`, `XY`, `ZZ` (G-Z are not hex digits)
+- `IS`, `SS`, `RS` (S is not a hex digit - use `15`, `55`, `25` instead)
+
+### Structured ID Format with Unique Prefix
+
+```
+[PP][SS]XXXXXXXXXNNN
+
+PP = Chapter-unique prefix (2 chars, e.g., "1B", "AC", "AE")
+SS = Section number (2 digits, 01-99)
+XXXXXXXXX = Padding zeros (9 chars)
+NNN = Quest number within section (3 digits, 001-999)
+
+Example: 1505000000000003
+         ^^              = Iron's Spells chapter prefix (15)
+           ^^            = Section 05 (Spell Schools)
+             ^^^^^^^^^   = Padding
+                      ^^^ = Quest 003 in section
+```
+
+### Checklist Before Creating a New Chapter
+
+- [ ] **Check the prefix registry** - is your intended prefix available?
+- [ ] **Claim your prefix** - add it to the registry in this document
+- [ ] **Use the prefix consistently** - ALL quest, task, and reward IDs must use it
+- [ ] **Document the prefix** - add to port notes or chapter notes
+- [ ] **Test with other chapters loaded** - verify no text/dependency crossover
+
+### What to Do If You Discover a Conflict
+
+1. **Identify which chapters conflict** - search for duplicate IDs
+2. **Choose the chapter to fix** - usually the newer one
+3. **Pick a new unique prefix** - check registry
+4. **Replace ALL IDs in the chapter file** - quest, task, reward, dependency IDs
+5. **Update lang file** - all quest.ID, task.ID entries
+6. **Update the registry** - document the new prefix
+7. **Create golden backup** - preserve the fixed version
+
+---
+
 ## CRITICAL: The Three Directories and Data Flow
 
 **This section documents hard-learned lessons. Read this FIRST before doing ANY quest work.**
@@ -403,9 +499,18 @@ These are the actual IDs from `runs/client/config/`:
 - Create: `100C477F4E63F20A`
 - Industrial Foregoing: `193F91842D2ED7D9`
 - Occultism: `4C507C004144BFEE`
-- Iron's Spells: `1A2B3C4D5E6F7890` (created from scratch, uses structured IDs)
+- Iron's Spells: `1A2B3C4D5E6F7890` (uses prefix `1B` for quest IDs)
+- Aquaculture: `492649F619082A45` (uses prefix `AC` for quest IDs)
 
-**Note**: These IDs may change if chapters are recreated. Always verify against actual chapter files. The Iron's Spells chapter uses structured IDs (`0001000000000001` through `0012000000000003`) which are preserved by FTB Quests.
+**Note**: These IDs may change if chapters are recreated. Always verify against actual chapter files.
+
+### Chapters Using Structured IDs with Unique Prefixes
+| Chapter | Prefix | Quest ID Range |
+|---------|--------|----------------|
+| Iron's Spells | `1B` | `1B01000000000001` - `1B12000000000XXX` |
+| Aquaculture | `AC` | `AC01000000000001` - `AC09000000000XXX` |
+
+See the **ID Prefix Registry** at the top of this document for the complete list.
 
 ### Known Pitfalls: Lang File Mismatches
 
@@ -923,45 +1028,61 @@ This section documents creating entirely new quest chapters without porting from
 
 When creating chapters from scratch, use a **structured ID system** for human readability while maintaining FTB Quests compatibility.
 
-#### ID Format: `SSSSXXXXXXXXXNNN`
+**CRITICAL: You MUST use a chapter-unique prefix. See "Avoiding Quest ID Conflicts" section at the top of this document.**
+
+#### ID Format: `[PP][SS]XXXXXXXXXNNN`
 
 ```
-SSSS = Section number (0001-9999)
-XXXXXXXXX = Padding zeros (always 000000000)
-NNN = Quest number within section (001-999)
+PP = Chapter-unique prefix (2 chars, e.g., "1B", "AC", "AE")
+SS = Section number (2 digits, 01-99)
+XXXXXXXXX = Padding zeros (9 chars)
+NNN = Quest number within section (3 digits, 001-999)
 
 Example breakdown:
-0005000000000003
-^^^^         ^^^
-|            |
-|            Quest 3 in this section
-Section 5 (Spell Progression)
+1B05000000000003
+^^              = Chapter prefix (1B = Iron's Spells)
+  ^^            = Section 05 (Spell Schools)
+    ^^^^^^^^^   = Padding zeros
+             ^^^ = Quest 003 in section
 ```
 
-#### Benefits of Structured IDs
+#### WRONG (causes conflicts):
+```
+0005000000000003   <- NO UNIQUE PREFIX - will conflict with other chapters!
+```
 
-1. **Human readable** - Can identify section/quest at a glance
-2. **Predictable** - Easy to add new quests without collisions
-3. **Sortable** - IDs naturally sort by section then quest number
-4. **Valid hex** - Only uses digits 0-9, meets FTB Quests requirements
-5. **Preserved** - FTB Quests does NOT regenerate these IDs
+#### RIGHT (unique per chapter):
+```
+1B05000000000003   <- Iron's Spells (prefix 1B)
+AC05000000000003   <- Aquaculture (prefix AC)
+AE05000000000003   <- Applied Energistics (prefix AE)
+```
 
-#### ID Allocation Example (Iron's Spells)
+#### Benefits of Structured IDs with Unique Prefixes
+
+1. **No conflicts** - Unique prefix prevents ID collisions across chapters
+2. **Human readable** - Can identify chapter/section/quest at a glance
+3. **Predictable** - Easy to add new quests without collisions
+4. **Sortable** - IDs naturally sort by chapter then section then quest
+5. **Valid hex** - Only uses digits 0-9 and A-F, meets FTB Quests requirements
+6. **Preserved** - FTB Quests does NOT regenerate these IDs
+
+#### ID Allocation Example (Iron's Spells - Prefix: 1B)
 
 | Section | ID Prefix | Content |
 |---------|-----------|---------|
-| 1 | `0001000000000` | Introduction (2 quests) |
-| 2 | `0002000000000` | Crafting Infrastructure (4 quests) |
-| 3 | `0003000000000` | Spell Inks (3 quests) |
-| 4 | `0004000000000` | Starter Spellbooks (2 quests) |
-| 5 | `0005000000000` | Spell Schools - 24 quests (3 per school x 8 schools) |
-| 6 | `0006000000000` | Summoning School - mooStack exclusive (3 quests) |
-| 7 | `0007000000000` | School Mastery (8 quests) |
-| 8 | `0008000000000` | Mage Armor (3 quests) |
-| 9 | `0009000000000` | Advanced Spellbooks (3 quests) |
-| 10 | `0010000000000` | Exploration (6 quests) |
-| 11 | `0011000000000` | Boss Encounters (6 quests) |
-| 12 | `0012000000000` | Eldritch Endgame (3 quests) |
+| 1 | `1B01000000000` | Introduction (2 quests) |
+| 2 | `1B02000000000` | Crafting Infrastructure (4 quests) |
+| 3 | `1B03000000000` | Spell Inks (3 quests) |
+| 4 | `1B04000000000` | Starter Spellbooks (2 quests) |
+| 5 | `1B05000000000` | Spell Schools - 24 quests (3 per school x 8 schools) |
+| 6 | `1B06000000000` | Summoning School - mooStack exclusive (3 quests) |
+| 7 | `1B07000000000` | School Mastery (8 quests) |
+| 8 | `1B08000000000` | Mage Armor (3 quests) |
+| 9 | `1B09000000000` | Advanced Spellbooks (3 quests) |
+| 10 | `1B10000000000` | Exploration (6 quests) |
+| 11 | `1B11000000000` | Boss Encounters (6 quests) |
+| 12 | `1B12000000000` | Eldritch Endgame (3 quests) |
 
 Chapter ID: `1A2B3C4D5E6F7890` (can be any valid 16-char hex)
 
@@ -975,6 +1096,14 @@ Before writing any files, plan:
 3. **Dependencies** - Which quests unlock which
 4. **Quest types** - Item collection, checkmarks, kills, etc.
 
+#### Step 1.5: Claim a Unique Prefix
+
+**BEFORE writing any IDs:**
+1. Check the ID Prefix Registry at the top of this document
+2. Choose an available 2-character hex prefix (e.g., `YC` for "Your Chapter")
+3. Add your prefix to the registry
+4. Use this prefix for ALL IDs in your chapter
+
 #### Step 2: Create the Chapter File
 
 Create `runs/client/config/ftbquests/quests/chapters/your_chapter.snbt`:
@@ -983,35 +1112,35 @@ Create `runs/client/config/ftbquests/quests/chapters/your_chapter.snbt`:
 {
     filename: "your_chapter"
     group: ""
-    icon: "modid:icon_item"
-    id: "1A2B3C4D5E6F7890"
+    icon: { id: "modid:icon_item" }
+    id: "YC00000000000000"
     default_quest_shape: ""
     default_hide_dependency_lines: false
     order_index: 5
     quests: [
         {
-            icon: "modid:first_item"
-            id: "0001000000000001"
+            icon: { id: "modid:first_item" }
+            id: "YC01000000000001"
             tasks: [{
-                id: "0001000000000101"
-                item: "modid:first_item"
+                id: "YC01000000000101"
+                item: { count: 1, id: "modid:first_item" }
                 type: "item"
             }]
             x: -6.0d
             y: -3.0d
             rewards: [{
-                id: "0001000000000201"
+                id: "YC01000000000201"
                 type: "xp"
                 xp: 100
             }]
         }
         {
-            dependencies: ["0001000000000001"]
-            icon: "modid:second_item"
-            id: "0001000000000002"
+            dependencies: ["YC01000000000001"]
+            icon: { id: "modid:second_item" }
+            id: "YC01000000000002"
             tasks: [{
-                id: "0001000000000102"
-                item: "modid:second_item"
+                id: "YC01000000000102"
+                item: { count: 1, id: "modid:second_item" }
                 type: "item"
             }]
             x: -4.0d
@@ -1022,10 +1151,12 @@ Create `runs/client/config/ftbquests/quests/chapters/your_chapter.snbt`:
 ```
 
 **Key points:**
+- **CRITICAL**: All IDs start with your chapter's unique prefix (`YC` in this example)
 - All IDs are exactly 16 characters
 - All IDs contain only hex digits (0-9, A-F)
-- Task IDs use pattern `SSSS000000000NTT` (N=quest, TT=task within quest)
-- Reward IDs use pattern `SSSS000000000NRR` (N=quest, RR=reward within quest)
+- Task IDs use pattern `[PP][SS]000000000NTT` (PP=prefix, SS=section, N=quest, TT=task)
+- Reward IDs use pattern `[PP][SS]000000000NRR` (PP=prefix, SS=section, N=quest, RR=reward)
+- Icon and item use object format `{ id: "..." }` for 1.21.1 compatibility
 
 #### Step 3: Create Matching Lang Entries
 
@@ -1035,22 +1166,25 @@ Add ALL localizations to `runs/client/config/ftbquests/quests/lang/en_us.snbt`:
 {
     // ... existing entries ...
 
-    // YOUR CHAPTER Chapter
-    chapter.1A2B3C4D5E6F7890.title: "Your Chapter"
+    // YOUR CHAPTER Chapter (using prefix YC)
+    chapter.YC00000000000000.title: "Your Chapter"
 
     // Section 1: Introduction
-    quest.0001000000000001.title: "First Quest"
-    quest.0001000000000001.quest_desc: ["Description of the first quest."]
+    quest.YC01000000000001.title: "First Quest"
+    quest.YC01000000000001.quest_desc: ["Description of the first quest."]
 
-    quest.0001000000000002.title: "Second Quest"
-    quest.0001000000000002.quest_desc: ["Description that depends on first quest."]
+    quest.YC01000000000002.title: "Second Quest"
+    quest.YC01000000000002.quest_desc: ["Description that depends on first quest."]
 
-    // Section 2: Next Section
+    // Section 2: Next Section (note: prefix stays YC, section changes to 02)
+    quest.YC02000000000001.title: "First Quest in Section 2"
     // ... continue for all quests ...
 }
 ```
 
-**Critical**: Every quest ID in the chapter file MUST have a matching `quest.ID.title` and `quest.ID.quest_desc` entry in the lang file.
+**Critical**:
+- Every quest ID in the chapter file MUST have a matching `quest.ID.title` and `quest.ID.quest_desc` entry in the lang file
+- Lang IDs MUST use the same prefix as the chapter file (e.g., `YC`)
 
 #### Step 4: Test
 
@@ -1373,18 +1507,24 @@ unzip -p modname-version.jar "assets/modid/lang/en_us.json" | grep -i "itemname"
 
 ### Checklist: Creating a New Chapter
 
+- [ ] **FIRST: Check the ID Prefix Registry** (see top of this document)
+- [ ] **Claim a unique 2-char hex prefix** and add to registry
 - [ ] Plan sections and quest count
-- [ ] Allocate ID ranges for each section
-- [ ] Create chapter file with structured IDs
-- [ ] Create all lang entries (titles + descriptions)
-- [ ] Verify all IDs are exactly 16 hex characters
+- [ ] Allocate ID ranges using YOUR PREFIX (e.g., `XX01`, `XX02`, etc.)
+- [ ] Create chapter file with prefixed structured IDs
+- [ ] Create all lang entries using the SAME PREFIX
+- [ ] Verify all IDs:
+  - [ ] Start with your unique prefix
+  - [ ] Are exactly 16 hex characters
+  - [ ] Contain only 0-9 and A-F
 - [ ] Test in-game:
   - [ ] Chapter title displays
-  - [ ] All quest titles display
-  - [ ] All descriptions display
+  - [ ] All quest titles display (not other chapter's text!)
+  - [ ] All descriptions display correctly
   - [ ] Dependencies work correctly
   - [ ] Quests can be completed
 - [ ] Create .golden backup
-- [ ] Create documentation in docs/quests/
+- [ ] Create documentation in docs/quests/ (include prefix in notes)
 - [ ] Copy to defaultconfigs when complete
 - [ ] Sync to config for git tracking
+- [ ] **Verify no ID conflicts** with other chapters

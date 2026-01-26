@@ -2,18 +2,18 @@
 
 **Source:** ATM-10 (All The Mods 10)
 **Target:** mooStack
-**Date:** 2026-01-04
-**Status:** Complete
+**Date:** 2026-01-08
+**Status:** Complete (Awaiting In-Game Testing)
 
 ---
 
 ## Port Summary
 
-Ported the ATM-10 Applied Energistics 2 chapter to mooStack, adapting for the pack's unified material system and available mods.
+Ported the ATM-10 Applied Energistics 2 chapter to mooStack, preserving ATM IDs where possible and adapting for the pack's available mods.
 
 ### Quest Count
-- **ATM-10 Original:** 80+ quests (full coverage)
-- **mooStack Port:** 70 quests (comprehensive core coverage)
+- **ATM-10 Original:** 68 quests
+- **mooStack Port:** 67 quests (1 removed - ae2wtlib not present)
 
 ### Coverage
 The ported chapter covers:
@@ -28,184 +28,197 @@ The ported chapter covers:
 - Auto-crafting (patterns, molecular assemblers, CPUs)
 - Buses (import, export, storage)
 - Planes (annihilation, formation)
-- P2P tunnels
+- P2P tunnels and memory cards
 - Wireless access and terminals
 - AE Infinity Booster (confirmed present in mooStack)
 - Quantum network bridges
-- Spatial IO
+- Spatial IO (port, pylons, cells, anchor)
 - Various cards and accessories
+- Bulk item storage (MEGA Cells)
+- Weapons (charged staff, entropy manipulator, matter cannon)
+
+---
+
+## Mod Verification
+
+### Present in mooStack (build.gradle)
+| Mod | Status | Line |
+|-----|--------|------|
+| ae2 (Applied Energistics 2) | Present | Base mod |
+| megacells | Present | Line 440 |
+| aeinfinitybooster | Present | Line 439 |
+
+### NOT Present in mooStack
+| Mod | Impact |
+|-----|--------|
+| ae2wtlib | Quest `4B76FE0348DB0E45` (Quantum Bridge Card) removed |
+| ftbfiltersystem | smart_filter tasks converted to direct item tasks |
 
 ---
 
 ## Changes from ATM-10
 
-### 1. Removed ATM-Specific Content
-- Removed ATM reward tables (loot tables with ATM-specific items)
-- Replaced with XP rewards and thematic item rewards
-- No references to allthemodium, vibranium, unobtainium, or ATM Star
+### 1. Removed Quests (1 total)
+| Quest ID | Item | Reason |
+|----------|------|--------|
+| `4B76FE0348DB0E45` | ae2wtlib:quantum_bridge_card | ae2wtlib mod not present |
 
-### 2. Mod Verification
-Verified the following AE2 addons are present in mooStack (from build.gradle):
-- `megacells` - MEGA Cells for extended storage
-- `aeinfinitybooster` - Infinity and Dimension cards
-- `ae2QoLRecipes` - Quality of life recipe additions
-- `ae2inserExportCard` - Additional card functionality
+### 2. Smart Filter Task Conversions (15 total)
+Smart filter tasks were converted to direct item requirements:
 
-### 3. Quest IDs
-All quest IDs were regenerated as proper 16-character hex strings:
-- Quest IDs: Random 16-char hex (e.g., `A4B61F409A13ECDB`)
-- Task IDs: Random 16-char hex (e.g., `D0DA6762D70B2A4D`)
-- Reward IDs: Random 16-char hex (e.g., `630D5BB7EF9B9237`)
+| Quest | ATM Filter | mooStack Item |
+|-------|------------|---------------|
+| `2893F483C10293E6` | `item_tag(c:chests)` | minecraft:chest |
+| `5C22E3103544B120` | `item_tag(ae2:glass_cable)` | ae2:fluix_glass_cable |
+| `5C22E3103544B120` | `item_tag(ae2:covered_cable)` | ae2:fluix_covered_cable |
+| `5C22E3103544B120` | `item_tag(ae2:covered_dense_cable)` | ae2:fluix_covered_dense_cable |
+| `5233A447BAA4593C` | `item_tag(ae2:smart_cable)` | ae2:fluix_smart_cable |
+| `5233A447BAA4593C` | `item_tag(ae2:smart_dense_cable)` | ae2:fluix_smart_dense_cable |
+| `74FC0DDDB91DB172` | `item_tag(ae2:interface)` | ae2:interface |
+| `51DE3157DE3E57B8` | `item_tag(ae2:pattern_provider)` | ae2:pattern_provider |
+| `1B686954D34A0F23` | `item_tag(ae2:quartz_wrench)` | ae2:certus_quartz_wrench |
+| `5E24012A3D9B72A1` | `or(ae2:fluid_storage_cell_*)` | ae2:fluid_storage_cell_1k |
+| `77C9EE701F72586D` | `or(ae2:portable_*_cell_*)` | ae2:portable_item_cell_1k |
+| `6F3D0A248B5A9CA2` | `or(ae2:spatial_storage_cell_*)` | ae2:spatial_storage_cell_2 |
+| `30E853CE699E669B` | `or(ae2:*_crafting_storage)` | ae2:1k_crafting_storage |
+| `6144202A97C6CD1C` | `item_tag(ae2:knife)` | ae2:certus_quartz_cutting_knife |
 
-**Note:** Initial attempt used `AE2001000000XXX` pattern which failed because:
-1. Pattern was only 15 characters (must be exactly 16)
-2. FTB Quests expects random-looking hex IDs
+### 3. Reward Replacements
+ATM reward tables (IDs `727499692191347770L` and `5871764666515020368L`) were replaced with:
+- XP rewards (10-100 based on quest complexity)
+- Thematic item rewards:
+  - Early: iron ingots, certus quartz, sky stone
+  - Mid: fluix crystals/dust, processors, cables
+  - Late: components, cells, silicon
+- `exclude_from_claim_all: true` on some rewards to prevent bulk claiming
 
-### 4. Localization
-All quest text (titles, subtitles, descriptions) placed in main `lang/en_us.snbt` file following mooStack's localization strategy.
+### 4. ID Preservation
+**ATM Quest IDs were preserved exactly** where possible:
+- Chapter ID: `07210DDF872160BA` (from ATM)
+- All 67 ported quest IDs match ATM exactly
+- All task IDs within quests match ATM exactly
+- All reward IDs are new (rewards were fully replaced)
 
-### 5. Reward Philosophy
-- XP rewards for all quests (10-100 XP based on complexity)
-- Thematic item rewards where appropriate:
-  - Certus quartz for early quests
-  - Fluix dust for mid quests
-  - Processors and components for later quests
-  - Quartz fiber and cables for networking quests
-
----
-
-## Potential Issues
-
-### 1. AE2 Wireless Terminals Addon
-The ATM-10 chapter includes a quest for `ae2wtlib:quantum_bridge_card`. This addon may or may not be present in mooStack. The quest was not included in this port. If the mod is added later, a quest can be created.
-
-### 2. Quest Positions
-Quest positions (x, y coordinates) were estimated based on logical flow. These may need adjustment in-game using FTB Quests edit mode for better visual layout.
-
-### 3. Dependencies
-Dependencies were aligned to match ATM-10 structure using the dependency comparison process documented in `docs/ftbquests_setup_guide.md`.
-
-#### Dependency Fixes Applied (22 total)
-
-**Added dependencies to quests that were incorrectly ROOT:**
-- `ae2:charger` -> depends on Welcome quest
-- `ae2:energy_cell` -> depends on `ae2:energy_acceptor`
-- `ae2:energy_card` -> depends on `ae2:energy_cell`
-- `ae2:terminal` -> depends on `ae2:logic_processor`
-- `ae2:network_tool` -> depends on `ae2:terminal`
-- `ae2:cell_component_4k` -> depends on `ae2:cell_component_1k`
-- `ae2:cell_component_256k` -> depends on `ae2:cell_component_64k`
-- `megacells:cell_component_64m` -> depends on `megacells:cell_component_16m`
-- `ae2:item_cell_housing` -> depends on `ae2:cell_component_1k`
-- `ae2:formation_plane` -> depends on `ae2:export_bus`
-- `ae2:charged_staff` -> depends on `ae2:cell_component_1k`
-- `ae2:wireless_access_point` -> depends on `ae2:controller`
-- `ae2:condenser` -> depends on `ae2:cell_component_1k`
-- `ae2:wireless_terminal` -> depends on `ae2:wireless_access_point`
-- `ae2:singularity` -> depends on `ae2:condenser`
-- `ae2:quantum_ring` -> depends on `ae2:singularity`
-- `ae2:growth_accelerator` -> depends on `ae2:pattern_provider`
-- `ae2:level_emitter` -> depends on `ae2:pattern_provider`
-- `ae2:pattern_encoding_terminal` -> depends on `ae2:pattern_provider`
-
-**Changed dependencies:**
-- `ae2:controller` -> now depends on `ae2:terminal` (was `ae2:fluix_glass_cable`)
-- `ae2:chest` -> now depends on `ae2:controller` (was `ae2:fluix_glass_cable`)
-
-**Removed incorrect dependencies:**
-- `ae2:quartz_fiber` - removed (now ROOT as in ATM-10)
-- `ae2:crafting_accelerator` - removed (now ROOT as in ATM-10)
-- `ae2:color_applicator` - removed (now ROOT as in ATM-10)
-- `ae2:spatial_io_port` - removed (now ROOT as in ATM-10)
-
-#### Expected Differences (3)
-ATM-10 has a separate `ae2:pattern_access_terminal` quest, while mooStack combines Pattern Provider + Pattern Access Terminal into one quest. Three quests show as depending on `ae2:pattern_provider` instead of `ae2:pattern_access_terminal`. This is functionally equivalent.
-
-#### Final Dependency Flow
-```
-Welcome -> Charger/Inscriber -> Meteorites -> Certus/Fluix -> Basic Cabling
-                                           -> Processors -> Terminals -> Controller
-                                           -> Energy Acceptor -> Energy Cell -> Energy Card
-
-Basic Cabling -> Smart Cabling
-Controller -> Storage (Drive/Chest) -> Cell Components -> MEGA Cells
-                                    -> Item Cell Housing -> Storage Cells
-           -> Wireless Access Point -> Wireless Terminals -> Infinity Booster
-Cell Component 1k -> Charged Staff, Condenser
-Condenser -> Singularity -> Quantum Ring
-Pattern Provider -> Level Emitter, Growth Accelerator, Pattern Encoding Terminal
-                 -> Molecular Assembler -> Speed Card
-Interface -> Import Bus -> Annihilation Plane
-          -> Export Bus -> Formation Plane
-          -> Storage Bus -> Capacity Card
-          -> P2P Tunnel -> Memory Card
-Spatial IO Port -> Spatial Pylon -> Spatial Cells, Spatial Anchor
-```
+### 5. ATM-Specific Content Removed
+- ATM chapter image (`atm:textures/questpics/ae2.png`)
+- Hidden copyright quest `5034A9137E0F3D3D` preserved but invisible/optional
+- ATM group ID replaced with ungrouped (`group: ""`)
 
 ---
 
-## Files Modified/Created
+## Dependencies
+
+### Dependency Verification
+All dependencies were verified to resolve to valid IDs:
+- 49 dependency references total
+- All resolve to quest IDs or task IDs within the chapter
+- No broken references
+
+### Task ID Dependencies (Special Cases)
+Some quests depend on task IDs rather than quest IDs (valid FTB Quests behavior):
+| Quest | Depends On Task |
+|-------|-----------------|
+| `4E8A05C3BFA80540` (Storage) | `40A7CC56DACC2623` (Glass Cable task) |
+| `3B42CCC19D23EC6D` (4k Component) | `64CCF1FB42AA41CE` (1k Component task) |
+| Storage component chain | Each depends on previous task ID |
+| `03E6FA4DCB71162E` (Color Applicator) | `066F1BBF3D0863C5` (4k Component task) |
+
+---
+
+## Localization
+
+### Lang Entry Coverage
+| Category | Count | Notes |
+|----------|-------|-------|
+| Chapter title | 1 | `chapter.07210DDF872160BA.title` |
+| Quest titles | 44 | Explicit titles for quests |
+| Quest subtitles | 34 | From ATM |
+| Quest descriptions | 70 | From ATM, all quests except invisible utility |
+| Task titles | 15 | Checkmark and complex tasks |
+
+### Localization Strategy
+- All text placed in main `lang/en_us.snbt` file
+- ATM descriptions transferred faithfully
+- Multi-line array format used for descriptions
+- Minecraft formatting codes preserved (`&b`, `&e`, `&o`, etc.)
+
+---
+
+## Files Created/Modified
 
 ### Created
-1. `runs/client/config/ftbquests/quests/chapters/applied_energistics.snbt`
-   - Complete chapter file with 70 quests
+1. `runs/client/config/ftbquests/quests/chapters/applied_energistics_2.snbt`
+   - 67 quests with preserved ATM IDs
+   - All smart filters converted to direct items
+   - New reward structure (XP + thematic items)
 
 ### Modified
 1. `runs/client/config/ftbquests/quests/lang/en_us.snbt`
-   - Added all AE2 quest localizations (titles, subtitles, descriptions)
-   - Preserved existing chapter titles
+   - Added AE2 chapter title
+   - Added all quest localizations
+   - Added task titles for checkmark tasks
 
 ---
 
 ## Testing Recommendations
 
-1. **In-game verification:**
-   - Open quest book and verify all quests render correctly
-   - Check all icons display properly
-   - Verify dependency lines show correctly
+### Pre-Testing Backup
+Before launching the game, create backups:
+```bash
+cp runs/client/config/ftbquests/quests/chapters/applied_energistics_2.snbt \
+   runs/client/config/ftbquests/quests/chapters/applied_energistics_2.snbt.backup
+```
 
-2. **Completion testing:**
-   - Test completing the first few quests
-   - Verify rewards are granted
-   - Check XP amounts are reasonable
+### In-Game Verification
+1. **Chapter Visibility**: Verify chapter appears in quest book
+2. **Quest Rendering**: All 67 quests should display with correct titles
+3. **Description Display**: Check 5-10 random quests for full descriptions
+4. **Dependency Lines**: Verify dependency arrows show correctly
+5. **Item Icons**: Verify all task items display proper icons
+6. **Layout**: Check quest positions match logical flow
 
-3. **Layout adjustment:**
-   - Use `/ftbquests editing_mode` to adjust quest positions
-   - Ensure no overlapping quests
-   - Create a logical visual flow
+### Completion Testing
+1. Complete first quest (chest requirement)
+2. Verify reward is granted
+3. Verify dependent quests unlock
+4. Test a few item collection quests
 
-4. **Item verification:**
-   - Verify all quest task items exist in the modpack
-   - Check JEI for all items referenced
-   - Confirm MEGA Cells and Infinity Booster items are available
-
----
-
-## Future Enhancements
-
-1. **Add more integration quests:**
-   - AE2 + Mekanism integration (Applied Mekanistics)
-   - AE2 + Create integration (if addon present)
-   - AE2 + Ars Nouveau integration (if addon present)
-
-2. **Add decorative images:**
-   - Add visual guides for complex setups
-   - Add multiblock diagrams for crafting CPUs
-
-3. **Add optional quests:**
-   - Color applicator advanced techniques
-   - Specific P2P tunnel types
-   - Network optimization tips
+### Known Quirks
+- Quest `5034A9137E0F3D3D` is invisible (utility quest from ATM)
+- Some quests display item name as title (intentional, no explicit title)
 
 ---
 
-## Notes on ATM-10 Content Not Ported
+## Finalization Steps
 
-The following ATM-10 specific content was intentionally not ported:
-- Smart Filter quests (ftbfiltersystem) - addon may not be present
-- Some advanced wireless terminal types - ae2wtlib addon status unknown
-- ATM-specific reward tables and loot
+After successful in-game testing:
+```bash
+# 1. Copy to defaultconfigs
+cp runs/client/config/ftbquests/quests/chapters/applied_energistics_2.snbt \
+   runs/client/defaultconfigs/ftbquests/quests/chapters/
+
+# 2. Copy lang file (or merge the AE2 section)
+# Be careful to preserve existing chapter entries
+
+# 3. Sync to config for git tracking
+cp runs/client/defaultconfigs/ftbquests/quests/chapters/applied_energistics_2.snbt \
+   config/ftbquests/quests/chapters/
+```
 
 ---
 
-*Port completed following mooStack porting guidelines*
+## Port Statistics
+
+| Metric | Value |
+|--------|-------|
+| Quests ported 1:1 | 52 |
+| Quests modified (task conversion) | 15 |
+| Quests removed | 1 |
+| Total lang entries added | 164+ |
+| Dependency references | 49 |
+| Broken dependencies | 0 |
+
+---
+
+*Port completed following mooStack FTB Quests porting guidelines*
+*Guide: docs/ftbquests_setup_guide.md*
