@@ -1,0 +1,9 @@
+{
+	"objectives": [
+		"moostack:magic/magic_ars_objs",
+		"moostack:magic/magic_irons_objs"
+	],
+	"rewards": [
+		"moostack:rewards/reward_magic_materials"
+	]
+}

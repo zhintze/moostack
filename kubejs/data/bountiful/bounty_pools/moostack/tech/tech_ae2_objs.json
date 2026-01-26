@@ -1,0 +1,78 @@
+{
+	"weightMult": 1.0,
+	"content": {
+		"certus_quartz_crystal": {
+			"type": "item",
+			"content": "ae2:certus_quartz_crystal",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 200,
+			"repRequired": 5
+		},
+		"fluix_crystal": {
+			"type": "item",
+			"content": "ae2:fluix_crystal",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 350,
+			"repRequired": 8
+		},
+		"logic_processor": {
+			"type": "item",
+			"content": "ae2:logic_processor",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"calculation_processor": {
+			"type": "item",
+			"content": "ae2:calculation_processor",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"engineering_processor": {
+			"type": "item",
+			"content": "ae2:engineering_processor",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 800,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"cell_component_1k": {
+			"type": "item",
+			"content": "ae2:cell_component_1k",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 700,
+			"repRequired": 12
+		},
+		"cell_component_4k": {
+			"type": "item",
+			"content": "ae2:cell_component_4k",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 1000,
+			"repRequired": 18,
+			"rarity": "RARE"
+		},
+		"charged_certus_quartz_crystal": {
+			"type": "item",
+			"content": "ae2:charged_certus_quartz_crystal",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+		"fluix_dust": {
+			"type": "item",
+			"content": "ae2:fluix_dust",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 250,
+			"repRequired": 5
+		},
+		"silicon": {
+			"type": "item",
+			"content": "ae2:silicon",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200,
+			"repRequired": 3
+		}
+	}
+}

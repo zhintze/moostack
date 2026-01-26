@@ -1,0 +1,85 @@
+{
+	"weightMult": 1.5,
+	"content": {
+		"witch": {
+			"type": "entity",
+			"content": "minecraft:witch",
+			"amount": { "min": 2, "max": 4 },
+			"unitWorth": 500,
+			"timeMult": 7.0,
+			"repRequired": 5
+		},
+		"phantom": {
+			"type": "entity",
+			"content": "minecraft:phantom",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 450,
+			"timeMult": 6.5,
+			"repRequired": 5
+		},
+		"pillager": {
+			"type": "entity",
+			"content": "minecraft:pillager",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 400,
+			"timeMult": 6.0,
+			"repRequired": 5
+		},
+		"vindicator": {
+			"type": "entity",
+			"content": "minecraft:vindicator",
+			"amount": { "min": 2, "max": 4 },
+			"unitWorth": 550,
+			"timeMult": 7.0,
+			"repRequired": 8
+		},
+		"evoker": {
+			"type": "entity",
+			"content": "minecraft:evoker",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 800,
+			"timeMult": 8.0,
+			"repRequired": 10
+		},
+		"ravager": {
+			"type": "entity",
+			"content": "minecraft:ravager",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 900,
+			"timeMult": 8.5,
+			"repRequired": 12
+		},
+		"blaze": {
+			"type": "entity",
+			"content": "minecraft:blaze",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 500,
+			"timeMult": 7.0,
+			"repRequired": 8
+		},
+		"piglin_brute": {
+			"type": "entity",
+			"content": "minecraft:piglin_brute",
+			"amount": { "min": 2, "max": 4 },
+			"unitWorth": 600,
+			"timeMult": 7.5,
+			"repRequired": 10
+		},
+		"magma_cube": {
+			"type": "entity",
+			"content": "minecraft:magma_cube",
+			"amount": { "min": 4, "max": 8 },
+			"unitWorth": 350,
+			"timeMult": 5.5,
+			"repRequired": 5
+		},
+		"guardian": {
+			"type": "entity",
+			"content": "minecraft:guardian",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 450,
+			"timeMult": 6.5,
+			"repRequired": 8
+		}
+	}
+}

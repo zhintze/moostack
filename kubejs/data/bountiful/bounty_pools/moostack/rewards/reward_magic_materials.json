@@ -1,0 +1,64 @@
+{
+	"content": {
+		"lapis": {
+			"type": "item",
+			"content": "minecraft:lapis_lazuli",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 150
+		},
+		"amethyst": {
+			"type": "item",
+			"content": "minecraft:amethyst_shard",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200
+		},
+		"source_gem": {
+			"type": "item",
+			"content": "ars_nouveau:source_gem",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350
+		},
+		"magebloom": {
+			"type": "item",
+			"content": "ars_nouveau:magebloom",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 300
+		},
+		"arcane_essence": {
+			"type": "item",
+			"content": "irons_spellbooks:arcane_essence",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"common_ink": {
+			"type": "item",
+			"content": "irons_spellbooks:common_ink",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"blank_rune": {
+			"type": "item",
+			"content": "irons_spellbooks:blank_rune",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"experience_bottle": {
+			"type": "item",
+			"content": "minecraft:experience_bottle",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350
+		},
+		"enchanted_book_mending": {
+			"type": "item",
+			"content": "minecraft:enchanted_book",
+			"nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:mending\"}]}",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 3000,
+			"rarity": "EPIC",
+			"repRequired": 20
+		}
+	}
+}

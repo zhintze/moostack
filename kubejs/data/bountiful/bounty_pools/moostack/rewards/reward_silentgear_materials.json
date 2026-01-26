@@ -1,0 +1,70 @@
+{
+	"content": {
+		"iron_ingot": {
+			"type": "item",
+			"content": "minecraft:iron_ingot",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200
+		},
+		"gold_ingot": {
+			"type": "item",
+			"content": "minecraft:gold_ingot",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 300
+		},
+		"diamond": {
+			"type": "item",
+			"content": "minecraft:diamond",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 800,
+			"rarity": "UNCOMMON"
+		},
+		"netherite_scrap": {
+			"type": "item",
+			"content": "minecraft:netherite_scrap",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 2000,
+			"rarity": "RARE",
+			"repRequired": 15
+		},
+		"steel_ingot": {
+			"type": "item",
+			"content": "mekanism:ingot_steel",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"bronze_ingot": {
+			"type": "item",
+			"content": "mekanism:ingot_bronze",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 300,
+			"repRequired": 3
+		},
+		"osmium_ingot": {
+			"type": "item",
+			"content": "mekanism:ingot_osmium",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"sinew": {
+			"type": "item",
+			"content": "silentgear:sinew",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 250
+		},
+		"leather_scrap": {
+			"type": "item",
+			"content": "silentgear:leather_scrap",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		},
+		"flax_string": {
+			"type": "item",
+			"content": "silentgear:flax_string",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		}
+	}
+}

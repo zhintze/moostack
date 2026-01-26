@@ -1,0 +1,12 @@
+{
+	"objectives": [
+		"moostack:tech/tech_create_objs",
+		"moostack:tech/tech_mekanism_objs",
+		"moostack:tech/tech_ae2_objs",
+		"moostack:tech/tech_pneumatic_objs",
+		"moostack:tech/tech_immersive_objs"
+	],
+	"rewards": [
+		"moostack:rewards/reward_tech_materials"
+	]
+}

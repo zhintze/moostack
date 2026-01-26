@@ -1,0 +1,70 @@
+{
+	"weightMult": 0.9,
+	"content": {
+		"spirit_attuned_gem": {
+			"type": "item",
+			"content": "occultism:spirit_attuned_gem",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"otherstone": {
+			"type": "item",
+			"content": "occultism:otherstone",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 200
+		},
+		"otherworld_log": {
+			"type": "item",
+			"content": "occultism:otherworld_log",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 250,
+			"repRequired": 5
+		},
+		"burnt_otherstone": {
+			"type": "item",
+			"content": "occultism:burnt_otherstone",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 300,
+			"repRequired": 8
+		},
+		"tallow": {
+			"type": "item",
+			"content": "occultism:tallow",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 250,
+			"repRequired": 5
+		},
+		"afrit_essence": {
+			"type": "item",
+			"content": "occultism:afrit_essence",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 1000,
+			"repRequired": 18,
+			"rarity": "RARE"
+		},
+		"iesnium_ingot": {
+			"type": "item",
+			"content": "occultism:iesnium_ingot",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 10,
+			"rarity": "UNCOMMON"
+		},
+		"spirit_attuned_crystal": {
+			"type": "item",
+			"content": "occultism:spirit_attuned_crystal",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"datura": {
+			"type": "item",
+			"content": "occultism:datura",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200,
+			"repRequired": 3
+		}
+	}
+}

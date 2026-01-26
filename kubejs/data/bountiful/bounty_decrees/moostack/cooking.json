@@ -1,0 +1,11 @@
+{
+	"objectives": [
+		"moostack:cooking/cooking_basic_objs",
+		"moostack:cooking/cooking_intermediate_objs",
+		"moostack:cooking/cooking_advanced_objs",
+		"moostack:cooking/cooking_mastery_objs"
+	],
+	"rewards": [
+		"moostack:rewards/reward_cooking_materials"
+	]
+}

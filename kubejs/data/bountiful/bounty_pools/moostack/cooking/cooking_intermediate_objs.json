@@ -1,0 +1,75 @@
+{
+	"weightMult": 1.2,
+	"content": {
+		"bacon_and_eggs": {
+			"type": "item",
+			"content": "farmersdelight:bacon_and_eggs",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"pasta_with_meatballs": {
+			"type": "item",
+			"content": "farmersdelight:pasta_with_meatballs",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 450,
+			"repRequired": 8
+		},
+		"beef_stew": {
+			"type": "item",
+			"content": "farmersdelight:beef_stew",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 8
+		},
+		"hamburger": {
+			"type": "item",
+			"content": "farmersdelight:hamburger",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"stuffed_potato": {
+			"type": "item",
+			"content": "farmersdelight:stuffed_potato",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 380,
+			"repRequired": 5
+		},
+		"chicken_soup": {
+			"type": "item",
+			"content": "farmersdelight:chicken_soup",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 420,
+			"repRequired": 5
+		},
+		"vegetable_soup": {
+			"type": "item",
+			"content": "farmersdelight:vegetable_soup",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 350,
+			"repRequired": 3
+		},
+		"fried_rice": {
+			"type": "item",
+			"content": "farmersdelight:fried_rice",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 380,
+			"repRequired": 5
+		},
+		"bacon_sandwich": {
+			"type": "item",
+			"content": "farmersdelight:bacon_sandwich",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 350,
+			"repRequired": 3
+		},
+		"mutton_wrap": {
+			"type": "item",
+			"content": "farmersdelight:mutton_wrap",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 400,
+			"repRequired": 5
+		}
+	}
+}

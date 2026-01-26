@@ -1,0 +1,73 @@
+{
+	"weightMult": 1.3,
+	"content": {
+		"andesite_alloy": {
+			"type": "item",
+			"content": "create:andesite_alloy",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 150
+		},
+		"cogwheel": {
+			"type": "item",
+			"content": "create:cogwheel",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200
+		},
+		"shaft": {
+			"type": "item",
+			"content": "create:shaft",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 180
+		},
+		"brass_ingot": {
+			"type": "item",
+			"content": "create:brass_ingot",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"electron_tube": {
+			"type": "item",
+			"content": "create:electron_tube",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 500,
+			"repRequired": 8
+		},
+		"precision_mechanism": {
+			"type": "item",
+			"content": "create:precision_mechanism",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 800,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"sturdy_sheet": {
+			"type": "item",
+			"content": "create:sturdy_sheet",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 10
+		},
+		"large_cogwheel": {
+			"type": "item",
+			"content": "create:large_cogwheel",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 250,
+			"repRequired": 3
+		},
+		"brass_sheet": {
+			"type": "item",
+			"content": "create:brass_sheet",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"rose_quartz": {
+			"type": "item",
+			"content": "create:rose_quartz",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 450,
+			"repRequired": 8
+		}
+	}
+}

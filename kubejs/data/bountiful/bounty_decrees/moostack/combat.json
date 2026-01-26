@@ -1,0 +1,12 @@
+{
+	"objectives": [
+		"moostack:combat/combat_tier1_objs",
+		"moostack:combat/combat_tier2_objs",
+		"moostack:combat/combat_tier3_objs",
+		"moostack:combat/combat_tier4_objs"
+	],
+	"rewards": [
+		"moostack:rewards/reward_combat_gear",
+		"moostack:rewards/reward_silentgear_materials"
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"content": {
+		"redstone": {
+			"type": "item",
+			"content": "minecraft:redstone",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 150
+		},
+		"copper_ingot": {
+			"type": "item",
+			"content": "minecraft:copper_ingot",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		},
+		"steel_ingot": {
+			"type": "item",
+			"content": "mekanism:ingot_steel",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350
+		},
+		"osmium_ingot": {
+			"type": "item",
+			"content": "mekanism:ingot_osmium",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400
+		},
+		"basic_circuit": {
+			"type": "item",
+			"content": "mekanism:basic_control_circuit",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 600,
+			"rarity": "UNCOMMON",
+			"repRequired": 10
+		},
+		"brass_ingot": {
+			"type": "item",
+			"content": "create:brass_ingot",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400
+		},
+		"precision_mechanism": {
+			"type": "item",
+			"content": "create:precision_mechanism",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 900,
+			"rarity": "RARE",
+			"repRequired": 12
+		},
+		"certus_crystal": {
+			"type": "item",
+			"content": "ae2:certus_quartz_crystal",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 250
+		},
+		"fluix_crystal": {
+			"type": "item",
+			"content": "ae2:fluix_crystal",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"compressed_iron": {
+			"type": "item",
+			"content": "pneumaticcraft:ingot_iron_compressed",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350
+		}
+	}
+}

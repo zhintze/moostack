@@ -1,0 +1,65 @@
+{
+	"weightMult": 0.8,
+	"content": {
+		"blank_slate": {
+			"type": "item",
+			"content": "bloodmagic:blankslate",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 400,
+			"repRequired": 5
+		},
+		"reinforced_slate": {
+			"type": "item",
+			"content": "bloodmagic:reinforcedslate",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 10,
+			"rarity": "UNCOMMON"
+		},
+		"imbued_slate": {
+			"type": "item",
+			"content": "bloodmagic:infusedslate",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 900,
+			"repRequired": 15,
+			"rarity": "RARE"
+		},
+		"demonic_slate": {
+			"type": "item",
+			"content": "bloodmagic:demonslate",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 1500,
+			"repRequired": 22,
+			"rarity": "EPIC"
+		},
+		"arcane_ash": {
+			"type": "item",
+			"content": "bloodmagic:arcaneash",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"weak_blood_orb": {
+			"type": "item",
+			"content": "bloodmagic:weakbloodorb",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 500,
+			"repRequired": 8
+		},
+		"apprentice_blood_orb": {
+			"type": "item",
+			"content": "bloodmagic:apprenticebloodorb",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 800,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"lava_crystal": {
+			"type": "item",
+			"content": "bloodmagic:lavacrystal",
+			"amount": { "min": 1, "max": 3 },
+			"unitWorth": 450,
+			"repRequired": 8
+		}
+	}
+}

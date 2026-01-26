@@ -1,0 +1,65 @@
+{
+	"weightMult": 1.1,
+	"content": {
+		"plate_iron": {
+			"type": "item",
+			"content": "immersiveengineering:plate_iron",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 250
+		},
+		"plate_steel": {
+			"type": "item",
+			"content": "immersiveengineering:plate_steel",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"component_iron": {
+			"type": "item",
+			"content": "immersiveengineering:component_iron",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"component_steel": {
+			"type": "item",
+			"content": "immersiveengineering:component_steel",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 550,
+			"repRequired": 10,
+			"rarity": "UNCOMMON"
+		},
+		"wirecoil_copper": {
+			"type": "item",
+			"content": "immersiveengineering:wirecoil_copper",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+		"wirecoil_electrum": {
+			"type": "item",
+			"content": "immersiveengineering:wirecoil_electrum",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 500,
+			"repRequired": 12
+		},
+		"plate_copper": {
+			"type": "item",
+			"content": "immersiveengineering:plate_copper",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 200
+		},
+		"treated_wood_planks": {
+			"type": "item",
+			"content": "immersiveengineering:treated_wood_horizontal",
+			"amount": { "min": 16, "max": 64 },
+			"unitWorth": 150
+		},
+		"hemp_fiber": {
+			"type": "item",
+			"content": "immersiveengineering:hemp_fiber",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 100
+		}
+	}
+}

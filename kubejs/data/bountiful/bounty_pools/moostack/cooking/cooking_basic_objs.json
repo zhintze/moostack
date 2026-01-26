@@ -1,0 +1,65 @@
+{
+	"weightMult": 1.5,
+	"content": {
+		"cabbage": {
+			"type": "item",
+			"content": "farmersdelight:cabbage",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		},
+		"tomato": {
+			"type": "item",
+			"content": "farmersdelight:tomato",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		},
+		"onion": {
+			"type": "item",
+			"content": "farmersdelight:onion",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 150
+		},
+		"rice": {
+			"type": "item",
+			"content": "farmersdelight:rice",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 120
+		},
+		"fried_egg": {
+			"type": "item",
+			"content": "farmersdelight:fried_egg",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 200
+		},
+		"tomato_sauce": {
+			"type": "item",
+			"content": "farmersdelight:tomato_sauce",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 250
+		},
+		"rice_panicle": {
+			"type": "item",
+			"content": "farmersdelight:rice_panicle",
+			"amount": { "min": 8, "max": 24 },
+			"unitWorth": 100
+		},
+		"raw_pasta": {
+			"type": "item",
+			"content": "farmersdelight:raw_pasta",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 180
+		},
+		"pie_crust": {
+			"type": "item",
+			"content": "farmersdelight:pie_crust",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 200
+		},
+		"wheat_dough": {
+			"type": "item",
+			"content": "farmersdelight:wheat_dough",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 150
+		}
+	}
+}

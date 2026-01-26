@@ -1,0 +1,59 @@
+{
+	"weightMult": 1.0,
+	"content": {
+		"wither_skeleton": {
+			"type": "entity",
+			"content": "minecraft:wither_skeleton",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 700,
+			"timeMult": 8.0,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"ghast": {
+			"type": "entity",
+			"content": "minecraft:ghast",
+			"amount": { "min": 2, "max": 4 },
+			"unitWorth": 650,
+			"timeMult": 7.5,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"enderman": {
+			"type": "entity",
+			"content": "minecraft:enderman",
+			"amount": { "min": 3, "max": 5 },
+			"unitWorth": 600,
+			"timeMult": 7.0,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"hoglin": {
+			"type": "entity",
+			"content": "minecraft:hoglin",
+			"amount": { "min": 3, "max": 5 },
+			"unitWorth": 550,
+			"timeMult": 7.0,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"elder_guardian": {
+			"type": "entity",
+			"content": "minecraft:elder_guardian",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 3000,
+			"timeMult": 12.0,
+			"repRequired": 20,
+			"rarity": "RARE"
+		},
+		"warden": {
+			"type": "entity",
+			"content": "minecraft:warden",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 5000,
+			"timeMult": 15.0,
+			"repRequired": 25,
+			"rarity": "EPIC"
+		}
+	}
+}

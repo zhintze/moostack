@@ -1,0 +1,67 @@
+{
+	"weightMult": 1.0,
+	"content": {
+		"roast_chicken": {
+			"type": "item",
+			"content": "farmersdelight:roast_chicken",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"honey_glazed_ham": {
+			"type": "item",
+			"content": "farmersdelight:honey_glazed_ham",
+			"amount": { "min": 1, "max": 3 },
+			"unitWorth": 700,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"shepherds_pie": {
+			"type": "item",
+			"content": "farmersdelight:shepherds_pie",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 650,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"ratatouille": {
+			"type": "item",
+			"content": "farmersdelight:ratatouille",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"steak_and_potatoes": {
+			"type": "item",
+			"content": "farmersdelight:steak_and_potatoes",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 550,
+			"repRequired": 10,
+			"rarity": "UNCOMMON"
+		},
+		"grilled_salmon": {
+			"type": "item",
+			"content": "farmersdelight:grilled_salmon",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 450,
+			"repRequired": 10
+		},
+		"squid_ink_pasta": {
+			"type": "item",
+			"content": "farmersdelight:squid_ink_pasta",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 550,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"pasta_with_mutton_chop": {
+			"type": "item",
+			"content": "farmersdelight:pasta_with_mutton_chop",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 500,
+			"repRequired": 10
+		}
+	}
+}

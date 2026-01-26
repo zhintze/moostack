@@ -1,0 +1,62 @@
+{
+	"weightMult": 1.0,
+	"content": {
+		"ingot_iron_compressed": {
+			"type": "item",
+			"content": "pneumaticcraft:ingot_iron_compressed",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+		"plastic": {
+			"type": "item",
+			"content": "pneumaticcraft:plastic",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 250,
+			"repRequired": 8
+		},
+		"transistor": {
+			"type": "item",
+			"content": "pneumaticcraft:transistor",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 450,
+			"repRequired": 10
+		},
+		"capacitor": {
+			"type": "item",
+			"content": "pneumaticcraft:capacitor",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 450,
+			"repRequired": 10
+		},
+		"printed_circuit_board": {
+			"type": "item",
+			"content": "pneumaticcraft:printed_circuit_board",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 800,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"pressure_tube": {
+			"type": "item",
+			"content": "pneumaticcraft:pressure_tube",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 200,
+			"repRequired": 5
+		},
+		"turbine_rotor": {
+			"type": "item",
+			"content": "pneumaticcraft:turbine_rotor",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"lubricant_bucket": {
+			"type": "item",
+			"content": "pneumaticcraft:lubricant_bucket",
+			"amount": { "min": 1, "max": 3 },
+			"unitWorth": 400,
+			"repRequired": 8
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"objectives": [
+		"moostack:ritual/ritual_blood_objs",
+		"moostack:ritual/ritual_occultism_objs",
+		"moostack:ritual/ritual_evilcraft_objs"
+	],
+	"rewards": [
+		"moostack:rewards/reward_magic_materials"
+	]
+}

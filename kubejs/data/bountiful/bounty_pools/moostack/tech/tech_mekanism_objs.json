@@ -1,0 +1,79 @@
+{
+	"weightMult": 1.2,
+	"content": {
+		"ingot_steel": {
+			"type": "item",
+			"content": "mekanism:ingot_steel",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+		"ingot_osmium": {
+			"type": "item",
+			"content": "mekanism:ingot_osmium",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"alloy_infused": {
+			"type": "item",
+			"content": "mekanism:alloy_infused",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"alloy_reinforced": {
+			"type": "item",
+			"content": "mekanism:alloy_reinforced",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"alloy_atomic": {
+			"type": "item",
+			"content": "mekanism:alloy_atomic",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 1000,
+			"repRequired": 18,
+			"rarity": "RARE"
+		},
+		"basic_control_circuit": {
+			"type": "item",
+			"content": "mekanism:basic_control_circuit",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"advanced_control_circuit": {
+			"type": "item",
+			"content": "mekanism:advanced_control_circuit",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 800,
+			"repRequired": 15,
+			"rarity": "UNCOMMON"
+		},
+		"elite_control_circuit": {
+			"type": "item",
+			"content": "mekanism:elite_control_circuit",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 1200,
+			"repRequired": 20,
+			"rarity": "RARE"
+		},
+		"enriched_redstone": {
+			"type": "item",
+			"content": "mekanism:enriched_redstone",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 250,
+			"repRequired": 3
+		},
+		"enriched_diamond": {
+			"type": "item",
+			"content": "mekanism:enriched_diamond",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 450,
+			"repRequired": 8
+		}
+	}
+}

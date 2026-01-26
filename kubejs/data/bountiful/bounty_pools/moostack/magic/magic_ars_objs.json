@@ -1,0 +1,96 @@
+{
+	"weightMult": 1.2,
+	"content": {
+		"source_gem": {
+			"type": "item",
+			"content": "ars_nouveau:source_gem",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 300
+		},
+		"magebloom": {
+			"type": "item",
+			"content": "ars_nouveau:magebloom",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 250
+		},
+		"archwood_log": {
+			"type": "item",
+			"content": "ars_nouveau:blue_archwood_log",
+			"amount": { "min": 8, "max": 32 },
+			"unitWorth": 150
+		},
+		"wilden_horn": {
+			"type": "item",
+			"content": "ars_nouveau:wilden_horn",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"wilden_spike": {
+			"type": "item",
+			"content": "ars_nouveau:wilden_spike",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 450,
+			"repRequired": 8
+		},
+		"wilden_wing": {
+			"type": "item",
+			"content": "ars_nouveau:wilden_wing",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"manipulation_essence": {
+			"type": "item",
+			"content": "ars_nouveau:manipulation_essence",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"conjuration_essence": {
+			"type": "item",
+			"content": "ars_nouveau:conjuration_essence",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"abjuration_essence": {
+			"type": "item",
+			"content": "ars_nouveau:abjuration_essence",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"air_essence": {
+			"type": "item",
+			"content": "ars_nouveau:air_essence",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"fire_essence": {
+			"type": "item",
+			"content": "ars_nouveau:fire_essence",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"earth_essence": {
+			"type": "item",
+			"content": "ars_nouveau:earth_essence",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 10
+		},
+		"water_essence": {
+			"type": "item",
+			"content": "ars_nouveau:water_essence",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 500,
+			"repRequired": 10
+		}
+	}
+}

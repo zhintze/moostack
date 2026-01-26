@@ -1,0 +1,79 @@
+{
+	"weightMult": 1.0,
+	"content": {
+		"arcane_essence": {
+			"type": "item",
+			"content": "irons_spellbooks:arcane_essence",
+			"amount": { "min": 4, "max": 16 },
+			"unitWorth": 350,
+			"repRequired": 5
+		},
+		"common_ink": {
+			"type": "item",
+			"content": "irons_spellbooks:common_ink",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 300,
+			"repRequired": 5
+		},
+		"uncommon_ink": {
+			"type": "item",
+			"content": "irons_spellbooks:uncommon_ink",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 500,
+			"repRequired": 10,
+			"rarity": "UNCOMMON"
+		},
+		"rare_ink": {
+			"type": "item",
+			"content": "irons_spellbooks:rare_ink",
+			"amount": { "min": 1, "max": 2 },
+			"unitWorth": 800,
+			"repRequired": 15,
+			"rarity": "RARE"
+		},
+		"blood_vial": {
+			"type": "item",
+			"content": "irons_spellbooks:blood_vial",
+			"amount": { "min": 4, "max": 12 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"frozen_bone": {
+			"type": "item",
+			"content": "irons_spellbooks:frozen_bone",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 450,
+			"repRequired": 10
+		},
+		"hogskin": {
+			"type": "item",
+			"content": "irons_spellbooks:hogskin",
+			"amount": { "min": 2, "max": 6 },
+			"unitWorth": 400,
+			"repRequired": 8
+		},
+		"lightning_bottle": {
+			"type": "item",
+			"content": "irons_spellbooks:lightning_bottle",
+			"amount": { "min": 1, "max": 4 },
+			"unitWorth": 550,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"casters_eye": {
+			"type": "item",
+			"content": "irons_spellbooks:casters_eye",
+			"amount": { "min": 1, "max": 3 },
+			"unitWorth": 600,
+			"repRequired": 12,
+			"rarity": "UNCOMMON"
+		},
+		"blank_rune": {
+			"type": "item",
+			"content": "irons_spellbooks:blank_rune",
+			"amount": { "min": 2, "max": 8 },
+			"unitWorth": 350,
+			"repRequired": 5
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"weightMult": 2.0,
+	"content": {
+		"zombie": {
+			"type": "entity",
+			"content": "minecraft:zombie",
+			"amount": { "min": 3, "max": 8 },
+			"unitWorth": 200,
+			"timeMult": 5.0
+		},
+		"skeleton": {
+			"type": "entity",
+			"content": "minecraft:skeleton",
+			"amount": { "min": 3, "max": 8 },
+			"unitWorth": 220,
+			"timeMult": 5.5
+		},
+		"spider": {
+			"type": "entity",
+			"content": "minecraft:spider",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 200,
+			"timeMult": 5.0
+		},
+		"creeper": {
+			"type": "entity",
+			"content": "minecraft:creeper",
+			"amount": { "min": 2, "max": 5 },
+			"unitWorth": 350,
+			"timeMult": 6.0
+		},
+		"drowned": {
+			"type": "entity",
+			"content": "minecraft:drowned",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 250,
+			"timeMult": 5.5
+		},
+		"husk": {
+			"type": "entity",
+			"content": "minecraft:husk",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 230,
+			"timeMult": 5.5
+		},
+		"stray": {
+			"type": "entity",
+			"content": "minecraft:stray",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 250,
+			"timeMult": 5.5
+		},
+		"slime": {
+			"type": "entity",
+			"content": "minecraft:slime",
+			"amount": { "min": 4, "max": 10 },
+			"unitWorth": 180,
+			"timeMult": 4.0
+		},
+		"cave_spider": {
+			"type": "entity",
+			"content": "minecraft:cave_spider",
+			"amount": { "min": 3, "max": 6 },
+			"unitWorth": 280,
+			"timeMult": 5.5
+		},
+		"zombie_villager": {
+			"type": "entity",
+			"content": "minecraft:zombie_villager",
+			"amount": { "min": 2, "max": 4 },
+			"unitWorth": 300,
+			"timeMult": 5.5
+		}
+	}
+}
