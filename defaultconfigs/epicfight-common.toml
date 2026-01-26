@@ -1,2 +1,13 @@
+[loot]
+	# Default: 0
+	# Range: -100 ~ 100
+	# Disabled - skill books obtained only through quests
+	skill_book_mob_drop_chance_modifier = -100
+	# Default: 0
+	# Range: -100 ~ 100
+	# Disabled - skill books obtained only through quests
+	skill_book_chest_drop_chance_modifier = -100
+
 [default_gamerule]
-initialMode = 1
+	# Initial combat mode: 0 = vanilla, 1 = epicfight
+	initialMode = 1
