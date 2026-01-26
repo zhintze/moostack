@@ -14,6 +14,7 @@
 	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.492649F619082A45.title: "Aquaculture"
 	chapter.4C507C004144BFEE.title: "Occultism"
+	chapter.4FACE7A7426CE1A5.title: "Epic Fight"
 	chapter.5347000000000000.title: "Silent Gear"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
@@ -23,14 +24,26 @@
 	quest.0001000000000001.title: "Spell Scroll System"
 	quest.0001000000000002.quest_desc: ["Arcane Essence drops from hostile mobs and magical creatures. This is the primary crafting material for spell-related items."]
 	quest.0001000000000002.title: "Arcane Essence"
+	quest.0001000000000003.quest_desc: [
+		"Each weapon category has a distinct combat style with different attack speeds, ranges, and movesets."
+		""
+		"One-handed weapons allow shield use. Two-handed weapons deal more damage but leave you vulnerable. Experiment to find your preferred style."
+	]
+	quest.0001000000000003.quest_subtitle: "Choosing Your Path"
+	quest.0001000000000003.title: "Weapon Combat Styles"
 	quest.0002000000000001.quest_desc: ["The Inscription Table transfers spells between scrolls and spellbooks. Use it to customize your spellbook loadout."]
 	quest.0002000000000001.title: "Inscription Table"
 	quest.0002000000000002.quest_desc: ["The Scroll Forge crafts spell scrolls from ink, paper, and a Focus item. Higher rarity inks produce higher level spells."]
 	quest.0002000000000002.title: "Scroll Forge"
 	quest.0002000000000003.quest_desc: ["The Arcane Anvil upgrades spells using Upgrade Orbs. Each orb increases the spell level by one, up to the spell's maximum."]
 	quest.0002000000000003.title: "Arcane Anvil"
-	quest.0002000000000004.quest_desc: ["The Alchemist Cauldron brews elixirs and combines inks. Heat it with fire or lava, then add ingredients to craft potions."]
-	quest.0002000000000004.title: "Alchemist Cauldron"
+	quest.0002000000000004.quest_desc: [
+		"Special attacks are unlocked through the skill tree and consume additional stamina. They deal high damage or provide utility."
+		""
+		"Bind special attacks to hotkeys in the skill menu. Each weapon type has unique specials worth investing in."
+	]
+	quest.0002000000000004.quest_subtitle: "Powerful Techniques"
+	quest.0002000000000004.title: "Special Attacks"
 	quest.0003000000000001.quest_desc: ["Common and Uncommon inks craft low-level spells. Common ink uses squid ink and arcane essence. Uncommon requires additional reagents."]
 	quest.0003000000000001.title: "Basic Inks"
 	quest.0003000000000002.quest_desc: ["Rare and Epic inks craft mid-level spells. These require materials from magical structures and hostile mage encounters."]
@@ -41,6 +54,20 @@
 	quest.0004000000000001.title: "Basic Spellbooks"
 	quest.0004000000000002.quest_desc: ["Gold and Rotten spellbooks hold 8 spells each. Rotten spellbooks are found in structures or crafted from undead materials."]
 	quest.0004000000000002.title: "Standard Spellbooks"
+	quest.0004000000000005.quest_desc: [
+		"Plumes and decorations can be attached to helmets for visual distinction."
+		""
+		"Craft a plume decoration. These serve no combat purpose but mark experienced warriors."
+	]
+	quest.0004000000000005.quest_subtitle: "Personal Flair"
+	quest.0004000000000005.title: "Helm Decorations"
+	quest.0004000000000006.quest_desc: [
+		"Barding protects horses in combat, essential for mounted knights."
+		""
+		"Craft horse barding to protect your mount. A well-armored horse survives longer in dangerous encounters."
+	]
+	quest.0004000000000006.quest_subtitle: "Mount Protection"
+	quest.0004000000000006.title: "Horse Barding"
 	quest.0005000000000001.quest_desc: ["Craft Firebolt and Burning Dash scrolls. Firebolt is a basic projectile. Burning Dash provides mobility with fire damage."]
 	quest.0005000000000001.title: "Fire: Initiate"
 	quest.0005000000000002.quest_desc: ["Craft Magma Bomb and Wall of Fire scrolls. These area-of-effect spells control space and deal sustained damage."]
@@ -188,6 +215,13 @@
 	quest.00D7BCC68D971A53.quest_subtitle: "Max: 1"
 	quest.00DB5495C3A44999.quest_desc: ["Shift-right-click containers to deposit matching items from backpack."]
 	quest.00DB5495C3A44999.title: "Deposit Upgrade"
+	quest.00DCB81D6A41BD44.quest_desc: [
+		"Defeat 10 Piglins to earn the Berserker skill book."
+		""
+		"Berserker increases your damage and attack speed when at low health. The lower your health, the stronger you become. High risk, high reward."
+	]
+	quest.00DCB81D6A41BD44.quest_subtitle: "Learn the Berserker passive"
+	quest.00DCB81D6A41BD44.title: "Greatsword Training: Berserker"
 	quest.00E19377BAE5DD6A.quest_desc: ["This one adds Shears to our Meka-Tool! We can't use it with the Farming Unit or Teleportation Unit."]
 	quest.00E19377BAE5DD6A.quest_subtitle: "Meka-Tool"
 	quest.00E19377BAE5DD6A.title: "Shearing Unit"
@@ -502,6 +536,13 @@
 		"Passive mob farming becomes much more efficient with these runes. Each rune adds a multiplier to sacrificial LP gains."
 	]
 	quest.08F28A9E4DEA7CD0.title: "Sacrifice Rune"
+	quest.08FFB925245C38AF.quest_desc: [
+		"Obtain a Katana Blueprint from Silent Gear to begin training the katana combat style."
+		""
+		"The katana emphasizes swift strikes and precise timing. Fast attack chains reward aggressive play."
+	]
+	quest.08FFB925245C38AF.quest_subtitle: "Katana Style"
+	quest.08FFB925245C38AF.title: "Katana Blueprint"
 	quest.090B564935D7A8F5.quest_desc: ["Don't like picking up your &5Machines&r to Upgrade them? Why not just use an &eItem&r! \\n\\nWith &7Tier&r Installers you can just use the &eItem&r on the &5Machine &rto Upgrade them! \\n\\nThrow the &a&lBasic Tier &r&aInstaller&r onto a Default &5Machine&r to upgrade them to &a&lBasic Tier&r. \\n\\nNo, you can't skip upgrades. Can't turn a &a&lBasic&r into &d&lUltimate&r with one &dInstaller&r."]
 	quest.090B564935D7A8F5.title: "&lTier&r Installers"
 	quest.09223F02621781BF.quest_subtitle: "Breed: Iron + Mason Bee"
@@ -714,8 +755,22 @@
 	quest.0D5D76B3551CD5A7.title: "Aluminium Bee"
 	quest.0D9560C8E247F9E7.quest_desc: ["Right-click somewhere and you will be able to pathfind your way back. If you're close enough and have a direct route, a path will appear."]
 	quest.0D9560C8E247F9E7.quest_subtitle: "Max: 1"
+	quest.0D96B42914B65C1A.quest_desc: [
+		"Ability Points are earned through XP gain. Use them in the skill menu to unlock passive abilities and active skills."
+		""
+		"Different weapon styles share some skills but also have unique branches. Plan your build based on your preferred playstyle."
+	]
+	quest.0D96B42914B65C1A.quest_subtitle: "Unlocking Skills"
+	quest.0D96B42914B65C1A.title: "Ability Points and XP"
 	quest.0D97CDE92F3B1A83.quest_subtitle: "Molten enderium over lead/diamond/platinum bee egg"
 	quest.0D97CDE92F3B1A83.title: "Enderium Bee"
+	quest.0D988BF0557B8834.quest_desc: [
+		"Defeat 20 Vindicators to earn the Impact Guard skill book."
+		""
+		"Impact Guard reduces magic, explosion, and projectile damage by 80% while guarding. Essential for surviving ranged threats and area attacks."
+	]
+	quest.0D988BF0557B8834.quest_subtitle: "Learn the Impact Guard skill"
+	quest.0D988BF0557B8834.title: "Longsword Mastery: Impact Guard"
 	quest.0E057B7F76401421.quest_desc: ["Optional intermediate tier. Can skip directly to iron backpack."]
 	quest.0E057B7F76401421.quest_subtitle: "The First Upgrade"
 	quest.0E057B7F76401421.title: "Copper Backpack"
@@ -727,6 +782,13 @@
 	quest.0E175356D43E6A10.title: "&cInjecting &3Hydrogen Chloride"
 	quest.0E25CDB09FE88A63.quest_subtitle: "Tier: &a2"
 	quest.0E25CDB09FE88A63.title: "Saltpeter Seeds"
+	quest.0E2691DCE4B44A8D.quest_desc: [
+		"Defeat 20 Silverfish to earn the Hyper Vitality skill book."
+		""
+		"Hyper Vitality allows you to use stamina instead of weapon charge for weapon skills. Never wait for your weapon to recharge again."
+	]
+	quest.0E2691DCE4B44A8D.quest_subtitle: "Learn the Hyper Vitality passive"
+	quest.0E2691DCE4B44A8D.title: "Dagger Mastery: Hyper Vitality"
 	quest.0E2AD156E5EF263A.quest_desc: ["Used to inscribe spells on with the Scribe's Table."]
 	quest.0E2AD156E5EF263A.title: "Spell Parchment"
 	quest.0E345B5B625E6235.quest_subtitle: "Spawn egg only (from loot)"
@@ -897,6 +959,13 @@
 		"Definitely won't summon spirits when you are mining. &o&5&lDefinitely won't&r."
 	]
 	quest.10EF30B919EBA5C6.title: "Vengeance Pickaxe"
+	quest.10F9A4EAF82976CD.quest_desc: [
+		"Defeat 20 Guardians to earn the Phantom Ascent skill book."
+		""
+		"Phantom Ascent grants an extra mid-air jump. Extend your aerial mobility, recover from falls, or chain with Demolition Leap for extreme vertical movement."
+	]
+	quest.10F9A4EAF82976CD.quest_subtitle: "Learn the Phantom Ascent mover skill"
+	quest.10F9A4EAF82976CD.title: "Spear Mastery: Phantom Ascent"
 	quest.110D27EA86CDA62B.quest_desc: ["Pulls nearby dropped items into the backpack."]
 	quest.110D27EA86CDA62B.title: "Magnet Upgrade"
 	quest.111649D7E16D869F.quest_desc: [
@@ -961,6 +1030,13 @@
 		"&9Important Note&r: Certain Bees will only live in Nests and will not go into Advanced Hives. If they don't produce Honeycomb, they need to live in a Nest instead."
 	]
 	quest.120BDCB70AD352AC.quest_subtitle: "Honey Treats Required"
+	quest.12111A8F1BE36410.quest_desc: [
+		"Defeat 20 Witches to earn the Emergency Escape skill book."
+		""
+		"Emergency Escape allows you to cancel your own attacks with a dodge. Recover from overcommitting and reposition instantly when danger appears."
+	]
+	quest.12111A8F1BE36410.quest_subtitle: "Learn the Emergency Escape passive"
+	quest.12111A8F1BE36410.title: "Katana Mastery: Emergency Escape"
 	quest.12175A15A5259430.quest_desc: ["Expand to 48 runes. Adds a second ring of pillars."]
 	quest.12175A15A5259430.title: "Tier 4 Altar"
 	quest.121FF0D9B07F82F8.quest_desc: ["Requires Demonic Slate. Maximum LP storage for endgame content."]
@@ -1109,6 +1185,13 @@
 	quest.145C8235BCCB9BA8.title: "Afrit Essence"
 	quest.14623D25561BA61B.quest_desc: ["Mostly for the Catcher."]
 	quest.14623D25561BA61B.quest_subtitle: "Increases the Range of a Machine"
+	quest.147DA32CC31F58DC.quest_desc: [
+		"Hold the attack button to perform combo chains. Each weapon has a unique combo sequence with varying damage and stagger."
+		""
+		"Timing matters. Releasing and re-pressing at the right moment extends combos. Practice on passive mobs first."
+	]
+	quest.147DA32CC31F58DC.quest_subtitle: "Chaining Attacks"
+	quest.147DA32CC31F58DC.title: "Basic Attack Combos"
 	quest.14898B50E11EC759.quest_desc: ["Converts FE to rotation. Adjustable RPM output. Bridges tech mods with Create."]
 	quest.14898B50E11EC759.title: "Electric Motor"
 	quest.14DB8A515CA50932.quest_desc: [
@@ -1348,6 +1431,13 @@
 		"This also generates Lava Lilys."
 	]
 	quest.19D02325579F2AA8.title: "Volcanic Sourcelink"
+	quest.1A01AFCD0BB97901.quest_desc: [
+		"Obtain a Dagger Blueprint from Silent Gear to begin training the dagger combat style."
+		""
+		"Daggers favor aggressive close-range combat with rapid attacks. Speed compensates for limited reach."
+	]
+	quest.1A01AFCD0BB97901.quest_subtitle: "Dagger Style"
+	quest.1A01AFCD0BB97901.title: "Dagger Blueprint"
 	quest.1A0368CB49B8CBFF.quest_desc: [
 		"This Spell Book is a rare drop from Blazes. I remember that because I was confused when I got 1 from my Blaze Farm."
 		""
@@ -1391,6 +1481,20 @@
 	quest.1ACF52EC2B34C502.title: "Blood Light Sigil"
 	quest.1ACFF2DBE8B2D76F.quest_desc: ["Processes materials using LP. Creates blood shards and processes ores."]
 	quest.1ACFF2DBE8B2D76F.title: "Alchemical Reactor"
+	quest.1AE22C5745877654.quest_desc: [
+		"Effective combat combines proper spacing, stamina management, and knowing when to attack versus defend."
+		""
+		"Practice against progressively harder enemies. Master one weapon style before branching out. Your skill points are limited."
+	]
+	quest.1AE22C5745877654.quest_subtitle: "Putting It Together"
+	quest.1AE22C5745877654.title: "Combat Mastery"
+	quest.1AEBC314878233CA.quest_desc: [
+		"Defeat 20 Endermen to earn the Death Harvest skill book."
+		""
+		"Death Harvest refills your weapon's special charge when you kill an enemy. Keep your weapon skills ready by maintaining a steady flow of kills."
+	]
+	quest.1AEBC314878233CA.quest_subtitle: "Learn the Death Harvest passive"
+	quest.1AEBC314878233CA.title: "Tachi Mastery: Death Harvest"
 	quest.1AEFF93A398B8BBF.quest_desc: ["&b&lElite Tier&r comes right after &c&lAdvanced&r. These have the same buffs as &c&lAdvanced&r... just more! \\n\\n&b&lElite&r are made with &bReinforced Alloys&f, &bElite Control Circuits&f, and most times &eGold Ingots&r. \\n\\nYou can get &bReinforced Alloys&r from Infusing an &cInfused Alloy&r with 20mb of &bDiamond&r. That is 2 &bDiamond Dust&r or 1/4 &bEnriched Diamond&r! \\n\\nYou can then use those &bReinforced Alloys&r (2 of them) with an &cAdvanced Control Circuit&r to make the &bElite Control Circuit&r. "]
 	quest.1AEFF93A398B8BBF.title: "&b&lElite Tier"
 	quest.1B182A30604655E2.quest_desc: ["&cBlaze Burners&r are pretty easy to Craft, you'll just need some &7Iron Plates&r with a singular Block of &4Netherrack&r. \\n\\nThen you'll need to use a &oMysterious Conversion&r to make it less Empty! That is just Right Clicking a &cBlaze&r with your &cEmpty Blaze Burner&r. \\n\\nWhen we place him though, he seems a little small and... lukewarm... \\n\\nWe'll need to feed him! No, not Steak, &cBlazes&r don't like Steaks. He'll need either Furnace Fuels like Wood or Coal, or his favorite: the &cBlaze Cakes&r! \\n\\nThe Furnace Fuel will get them only a bit Heated, but the &cBlaze Cakes&r will make them &bSuper-Heated&r! Yes, &bSuper-Heated&r is hotter than &6Orange&r Hot. \\n\\nSome Recipes and &6Machines&r will need to be Heated, like &6Automated Brewing&r, &6Mixing&r, and the Steam Boiler will! "]
@@ -1538,6 +1642,13 @@
 	quest.1DC407272D9D9CCE.quest_subtitle: "Spawn egg only | Flower: Awakened Supremium Block"
 	quest.1DC407272D9D9CCE.subtitle: "Spawn egg only | Flower: Awakened Supremium Block"
 	quest.1DC407272D9D9CCE.title: "Awakened Supremium Bee"
+	quest.1DD4F9946D69CC0C.quest_desc: [
+		"Defeat 10 Skeletons to earn the Parrying skill book."
+		""
+		"Parrying enhances your guard with timed blocks. Successfully parrying an attack at the right moment deflects damage completely and can block projectiles."
+	]
+	quest.1DD4F9946D69CC0C.quest_subtitle: "Learn the Parrying guard skill"
+	quest.1DD4F9946D69CC0C.title: "Longsword Training: Parrying"
 	quest.1DE0F289821F55D1.quest_desc: [
 		"More powerful rituals require additional colored chalks to complete their pentacles."
 		""
@@ -1706,6 +1817,13 @@
 	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
+	quest.219A6CFA514FABCD.quest_desc: [
+		"Defeat 20 Wither Skeletons to earn the Sword Master skill book."
+		""
+		"Sword Master is a passive skill that increases attack speed and improves stamina recovery while wielding swords. Essential for sustained sword combat."
+	]
+	quest.219A6CFA514FABCD.quest_subtitle: "Learn the Sword Master passive"
+	quest.219A6CFA514FABCD.title: "Sword Mastery: Sword Master"
 	quest.21D8B88155648EA6.quest_desc: [
 		"Come on we all know what you are here for... &5&lMACHINES&r! \\n\\n&5Machines&r are our little Factories, each will do something unique in gaining us more &eItems&r. Follow the individual Quests to find out what each does. \\n\\nHere I will talk more on the Configs and &8Upgrades&r! "
 		"{@pagebreak}"
@@ -1961,6 +2079,13 @@
 	quest.281AAC27DEBEE84D.title: "Divination Sigil"
 	quest.282150A3AEC9CEA5.quest_desc: ["Disconnects kinetic network when powered by redstone. Stops downstream machines."]
 	quest.282150A3AEC9CEA5.title: "Clutch"
+	quest.2833E10B825E3A2B.quest_desc: [
+		"Defeat 10 Drowned to earn the Demolition Leap skill book."
+		""
+		"Demolition Leap launches you into the air and reduces fall damage. Use it to gain height advantage, escape ground threats, or set up aerial attacks."
+	]
+	quest.2833E10B825E3A2B.quest_subtitle: "Learn the Demolition Leap mover skill"
+	quest.2833E10B825E3A2B.title: "Spear Training: Demolition Leap"
 	quest.283EDD3F65244DDD.quest_subtitle: "Breed: White Pigment + Black Pigment"
 	quest.283EDD3F65244DDD.subtitle: "Breed: White Pigment + Black Pigment"
 	quest.283EDD3F65244DDD.title: "Gray Pigment Bee"
@@ -1978,6 +2103,13 @@
 	quest.28847A536C38EEA0.quest_desc: ["&cTransformers&r are how we go from &6LV&r Connections to &eMV&r Connections. The little &cConnector&r is &6LV&r and bigger one is &eMV&r! \\n\\nIf you want to go from &eMV&r to &5HV&r we'll need an &5HV Transformer&r. These work the same as the other &cTransformer&r, just the smaller &cConnector&r is &eMV&r and bigger one is &5HV&r! \\n\\nNo, you can't go from &6LV&r to &5HV&r without &eMV&r!"]
 	quest.28847A536C38EEA0.quest_subtitle: "Directed by Michael Bay"
 	quest.28847A536C38EEA0.title: "&cTransformers"
+	quest.2886EBF3DC98C805.quest_desc: [
+		"Defeat 20 Magma Cubes to earn the Revelation skill book."
+		""
+		"Revelation builds stacks as you land hits. When fully charged, unleash a devastating knockdown attack that sends enemies flying."
+	]
+	quest.2886EBF3DC98C805.quest_subtitle: "Learn the Revelation identity skill"
+	quest.2886EBF3DC98C805.title: "Mace Mastery: Revelation"
 	quest.2893F483C10293E6.quest_desc: [
 		"&lWelcome to &bApplied Energistics 2&f!"
 		""
@@ -2031,6 +2163,13 @@
 	quest.295C77EEC89000FC.quest_desc: ["The Vitalic Sourcelink generates Source from mob deaths and animal breeding nearby."]
 	quest.295C77EEC89000FC.quest_subtitle: "Generates Source from Mob Deaths and Animal Breeding"
 	quest.295C77EEC89000FC.title: "Vitalic Sourcelink"
+	quest.295EE0B7F74229B9.quest_desc: [
+		"A master at arms is proficient with multiple weapon types and understands the strengths of each."
+		""
+		"Consider training in weapon styles you have not yet explored. Versatility provides options against varied threats."
+	]
+	quest.295EE0B7F74229B9.quest_subtitle: "Complete Combat Training"
+	quest.295EE0B7F74229B9.title: "Master at Arms"
 	quest.2960FFE0C53DFEB1.quest_desc: [
 		"The most dangerous spirits require extreme materials."
 		""
@@ -2232,6 +2371,13 @@
 		"Dragon Breath, amethyst dust, crushed end stone, and end crystals are used for the most powerful rituals."
 	]
 	quest.2CF96A264EB5522C.title: "Draconic Materials"
+	quest.2D04D50BD7BA4232.quest_desc: [
+		"Defeat 10 Cave Spiders to earn the Roll skill book."
+		""
+		"Roll is a directional dodge that costs 4 stamina. While rolling, you are immune to physical attacks. Covers more distance than Step but takes longer to execute."
+	]
+	quest.2D04D50BD7BA4232.quest_subtitle: "Learn the Roll dodge skill"
+	quest.2D04D50BD7BA4232.title: "Dagger Training: Roll"
 	quest.2D0CF18C8B2ABB7D.quest_desc: [
 		"Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source!"
 		""
@@ -2347,6 +2493,13 @@
 		"This gem is used in the most advanced summoning and binding rituals."
 	]
 	quest.2FD22502E6481269.title: "Trinity Gem"
+	quest.2FE9641D71169F20.quest_desc: [
+		"Obtain a Greatsword Blueprint from Silent Gear to begin training the greatsword combat style."
+		""
+		"The greatsword delivers devastating heavy attacks. Slow but powerful, it excels at staggering enemies."
+	]
+	quest.2FE9641D71169F20.quest_subtitle: "Greatsword Style"
+	quest.2FE9641D71169F20.title: "Greatsword Blueprint"
 	quest.300357A59A789E28.quest_desc: ["Crafts sigil reagents and components. Place near your altar for easy access."]
 	quest.300357A59A789E28.title: "Alchemy Table"
 	quest.3009018DEC1EC952.quest_desc: ["There's 6 structures in the Overworld that the bosses can spawn in! (There's a 7th but no boss in there)."]
@@ -2387,6 +2540,13 @@
 	quest.309059DEDEE7AECD.quest_subtitle: "Flower: Peridot blocks (Check JEI)"
 	quest.309059DEDEE7AECD.subtitle: "Flower: Peridot blocks (Check JEI)"
 	quest.309059DEDEE7AECD.title: "Hoarder Bee"
+	quest.30A16F0A565C5AC6.quest_desc: [
+		"You have acquired the equipment and knowledge to face serious combat challenges."
+		""
+		"Continue developing your skills and expanding your arsenal. True mastery requires experience."
+	]
+	quest.30A16F0A565C5AC6.quest_subtitle: "Proven Warrior"
+	quest.30A16F0A565C5AC6.title: "Combat Veteran"
 	quest.30A1B0A1B54A0AEE.quest_desc: [
 		"The world is filled with &cdangerous dungeons&r and &6valuable loot&r. Be prepared before venturing into the unknown."
 		""
@@ -2891,6 +3051,13 @@
 	quest.3B4A56EB5620E15A.quest_desc: ["Catch 5 Perch. Found in freshwater biomes."]
 	quest.3B4A56EB5620E15A.quest_subtitle: "Freshwater Fish"
 	quest.3B4A56EB5620E15A.title: "Perch Collection"
+	quest.3B4ED142FCA53952.quest_desc: [
+		"Obtain a Mace Blueprint from Silent Gear to begin training the mace combat style."
+		""
+		"The mace delivers crushing blunt damage with excellent stagger. Slower than bladed weapons but hits hard."
+	]
+	quest.3B4ED142FCA53952.quest_subtitle: "Mace Style"
+	quest.3B4ED142FCA53952.title: "Mace Blueprint"
 	quest.3B54433C990880E9.quest_desc: ["An automated enchanting table powered by Liquid Experience. Supply enchanted books via belt or funnel to apply specific enchantments to items."]
 	quest.3B54433C990880E9.title: "Blaze Enchanter"
 	quest.3B936CA3F0F7B26B.quest_desc: [
@@ -3273,6 +3440,13 @@
 	quest.431C44439CA54077.title: "Tier 4 Altar"
 	quest.431C62A6F8ECB4EC.quest_desc: ["&7Aluminum Rod&r - 10 \\n&7Iron Rod&r - 16 \\n&8Steel Rod&r - 24 \\n&8Sawblade&r - 12 \\n&0Graphite Electrode&r - 30"]
 	quest.431C62A6F8ECB4EC.title: "&5&lRailgun&r Ammo from &8&lIE&r"
+	quest.431FAEA1347F4DA3.quest_desc: [
+		"Obtain a Tachi Blueprint from Silent Gear to begin training the tachi combat style."
+		""
+		"The tachi combines katana speed with greater reach. Its curved blade excels at sweeping cuts."
+	]
+	quest.431FAEA1347F4DA3.quest_subtitle: "Tachi Style"
+	quest.431FAEA1347F4DA3.title: "Tachi Blueprint"
 	quest.43784C83C8A76E8B.quest_subtitle: "Sets the time to day"
 	quest.43784C83C8A76E8B.title: "Ritual of Sunrise"
 	quest.437DB2CE10D33A08.quest_desc: ["You'll need to grab yourself a &6Glowstone Nest&r and head to the Nether to capture this bee!"]
@@ -3406,6 +3580,13 @@
 	quest.47358ADC1470C82A.title: "Demon's Dream Fruit"
 	quest.475B63AF0E87E318.quest_subtitle: "Tier 5 - Accelerates Growth"
 	quest.475B63AF0E87E318.title: "&4Supremium Watering Can"
+	quest.475D3013FEA877EC.quest_desc: [
+		"The armet is a fully enclosed helmet providing excellent head protection."
+		""
+		"Craft an armet to complete a full plate armor set. The enclosed design limits vision but maximizes defense."
+	]
+	quest.475D3013FEA877EC.quest_subtitle: "Closed Helmet"
+	quest.475D3013FEA877EC.title: "Armet Helm"
 	quest.47656073894224AF.quest_desc: ["Yes, it is just like the ones on giant Battleships! \\n\\nThe &5&lRailgun&r is a special Gun. For 1. it uses special Ammo, not Cartridges like the Revolver uses 2. it uses &cEnergy&r and needs to charge before shooting. \\n\\nThe Ammo it uses is &eItems&r from your Inventory: &7Aluminum&r, &7Iron&r, and &8Steel Rods&r, &0Graphite Electrodes&r, Sawblades, Enderpearls, Tridents, Blaze Rods, and End Rods. \\n\\nIt'll take whatever is in your Inventory, to change what it Shoots, Hold Shift and Scroll. \\n\\nNext, it needs &cEnergy&r within it to Shoot, to charge it we can use any &cItem Charger&r, including the one added by &8&lImmersive Engineering&r! \\n\\nOnce we have all this, Hold Right Click until the Railgun gets to Level 99, then release! \\n\\nThe &5&lRailgun's&r Upgrades are: Precision Scope and Heatsinks. \\n\\nIt can hold 2 Upgrades, well that makes sense it can't use anymore than that!"]
 	quest.47656073894224AF.title: "&5&lRailgun"
 	quest.476C7317510198D9.quest_desc: ["Okay this ones fun! You like throwing &eItems&r? Like, I mean to really throw them! \\n\\nThen, the &eWeighted Ejector&r is for you! \\n\\nFirst, you need to Shift Right Click a Block with the &eWeighted Ejector&r to set it as the target. The target has to be in line with where the &eEjector&r is aimed in order to hit it. \\n\\nOnce it has a target and is placed down, it can be fed &dRotational Power&r to charge it! Then, when an &eItem&r is placed on the &eWeighted Ejector&r, it will throw it! \\nYou can hold on some of the Sides to change the Stack Size needed to throw &eItems&r."]
@@ -3508,6 +3689,13 @@
 	]
 	quest.48F496BD0FFE5A34.quest_subtitle: "Boots"
 	quest.48F496BD0FFE5A34.title: "Magnetic Attraction Unit"
+	quest.4916A67B0CC75574.quest_desc: [
+		"Defeat 10 Husks to earn the Technician skill book."
+		""
+		"Technician rewards precise timing by restoring stamina when you execute a perfectly timed dodge. Master the rhythm of combat to never run out of stamina."
+	]
+	quest.4916A67B0CC75574.quest_subtitle: "Learn the Technician passive"
+	quest.4916A67B0CC75574.title: "Katana Training: Technician"
 	quest.4926C95DD02F1410.quest_desc: [
 		"You ever see those Tutorials that use Beacons as a Laser Security Gate. Then, when you try it you get disappointed it doesn't kill people?"
 		"Well Lasers do just that! Trust me, they look like Beacons and they definitely kill!"
@@ -3533,6 +3721,17 @@
 		"Multiple Speed Runes stack for faster automation throughput."
 	]
 	quest.49F57CE3B472FF6D.title: "Speed Rune"
+	quest.4A050181D999577F.quest_desc: [
+		"Epic Fight replaces vanilla combat with a skill-based system featuring weapon movesets, stamina management, and directional attacks."
+		""
+		"&6Auto-Battle Mode&r is ON by default. This automatically switches to combat mode when enemies are nearby. The toggle keybind is UNBOUND - set it in Controls > mooStack if you want manual control."
+		""
+		"To use the vanilla Epic Fight R-key toggle instead: Go to Settings > mooStack and disable Auto-Battle Mode."
+		""
+		"Check this quest to confirm you understand the basics."
+	]
+	quest.4A050181D999577F.quest_subtitle: "Combat Mode and Auto-Battle"
+	quest.4A050181D999577F.title: "Combat Mode Basics"
 	quest.4A076530297F4A97.quest_desc: ["With these 3 components you can create some amazing &3Elevators&r. Check the PNC:R guide book for building instructions."]
 	quest.4A076530297F4A97.title: "Elevators"
 	quest.4A41FCBFE985D81E.quest_subtitle: "Grants Elytra-like flight"
@@ -3561,6 +3760,13 @@
 	quest.4A96A0456680837C.title: "Nether Star Seeds"
 	quest.4AAB3899F530CC19.quest_desc: ["Chutes can take &eItems&r (and some Entities) and drop them without worry of despawning! \\n\\nThey also drop &eItems&r pretty darn quickly. \\n\\nYou can use the &6Engineer's Hammer&r to make a Chute curve to toss the &eItems&r onto a &eBelt&r!"]
 	quest.4AAB3899F530CC19.quest_subtitle: "No Ladders?"
+	quest.4AB1C4D9A5CF9886.quest_desc: [
+		"Obtain a Longsword Blueprint from Silent Gear to begin training the longsword combat style."
+		""
+		"The longsword is a versatile two-handed weapon with sweeping attacks effective against multiple enemies."
+	]
+	quest.4AB1C4D9A5CF9886.quest_subtitle: "Longsword Style"
+	quest.4AB1C4D9A5CF9886.title: "Longsword Blueprint"
 	quest.4B2835706B593E9A.quest_desc: [
 		"Antiprotonic Nucleosynthesizer is a Machine made from Antimatter Pellets. Of course it also uses Antimatter as Fuel as well, because it wasn't expensive enough!"
 		"With our Antimatter, Energy, and a certain Item we can create a brand new (and usually rare) Item. Some we can't even Craft!"
@@ -3723,6 +3929,13 @@
 	quest.4D4D4871C11487D6.quest_desc: ["Catch 3 Bonefish. Found in the Nether Wastes biome."]
 	quest.4D4D4871C11487D6.quest_subtitle: "Nether Wastes"
 	quest.4D4D4871C11487D6.title: "Bonefish Collection"
+	quest.4D6872FE72705AC7.quest_desc: [
+		"All combat actions consume stamina. When depleted, you cannot attack, dodge, or block effectively."
+		""
+		"Stamina regenerates faster when not in combat. Light armor allows more stamina than heavy armor. Balance offense with recovery windows."
+	]
+	quest.4D6872FE72705AC7.quest_subtitle: "Energy Conservation"
+	quest.4D6872FE72705AC7.title: "Stamina Management"
 	quest.4D7B6842B9F53459.quest_desc: ["The Effortless Ring gives you a speed boost and step height!"]
 	quest.4D7B6842B9F53459.title: "Effortless Ring"
 	quest.4D8190E94851C546.quest_desc: ["Live &cWires&r (&cWires&r transporting &cEnergy&r are Live &cWires&r) will hurt you when using a &6&lSkyhook&r on them. \\n\\nUnless you Insulate your Grip!"]
@@ -4642,6 +4855,13 @@
 	quest.5372264ED2D55143.quest_subtitle: "Spawn egg only (from loot)"
 	quest.5372264ED2D55143.subtitle: "Spawn egg only (from loot)"
 	quest.5372264ED2D55143.title: "HOP Graphite Bee"
+	quest.53CBB4ABCF61FDA2.quest_desc: [
+		"Equipment weight affects movement speed and stamina costs. Heavy armor provides protection but slows you down."
+		""
+		"Light builds favor dodging and speed. Heavy builds favor blocking and trading hits. Choose based on your skill investments."
+	]
+	quest.53CBB4ABCF61FDA2.quest_subtitle: "Armor Tradeoffs"
+	quest.53CBB4ABCF61FDA2.title: "Weight and Mobility"
 	quest.53D0F53DC7F37498.quest_desc: ["Catch 5 Atlantic Herring. A small schooling fish from cold waters."]
 	quest.53D0F53DC7F37498.quest_subtitle: "Cold Water Fish"
 	quest.53D0F53DC7F37498.title: "Atlantic Herring Collection"
@@ -4681,6 +4901,13 @@
 	]
 	quest.54378277B8D28B1D.quest_subtitle: "Optional ultimate chalk"
 	quest.54378277B8D28B1D.title: "Void Chalk"
+	quest.5442B3AB4A6B017C.quest_desc: [
+		"Defeat 10 Zombies to earn the Step skill book."
+		""
+		"Step is a quick directional dodge that costs 3 stamina. While executing, you are immune to physical attacks. Faster than Roll but with a shorter distance."
+	]
+	quest.5442B3AB4A6B017C.quest_subtitle: "Learn the Step dodge skill"
+	quest.5442B3AB4A6B017C.title: "Sword Training: Step"
 	quest.544791880F315D5A.quest_desc: ["Boat with built-in chest storage. Single rider only when chest is attached."]
 	quest.544791880F315D5A.title: "Chest Boat"
 	quest.548F85EE6B6F1811.quest_desc: [
@@ -4917,6 +5144,13 @@
 	]
 	quest.58EC47584C773B82.quest_subtitle: "Growing Magic"
 	quest.58EC47584C773B82.title: "Magebloom Seed"
+	quest.5901453EC75161E6.quest_desc: [
+		"Antique Legacy adds armor inspired by ancient civilizations including Greek and Roman designs."
+		""
+		"These armors offer unique aesthetics with comparable protection to medieval equivalents."
+	]
+	quest.5901453EC75161E6.quest_subtitle: "Classical Designs"
+	quest.5901453EC75161E6.title: "Ancient Armor Styles"
 	quest.59036A2741E7A8AA.quest_desc: [
 		"Want to create a Spawn Egg from the spirit you have trapped in that box?"
 		""
@@ -5052,6 +5286,13 @@
 	]
 	quest.5B2CCD2B425620CE.quest_subtitle: "Create Add-On"
 	quest.5B2CCD2B425620CE.title: "Enchantment Industry"
+	quest.5B341FC84A7C6F57.quest_desc: [
+		"Defeat 20 Hoglins to earn the Forbidden Strength skill book."
+		""
+		"Forbidden Strength allows you to use health instead of stamina when stamina is depleted. Fight beyond your limits at the cost of your life force."
+	]
+	quest.5B341FC84A7C6F57.quest_subtitle: "Learn the Forbidden Strength passive"
+	quest.5B341FC84A7C6F57.title: "Greatsword Mastery: Forbidden Strength"
 	quest.5B36DE3826F26963.quest_desc: ["&dRotational Power&r is the most important and confusing part of &6&lCreate&r. \\n\\nAll Machines will need some sort of &dRotational Power&r to work, but what is it and how do we use it? \\n\\n&dRotational Power&r is simply our Machines moving. Blocks like Shafts and Cogs will move that &dRotational Power&r to our Machines. \\n\\nTalking about Shafts, that is our start to &dRotational Power&r. They can be placed in a straight line, next to each other. \\n\\nWhen one &8Shaft&r is moved, all &8Shafts&r connected to it (on the same axis) will move with it. \\n\\nCraft 2 &8Andesite Alloys&r to create 8 &8Shafts&r."]
 	quest.5B36DE3826F26963.title: "&d&lRotational Power"
 	quest.5B3CC3F66F2C3DE5.quest_desc: [
@@ -5449,6 +5690,13 @@
 	quest.626C07DB8B8C5A04.title: "Common Tartaric Gem"
 	quest.62827AA1AD29A222.quest_desc: ["&aUniversal Cables&r are used to move &aEnergy&r from &5Machine &fto &5Machine&r! \\n\\nMost &5Machines&r will have a default &aEnergy&r taking Side notified by the &aGreen Square&r on them. These can be changed within the GUI of the &5Machine&r in Side Configs. \\n\\n&5Machines&r will also share the &aEnergy&r they have in them with other &5Machines&r next to them, if their Configs are set to it!\\n\\n&aUniversal Cables&r are made with 2 &8Steel Ingots&r and a &4Redstone Dust&r. They can be upgraded by combining 8 of the same Tier with a &aControl Circuit&r! \\n\\n&a&lBasic&r: will hold and move 3.2kFE per Tick. \\n\\n&c&lAdvanced&r: will hold and move 51.2kFE per Tick. \\n\\n&b&lElite&r: will hold and move 409.6kFE per Tick. \\n\\n&d&lUltimate&r: will hold and move 3.27mFE per Tick."]
 	quest.62827AA1AD29A222.title: "&aUniversal Cables"
+	quest.62988C8A24A1053E.quest_desc: [
+		"Chainmail offers improved protection over gambeson while maintaining reasonable mobility."
+		""
+		"Craft a chainmail chestplate. This armor balances weight and defense for versatile combat roles."
+	]
+	quest.62988C8A24A1053E.quest_subtitle: "Linked Defense"
+	quest.62988C8A24A1053E.title: "Chainmail Armor"
 	quest.62A262A706CFCAF0.quest_desc: [
 		"We won't be creating Dark Power Gems using pools of blood anymore."
 		""
@@ -5494,6 +5742,13 @@
 	quest.632BC46928CC9A8C.title: "Enchanter's Mirror"
 	quest.633F4EBD64688299.quest_desc: ["Attaches blocks for linear movement. Sticky sides grab adjacent blocks. Use for pistons."]
 	quest.633F4EBD64688299.title: "Linear Chassis"
+	quest.634803EE25A1C506.quest_desc: [
+		"Defeat 10 Slimes to earn the Endurance skill book."
+		""
+		"Endurance provides stun resistance, making it harder for enemies to interrupt your attacks. Stand firm and keep swinging through enemy pressure."
+	]
+	quest.634803EE25A1C506.quest_subtitle: "Learn the Endurance passive"
+	quest.634803EE25A1C506.title: "Mace Training: Endurance"
 	quest.634B477861AC9162.quest_subtitle: "Converts entities into Familiar scripts"
 	quest.634B477861AC9162.title: "Ritual of Binding"
 	quest.634B7C229BD66907.quest_desc: ["Decorative block. Required for belt connections. Right-click shaft with it equipped."]
@@ -5519,6 +5774,13 @@
 	quest.63B0E39CA4B25A7E.title: "Nutritional Injection Unit"
 	quest.63B178812C669408.quest_desc: ["Cuts logs and stone. Place horizontally for belt processing. Vertical cuts placed blocks."]
 	quest.63B178812C669408.title: "Mechanical Saw"
+	quest.63BB4C3325346D7E.quest_desc: [
+		"Obtain a Spear Blueprint from Silent Gear to begin training the spear combat style."
+		""
+		"The spear excels at maintaining distance with thrusting attacks. Keep enemies at the tip of your weapon."
+	]
+	quest.63BB4C3325346D7E.quest_subtitle: "Spear Style"
+	quest.63BB4C3325346D7E.title: "Spear Blueprint"
 	quest.63E62330B4FAE623.quest_desc: ["Builds schematics automatically. Load schematic and materials. Requires gunpowder fuel."]
 	quest.63E62330B4FAE623.title: "Schematicannon"
 	quest.63F41475236F99D2.quest_desc: ["\"Hey Kid, I got some X-Ray Hacks, you want some?\" \\n\\nThe &8Seismic Vibrator &fand &8Seismic Reader&r work together to tell us what Blocks are beneath us. \\n\\nThe &8Seismic Vibrator&r is a &5Machine&r. It will need &aEnergy&r and once supplied, it will \"&8Vibrate&r\" the Chunk it is placed. \\n\\nThe &8Seismic Reader&r is an &eItem&r and will also need &aEnergy&r! If it isn't in the same Chunk of a &8Vibrator&r it won't work. \\n\\nIf it is, it will open up. The Screen will allow us to see the different Blocks at each Y Level below the Block you are standing on. \\n\\nIt is definitely not perfect, but it sure is helpful! Even for just finding Caves!"]
@@ -5678,6 +5940,13 @@
 		"This one can hold 8 Spells which is technically still on the low side but it's better!"
 	]
 	quest.66762A4743104157.title: "Apprentice's Spell Book"
+	quest.66861A196EDAF149.quest_desc: [
+		"Blocking reduces incoming damage but drains stamina. Perfect blocks timed just before impact can stagger attackers."
+		""
+		"Shields provide better block coverage. Two-handed weapons have limited guard options but can still parry."
+	]
+	quest.66861A196EDAF149.quest_subtitle: "Defensive Techniques"
+	quest.66861A196EDAF149.title: "Guard and Block"
 	quest.668C313FF46B6005.quest_desc: ["Adds furnace interface to the backpack."]
 	quest.668C313FF46B6005.title: "Smelting Upgrade"
 	quest.66A450CAC07232E1.quest_desc: ["&6Thermodynamic Conductors&r will move &6Heat&r. Yeah, some &5&lMekanism&r &5Machines&r use &6Heat&r! Like the &6&lThermal Evaporation Machine&r. \\n\\nMost of the &6Heaters&r will have set Sides for Outputting &6Heat&r! \\n\\nI'm not sure what these numbers mean but following the pattern: more expensive, more good!"]
@@ -5690,6 +5959,13 @@
 	quest.66D63DC37FCDD268.quest_subtitle: "Increases drop chance from mobs and blocks"
 	quest.66F44F7C17F65BBA.quest_desc: ["Grants Haste effect. Drains LP continuously while enabled."]
 	quest.66F44F7C17F65BBA.title: "Fast Miner Sigil"
+	quest.670969FF1549CD11.quest_desc: [
+		"Gothic plate armor features fluted ridges that deflect blows while maintaining flexibility."
+		""
+		"Craft a gothic chestplate. This represents the pinnacle of medieval armor craftsmanship."
+	]
+	quest.670969FF1549CD11.quest_subtitle: "Articulated Armor"
+	quest.670969FF1549CD11.title: "Gothic Plate"
 	quest.672F9CF5B0E626F1.quest_desc: ["&ePackagers&r are the new and very important &6Machine&r for &6&lCreate&r. In order to use pretty much everything from the Update we'll need a &ePackager&r. \\nCombine some of our new-found &eCardboard&r to make a Block of Cardboard. No, these aren't &eBoxes&r yet and they certainly don't do anything. \\n\\nWell besides Crafting our &ePackager&r! The &ePackager&r will then be placed onto a Block with an Inventory, like Chest or Barrel. You'll know it is connected when one of the sides changes to appear like a wall. \\n\\nThen, when given a &4Redstone Signal&r it will pull all &eItems&r within the Inventory into a &ePackage&r! More on that later! \\n\\nThe &ePackages&r can then be pulled out by Hand or &eBelt&r. You can also send &ePackages&r back into the &ePackager&r to put the &eItems&r back into an Inventory. \\n\\nIf you place and name a Sign on the &ePackager&r it will give all &ePackages&r that it makes an Address."]
 	quest.672F9CF5B0E626F1.title: "&ePackagers"
 	quest.67482ED4B18F828D.quest_subtitle: "Breed: Iron + Neon Cuckoo Bee"
@@ -5701,6 +5977,13 @@
 		"Using this, we can create items that allow us to control Lightning at will."
 	]
 	quest.674E2690D66ECD6E.title: "&aYou've Been &9Thunderstruck"
+	quest.67540B9DFCD6F9EE.quest_desc: [
+		"Obtain a Sword Blueprint from Silent Gear to begin training the one-handed sword combat style."
+		""
+		"The sword offers balanced offense and defense. It pairs with shields and allows quick guard transitions."
+	]
+	quest.67540B9DFCD6F9EE.quest_subtitle: "One-handed Sword Style"
+	quest.67540B9DFCD6F9EE.title: "Sword Blueprint"
 	quest.67704F7341EDCC49.quest_desc: ["High-capacity backpack with many upgrade slots."]
 	quest.67704F7341EDCC49.title: "Diamond Backpack"
 	quest.677D0E27CAD7B145.quest_subtitle: "Convert: Pink Slimy Bee + Ether Gas Bucket"
@@ -5942,6 +6225,15 @@
 		"Set up automated farms for any plantable crop."
 	]
 	quest.6C001E18093FC037.title: "Plants"
+	quest.6C03FDE5B2D3CC06.quest_desc: [
+		"&6Skill Books&r teach new combat abilities when consumed. Each weapon type has unique skills that enhance its moveset."
+		""
+		"Skills are learned permanently once a skill book is used. Press &eK&r to view your learned skills and manage your loadout."
+		""
+		"Skill books are earned as rewards from the weapon training quests in this chapter. Complete the combat challenges to build your arsenal of abilities."
+	]
+	quest.6C03FDE5B2D3CC06.quest_subtitle: "Learn Abilities from Books"
+	quest.6C03FDE5B2D3CC06.title: "Skill Books"
 	quest.6C0D4CBC089988ED.quest_desc: [
 		"Augmented Capacity Runes provide even greater LP storage than standard Capacity Runes."
 		"Essential for high-tier operations that consume large amounts of LP in single crafting operations."
@@ -6233,6 +6525,13 @@
 	quest.7233E7A4AD5B175F.title: "Apprentice Orb"
 	quest.7242F591DA474B37.quest_desc: ["&bFluids &fand &bLiquids&r aren't the most important in every aspect of &6&lCreate&r, but luck is, you'll most likely run into them anyways! \\n\\nYou'll need to learn the difficult path of &bFluid Logistics&r in order to use and move them. \\n\\nAnd to start, you'll need &cCopper&r!"]
 	quest.7242F591DA474B37.title: "&b&lFluid Logistics"
+	quest.724AB1A5D11147DD.quest_desc: [
+		"The segmentata is Roman segmented plate armor offering excellent torso protection."
+		""
+		"Craft a segmentata chestplate. This iconic armor defined the Roman legions."
+	]
+	quest.724AB1A5D11147DD.quest_subtitle: "Roman Legionary Armor"
+	quest.724AB1A5D11147DD.title: "Lorica Segmentata"
 	quest.72537968598AB884.quest_desc: ["&6Engineer's Goggles are perfect for you little know-it-alls. \\n\\nWhen worn it will tell just about everything the Block or &6Machine&r has to tell! \\n\\nStressometers will tell how much Stress is given and how much it can take. Speedometers will tell how much Speed is within your system. \\n\\n&dSteam Boilers&r will tell how big, how much &9Water&r, and how much Heat they have. \\n\\nOther &6Machines&r, like &6Deployers&r or &6Mechanical Presses&r, will show how much Stress Units is being used up."]
 	quest.72537968598AB884.title: "&6Engineer's Goggles"
 	quest.7270A37E31A70C91.quest_desc: [
@@ -6569,6 +6868,13 @@
 		"Configure it to search for specific ores or materials, then follow its guidance to find them. This is particularly useful for finding rare Occultism-specific resources."
 	]
 	quest.78ECC28DD4BA9696.title: "Divination Rod"
+	quest.78F20BAC5F8571D8.quest_desc: [
+		"Defeat 10 Strays to earn the Stamina Pillager skill book."
+		""
+		"Stamina Pillager restores 30% of your stamina whenever you kill an enemy. Sustain aggressive combat by chaining kills together."
+	]
+	quest.78F20BAC5F8571D8.quest_subtitle: "Learn the Stamina Pillager passive"
+	quest.78F20BAC5F8571D8.title: "Tachi Training: Stamina Pillager"
 	quest.790C77898FED4E5D.quest_subtitle: "Deals damage to airborne targets"
 	quest.790D169C15772FAD.quest_desc: [
 		"Fishing line is a basic component for fishing rods. Craft it from string and wool materials."
@@ -6644,6 +6950,13 @@
 	quest.7A9F9F6FC00E7434.quest_subtitle: "Fortress Structure"
 	quest.7A9F9F6FC00E7434.title: "Blazefish Collection"
 	quest.7AAD3CE642A34A0C.quest_subtitle: "Teleports caster to a location"
+	quest.7AAFD8569DE1B316.quest_desc: [
+		"The gambeson is a quilted cloth armor providing basic protection with minimal weight penalty."
+		""
+		"Craft a gambeson chestplate to begin building your medieval armor collection. It serves as the foundation layer for heavier armor."
+	]
+	quest.7AAFD8569DE1B316.quest_subtitle: "Padded Protection"
+	quest.7AAFD8569DE1B316.title: "Gambeson Armor"
 	quest.7ACE7A6A71D3F4D2.quest_subtitle: "Temporarily turns blocks into air"
 	quest.7AD83A26A52C0983.quest_desc: ["Creative Essence is the ultimate essence in Mystical Agriculture."]
 	quest.7AD83A26A52C0983.quest_subtitle: "Tier: &5Creative"
@@ -6726,6 +7039,13 @@
 		"Obtain Raw Will by killing mobs while holding a Tartaric Gem. The forge is essential for sentient weapons and demon infrastructure."
 	]
 	quest.7BA086472D87D705.title: "Hellfire Forge"
+	quest.7BAE1273C2564F50.quest_desc: [
+		"Dodging provides brief invincibility frames. Double-tap a movement key or use the dedicated dodge key to evade attacks."
+		""
+		"Dodging costs stamina. Manage your stamina bar carefully during extended fights."
+	]
+	quest.7BAE1273C2564F50.quest_subtitle: "Evasive Maneuvers"
+	quest.7BAE1273C2564F50.title: "Dodge and Movement"
 	quest.7BBC5164D4E503BD.quest_subtitle: "Breed: Radioactive + Uranium (dangerous!)"
 	quest.7BBC5164D4E503BD.subtitle: "Breed: Radioactive + Uranium (dangerous!)"
 	quest.7BBC5164D4E503BD.title: "Wasted Radioactive Bee"
@@ -6960,6 +7280,90 @@
 	quest.AB4DE330F2FACEA3.title: "Regenerative Bee"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
+	quest.30111CA3BB128EC7.quest_desc: [
+		"Armor in mooStack supports deep customization through &6Epic Knights&r and similar mods."
+		""
+		"Many armors can be &edyed&r to change their color. Check the crafting recipes for dye slot compatibility."
+		""
+		"Some helmets support &edecorations&r like plumes and crests. Craft decorations separately and apply them in the crafting grid."
+	]
+	quest.30111CA3BB128EC7.quest_subtitle: "Dyeing and Decorations"
+	quest.30111CA3BB128EC7.title: "Armor Customization"
+	quest.304B2C275800EB72.quest_desc: [
+		"Obtain a Glove Blueprint from Silent Gear to begin training the unarmed combat style."
+		""
+		"Gloves enhance your punches with material properties. Fast attacks with low reach - get in close and overwhelm your enemies."
+	]
+	quest.304B2C275800EB72.quest_subtitle: "Unarmed Combat Style"
+	quest.304B2C275800EB72.title: "Glove Blueprint"
+	quest.507C8E57B7A6DC1C.quest_desc: [
+		"Defeat 10 Spiders to earn the Relentless Combo skill book."
+		""
+		"Relentless Combo extends your attack chains, allowing more hits before the combo resets. Essential for sustained pressure."
+	]
+	quest.507C8E57B7A6DC1C.quest_subtitle: "Learn the Relentless Combo skill"
+	quest.507C8E57B7A6DC1C.title: "Glove Training: Relentless Combo"
+	quest.569C93853F967B46.quest_desc: [
+		"Defeat 20 Zombified Piglins to earn the Meteor Slam skill book."
+		""
+		"Meteor Slam is a devastating ground pound attack. Leap into the air and slam down with tremendous force, damaging all enemies in the impact zone."
+	]
+	quest.569C93853F967B46.quest_subtitle: "Learn the Meteor Slam skill"
+	quest.569C93853F967B46.title: "Glove Mastery: Meteor Slam"
+	quest.3C24008E4B8A87EC.quest_desc: ["Craft the Iron Samurai armor set - basic samurai armor for starting warriors."]
+	quest.3C24008E4B8A87EC.title: "Iron Samurai Set"
+	quest.2EBDD109A4D51270.quest_desc: ["Craft the Gold Samurai armor set - ornate warrior's armor with traditional styling."]
+	quest.2EBDD109A4D51270.title: "Gold Samurai Set"
+	quest.629B52A6F11DB493.quest_desc: ["Craft the Diamond Samurai armor set - elite warrior armor with superior protection."]
+	quest.629B52A6F11DB493.title: "Diamond Samurai Set"
+	quest.4D2DF39CB19CE200.quest_desc: ["Craft the Netherite Samurai armor set - the ultimate samurai protection using netherite reinforcement."]
+	quest.4D2DF39CB19CE200.title: "Netherite Samurai Set"
+	quest.3942D3442241613E.quest_desc: ["Craft the Steel Ninja armor set - lightweight armor designed for speed and evasion."]
+	quest.3942D3442241613E.title: "Steel Ninja Set"
+	quest.700EF718235DBDA7.quest_desc: ["Craft the Netherite Ninja armor set - the ultimate stealth armor with netherite reinforcement."]
+	quest.700EF718235DBDA7.title: "Netherite Ninja Set"
+	quest.689A2B05F2BA4830.quest_desc: ["Craft traditional Japanese accessories - the Straw Hat, Kitsune Mask, and Oni Mask."]
+	quest.689A2B05F2BA4830.title: "Japanese Masks"
+	quest.3881F901B27F8988.quest_desc: ["Craft the Kimono - a traditional Japanese garment for formal occasions."]
+	quest.3881F901B27F8988.title: "Kimono"
+	quest.7F1E2E7E0D66C598.quest_desc: ["Craft the Gambeson set - padded armor providing basic protection. Includes Coif and boots."]
+	quest.7F1E2E7E0D66C598.title: "Gambeson Set"
+	quest.34B3ED6C37475D4F.quest_desc: ["Craft a full Chainmail armor set - interlocking metal rings for flexible protection."]
+	quest.34B3ED6C37475D4F.title: "Chainmail Armor"
+	quest.4DE3337CD7C3F64D.quest_desc: ["Craft Brigandine armor - riveted plates between layers of fabric for enhanced defense."]
+	quest.4DE3337CD7C3F64D.title: "Brigandine Armor"
+	quest.1AEC2C885275408D.quest_desc: ["Craft Gothic plate armor - featuring distinctive fluting and articulated plates."]
+	quest.1AEC2C885275408D.title: "Gothic Armor"
+	quest.315C2A68E74D249D.quest_desc: ["Craft the full Maximilian armor set - the pinnacle of plate armor craftsmanship."]
+	quest.315C2A68E74D249D.title: "Maximilian Armor"
+	quest.2B77723000F59228.quest_desc: ["Craft a full Knight armor set including the Armet helmet - classic knightly protection."]
+	quest.2B77723000F59228.title: "Knight Armor"
+	quest.371D85100A9CE0A1.quest_desc: ["Craft a Big Plume decoration to add flair to your helmet."]
+	quest.371D85100A9CE0A1.title: "Helmet Plume"
+	quest.241A6E6B6922DFBB.quest_desc: ["Craft Horse Barding to protect your mount in battle."]
+	quest.241A6E6B6922DFBB.title: "Horse Barding"
+	quest.2936772C62839EF2.quest_desc: ["Craft the Lorica Segmentata set - segmented Roman legionary armor with Gallea helmet."]
+	quest.2936772C62839EF2.title: "Segmentata Armor"
+	quest.4AF0A63488291DF4.quest_desc: ["Craft the Lorica Hamata set - Roman chainmail with Coolus helmet."]
+	quest.4AF0A63488291DF4.title: "Hamata Armor"
+	quest.6CC8D6CB5B26A136.quest_desc: ["Craft the Greek Musculata set - sculpted bronze cuirass with Corinthian helmet and greaves."]
+	quest.6CC8D6CB5B26A136.title: "Musculata Armor"
+	quest.7DB3A0EF7C5A9A94.quest_desc: ["Craft the Linothorax set - layered linen armor with Chalcidian helmet."]
+	quest.7DB3A0EF7C5A9A94.title: "Linothorax Armor"
+	task.0001000000000101.title: "I understand the combat system"
+	task.0001000000000102.title: "I understand ability points"
+	task.0001000000000103.title: "I understand weapon styles"
+	task.0002000000000101.title: "I understand combos"
+	task.0002000000000102.title: "I understand dodging"
+	task.0002000000000103.title: "I understand blocking"
+	task.0002000000000104.title: "I understand special attacks"
+	task.0003000000000101.title: "I have reviewed the skill tree"
+	task.0003000000000102.title: "I understand stamina"
+	task.0003000000000103.title: "I understand weight"
+	task.0003000000000104.title: "I am ready to train"
+	task.0005000000000101.title: "I understand antique armor"
+	task.0006000000000101.title: "I am prepared"
+	task.0006000000000102.title: "I seek further training"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
 	task.00ED02255105A973.title: "Diamond Chests"
 	task.01FD75641E5EA5E4.title: "Mana"
@@ -7206,426 +7610,4 @@
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
-
-	// ========================================
-	// Epic Fight Chapter (ID: 4FACE7A7426CE1A5)
-	// ========================================
-	chapter.4FACE7A7426CE1A5.title: "Epic Fight"
-
-	// --- Introduction & Core Concepts ---
-	quest.4A050181D999577F.title: "Epic Fight Combat System"
-	quest.4A050181D999577F.quest_subtitle: "A New Approach to Combat"
-	quest.4A050181D999577F.quest_desc: [
-		"Epic Fight replaces vanilla combat with a skill-based system featuring weapon movesets, stamina management, and directional attacks."
-		""
-		"Each weapon type has unique animations and a dedicated skill tree. Press K to open the skill menu and view available abilities."
-		""
-		"Check this quest to confirm you understand the basics."
-	]
-	task.0001000000000101.title: "I understand the combat system"
-
-	quest.0D96B42914B65C1A.title: "Ability Points and XP"
-	quest.0D96B42914B65C1A.quest_subtitle: "Unlocking Skills"
-	quest.0D96B42914B65C1A.quest_desc: [
-		"Ability Points are earned through XP gain. Use them in the skill menu to unlock passive abilities and active skills."
-		""
-		"Different weapon styles share some skills but also have unique branches. Plan your build based on your preferred playstyle."
-	]
-	task.0001000000000102.title: "I understand ability points"
-
-	quest.0001000000000003.title: "Weapon Combat Styles"
-	quest.0001000000000003.quest_subtitle: "Choosing Your Path"
-	quest.0001000000000003.quest_desc: [
-		"Each weapon category has a distinct combat style with different attack speeds, ranges, and movesets."
-		""
-		"One-handed weapons allow shield use. Two-handed weapons deal more damage but leave you vulnerable. Experiment to find your preferred style."
-	]
-	task.0001000000000103.title: "I understand weapon styles"
-
-	quest.147DA32CC31F58DC.title: "Basic Attack Combos"
-	quest.147DA32CC31F58DC.quest_subtitle: "Chaining Attacks"
-	quest.147DA32CC31F58DC.quest_desc: [
-		"Hold the attack button to perform combo chains. Each weapon has a unique combo sequence with varying damage and stagger."
-		""
-		"Timing matters. Releasing and re-pressing at the right moment extends combos. Practice on passive mobs first."
-	]
-	task.0002000000000101.title: "I understand combos"
-
-	quest.7BAE1273C2564F50.title: "Dodge and Movement"
-	quest.7BAE1273C2564F50.quest_subtitle: "Evasive Maneuvers"
-	quest.7BAE1273C2564F50.quest_desc: [
-		"Dodging provides brief invincibility frames. Double-tap a movement key or use the dedicated dodge key to evade attacks."
-		""
-		"Dodging costs stamina. Manage your stamina bar carefully during extended fights."
-	]
-	task.0002000000000102.title: "I understand dodging"
-
-	quest.66861A196EDAF149.title: "Guard and Block"
-	quest.66861A196EDAF149.quest_subtitle: "Defensive Techniques"
-	quest.66861A196EDAF149.quest_desc: [
-		"Blocking reduces incoming damage but drains stamina. Perfect blocks timed just before impact can stagger attackers."
-		""
-		"Shields provide better block coverage. Two-handed weapons have limited guard options but can still parry."
-	]
-	task.0002000000000103.title: "I understand blocking"
-
-	quest.0002000000000004.title: "Special Attacks"
-	quest.0002000000000004.quest_subtitle: "Powerful Techniques"
-	quest.0002000000000004.quest_desc: [
-		"Special attacks are unlocked through the skill tree and consume additional stamina. They deal high damage or provide utility."
-		""
-		"Bind special attacks to hotkeys in the skill menu. Each weapon type has unique specials worth investing in."
-	]
-	task.0002000000000104.title: "I understand special attacks"
-
-	quest.6C03FDE5B2D3CC06.title: "Skill Tree Overview"
-	quest.6C03FDE5B2D3CC06.quest_subtitle: "Planning Your Build"
-	quest.6C03FDE5B2D3CC06.quest_desc: [
-		"The skill tree contains passive stat boosts and active abilities. Some skills are universal while others are weapon-specific."
-		""
-		"Respeccing costs resources. Plan your build path before committing points. Early points in stamina and basic attacks are generally safe investments."
-	]
-	task.0003000000000101.title: "I have reviewed the skill tree"
-
-	quest.4D6872FE72705AC7.title: "Stamina Management"
-	quest.4D6872FE72705AC7.quest_subtitle: "Energy Conservation"
-	quest.4D6872FE72705AC7.quest_desc: [
-		"All combat actions consume stamina. When depleted, you cannot attack, dodge, or block effectively."
-		""
-		"Stamina regenerates faster when not in combat. Light armor allows more stamina than heavy armor. Balance offense with recovery windows."
-	]
-	task.0003000000000102.title: "I understand stamina"
-
-	quest.53CBB4ABCF61FDA2.title: "Weight and Mobility"
-	quest.53CBB4ABCF61FDA2.quest_subtitle: "Armor Tradeoffs"
-	quest.53CBB4ABCF61FDA2.quest_desc: [
-		"Equipment weight affects movement speed and stamina costs. Heavy armor provides protection but slows you down."
-		""
-		"Light builds favor dodging and speed. Heavy builds favor blocking and trading hits. Choose based on your skill investments."
-	]
-	task.0003000000000103.title: "I understand weight"
-
-	quest.1AE22C5745877654.title: "Combat Mastery"
-	quest.1AE22C5745877654.quest_subtitle: "Putting It Together"
-	quest.1AE22C5745877654.quest_desc: [
-		"Effective combat combines proper spacing, stamina management, and knowing when to attack versus defend."
-		""
-		"Practice against progressively harder enemies. Master one weapon style before branching out. Your skill points are limited."
-	]
-	task.0003000000000104.title: "I am ready to train"
-
-	// --- Epic Knights Armor: Magister Armory ---
-	quest.7AAFD8569DE1B316.title: "Gambeson Armor"
-	quest.7AAFD8569DE1B316.quest_subtitle: "Padded Protection"
-	quest.7AAFD8569DE1B316.quest_desc: [
-		"The gambeson is a quilted cloth armor providing basic protection with minimal weight penalty."
-		""
-		"Craft a gambeson chestplate to begin building your medieval armor collection. It serves as the foundation layer for heavier armor."
-	]
-
-	quest.62988C8A24A1053E.title: "Chainmail Armor"
-	quest.62988C8A24A1053E.quest_subtitle: "Linked Defense"
-	quest.62988C8A24A1053E.quest_desc: [
-		"Chainmail offers improved protection over gambeson while maintaining reasonable mobility."
-		""
-		"Craft a chainmail chestplate. This armor balances weight and defense for versatile combat roles."
-	]
-
-	quest.475D3013FEA877EC.title: "Armet Helm"
-	quest.475D3013FEA877EC.quest_subtitle: "Closed Helmet"
-	quest.475D3013FEA877EC.quest_desc: [
-		"The armet is a fully enclosed helmet providing excellent head protection."
-		""
-		"Craft an armet to complete a full plate armor set. The enclosed design limits vision but maximizes defense."
-	]
-
-	quest.670969FF1549CD11.title: "Gothic Plate"
-	quest.670969FF1549CD11.quest_subtitle: "Articulated Armor"
-	quest.670969FF1549CD11.quest_desc: [
-		"Gothic plate armor features fluted ridges that deflect blows while maintaining flexibility."
-		""
-		"Craft a gothic chestplate. This represents the pinnacle of medieval armor craftsmanship."
-	]
-
-	quest.0004000000000005.title: "Helm Decorations"
-	quest.0004000000000005.quest_subtitle: "Personal Flair"
-	quest.0004000000000005.quest_desc: [
-		"Plumes and decorations can be attached to helmets for visual distinction."
-		""
-		"Craft a plume decoration. These serve no combat purpose but mark experienced warriors."
-	]
-
-	quest.0004000000000006.title: "Horse Barding"
-	quest.0004000000000006.quest_subtitle: "Mount Protection"
-	quest.0004000000000006.quest_desc: [
-		"Barding protects horses in combat, essential for mounted knights."
-		""
-		"Craft horse barding to protect your mount. A well-armored horse survives longer in dangerous encounters."
-	]
-
-	// --- Epic Knights Armor: Antique Legacy ---
-	quest.5901453EC75161E6.title: "Ancient Armor Styles"
-	quest.5901453EC75161E6.quest_subtitle: "Classical Designs"
-	quest.5901453EC75161E6.quest_desc: [
-		"Antique Legacy adds armor inspired by ancient civilizations including Greek and Roman designs."
-		""
-		"These armors offer unique aesthetics with comparable protection to medieval equivalents."
-	]
-	task.0005000000000101.title: "I understand antique armor"
-
-	quest.724AB1A5D11147DD.title: "Lorica Segmentata"
-	quest.724AB1A5D11147DD.quest_subtitle: "Roman Legionary Armor"
-	quest.724AB1A5D11147DD.quest_desc: [
-		"The segmentata is Roman segmented plate armor offering excellent torso protection."
-		""
-		"Craft a segmentata chestplate. This iconic armor defined the Roman legions."
-	]
-
-	// --- Mastery & Endgame ---
-	quest.30A16F0A565C5AC6.title: "Combat Veteran"
-	quest.30A16F0A565C5AC6.quest_subtitle: "Proven Warrior"
-	quest.30A16F0A565C5AC6.quest_desc: [
-		"You have acquired the equipment and knowledge to face serious combat challenges."
-		""
-		"Continue developing your skills and expanding your arsenal. True mastery requires experience."
-	]
-	task.0006000000000101.title: "I am prepared"
-
-	quest.295EE0B7F74229B9.title: "Master at Arms"
-	quest.295EE0B7F74229B9.quest_subtitle: "Complete Combat Training"
-	quest.295EE0B7F74229B9.quest_desc: [
-		"A master at arms is proficient with multiple weapon types and understands the strengths of each."
-		""
-		"Consider training in weapon styles you have not yet explored. Versatility provides options against varied threats."
-	]
-	task.0006000000000102.title: "I seek further training"
-
-	// ========================================
-	// Skill Progression Tracks
-	// ========================================
-
-	// --- One-handed Sword Track ---
-	quest.67540B9DFCD6F9EE.title: "Sword Blueprint"
-	quest.67540B9DFCD6F9EE.quest_subtitle: "One-handed Sword Style"
-	quest.67540B9DFCD6F9EE.quest_desc: [
-		"Obtain a Sword Blueprint from Silent Gear to begin training the one-handed sword combat style."
-		""
-		"The sword offers balanced offense and defense. It pairs with shields and allows quick guard transitions."
-	]
-
-	quest.5442B3AB4A6B017C.title: "Sword Training: Step"
-	quest.5442B3AB4A6B017C.quest_subtitle: "Learn the Step dodge skill"
-	quest.5442B3AB4A6B017C.quest_desc: [
-		"Defeat 10 Zombies to earn the Step skill book."
-		""
-		"Step is a quick directional dodge that costs 3 stamina. While executing, you are immune to physical attacks. Faster than Roll but with a shorter distance."
-	]
-
-	quest.219A6CFA514FABCD.title: "Sword Mastery: Sword Master"
-	quest.219A6CFA514FABCD.quest_subtitle: "Learn the Sword Master passive"
-	quest.219A6CFA514FABCD.quest_desc: [
-		"Defeat 20 Wither Skeletons to earn the Sword Master skill book."
-		""
-		"Sword Master is a passive skill that increases attack speed and improves stamina recovery while wielding swords. Essential for sustained sword combat."
-	]
-
-	// --- Longsword Track ---
-	quest.4AB1C4D9A5CF9886.title: "Longsword Blueprint"
-	quest.4AB1C4D9A5CF9886.quest_subtitle: "Longsword Style"
-	quest.4AB1C4D9A5CF9886.quest_desc: [
-		"Obtain a Longsword Blueprint from Silent Gear to begin training the longsword combat style."
-		""
-		"The longsword is a versatile two-handed weapon with sweeping attacks effective against multiple enemies."
-	]
-
-	quest.1DD4F9946D69CC0C.title: "Longsword Training: Parrying"
-	quest.1DD4F9946D69CC0C.quest_subtitle: "Learn the Parrying guard skill"
-	quest.1DD4F9946D69CC0C.quest_desc: [
-		"Defeat 10 Skeletons to earn the Parrying skill book."
-		""
-		"Parrying enhances your guard with timed blocks. Successfully parrying an attack at the right moment deflects damage completely and can block projectiles."
-	]
-
-	quest.0D988BF0557B8834.title: "Longsword Mastery: Impact Guard"
-	quest.0D988BF0557B8834.quest_subtitle: "Learn the Impact Guard skill"
-	quest.0D988BF0557B8834.quest_desc: [
-		"Defeat 20 Vindicators to earn the Impact Guard skill book."
-		""
-		"Impact Guard reduces magic, explosion, and projectile damage by 80% while guarding. Essential for surviving ranged threats and area attacks."
-	]
-
-	// --- Greatsword Track ---
-	quest.2FE9641D71169F20.title: "Greatsword Blueprint"
-	quest.2FE9641D71169F20.quest_subtitle: "Greatsword Style"
-	quest.2FE9641D71169F20.quest_desc: [
-		"Obtain a Greatsword Blueprint from Silent Gear to begin training the greatsword combat style."
-		""
-		"The greatsword delivers devastating heavy attacks. Slow but powerful, it excels at staggering enemies."
-	]
-
-	quest.00DCB81D6A41BD44.title: "Greatsword Training: Berserker"
-	quest.00DCB81D6A41BD44.quest_subtitle: "Learn the Berserker passive"
-	quest.00DCB81D6A41BD44.quest_desc: [
-		"Defeat 10 Piglins to earn the Berserker skill book."
-		""
-		"Berserker increases your damage and attack speed when at low health. The lower your health, the stronger you become. High risk, high reward."
-	]
-
-	quest.5B341FC84A7C6F57.title: "Greatsword Mastery: Forbidden Strength"
-	quest.5B341FC84A7C6F57.quest_subtitle: "Learn the Forbidden Strength passive"
-	quest.5B341FC84A7C6F57.quest_desc: [
-		"Defeat 20 Hoglins to earn the Forbidden Strength skill book."
-		""
-		"Forbidden Strength allows you to use health instead of stamina when stamina is depleted. Fight beyond your limits at the cost of your life force."
-	]
-
-	// --- Katana Track ---
-	quest.08FFB925245C38AF.title: "Katana Blueprint"
-	quest.08FFB925245C38AF.quest_subtitle: "Katana Style"
-	quest.08FFB925245C38AF.quest_desc: [
-		"Obtain a Katana Blueprint from Silent Gear to begin training the katana combat style."
-		""
-		"The katana emphasizes swift strikes and precise timing. Fast attack chains reward aggressive play."
-	]
-
-	quest.4916A67B0CC75574.title: "Katana Training: Technician"
-	quest.4916A67B0CC75574.quest_subtitle: "Learn the Technician passive"
-	quest.4916A67B0CC75574.quest_desc: [
-		"Defeat 10 Husks to earn the Technician skill book."
-		""
-		"Technician rewards precise timing by restoring stamina when you execute a perfectly timed dodge. Master the rhythm of combat to never run out of stamina."
-	]
-
-	quest.12111A8F1BE36410.title: "Katana Mastery: Emergency Escape"
-	quest.12111A8F1BE36410.quest_subtitle: "Learn the Emergency Escape passive"
-	quest.12111A8F1BE36410.quest_desc: [
-		"Defeat 20 Witches to earn the Emergency Escape skill book."
-		""
-		"Emergency Escape allows you to cancel your own attacks with a dodge. Recover from overcommitting and reposition instantly when danger appears."
-	]
-
-	// --- Tachi Track ---
-	quest.431FAEA1347F4DA3.title: "Tachi Blueprint"
-	quest.431FAEA1347F4DA3.quest_subtitle: "Tachi Style"
-	quest.431FAEA1347F4DA3.quest_desc: [
-		"Obtain a Tachi Blueprint from Silent Gear to begin training the tachi combat style."
-		""
-		"The tachi combines katana speed with greater reach. Its curved blade excels at sweeping cuts."
-	]
-
-	quest.78F20BAC5F8571D8.title: "Tachi Training: Stamina Pillager"
-	quest.78F20BAC5F8571D8.quest_subtitle: "Learn the Stamina Pillager passive"
-	quest.78F20BAC5F8571D8.quest_desc: [
-		"Defeat 10 Strays to earn the Stamina Pillager skill book."
-		""
-		"Stamina Pillager restores 30% of your stamina whenever you kill an enemy. Sustain aggressive combat by chaining kills together."
-	]
-
-	quest.1AEBC314878233CA.title: "Tachi Mastery: Death Harvest"
-	quest.1AEBC314878233CA.quest_subtitle: "Learn the Death Harvest passive"
-	quest.1AEBC314878233CA.quest_desc: [
-		"Defeat 20 Endermen to earn the Death Harvest skill book."
-		""
-		"Death Harvest refills your weapon's special charge when you kill an enemy. Keep your weapon skills ready by maintaining a steady flow of kills."
-	]
-
-	// --- Spear Track ---
-	quest.63BB4C3325346D7E.title: "Spear Blueprint"
-	quest.63BB4C3325346D7E.quest_subtitle: "Spear Style"
-	quest.63BB4C3325346D7E.quest_desc: [
-		"Obtain a Spear Blueprint from Silent Gear to begin training the spear combat style."
-		""
-		"The spear excels at maintaining distance with thrusting attacks. Keep enemies at the tip of your weapon."
-	]
-
-	quest.2833E10B825E3A2B.title: "Spear Training: Demolition Leap"
-	quest.2833E10B825E3A2B.quest_subtitle: "Learn the Demolition Leap mover skill"
-	quest.2833E10B825E3A2B.quest_desc: [
-		"Defeat 10 Drowned to earn the Demolition Leap skill book."
-		""
-		"Demolition Leap launches you into the air and reduces fall damage. Use it to gain height advantage, escape ground threats, or set up aerial attacks."
-	]
-
-	quest.10F9A4EAF82976CD.title: "Spear Mastery: Phantom Ascent"
-	quest.10F9A4EAF82976CD.quest_subtitle: "Learn the Phantom Ascent mover skill"
-	quest.10F9A4EAF82976CD.quest_desc: [
-		"Defeat 20 Guardians to earn the Phantom Ascent skill book."
-		""
-		"Phantom Ascent grants an extra mid-air jump. Extend your aerial mobility, recover from falls, or chain with Demolition Leap for extreme vertical movement."
-	]
-
-	// --- Dagger Track ---
-	quest.1A01AFCD0BB97901.title: "Dagger Blueprint"
-	quest.1A01AFCD0BB97901.quest_subtitle: "Dagger Style"
-	quest.1A01AFCD0BB97901.quest_desc: [
-		"Obtain a Dagger Blueprint from Silent Gear to begin training the dagger combat style."
-		""
-		"Daggers favor aggressive close-range combat with rapid attacks. Speed compensates for limited reach."
-	]
-
-	quest.2D04D50BD7BA4232.title: "Dagger Training: Roll"
-	quest.2D04D50BD7BA4232.quest_subtitle: "Learn the Roll dodge skill"
-	quest.2D04D50BD7BA4232.quest_desc: [
-		"Defeat 10 Cave Spiders to earn the Roll skill book."
-		""
-		"Roll is a directional dodge that costs 4 stamina. While rolling, you are immune to physical attacks. Covers more distance than Step but takes longer to execute."
-	]
-
-	quest.0E2691DCE4B44A8D.title: "Dagger Mastery: Hyper Vitality"
-	quest.0E2691DCE4B44A8D.quest_subtitle: "Learn the Hyper Vitality passive"
-	quest.0E2691DCE4B44A8D.quest_desc: [
-		"Defeat 20 Silverfish to earn the Hyper Vitality skill book."
-		""
-		"Hyper Vitality allows you to use stamina instead of weapon charge for weapon skills. Never wait for your weapon to recharge again."
-	]
-
-	// --- Mace Track ---
-	quest.3B4ED142FCA53952.title: "Mace Blueprint"
-	quest.3B4ED142FCA53952.quest_subtitle: "Mace Style"
-	quest.3B4ED142FCA53952.quest_desc: [
-		"Obtain a Mace Blueprint from Silent Gear to begin training the mace combat style."
-		""
-		"The mace delivers crushing blunt damage with excellent stagger. Slower than bladed weapons but hits hard."
-	]
-
-	quest.634803EE25A1C506.title: "Mace Training: Endurance"
-	quest.634803EE25A1C506.quest_subtitle: "Learn the Endurance passive"
-	quest.634803EE25A1C506.quest_desc: [
-		"Defeat 10 Slimes to earn the Endurance skill book."
-		""
-		"Endurance provides stun resistance, making it harder for enemies to interrupt your attacks. Stand firm and keep swinging through enemy pressure."
-	]
-
-	quest.2886EBF3DC98C805.title: "Mace Mastery: Revelation"
-	quest.2886EBF3DC98C805.quest_subtitle: "Learn the Revelation identity skill"
-	quest.2886EBF3DC98C805.quest_desc: [
-		"Defeat 20 Magma Cubes to earn the Revelation skill book."
-		""
-		"Revelation builds stacks as you land hits. When fully charged, unleash a devastating knockdown attack that sends enemies flying."
-	]
-
-	// --- Glove Track ---
-	quest.GLOVE00000000001.title: "Glove Blueprint"
-	quest.GLOVE00000000001.quest_subtitle: "Unarmed Combat Style"
-	quest.GLOVE00000000001.quest_desc: [
-		"Obtain a Glove Blueprint from Silent Gear to begin training the unarmed combat style."
-		""
-		"Gloves enhance your punches with material properties. Fast attacks with low reach - get in close and overwhelm your enemies."
-	]
-
-	quest.GLOVE00000000002.title: "Glove Training"
-	quest.GLOVE00000000002.quest_subtitle: "Basic Combat Practice"
-	quest.GLOVE00000000002.quest_desc: [
-		"Defeat 10 Spiders to practice unarmed combat techniques."
-		""
-		"Spiders are fast and can climb. Practice timing your punches and staying mobile against agile targets."
-	]
-
-	quest.GLOVE00000000003.title: "Glove Mastery: Meteor Slam"
-	quest.GLOVE00000000003.quest_subtitle: "Learn the Meteor Slam identity skill"
-	quest.GLOVE00000000003.quest_desc: [
-		"Defeat 20 Zombified Piglins to earn the Meteor Slam skill book."
-		""
-		"Meteor Slam is a devastating ground pound attack performed from height. Leap into the air and slam down with tremendous force, damaging all enemies in the impact zone."
-	]
 }

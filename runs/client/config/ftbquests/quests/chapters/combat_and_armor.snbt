@@ -25,83 +25,7 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "minecraft:experience_bottle"
-			}
-			id: "0D96B42914B65C1A"
-			tasks: [{
-				id: "0001000000000102"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			icon: {
-				id: "minecraft:iron_sword"
-			}
-			id: "0001000000000003"
-			tasks: [{
-				id: "0001000000000103"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0001000000000003"]
-			icon: {
-				id: "minecraft:wooden_sword"
-			}
-			id: "147DA32CC31F58DC"
-			tasks: [{
-				id: "0002000000000101"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0001000000000003"]
-			icon: {
-				id: "minecraft:feather"
-			}
-			id: "7BAE1273C2564F50"
-			tasks: [{
-				id: "0002000000000102"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0001000000000003"]
-			icon: {
-				id: "minecraft:shield"
-			}
-			id: "66861A196EDAF149"
-			tasks: [{
-				id: "0002000000000103"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0001000000000003"]
-			icon: {
-				id: "minecraft:blaze_powder"
-			}
-			id: "0002000000000004"
-			tasks: [{
-				id: "0002000000000104"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0002000000000004"]
+			dependencies: ["4A050181D999577F"]
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -113,218 +37,22 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 2.0d
 		}
 		{
-			icon: {
-				id: "minecraft:experience_bottle"
-			}
-			id: "4D6872FE72705AC7"
-			tasks: [{
-				id: "0003000000000102"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
-			icon: {
-				id: "minecraft:enchanted_book"
-			}
-			id: "53CBB4ABCF61FDA2"
-			tasks: [{
-				id: "0003000000000103"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 10.5d
-		}
-		{
-			icon: {
-				id: "minecraft:knowledge_book"
-			}
-			id: "1AE22C5745877654"
-			tasks: [{
-				id: "0003000000000104"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 12.5d
-		}
-		{
-			icon: {
-				id: "magistuarmory:gambeson_chestplate"
-			}
-			id: "7AAFD8569DE1B316"
-			rewards: [{
-				id: "0004000000000201"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0004000000000101"
-				item: { count: 1, id: "magistuarmory:gambeson_chestplate" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 15.0d
-		}
-		{
-			icon: {
-				id: "magistuarmory:chainmail_chestplate"
-			}
-			id: "62988C8A24A1053E"
-			rewards: [{
-				id: "0004000000000202"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0004000000000102"
-				item: { count: 1, id: "magistuarmory:chainmail_chestplate" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 17.0d
-		}
-		{
+			dependencies: ["6C03FDE5B2D3CC06"]
 			icon: {
 				id: "magistuarmory:armet"
 			}
-			id: "475D3013FEA877EC"
-			rewards: [{
-				id: "0004000000000203"
-				type: "xp"
-				xp: 150
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0004000000000103"
-				item: { count: 1, id: "magistuarmory:armet" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 19.0d
-		}
-		{
-			icon: {
-				id: "magistuarmory:gothic_chestplate"
-			}
-			id: "670969FF1549CD11"
-			rewards: [{
-				id: "0004000000000204"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				id: "0004000000000104"
-				item: { count: 1, id: "magistuarmory:gothic_chestplate" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 19.0d
-		}
-		{
-			icon: {
-				id: "magistuarmory:big_plume_decoration"
-			}
-			id: "0004000000000005"
-			rewards: [{
-				id: "0004000000000205"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "0004000000000105"
-				item: { count: 1, id: "magistuarmory:big_plume_decoration" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 19.0d
-		}
-		{
-			icon: {
-				id: "magistuarmory:barding"
-			}
-			id: "0004000000000006"
-			rewards: [{
-				id: "0004000000000206"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0004000000000106"
-				item: { count: 1, id: "magistuarmory:barding" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 21.0d
-		}
-		{
-			icon: {
-				id: "antiquelegacy:corinthian_helmet"
-			}
-			id: "5901453EC75161E6"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "0005000000000101"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 15.0d
-		}
-		{
-			icon: {
-				id: "antiquelegacy:segmentata"
-			}
-			id: "724AB1A5D11147DD"
-			rewards: [{
-				id: "0005000000000201"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0005000000000102"
-				item: { count: 1, id: "antiquelegacy:segmentata" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 17.0d
-		}
-		{
-			dependencies: [
-				"0004000000000005"
-				"0004000000000006"
-			]
-			icon: {
-				id: "minecraft:nether_star"
-			}
-			id: "30A16F0A565C5AC6"
+			id: "30111CA3BB128EC7"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "0006000000000101"
+				id: "777861F3D1374E6D"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 23.0d
-		}
-		{
-			icon: {
-				id: "minecraft:diamond_sword"
-			}
-			id: "295EE0B7F74229B9"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "0006000000000102"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 25.5d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -359,13 +87,13 @@
 					xp: 150
 				}
 				{
-					id: "5442B3AB4A6B0001"
+					id: "7A00000000000001"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_step"
+							"epicfight:skill": "epicfight:step"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -392,13 +120,13 @@
 					xp: 300
 				}
 				{
-					id: "219A6CFA514FA001"
+					id: "7A00000000000002"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_sword_master"
+							"epicfight:skill": "epicfight:sword_master"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -447,13 +175,13 @@
 					xp: 150
 				}
 				{
-					id: "1DD4F9946D69C001"
+					id: "7A00000000000003"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_parrying"
+							"epicfight:skill": "epicfight:parrying"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -480,13 +208,13 @@
 					xp: 300
 				}
 				{
-					id: "0D988BF0557B8001"
+					id: "7A00000000000004"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_impact_guard"
+							"epicfight:skill": "epicfight:impact_guard"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -535,13 +263,13 @@
 					xp: 150
 				}
 				{
-					id: "00DCB81D6A41B001"
+					id: "7A00000000000005"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_berserker"
+							"epicfight:skill": "epicfight:berserker"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -568,13 +296,13 @@
 					xp: 300
 				}
 				{
-					id: "5B341FC84A7C6001"
+					id: "7A00000000000006"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_forbidden_strength"
+							"epicfight:skill": "epicfight:forbidden_strength"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -623,13 +351,13 @@
 					xp: 150
 				}
 				{
-					id: "4916A67B0CC75001"
+					id: "7A00000000000007"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_technician"
+							"epicfight:skill": "epicfight:technician"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -656,13 +384,13 @@
 					xp: 300
 				}
 				{
-					id: "12111A8F1BE36001"
+					id: "7A00000000000008"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_emergency_escape"
+							"epicfight:skill": "epicfight:emergency_escape"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -711,13 +439,13 @@
 					xp: 150
 				}
 				{
-					id: "78F20BAC5F857001"
+					id: "7A00000000000009"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_stamina_pillager"
+							"epicfight:skill": "epicfight:stamina_pillager"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -744,13 +472,13 @@
 					xp: 300
 				}
 				{
-					id: "1AEBC314878233C1"
+					id: "7A0000000000000A"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_death_harvest"
+							"epicfight:skill": "epicfight:death_harvest"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -799,13 +527,13 @@
 					xp: 150
 				}
 				{
-					id: "2833E10B825E3001"
+					id: "7A0000000000000B"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_demolition_leap"
+							"epicfight:skill": "epicfight:demolition_leap"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -832,13 +560,13 @@
 					xp: 300
 				}
 				{
-					id: "010F9A4EAF829701"
+					id: "7A0000000000000C"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_phantom_ascent"
+							"epicfight:skill": "epicfight:phantom_ascent"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -887,13 +615,13 @@
 					xp: 150
 				}
 				{
-					id: "2D04D50BD7BA4001"
+					id: "7A0000000000000D"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_roll"
+							"epicfight:skill": "epicfight:roll"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -920,13 +648,13 @@
 					xp: 300
 				}
 				{
-					id: "0E2691DCE4B44001"
+					id: "7A0000000000000E"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_hyper_vitality"
+							"epicfight:skill": "epicfight:hypervitality"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -975,13 +703,13 @@
 					xp: 150
 				}
 				{
-					id: "634803EE25A1C001"
+					id: "7A0000000000000F"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_endurance"
+							"epicfight:skill": "epicfight:endurance"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -1008,13 +736,13 @@
 					xp: 300
 				}
 				{
-					id: "2886EBF3DC98C001"
+					id: "7A00000000000010"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_revelation"
+							"epicfight:skill": "epicfight:revelation"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -1034,16 +762,16 @@
 			icon: {
 				id: "silentgear:glove_blueprint"
 			}
-			id: "3C0C67C86A2E9F85"
+			id: "304B2C275800EB72"
 			rewards: [{
-				id: "471B09CF9F7CD752"
+				id: "1A4FB0103EC8F43D"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "069283B8B99F6D73"
+				id: "53F12A0EFFC42720"
 				item: { count: 1, id: "silentgear:glove_blueprint" }
 				type: "item"
 			}]
@@ -1054,15 +782,28 @@
 			icon: {
 				id: "silentgear:glove"
 			}
-			id: "576F04BD5FFD8B2D"
-			rewards: [{
-				id: "1C43FED78FFA9056"
-				type: "xp"
-				xp: 150
-			}]
+			id: "507C8E57B7A6DC1C"
+			rewards: [
+				{
+					id: "4DCCA25F9DDF6615"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6506507AE7172D91"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:relentless_combo"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:spider"
-				id: "55ECB7E7CDE15CDE"
+				id: "7EC2C7B87CA3E3B4"
 				type: "kill"
 				value: 10L
 			}]
@@ -1073,21 +814,21 @@
 			icon: {
 				id: "silentgear:glove"
 			}
-			id: "31EAF3507D7E447F"
+			id: "569C93853F967B46"
 			rewards: [
 				{
-					id: "492853C01D622E7D"
+					id: "6B9EFF1FA093C831"
 					type: "xp"
 					xp: 300
 				}
 				{
-					id: "6ACD5853C0232A7A"
+					id: "658ACC2E668ECF6F"
 					item: {
 						components: {
-							"ftbquests:missing_item": "epicfight:skillbook_meteor_slam"
+							"epicfight:skill": "epicfight:meteor_slam"
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "epicfight:skillbook"
 					}
 					type: "item"
 				}
@@ -1096,12 +837,612 @@
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:zombified_piglin"
-				id: "761038F38B0E952F"
+				id: "2F367E65FDA33B64"
 				type: "kill"
 				value: 20L
 			}]
 			x: 18.0d
 			y: 24.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:iron_samurai_chestplate"
+			}
+			id: "3C24008E4B8A87EC"
+			rewards: [{
+				id: "114E2D94AEEC15EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "253E899D52B4CE2E"
+					item: { count: 1, id: "samurai_dynasty:iron_samurai_helmet" }
+					type: "item"
+				}
+				{
+					id: "19B464B4DFA9B6D6"
+					item: { count: 1, id: "samurai_dynasty:iron_samurai_chestplate" }
+					type: "item"
+				}
+				{
+					id: "52EAF5E3920B8BE7"
+					item: { count: 1, id: "samurai_dynasty:iron_samurai_leggings" }
+					type: "item"
+				}
+				{
+					id: "2DE7FB7FE958D75A"
+					item: { count: 1, id: "samurai_dynasty:iron_samurai_boots" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:gold_samurai_chestplate"
+			}
+			id: "2EBDD109A4D51270"
+			rewards: [{
+				id: "65CA239297EAF2D9"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "78753F4F0DABFAED"
+					item: { count: 1, id: "samurai_dynasty:gold_samurai_helmet" }
+					type: "item"
+				}
+				{
+					id: "4508E501BE5C4F63"
+					item: { count: 1, id: "samurai_dynasty:gold_samurai_chestplate" }
+					type: "item"
+				}
+				{
+					id: "73FE3C183BC716D2"
+					item: { count: 1, id: "samurai_dynasty:gold_samurai_leggings" }
+					type: "item"
+				}
+				{
+					id: "1BC13330EFB0F6B0"
+					item: { count: 1, id: "samurai_dynasty:gold_samurai_boots" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:diamond_samurai_chestplate"
+			}
+			id: "629B52A6F11DB493"
+			rewards: [{
+				id: "755C7E82DDB9A10C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "2AD7E6B8BD94A434"
+					item: { count: 1, id: "samurai_dynasty:diamond_samurai_helmet" }
+					type: "item"
+				}
+				{
+					id: "11E88941546522AC"
+					item: { count: 1, id: "samurai_dynasty:diamond_samurai_chestplate" }
+					type: "item"
+				}
+				{
+					id: "293F9E373FA48F18"
+					item: { count: 1, id: "samurai_dynasty:diamond_samurai_leggings" }
+					type: "item"
+				}
+				{
+					id: "60BD542046DAFDA0"
+					item: { count: 1, id: "samurai_dynasty:diamond_samurai_boots" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:netherite_samurai_chestplate"
+			}
+			id: "4D2DF39CB19CE200"
+			rewards: [{
+				id: "39A84B314DBF19D0"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4CA6077E45C911B9"
+					item: { count: 1, id: "samurai_dynasty:netherite_samurai_helmet" }
+					type: "item"
+				}
+				{
+					id: "5569ED834551F32B"
+					item: { count: 1, id: "samurai_dynasty:netherite_samurai_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4CDD5DE7A119666B"
+					item: { count: 1, id: "samurai_dynasty:netherite_samurai_leggings" }
+					type: "item"
+				}
+				{
+					id: "46B569F28048CC14"
+					item: { count: 1, id: "samurai_dynasty:netherite_samurai_boots" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:steel_ninja_chestplate"
+			}
+			id: "3942D3442241613E"
+			rewards: [{
+				id: "4D900CC8AA0CBC4E"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "090B227731B768BB"
+					item: { count: 1, id: "samurai_dynasty:steel_ninja_helmet" }
+					type: "item"
+				}
+				{
+					id: "6FD3FC0AE9690DD2"
+					item: { count: 1, id: "samurai_dynasty:steel_ninja_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2E6C36D825B80E16"
+					item: { count: 1, id: "samurai_dynasty:ninja_leggings" }
+					type: "item"
+				}
+				{
+					id: "32E1FF47120F1EF1"
+					item: { count: 1, id: "samurai_dynasty:steel_ninja_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:netherite_ninja_chestplate"
+			}
+			id: "700EF718235DBDA7"
+			rewards: [{
+				id: "449DFE17D05293C2"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4EDDDDA4BB8823A9"
+					item: { count: 1, id: "samurai_dynasty:netherite_ninja_helmet" }
+					type: "item"
+				}
+				{
+					id: "7A05657446ED0B6B"
+					item: { count: 1, id: "samurai_dynasty:netherite_ninja_chestplate" }
+					type: "item"
+				}
+				{
+					id: "587E41D57A2ECB19"
+					item: { count: 1, id: "samurai_dynasty:ninja_leggings" }
+					type: "item"
+				}
+				{
+					id: "6C4A61B9C7D59A13"
+					item: { count: 1, id: "samurai_dynasty:netherite_ninja_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:kitsune_mask"
+			}
+			id: "689A2B05F2BA4830"
+			rewards: [{
+				id: "2D4DD2551DC29D3F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "7CD158D8D9AE9A6C"
+					item: { count: 1, id: "samurai_dynasty:straw_hat" }
+					type: "item"
+				}
+				{
+					id: "32236D625ABA3CC4"
+					item: { count: 1, id: "samurai_dynasty:kitsune_mask" }
+					type: "item"
+				}
+				{
+					id: "52C192A1FA9E5293"
+					item: { count: 1, id: "samurai_dynasty:oni_mask" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "samurai_dynasty:kimono"
+			}
+			id: "3881F901B27F8988"
+			rewards: [{
+				id: "4F534F0D8B161B31"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3F59F7BBF0545FBA"
+				item: { count: 1, id: "samurai_dynasty:kimono" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:gambeson_chestplate"
+			}
+			id: "7F1E2E7E0D66C598"
+			rewards: [{
+				id: "012653847138DBAD"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "210672F98811B01B"
+					item: { count: 1, id: "magistuarmory:coif" }
+					type: "item"
+				}
+				{
+					id: "56804EC1A062EFE2"
+					item: { count: 1, id: "magistuarmory:gambeson_chestplate" }
+					type: "item"
+				}
+				{
+					id: "64BF618D3D73A044"
+					item: { count: 1, id: "magistuarmory:gambeson_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:chainmail_chestplate"
+			}
+			id: "34B3ED6C37475D4F"
+			rewards: [{
+				id: "27337FEE06BF0938"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2151A4E78449631D"
+					item: { count: 1, id: "magistuarmory:chainmail_helmet" }
+					type: "item"
+				}
+				{
+					id: "5EF605A4F6A81673"
+					item: { count: 1, id: "magistuarmory:chainmail_chestplate" }
+					type: "item"
+				}
+				{
+					id: "66BEA6CF09BEDC0F"
+					item: { count: 1, id: "magistuarmory:chainmail_leggings" }
+					type: "item"
+				}
+				{
+					id: "6201D4FFF64CE07D"
+					item: { count: 1, id: "magistuarmory:chainmail_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:brigandine_chestplate"
+			}
+			id: "4DE3337CD7C3F64D"
+			rewards: [{
+				id: "09FE2047F7E07B50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "640F8C1D552FCB2C"
+					item: { count: 1, id: "magistuarmory:brigandine_chestplate" }
+					type: "item"
+				}
+				{
+					id: "10D3562C6356FEEF"
+					item: { count: 1, id: "magistuarmory:brigandine_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:gothic_chestplate"
+			}
+			id: "1AEC2C885275408D"
+			rewards: [{
+				id: "619D98FC474FD0C8"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "5CA5E1630FDEAFC0"
+					item: { count: 1, id: "magistuarmory:gothic_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4B23514F71F0A2D6"
+					item: { count: 1, id: "magistuarmory:gothic_leggings" }
+					type: "item"
+				}
+				{
+					id: "4EA978576952B6BD"
+					item: { count: 1, id: "magistuarmory:gothic_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:maximilian_chestplate"
+			}
+			id: "315C2A68E74D249D"
+			rewards: [{
+				id: "3C644DB53F36D7D0"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1717671E20AA44A6"
+					item: { count: 1, id: "magistuarmory:maximilian_helmet" }
+					type: "item"
+				}
+				{
+					id: "45818B860D775AD5"
+					item: { count: 1, id: "magistuarmory:maximilian_chestplate" }
+					type: "item"
+				}
+				{
+					id: "02396F10C9CCB160"
+					item: { count: 1, id: "magistuarmory:maximilian_leggings" }
+					type: "item"
+				}
+				{
+					id: "2DBBEBE926131AB2"
+					item: { count: 1, id: "magistuarmory:maximilian_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:knight_chestplate"
+			}
+			id: "2B77723000F59228"
+			rewards: [{
+				id: "1575B843085A4ED7"
+				type: "xp"
+				xp: 175
+			}]
+			tasks: [
+				{
+					id: "07A21F36D32918F7"
+					item: { count: 1, id: "magistuarmory:armet" }
+					type: "item"
+				}
+				{
+					id: "1FAF417B6B7FC931"
+					item: { count: 1, id: "magistuarmory:knight_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2D2800DC846B1273"
+					item: { count: 1, id: "magistuarmory:knight_leggings" }
+					type: "item"
+				}
+				{
+					id: "0691D5E6B1075F23"
+					item: { count: 1, id: "magistuarmory:knight_boots" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:big_plume_decoration"
+			}
+			id: "371D85100A9CE0A1"
+			rewards: [{
+				id: "6B119A6C328510F0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "64C66EC6B5BD4574"
+				item: { count: 1, id: "magistuarmory:big_plume_decoration" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:barding"
+			}
+			id: "241A6E6B6922DFBB"
+			rewards: [{
+				id: "275D9F3ACE6FB5EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48ED1DC565D7E78B"
+				item: { count: 1, id: "magistuarmory:barding" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:segmentata"
+			}
+			id: "2936772C62839EF2"
+			rewards: [{
+				id: "7E6D40BF2F12F44C"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "501FCA7AC2EB6283"
+					item: { count: 1, id: "antiquelegacy:gallea" }
+					type: "item"
+				}
+				{
+					id: "201C3ECF99CACD80"
+					item: { count: 1, id: "antiquelegacy:segmentata" }
+					type: "item"
+				}
+				{
+					id: "221BAE1FF970906C"
+					item: { count: 1, id: "antiquelegacy:iron_roman_greaves" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:hamata"
+			}
+			id: "4AF0A63488291DF4"
+			rewards: [{
+				id: "4B6DE269922A2B59"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [
+				{
+					id: "6828C48C129B5011"
+					item: { count: 1, id: "antiquelegacy:bronze_coolus" }
+					type: "item"
+				}
+				{
+					id: "2E29D0EF6118BB0B"
+					item: { count: 1, id: "antiquelegacy:hamata" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:musculata"
+			}
+			id: "6CC8D6CB5B26A136"
+			rewards: [{
+				id: "413A5896ECE913AC"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "141DF299A4E15773"
+					item: { count: 1, id: "antiquelegacy:corinthian_helmet" }
+					type: "item"
+				}
+				{
+					id: "421051EDD2ACB910"
+					item: { count: 1, id: "antiquelegacy:musculata" }
+					type: "item"
+				}
+				{
+					id: "3B8F079BBC8FB933"
+					item: { count: 1, id: "antiquelegacy:greek_greaves" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:linothorax"
+			}
+			id: "7DB3A0EF7C5A9A94"
+			rewards: [{
+				id: "4864DC575BCAD741"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "660458372EE21294"
+					item: { count: 1, id: "antiquelegacy:chalcidian_helmet" }
+					type: "item"
+				}
+				{
+					id: "33AA8A8E65B476D2"
+					item: { count: 1, id: "antiquelegacy:linothorax" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
 		}
 	]
 }
