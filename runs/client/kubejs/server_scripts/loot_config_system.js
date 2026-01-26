@@ -24,7 +24,7 @@ const LOOT_THEMES = {
             { item: 'immersiveengineering:plate_steel', weight: 12, count: [2, 4] },
             { item: 'create:precision_mechanism', weight: 8, count: [1, 2] },
             { item: 'powah:crystal_blazing', weight: 10, count: [2, 4] },
-            { item: 'industrialforegoing:plastic', weight: 18, count: [6, 12] }
+            { item: 'pneumaticcraft:plastic', weight: 18, count: [6, 12] }
         ]
     },
     

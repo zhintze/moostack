@@ -4,7 +4,7 @@
 	filename: "combat_and_armor"
 	group: ""
 	icon: {
-		id: "antiquelegacy:corinthian_helmet"
+		id: "epicfight:skillbook"
 	}
 	id: "4FACE7A7426CE1A5"
 	order_index: 2
@@ -325,6 +325,783 @@
 			}]
 			x: 0.0d
 			y: 25.5d
+		}
+		{
+			icon: {
+				id: "silentgear:sword_blueprint"
+			}
+			id: "67540B9DFCD6F9EE"
+			rewards: [{
+				id: "153FB995E0247C9C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "648C576E945C6068"
+				item: { count: 1, id: "silentgear:sword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67540B9DFCD6F9EE"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "5442B3AB4A6B017C"
+			rewards: [
+				{
+					id: "1024629EC21CCDDE"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5442B3AB4A6B0001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_step"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3086A582FD2777C9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5442B3AB4A6B017C"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "219A6CFA514FABCD"
+			rewards: [
+				{
+					id: "5383A708B4A3B473"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "219A6CFA514FA001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_sword_master"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "452A8D96D584CACB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "silentgear:longsword_blueprint"
+			}
+			id: "4AB1C4D9A5CF9886"
+			rewards: [{
+				id: "2CF263EBA0769AE0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7723668DCEEFA822"
+				item: { count: 1, id: "silentgear:longsword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AB1C4D9A5CF9886"]
+			icon: {
+				id: "silentgear:longsword"
+			}
+			id: "1DD4F9946D69CC0C"
+			rewards: [
+				{
+					id: "20E68E0CDE580E36"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "1DD4F9946D69C001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_parrying"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D041AFB7E442208"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DD4F9946D69CC0C"]
+			icon: {
+				id: "silentgear:longsword"
+			}
+			id: "0D988BF0557B8834"
+			rewards: [
+				{
+					id: "776042146CBF5AD9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0D988BF0557B8001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_impact_guard"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "42019458CDB958AD"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "silentgear:greatsword_blueprint"
+			}
+			id: "2FE9641D71169F20"
+			rewards: [{
+				id: "27AA0E0E7C953EE9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7760E6D36367E31A"
+				item: { count: 1, id: "silentgear:greatsword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FE9641D71169F20"]
+			icon: {
+				id: "silentgear:greatsword"
+			}
+			id: "00DCB81D6A41BD44"
+			rewards: [
+				{
+					id: "5E0CBE7CCBAA4247"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "00DCB81D6A41B001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_berserker"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2E74B3CFD2CCD3F3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00DCB81D6A41BD44"]
+			icon: {
+				id: "silentgear:greatsword"
+			}
+			id: "5B341FC84A7C6F57"
+			rewards: [
+				{
+					id: "16AD0BDBB9A79EC2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5B341FC84A7C6001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_forbidden_strength"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "3DDEEB0F9DD35DDB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "silentgear:katana_blueprint"
+			}
+			id: "08FFB925245C38AF"
+			rewards: [{
+				id: "46A29B30D8BEC5FD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "35562BB02D6C4A02"
+				item: { count: 1, id: "silentgear:katana_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08FFB925245C38AF"]
+			icon: {
+				id: "silentgear:katana"
+			}
+			id: "4916A67B0CC75574"
+			rewards: [
+				{
+					id: "6A0949091A899278"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4916A67B0CC75001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_technician"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "4F2C7E2A94350706"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4916A67B0CC75574"]
+			icon: {
+				id: "silentgear:katana"
+			}
+			id: "12111A8F1BE36410"
+			rewards: [
+				{
+					id: "4782FBBD3A6E5ADF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "12111A8F1BE36001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_emergency_escape"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "3AD19747B3DF25E3"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "silentgear:tachi_blueprint"
+			}
+			id: "431FAEA1347F4DA3"
+			rewards: [{
+				id: "6CA5AECF82A750B9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6DAE6B656D2A538D"
+				item: { count: 1, id: "silentgear:tachi_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["431FAEA1347F4DA3"]
+			icon: {
+				id: "silentgear:tachi"
+			}
+			id: "78F20BAC5F8571D8"
+			rewards: [
+				{
+					id: "7D1C19049499D58A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "78F20BAC5F857001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_stamina_pillager"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "6D602200B294572F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["78F20BAC5F8571D8"]
+			icon: {
+				id: "silentgear:tachi"
+			}
+			id: "1AEBC314878233CA"
+			rewards: [
+				{
+					id: "1DD5E2A7FED7E96F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1AEBC314878233C1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_death_harvest"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7124BC36417356AA"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "silentgear:spear_blueprint"
+			}
+			id: "63BB4C3325346D7E"
+			rewards: [{
+				id: "560726F39BDEE58B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5751F3947C97DF2B"
+				item: { count: 1, id: "silentgear:spear_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["63BB4C3325346D7E"]
+			icon: {
+				id: "silentgear:spear"
+			}
+			id: "2833E10B825E3A2B"
+			rewards: [
+				{
+					id: "34BF8CCE94D6B4E3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2833E10B825E3001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_demolition_leap"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0D2F85A83E3149C5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2833E10B825E3A2B"]
+			icon: {
+				id: "silentgear:spear"
+			}
+			id: "10F9A4EAF82976CD"
+			rewards: [
+				{
+					id: "5371D76FE956C3E0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "010F9A4EAF829701"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_phantom_ascent"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "35491AD96E013CDB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			icon: {
+				id: "silentgear:dagger_blueprint"
+			}
+			id: "1A01AFCD0BB97901"
+			rewards: [{
+				id: "17E6091C8E97C743"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5C486F3B440EAF31"
+				item: { count: 1, id: "silentgear:dagger_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1A01AFCD0BB97901"]
+			icon: {
+				id: "silentgear:dagger"
+			}
+			id: "2D04D50BD7BA4232"
+			rewards: [
+				{
+					id: "0E2E530937FCCC37"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "2D04D50BD7BA4001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_roll"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "6CD796FA8AAE2140"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2D04D50BD7BA4232"]
+			icon: {
+				id: "silentgear:dagger"
+			}
+			id: "0E2691DCE4B44A8D"
+			rewards: [
+				{
+					id: "718C5D51C68DB34B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0E2691DCE4B44001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_hyper_vitality"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:silverfish"
+				id: "61FF6D4EF89C61FC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "silentgear:mace_blueprint"
+			}
+			id: "3B4ED142FCA53952"
+			rewards: [{
+				id: "1C1FCB080C9C7E81"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4F3556F8431D927E"
+				item: { count: 1, id: "silentgear:mace_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3B4ED142FCA53952"]
+			icon: {
+				id: "silentgear:mace"
+			}
+			id: "634803EE25A1C506"
+			rewards: [
+				{
+					id: "00EB4B1D86A00354"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "634803EE25A1C001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_endurance"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4AA4C835958E23DC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["634803EE25A1C506"]
+			icon: {
+				id: "silentgear:mace"
+			}
+			id: "2886EBF3DC98C805"
+			rewards: [
+				{
+					id: "76DF5CA89CA71E34"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2886EBF3DC98C001"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_revelation"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "3850D80F00E15FAC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 21.0d
+		}
+		{
+			icon: {
+				id: "silentgear:glove_blueprint"
+			}
+			id: "3C0C67C86A2E9F85"
+			rewards: [{
+				id: "471B09CF9F7CD752"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "069283B8B99F6D73"
+				item: { count: 1, id: "silentgear:glove_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "silentgear:glove"
+			}
+			id: "576F04BD5FFD8B2D"
+			rewards: [{
+				id: "1C43FED78FFA9056"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "55ECB7E7CDE15CDE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			icon: {
+				id: "silentgear:glove"
+			}
+			id: "31EAF3507D7E447F"
+			rewards: [
+				{
+					id: "492853C01D622E7D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6ACD5853C0232A7A"
+					item: {
+						components: {
+							"ftbquests:missing_item": "epicfight:skillbook_meteor_slam"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "761038F38B0E952F"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 24.0d
 		}
 	]
 }

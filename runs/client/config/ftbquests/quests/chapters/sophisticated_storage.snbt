@@ -15,61 +15,6 @@
 			icon: {
 				id: "minecraft:chest"
 			}
-			id: "5A94A2664BFDD7B9"
-			rewards: [{
-				id: "570FFAC4E65BBF46"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "51CC9A8E36385400"
-				item: { count: 1, id: "minecraft:chest" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				id: "minecraft:enchanted_book"
-			}
-			id: "7EF57BBEAA4B6B08"
-			min_width: 300
-			rewards: [
-				{
-					id: "1A2C25BD95D6B332"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"minecraft:unbreaking": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					id: "0F416DCD09AC9026"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "21FBC4E0F668347C"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				id: "minecraft:chest"
-			}
 			id: "134608BB2B04D96E"
 			rewards: [{
 				id: "49B86F222F7D3761"

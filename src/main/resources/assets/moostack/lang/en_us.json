@@ -119,5 +119,8 @@
   "key.categories.moostack": "mooStack",
   "key.moostack.auto_battle_toggle": "Auto-Battle Mode",
   "moostack.message.auto_battle_on": "Auto-Battle Mode: ON",
-  "moostack.message.auto_battle_off": "Auto-Battle Mode: OFF"
+  "moostack.message.auto_battle_off": "Auto-Battle Mode: OFF",
+  "ftbquests.task.moostack.epic_skills_unlock": "Epic Skills Unlock",
+  "ftbquests.task.moostack.epic_skills_unlock.title": "Unlock skill: %s",
+  "ftbquests.task.moostack.epic_skills_unlock.skill": "Skill Name"
 }

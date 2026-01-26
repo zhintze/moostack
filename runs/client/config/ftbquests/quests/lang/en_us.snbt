@@ -7206,4 +7206,426 @@
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
+
+	// ========================================
+	// Epic Fight Chapter (ID: 4FACE7A7426CE1A5)
+	// ========================================
+	chapter.4FACE7A7426CE1A5.title: "Epic Fight"
+
+	// --- Introduction & Core Concepts ---
+	quest.4A050181D999577F.title: "Epic Fight Combat System"
+	quest.4A050181D999577F.quest_subtitle: "A New Approach to Combat"
+	quest.4A050181D999577F.quest_desc: [
+		"Epic Fight replaces vanilla combat with a skill-based system featuring weapon movesets, stamina management, and directional attacks."
+		""
+		"Each weapon type has unique animations and a dedicated skill tree. Press K to open the skill menu and view available abilities."
+		""
+		"Check this quest to confirm you understand the basics."
+	]
+	task.0001000000000101.title: "I understand the combat system"
+
+	quest.0D96B42914B65C1A.title: "Ability Points and XP"
+	quest.0D96B42914B65C1A.quest_subtitle: "Unlocking Skills"
+	quest.0D96B42914B65C1A.quest_desc: [
+		"Ability Points are earned through XP gain. Use them in the skill menu to unlock passive abilities and active skills."
+		""
+		"Different weapon styles share some skills but also have unique branches. Plan your build based on your preferred playstyle."
+	]
+	task.0001000000000102.title: "I understand ability points"
+
+	quest.0001000000000003.title: "Weapon Combat Styles"
+	quest.0001000000000003.quest_subtitle: "Choosing Your Path"
+	quest.0001000000000003.quest_desc: [
+		"Each weapon category has a distinct combat style with different attack speeds, ranges, and movesets."
+		""
+		"One-handed weapons allow shield use. Two-handed weapons deal more damage but leave you vulnerable. Experiment to find your preferred style."
+	]
+	task.0001000000000103.title: "I understand weapon styles"
+
+	quest.147DA32CC31F58DC.title: "Basic Attack Combos"
+	quest.147DA32CC31F58DC.quest_subtitle: "Chaining Attacks"
+	quest.147DA32CC31F58DC.quest_desc: [
+		"Hold the attack button to perform combo chains. Each weapon has a unique combo sequence with varying damage and stagger."
+		""
+		"Timing matters. Releasing and re-pressing at the right moment extends combos. Practice on passive mobs first."
+	]
+	task.0002000000000101.title: "I understand combos"
+
+	quest.7BAE1273C2564F50.title: "Dodge and Movement"
+	quest.7BAE1273C2564F50.quest_subtitle: "Evasive Maneuvers"
+	quest.7BAE1273C2564F50.quest_desc: [
+		"Dodging provides brief invincibility frames. Double-tap a movement key or use the dedicated dodge key to evade attacks."
+		""
+		"Dodging costs stamina. Manage your stamina bar carefully during extended fights."
+	]
+	task.0002000000000102.title: "I understand dodging"
+
+	quest.66861A196EDAF149.title: "Guard and Block"
+	quest.66861A196EDAF149.quest_subtitle: "Defensive Techniques"
+	quest.66861A196EDAF149.quest_desc: [
+		"Blocking reduces incoming damage but drains stamina. Perfect blocks timed just before impact can stagger attackers."
+		""
+		"Shields provide better block coverage. Two-handed weapons have limited guard options but can still parry."
+	]
+	task.0002000000000103.title: "I understand blocking"
+
+	quest.0002000000000004.title: "Special Attacks"
+	quest.0002000000000004.quest_subtitle: "Powerful Techniques"
+	quest.0002000000000004.quest_desc: [
+		"Special attacks are unlocked through the skill tree and consume additional stamina. They deal high damage or provide utility."
+		""
+		"Bind special attacks to hotkeys in the skill menu. Each weapon type has unique specials worth investing in."
+	]
+	task.0002000000000104.title: "I understand special attacks"
+
+	quest.6C03FDE5B2D3CC06.title: "Skill Tree Overview"
+	quest.6C03FDE5B2D3CC06.quest_subtitle: "Planning Your Build"
+	quest.6C03FDE5B2D3CC06.quest_desc: [
+		"The skill tree contains passive stat boosts and active abilities. Some skills are universal while others are weapon-specific."
+		""
+		"Respeccing costs resources. Plan your build path before committing points. Early points in stamina and basic attacks are generally safe investments."
+	]
+	task.0003000000000101.title: "I have reviewed the skill tree"
+
+	quest.4D6872FE72705AC7.title: "Stamina Management"
+	quest.4D6872FE72705AC7.quest_subtitle: "Energy Conservation"
+	quest.4D6872FE72705AC7.quest_desc: [
+		"All combat actions consume stamina. When depleted, you cannot attack, dodge, or block effectively."
+		""
+		"Stamina regenerates faster when not in combat. Light armor allows more stamina than heavy armor. Balance offense with recovery windows."
+	]
+	task.0003000000000102.title: "I understand stamina"
+
+	quest.53CBB4ABCF61FDA2.title: "Weight and Mobility"
+	quest.53CBB4ABCF61FDA2.quest_subtitle: "Armor Tradeoffs"
+	quest.53CBB4ABCF61FDA2.quest_desc: [
+		"Equipment weight affects movement speed and stamina costs. Heavy armor provides protection but slows you down."
+		""
+		"Light builds favor dodging and speed. Heavy builds favor blocking and trading hits. Choose based on your skill investments."
+	]
+	task.0003000000000103.title: "I understand weight"
+
+	quest.1AE22C5745877654.title: "Combat Mastery"
+	quest.1AE22C5745877654.quest_subtitle: "Putting It Together"
+	quest.1AE22C5745877654.quest_desc: [
+		"Effective combat combines proper spacing, stamina management, and knowing when to attack versus defend."
+		""
+		"Practice against progressively harder enemies. Master one weapon style before branching out. Your skill points are limited."
+	]
+	task.0003000000000104.title: "I am ready to train"
+
+	// --- Epic Knights Armor: Magister Armory ---
+	quest.7AAFD8569DE1B316.title: "Gambeson Armor"
+	quest.7AAFD8569DE1B316.quest_subtitle: "Padded Protection"
+	quest.7AAFD8569DE1B316.quest_desc: [
+		"The gambeson is a quilted cloth armor providing basic protection with minimal weight penalty."
+		""
+		"Craft a gambeson chestplate to begin building your medieval armor collection. It serves as the foundation layer for heavier armor."
+	]
+
+	quest.62988C8A24A1053E.title: "Chainmail Armor"
+	quest.62988C8A24A1053E.quest_subtitle: "Linked Defense"
+	quest.62988C8A24A1053E.quest_desc: [
+		"Chainmail offers improved protection over gambeson while maintaining reasonable mobility."
+		""
+		"Craft a chainmail chestplate. This armor balances weight and defense for versatile combat roles."
+	]
+
+	quest.475D3013FEA877EC.title: "Armet Helm"
+	quest.475D3013FEA877EC.quest_subtitle: "Closed Helmet"
+	quest.475D3013FEA877EC.quest_desc: [
+		"The armet is a fully enclosed helmet providing excellent head protection."
+		""
+		"Craft an armet to complete a full plate armor set. The enclosed design limits vision but maximizes defense."
+	]
+
+	quest.670969FF1549CD11.title: "Gothic Plate"
+	quest.670969FF1549CD11.quest_subtitle: "Articulated Armor"
+	quest.670969FF1549CD11.quest_desc: [
+		"Gothic plate armor features fluted ridges that deflect blows while maintaining flexibility."
+		""
+		"Craft a gothic chestplate. This represents the pinnacle of medieval armor craftsmanship."
+	]
+
+	quest.0004000000000005.title: "Helm Decorations"
+	quest.0004000000000005.quest_subtitle: "Personal Flair"
+	quest.0004000000000005.quest_desc: [
+		"Plumes and decorations can be attached to helmets for visual distinction."
+		""
+		"Craft a plume decoration. These serve no combat purpose but mark experienced warriors."
+	]
+
+	quest.0004000000000006.title: "Horse Barding"
+	quest.0004000000000006.quest_subtitle: "Mount Protection"
+	quest.0004000000000006.quest_desc: [
+		"Barding protects horses in combat, essential for mounted knights."
+		""
+		"Craft horse barding to protect your mount. A well-armored horse survives longer in dangerous encounters."
+	]
+
+	// --- Epic Knights Armor: Antique Legacy ---
+	quest.5901453EC75161E6.title: "Ancient Armor Styles"
+	quest.5901453EC75161E6.quest_subtitle: "Classical Designs"
+	quest.5901453EC75161E6.quest_desc: [
+		"Antique Legacy adds armor inspired by ancient civilizations including Greek and Roman designs."
+		""
+		"These armors offer unique aesthetics with comparable protection to medieval equivalents."
+	]
+	task.0005000000000101.title: "I understand antique armor"
+
+	quest.724AB1A5D11147DD.title: "Lorica Segmentata"
+	quest.724AB1A5D11147DD.quest_subtitle: "Roman Legionary Armor"
+	quest.724AB1A5D11147DD.quest_desc: [
+		"The segmentata is Roman segmented plate armor offering excellent torso protection."
+		""
+		"Craft a segmentata chestplate. This iconic armor defined the Roman legions."
+	]
+
+	// --- Mastery & Endgame ---
+	quest.30A16F0A565C5AC6.title: "Combat Veteran"
+	quest.30A16F0A565C5AC6.quest_subtitle: "Proven Warrior"
+	quest.30A16F0A565C5AC6.quest_desc: [
+		"You have acquired the equipment and knowledge to face serious combat challenges."
+		""
+		"Continue developing your skills and expanding your arsenal. True mastery requires experience."
+	]
+	task.0006000000000101.title: "I am prepared"
+
+	quest.295EE0B7F74229B9.title: "Master at Arms"
+	quest.295EE0B7F74229B9.quest_subtitle: "Complete Combat Training"
+	quest.295EE0B7F74229B9.quest_desc: [
+		"A master at arms is proficient with multiple weapon types and understands the strengths of each."
+		""
+		"Consider training in weapon styles you have not yet explored. Versatility provides options against varied threats."
+	]
+	task.0006000000000102.title: "I seek further training"
+
+	// ========================================
+	// Skill Progression Tracks
+	// ========================================
+
+	// --- One-handed Sword Track ---
+	quest.67540B9DFCD6F9EE.title: "Sword Blueprint"
+	quest.67540B9DFCD6F9EE.quest_subtitle: "One-handed Sword Style"
+	quest.67540B9DFCD6F9EE.quest_desc: [
+		"Obtain a Sword Blueprint from Silent Gear to begin training the one-handed sword combat style."
+		""
+		"The sword offers balanced offense and defense. It pairs with shields and allows quick guard transitions."
+	]
+
+	quest.5442B3AB4A6B017C.title: "Sword Training: Step"
+	quest.5442B3AB4A6B017C.quest_subtitle: "Learn the Step dodge skill"
+	quest.5442B3AB4A6B017C.quest_desc: [
+		"Defeat 10 Zombies to earn the Step skill book."
+		""
+		"Step is a quick directional dodge that costs 3 stamina. While executing, you are immune to physical attacks. Faster than Roll but with a shorter distance."
+	]
+
+	quest.219A6CFA514FABCD.title: "Sword Mastery: Sword Master"
+	quest.219A6CFA514FABCD.quest_subtitle: "Learn the Sword Master passive"
+	quest.219A6CFA514FABCD.quest_desc: [
+		"Defeat 20 Wither Skeletons to earn the Sword Master skill book."
+		""
+		"Sword Master is a passive skill that increases attack speed and improves stamina recovery while wielding swords. Essential for sustained sword combat."
+	]
+
+	// --- Longsword Track ---
+	quest.4AB1C4D9A5CF9886.title: "Longsword Blueprint"
+	quest.4AB1C4D9A5CF9886.quest_subtitle: "Longsword Style"
+	quest.4AB1C4D9A5CF9886.quest_desc: [
+		"Obtain a Longsword Blueprint from Silent Gear to begin training the longsword combat style."
+		""
+		"The longsword is a versatile two-handed weapon with sweeping attacks effective against multiple enemies."
+	]
+
+	quest.1DD4F9946D69CC0C.title: "Longsword Training: Parrying"
+	quest.1DD4F9946D69CC0C.quest_subtitle: "Learn the Parrying guard skill"
+	quest.1DD4F9946D69CC0C.quest_desc: [
+		"Defeat 10 Skeletons to earn the Parrying skill book."
+		""
+		"Parrying enhances your guard with timed blocks. Successfully parrying an attack at the right moment deflects damage completely and can block projectiles."
+	]
+
+	quest.0D988BF0557B8834.title: "Longsword Mastery: Impact Guard"
+	quest.0D988BF0557B8834.quest_subtitle: "Learn the Impact Guard skill"
+	quest.0D988BF0557B8834.quest_desc: [
+		"Defeat 20 Vindicators to earn the Impact Guard skill book."
+		""
+		"Impact Guard reduces magic, explosion, and projectile damage by 80% while guarding. Essential for surviving ranged threats and area attacks."
+	]
+
+	// --- Greatsword Track ---
+	quest.2FE9641D71169F20.title: "Greatsword Blueprint"
+	quest.2FE9641D71169F20.quest_subtitle: "Greatsword Style"
+	quest.2FE9641D71169F20.quest_desc: [
+		"Obtain a Greatsword Blueprint from Silent Gear to begin training the greatsword combat style."
+		""
+		"The greatsword delivers devastating heavy attacks. Slow but powerful, it excels at staggering enemies."
+	]
+
+	quest.00DCB81D6A41BD44.title: "Greatsword Training: Berserker"
+	quest.00DCB81D6A41BD44.quest_subtitle: "Learn the Berserker passive"
+	quest.00DCB81D6A41BD44.quest_desc: [
+		"Defeat 10 Piglins to earn the Berserker skill book."
+		""
+		"Berserker increases your damage and attack speed when at low health. The lower your health, the stronger you become. High risk, high reward."
+	]
+
+	quest.5B341FC84A7C6F57.title: "Greatsword Mastery: Forbidden Strength"
+	quest.5B341FC84A7C6F57.quest_subtitle: "Learn the Forbidden Strength passive"
+	quest.5B341FC84A7C6F57.quest_desc: [
+		"Defeat 20 Hoglins to earn the Forbidden Strength skill book."
+		""
+		"Forbidden Strength allows you to use health instead of stamina when stamina is depleted. Fight beyond your limits at the cost of your life force."
+	]
+
+	// --- Katana Track ---
+	quest.08FFB925245C38AF.title: "Katana Blueprint"
+	quest.08FFB925245C38AF.quest_subtitle: "Katana Style"
+	quest.08FFB925245C38AF.quest_desc: [
+		"Obtain a Katana Blueprint from Silent Gear to begin training the katana combat style."
+		""
+		"The katana emphasizes swift strikes and precise timing. Fast attack chains reward aggressive play."
+	]
+
+	quest.4916A67B0CC75574.title: "Katana Training: Technician"
+	quest.4916A67B0CC75574.quest_subtitle: "Learn the Technician passive"
+	quest.4916A67B0CC75574.quest_desc: [
+		"Defeat 10 Husks to earn the Technician skill book."
+		""
+		"Technician rewards precise timing by restoring stamina when you execute a perfectly timed dodge. Master the rhythm of combat to never run out of stamina."
+	]
+
+	quest.12111A8F1BE36410.title: "Katana Mastery: Emergency Escape"
+	quest.12111A8F1BE36410.quest_subtitle: "Learn the Emergency Escape passive"
+	quest.12111A8F1BE36410.quest_desc: [
+		"Defeat 20 Witches to earn the Emergency Escape skill book."
+		""
+		"Emergency Escape allows you to cancel your own attacks with a dodge. Recover from overcommitting and reposition instantly when danger appears."
+	]
+
+	// --- Tachi Track ---
+	quest.431FAEA1347F4DA3.title: "Tachi Blueprint"
+	quest.431FAEA1347F4DA3.quest_subtitle: "Tachi Style"
+	quest.431FAEA1347F4DA3.quest_desc: [
+		"Obtain a Tachi Blueprint from Silent Gear to begin training the tachi combat style."
+		""
+		"The tachi combines katana speed with greater reach. Its curved blade excels at sweeping cuts."
+	]
+
+	quest.78F20BAC5F8571D8.title: "Tachi Training: Stamina Pillager"
+	quest.78F20BAC5F8571D8.quest_subtitle: "Learn the Stamina Pillager passive"
+	quest.78F20BAC5F8571D8.quest_desc: [
+		"Defeat 10 Strays to earn the Stamina Pillager skill book."
+		""
+		"Stamina Pillager restores 30% of your stamina whenever you kill an enemy. Sustain aggressive combat by chaining kills together."
+	]
+
+	quest.1AEBC314878233CA.title: "Tachi Mastery: Death Harvest"
+	quest.1AEBC314878233CA.quest_subtitle: "Learn the Death Harvest passive"
+	quest.1AEBC314878233CA.quest_desc: [
+		"Defeat 20 Endermen to earn the Death Harvest skill book."
+		""
+		"Death Harvest refills your weapon's special charge when you kill an enemy. Keep your weapon skills ready by maintaining a steady flow of kills."
+	]
+
+	// --- Spear Track ---
+	quest.63BB4C3325346D7E.title: "Spear Blueprint"
+	quest.63BB4C3325346D7E.quest_subtitle: "Spear Style"
+	quest.63BB4C3325346D7E.quest_desc: [
+		"Obtain a Spear Blueprint from Silent Gear to begin training the spear combat style."
+		""
+		"The spear excels at maintaining distance with thrusting attacks. Keep enemies at the tip of your weapon."
+	]
+
+	quest.2833E10B825E3A2B.title: "Spear Training: Demolition Leap"
+	quest.2833E10B825E3A2B.quest_subtitle: "Learn the Demolition Leap mover skill"
+	quest.2833E10B825E3A2B.quest_desc: [
+		"Defeat 10 Drowned to earn the Demolition Leap skill book."
+		""
+		"Demolition Leap launches you into the air and reduces fall damage. Use it to gain height advantage, escape ground threats, or set up aerial attacks."
+	]
+
+	quest.10F9A4EAF82976CD.title: "Spear Mastery: Phantom Ascent"
+	quest.10F9A4EAF82976CD.quest_subtitle: "Learn the Phantom Ascent mover skill"
+	quest.10F9A4EAF82976CD.quest_desc: [
+		"Defeat 20 Guardians to earn the Phantom Ascent skill book."
+		""
+		"Phantom Ascent grants an extra mid-air jump. Extend your aerial mobility, recover from falls, or chain with Demolition Leap for extreme vertical movement."
+	]
+
+	// --- Dagger Track ---
+	quest.1A01AFCD0BB97901.title: "Dagger Blueprint"
+	quest.1A01AFCD0BB97901.quest_subtitle: "Dagger Style"
+	quest.1A01AFCD0BB97901.quest_desc: [
+		"Obtain a Dagger Blueprint from Silent Gear to begin training the dagger combat style."
+		""
+		"Daggers favor aggressive close-range combat with rapid attacks. Speed compensates for limited reach."
+	]
+
+	quest.2D04D50BD7BA4232.title: "Dagger Training: Roll"
+	quest.2D04D50BD7BA4232.quest_subtitle: "Learn the Roll dodge skill"
+	quest.2D04D50BD7BA4232.quest_desc: [
+		"Defeat 10 Cave Spiders to earn the Roll skill book."
+		""
+		"Roll is a directional dodge that costs 4 stamina. While rolling, you are immune to physical attacks. Covers more distance than Step but takes longer to execute."
+	]
+
+	quest.0E2691DCE4B44A8D.title: "Dagger Mastery: Hyper Vitality"
+	quest.0E2691DCE4B44A8D.quest_subtitle: "Learn the Hyper Vitality passive"
+	quest.0E2691DCE4B44A8D.quest_desc: [
+		"Defeat 20 Silverfish to earn the Hyper Vitality skill book."
+		""
+		"Hyper Vitality allows you to use stamina instead of weapon charge for weapon skills. Never wait for your weapon to recharge again."
+	]
+
+	// --- Mace Track ---
+	quest.3B4ED142FCA53952.title: "Mace Blueprint"
+	quest.3B4ED142FCA53952.quest_subtitle: "Mace Style"
+	quest.3B4ED142FCA53952.quest_desc: [
+		"Obtain a Mace Blueprint from Silent Gear to begin training the mace combat style."
+		""
+		"The mace delivers crushing blunt damage with excellent stagger. Slower than bladed weapons but hits hard."
+	]
+
+	quest.634803EE25A1C506.title: "Mace Training: Endurance"
+	quest.634803EE25A1C506.quest_subtitle: "Learn the Endurance passive"
+	quest.634803EE25A1C506.quest_desc: [
+		"Defeat 10 Slimes to earn the Endurance skill book."
+		""
+		"Endurance provides stun resistance, making it harder for enemies to interrupt your attacks. Stand firm and keep swinging through enemy pressure."
+	]
+
+	quest.2886EBF3DC98C805.title: "Mace Mastery: Revelation"
+	quest.2886EBF3DC98C805.quest_subtitle: "Learn the Revelation identity skill"
+	quest.2886EBF3DC98C805.quest_desc: [
+		"Defeat 20 Magma Cubes to earn the Revelation skill book."
+		""
+		"Revelation builds stacks as you land hits. When fully charged, unleash a devastating knockdown attack that sends enemies flying."
+	]
+
+	// --- Glove Track ---
+	quest.GLOVE00000000001.title: "Glove Blueprint"
+	quest.GLOVE00000000001.quest_subtitle: "Unarmed Combat Style"
+	quest.GLOVE00000000001.quest_desc: [
+		"Obtain a Glove Blueprint from Silent Gear to begin training the unarmed combat style."
+		""
+		"Gloves enhance your punches with material properties. Fast attacks with low reach - get in close and overwhelm your enemies."
+	]
+
+	quest.GLOVE00000000002.title: "Glove Training"
+	quest.GLOVE00000000002.quest_subtitle: "Basic Combat Practice"
+	quest.GLOVE00000000002.quest_desc: [
+		"Defeat 10 Spiders to practice unarmed combat techniques."
+		""
+		"Spiders are fast and can climb. Practice timing your punches and staying mobile against agile targets."
+	]
+
+	quest.GLOVE00000000003.title: "Glove Mastery: Meteor Slam"
+	quest.GLOVE00000000003.quest_subtitle: "Learn the Meteor Slam identity skill"
+	quest.GLOVE00000000003.quest_desc: [
+		"Defeat 20 Zombified Piglins to earn the Meteor Slam skill book."
+		""
+		"Meteor Slam is a devastating ground pound attack performed from height. Leap into the air and slam down with tremendous force, damaging all enemies in the impact zone."
+	]
 }

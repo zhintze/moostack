@@ -251,17 +251,10 @@ ServerEvents.recipes(event => {
         'mekanism:block_steel'
     )
 
-    // Remove ALL recipes that output Epic Knights (magistuarmory) steel items
-    // This is more reliable than removing by ID
-    event.remove({ output: 'magistuarmory:steel_ingot' })
-    event.remove({ output: 'magistuarmory:steel_nugget' })
-    event.remove({ output: 'magistuarmory:steel_plate' })
-    event.remove({ output: 'magistuarmory:small_steel_plate' })
-
-    // Also remove by ID for recipes in subfolders
-    event.remove({ id: /^magistuarmory:.*steel_ingot.*/ })
-    event.remove({ id: /^magistuarmory:.*steel_nugget.*/ })
-    event.remove({ id: /^magistuarmory:.*steel_plate.*/ })
+    // Remove Epic Knights (magistuarmory) steel recipes by ID pattern
+    // NOTE: Cannot use output-based removal - items may not exist and cause crash
+    // Using ID-based regex removal which is safe even if no recipes match
+    event.remove({ id: /^magistuarmory:.*steel.*/ })
 
     // ===========================================
     // BRONZE: Use Mekanism as canonical (Epic Knights Antique Legacy -> Mekanism)
@@ -304,12 +297,13 @@ ServerEvents.recipes(event => {
     )
 
     // Remove Epic Knights bronze_mixture recipes entirely
+    // NOTE: Only use ID-based removal - the bronze_mixture item doesn't exist in current mod version
+    // Using output-based removal would cause KubeJS error: "Unable to parse recipe output filter"
     event.remove({ id: 'antiquelegacy:bronze_mixture' })
-    event.remove({ output: 'antiquelegacy:bronze_mixture' })
 
     // Remove Epic Knights native bronze plate recipes (we'll add Create pressing instead)
+    // NOTE: Only use ID-based removal to avoid KubeJS errors with missing/unregistered items
     event.remove({ id: /^antiquelegacy:.*bronze_plate.*/ })
-    event.remove({ output: 'antiquelegacy:bronze_plate', id: /^antiquelegacy:.*/ })
 
     // Add Create pressing recipe for bronze sheet
     event.custom({
@@ -370,7 +364,8 @@ ServerEvents.recipes(event => {
     )
 
     // Remove Epic Knights small iron plate recipes
-    event.remove({ output: 'antiquelegacy:small_iron_plate' })
+    // NOTE: Use ID-based removal to avoid KubeJS errors if item doesn't exist
+    event.remove({ id: /^antiquelegacy:.*small_iron_plate.*/ })
 
     // ===========================================
     // COPPER SHEETS: Use Create as canonical (IE + ChemLib -> Create copper_sheet)
@@ -837,154 +832,164 @@ ServerEvents.recipes(event => {
 })
 
 // Ensure common tags include all variants
+// Using addOptional to prevent crashes if items don't exist
 ServerEvents.tags('item', event => {
     console.info('[Ore Unification] Verifying common tags...')
 
+    // Helper function to safely add items to tags (skips if item doesn't exist)
+    const safeAdd = (tag, item) => {
+        try {
+            event.addOptional(tag, item)
+        } catch (e) {
+            // Silently ignore missing items
+        }
+    }
+
     // Lead tags - ensure both Mekanism and IE items are in tags
-    event.add('c:ingots/lead', 'mekanism:ingot_lead')
-    event.add('c:ingots/lead', 'immersiveengineering:ingot_lead')
-    event.add('c:raw_materials/lead', 'mekanism:raw_lead')
-    event.add('c:raw_materials/lead', 'immersiveengineering:raw_lead')
-    event.add('c:dusts/lead', 'mekanism:dust_lead')
-    event.add('c:dusts/lead', 'immersiveengineering:dust_lead')
-    event.add('c:nuggets/lead', 'mekanism:nugget_lead')
-    event.add('c:nuggets/lead', 'immersiveengineering:nugget_lead')
-    event.add('c:storage_blocks/lead', 'mekanism:block_lead')
-    event.add('c:storage_blocks/lead', 'immersiveengineering:storage_lead')
-    event.add('c:storage_blocks/raw_lead', 'mekanism:block_raw_lead')
-    event.add('c:storage_blocks/raw_lead', 'immersiveengineering:raw_block_lead')
+    safeAdd('c:ingots/lead', 'mekanism:ingot_lead')
+    safeAdd('c:ingots/lead', 'immersiveengineering:ingot_lead')
+    safeAdd('c:raw_materials/lead', 'mekanism:raw_lead')
+    safeAdd('c:raw_materials/lead', 'immersiveengineering:raw_lead')
+    safeAdd('c:dusts/lead', 'mekanism:dust_lead')
+    safeAdd('c:dusts/lead', 'immersiveengineering:dust_lead')
+    safeAdd('c:nuggets/lead', 'mekanism:nugget_lead')
+    safeAdd('c:nuggets/lead', 'immersiveengineering:nugget_lead')
+    safeAdd('c:storage_blocks/lead', 'mekanism:block_lead')
+    safeAdd('c:storage_blocks/lead', 'immersiveengineering:storage_lead')
+    safeAdd('c:storage_blocks/raw_lead', 'mekanism:block_raw_lead')
+    safeAdd('c:storage_blocks/raw_lead', 'immersiveengineering:raw_block_lead')
 
     // Uranium tags - ensure both Mekanism and IE items are in tags
-    event.add('c:ingots/uranium', 'mekanism:ingot_uranium')
-    event.add('c:ingots/uranium', 'immersiveengineering:ingot_uranium')
-    event.add('c:raw_materials/uranium', 'mekanism:raw_uranium')
-    event.add('c:raw_materials/uranium', 'immersiveengineering:raw_uranium')
-    event.add('c:dusts/uranium', 'mekanism:dust_uranium')
-    event.add('c:dusts/uranium', 'immersiveengineering:dust_uranium')
-    event.add('c:nuggets/uranium', 'mekanism:nugget_uranium')
-    event.add('c:nuggets/uranium', 'immersiveengineering:nugget_uranium')
-    event.add('c:storage_blocks/uranium', 'mekanism:block_uranium')
-    event.add('c:storage_blocks/uranium', 'immersiveengineering:storage_uranium')
-    event.add('c:storage_blocks/raw_uranium', 'mekanism:block_raw_uranium')
-    event.add('c:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium')
+    safeAdd('c:ingots/uranium', 'mekanism:ingot_uranium')
+    safeAdd('c:ingots/uranium', 'immersiveengineering:ingot_uranium')
+    safeAdd('c:raw_materials/uranium', 'mekanism:raw_uranium')
+    safeAdd('c:raw_materials/uranium', 'immersiveengineering:raw_uranium')
+    safeAdd('c:dusts/uranium', 'mekanism:dust_uranium')
+    safeAdd('c:dusts/uranium', 'immersiveengineering:dust_uranium')
+    safeAdd('c:nuggets/uranium', 'mekanism:nugget_uranium')
+    safeAdd('c:nuggets/uranium', 'immersiveengineering:nugget_uranium')
+    safeAdd('c:storage_blocks/uranium', 'mekanism:block_uranium')
+    safeAdd('c:storage_blocks/uranium', 'immersiveengineering:storage_uranium')
+    safeAdd('c:storage_blocks/raw_uranium', 'mekanism:block_raw_uranium')
+    safeAdd('c:storage_blocks/raw_uranium', 'immersiveengineering:raw_block_uranium')
 
     // Silver tags - ensure both IE and Occultism items are in tags
-    event.add('c:ingots/silver', 'immersiveengineering:ingot_silver')
-    event.add('c:ingots/silver', 'occultism:silver_ingot')
-    event.add('c:raw_materials/silver', 'immersiveengineering:raw_silver')
-    event.add('c:raw_materials/silver', 'occultism:raw_silver')
-    event.add('c:dusts/silver', 'immersiveengineering:dust_silver')
-    event.add('c:dusts/silver', 'occultism:silver_dust')
-    event.add('c:nuggets/silver', 'immersiveengineering:nugget_silver')
-    event.add('c:nuggets/silver', 'occultism:silver_nugget')
-    event.add('c:storage_blocks/silver', 'immersiveengineering:storage_silver')
-    event.add('c:storage_blocks/silver', 'occultism:silver_block')
-    event.add('c:storage_blocks/raw_silver', 'immersiveengineering:raw_block_silver')
-    event.add('c:storage_blocks/raw_silver', 'occultism:raw_silver_block')
+    safeAdd('c:ingots/silver', 'immersiveengineering:ingot_silver')
+    safeAdd('c:ingots/silver', 'occultism:silver_ingot')
+    safeAdd('c:raw_materials/silver', 'immersiveengineering:raw_silver')
+    safeAdd('c:raw_materials/silver', 'occultism:raw_silver')
+    safeAdd('c:dusts/silver', 'immersiveengineering:dust_silver')
+    safeAdd('c:dusts/silver', 'occultism:silver_dust')
+    safeAdd('c:nuggets/silver', 'immersiveengineering:nugget_silver')
+    safeAdd('c:nuggets/silver', 'occultism:silver_nugget')
+    safeAdd('c:storage_blocks/silver', 'immersiveengineering:storage_silver')
+    safeAdd('c:storage_blocks/silver', 'occultism:silver_block')
+    safeAdd('c:storage_blocks/raw_silver', 'immersiveengineering:raw_block_silver')
+    safeAdd('c:storage_blocks/raw_silver', 'occultism:raw_silver_block')
 
     // Sulfur tags - ensure Mekanism, Blood Magic, and IE items are in tags
-    event.add('c:dusts/sulfur', 'mekanism:dust_sulfur')
-    event.add('c:dusts/sulfur', 'bloodmagic:sulfur')
-    event.add('c:dusts/sulfur', 'immersiveengineering:dust_sulfur')
+    safeAdd('c:dusts/sulfur', 'mekanism:dust_sulfur')
+    safeAdd('c:dusts/sulfur', 'bloodmagic:sulfur')
+    safeAdd('c:dusts/sulfur', 'immersiveengineering:dust_sulfur')
 
     // Steel tags - ensure Mekanism, IE, Ad Astra Mekanized items are in tags
     // NOTE: magistuarmory steel items are intentionally NOT added - they are removed from the game
-    event.add('c:ingots/steel', 'mekanism:ingot_steel')
-    event.add('c:ingots/steel', 'immersiveengineering:ingot_steel')
-    event.add('c:ingots/steel', 'adastramekanized:steel_ingot')
-    event.add('c:dusts/steel', 'mekanism:dust_steel')
-    event.add('c:dusts/steel', 'immersiveengineering:dust_steel')
-    event.add('c:nuggets/steel', 'mekanism:nugget_steel')
-    event.add('c:nuggets/steel', 'immersiveengineering:nugget_steel')
-    event.add('c:nuggets/steel', 'adastramekanized:steel_nugget')
-    event.add('c:storage_blocks/steel', 'mekanism:block_steel')
-    event.add('c:storage_blocks/steel', 'immersiveengineering:storage_steel')
-    event.add('c:storage_blocks/steel', 'adastramekanized:steel_block')
-    event.add('c:plates/steel', 'immersiveengineering:plate_steel')
-    event.add('c:plates/steel', 'adastramekanized:steel_sheet')
-    event.add('c:rods/steel', 'immersiveengineering:stick_steel')
-    event.add('c:rods/steel', 'adastramekanized:steel_rod')
-    event.add('c:rods/iron', 'immersiveengineering:stick_iron')
-    event.add('c:rods/iron', 'adastramekanized:iron_rod')
+    safeAdd('c:ingots/steel', 'mekanism:ingot_steel')
+    safeAdd('c:ingots/steel', 'immersiveengineering:ingot_steel')
+    safeAdd('c:ingots/steel', 'adastramekanized:steel_ingot')
+    safeAdd('c:dusts/steel', 'mekanism:dust_steel')
+    safeAdd('c:dusts/steel', 'immersiveengineering:dust_steel')
+    safeAdd('c:nuggets/steel', 'mekanism:nugget_steel')
+    safeAdd('c:nuggets/steel', 'immersiveengineering:nugget_steel')
+    safeAdd('c:nuggets/steel', 'adastramekanized:steel_nugget')
+    safeAdd('c:storage_blocks/steel', 'mekanism:block_steel')
+    safeAdd('c:storage_blocks/steel', 'immersiveengineering:storage_steel')
+    safeAdd('c:storage_blocks/steel', 'adastramekanized:steel_block')
+    safeAdd('c:plates/steel', 'immersiveengineering:plate_steel')
+    safeAdd('c:plates/steel', 'adastramekanized:steel_sheet')
+    safeAdd('c:rods/steel', 'immersiveengineering:stick_steel')
+    safeAdd('c:rods/steel', 'adastramekanized:steel_rod')
+    safeAdd('c:rods/iron', 'immersiveengineering:stick_iron')
+    safeAdd('c:rods/iron', 'adastramekanized:iron_rod')
 
     // Bronze tags - ensure Mekanism, Epic Knights, IE, and Silent Gear items are in tags
-    event.add('c:ingots/bronze', 'mekanism:ingot_bronze')
-    event.add('c:ingots/bronze', 'antiquelegacy:bronze_ingot')
-    event.add('c:ingots/bronze', 'immersiveengineering:ingot_bronze')
-    event.add('c:ingots/bronze', 'silentgear:bronze_ingot')
-    event.add('c:nuggets/bronze', 'mekanism:nugget_bronze')
-    event.add('c:nuggets/bronze', 'antiquelegacy:bronze_nugget')
-    event.add('c:dusts/bronze', 'mekanism:dust_bronze')
-    event.add('c:storage_blocks/bronze', 'mekanism:block_bronze')
-    event.add('c:plates/bronze', 'antiquelegacy:bronze_plate')
+    safeAdd('c:ingots/bronze', 'mekanism:ingot_bronze')
+    safeAdd('c:ingots/bronze', 'antiquelegacy:bronze_ingot')
+    safeAdd('c:ingots/bronze', 'immersiveengineering:ingot_bronze')
+    safeAdd('c:ingots/bronze', 'silentgear:bronze_ingot')
+    safeAdd('c:nuggets/bronze', 'mekanism:nugget_bronze')
+    safeAdd('c:nuggets/bronze', 'antiquelegacy:bronze_nugget')
+    safeAdd('c:dusts/bronze', 'mekanism:dust_bronze')
+    safeAdd('c:storage_blocks/bronze', 'mekanism:block_bronze')
+    safeAdd('c:plates/bronze', 'antiquelegacy:bronze_plate')
 
     // Tin tags - ensure Mekanism and Epic Knights items are in tags
-    event.add('c:ingots/tin', 'mekanism:ingot_tin')
-    event.add('c:ingots/tin', 'antiquelegacy:tin_ingot')
-    event.add('c:nuggets/tin', 'mekanism:nugget_tin')
-    event.add('c:nuggets/tin', 'antiquelegacy:tin_nugget')
-    event.add('c:dusts/tin', 'mekanism:dust_tin')
-    event.add('c:raw_materials/tin', 'mekanism:raw_tin')
-    event.add('c:raw_materials/tin', 'antiquelegacy:raw_tin')
-    event.add('c:storage_blocks/tin', 'mekanism:block_tin')
-    event.add('c:storage_blocks/raw_tin', 'mekanism:block_raw_tin')
+    safeAdd('c:ingots/tin', 'mekanism:ingot_tin')
+    safeAdd('c:ingots/tin', 'antiquelegacy:tin_ingot')
+    safeAdd('c:nuggets/tin', 'mekanism:nugget_tin')
+    safeAdd('c:nuggets/tin', 'antiquelegacy:tin_nugget')
+    safeAdd('c:dusts/tin', 'mekanism:dust_tin')
+    safeAdd('c:raw_materials/tin', 'mekanism:raw_tin')
+    safeAdd('c:raw_materials/tin', 'antiquelegacy:raw_tin')
+    safeAdd('c:storage_blocks/tin', 'mekanism:block_tin')
+    safeAdd('c:storage_blocks/raw_tin', 'mekanism:block_raw_tin')
 
     // Iron plate/sheet tags - ensure Create, IE, Epic Knights, and ChemLib items are in tags
-    event.add('c:plates/iron', 'create:iron_sheet')
-    event.add('c:plates/iron', 'immersiveengineering:plate_iron')
-    event.add('c:plates/iron', 'antiquelegacy:iron_plate')
-    event.add('c:plates/iron', 'chemlibmekanized:iron_plate')
+    safeAdd('c:plates/iron', 'create:iron_sheet')
+    safeAdd('c:plates/iron', 'immersiveengineering:plate_iron')
+    safeAdd('c:plates/iron', 'antiquelegacy:iron_plate')
+    safeAdd('c:plates/iron', 'chemlibmekanized:iron_plate')
 
     // Copper plate/sheet tags - ensure Create, IE, and ChemLib items are in tags
-    event.add('c:plates/copper', 'create:copper_sheet')
-    event.add('c:plates/copper', 'immersiveengineering:plate_copper')
-    event.add('c:plates/copper', 'chemlibmekanized:copper_plate')
+    safeAdd('c:plates/copper', 'create:copper_sheet')
+    safeAdd('c:plates/copper', 'immersiveengineering:plate_copper')
+    safeAdd('c:plates/copper', 'chemlibmekanized:copper_plate')
 
     // Gold plate/sheet tags - ensure Create, IE, and ChemLib items are in tags
-    event.add('c:plates/gold', 'create:golden_sheet')
-    event.add('c:plates/gold', 'immersiveengineering:plate_gold')
-    event.add('c:plates/gold', 'chemlibmekanized:gold_plate')
+    safeAdd('c:plates/gold', 'create:golden_sheet')
+    safeAdd('c:plates/gold', 'immersiveengineering:plate_gold')
+    safeAdd('c:plates/gold', 'chemlibmekanized:gold_plate')
 
     // Zinc tags - ensure Create and ChemLib items are in tags
-    event.add('c:ingots/zinc', 'create:zinc_ingot')
-    event.add('c:ingots/zinc', 'chemlibmekanized:zinc_ingot')
-    event.add('c:nuggets/zinc', 'create:zinc_nugget')
-    event.add('c:nuggets/zinc', 'chemlibmekanized:zinc_nugget')
-    event.add('c:storage_blocks/zinc', 'create:zinc_block')
-    event.add('c:storage_blocks/zinc', 'chemlibmekanized:zinc_block')
+    safeAdd('c:ingots/zinc', 'create:zinc_ingot')
+    safeAdd('c:ingots/zinc', 'chemlibmekanized:zinc_ingot')
+    safeAdd('c:nuggets/zinc', 'create:zinc_nugget')
+    safeAdd('c:nuggets/zinc', 'chemlibmekanized:zinc_nugget')
+    safeAdd('c:storage_blocks/zinc', 'create:zinc_block')
+    safeAdd('c:storage_blocks/zinc', 'chemlibmekanized:zinc_block')
 
     // Aluminum tags - IE is canonical, ChemLib provides processing intermediates only
-    event.add('c:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
-    event.add('c:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
-    event.add('c:dusts/aluminum', 'immersiveengineering:dust_aluminum')
-    event.add('c:plates/aluminum', 'immersiveengineering:plate_aluminum')
-    event.add('c:raw_materials/aluminum', 'immersiveengineering:raw_aluminum')
-    event.add('c:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum')
-    event.add('c:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum')
+    safeAdd('c:ingots/aluminum', 'immersiveengineering:ingot_aluminum')
+    safeAdd('c:nuggets/aluminum', 'immersiveengineering:nugget_aluminum')
+    safeAdd('c:dusts/aluminum', 'immersiveengineering:dust_aluminum')
+    safeAdd('c:plates/aluminum', 'immersiveengineering:plate_aluminum')
+    safeAdd('c:raw_materials/aluminum', 'immersiveengineering:raw_aluminum')
+    safeAdd('c:storage_blocks/aluminum', 'immersiveengineering:storage_aluminum')
+    safeAdd('c:storage_blocks/raw_aluminum', 'immersiveengineering:raw_block_aluminum')
 
     // Nickel tags - IE is canonical, ChemLib provides processing intermediates only
-    event.add('c:ingots/nickel', 'immersiveengineering:ingot_nickel')
-    event.add('c:nuggets/nickel', 'immersiveengineering:nugget_nickel')
-    event.add('c:dusts/nickel', 'immersiveengineering:dust_nickel')
-    event.add('c:plates/nickel', 'immersiveengineering:plate_nickel')
-    event.add('c:raw_materials/nickel', 'immersiveengineering:raw_nickel')
-    event.add('c:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
-    event.add('c:storage_blocks/raw_nickel', 'immersiveengineering:raw_block_nickel')
+    safeAdd('c:ingots/nickel', 'immersiveengineering:ingot_nickel')
+    safeAdd('c:nuggets/nickel', 'immersiveengineering:nugget_nickel')
+    safeAdd('c:dusts/nickel', 'immersiveengineering:dust_nickel')
+    safeAdd('c:plates/nickel', 'immersiveengineering:plate_nickel')
+    safeAdd('c:raw_materials/nickel', 'immersiveengineering:raw_nickel')
+    safeAdd('c:storage_blocks/nickel', 'immersiveengineering:storage_nickel')
+    safeAdd('c:storage_blocks/raw_nickel', 'immersiveengineering:raw_block_nickel')
 
     // Platinum tags - ChemLib Mekanized is canonical owner (sole provider)
-    event.add('c:ingots/platinum', 'chemlibmekanized:platinum_ingot')
-    event.add('c:nuggets/platinum', 'chemlibmekanized:platinum_nugget')
-    event.add('c:dusts/platinum', 'chemlibmekanized:platinum_dust')
-    event.add('c:plates/platinum', 'chemlibmekanized:platinum_plate')
-    event.add('c:storage_blocks/platinum', 'chemlibmekanized:platinum_block')
+    safeAdd('c:ingots/platinum', 'chemlibmekanized:platinum_ingot')
+    safeAdd('c:nuggets/platinum', 'chemlibmekanized:platinum_nugget')
+    safeAdd('c:dusts/platinum', 'chemlibmekanized:platinum_dust')
+    safeAdd('c:plates/platinum', 'chemlibmekanized:platinum_plate')
+    safeAdd('c:storage_blocks/platinum', 'chemlibmekanized:platinum_block')
 
     // Osmium tags - Mekanism is canonical (ChemLib only provides element, no items)
-    event.add('c:ingots/osmium', 'mekanism:ingot_osmium')
-    event.add('c:nuggets/osmium', 'mekanism:nugget_osmium')
-    event.add('c:dusts/osmium', 'mekanism:dust_osmium')
-    event.add('c:raw_materials/osmium', 'mekanism:raw_osmium')
-    event.add('c:storage_blocks/osmium', 'mekanism:block_osmium')
-    event.add('c:storage_blocks/raw_osmium', 'mekanism:block_raw_osmium')
+    safeAdd('c:ingots/osmium', 'mekanism:ingot_osmium')
+    safeAdd('c:nuggets/osmium', 'mekanism:nugget_osmium')
+    safeAdd('c:dusts/osmium', 'mekanism:dust_osmium')
+    safeAdd('c:raw_materials/osmium', 'mekanism:raw_osmium')
+    safeAdd('c:storage_blocks/osmium', 'mekanism:block_osmium')
+    safeAdd('c:storage_blocks/raw_osmium', 'mekanism:block_raw_osmium')
 
     console.info('[Ore Unification] Common tags verified.')
 })
