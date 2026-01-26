@@ -1,0 +1,559 @@
+{
+	quest.008E65AF545A706E.quest_desc: [
+		"While being one of the most expensive Machines in Mekanism, it isn't actually that difficult to use!"
+		"First, after building it, we'll need to fuel it with Polonium. Tube some into one of the SPS Ports because we'll need to charge our Polonium into Antimatter!"
+		"To charge it we'll need to power our Supercharged Coils! Cable massive amounts of Energy into the SPS Ports so they can move it to the Supercharged Coils."
+		"Each Supercharged Coil can only take so much Energy so for optimal efficiency use 2! Once we've blasted the Polonium with enough millions of FE we'll get our Antimatter."
+	]
+	quest.008E65AF545A706E.quest_subtitle: "SPS"
+	quest.008E65AF545A706E.title: "Super-Critical Phase Shifter"
+	quest.00E19377BAE5DD6A.quest_desc: ["This one adds Shears to our Meka-Tool! We can't use it with the Farming Unit or Teleportation Unit."]
+	quest.00E19377BAE5DD6A.quest_subtitle: "Meka-Tool"
+	quest.00E19377BAE5DD6A.title: "Shearing Unit"
+	quest.011D8CADA29C9C70.quest_desc: [
+		"QIO Drives determine the Storage within QIO Drive Arrays. They are placed within the Machine's Inventory in order to be used. You can place up to 12 of them."
+		"The QIO Drives hold the Items and they will automatically fill up the first QIO Drive in order. Each of them have an Item Storage limit and Item Type limit."
+		"QIO Drive: is the most basic, having 16k Items and 128 Types. Hyper-Dense QIO Drive: holds 128k Items and 256 Item Types. Time-Dilating QIO Drive: can store 1,048k Items and 1,024 Item Types."
+		"Supermassive QIO Drive: will need Antimatter to craft but will obviously give the most Storage. Allowing 16b Items and 8,192 Item Types."
+	]
+	quest.011D8CADA29C9C70.title: "QIO Drives"
+	quest.0133DA323E24A455.quest_desc: [
+		"With this Module Unit added to our MekaSuit Helmet, we will be able to swim Underwater and breathe!"
+		"If we have a Jetpack Unit in our MekaSuit Bodyarmor it will feed it Hydrogen when in Water."
+	]
+	quest.0133DA323E24A455.quest_subtitle: "Helmet"
+	quest.0133DA323E24A455.title: "Electrolytic Breathing Unit"
+	quest.02C6132919DEAF2A.quest_desc: [
+		"Before we start making Energy let's get our Steam all over the place. We can do that by surrounding the Rotational Complex with Pressure Dispersers!"
+		"Above that layer we'll need a new layer, this one full of Electromagnetic Coils. These will be moved because of the Rotational Complex, them moving with each other is what develops Energy through their Magnetic Forces."
+		"Above the Electromagnetic Coils we can use Saturating Condensers which will recycle our Steam back into some Water! The Water will be extracted through the Vents."
+	]
+	quest.02C6132919DEAF2A.title: "Making Energy with a Turbine"
+	quest.0306D25C7407FE88.quest_desc: [
+		"Another part we'll need to actually start the Fusion Reactor is Heat! We can use either Lasers or porting Heat into it. We're just going to use Lasers here."
+		"We'll need a Laser Amplifier with 1GFE worth of Energy to be shot into the Laser Focus Matrix. It sounds like a lot of Energy but don't worry we'll get it back!"
+		"Instead of waiting forever, we can use multiple Lasers shooting into multiple Laser Amplifiers that shoot into the one targeting the Laser Focus Matrix."
+	]
+	quest.0306D25C7407FE88.title: "Laser Focus Matrix"
+	quest.03840E4C74731E0C.quest_desc: [
+		"The Reactors will need a lot of Water. You can use Electric Pumps to pump water from the world, or set up an infinite water source."
+		"Electric Pumps are great because they're from Mekanism and integrate well with the rest of the system. Place one above a water source and pipe the output to your reactor's coolant input."
+	]
+	quest.03840E4C74731E0C.title: "Water Coolant"
+	quest.05DA7F48E2A1B77F.quest_desc: [
+		"Meet Robit! He is your new Robotic Companion! Place him down onto a Chargepad to set it as his Home! This is important as Robit needs Energy to move and work."
+		"We can Right Click him to open his GUI. In the middle we'll see a Screen that teaches us facts about him: his Name, his Energy, his Job, and his Owner!"
+		"The buttons allow you to: Teleport Home (brings him to his Chargepad), Rename (changes his Mob Name), and Appearance (cosmetic stuff)!"
+		"To the right, you'll find more features! Crafting opens a Crafting Table within Robit. Inventory opens Robit's storage. Smelting uses Energy to smelt items. Repairing combines items to repair durability."
+	]
+	quest.05DA7F48E2A1B77F.title: "Robit"
+	quest.078B69E9362A5496.quest_desc: [
+		"Welcome to Mekanism Reactors! If you want your Reactors and invincible armor, then you are in the right spot!"
+		"First, we'll need a Fission Reactor and that needs Fissile Fuel. To make Fissile Fuel we'll need some Sulfur Trioxide."
+		"Start by putting Sulfur into a Chemical Oxidizer to make Sulfur Dioxide. Then, make some Oxygen by processing Water through an Electrolytic Separator."
+		"Now we can Tube that Oxygen and Sulfur Dioxide into a Chemical Infuser to make our Sulfur Trioxide."
+	]
+	quest.078B69E9362A5496.title: "Mekanism: Reactors"
+	quest.09D7D3CF61E156B1.quest_desc: [
+		"Fission Fuel Assemblies are what make up the storage for Fissile Fuel. They also help determine Efficiency."
+		"Fission Fuel Assemblies will need to be placed in the Fission Reactor in order to work. They can be stacked on top and next to each other."
+		"Each stack will need a Control Rod Assembly on top of them! Control Rod Assemblies don't change anything like Efficiency but the Fission Fuel Assembly won't work without one above them."
+	]
+	quest.09D7D3CF61E156B1.title: "Fissile Fuel storage and usage"
+	quest.0EBE20E44A7AEC7E.quest_desc: [
+		"These Units will make your Feet and pretty much entire Legs, longer and stronger!"
+		"You can Sprint Jump higher and walk up higher steps. You can Jump and step higher with more Units Installed and you can change the Configs of the Unit to go even higher!"
+	]
+	quest.0EBE20E44A7AEC7E.quest_subtitle: "Boots"
+	quest.0EBE20E44A7AEC7E.title: "Hydraulic Propulsion Unit"
+	quest.0F97EFAFD6E68F8D.quest_desc: ["With this Unit the Meka-Tool will Mine Blocks much quicker! The more you have, the quicker it goes! Just like the Efficiency Enchantment."]
+	quest.0F97EFAFD6E68F8D.quest_subtitle: "Meka-Tool"
+	quest.0F97EFAFD6E68F8D.title: "Excavation Escalation Unit"
+	quest.123C0417D85B9DB2.quest_desc: [
+		"Solar Recharging Units go into MekaSuit Helmets and will charge the MekaSuit!"
+		"The more you have added, the more FE will be generated. Yes, it works just like a normal Solar Generator... Daytime and exposed to the Sky!"
+	]
+	quest.123C0417D85B9DB2.quest_subtitle: "Helmet"
+	quest.123C0417D85B9DB2.title: "Solar Recharging Unit"
+	quest.13A5748DF69D832E.quest_desc: [
+		"The QIO Drive Array doesn't do much on its own, instead we'll need to add a QIO Dashboard!"
+		"The QIO Dashboard, like all Items QIO related, needs to be set to the same Network. When it is finally ready we can deposit and access Items into our QIO System."
+		"The Slots in the middle are where Items can be put, stored, and taken from. Above the Slots is the Search Bar to look up Item names, Tags, and Mods."
+		"On the Left we have a Crafting Button! This will bring up, up to 3 Crafting Windows. These each have a 3x3 Crafting Grid we can use."
+	]
+	quest.13A5748DF69D832E.title: "QIO Dashboard"
+	quest.141D68BAD039784B.quest_desc: [
+		"Our Thermoelectric Boiler can be used to get Superheated Sodium and Water and recycle it into Sodium and Steam!"
+		"But how do we get our Superheated Sodium and Water into the Boiler? With Boiler Ports!"
+		"We'll need to use a Configurator on them to change the Ports configs. Our Superheated Sodium and Water will be added in through Input Ports (separate Input Ports)."
+		"The cooled down Sodium will be taken out through an Output Port. And Steam gets its very own Steam Output Port!"
+	]
+	quest.141D68BAD039784B.title: "Boiler Ports"
+	quest.14385D3D359224BC.quest_desc: [
+		"The Meka-Tool is the best Tool Mekanism offers, hence the name! It can do everything the Atomic Disassembler does just better!"
+		"Instead of having Modes though, it can use Modification Units! Check out their own Quests."
+	]
+	quest.14385D3D359224BC.title: "Meka-Tool"
+	quest.16DDAE318535D0F9.quest_desc: [
+		"The Atomic Disassembler is Mekanism's Paxel! It can Mine any Blocks a Paxel can! It can also be used as a Sword."
+		"It has different Modes, each doing different Efficiency and Energy usage. We can change it by holding Shift and Scrolling."
+		"Normal: is default Mode. Slow: is like a Paxel without Efficiency, but will use less Energy on use! Fast: uses a ton more Energy but much faster! Off: will not break Blocks, instead it's sole purpose is to KILL!"
+	]
+	quest.16DDAE318535D0F9.title: "Atomic Disassembler"
+	quest.17E2C05C48B03043.quest_desc: [
+		"Sodium can be used as a Coolant instead of Water. Sodium is more Efficient, gets higher Temperatures, but is harder to get and reuse."
+		"We'll need a Thermal Evaporation Plant to take our Water and make Brine. Then, we can use an Electrolytic Separator to get our Sodium!"
+	]
+	quest.17E2C05C48B03043.title: "Sodium Coolant"
+	quest.18EB2170CAC48E99.quest_desc: [
+		"Teleportation Unit is a pretty unique Unit. With our Meka-Tool with Teleportation added we can look at a Block and Right Click to Teleport onto it."
+		"It uses Energy and has a limited range, but don't worry the range is still pretty far! This Unit can't work with the Farming Unit or Shearing Unit."
+	]
+	quest.18EB2170CAC48E99.quest_subtitle: "Meka-Tool"
+	quest.18EB2170CAC48E99.title: "Teleportation Unit"
+	quest.1C87535D3CDCDA5F.quest_desc: [
+		"Laser Amplifiers have their own Internal Energy Storage, but they don't charge like most Machines. The way Laser Amplifiers work is by taking Charge from other Lasers shooting into them!"
+		"They will then use that Energy into a more focused beam by the Configs you set within its GUI. Delay, Minimum, and Maximum."
+		"Delay is how many Ticks it will wait after reaching the Minimum Energy to shoot it. Minimum is the amount of Energy it will hold before shooting. Maximum works similar with how much it will hold before shooting the Laser."
+	]
+	quest.1C87535D3CDCDA5F.title: "Laser Amplifying"
+	quest.1FC88A3BFCE6C9D7.quest_desc: ["This one is just Swift Sneaking Enchantment... just a Unit now!"]
+	quest.1FC88A3BFCE6C9D7.quest_subtitle: "Pants"
+	quest.1FC88A3BFCE6C9D7.title: "Motorized Servo Unit"
+	quest.20054D077AFE3F56.quest_desc: [
+		"We got our Plutonium and the rest is what we should already have! A P.R.C., Water, and Fluorite Dust!"
+		"Combine 1,000mB Water, with 1,000mB Plutonium, and 1 Fluorite Dust to make 1 Plutonium Pellet and 1,000mB Spent Nuclear Waste."
+	]
+	quest.20054D077AFE3F56.title: "Plutonium Pellets"
+	quest.22171982D22CE15F.quest_desc: [
+		"Instead of each MekaSuit Part having their own individual Charge, they will now share one Charge."
+		"This is important in keeping every Part Charged. And that is important to keeping you alive!"
+	]
+	quest.22171982D22CE15F.quest_subtitle: "Bodyarmor"
+	quest.22171982D22CE15F.title: "Charge Distribution Units"
+	quest.23B68F19A04AF5D7.quest_desc: [
+		"Lots of these MekaSuit Pants Units work just like Enchantments. This one is a 2 for 1! Both Air Affinity and Aqua Affinity."
+		"You will no longer have a Mining penalty when Swimming or Flying or Falling."
+	]
+	quest.23B68F19A04AF5D7.quest_subtitle: "Pants"
+	quest.23B68F19A04AF5D7.title: "Gyroscopic Stabilization Unit"
+	quest.24E800EEC2CAD626.quest_desc: [
+		"The Geiger Unit will work like the Dosimeter Unit but instead of Radiation in you, it's Radiation around you!"
+		"Just so you can find where it might be hiding. You can also enable and disable it!"
+	]
+	quest.24E800EEC2CAD626.quest_subtitle: "Bodyarmor"
+	quest.24E800EEC2CAD626.title: "Geiger Unit"
+	quest.27195E9A3482C158.quest_desc: [
+		"The Inhalation Purification Unit actually does a few things. It will use Energy to block out Magic Damage. Like Potions of Instant Harming!"
+		"It can be Configured to block Potion Effects based on their level of help or harm. Beneficial, Neutral, and Harmful."
+	]
+	quest.27195E9A3482C158.quest_subtitle: "Helmet"
+	quest.27195E9A3482C158.title: "Inhalation Purification Unit"
+	quest.2747AEE1F7F97848.quest_desc: [
+		"Potions are nice but don't you hate that they have time limits? With this Unit you will run faster and jump higher!"
+		"The more you have, the faster and higher you'll go!"
+	]
+	quest.2747AEE1F7F97848.quest_subtitle: "Pants"
+	quest.2747AEE1F7F97848.title: "Locomotive Boosting Unit"
+	quest.298A7BED5C2C7582.quest_desc: [
+		"Induction Cells are placed within the Energized Induction Matrix and will increase the amount of storage it has. Their totals will stack on each other!"
+		"Basic Induction Cell: will hold 3.2GFE each. Advanced Induction Cells: will hold 25.6GFE each. Elite Induction Cell: will hold 204.8GFE each. Ultimate Induction Cell: will hold 1.6TFE each."
+	]
+	quest.298A7BED5C2C7582.quest_subtitle: "Storage"
+	quest.298A7BED5C2C7582.title: "Induction Cells"
+	quest.2DC4446A644A4079.quest_desc: [
+		"The Hazmat Suit is the only way of preventing Radiation from killing you. You need to wear the entire set to prevent Radiation Poisoning!"
+		"Radiation will kill other Mobs and Players near it, the Players can be saved with Hazmat Suits... but Mobs aren't so lucky!"
+	]
+	quest.2DC4446A644A4079.title: "Hazmat Suit"
+	quest.302E9BC711779A4A.quest_desc: [
+		"Let's take a break from Sulfur and Acids and let's focus on the Radioactive part of Fissile Fuel!"
+		"Mine Uranium Ore and use the Uranium Ingots in an Enrichment Chamber to make Yellow Cake Uranium. No, don't eat it. It isn't that type of Cake!"
+		"Bake the Yellow Cake Uranium in a Chemical Oxidizer to make Uranium Oxide."
+	]
+	quest.302E9BC711779A4A.title: "Preparing Uranium"
+	quest.32ABE5D734703B9C.quest_desc: ["Elytra or MekaSuit Bodyarmor? Why not both?"]
+	quest.32ABE5D734703B9C.quest_subtitle: "Bodyarmor"
+	quest.32ABE5D734703B9C.title: "Elytra Unit"
+	quest.3526D444F81AD6D9.quest_desc: [
+		"The Meka-Tool already does more Damage than most swords, but why not a little more!"
+		"I can't tell how much more each Unit gives, but it definitely increases the more you have added. Just like Sharpness!"
+	]
+	quest.3526D444F81AD6D9.quest_subtitle: "Meka-Tool"
+	quest.3526D444F81AD6D9.title: "Attack Amplification Unit"
+	quest.3561A33758A1E8C3.quest_desc: [
+		"First, we build. Second, we start up. Third, we use. All sides of the Fusion Reactor use a 5 Block long Diamond shape."
+		"The frame will be made of Fusion Reactor Casing and the inside can be made of Reactor Glass. The Fusion Reactor Ports can replace any Reactor Glass Block in the Structure."
+		"The Laser Focus Matrix will also be placed where Reactor Glass is. The Fusion Reactor Controller, the most important Block, will be placed in the square center of the top layer."
+		"Grab your Hohlraum, which should be filled with D-T Fuel! Place it within the GUI of the Fusion Reactor. Then blast the Laser Amplifier with at least 1GFE, into the Laser Focus Matrix to start it up!"
+	]
+	quest.3561A33758A1E8C3.quest_subtitle: "Combining 2 Elements into 1"
+	quest.3561A33758A1E8C3.title: "Fusion Reactor"
+	quest.35D9CD19EAADED6C.quest_desc: [
+		"You know that Radiation stuff can get pretty deadly! And everyone makes mistakes."
+		"But the question remains, would you rather wear the stylish but very weak Hazmat Suit or... the all powerful MekaSuit with Radiation Shielding Unit!"
+	]
+	quest.35D9CD19EAADED6C.quest_subtitle: "All Armor"
+	quest.35D9CD19EAADED6C.title: "Radiation Shielding Unit"
+	quest.369DADE3B3D8416F.quest_desc: [
+		"Tritium is unfortunately not as easy to get as Deuterium is... We'll need a Thermal Evaporation Plant. Well... actually 2 of them."
+		"1 to turn Water into Brine, the other to turn the Brine into Liquid Lithium. Use the Rotary Condensentrator to turn it from Liquid to Chemical!"
+		"Then, we can use the Solar Neutron Activator to turn the Lithium into Tritium. Harder than Deuterium, but easier than Fissile Fuel."
+	]
+	quest.369DADE3B3D8416F.quest_subtitle: "T"
+	quest.369DADE3B3D8416F.title: "Tritium"
+	quest.3B936CA3F0F7B26B.quest_desc: [
+		"The Digital Miner is a 3x2x3 Machine. We all know of Void Miners but come on those are weird! This Mines actual Blocks!"
+		"We can Right Click it to open its GUI, here we can see a whole bunch! Buttons, Screens, and even Slots!"
+		"Slots are where the Mined Items will go to. The Screen will tell if it is ready, doesn't have enough Energy, or how many Blocks it can Mine."
+		"Start: will tell the Digital Miner to start Mining! Config: sets Filters, this is important for telling it what to mine."
+	]
+	quest.3B936CA3F0F7B26B.title: "Digital Miner"
+	quest.3CCBE9BBCA8ADA38.quest_desc: [
+		"The Super-Critical Phase Shifter will need a lot of Energy. I mean a lot a lot! Hundreds of Millions of FE."
+		"We'll need at least 1 (recommended 2) Supercharged Coils! The Supercharged Coil is placed inside the SPS, on an SPS Port."
+		"Each Supercharged Coil can send in 400MFE per Tick. And we'll need a whole lot of those for Antimatter!"
+	]
+	quest.3CCBE9BBCA8ADA38.title: "Supercharged Coils"
+	quest.3D2B4D9FD2086B9B.quest_desc: [
+		"The Fission Reactor Logic Adapter (FRLA) is used to monitor and configure the Fission Reactor with Redstone."
+		"First, place the FRLA in one of the walls of the Fission Reactor like you would with the Ports. Then, we can Right Click the FRLA to configure it."
+		"Disabled: won't interact with Redstone. Activation: will turn the Reactor on when given a Redstone Signal. High Temperature: will send out a Redstone Signal when the Temperatures reach a dangerous Level."
+		"Critical Waste Level: will give a Signal when there is too much Nuclear Waste. Damage Critical: will give out a Signal when the Reactor is just about to blow up!"
+	]
+	quest.3D2B4D9FD2086B9B.title: "Fission Reactor Logic Adapter"
+	quest.3E5BE6D6422F682C.quest_desc: [
+		"Our Turbine will need Steam in, Water out, and Energy out. But how?"
+		"We can use Turbine Ports to bring in Steam and take out Energy. We'll need to use the Turbine Vents to take out Water though!"
+		"Both of these are placed within the Walls of our Turbines."
+	]
+	quest.3E5BE6D6422F682C.title: "Turbine Inputs and Outputs"
+	quest.40B24676E11D9410.quest_desc: [
+		"We need lots of Ores for Mekanism so why not upgrade our Meka-Tool to get more!"
+		"Ore Refinement will act like Fortune. When Ores are Mined, there is a chance to get more Drops from them."
+		"We can't use the Silk Touch Unit with this one though. Either Ore Blocks or Ore Drops, choose 1!"
+	]
+	quest.40B24676E11D9410.quest_subtitle: "Meka-Tool"
+	quest.40B24676E11D9410.title: "Ore Refinement Unit"
+	quest.40E8940C92668D4F.quest_desc: [
+		"Deuterium is actually relatively simple to get! First, we need Heavy Water. Heavy Water is just like good ol' H2O, just the H is a little different!"
+		"We can use the Filter Upgrade in an Electric Pump (obviously above Water) to extract Heavy Water instead of Water."
+		"Processing the Heavy Water through an Electrolytic Separator will give us Oxygen and Deuterium instead of Hydrogen. Told ya it's simple!"
+	]
+	quest.40E8940C92668D4F.quest_subtitle: "D"
+	quest.40E8940C92668D4F.title: "Deuterium"
+	quest.4211F29561F21643.quest_desc: [
+		"The way the Turbine works is it takes in Steam via the Ports and that Steam will move the Blades on the Rotors."
+		"The Rotors will be placed from the floor up within the exact center of our Turbines. Each Rotor can hold 2 Blades."
+		"On top of our highest Rotor we'll place the Rotational Complex. Trust me it is important!"
+	]
+	quest.4211F29561F21643.title: "Moving parts"
+	quest.438F734D16DA9638.quest_desc: [
+		"We got our Polonium and the rest is what we should already have! A P.R.C., Water, and Fluorite Dust!"
+		"Combine 1,000mB Water, with 1,000mB Polonium, and 1 Fluorite Dust to make 1 Polonium Pellet and 1,000mB Spent Nuclear Waste."
+	]
+	quest.438F734D16DA9638.title: "Polonium Pellets"
+	quest.43DB0CFC5F5B0967.quest_desc: [
+		"The Dosimeter will show how many SVP Units of Radiation are currently in you. Yes, in you."
+		"Remember you can enable and disable it to clear up room in your HUD!"
+	]
+	quest.43DB0CFC5F5B0967.quest_subtitle: "Bodyarmor"
+	quest.43DB0CFC5F5B0967.title: "Dosimeter Unit"
+	quest.4447EEEB8D762721.quest_desc: [
+		"The Laser Dissipation Units will upgrade the MekaSuit. Well each piece of it."
+		"Instead of quickly killing you when you walk into Lasers, they won't cause any Damage at all! A little bit of the Laser will actually pass right through you!"
+	]
+	quest.4447EEEB8D762721.quest_subtitle: "All Armor"
+	quest.4447EEEB8D762721.title: "Laser Dissipation Unit"
+	quest.459AEC4C2A611824.quest_desc: [
+		"To all Players who don't cheat by using Night Vision Resource Packs, this might be helpful!"
+		"This Module Unit will give you some Night Vision when you wear the MekaSuit Helmet."
+	]
+	quest.459AEC4C2A611824.quest_subtitle: "Helmet"
+	quest.459AEC4C2A611824.title: "Vision Enhancement Unit"
+	quest.4869D9DBDD1A15CD.quest_desc: [
+		"The Color Modulation Unit will allow you to change the Color of the MekaSuit Part it is in."
+		"Just hold the Item and press (\\\\) in order to access its Configs. How many Colors do we have available? All the hex codes!"
+	]
+	quest.4869D9DBDD1A15CD.quest_subtitle: "All Armor"
+	quest.4869D9DBDD1A15CD.title: "Color Modulation Unit"
+	quest.48F496BD0FFE5A34.quest_desc: [
+		"The Magnetic Attraction Unit works just like a Simple Magnet. When used/worn, it will attract Items toward you that are out of range."
+		"The more Magnetic Attraction Units the farther Items can be that will be pulled toward you."
+	]
+	quest.48F496BD0FFE5A34.quest_subtitle: "Boots"
+	quest.48F496BD0FFE5A34.title: "Magnetic Attraction Unit"
+	quest.4926C95DD02F1410.quest_desc: [
+		"You ever see those Tutorials that use Beacons as a Laser Security Gate. Then, when you try it you get disappointed it doesn't kill people?"
+		"Well Lasers do just that! Trust me, they look like Beacons and they definitely kill!"
+		"They also use Energy instead of Materials to get powered. I don't know the exact amount of Damage they do but they do enough to fry a Chicken the instant it touches the Laser!"
+	]
+	quest.4926C95DD02F1410.title: "Lasers"
+	quest.4B2835706B593E9A.quest_desc: [
+		"Antiprotonic Nucleosynthesizer is a Machine made from Antimatter Pellets. Of course it also uses Antimatter as Fuel as well, because it wasn't expensive enough!"
+		"With our Antimatter, Energy, and a certain Item we can create a brand new (and usually rare) Item. Some we can't even Craft!"
+		"Like Amethyst to Echo Shards, Golden Apple to Enchanted Golden Apple, and even Eggs to the Dragon Egg!"
+	]
+	quest.4B2835706B593E9A.title: "Antiprotonic Nucleosynthesizer"
+	quest.4BAF44FCA0894DE8.quest_desc: [
+		"Like the Isotopic Centrifuge, the Solar Neutron Activator is only used for 2 Recipes and 1 of them is with Nuclear Waste!"
+		"This Machine will take in the Sun's Rays through the Solar Cells on top. It will then focus those Rays into one Beam and use it on the Nuclear Waste."
+		"This also makes it so it doesn't work at Nighttime... Every 5mB of Nuclear Waste will become 1mB of Polonium."
+	]
+	quest.4BAF44FCA0894DE8.title: "Using the Sun to make Polonium"
+	quest.4E18E28BDF6B7983.quest_desc: [
+		"Fusion Reactor Ports will replace the Reactor Glass within the Fusion Reactor in order to be used."
+		"We'll need a few Ports. 2 (or 1) for Deuterium and Tritium (or just D-T Fuel) for Fuel. We'll also need 1 for Outputting Energy."
+		"If you want to use Water to cool the Fusion Reactor, you'll need 2 more Ports. 1 for Inputting Water and 1 for Outputting Steam."
+	]
+	quest.4E18E28BDF6B7983.title: "Fusion Reactor Ports"
+	quest.4F9C8D90ACF563F5.quest_desc: [
+		"Thank you Minecraft for the Update Aquatic, but Swimming can still be very slow."
+		"So why not speed it up! Just like Depth Strider! With the Hydrostatic Repulsor Unit you can Walk and Swim faster in Water."
+	]
+	quest.4F9C8D90ACF563F5.quest_subtitle: "Pants"
+	quest.4F9C8D90ACF563F5.title: "Hydrostatic Repulsor Unit"
+	quest.50F23B2688D7E699.quest_desc: [
+		"With 1,000mB of Antimatter processed through a Chemical Crystallizer we can make 1 Antimatter Pellet."
+		"That means it takes 1,000,000mB Polonium or 1MmB Polonium. For all that Polonium you'll need 5,000,000mB Nuclear Waste and Fissile Fuel to make the Nuclear Waste."
+		"But finally, we have it! The most valued Item in all of Mekanism! The Antimatter Pellet. We can now make our MekaSuit and more storage for the QIO!"
+	]
+	quest.50F23B2688D7E699.title: "Antimatter Pellet"
+	quest.5194A067BEA98E79.quest_desc: [
+		"Hey, I remember you! Turns out, the Isotopic Centrifuge is used for 2 Recipes. Fissile Fuel and Plutonium!"
+		"For each 5mB of Nuclear Waste we can create 1mB of Plutonium."
+		"If each Plutonium Pellets are 1,000mB worth of Plutonium, then we'll need 5,000mB of Nuclear Waste and the same for Fissile Fuel."
+	]
+	quest.5194A067BEA98E79.title: "Spinning for Plutonium"
+	quest.52B3955A80DB0B4A.quest_desc: [
+		"Blasting isn't close to Vanilla Enchantments, but closer to Modded!"
+		"Once Installed, we can mess with its Configs to change how big of a square of Blocks we can Mine."
+		"Default is 1x1 aka 1 Block. We can change it to 3x3, 5x5, 7x7, and 9x9. Yes, Mining a 9x9 square will take more Energy than Mining a single Block."
+	]
+	quest.52B3955A80DB0B4A.quest_subtitle: "Meka-Tool"
+	quest.52B3955A80DB0B4A.title: "Blasting Unit"
+	quest.53E929BF89209CFC.quest_desc: [
+		"Importers and Exporters can be used to automatically Import and Export Items from and to the QIO System."
+		"Importers and Exporters are both Placed on Blocks with Inventories in order to take or give Items. They'll also need to be set to the same Network as the QIO Drive Array."
+		"If they are set to Import or Export without Filters, they will automatically take in (or out) every Item in the respected Inventories or System."
+	]
+	quest.53E929BF89209CFC.title: "Import and Export"
+	quest.54E0B946BAC13654.quest_desc: [
+		"The smallest working Energized Induction Matrix we can make needs at least 1 Induction Cell and 1 Induction Provider."
+		"We'll need to make a frame of Induction Casings at least 3x4x3 to 18x18x18."
+		"The Walls, Ceiling, and Floor can be filled with Induction Casing, Structural/Reactor Glass, or Induction Ports."
+		"The inside of the Induction Matrix will be made of our Induction Cells and Providers. If we use the 18x18x18 size, we'll have 4,096 Space to place Cells and Providers."
+	]
+	quest.54E0B946BAC13654.title: "Energized Induction Matrix"
+	quest.55702BE0151D33FE.quest_desc: [
+		"Induction Ports are how we'll get our Energy in and out of our Energized Induction Matrix."
+		"Like in what seems to be every single Multiblock, you'll need to place the Ports within the Walls of the Induction Matrix."
+	]
+	quest.55702BE0151D33FE.title: "Induction Ports"
+	quest.56DB53F255100136.quest_desc: [
+		"You need even fancier Pants? How about we upgrade to MekaSuit Pants! This will also cost an Antimatter Pellet, an Ultimate Induction Cell, and a few Polonium Pellets."
+		"We can Charge the MekaSuit Pants and instead of you taking Damage, the MekaSuit Pants will use up Energy! Well all Damage except Magic Damage..."
+		"Then, use it in a Modification Station to add Module Units which mostly upgrade your Movement. Yeah, that can be pretty darn important!"
+	]
+	quest.56DB53F255100136.title: "MekaSuit Pants"
+	quest.58B5EF8EB72934C2.quest_desc: [
+		"The Jetpack Unit will act as if you are wearing the Mekanism Jetpack and your MekaSuit Bodyarmor."
+		"The Jetpack uses the same Controls, and will need Hydrogen as fuel. You can fuel it with Hydrogen in 2 ways: place it in a Machine that has Hydrogen in it, or be underwater while your MekaSuit Helmet has Electrolytic Breathing."
+		"You won't be able to use this Unit while you have the Gravitational Modulating Unit on."
+	]
+	quest.58B5EF8EB72934C2.quest_subtitle: "Bodyarmor"
+	quest.58B5EF8EB72934C2.title: "Jetpack Unit"
+	quest.593CB120B657126C.quest_desc: [
+		"Now we can finally worry about Radioactivity! Nuclear Waste (and its products) are Radioactive. That means they must be held within Radioactive Waste Barrels."
+		"The Nuclear Waste (and its products) must be Tubed into and out of the Radioactive Waste Barrels."
+		"You can not break the Barrel or Tubes that hold Radioactive materials, or else the Radiation will spread in the World."
+		"Radioactivity can also come from Reactors leaking or melting down. How do we deal with Radioactivity? Hazmat Suit and time!"
+	]
+	quest.593CB120B657126C.title: "Radioactivity"
+	quest.5A088F8402230BA5.quest_desc: [
+		"Fission Reactor Ports are pretty darn important. The Fission Reactor will need Ports for Fuel, Coolant, and Waste... so it won't work without Ports."
+		"Ports can be placed within any parts of the Fission Reactor's Walls, just not on the edge."
+		"We'll need to have 4 of them and we'll need to use the Configurator on the Ports to Configure them."
+		"Input Only will take in both Fissile Fuel and Coolant. Output Waste will send Nuclear Waste out. Output Coolant will either take out Steam (if Water was used) or Superheated Sodium (if Sodium was used)."
+	]
+	quest.5A088F8402230BA5.title: "Fission Reactor Port"
+	quest.5AC68C8A4024F4C9.quest_desc: [
+		"Energy Units can be used in all the MekaSuit Parts and even the Meka-Tool."
+		"We can add 8 of them to each Item. Each adds more Energy Storage to the Item."
+		"No, it doesn't increase the Energy that is already in it. There's no such thing as Free Energy!"
+	]
+	quest.5AC68C8A4024F4C9.quest_subtitle: "Everything"
+	quest.5AC68C8A4024F4C9.title: "Energy Unit"
+	quest.5AEA705D6A64A982.quest_desc: [
+		"If you have a small Fission Reactor primarily for Polonium then we should use this as a simple fail safe!"
+		"Polonium is made with the Solar Neutron Activator. You can probably tell it needs Daylight to work!"
+		"So, in order to stop bottle-necking (which can be deadly when we are talking about Reactors) we can turn off our Reactor when it is Nighttime!"
+		"First, set your FRLA to Activation. This will turn on the Reactor when it has a Redstone Signal and turned off when it doesn't. Now we can place our Daylight Sensor and connect it to the FRLA with Redstone."
+	]
+	quest.5AEA705D6A64A982.title: "Clock Switch"
+	quest.5B18676A77CD6069.quest_desc: [
+		"Move aside AE2 and RS2! We got Mekanism! The Quantum Item Orchestration (QIO) is a Virtual Item storage."
+		"First is the heart of the system, the QIO Drive Array. It is the Machine everything will go through and connect through."
+		"It doesn't require Energy but like Teleporters and Quantum Entangloporters it will need to be set to a Network!"
+		"The other Items that connect to the QIO Drive Array will need to be set to that Network as well."
+	]
+	quest.5B18676A77CD6069.quest_subtitle: "(QIO)"
+	quest.5B18676A77CD6069.title: "Quantum Item Orchestration"
+	quest.5B9F3F32AB28A83A.quest_desc: [
+		"The inside, and important part, of the Thermoelectric Boiler is made of fancy Blocks!"
+		"Superheating Elements which work in transferring Heat to Water and Pressure Dispersers which will help create the Steam!"
+		"If we use bigger Builds, we can leave room between the different Blocks inside the Boiler to give more storage to Steam and Water."
+	]
+	quest.5B9F3F32AB28A83A.title: "The Thermo part of the Thermoelectric Boiler"
+	quest.5CE7756D80E051CC.quest_desc: [
+		"Usually Soul Sand will slow you down. Usually..."
+		"With Soul Surfer Unit you will walk normally on Soul Sand and Soil. With a few more you'll walk even faster on Soul Sand and Soil than on other Blocks!"
+	]
+	quest.5CE7756D80E051CC.quest_subtitle: "Boots"
+	quest.5CE7756D80E051CC.title: "Soul Surfer Unit"
+	quest.62B29AEF8468750E.quest_desc: [
+		"Wait, so we take less damage from Heat Sources and make Energy from them? Sign me up!"
+		"When you walk on Magma, through Fire, or in Lava you'll gain Energy in your MekaSuit Pants."
+		"If you have Charge Distribution Unit in your MekaSuit Bodyarmor, it will also Charge the other MekaSuit Parts."
+	]
+	quest.62B29AEF8468750E.quest_subtitle: "Pants"
+	quest.62B29AEF8468750E.title: "Geothermal Generator Unit"
+	quest.63B0E39CA4B25A7E.quest_desc: [
+		"Nutritional Paste is made from processing any Item that gives Food Bars when eaten through a Nutritional Liquifier."
+		"Think of it like a giant Blender! I can't promise the Nutritional Paste will taste good though..."
+		"The MekaSuit Helmet can hold Nutritional Paste and with this Unit it will automatically feed you when you lose Hunger Points."
+	]
+	quest.63B0E39CA4B25A7E.quest_subtitle: "Helmet"
+	quest.63B0E39CA4B25A7E.title: "Nutritional Injection Unit"
+	quest.6518480251F0565A.quest_desc: [
+		"Wait if Paxels can make Paths, make Farmland, and Strip Logs why can't the Meka-Tool!"
+		"Oh wait, it can if you just use the Farming Unit. You'll need to enable which is set in the Configs though."
+		"We can't use this one with the Shearing Unit or Teleportation Unit."
+	]
+	quest.6518480251F0565A.quest_subtitle: "Meka-Tool"
+	quest.6518480251F0565A.title: "Farming Unit"
+	quest.67A9329C05F98633.quest_desc: [
+		"Honestly, if you don't need more Energy and would rather be as safe as you can with your Reactor then just delete the Steam!"
+		"Steam is pretty much only for Turbines to make Energy. Don't need it? Then void it somehow!"
+	]
+	quest.67A9329C05F98633.title: "Toss it!"
+	quest.6A1174845810C7A1.quest_desc: [
+		"The Modification Station is how we will throw our Module Units into our Tools and Armor. It will need Energy to operate, because of course it does."
+		"When you Right Click a powered Modification Station it will open up its GUI. Here we can see our entire Inventory including Armor and Offhand."
+		"The 2 extra Slots are where our Module Units (Left Slot) and our Armor or Tools we want to add the Module Units go (Right Slot)."
+		"When we have Module Units installed we can hit (\\\\) to pull up their Configs. Here we can Enable or Disable them, and more!"
+	]
+	quest.6A1174845810C7A1.title: "Modification Station"
+	quest.6B3BD54A34EB02C2.quest_desc: [
+		"Induction Providers are placed within the Energized Induction Matrix and will increase the amount of Energy it can Input and Output."
+		"Basic Induction Providers: will Input and Output 102.4kFE each Tick. Advanced Induction Providers: will Input and Output 819.2kFE each Tick."
+		"Elite Induction Providers: will Input and Output 6.55MFE each Tick. Ultimate Induction Providers: will Input and Output 52.41MFE each Tick."
+	]
+	quest.6B3BD54A34EB02C2.quest_subtitle: "Transport"
+	quest.6B3BD54A34EB02C2.title: "Induction Providers"
+	quest.6B7E13AB3BF2C5C8.quest_desc: [
+		"The Thermoelectric Boiler is built similar to the Fission Reactor with the outside shell being just Casings, Glass, and Ports, while the inside is all the important stuff!"
+		"The edges of the Boiler will need to be Boiler Casings. The Roof and Floor can be made entirely of Casings or the middle can be made with Glass!"
+		"The inside is where our Pressure Dispersers and Superheating Elements go. The Roof can be given space between the Ceiling and the Pressure Dispersers to give more room for Steam."
+	]
+	quest.6B7E13AB3BF2C5C8.title: "Thermoelectric Boiler"
+	quest.6C1F7A0B330B3F42.quest_desc: [
+		"The MekaSuit Bodyarmor will need a few other Items in order to craft it, like an Antimatter Pellet, Polonium Pellets, and even an Ultimate Induction Cell!"
+		"The MekaSuit Bodyarmor without Energy will act just like a Netherite Chestplate. But with Energy? It might just block all Damage besides Magic Damage and will use Energy instead of Health!"
+		"We can toss it into a Modification Station in order to add Module Units which can upgrade it! The MekaSuit Bodyarmor has the most Module Units of all the Armor!"
+	]
+	quest.6C1F7A0B330B3F42.title: "MekaSuit Bodyarmor"
+	quest.6CCE920735187234.quest_desc: [
+		"The Turbine is at least a 5x7x5 Machine but can be expanded to hold more Steam and make more Energy!"
+		"The frame of the Turbine is made of Turbine Casings. The Floor and Ceiling can be filled in with Turbine Casings or Structural Glass."
+		"In the dead center from the Floor is where our Rotors will be placed. Then, attach the Blades on them. Above the highest Rotor place our Rotational Complex and surround it with Pressure Dispersers."
+		"Tube in some Steam through the Port and it should start spinning. The amount of Steam it can hold is determined by the size of the entire Turbine Build."
+	]
+	quest.6CCE920735187234.title: "Turbine"
+	quest.6D7D0A5313284B53.quest_desc: [
+		"Hey, nice Kicks! The MekaSuit Boots are an upgrade. You'll need an Antimatter Pellet, Polonium Pellets, and an Ultimate Induction Cell!"
+		"If it isn't charged it will protect the same amount as Netherite Boots... but if it is Charged it will use Energy to protect you."
+		"Modification Station is a Machine we can use to add Module Units to upgrade our MekaSuit Parts, including Boots. These upgrades are similar to lots of Enchants!"
+	]
+	quest.6D7D0A5313284B53.title: "MekaSuit Boots"
+	quest.71766BD7321FCB13.quest_desc: [
+		"Great, another Chemical Infuser! Combine the Uranium Oxide and Hydrofluorite Acid to create Uranium Hexafluoride."
+		"Now we can process the Uranium Hexafluoride through an Isotopic Centrifuge to finally get our beautiful Fissile Fuel."
+	]
+	quest.71766BD7321FCB13.title: "Fissile Fuel"
+	quest.7177653B736AB10E.quest_desc: [
+		"We can combine Deuterium and Tritium in a Chemical Infuser to make our D-T Fuel. We can also just Port both the Chemicals into the Fusion Reactor and combine them within the Reactor."
+		"We'll also need a little dab of D-T Fuel within a Hohlraum and put that within the Fusion Reactor for the initial start up."
+		"How do we make a Hohlraum you ask? Just Infuse 4 Gold Dust with 10mb of Carbon within a Metallurgic Infuser to Craft the Hohlraum."
+		"Oh wait it comes out empty, throw it into a Machine that has D-T Fuel to fill it up. Then, put it within the Slot in the Fusion Reactor's GUI, and it is ready!"
+	]
+	quest.7177653B736AB10E.title: "D-T Fuel"
+	quest.7310BBC4A90EDA9D.quest_desc: [
+		"The Portable QIO Dashboard allows us to view our QIO System from anywhere! Right Click with the Item to make it yours!"
+		"Now you can Right Click it and set a Network Frequency to our QIO System. Boom everything the QIO Dashboard does, we can do with this little friend!"
+	]
+	quest.7310BBC4A90EDA9D.title: "Portable QIO Dashboard"
+	quest.77B6A7151B3E5980.quest_desc: [
+		"Vein Mining is a limited FTB Ultimine. When we Mine Ores or Logs, the same Blocks connected to it will be broken with it."
+		"Saving lots of time... but we also have FTB Ultimine... so."
+	]
+	quest.77B6A7151B3E5980.quest_subtitle: "Meka-Tool"
+	quest.77B6A7151B3E5980.title: "Vein Mining Unit"
+	quest.7846B7FFC3DD85C5.quest_desc: [
+		"The Super-Critical Phase Shifter (SPS) will turn our Polonium into Antimatter."
+		"We'll need a Port for each: 2 Ports for Energy at the sides, 1 Port for giving the SPS Polonium, and the last for taking our Antimatter out."
+	]
+	quest.7846B7FFC3DD85C5.title: "SPS Ports"
+	quest.7864C8F2CBC910CB.quest_desc: [
+		"The MekaSuit Helmet is obviously the part that goes on your head! You'll need an Antimatter Pellet, Polonium Pellets, an Ultimate Induction Cell, and more!"
+		"If the MekaSuit Helmet isn't Charged, it will work with similar stats to a Netherite Helmet, but here's the fun part! MekaSuits Helmets will block all Damage (but Magic Damage) and use up Energy."
+		"Also when worn, it will display on our HUD: our Coordinates, Energy within our MekaSuit, and will replace the Armor Points with an Energy Bar."
+		"We can use the Modification Station to give Upgrades to the MekaSuit Helmet, like more Energy to take even less Damage! Water Breathing, safety from Radiation, and even Solar Charging!"
+	]
+	quest.7864C8F2CBC910CB.title: "MekaSuit Helmet"
+	quest.795B80BF12D23897.quest_desc: [
+		"It is in the name, but it being a Treasure Enchantment not everyone will know about it."
+		"When walking over Water with Boots enchanted with Frost Walker or MekaSuit Boots with the Frost Walker Units the Water will turn into Ice!"
+		"The Ice won't last forever though, it will thaw out shortly! The more Frost Walker, the more Ice!"
+	]
+	quest.795B80BF12D23897.quest_subtitle: "Boots"
+	quest.795B80BF12D23897.title: "Frost Walker Unit"
+	quest.7B0764DDE94E73D0.quest_desc: [
+		"In bigger Reactors we'll need a more advanced fail safe. For this one, our Reactor will need to be at least 5 Blocks wide."
+		"Place 1 of our FRLA in the Reactor and set it to either High Temperature or Damage Critical. Then, place the second one at least 1 Block away while on the same Y Level. The second will need to be set to Activation."
+		"Now, let's do some Redstone! Place a Redstone Repeater facing out from the first FRLA. Then, where the Repeater is facing, place a Block that can transmit Redstone."
+		"On that Block, place a Redstone Torch in the direction that the second FRLA is. After that, place Redstone Dust next to the Torch, and lastly, place a second Redstone Repeater going into the second FRLA."
+	]
+	quest.7B0764DDE94E73D0.title: "Advanced Fail Safe"
+	quest.7B385FD1CBE02C85.quest_desc: ["If we are using Water as a Coolant, we will get Steam as a byproduct! Now what do we do with it?"]
+	quest.7B385FD1CBE02C85.title: "Steam"
+	quest.7C7BD54624ED9AC2.quest_desc: [
+		"Literally just Creative Flight. You can't use this with the Jetpack Unit and yes it will use Energy to Fly!"
+		"Within its Configs you can increase how fast you Fly as well."
+	]
+	quest.7C7BD54624ED9AC2.quest_subtitle: "Bodyarmor"
+	quest.7C7BD54624ED9AC2.title: "Gravitational Modulating Unit"
+	quest.7D279FC39DA5C630.quest_desc: [
+		"We aren't done with our Sulfur Trioxide yet! We will need some Water Vapor to process it further though."
+		"To get Water Vapor we can use the Rotary Condensentrator to turn Water into Water Vapor! More Infusing! Combine our Water Vapor with our Sulfuric Trioxide to make Sulfuric Acid."
+		"Oh yeah, we'll need Fluorite which we can get from Mining Ores. Then, use the Chemical Dissolution Chamber to dilute the Sulfuric Acid with Fluorite to finally get our Hydrofluoric Acid!"
+	]
+	quest.7D279FC39DA5C630.title: "Sulfur Trioxide into Hydrofluoric Acid"
+	quest.7E3C84D7FCEC9D52.quest_desc: [
+		"The smallest working Fission Reactor we can make is 3x4x3. The base and frame will need to be made of Fission Reactor Casing while the inside will need to be either Empty, or have Fission Fuel Assembly or Control Rod Assembly!"
+		"The inside of the walls (not the edges) can have our Fission Reactor Ports or FRLA and the rest can be filled with Reactor Glass."
+		"Once our Fission Reactor is built, we can Right Click anywhere (besides the FRLA) on the Reactor to open its GUI."
+		"MELTDOWNS! The Fission Reactor will explode if it goes to 250% Damage. When it explodes it will break Blocks, start Fires, and worst of all... spread Radiation! Let's avoid that with proper Coolant management!"
+	]
+	quest.7E3C84D7FCEC9D52.quest_subtitle: "Splitting 1 Element into 2"
+	quest.7E3C84D7FCEC9D52.title: "Fission Reactor"
+	quest.7ECE00D12CFC50A4.quest_desc: [
+		"The Silk Touch Unit will act as a Silk Touch Enchantment for the Meka-Tool. But not just the Pickaxe part, also the Shovel and other Tools within the Meka-Tool!"
+		"So you can pick up Stone and Ores plus Grass and Mycelium. We can't use this Unit with the Ore Refinement Unit on a Meka-Tool."
+	]
+	quest.7ECE00D12CFC50A4.quest_subtitle: "Meka-Tool"
+	quest.7ECE00D12CFC50A4.title: "Silk Touch Unit"
+	task.11151860F09B78E1.title: "QIO Drives"
+	task.151AF2F49AAEBBDA.title: "Induction Cells"
+	task.496C4FDD2515EB24.title: "Induction Providers"
+}

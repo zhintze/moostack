@@ -1,0 +1,225 @@
+{
+	// ============================================
+	// IRON'S SPELLS 'N SPELLBOOKS QUEST CHAPTER
+	// ============================================
+
+	// SECTION 1: INTRODUCTION
+	quest.0001000000000001.title: "Spell Scroll System"
+	quest.0001000000000001.quest_desc: ["Iron's Spells uses spell scrolls as consumable magic. Craft scrolls at the Scroll Forge using paper, ink, and a Focus item to inscribe specific spells."]
+
+	quest.0001000000000002.title: "Arcane Essence"
+	quest.0001000000000002.quest_desc: ["Arcane Essence drops from hostile mobs and magical creatures. This is the primary crafting material for spell-related items."]
+
+	// SECTION 2: CRAFTING INFRASTRUCTURE
+	quest.0002000000000001.title: "Inscription Table"
+	quest.0002000000000001.quest_desc: ["The Inscription Table transfers spells between scrolls and spellbooks. Use it to customize your spellbook loadout."]
+
+	quest.0002000000000002.title: "Scroll Forge"
+	quest.0002000000000002.quest_desc: ["The Scroll Forge crafts spell scrolls from ink, paper, and a Focus item. Higher rarity inks produce higher level spells."]
+
+	quest.0002000000000003.title: "Arcane Anvil"
+	quest.0002000000000003.quest_desc: ["The Arcane Anvil upgrades spells using Upgrade Orbs. Each orb increases the spell level by one, up to the spell's maximum."]
+
+	quest.0002000000000004.title: "Alchemist Cauldron"
+	quest.0002000000000004.quest_desc: ["The Alchemist Cauldron brews elixirs and combines inks. Heat it with fire or lava, then add ingredients to craft potions."]
+
+	// SECTION 3: SPELL INKS
+	quest.0003000000000001.title: "Basic Inks"
+	quest.0003000000000001.quest_desc: ["Common and Uncommon inks craft low-level spells. Common ink uses squid ink and arcane essence. Uncommon requires additional reagents."]
+
+	quest.0003000000000002.title: "Advanced Inks"
+	quest.0003000000000002.quest_desc: ["Rare and Epic inks craft mid-level spells. These require materials from magical structures and hostile mage encounters."]
+
+	quest.0003000000000003.title: "Legendary Ink"
+	quest.0003000000000003.quest_desc: ["Legendary ink crafts the highest level spells. Requires rare materials from boss encounters and deep exploration."]
+
+	// SECTION 4: STARTER SPELLBOOKS
+	quest.0004000000000001.title: "Basic Spellbooks"
+	quest.0004000000000001.quest_desc: ["Copper and Iron spellbooks hold 5-6 spells. These are sufficient for early progression and learning the spell system."]
+
+	quest.0004000000000002.title: "Standard Spellbooks"
+	quest.0004000000000002.quest_desc: ["Gold and Rotten spellbooks hold 8 spells each. Rotten spellbooks are found in structures or crafted from undead materials."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - FIRE
+	quest.0005000000000001.title: "Fire: Initiate"
+	quest.0005000000000001.quest_desc: ["Craft Firebolt and Burning Dash scrolls. Firebolt is a basic projectile. Burning Dash provides mobility with fire damage."]
+
+	quest.0005000000000002.title: "Fire: Adept"
+	quest.0005000000000002.quest_desc: ["Craft Magma Bomb and Wall of Fire scrolls. These area-of-effect spells control space and deal sustained damage."]
+
+	quest.0005000000000003.title: "Fire: Master"
+	quest.0005000000000003.quest_desc: ["Craft a Blaze Storm scroll. This high-level spell summons a devastating fire storm. Requires defeating the Pyromancer boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - ICE
+	quest.0005000000000004.title: "Ice: Initiate"
+	quest.0005000000000004.quest_desc: ["Craft Icicle and Snowball scrolls. Icicle pierces targets. Snowball applies slowness and knockback."]
+
+	quest.0005000000000005.title: "Ice: Adept"
+	quest.0005000000000005.quest_desc: ["Craft Frostwave and Ice Block scrolls. Frostwave hits multiple targets. Ice Block provides defensive freezing."]
+
+	quest.0005000000000006.title: "Ice: Master"
+	quest.0005000000000006.quest_desc: ["Craft a Cone of Cold scroll. This powerful frost breath freezes and damages all enemies in a wide cone. Requires defeating the Cryomancer boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - LIGHTNING
+	quest.0005000000000007.title: "Lightning: Initiate"
+	quest.0005000000000007.quest_desc: ["Craft Electrocute and Charge scrolls. Electrocute channels damage over time. Charge provides rapid movement."]
+
+	quest.0005000000000008.title: "Lightning: Adept"
+	quest.0005000000000008.quest_desc: ["Craft Shockwave and Lightning Lance scrolls. These spells offer area denial and precise long-range strikes."]
+
+	quest.0005000000000009.title: "Lightning: Master"
+	quest.0005000000000009.quest_desc: ["Craft a Chain Lightning scroll. This spell arcs between multiple enemies, dealing massive electrical damage."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - HOLY
+	quest.0005000000000010.title: "Holy: Initiate"
+	quest.0005000000000010.quest_desc: ["Craft Heal and Wisp scrolls. Heal restores health directly. Wisp summons a light source that follows you."]
+
+	quest.0005000000000011.title: "Holy: Adept"
+	quest.0005000000000011.quest_desc: ["Craft Fortify and Angel Wings scrolls. Fortify boosts defense. Angel Wings grant temporary flight."]
+
+	quest.0005000000000012.title: "Holy: Master"
+	quest.0005000000000012.quest_desc: ["Craft a Healing Circle scroll. This creates a persistent healing zone for you and allies. Requires defeating the Priest boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - BLOOD
+	quest.0005000000000013.title: "Blood: Initiate"
+	quest.0005000000000013.quest_desc: ["Craft Blood Slash and Blood Step scrolls. These spells cost health instead of mana, offering powerful effects at a price."]
+
+	quest.0005000000000014.title: "Blood: Adept"
+	quest.0005000000000014.quest_desc: ["Craft Raise Dead and Heartstop scrolls. Raise Dead summons undead allies. Heartstop stuns a single target."]
+
+	quest.0005000000000015.title: "Blood: Master"
+	quest.0005000000000015.quest_desc: ["Craft a Devour scroll. This life-draining spell heals you for damage dealt. Requires defeating the Dead King boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - EVOCATION
+	quest.0005000000000016.title: "Evocation: Initiate"
+	quest.0005000000000016.quest_desc: ["Craft Gust and Shield scrolls. Gust pushes enemies away. Shield blocks incoming projectiles temporarily."]
+
+	quest.0005000000000017.title: "Evocation: Adept"
+	quest.0005000000000017.quest_desc: ["Craft Fang Ward and Summon Vex scrolls. Fang Ward creates defensive fangs. Summon Vex calls an allied spirit."]
+
+	quest.0005000000000018.title: "Evocation: Master"
+	quest.0005000000000018.quest_desc: ["Craft a Fang Strike scroll. This offensive evocation spell summons a line of damaging fangs. Requires defeating the Archevoker boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - NATURE
+	quest.0005000000000019.title: "Nature: Initiate"
+	quest.0005000000000019.quest_desc: ["Craft Poison Splash and Root scrolls. Poison Splash applies damage over time. Root immobilizes targets."]
+
+	quest.0005000000000020.title: "Nature: Adept"
+	quest.0005000000000020.quest_desc: ["Craft Blight and Oakskin scrolls. Blight spreads poison. Oakskin provides significant damage resistance."]
+
+	quest.0005000000000021.title: "Nature: Master"
+	quest.0005000000000021.quest_desc: ["Craft an Earthquake scroll. This devastating spell damages and staggers all nearby enemies. Requires defeating the Apothecarist boss."]
+
+	// SECTION 5: SPELL SCROLL PROGRESSION - ENDER
+	quest.0005000000000022.title: "Ender: Initiate"
+	quest.0005000000000022.quest_desc: ["Craft Magic Missile and Teleport scrolls. Magic Missile homes on targets. Teleport provides instant repositioning."]
+
+	quest.0005000000000023.title: "Ender: Adept"
+	quest.0005000000000023.quest_desc: ["Craft Black Hole and Echoing Strikes scrolls. Black Hole pulls enemies together. Echoing Strikes adds void damage to attacks."]
+
+	quest.0005000000000024.title: "Ender: Master"
+	quest.0005000000000024.quest_desc: ["Craft a Starfall scroll. This powerful spell calls down void meteors on your enemies."]
+
+	// SECTION 6: SUMMONING SCHOOL (mooStack Exclusive)
+	quest.0006000000000001.title: "Summoning: Initiate"
+	quest.0006000000000001.quest_desc: ["Craft a Summon Zombie scroll. This basic summoning spell creates an undead ally that fights alongside you."]
+
+	quest.0006000000000002.title: "Summoning: Adept"
+	quest.0006000000000002.quest_desc: ["Craft a Summon Fox scroll. This agile companion deals quick damage and distracts enemies."]
+
+	quest.0006000000000003.title: "Summoning: Master"
+	quest.0006000000000003.quest_desc: ["Craft a Summon Blaze scroll. This powerful fire elemental provides ranged support and area damage."]
+
+	// SECTION 7: SCHOOL MASTERY
+	quest.0007000000000001.title: "Fire Mastery"
+	quest.0007000000000001.quest_desc: ["Obtain a Fire Rune and Fire Upgrade Orb. These items enhance fire spell damage and allow spell upgrades."]
+
+	quest.0007000000000002.title: "Ice Mastery"
+	quest.0007000000000002.quest_desc: ["Obtain an Ice Rune and Ice Upgrade Orb. These items enhance ice spell effectiveness and allow spell upgrades."]
+
+	quest.0007000000000003.title: "Lightning Mastery"
+	quest.0007000000000003.quest_desc: ["Obtain a Lightning Rune and Lightning Upgrade Orb. These items enhance lightning spell damage and allow spell upgrades."]
+
+	quest.0007000000000004.title: "Holy Mastery"
+	quest.0007000000000004.quest_desc: ["Obtain a Holy Rune and Holy Upgrade Orb. These items enhance holy spell potency and allow spell upgrades."]
+
+	quest.0007000000000005.title: "Blood Mastery"
+	quest.0007000000000005.quest_desc: ["Obtain a Blood Rune and Blood Upgrade Orb. These items enhance blood spell power and allow spell upgrades."]
+
+	quest.0007000000000006.title: "Evocation Mastery"
+	quest.0007000000000006.quest_desc: ["Obtain an Evocation Rune and Evocation Upgrade Orb. These items enhance evocation spell strength and allow spell upgrades."]
+
+	quest.0007000000000007.title: "Nature Mastery"
+	quest.0007000000000007.quest_desc: ["Obtain a Nature Rune and Nature Upgrade Orb. These items enhance nature spell effects and allow spell upgrades."]
+
+	quest.0007000000000008.title: "Ender Mastery"
+	quest.0007000000000008.quest_desc: ["Obtain an Ender Rune and Ender Upgrade Orb. These items enhance ender spell damage and allow spell upgrades."]
+
+	// SECTION 8: MAGE ARMOR
+	quest.0008000000000001.title: "Elemental Armor"
+	quest.0008000000000001.quest_desc: ["Obtain Pyromancer, Cryomancer, and Electromancer armor sets. Each provides school-specific bonuses and a spell slot in the chestplate."]
+
+	quest.0008000000000002.title: "Dark Armor"
+	quest.0008000000000002.quest_desc: ["Obtain Cultist and Shadowwalker armor sets. Cultist enhances blood magic. Shadowwalker provides ender spell bonuses."]
+
+	quest.0008000000000003.title: "Support Armor"
+	quest.0008000000000003.quest_desc: ["Obtain Priest, Plagued, and Archevoker armor sets. These provide bonuses to holy, nature, and evocation schools respectively."]
+
+	// SECTION 9: ADVANCED SPELLBOOKS
+	quest.0009000000000001.title: "Specialist Books"
+	quest.0009000000000001.quest_desc: ["Obtain Blaze, Evoker, and Necronomicon spellbooks. These drop from structures and bosses with pre-inscribed spells."]
+
+	quest.0009000000000002.title: "Utility Books"
+	quest.0009000000000002.quest_desc: ["Obtain Villager and Druidic spellbooks. These support-focused books enhance healing and nature magic."]
+
+	quest.0009000000000003.title: "Elite Spellbooks"
+	quest.0009000000000003.quest_desc: ["Craft Diamond, Netherite, and Dragonskin spellbooks. These hold 10-12 spells and provide the best magical capacity."]
+
+	// SECTION 10: EXPLORATION
+	quest.0010000000000001.title: "Pyromancer Tower"
+	quest.0010000000000001.quest_desc: ["Locate a Pyromancer Tower. These structures contain fire-themed loot, scrolls, and a Pyromancer boss at the top."]
+
+	quest.0010000000000002.title: "Mountain Tower"
+	quest.0010000000000002.quest_desc: ["Locate a Mountain Tower. This ice-themed structure houses the Cryomancer and contains frost spell materials."]
+
+	quest.0010000000000003.title: "Mangrove Hut"
+	quest.0010000000000003.quest_desc: ["Locate a Mangrove Hut. This swamp structure contains nature and holy spell materials and the Priest enemy."]
+
+	quest.0010000000000004.title: "Evoker Fort"
+	quest.0010000000000004.quest_desc: ["Locate an Evoker Fort. This dark oak structure contains evocation spell materials and the Archevoker boss."]
+
+	quest.0010000000000005.title: "Ancient Battleground"
+	quest.0010000000000005.quest_desc: ["Locate an Ancient Battleground. This ruined structure contains valuable magical artifacts and rare materials."]
+
+	quest.0010000000000006.title: "Catacombs"
+	quest.0010000000000006.quest_desc: ["Locate the Catacombs dungeon. This underground structure contains blood magic materials and leads to the Dead King."]
+
+	// SECTION 11: BOSS ENCOUNTERS
+	quest.0011000000000001.title: "Defeat Pyromancer"
+	quest.0011000000000001.quest_desc: ["Kill a Pyromancer. This fire mage boss guards the top of Pyromancer Towers and drops fire-related materials."]
+
+	quest.0011000000000002.title: "Defeat Cryomancer"
+	quest.0011000000000002.quest_desc: ["Kill a Cryomancer. This ice mage boss inhabits Mountain Towers and drops ice-related materials."]
+
+	quest.0011000000000003.title: "Defeat Priest"
+	quest.0011000000000003.quest_desc: ["Kill a Priest. This holy caster spawns in Mangrove Huts and drops holy-related materials."]
+
+	quest.0011000000000004.title: "Defeat Archevoker"
+	quest.0011000000000004.quest_desc: ["Kill an Archevoker. This evocation master guards Evoker Forts and drops evocation-related materials."]
+
+	quest.0011000000000005.title: "Defeat Dead King"
+	quest.0011000000000005.quest_desc: ["Kill the Dead King. This undead boss lurks in the Catacombs and drops blood magic materials and the Necronomicon."]
+
+	quest.0011000000000006.title: "Defeat Apothecarist"
+	quest.0011000000000006.quest_desc: ["Kill an Apothecarist. This nature-focused enemy spawns in swamp structures and drops nature-related materials."]
+
+	// SECTION 12: ELDRITCH ENDGAME
+	quest.0012000000000001.title: "Deep Dark Descent"
+	quest.0012000000000001.quest_desc: ["Enter the Deep Dark biome. Eldritch magic materials are found in ancient cities alongside the Warden threat."]
+
+	quest.0012000000000002.title: "Ancient Knowledge"
+	quest.0012000000000002.quest_desc: ["Obtain an Ancient Knowledge Fragment. These rare items are found in ancient city loot chests and from sculk catalysts."]
+
+	quest.0012000000000003.title: "Eldritch Power"
+	quest.0012000000000003.quest_desc: ["Obtain an Eldritch Manuscript and craft an Eldritch Blast scroll. This represents mastery of the most forbidden magic."]
+}
