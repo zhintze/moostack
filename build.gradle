@@ -196,6 +196,8 @@ dependencies {
 
     implementation "curse.maven:kotlinforge-351264:6994056"
 
+    // Bountiful - bounty/quest system with datapack-driven content
+    implementation "blank:bountiful-neoforge-8.0.0-dev.2"
 
     // Generic Dependencies
     implementation "curse.maven:geckolib-388172:6659026"
@@ -321,6 +323,8 @@ dependencies {
     implementation "curse.maven:Valhelsia-416935:6296775" //dependency
     implementation "curse.maven:ValhelsiaFurniture-694349:6341023" //dependency
 
+
+    implementation "curse.maven:botanypots-353928:7115287"
 
     // TECTONIC WORLDGEN SYSTEM (REQUIRED dependencies for planet generation)
     // TerraBlender for NeoForge 1.21.1
