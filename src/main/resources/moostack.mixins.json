@@ -9,7 +9,8 @@
   "client": [
     "client.EpicFightKeyMappingsMixin",
     "client.KeyBindsListMixin",
-    "client.ControllingKeyBindsListMixin"
+    "client.ControllingKeyBindsListMixin",
+    "client.MixinMinecraftEmptyHandFix"
   ],
   "injectors": {
     "defaultRequire": 1
