@@ -21,8 +21,8 @@
 				id: "0001000000000101"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4A050181D999577F"]
@@ -30,14 +30,25 @@
 				id: "minecraft:writable_book"
 			}
 			id: "6C03FDE5B2D3CC06"
+			rewards: [{
+				id: "7A00000000000003"
+				item: {
+					components: {
+						"epicfight:skill": "epicfight:step"
+					}
+					count: 1
+					id: "epicfight:skillbook"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "0003000000000101"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C03FDE5B2D3CC06"]
@@ -51,8 +62,8 @@
 				id: "777861F3D1374E6D"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -3.5d
+			y: 2.25d
 		}
 		{
 			icon: {
@@ -71,46 +82,34 @@
 				item: { count: 1, id: "silentgear:sword_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["67540B9DFCD6F9EE"]
 			icon: {
-				id: "minecraft:iron_sword"
+				id: "silentgear:sword"
 			}
 			id: "5442B3AB4A6B017C"
-			rewards: [
-				{
-					id: "1024629EC21CCDDE"
-					type: "xp"
-					xp: 150
-				}
-				{
-					id: "7A00000000000001"
-					item: {
-						components: {
-							"epicfight:skill": "epicfight:step"
-						}
-						count: 1
-						id: "epicfight:skillbook"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1024629EC21CCDDE"
+				type: "xp"
+				xp: 150
+			}]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:zombie"
 				id: "3086A582FD2777C9"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 5.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5442B3AB4A6B017C"]
 			icon: {
-				id: "minecraft:diamond_sword"
+				id: "silentgear:sword"
 			}
 			id: "219A6CFA514FABCD"
 			rewards: [
@@ -122,9 +121,6 @@
 				{
 					id: "7A00000000000002"
 					item: {
-						components: {
-							"epicfight:skill": "epicfight:sword_master"
-						}
 						count: 1
 						id: "epicfight:skillbook"
 					}
@@ -139,8 +135,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -159,8 +155,8 @@
 				item: { count: 1, id: "silentgear:longsword_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4AB1C4D9A5CF9886"]
@@ -175,7 +171,7 @@
 					xp: 150
 				}
 				{
-					id: "7A00000000000003"
+					id: "6F8B0D4E2B62684A"
 					item: {
 						components: {
 							"epicfight:skill": "epicfight:parrying"
@@ -186,14 +182,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:skeleton"
 				id: "5D041AFB7E442208"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 5.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DD4F9946D69CC0C"]
@@ -227,8 +224,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -247,8 +244,8 @@
 				item: { count: 1, id: "silentgear:greatsword_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2FE9641D71169F20"]
@@ -274,14 +271,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:piglin"
 				id: "2E74B3CFD2CCD3F3"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 5.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["00DCB81D6A41BD44"]
@@ -315,8 +313,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -335,8 +333,8 @@
 				item: { count: 1, id: "silentgear:katana_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["08FFB925245C38AF"]
@@ -362,14 +360,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:husk"
 				id: "4F2C7E2A94350706"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 5.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4916A67B0CC75574"]
@@ -403,8 +402,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 9.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -423,8 +422,8 @@
 				item: { count: 1, id: "silentgear:tachi_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["431FAEA1347F4DA3"]
@@ -450,14 +449,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:stray"
 				id: "6D602200B294572F"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 12.0d
+			x: 5.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["78F20BAC5F8571D8"]
@@ -491,8 +491,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 12.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			icon: {
@@ -511,8 +511,8 @@
 				item: { count: 1, id: "silentgear:spear_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["63BB4C3325346D7E"]
@@ -538,14 +538,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:drowned"
 				id: "0D2F85A83E3149C5"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 15.0d
+			x: 5.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2833E10B825E3A2B"]
@@ -579,8 +580,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 15.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			icon: {
@@ -599,8 +600,8 @@
 				item: { count: 1, id: "silentgear:dagger_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 18.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1A01AFCD0BB97901"]
@@ -626,14 +627,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:cave_spider"
 				id: "6CD796FA8AAE2140"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 18.0d
+			x: 5.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2D04D50BD7BA4232"]
@@ -667,8 +669,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 18.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -687,8 +689,8 @@
 				item: { count: 1, id: "silentgear:mace_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 21.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B4ED142FCA53952"]
@@ -714,14 +716,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:slime"
 				id: "4AA4C835958E23DC"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 21.0d
+			x: 5.25d
+			y: 7.5d
 		}
 		{
 			dependencies: ["634803EE25A1C506"]
@@ -755,8 +758,8 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 21.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			icon: {
@@ -775,10 +778,11 @@
 				item: { count: 1, id: "silentgear:glove_blueprint" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 24.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["304B2C275800EB72"]
 			icon: {
 				id: "silentgear:glove"
 			}
@@ -801,16 +805,18 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [{
 				entity: "minecraft:spider"
 				id: "7EC2C7B87CA3E3B4"
 				type: "kill"
 				value: 10L
 			}]
-			x: 14.0d
-			y: 24.0d
+			x: 5.25d
+			y: 9.0d
 		}
 		{
+			dependencies: ["507C8E57B7A6DC1C"]
 			icon: {
 				id: "silentgear:glove"
 			}
@@ -841,10 +847,11 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: 18.0d
-			y: 24.0d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
+			dependencies: ["3881F901B27F8988"]
 			icon: {
 				id: "samurai_dynasty:iron_samurai_chestplate"
 			}
@@ -877,9 +884,10 @@
 				}
 			]
 			x: -8.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["3C24008E4B8A87EC"]
 			icon: {
 				id: "samurai_dynasty:gold_samurai_chestplate"
 			}
@@ -911,10 +919,11 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 10.0d
+			x: -7.5d
+			y: 9.0d
 		}
 		{
+			dependencies: ["2EBDD109A4D51270"]
 			icon: {
 				id: "samurai_dynasty:diamond_samurai_chestplate"
 			}
@@ -946,10 +955,11 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 12.0d
+			x: -7.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["629B52A6F11DB493"]
 			icon: {
 				id: "samurai_dynasty:netherite_samurai_chestplate"
 			}
@@ -983,10 +993,11 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 14.0d
+			x: -7.45d
+			y: 12.0d
 		}
 		{
+			dependencies: ["3881F901B27F8988"]
 			icon: {
 				id: "samurai_dynasty:steel_ninja_chestplate"
 			}
@@ -1019,9 +1030,10 @@
 				}
 			]
 			x: -6.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
+			dependencies: ["3942D3442241613E"]
 			icon: {
 				id: "samurai_dynasty:netherite_ninja_chestplate"
 			}
@@ -1056,9 +1068,10 @@
 				}
 			]
 			x: -6.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["3881F901B27F8988"]
 			icon: {
 				id: "samurai_dynasty:kitsune_mask"
 			}
@@ -1085,8 +1098,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 12.0d
+			x: -7.0d
+			y: 7.5d
 		}
 		{
 			icon: {
@@ -1103,8 +1116,8 @@
 				item: { count: 1, id: "samurai_dynasty:kimono" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 14.0d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
 			icon: {
@@ -1133,10 +1146,11 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 8.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["6471177FEDB967F8"]
 			icon: {
 				id: "magistuarmory:chainmail_chestplate"
 			}
@@ -1168,10 +1182,11 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 10.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["6471177FEDB967F8"]
 			icon: {
 				id: "magistuarmory:brigandine_chestplate"
 			}
@@ -1181,52 +1196,16 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "640F8C1D552FCB2C"
-					item: { count: 1, id: "magistuarmory:brigandine_chestplate" }
-					type: "item"
-				}
-				{
-					id: "10D3562C6356FEEF"
-					item: { count: 1, id: "magistuarmory:brigandine_boots" }
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 12.0d
-		}
-		{
-			icon: {
-				id: "magistuarmory:gothic_chestplate"
-			}
-			id: "1AEC2C885275408D"
-			rewards: [{
-				id: "619D98FC474FD0C8"
-				type: "xp"
-				xp: 150
+			tasks: [{
+				id: "640F8C1D552FCB2C"
+				item: { count: 1, id: "magistuarmory:brigandine_chestplate" }
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "5CA5E1630FDEAFC0"
-					item: { count: 1, id: "magistuarmory:gothic_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4B23514F71F0A2D6"
-					item: { count: 1, id: "magistuarmory:gothic_leggings" }
-					type: "item"
-				}
-				{
-					id: "4EA978576952B6BD"
-					item: { count: 1, id: "magistuarmory:gothic_boots" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 8.0d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
+			dependencies: ["5A1B2C3D4E5F6071"]
 			icon: {
 				id: "magistuarmory:maximilian_chestplate"
 			}
@@ -1260,10 +1239,11 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 10.0d
+			x: -3.5d
+			y: 12.0d
 		}
 		{
+			dependencies: ["34B3ED6C37475D4F"]
 			icon: {
 				id: "magistuarmory:knight_chestplate"
 			}
@@ -1295,10 +1275,11 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 12.0d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
+			dependencies: ["30111CA3BB128EC7"]
 			icon: {
 				id: "magistuarmory:big_plume_decoration"
 			}
@@ -1306,17 +1287,35 @@
 			rewards: [{
 				id: "6B119A6C328510F0"
 				type: "xp"
-				xp: 50
+				xp: 75
 			}]
-			tasks: [{
-				id: "64C66EC6B5BD4574"
-				item: { count: 1, id: "magistuarmory:big_plume_decoration" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 14.0d
+			tasks: [
+				{
+					id: "64C66EC6B5BD4574"
+					item: { count: 1, id: "magistuarmory:big_plume_decoration" }
+					type: "item"
+				}
+				{
+					id: "64C66EC6B5BD4575"
+					item: { count: 1, id: "magistuarmory:two_plumes_decoration" }
+					type: "item"
+				}
+				{
+					id: "64C66EC6B5BD4576"
+					item: { count: 1, id: "magistuarmory:antlers_decoration" }
+					type: "item"
+				}
+				{
+					id: "64C66EC6B5BD4577"
+					item: { count: 1, id: "magistuarmory:gazelle_horns_decoration" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["30111CA3BB128EC7"]
 			icon: {
 				id: "magistuarmory:barding"
 			}
@@ -1331,10 +1330,11 @@
 				item: { count: 1, id: "magistuarmory:barding" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 16.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["0DFA4ACFF22B3B65"]
 			icon: {
 				id: "antiquelegacy:segmentata"
 			}
@@ -1361,10 +1361,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 8.0d
+			x: -1.0d
+			y: 6.7d
 		}
 		{
+			dependencies: ["27EC4B15DA344B2F"]
 			icon: {
 				id: "antiquelegacy:hamata"
 			}
@@ -1386,10 +1387,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["7DB3A0EF7C5A9A94"]
 			icon: {
 				id: "antiquelegacy:musculata"
 			}
@@ -1399,6 +1401,8 @@
 				type: "xp"
 				xp: 150
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "141DF299A4E15773"
@@ -1416,10 +1420,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 8.0d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["4AF0A63488291DF4"]
 			icon: {
 				id: "antiquelegacy:linothorax"
 			}
@@ -1441,8 +1446,239 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 10.0d
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7C3D4E5F60718293"
+				"6B2C3D4E5F607182"
+			]
+			icon: {
+				id: "magistuarmory:sallet"
+			}
+			id: "5A1B2C3D4E5F6071"
+			rewards: [{
+				id: "5A1B2C3D4E5F6072"
+				type: "xp"
+				xp: 125
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5A1B2C3D4E5F6073"
+					item: { count: 1, id: "magistuarmory:sallet" }
+					type: "item"
+				}
+				{
+					id: "5A1B2C3D4E5F6074"
+					item: { count: 1, id: "magistuarmory:gothic_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5A1B2C3D4E5F6075"
+					item: { count: 1, id: "magistuarmory:gothic_leggings" }
+					type: "item"
+				}
+				{
+					id: "5A1B2C3D4E5F6076"
+					item: { count: 1, id: "magistuarmory:gothic_boots" }
+					type: "item"
+				}
+			]
+			x: -3.45d
+			y: 10.625d
+		}
+		{
+			dependencies: ["2B77723000F59228"]
+			icon: {
+				id: "magistuarmory:greathelm"
+			}
+			id: "6B2C3D4E5F607182"
+			rewards: [{
+				id: "6B2C3D4E5F607183"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "6B2C3D4E5F607184"
+					item: { count: 1, id: "magistuarmory:greathelm" }
+					type: "item"
+				}
+				{
+					id: "6B2C3D4E5F607185"
+					item: { count: 1, id: "magistuarmory:crusader_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6B2C3D4E5F607186"
+					item: { count: 1, id: "magistuarmory:crusader_leggings" }
+					type: "item"
+				}
+				{
+					id: "6B2C3D4E5F607187"
+					item: { count: 1, id: "magistuarmory:crusader_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2B77723000F59228"]
+			icon: {
+				id: "magistuarmory:platemail_chestplate"
+			}
+			id: "7C3D4E5F60718293"
+			rewards: [{
+				id: "7C3D4E5F60718294"
+				type: "xp"
+				xp: 175
+			}]
+			tasks: [
+				{
+					id: "7C3D4E5F60718295"
+					item: { count: 1, id: "magistuarmory:kettlehat" }
+					type: "item"
+				}
+				{
+					id: "7C3D4E5F60718296"
+					item: { count: 1, id: "magistuarmory:platemail_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7C3D4E5F60718297"
+					item: { count: 1, id: "magistuarmory:platemail_leggings" }
+					type: "item"
+				}
+				{
+					id: "7C3D4E5F60718298"
+					item: { count: 1, id: "magistuarmory:platemail_boots" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7F1E2E7E0D66C598"]
+			icon: {
+				id: "magistuarmory:bascinet"
+			}
+			id: "6471177FEDB967F8"
+			rewards: [{
+				id: "527B6C954D7F377D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "427A7F23C67EDAE2"
+					item: { count: 1, id: "magistuarmory:bascinet" }
+					type: "item"
+				}
+				{
+					id: "443D174398FDE75D"
+					item: { count: 1, id: "magistuarmory:halfarmor_chestplate" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30111CA3BB128EC7"]
+			icon: {
+				id: "antiquelegacy:roman_crest_decoration"
+			}
+			id: "78FD6248CEE3B1EF"
+			rewards: [{
+				id: "504A069F4F49FBB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "59C807824D885BE8"
+					item: { count: 1, id: "antiquelegacy:roman_crest_decoration" }
+					type: "item"
+				}
+				{
+					id: "0BE7BD5E4C56AC9D"
+					item: { count: 1, id: "antiquelegacy:greek_crest_decoration" }
+					type: "item"
+				}
+				{
+					id: "08C3101AC10AAC3F"
+					item: { count: 1, id: "antiquelegacy:hair_plume_decoration" }
+					type: "item"
+				}
+				{
+					id: "3DFCBE00959C6143"
+					item: { count: 1, id: "antiquelegacy:laurel_wreath_decoration" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2936772C62839EF2"]
+			icon: {
+				id: "antiquelegacy:bell_cuirass"
+			}
+			id: "27EC4B15DA344B2F"
+			rewards: [{
+				id: "5CF5D91577A4C917"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "08C03DF12BC9D510"
+					item: { count: 1, id: "antiquelegacy:attic_helmet" }
+					type: "item"
+				}
+				{
+					id: "325FA5C4CA7AC8E1"
+					item: { count: 1, id: "antiquelegacy:bell_cuirass" }
+					type: "item"
+				}
+				{
+					id: "195840A42E884DB0"
+					item: { count: 1, id: "antiquelegacy:greek_greaves" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.75d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:murmillo_helmet"
+			}
+			id: "0DFA4ACFF22B3B65"
+			rewards: [{
+				id: "7A66C672D28E8125"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [
+				{
+					id: "14150698CEBE5AE1"
+					item: { count: 1, id: "antiquelegacy:murmillo_helmet" }
+					type: "item"
+				}
+				{
+					id: "4142FB5316202F23"
+					item: { count: 1, id: "antiquelegacy:subarmalis_decoration" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.5d
 		}
 	]
 }
