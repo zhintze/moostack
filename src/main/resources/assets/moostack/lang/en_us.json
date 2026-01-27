@@ -122,5 +122,42 @@
   "moostack.message.auto_battle_off": "Auto-Battle Mode: OFF",
   "ftbquests.task.moostack.epic_skills_unlock": "Epic Skills Unlock",
   "ftbquests.task.moostack.epic_skills_unlock.title": "Unlock skill: %s",
-  "ftbquests.task.moostack.epic_skills_unlock.skill": "Skill Name"
+  "ftbquests.task.moostack.epic_skills_unlock.skill": "Skill Name",
+
+  "item.moostack.loot_crate_common": "Common Loot Crate",
+  "item.moostack.loot_crate_uncommon": "Uncommon Loot Crate",
+  "item.moostack.loot_crate_rare": "Rare Loot Crate",
+  "item.moostack.loot_crate_epic": "Epic Loot Crate",
+  "item.moostack.loot_crate_legendary": "Legendary Loot Crate",
+
+  "moostack.loot_crate.tier.common": "Common",
+  "moostack.loot_crate.tier.uncommon": "Uncommon",
+  "moostack.loot_crate.tier.rare": "Rare",
+  "moostack.loot_crate.tier.epic": "Epic",
+  "moostack.loot_crate.tier.legendary": "Legendary",
+
+  "moostack.loot_crate.gui.title": "Select Reward Category",
+  "moostack.loot_crate.gui.close": "Close",
+
+  "moostack.loot_crate.tooltip.tier": "Tier",
+  "moostack.loot_crate.tooltip.use": "Right-click to open",
+  "moostack.loot_crate.tooltip.categories": "%d categories available",
+
+  "moostack.loot_crate.category.survival_staples": "Survival Staples",
+  "moostack.loot_crate.category.survival_staples.desc": "Essential items for survival: food, tools, and light sources",
+  "moostack.loot_crate.category.resource_piles": "Resource Piles",
+  "moostack.loot_crate.category.resource_piles.desc": "Bulk quantities of common materials and ores",
+  "moostack.loot_crate.category.farming": "Farming & Food",
+  "moostack.loot_crate.category.farming.desc": "Cooking tools, seeds, and bee-keeping supplies",
+  "moostack.loot_crate.category.tech": "Technology",
+  "moostack.loot_crate.category.tech.desc": "Components for Mekanism, Create, and AE2",
+  "moostack.loot_crate.category.magic": "Magic & Arcana",
+  "moostack.loot_crate.category.magic.desc": "Magical reagents, essences, and spell components",
+  "moostack.loot_crate.category.gamble_standard": "Mystery Box",
+  "moostack.loot_crate.category.gamble_standard.desc": "Random rewards with a chance for rare items",
+  "moostack.loot_crate.category.gamble_premium": "Premium Mystery Box",
+  "moostack.loot_crate.category.gamble_premium.desc": "High-value random rewards with better odds",
+
+  "moostack.loot_crate.message.opened": "You selected: %s",
+  "moostack.loot_crate.message.empty": "The crate was empty..."
 }

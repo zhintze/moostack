@@ -150,7 +150,6 @@ dependencies {
     implementation "curse.maven:betterclimbing-655619:5514197"
 
     implementation "curse.maven:beautfiedchatclient-514797:6186476"
-    implementation "curse.maven:attackthroughgrass-934895:6224388"
 
     //---- PERFORMANCE ----//
     implementation "curse.maven:ferriteCore-429235:5850121"
@@ -214,7 +213,7 @@ dependencies {
     implementation "curse.maven:athena-841890:5629395" //chipped
     implementation "curse.maven:cobweb-968456:6089542" //harvestWithEase
     implementation "curse.maven:cyclopscore-232758:6059640" //evilcraft
-    implementation "curse.maven:puzzleslib-495476:6078016" //cutthrough
+    implementation "curse.maven:puzzleslib-495476:6078016"
     implementation "curse.maven:iceberg-520110:5804224"
     implementation "curse.maven:smartBrainLib-661293:6035663"
     implementation "curse.maven:titanium-287342:5897690"
@@ -245,7 +244,6 @@ dependencies {
     implementation "curse.maven:AIimprovements-233019:5426792"
     implementation "curse.maven:fastLeafDecay-230976:5849090"
     implementation "curse.maven:toastControl-271740:5530706"
-    implementation "curse.maven:CutThrough-969423:5731913"
     implementation "curse.maven:logProtection-358304:5559306"
     implementation "curse.maven:noTrample-914018:5881107"
     implementation "curse.maven:fuelGoesHere-659090:6003423"

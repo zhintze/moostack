@@ -99,7 +99,7 @@ mooStack emphasizes **cohesive mechanics**, **shared materials**, and **intentio
 ### World Generation & Exploration
 
 - **Terralith + Tectonic** – Overworld terrain overhaul.
-- **Biomes O’ Plenty** – Expanded biomes and flora.
+- **Biomes O' Plenty** – Expanded biomes and flora.
 - **Incendium / Nullscape** – Nether and End reworks.
 - **Dungeon Crawl, When Dungeons Arise, Valhelsia Structures** – Exploration content.
 
@@ -107,6 +107,37 @@ mooStack emphasizes **cohesive mechanics**, **shared materials**, and **intentio
 
 - Worldgen stacks are stitched together cleanly (no biome spam).
 - Structures tuned for long-term exploration pacing.
+
+---
+
+### Quest Progression & Rewards
+
+- **FTB Quests** – Guided progression through all major systems.
+- **Loot Crate System** – Tiered reward items for quest completion.
+
+**Loot Crate Tiers**
+
+| Tier | Categories Available |
+|------|---------------------|
+| Common | Survival Staples, Resource Piles |
+| Uncommon | + Farming |
+| Rare | + Tech, Magic |
+| Epic | + Gamble Standard |
+| Legendary | + Gamble Premium |
+
+**How it works**
+
+- Players receive loot crates as FTB Quest rewards.
+- Right-clicking a crate opens a category selection GUI.
+- Higher tier crates unlock more categories and give more items per roll.
+- Categories are mod-aware: Tech includes Mekanism/Create/AE2, Magic includes Ars Nouveau/Iron's Spells.
+- Loot tables are JSON-configurable for easy balancing.
+
+**Key integrations**
+
+- Crate tiers match quest difficulty progression.
+- Categories leverage unified materials across tech and magic systems.
+- Gamble categories add risk/reward excitement for end-game content.
 
 ---
 

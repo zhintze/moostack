@@ -1,0 +1,13 @@
+{
+  "_comment": "Tier configuration files document which categories are available at each tier level. Categories are automatically filtered by their min_tier field, but these files provide explicit documentation and can be used for future override functionality.",
+  "tier": "epic",
+  "tier_level": 4,
+  "available_categories": [
+    "moostack:survival_staples",
+    "moostack:resource_piles",
+    "moostack:farming",
+    "moostack:tech",
+    "moostack:magic",
+    "moostack:gamble_standard"
+  ]
+}

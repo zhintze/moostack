@@ -23,6 +23,9 @@ public class MooStackJEIPlugin implements IModPlugin {
         var ingredientManager = jeiRuntime.getIngredientManager();
         var itemStacks = ingredientManager.getAllItemStacks();
 
+        // Collect items to remove first to avoid ConcurrentModificationException
+        java.util.List<ItemStack> toRemove = new java.util.ArrayList<>();
+
         // Find and hide the broken Industrial Foregoing Patchouli book
         for (ItemStack stack : itemStacks) {
             if (stack.getItem().toString().contains("guide_book")) {
@@ -30,10 +33,15 @@ public class MooStackJEIPlugin implements IModPlugin {
                 if (components != null) {
                     var bookData = components.toString();
                     if (bookData.contains("industrialforegoing:industrial_foregoing")) {
-                        ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, java.util.List.of(stack));
+                        toRemove.add(stack);
                     }
                 }
             }
+        }
+
+        // Remove collected items after iteration
+        if (!toRemove.isEmpty()) {
+            ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, toRemove);
         }
     }
 }

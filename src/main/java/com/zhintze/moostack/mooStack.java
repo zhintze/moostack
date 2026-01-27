@@ -15,11 +15,15 @@ import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import com.zhintze.moostack.client.AutoBattleModeHandler;
 import com.zhintze.moostack.client.KeyBindings;
 import com.zhintze.moostack.config.ClientConfig;
+import com.zhintze.moostack.lootcrate.LootCrateManager;
+import com.zhintze.moostack.registry.MooStackCreativeTabRegistry;
+import com.zhintze.moostack.registry.MooStackItemRegistry;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(mooStack.MODID)
@@ -36,6 +40,11 @@ public class mooStack {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        // Register item registry (includes Loot Crates)
+        MooStackItemRegistry.ITEMS.register(modEventBus);
+
+        // Register creative tab
+        MooStackCreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (mooStack) to respond directly to events.
@@ -73,6 +82,16 @@ public class mooStack {
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+
+    // Load loot crate categories when data packs are loaded/reloaded
+    @SubscribeEvent
+    public void onAddReloadListener(AddReloadListenerEvent event) {
+        event.addListener((prepBarrier, resourceManager, profilerFiller, profilerFiller2, executor, executor2) ->
+            prepBarrier.wait(null).thenRunAsync(() -> {
+                LootCrateManager.getInstance().reload(resourceManager);
+            }, executor2)
+        );
     }
 }
 
