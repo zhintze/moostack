@@ -32,23 +32,6 @@
 ServerEvents.recipes(event => {
     console.info('[Ore Unification] Starting recipe modifications...')
 
-    // Helper to safely create recipes with potentially missing items
-    // ChemLib Mekanized conditionally excludes items via ExcludedMetals.java
-    const safeSmelt = (output, input) => {
-        try {
-            event.smelting(output, input)
-        } catch (e) {
-            // Item doesn't exist, skip silently
-        }
-    }
-    const safeBlast = (output, input) => {
-        try {
-            event.blasting(output, input)
-        } catch (e) {
-            // Item doesn't exist, skip silently
-        }
-    }
-
     // ===========================================
     // LEAD: Use Mekanism as canonical
     // ===========================================
@@ -535,46 +518,12 @@ ServerEvents.recipes(event => {
     )
 
     // ===========================================
-    // ALUMINUM: Use IE as canonical (ChemLib processing -> IE final products)
-    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
-    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
+    // ALUMINUM/NICKEL/SILVER: ChemLib Mekanized handling
+    // ChemLib Mekanized's ExcludedMetals.java excludes crystal/dust items for metals
+    // that IE already provides. These items don't exist at runtime, so no recipes needed.
+    // The processing chain (shard, clump, dirty_dust, slurries) outputs are handled
+    // by ChemLib Mekanized's own recipes which already target IE ingots.
     // ===========================================
-
-    // ChemLib aluminum crystal smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
-    safeBlast('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
-
-    // ChemLib aluminum dust (from processing chain) smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
-    safeBlast('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
-
-    // ===========================================
-    // NICKEL: Use IE as canonical (ChemLib processing -> IE final products)
-    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
-    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
-    // ===========================================
-
-    // ChemLib nickel crystal smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
-    safeBlast('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
-
-    // ChemLib nickel dust (from processing chain) smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
-    safeBlast('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
-
-    // ===========================================
-    // SILVER: ChemLib processing outputs IE (supplements Occultism handling)
-    // ChemLib provides processing chain (crystal, shard, clump, dirty_dust, slurries)
-    // but not final products (ingot, nugget, dust, block, plate) per ExcludedMetals.java
-    // ===========================================
-
-    // ChemLib silver crystal smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
-    safeBlast('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
-
-    // ChemLib silver dust (from processing chain) smelts to IE ingot
-    safeSmelt('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
-    safeBlast('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
 
     // ===========================================
     // Replace inputs for non-mod-specific recipes
