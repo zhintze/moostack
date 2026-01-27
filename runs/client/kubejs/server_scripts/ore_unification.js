@@ -32,6 +32,23 @@
 ServerEvents.recipes(event => {
     console.info('[Ore Unification] Starting recipe modifications...')
 
+    // Helper to safely create recipes with potentially missing items
+    // ChemLib Mekanized conditionally excludes items via ExcludedMetals.java
+    const safeSmelt = (output, input) => {
+        try {
+            event.smelting(output, input)
+        } catch (e) {
+            // Item doesn't exist, skip silently
+        }
+    }
+    const safeBlast = (output, input) => {
+        try {
+            event.blasting(output, input)
+        } catch (e) {
+            // Item doesn't exist, skip silently
+        }
+    }
+
     // ===========================================
     // LEAD: Use Mekanism as canonical
     // ===========================================
@@ -524,12 +541,12 @@ ServerEvents.recipes(event => {
     // ===========================================
 
     // ChemLib aluminum crystal smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
-    event.blasting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
+    safeSmelt('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
+    safeBlast('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_crystal')
 
     // ChemLib aluminum dust (from processing chain) smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
-    event.blasting('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
+    safeSmelt('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
+    safeBlast('immersiveengineering:ingot_aluminum', 'chemlibmekanized:aluminum_dust')
 
     // ===========================================
     // NICKEL: Use IE as canonical (ChemLib processing -> IE final products)
@@ -538,12 +555,12 @@ ServerEvents.recipes(event => {
     // ===========================================
 
     // ChemLib nickel crystal smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
-    event.blasting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
+    safeSmelt('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
+    safeBlast('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_crystal')
 
     // ChemLib nickel dust (from processing chain) smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
-    event.blasting('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
+    safeSmelt('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
+    safeBlast('immersiveengineering:ingot_nickel', 'chemlibmekanized:nickel_dust')
 
     // ===========================================
     // SILVER: ChemLib processing outputs IE (supplements Occultism handling)
@@ -552,12 +569,12 @@ ServerEvents.recipes(event => {
     // ===========================================
 
     // ChemLib silver crystal smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
-    event.blasting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
+    safeSmelt('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
+    safeBlast('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_crystal')
 
     // ChemLib silver dust (from processing chain) smelts to IE ingot
-    event.smelting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
-    event.blasting('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
+    safeSmelt('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
+    safeBlast('immersiveengineering:ingot_silver', 'chemlibmekanized:silver_dust')
 
     // ===========================================
     // Replace inputs for non-mod-specific recipes
