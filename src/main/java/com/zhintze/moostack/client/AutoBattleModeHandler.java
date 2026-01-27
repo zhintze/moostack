@@ -11,7 +11,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import yesman.epicfight.world.capabilities.EpicFightCapabilities;
 import yesman.epicfight.client.world.capabilites.entitypatch.player.LocalPlayerPatch;
-import yesman.epicfight.world.capabilities.item.CapabilityItem;
 
 /**
  * Client-side handler for Auto-Battle Mode.
@@ -84,8 +83,10 @@ public class AutoBattleModeHandler {
             if (isMeleeWeapon(player.getMainHandItem())) {
                 enterBattleMode(player);
             }
+        } else {
+            // Turning OFF - exit combat mode for consistent UX regardless of held item
+            exitBattleMode(player);
         }
-        // When turning OFF, don't force exit - let player use Epic Fight's R key normally
 
         mooStack.LOGGER.debug("Auto-Battle Mode toggled: {}", newState);
     }
@@ -152,11 +153,9 @@ public class AutoBattleModeHandler {
     /**
      * Check if the given item is considered a melee weapon.
      *
-     * Uses Epic Fight's combat_preferred_items and mining_preferred_items
-     * as the SINGLE SOURCE OF TRUTH:
-     * 1. If item is in mining_preferred_items -> NOT a melee weapon
-     * 2. If item is in combat_preferred_items -> IS a melee weapon
-     * 3. Otherwise, check Epic Fight's weapon category for combat types
+     * Uses Epic Fight's combat_preferred_items as the SINGLE SOURCE OF TRUTH.
+     * Only items explicitly listed in combat_preferred_items will trigger combat mode.
+     * This prevents false positives from Epic Fight's weapon category assignments.
      */
     private static boolean isMeleeWeapon(ItemStack stack) {
         if (stack.isEmpty()) {
@@ -165,46 +164,10 @@ public class AutoBattleModeHandler {
 
         Item item = stack.getItem();
 
-        // SINGLE SOURCE OF TRUTH: Check Epic Fight's preferred item lists first
-        // These are populated from epicfight-client.toml combat_preferred_items and mining_preferred_items
-
-        // If in mining preferred, definitely NOT a melee weapon
-        if (yesman.epicfight.config.ClientConfig.miningPreferredItems != null &&
-            yesman.epicfight.config.ClientConfig.miningPreferredItems.contains(item)) {
-            return false;
-        }
-
-        // If in combat preferred, definitely IS a melee weapon
-        if (yesman.epicfight.config.ClientConfig.combatPreferredItems != null &&
-            yesman.epicfight.config.ClientConfig.combatPreferredItems.contains(item)) {
-            return true;
-        }
-
-        // For items not in either list, check Epic Fight weapon capability
-        // Only consider it a melee weapon if it has a recognized combat category
-        CapabilityItem cap = EpicFightCapabilities.getItemStackCapability(stack);
-        if (cap != null && cap != CapabilityItem.EMPTY) {
-            var category = cap.getWeaponCategory();
-            if (category != null) {
-                String categoryName = category.toString().toLowerCase();
-                // Check against known melee weapon categories
-                // These are combat weapon types that should trigger battle mode
-                return categoryName.contains("sword") ||
-                       categoryName.contains("longsword") ||
-                       categoryName.contains("katana") ||
-                       categoryName.contains("tachi") ||
-                       categoryName.contains("spear") ||
-                       categoryName.contains("greatsword") ||
-                       categoryName.contains("uchigatana") ||
-                       categoryName.contains("dagger") ||
-                       categoryName.contains("hammer") ||
-                       categoryName.contains("fist");
-                // NOTE: axe and great_axe are intentionally excluded
-                // NOTE: pickaxe is not a combat type
-            }
-        }
-
-        return false;
+        // SINGLE SOURCE OF TRUTH: Only combat_preferred_items triggers combat mode
+        // This is populated from epicfight-client.toml combat_preferred_items
+        return yesman.epicfight.config.ClientConfig.combatPreferredItems != null &&
+               yesman.epicfight.config.ClientConfig.combatPreferredItems.contains(item);
     }
 
     /**
