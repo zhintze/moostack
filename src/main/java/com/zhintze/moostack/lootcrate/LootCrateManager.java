@@ -13,6 +13,10 @@ import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.item.ItemStack;
+
 import javax.annotation.Nullable;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -38,6 +42,7 @@ public class LootCrateManager {
 
     private final Map<ResourceLocation, LootCrateCategory> categories = new HashMap<>();
     private final Map<LootCrateTier, List<ResourceLocation>> categoriesByTier = new EnumMap<>(LootCrateTier.class);
+    private final Set<ResourceLocation> hiddenCategories = new HashSet<>();
 
     private LootCrateManager() {
         // Initialize tier lists
@@ -63,6 +68,7 @@ public class LootCrateManager {
      */
     public void reload(ResourceManager resourceManager) {
         categories.clear();
+        hiddenCategories.clear();
         for (LootCrateTier tier : LootCrateTier.values()) {
             categoriesByTier.get(tier).clear();
         }
@@ -143,6 +149,11 @@ public class LootCrateManager {
             }
         }
 
+        // Parse hidden flag
+        if (json.has("hidden") && json.get("hidden").getAsBoolean()) {
+            builder.hidden(true);
+        }
+
         // Parse icon item
         if (json.has("icon")) {
             String iconId = json.get("icon").getAsString();
@@ -208,7 +219,15 @@ public class LootCrateManager {
     private void registerCategory(LootCrateCategory category) {
         categories.put(category.getId(), category);
 
-        // Add to all tiers that meet the minimum requirement
+        // Track hidden categories (they won't appear in tier selection lists)
+        if (category.isHidden()) {
+            hiddenCategories.add(category.getId());
+            mooStack.LOGGER.debug("Registered hidden loot crate category: {} (min tier: {})",
+                    category.getId(), category.getMinTier().getId());
+            return;
+        }
+
+        // Add visible categories to all tiers that meet the minimum requirement
         for (LootCrateTier tier : LootCrateTier.values()) {
             if (category.isAvailableForTier(tier)) {
                 categoriesByTier.get(tier).add(category.getId());
@@ -255,5 +274,37 @@ public class LootCrateManager {
     public boolean isCategoryAvailableForTier(ResourceLocation categoryId, LootCrateTier tier) {
         LootCrateCategory category = categories.get(categoryId);
         return category != null && category.isAvailableForTier(tier);
+    }
+
+    /**
+     * Check if a category is hidden from the selection UI.
+     * @param categoryId The category ID
+     * @return true if the category is hidden
+     */
+    public boolean isCategoryHidden(ResourceLocation categoryId) {
+        return hiddenCategories.contains(categoryId);
+    }
+
+    /**
+     * Roll loot from a specific category and give it to the player.
+     * Used by gamble crates to bypass the category selection UI.
+     *
+     * @param player The player to give loot to
+     * @param tier The crate tier being opened
+     * @param categoryId The category to roll from
+     */
+    public void rollAndGiveLoot(ServerPlayer player, LootCrateTier tier, ResourceLocation categoryId) {
+        LootCrateCategory category = categories.get(categoryId);
+        if (category == null) {
+            mooStack.LOGGER.warn("Attempted to roll from unknown category: {}", categoryId);
+            return;
+        }
+
+        // Roll loot from the category
+        RandomSource random = player.getRandom();
+        List<ItemStack> rewards = category.rollLoot(tier, random);
+
+        // Give rewards with effects
+        LootCrateRewardHandler.giveRewards(player, rewards, tier, category);
     }
 }

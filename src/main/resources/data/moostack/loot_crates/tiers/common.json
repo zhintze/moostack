@@ -3,7 +3,9 @@
   "tier": "common",
   "tier_level": 1,
   "available_categories": [
-    "moostack:survival_staples",
-    "moostack:resource_piles"
+    "moostack:essentials",
+    "moostack:materials",
+    "moostack:building_supplies",
+    "moostack:logistics_qol"
   ]
 }

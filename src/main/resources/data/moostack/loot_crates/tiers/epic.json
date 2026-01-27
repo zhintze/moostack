@@ -3,11 +3,15 @@
   "tier": "epic",
   "tier_level": 4,
   "available_categories": [
-    "moostack:survival_staples",
-    "moostack:resource_piles",
-    "moostack:farming",
-    "moostack:tech",
-    "moostack:magic",
-    "moostack:gamble_standard"
+    "moostack:essentials",
+    "moostack:materials",
+    "moostack:building_supplies",
+    "moostack:logistics_qol",
+    "moostack:agriculture_food",
+    "moostack:mob_resources",
+    "moostack:martial_gear",
+    "moostack:arcane_gear",
+    "moostack:tech_components",
+    "moostack:automation_rewards"
   ]
 }

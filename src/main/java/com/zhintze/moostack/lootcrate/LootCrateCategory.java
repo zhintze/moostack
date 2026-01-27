@@ -26,6 +26,7 @@ public class LootCrateCategory {
     private final Map<LootCrateTier, Integer> itemsPerRoll;
     private final List<LootEntry> entries;
     private final int totalWeight;
+    private final boolean hidden;
 
     public LootCrateCategory(
             ResourceLocation id,
@@ -34,7 +35,8 @@ public class LootCrateCategory {
             LootCrateTier minTier,
             Item iconItem,
             Map<LootCrateTier, Integer> itemsPerRoll,
-            List<LootEntry> entries
+            List<LootEntry> entries,
+            boolean hidden
     ) {
         this.id = id;
         this.displayNameKey = displayNameKey;
@@ -44,6 +46,11 @@ public class LootCrateCategory {
         this.itemsPerRoll = new EnumMap<>(itemsPerRoll);
         this.entries = new ArrayList<>(entries);
         this.totalWeight = entries.stream().mapToInt(LootEntry::weight).sum();
+        this.hidden = hidden;
+    }
+
+    public boolean isHidden() {
+        return hidden;
     }
 
     public ResourceLocation getId() {
@@ -180,6 +187,7 @@ public class LootCrateCategory {
         private Item iconItem = Items.CHEST;
         private final Map<LootCrateTier, Integer> itemsPerRoll = new EnumMap<>(LootCrateTier.class);
         private final List<LootEntry> entries = new ArrayList<>();
+        private boolean hidden = false;
 
         public Builder id(ResourceLocation id) {
             this.id = id;
@@ -216,6 +224,11 @@ public class LootCrateCategory {
             return this;
         }
 
+        public Builder hidden(boolean hidden) {
+            this.hidden = hidden;
+            return this;
+        }
+
         public LootCrateCategory build() {
             if (id == null) {
                 throw new IllegalStateException("Category ID is required");
@@ -234,7 +247,7 @@ public class LootCrateCategory {
                 }
             }
 
-            return new LootCrateCategory(id, displayNameKey, descriptionKey, minTier, iconItem, itemsPerRoll, entries);
+            return new LootCrateCategory(id, displayNameKey, descriptionKey, minTier, iconItem, itemsPerRoll, entries, hidden);
         }
     }
 }
