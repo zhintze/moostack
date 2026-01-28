@@ -19,7 +19,9 @@ import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 import com.zhintze.moostack.client.AutoBattleModeHandler;
+import com.zhintze.moostack.client.JetpackFlyingAnimationHandler;
 import com.zhintze.moostack.client.KeyBindings;
+import com.zhintze.moostack.client.jetpack.JetpackAnimTickHandler;
 import com.zhintze.moostack.config.ClientConfig;
 import com.zhintze.moostack.lootcrate.LootCrateManager;
 import com.zhintze.moostack.registry.MooStackCreativeTabRegistry;
@@ -51,11 +53,15 @@ public class mooStack {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        // Register client-side Auto-Battle Mode handler
-        // Automatically switches battle mode when holding melee weapons
+        // Register client-side handlers
         if (FMLEnvironment.dist == Dist.CLIENT) {
             modEventBus.addListener(KeyBindings::register);
+            // Auto-Battle Mode: automatically switches battle mode when holding melee weapons
             NeoForge.EVENT_BUS.register(AutoBattleModeHandler.class);
+            // Jetpack Flying Animation: shows Epic Fight flying animation when using jetpacks
+            NeoForge.EVENT_BUS.register(JetpackFlyingAnimationHandler.class);
+            // Jetpack Animation Intent: computes input-based intent vector for animations
+            NeoForge.EVENT_BUS.register(JetpackAnimTickHandler.class);
         }
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
