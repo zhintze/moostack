@@ -1188,7 +1188,39 @@ Add ALL localizations to `runs/client/config/ftbquests/quests/lang/en_us.snbt`:
 - Every quest ID in the chapter file MUST have a matching `quest.ID.title` and `quest.ID.quest_desc` entry in the lang file
 - Lang IDs MUST use the same prefix as the chapter file (e.g., `YC`)
 
-#### Step 4: Test
+#### Step 4: First Load (TRIGGERS ID REGENERATION)
+
+**WARNING: The first game load will regenerate ALL IDs and remove ALL dependencies.**
+
+```bash
+# Commit draft state BEFORE loading (recommended)
+git add runs/client/config/ftbquests/quests/
+git commit -m "Add YOUR_CHAPTER quest chapter (pre-load draft)"
+
+# Now load the game
+./gradlew runClient
+```
+
+1. Open quest book to trigger FTB Quests processing
+2. Exit the game (this saves the regenerated file)
+
+**At this point:**
+- All your placeholder IDs (e.g., `YC01000000000001`) are now random hex IDs (e.g., `1DBD815EB154939D`)
+- All lang entries no longer match (titles/descriptions won't display)
+- All dependencies are removed
+
+#### Step 5: ID Recovery (MANDATORY)
+
+**Follow the "Post-First-Load ID Recovery Process" section in this document.**
+
+Summary:
+1. Extract new IDs from the regenerated chapter file
+2. Map new IDs to original quests by position
+3. APPEND new lang entries with regenerated IDs
+4. Add dependencies back to chapter file
+5. Test in-game again
+
+#### Step 6: Final Test
 
 ```bash
 ./gradlew runClient
@@ -1200,7 +1232,7 @@ Add ALL localizations to `runs/client/config/ftbquests/quests/lang/en_us.snbt`:
 4. Verify dependency lines are correct
 5. Complete a few quests to test progression
 
-#### Step 5: Backup and Finalize
+#### Step 7: Backup and Finalize
 
 ```bash
 # Backup the working chapter
@@ -1220,6 +1252,10 @@ cp defaultconfigs/ftbquests/quests/chapters/your_chapter.snbt \
    config/ftbquests/quests/chapters/
 cp defaultconfigs/ftbquests/quests/lang/en_us.snbt \
    config/ftbquests/quests/lang/
+
+# Commit finalized state
+git add .
+git commit -m "Finalize YOUR_CHAPTER quest chapter (post-recovery)"
 ```
 
 ### Task Types Reference
@@ -1378,6 +1414,263 @@ For each chapter created from scratch, create a notes document at `docs/quests/M
 
 ---
 
+## CRITICAL: Post-First-Load ID Recovery Process
+
+**This process is REQUIRED after the first time FTB Quests loads a new chapter.** FTB Quests will regenerate ALL IDs (chapter, quest, task, reward) on first load. This is expected behavior, not a bug.
+
+### Why This Happens
+
+When FTB Quests first loads a chapter file, it:
+1. Validates all IDs
+2. Regenerates them with its own internal ID generation
+3. Removes all dependencies (they reference old IDs)
+4. Saves the modified file
+
+This means your carefully structured placeholder IDs (like `C001000000000001`) become random hex IDs (like `1DBD815EB154939D`), and ALL your lang entries stop working because they reference the old IDs.
+
+### The Two-Phase Workflow
+
+**Phase 1: Pre-Load (Create the chapter)**
+1. Create chapter file with placeholder IDs (e.g., prefix `C0`)
+2. Create lang entries matching those placeholder IDs
+3. Commit this "draft" state (optional but recommended)
+
+**Phase 2: Post-Load (Recovery - THIS IS MANDATORY)**
+1. Load the game - FTB Quests regenerates all IDs
+2. Exit the game (to save the file)
+3. Extract the new regenerated IDs from the chapter file
+4. Map new IDs to original quests (by position, icon, or task items)
+5. **ADD** new lang entries with regenerated IDs (do NOT delete old ones yet)
+6. Add dependencies back to the chapter file
+7. Test in-game
+8. Commit the "final" state
+9. (Optional) Clean up orphaned placeholder lang entries later
+
+### Step-by-Step Recovery Process
+
+#### Step 1: Extract New IDs from Chapter File
+
+After loading and exiting the game, the chapter file has new IDs. Extract them:
+
+```bash
+# List all quest IDs with their x,y positions (for mapping)
+grep -E '^\s*(id:|x:|y:)' runs/client/config/ftbquests/quests/chapters/YOUR_CHAPTER.snbt
+```
+
+Or use this Python script to create a structured mapping:
+
+```python
+import re
+
+CHAPTER_FILE = "runs/client/config/ftbquests/quests/chapters/YOUR_CHAPTER.snbt"
+
+def extract_quests(content):
+    """Extract quests with their IDs and positions."""
+    quests = []
+    lines = content.split('\n')
+
+    current_quest = {}
+    for line in lines:
+        # Match quest ID (at the quest level, not task/reward level)
+        id_match = re.match(r'^\t\t\tid: "([A-F0-9]{16})"', line)
+        if id_match:
+            current_quest['id'] = id_match.group(1)
+
+        # Match x position
+        x_match = re.match(r'^\t\t\tx: (-?[\d.]+)d', line)
+        if x_match:
+            current_quest['x'] = float(x_match.group(1))
+
+        # Match y position
+        y_match = re.match(r'^\t\t\ty: (-?[\d.]+)d', line)
+        if y_match:
+            current_quest['y'] = float(y_match.group(1))
+            # Quest complete - save and reset
+            if 'id' in current_quest:
+                quests.append(current_quest.copy())
+            current_quest = {}
+
+    return quests
+
+with open(CHAPTER_FILE, 'r') as f:
+    content = f.read()
+
+quests = extract_quests(content)
+
+# Sort by position (left to right, top to bottom)
+quests.sort(key=lambda q: (q.get('y', 0), q.get('x', 0)))
+
+# Print mapping
+for i, q in enumerate(quests, 1):
+    print(f"Quest {i}: ID={q['id']} at ({q.get('x', '?')}, {q.get('y', '?')})")
+```
+
+#### Step 2: Create ID Mapping
+
+Map the regenerated IDs to your original quest structure. The easiest method is by position (quests sorted by y then x will be in reading order).
+
+Create a mapping dictionary:
+
+```python
+# Example mapping: original position/name -> new regenerated ID
+ID_MAP = {
+    "1.1": "1DBD815EB154939D",  # First quest in section 1
+    "1.2": "3A1FEE9C61BF949E",  # Second quest in section 1
+    "2.1": "0659E869AEE9C2BB",  # First quest in section 2
+    # ... continue for all quests
+}
+```
+
+#### Step 3: Generate New Lang Entries
+
+**CRITICAL: ADD new entries, do NOT remove old ones.** The old placeholder entries are harmless orphans. Removing them risks corrupting the file if the removal is done incorrectly.
+
+```python
+# Generate new lang entries with regenerated IDs
+# Keep the same quest text, just change the IDs
+
+NEW_LANG_ENTRIES = '''
+	// ==================== Your Chapter ====================
+	chapter.{chapter_id}.title: "Your Chapter"
+
+	// Section 1
+	quest.{quest_1_1}.title: "First Quest"
+	quest.{quest_1_1}.quest_desc: ["Description here."]
+
+	quest.{quest_1_2}.title: "Second Quest"
+	quest.{quest_1_2}.quest_desc: ["Description here."]
+'''.format(
+    chapter_id=CHAPTER_ID,
+    quest_1_1=ID_MAP["1.1"],
+    quest_1_2=ID_MAP["1.2"],
+    # ... continue for all quests
+)
+
+# Append to lang file (do NOT replace)
+with open(LANG_FILE, 'a') as f:
+    f.write(NEW_LANG_ENTRIES)
+```
+
+**Alternative: Manual approach**
+1. Open the lang file in an editor
+2. Find your chapter's section
+3. Copy the entire section
+4. Paste at the end
+5. Replace each placeholder ID with the regenerated ID
+6. Leave the old entries in place (they'll be ignored)
+
+#### Step 4: Add Dependencies Back
+
+Dependencies are removed during ID regeneration because they reference old IDs. You must add them back using the NEW IDs.
+
+```python
+# Dependency mapping: quest_id -> [dependency_ids]
+DEPENDENCIES = {
+    ID_MAP["1.2"]: [ID_MAP["1.1"]],  # 1.2 depends on 1.1
+    ID_MAP["2.1"]: [ID_MAP["1.1"]],  # 2.1 depends on 1.1
+    ID_MAP["2.2"]: [ID_MAP["2.1"]],  # 2.2 depends on 2.1
+    # ... continue for all dependencies
+}
+
+def add_dependencies(content):
+    """Add dependencies to quest entries."""
+    lines = content.split('\n')
+    result = []
+
+    for line in lines:
+        # Check if this line contains a quest id
+        id_match = re.match(r'^(\s*)id: "([A-F0-9]{16})"', line)
+        if id_match:
+            indent = id_match.group(1)
+            quest_id = id_match.group(2)
+
+            if quest_id in DEPENDENCIES:
+                deps = DEPENDENCIES[quest_id]
+                deps_str = ", ".join([f'"{d}"' for d in deps])
+                # Insert dependencies line BEFORE the id line
+                result.append(f'{indent}dependencies: [{deps_str}]')
+
+        result.append(line)
+
+    return '\n'.join(result)
+
+# Apply to chapter file
+with open(CHAPTER_FILE, 'r') as f:
+    content = f.read()
+
+new_content = add_dependencies(content)
+
+with open(CHAPTER_FILE, 'w') as f:
+    f.write(new_content)
+```
+
+#### Step 5: Verify and Test
+
+```bash
+# Verify dependencies were added
+grep -c "dependencies:" runs/client/config/ftbquests/quests/chapters/YOUR_CHAPTER.snbt
+
+# Verify lang entries exist for all quest IDs
+# Should show no missing entries
+python3 -c "
+import re
+with open('runs/client/config/ftbquests/quests/chapters/YOUR_CHAPTER.snbt') as f:
+    chapter = f.read()
+with open('runs/client/config/ftbquests/quests/lang/en_us.snbt') as f:
+    lang = f.read()
+
+quest_ids = re.findall(r'^\t\t\tid: \"([A-F0-9]{16})\"', chapter, re.MULTILINE)
+for qid in quest_ids:
+    if f'quest.{qid}.title' not in lang:
+        print(f'MISSING: quest.{qid}.title')
+"
+```
+
+Then test in-game:
+1. Load the world
+2. Open quest book
+3. Verify all titles and descriptions display correctly
+4. Verify dependency lines appear correctly between quests
+5. Complete a quest to verify progression works
+
+### Common Mistakes to Avoid
+
+| Mistake | Consequence | Prevention |
+|---------|-------------|------------|
+| Deleting old lang entries | Risk corrupting entire lang file | Only ADD new entries, never remove during recovery |
+| Using sed/awk on lang file | Easy to break SNBT structure | Use targeted appending or Python with careful parsing |
+| Forgetting to add dependencies | Quests have no progression flow | Always re-add dependencies after ID regeneration |
+| Not mapping IDs by position | Wrong text appears on wrong quests | Sort quests by position to maintain order |
+| Running game before backup | Lose original placeholder structure | Commit draft state before first load |
+
+### Recovery Checklist
+
+- [ ] Exit the game (to save regenerated chapter file)
+- [ ] Extract new IDs from chapter file with positions
+- [ ] Create ID mapping (position -> new ID)
+- [ ] Generate new lang entries with regenerated IDs
+- [ ] APPEND new lang entries to en_us.snbt (do not delete old)
+- [ ] Add dependencies back to chapter file
+- [ ] Verify dependency count matches expected
+- [ ] Verify all quest IDs have lang entries
+- [ ] Test in-game: titles, descriptions, dependency lines
+- [ ] Commit the recovered/finalized state
+- [ ] (Optional later) Clean up orphaned placeholder entries
+
+### Template Files
+
+Keep template scripts in the project for reuse:
+
+```
+docs/quests/scripts/
+├── extract_quest_ids.py       # Extract IDs with positions from chapter
+├── generate_lang_entries.py   # Generate lang entries from mapping
+├── add_dependencies.py        # Add dependencies to chapter file
+└── verify_lang_coverage.py    # Verify all quests have lang entries
+```
+
+---
+
 ## Porting from 1.20.1 to 1.21.1 (NeoForge)
 
 This section documents critical format changes when porting FTB Quest chapters from Minecraft 1.20.1 (Forge) to 1.21.1 (NeoForge).
@@ -1509,6 +1802,7 @@ unzip -p modname-version.jar "assets/modid/lang/en_us.json" | grep -i "itemname"
 
 ### Checklist: Creating a New Chapter
 
+**Phase 1: Pre-Load (Create Draft)**
 - [ ] **FIRST: Check the ID Prefix Registry** (see top of this document)
 - [ ] **Claim a unique 2-char hex prefix** and add to registry
 - [ ] Plan sections and quest count
@@ -1519,14 +1813,35 @@ unzip -p modname-version.jar "assets/modid/lang/en_us.json" | grep -i "itemname"
   - [ ] Start with your unique prefix
   - [ ] Are exactly 16 hex characters
   - [ ] Contain only 0-9 and A-F
-- [ ] Test in-game:
+- [ ] Commit draft state (before first game load)
+
+**Phase 2: First Load (Triggers ID Regeneration)**
+- [ ] Run the game and open quest book
+- [ ] Exit the game (saves regenerated file)
+- [ ] **ALL IDs ARE NOW REGENERATED** - this is expected
+
+**Phase 3: Post-Load ID Recovery (MANDATORY)**
+- [ ] Extract new IDs from chapter file with positions
+- [ ] Create ID mapping (position -> new regenerated ID)
+- [ ] Generate new lang entries with regenerated IDs
+- [ ] APPEND new lang entries to en_us.snbt (do NOT delete old)
+- [ ] Add dependencies back to chapter file using new IDs
+- [ ] Verify dependency count matches expected
+- [ ] Verify all quest IDs have lang entries
+
+**Phase 4: Final Verification**
+- [ ] Test in-game (second load):
   - [ ] Chapter title displays
   - [ ] All quest titles display (not other chapter's text!)
   - [ ] All descriptions display correctly
-  - [ ] Dependencies work correctly
+  - [ ] Dependencies/lines work correctly
   - [ ] Quests can be completed
 - [ ] Create .golden backup
+- [ ] Commit finalized state
+
+**Phase 5: Finalize**
 - [ ] Create documentation in docs/quests/ (include prefix in notes)
 - [ ] Copy to defaultconfigs when complete
 - [ ] Sync to config for git tracking
 - [ ] **Verify no ID conflicts** with other chapters
+- [ ] (Optional) Clean up orphaned placeholder lang entries later
