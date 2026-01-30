@@ -7761,468 +7761,278 @@
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
 	task.7FED013A7F667CC6.title: "Crates"
 
+	// ==================== Corail Tombstone Chapter (Prefix: C0) ====================
+	chapter.C000000000000000.title: "Corail Tombstone"
+
 	// Section 1: Introduction & Death System
+	quest.C001000000000001.title: "What Happens When You Die"
+	quest.C001000000000001.quest_desc: [
 		"When you die in this world, your items are stored in a grave at your death location. You also receive a Grave Key that marks the grave's position and allows retrieval."
 		""
 		"This quest completes when you observe a grave."
 	]
 
+	quest.C001000000000002.title: "The Grave Key"
+	quest.C001000000000002.quest_desc: [
 		"The Grave Key appears in your inventory after death. It shows your grave's direction and distance. Right-click your grave or sneak over it to recover items."
 		""
 		"The key can be upgraded with a Grave Soul to enable teleportation."
 	]
 
+	quest.C001000000000003.title: "Ghostly Shape"
+	quest.C001000000000003.quest_desc: [
 		"After dying, you receive the Ghostly Shape effect. This prevents hostile mobs from targeting you and negates fall damage, giving you time to safely reach your grave."
 	]
+	task.C001000000000103.title: "Experience the Ghostly Shape effect after death"
 
 	// Section 2: Materials & Crafting Basics
+	quest.C002000000000001.title: "Grave Dust"
+	quest.C002000000000001.quest_desc: [
 		"Grave Dust drops from undead mobs such as zombies and skeletons. It is the primary crafting material for Tombstone's magic items."
 		""
 		"Collect Grave Dust by defeating undead enemies."
 	]
 
+	quest.C002000000000002.title: "Essence of Undeath"
+	quest.C002000000000002.quest_desc: [
 		"Essence of Undeath is a rarer drop from undead mobs. It is used in advanced Tombstone recipes including tablets and protective items."
 		""
 		"Continue defeating undead to collect this essence."
 	]
 
+	quest.C002000000000003.title: "Strange Scroll"
+	quest.C002000000000003.quest_desc: [
 		"The Strange Scroll is crafted from Grave Dust and paper. It serves as the base material for all magic scrolls in Tombstone."
 		""
 		"Craft one to begin working with the scroll system."
 	]
 
 	// Section 3: Decorative Graves & Building
+	quest.C003000000000001.title: "Marble Blocks"
+	quest.C003000000000001.quest_desc: [
 		"Decorative graves are the source of Grave Souls, which power all of Tombstone's magic items. To obtain souls, you must craft and place decorative graves."
 		""
 		"Marble blocks are the primary building material for these graves."
 	]
 
+	quest.C003000000000002.title: "Craft a Decorative Grave"
+	quest.C003000000000002.quest_desc: [
 		"Decorative graves come in several styles: Simple, Normal, Cross, Tombstone, and Original. Craft any decorative grave using marble and other materials."
 		""
 		"Once placed, these graves can become haunted by souls."
 	]
 
+	quest.C003000000000003.title: "Place a Decorative Grave"
+	quest.C003000000000003.quest_desc: [
 		"Place your decorative grave in the world. Over time, a Grave Soul may appear haunting the grave."
 		""
 		"Decorative graves can be harvested with a shovel and engraved using an anvil for personalization."
 	]
 
+	quest.C003000000000004.title: "Memorial Plaque"
+	quest.C003000000000004.quest_desc: [
 		"Memorial Plaques can be attached to decorative graves to add custom text."
 		""
 		"Craft a plaque and use an anvil to engrave a message before placing it on a grave."
 	]
 
 	// Section 4: Soul System
+	quest.C004000000000001.title: "Finding Grave Souls"
+	quest.C004000000000001.quest_desc: [
 		"Grave Souls are spectral entities that haunt decorative graves. They are required to enchant and upgrade Tombstone's magic items."
 		""
 		"Souls appear on placed decorative graves over time, or can be found haunting abandoned graves in the world."
 	]
+	task.C004000000000101.title: "Find and observe a Grave Soul"
 
+	quest.C004000000000002.title: "Using a Grave Soul"
+	quest.C004000000000002.quest_desc: [
 		"Most Tombstone magic items are activated or upgraded by right-clicking on a Grave Soul. The soul is consumed in the process."
 		""
 		"To use a soul, hold the magic item and right-click on the soul hovering above a grave."
 	]
+	task.C004000000000102.title: "Use an item on a Grave Soul"
 
+	quest.C004000000000003.title: "Receptacle of Soul"
+	quest.C004000000000003.quest_desc: [
 		"The Receptacle of Soul captures and stores a Grave Soul for later use. Right-click a Grave Soul to trap it in the receptacle."
 		""
 		"A filled receptacle also prevents death once while in your inventory, consuming itself in the process."
 	]
 
+	quest.C004000000000004.title: "Ankh of Prayer"
+	quest.C004000000000004.quest_desc: [
 		"The Ankh of Prayer allows you to pray at decorative graves to earn Knowledge of Death points. Hold right-click near a decorative grave to pray."
 		""
 		"Each grave has a cooldown before it can be prayed at again. Knowledge points unlock perks in the Tombstone GUI."
 	]
 
 	// Section 5: Magic Scrolls
+	quest.C005000000000001.title: "Scroll Crafting"
+	quest.C005000000000001.quest_desc: [
 		"Magic scrolls provide temporary buff effects when activated. Scrolls are crafted from Strange Scrolls combined with specific materials, then enchanted by right-clicking on a Grave Soul."
 		""
 		"The Scroll of Feather Falling slows your descent and prevents fall damage."
 	]
 
+	quest.C005000000000002.title: "Scroll of Purification"
+	quest.C005000000000002.quest_desc: [
 		"The Scroll of Purification removes negative potion effects when activated."
 		""
 		"Craft and enchant this scroll for emergency cleansing of poison, wither, and other harmful effects."
 	]
 
+	quest.C005000000000003.title: "Scroll of Preservation"
+	quest.C005000000000003.quest_desc: [
 		"The Scroll of Preservation maintains your experience and beneficial potion effects after death."
 		""
 		"Activate this scroll before dangerous encounters to protect your progress."
 	]
 
+	quest.C005000000000004.title: "Scroll of True Sight"
+	quest.C005000000000004.quest_desc: [
 		"The Scroll of True Sight grants enhanced vision, allowing you to see through darkness and detect hidden entities."
 		""
 		"Useful for exploring caves and dungeons."
 	]
 
 	// Section 6: Magic Tablets
+	quest.C006000000000001.title: "Strange Tablet"
+	quest.C006000000000001.quest_desc: [
 		"Magic tablets provide powerful teleportation abilities. Unlike scrolls which give buffs, tablets transport you to specific locations."
 		""
 		"Strange Tablets are the base crafting material for all magic tablets. Craft one to begin working with the tablet system."
 	]
 
+	quest.C006000000000002.title: "Tablet of Home"
+	quest.C006000000000002.quest_desc: [
 		"The Tablet of Home teleports you to your respawn point. Craft the tablet, then right-click on a Grave Soul to enchant it."
 		""
 		"Hold right-click to activate the teleportation. Tablets have limited uses before requiring re-enchantment."
 	]
 
+	quest.C006000000000003.title: "Tablet of Recall"
+	quest.C006000000000003.quest_desc: [
 		"The Tablet of Recall teleports you to a memorized location. Sneak near a decorative grave to set the recall point."
 		""
 		"Right-click a Grave Soul to enchant the tablet, then hold right-click to teleport to the memorized location."
 	]
 
+	quest.C006000000000004.title: "Tablet of Assistance"
+	quest.C006000000000004.quest_desc: [
 		"The Tablet of Assistance teleports you to another player. Use an anvil to engrave a player's name on the tablet, then enchant it with a Grave Soul."
 		""
 		"Hold right-click to teleport to that player, regardless of distance or dimension."
 	]
 
 	// Section 7: Magic Books
+	quest.C007000000000001.title: "Book of Disenchantment"
+	quest.C007000000000001.quest_desc: [
 		"Magic books perform powerful item manipulation when used with Grave Souls. The Book of Disenchantment strips enchantments from items and returns them as enchanted books."
 		""
 		"Hold the enchanted item in your main hand and the book in your offhand, then right-click a Grave Soul."
 	]
 
+	quest.C007000000000002.title: "Book of Recycling"
+	quest.C007000000000002.quest_desc: [
 		"The Book of Recycling breaks down crafted items into their original ingredients."
 		""
 		"Hold the item to recycle in your main hand and the book in your offhand, then right-click a Grave Soul. Not all items can be recycled."
 	]
 
+	quest.C007000000000003.title: "Book of Repairing"
+	quest.C007000000000003.quest_desc: [
 		"The Book of Repairing magically restores durability to damaged items."
 		""
 		"Hold the damaged item in your main hand and the book in your offhand, then right-click a Grave Soul. The item will be fully repaired."
 	]
 
+	quest.C007000000000004.title: "Book of Soulbound"
+	quest.C007000000000004.quest_desc: [
 		"The Book of Soulbound applies the Soulbound enchantment to an item, causing it to remain in your inventory after death."
 		""
 		"Hold a non-stackable item in your main hand and the book in your offhand, then right-click a Grave Soul."
 	]
 
+	quest.C007000000000005.title: "Book of Scribe"
+	quest.C007000000000005.quest_desc: [
 		"The Book of Scribe creates multiple copies of a magic scroll."
 		""
 		"Hold the scroll to copy in your main hand and the book in your offhand, then right-click a Grave Soul. This allows you to duplicate valuable scrolls."
 	]
 
 	// Section 8: Protective Items
+	quest.C008000000000001.title: "Voodoo Poppet"
+	quest.C008000000000001.quest_desc: [
 		"Protective items prevent death under specific circumstances. The Voodoo Poppet is a powerful charm that prevents your next death when carried."
 		""
 		"Craft a poppet, then right-click on a Grave Soul to activate its protection. The poppet is consumed when it saves you."
 	]
 
+	quest.C008000000000002.title: "Bone Needle"
+	quest.C008000000000002.quest_desc: [
 		"The Bone Needle creates a magical binding with a specific creature type. Right-click a creature to impregnate the needle with its essence."
 		""
 		"This bound needle is used in advanced Voodoo Poppet recipes to create poppets that protect against specific damage types."
 	]
 
+	quest.C008000000000003.title: "Impregnated Diamond"
+	quest.C008000000000003.quest_desc: [
 		"The Impregnated Diamond is a magically-infused gem used in advanced Tombstone recipes."
 		""
 		"It combines a diamond with grave magic to create a powerful crafting component for high-tier items."
 	]
 
 	// Section 9: Knowledge of Death Perks
+	quest.C009000000000001.title: "Opening the Tombstone GUI"
+	quest.C009000000000001.quest_desc: [
 		"The Knowledge of Death system rewards you with perk points for engaging with Tombstone's mechanics."
 		""
 		"Access the Tombstone GUI by typing /tbgui in chat or pressing the assigned keybind. This interface displays your earned knowledge points and available perks."
 	]
+	task.C009000000000101.title: "Open the Tombstone GUI using /tbgui or the keybind"
 
+	quest.C009000000000002.title: "Earning Knowledge Points"
+	quest.C009000000000002.quest_desc: [
 		"Knowledge points are earned by praying at decorative graves with the Ankh of Prayer, enchanting items with Grave Souls, freeing souls from receptacles, and completing Tombstone advancements."
 		""
 		"Pray at a decorative grave to earn your first points."
 	]
+	task.C009000000000102.title: "Pray at a decorative grave using the Ankh of Prayer"
 
+	quest.C009000000000003.title: "Unlocking a Perk"
+	quest.C009000000000003.quest_desc: [
 		"Open the Tombstone GUI and spend your knowledge points on a perk. Perks provide passive bonuses such as Memento Mori (retain experience on death), Alchemist (improved potion duration), Channeler (faster casting), and many others."
 		""
 		"Each perk can be upgraded multiple times."
 	]
+	task.C009000000000103.title: "Spend knowledge points to unlock a perk"
 
+	quest.C009000000000004.title: "Perk Mastery"
+	quest.C009000000000004.quest_desc: [
 		"Each perk has multiple upgrade levels that increase its effectiveness. Continue earning knowledge points through prayer and soul interactions, then invest them to fully upgrade a perk of your choice."
 		""
 		"The Book of Oblivion can reset your perks if you wish to reallocate points."
 	]
+	task.C009000000000104.title: "Fully upgrade any single perk"
 
 	// Section 10: Exploration & Advanced
+	quest.C00A000000000001.title: "Abandoned Graves"
+	quest.C00A000000000001.quest_desc: [
 		"Abandoned graves generate naturally in the Overworld on the surface and ocean floor. These ancient graves contain loot and are often haunted by Grave Souls."
 		""
 		"Explore the world to find abandoned graves as an alternative source of souls and treasure."
 	]
 
+	quest.C00A000000000002.title: "Lost Tablet"
+	quest.C00A000000000002.quest_desc: [
 		"Lost Tablets are ancient artifacts found in dungeon loot or dropped rarely by undead. These tablets depict distant locations and can be awakened by right-clicking on a Grave Soul to enable teleportation to mysterious places."
 	]
 
+	quest.C00A000000000003.title: "Dust of Vanishing"
+	quest.C00A000000000003.quest_desc: [
 		"Dust of Vanishing allows for a quick escape. Right-click to vanish in a cloud of smoke, becoming temporarily invisible and causing nearby hostile mobs to lose track of you."
 		""
 		"Useful for retreating from dangerous encounters."
 	]
-
-	// ==================== Corail Tombstone Chapter ====================
-	chapter.060DE6AEDDBCA62B.title: "Corail Tombstone"
-
-	// Section 1: Introduction & Death System
-	quest.1DBD815EB154939D.title: "What Happens When You Die"
-	quest.1DBD815EB154939D.quest_desc: [
-		"When you die in this world, your items are stored in a grave at your death location. You also receive a Grave Key that marks the grave's position and allows retrieval."
-		""
-		"This quest completes when you observe a grave."
-	]
-
-	quest.3A1FEE9C61BF949E.title: "The Grave Key"
-	quest.3A1FEE9C61BF949E.quest_desc: [
-		"The Grave Key appears in your inventory after death. It shows your grave's direction and distance. Right-click your grave or sneak over it to recover items."
-		""
-		"The key can be upgraded with a Grave Soul to enable teleportation."
-	]
-
-	quest.1E4474DDD71EB046.title: "Ghostly Shape"
-	quest.1E4474DDD71EB046.quest_desc: ["After dying, you receive the Ghostly Shape effect. This prevents hostile mobs from targeting you and negates fall damage, giving you time to safely reach your grave."]
-	task.6C77799E4004A74C.title: "Experience the Ghostly Shape effect after death"
-
-	// Section 2: Materials & Crafting Basics
-	quest.0659E869AEE9C2BB.title: "Grave Dust"
-	quest.0659E869AEE9C2BB.quest_desc: [
-		"Grave Dust drops from undead mobs such as zombies and skeletons. It is the primary crafting material for Tombstone's magic items."
-		""
-		"Collect Grave Dust by defeating undead enemies."
-	]
-
-	quest.5FD0D1E0B1841D71.title: "Essence of Undeath"
-	quest.5FD0D1E0B1841D71.quest_desc: [
-		"Essence of Undeath is a rarer drop from undead mobs. It is used in advanced Tombstone recipes including tablets and protective items."
-		""
-		"Continue defeating undead to collect this essence."
-	]
-
-	quest.0BEDCD0679A03DC0.title: "Strange Scroll"
-	quest.0BEDCD0679A03DC0.quest_desc: [
-		"The Strange Scroll is crafted from Grave Dust and paper. It serves as the base material for all magic scrolls in Tombstone."
-		""
-		"Craft one to begin working with the scroll system."
-	]
-
-	// Section 3: Decorative Graves & Building
-	quest.2AC65392A736C1BA.title: "Marble Blocks"
-	quest.2AC65392A736C1BA.quest_desc: [
-		"Decorative graves are the source of Grave Souls, which power all of Tombstone's magic items. To obtain souls, you must craft and place decorative graves."
-		""
-		"Marble blocks are the primary building material for these graves."
-	]
-
-	quest.6DEFCC64411F502E.title: "Craft a Decorative Grave"
-	quest.6DEFCC64411F502E.quest_desc: [
-		"Decorative graves come in several styles: Simple, Normal, Cross, Tombstone, and Original. Craft any decorative grave using marble and other materials."
-		""
-		"Once placed, these graves can become haunted by souls."
-	]
-
-	quest.4CEAFA995CB5C435.title: "Place a Decorative Grave"
-	quest.4CEAFA995CB5C435.quest_desc: [
-		"Place your decorative grave in the world. Over time, a Grave Soul may appear haunting the grave."
-		""
-		"Decorative graves can be harvested with a shovel and engraved using an anvil for personalization."
-	]
-
-	quest.378B415F770816D3.title: "Memorial Plaque"
-	quest.378B415F770816D3.quest_desc: [
-		"Memorial Plaques can be attached to decorative graves to add custom text."
-		""
-		"Craft a plaque and use an anvil to engrave a message before placing it on a grave."
-	]
-
-	// Section 4: Soul System
-	quest.438532748D5B3A7C.title: "Finding Grave Souls"
-	quest.438532748D5B3A7C.quest_desc: [
-		"Grave Souls are spectral entities that haunt decorative graves. They are required to enchant and upgrade Tombstone's magic items."
-		""
-		"Souls appear on placed decorative graves over time, or can be found haunting abandoned graves in the world."
-	]
-	task.19486DBDC8F5BC59.title: "Find and observe a Grave Soul"
-
-	quest.74F56AF00BB8DE9A.title: "Using a Grave Soul"
-	quest.74F56AF00BB8DE9A.quest_desc: [
-		"Most Tombstone magic items are activated or upgraded by right-clicking on a Grave Soul. The soul is consumed in the process."
-		""
-		"To use a soul, hold the magic item and right-click on the soul hovering above a grave."
-	]
-	task.6C8228C79EB0CA9E.title: "Use an item on a Grave Soul"
-
-	quest.7E667051D9E87597.title: "Receptacle of Soul"
-	quest.7E667051D9E87597.quest_desc: [
-		"The Receptacle of Soul captures and stores a Grave Soul for later use. Right-click a Grave Soul to trap it in the receptacle."
-		""
-		"A filled receptacle also prevents death once while in your inventory, consuming itself in the process."
-	]
-
-	quest.4121393FF289C86E.title: "Ankh of Prayer"
-	quest.4121393FF289C86E.quest_desc: [
-		"The Ankh of Prayer allows you to pray at decorative graves to earn Knowledge of Death points. Hold right-click near a decorative grave to pray."
-		""
-		"Each grave has a cooldown before it can be prayed at again. Knowledge points unlock perks in the Tombstone GUI."
-	]
-
-	// Section 5: Magic Scrolls
-	quest.0B6086C0838E6343.title: "Scroll Crafting"
-	quest.0B6086C0838E6343.quest_desc: [
-		"Magic scrolls provide temporary buff effects when activated. Scrolls are crafted from Strange Scrolls combined with specific materials, then enchanted by right-clicking on a Grave Soul."
-		""
-		"The Scroll of Feather Falling slows your descent and prevents fall damage."
-	]
-
-	quest.3DFA05C21877FC72.title: "Scroll of Purification"
-	quest.3DFA05C21877FC72.quest_desc: [
-		"The Scroll of Purification removes negative potion effects when activated."
-		""
-		"Craft and enchant this scroll for emergency cleansing of poison, wither, and other harmful effects."
-	]
-
-	quest.25ECF16CECC72583.title: "Scroll of Preservation"
-	quest.25ECF16CECC72583.quest_desc: [
-		"The Scroll of Preservation maintains your experience and beneficial potion effects after death."
-		""
-		"Activate this scroll before dangerous encounters to protect your progress."
-	]
-
-	quest.250756177CC2F929.title: "Scroll of True Sight"
-	quest.250756177CC2F929.quest_desc: [
-		"The Scroll of True Sight grants enhanced vision, allowing you to see through darkness and detect hidden entities."
-		""
-		"Useful for exploring caves and dungeons."
-	]
-
-	// Section 6: Magic Tablets
-	quest.6016892590E4947D.title: "Strange Tablet"
-	quest.6016892590E4947D.quest_desc: [
-		"Magic tablets provide powerful teleportation abilities. Unlike scrolls which give buffs, tablets transport you to specific locations."
-		""
-		"Strange Tablets are the base crafting material for all magic tablets. Craft one to begin working with the tablet system."
-	]
-
-	quest.4F249362BCD1D19D.title: "Tablet of Home"
-	quest.4F249362BCD1D19D.quest_desc: [
-		"The Tablet of Home teleports you to your respawn point. Craft the tablet, then right-click on a Grave Soul to enchant it."
-		""
-		"Hold right-click to activate the teleportation. Tablets have limited uses before requiring re-enchantment."
-	]
-
-	quest.0842EB1B52EDD02F.title: "Tablet of Recall"
-	quest.0842EB1B52EDD02F.quest_desc: [
-		"The Tablet of Recall teleports you to a memorized location. Sneak near a decorative grave to set the recall point."
-		""
-		"Right-click a Grave Soul to enchant the tablet, then hold right-click to teleport to the memorized location."
-	]
-
-	quest.303410A39C7B48E2.title: "Tablet of Assistance"
-	quest.303410A39C7B48E2.quest_desc: [
-		"The Tablet of Assistance teleports you to another player. Use an anvil to engrave a player's name on the tablet, then enchant it with a Grave Soul."
-		""
-		"Hold right-click to teleport to that player, regardless of distance or dimension."
-	]
-
-	// Section 7: Magic Books
-	quest.11E4CBB8812965DB.title: "Book of Disenchantment"
-	quest.11E4CBB8812965DB.quest_desc: [
-		"Magic books perform powerful item manipulation when used with Grave Souls. The Book of Disenchantment strips enchantments from items and returns them as enchanted books."
-		""
-		"Hold the enchanted item in your main hand and the book in your offhand, then right-click a Grave Soul."
-	]
-
-	quest.26BE11A4CE4A65FD.title: "Book of Recycling"
-	quest.26BE11A4CE4A65FD.quest_desc: [
-		"The Book of Recycling breaks down crafted items into their original ingredients."
-		""
-		"Hold the item to recycle in your main hand and the book in your offhand, then right-click a Grave Soul. Not all items can be recycled."
-	]
-
-	quest.6B2F26D05508467A.title: "Book of Repairing"
-	quest.6B2F26D05508467A.quest_desc: [
-		"The Book of Repairing magically restores durability to damaged items."
-		""
-		"Hold the damaged item in your main hand and the book in your offhand, then right-click a Grave Soul. The item will be fully repaired."
-	]
-
-	quest.3E1678862E78FC63.title: "Book of Soulbound"
-	quest.3E1678862E78FC63.quest_desc: [
-		"The Book of Soulbound applies the Soulbound enchantment to an item, causing it to remain in your inventory after death."
-		""
-		"Hold a non-stackable item in your main hand and the book in your offhand, then right-click a Grave Soul."
-	]
-
-	quest.2B5054909609CA10.title: "Book of Scribe"
-	quest.2B5054909609CA10.quest_desc: [
-		"The Book of Scribe creates multiple copies of a magic scroll."
-		""
-		"Hold the scroll to copy in your main hand and the book in your offhand, then right-click a Grave Soul. This allows you to duplicate valuable scrolls."
-	]
-
-	// Section 8: Protective Items
-	quest.1486D5315E26A58C.title: "Voodoo Poppet"
-	quest.1486D5315E26A58C.quest_desc: [
-		"Protective items prevent death under specific circumstances. The Voodoo Poppet is a powerful charm that prevents your next death when carried."
-		""
-		"Craft a poppet, then right-click on a Grave Soul to activate its protection. The poppet is consumed when it saves you."
-	]
-
-	quest.37344BDA85B18361.title: "Bone Needle"
-	quest.37344BDA85B18361.quest_desc: [
-		"The Bone Needle creates a magical binding with a specific creature type. Right-click a creature to impregnate the needle with its essence."
-		""
-		"This bound needle is used in advanced Voodoo Poppet recipes to create poppets that protect against specific damage types."
-	]
-
-	quest.6B65810CFA08AF11.title: "Impregnated Diamond"
-	quest.6B65810CFA08AF11.quest_desc: [
-		"The Impregnated Diamond is a magically-infused gem used in advanced Tombstone recipes."
-		""
-		"It combines a diamond with grave magic to create a powerful crafting component for high-tier items."
-	]
-
-	// Section 9: Knowledge of Death Perks
-	quest.0CC4D13FBACE6A2C.title: "Opening the Tombstone GUI"
-	quest.0CC4D13FBACE6A2C.quest_desc: [
-		"The Knowledge of Death system rewards you with perk points for engaging with Tombstone's mechanics."
-		""
-		"Access the Tombstone GUI by typing /tbgui in chat or pressing the assigned keybind. This interface displays your earned knowledge points and available perks."
-	]
-	task.63AD4AB629074A16.title: "Open the Tombstone GUI using /tbgui or the keybind"
-
-	quest.2651EA6DF6D65821.title: "Earning Knowledge Points"
-	quest.2651EA6DF6D65821.quest_desc: [
-		"Knowledge points are earned by praying at decorative graves with the Ankh of Prayer, enchanting items with Grave Souls, freeing souls from receptacles, and completing Tombstone advancements."
-		""
-		"Pray at a decorative grave to earn your first points."
-	]
-	task.49CD2FE4D60DA301.title: "Pray at a decorative grave using the Ankh of Prayer"
-
-	quest.16661070C07F2093.title: "Unlocking a Perk"
-	quest.16661070C07F2093.quest_desc: [
-		"Open the Tombstone GUI and spend your knowledge points on a perk. Perks provide passive bonuses such as Memento Mori (retain experience on death), Alchemist (improved potion duration), Channeler (faster casting), and many others."
-		""
-		"Each perk can be upgraded multiple times."
-	]
-	task.6D80843EC3322681.title: "Spend knowledge points to unlock a perk"
-
-	quest.77CCB46A3D41A140.title: "Perk Mastery"
-	quest.77CCB46A3D41A140.quest_desc: [
-		"Each perk has multiple upgrade levels that increase its effectiveness. Continue earning knowledge points through prayer and soul interactions, then invest them to fully upgrade a perk of your choice."
-		""
-		"The Book of Oblivion can reset your perks if you wish to reallocate points."
-	]
-	task.44D8C6E8BAE22675.title: "Fully upgrade any single perk"
-
-	// Section 10: Exploration & Advanced
-	quest.17E7F8254698829F.title: "Abandoned Graves"
-	quest.17E7F8254698829F.quest_desc: [
-		"Abandoned graves generate naturally in the Overworld on the surface and ocean floor. These ancient graves contain loot and are often haunted by Grave Souls."
-		""
-		"Explore the world to find abandoned graves as an alternative source of souls and treasure."
-	]
-
-	quest.0FEDB49A72BE29A9.title: "Lost Tablet"
-	quest.0FEDB49A72BE29A9.quest_desc: ["Lost Tablets are ancient artifacts found in dungeon loot or dropped rarely by undead. These tablets depict distant locations and can be awakened by right-clicking on a Grave Soul to enable teleportation to mysterious places."]
-
-	quest.1FCE1E8CC960187A.title: "Dust of Vanishing"
-	quest.1FCE1E8CC960187A.quest_desc: [
-		"Dust of Vanishing allows for a quick escape. Right-click to vanish in a cloud of smoke, becoming temporarily invisible and causing nearby hostile mobs to lose track of you."
-		""
-		"Useful for retreating from dangerous encounters."
-	]
-
-
-
 }
