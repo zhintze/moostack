@@ -43,6 +43,8 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `PB01`-`PB10` | Productive Bees | Quest IDs (if using structured) |
 | `PN01`-`PN10` | PneumaticCraft | Quest IDs (if using structured) |
 | `SS01`-`SS10` | Sophisticated Storage | Quest IDs (if using structured) |
+| `C000` | Corail Tombstone | Chapter ID |
+| `C001`-`C00A` | Corail Tombstone | Quest IDs (sections 1-10) |
 
 **Note**: Many existing chapters use random hex IDs (like `796C5F40115A5AE3`) which are statistically unique. The prefix system is for chapters using structured/readable IDs.
 
