@@ -6,1179 +6,1089 @@
 	icon: {
 		id: "tombstone:decorative_grave_normal"
 	}
-	id: "C000000000000000"
+	id: "060DE6AEDDBCA62B"
 	order_index: 3
+	quest_links: [ ]
 	quests: [
-		// ==================== Section 1: Introduction & Death System ====================
 		{
-			id: "C001000000000001"
-			x: -6.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
 			icon: {
 				id: "tombstone:decorative_grave_simple"
 			}
-			tasks: [{
-				id: "C001000000000101"
-				type: "observation"
-				observe_type: 0
-				timer: 20L
-				to_observe: "tombstone:decorative_grave_simple"
-			}]
+			id: "1DBD815EB154939D"
 			rewards: [
 				{
-					id: "C001000000000201"
+					id: "29CDAE8CE99321EE"
 					type: "xp"
 					xp: 50
 				}
 				{
-					id: "C001000000000202"
-					type: "item"
+					id: "71E29144930AFC46"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "17B98549D03EB2DF"
+				observe_type: 0
+				timer: 20L
+				to_observe: "tombstone:decorative_grave_simple"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			id: "C001000000000002"
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["C001000000000001"]
 			icon: {
 				id: "tombstone:grave_key"
 			}
-			tasks: [{
-				id: "C001000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:grave_key"
-					count: 1
-				}
-			}]
+			dependencies: ["1DBD815EB154939D"]
+			id: "3A1FEE9C61BF949E"
 			rewards: [
 				{
-					id: "C001000000000203"
+					id: "474D1298F45FE409"
 					type: "xp"
 					xp: 50
 				}
 				{
-					id: "C001000000000204"
-					type: "item"
+					id: "42FE3C2AFA2478E2"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "32920E58ECCE74F4"
+				item: { count: 1, id: "tombstone:grave_key" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 		{
-			id: "C001000000000003"
-			x: -3.0d
-			y: 0.0d
-			dependencies: ["C001000000000002"]
 			icon: {
 				id: "minecraft:glass"
 			}
-			tasks: [{
-				id: "C001000000000103"
-				type: "checkmark"
-			}]
+			dependencies: ["3A1FEE9C61BF949E"]
+			id: "1E4474DDD71EB046"
 			rewards: [
 				{
-					id: "C001000000000205"
+					id: "64869BEB14A960A5"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C001000000000206"
-					type: "item"
+					id: "292881758B80DE4C"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6C77799E4004A74C"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
-		// ==================== Section 2: Materials & Crafting Basics ====================
 		{
-			id: "C002000000000001"
-			x: -6.0d
-			y: 1.5d
-			dependencies: ["C001000000000001"]
 			icon: {
 				id: "tombstone:grave_dust"
 			}
-			tasks: [{
-				id: "C002000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:grave_dust"
-					count: 1
-				}
-				count: 8L
-			}]
+			dependencies: ["1DBD815EB154939D"]
+			id: "0659E869AEE9C2BB"
 			rewards: [
 				{
-					id: "C002000000000201"
+					id: "368AB60B3429B011"
 					type: "xp"
 					xp: 50
 				}
 				{
-					id: "C002000000000202"
-					type: "item"
+					id: "63D72D03243777DD"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 8L
+				id: "1109EF8004C58197"
+				item: { count: 1, id: "tombstone:grave_dust" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 		{
-			id: "C002000000000002"
-			x: -4.5d
-			y: 1.5d
-			dependencies: ["C002000000000001"]
 			icon: {
 				id: "tombstone:essence_of_undeath"
 			}
-			tasks: [{
-				id: "C002000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:essence_of_undeath"
-					count: 1
-				}
-				count: 4L
-			}]
+			dependencies: ["0659E869AEE9C2BB"]
+			id: "5FD0D1E0B1841D71"
 			rewards: [
 				{
-					id: "C002000000000203"
+					id: "16A027F6E71623A6"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C002000000000204"
-					type: "item"
+					id: "1573C264B3B07D30"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 4L
+				id: "1DCD346D9ACE0083"
+				item: { count: 1, id: "tombstone:essence_of_undeath" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
 		}
 		{
-			id: "C002000000000003"
-			x: -3.0d
-			y: 1.5d
-			dependencies: ["C002000000000001"]
 			icon: {
 				id: "tombstone:strange_scroll"
 			}
-			tasks: [{
-				id: "C002000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:strange_scroll"
-					count: 1
-				}
-			}]
+			dependencies: ["0659E869AEE9C2BB"]
+			id: "0BEDCD0679A03DC0"
 			rewards: [
 				{
-					id: "C002000000000205"
+					id: "12B05976F4C60497"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C002000000000206"
-					type: "item"
+					id: "02F1032205C7919C"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "722F24A8A000F7FC"
+				item: { count: 1, id: "tombstone:strange_scroll" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
 		}
-		// ==================== Section 3: Decorative Graves & Building ====================
 		{
-			id: "C003000000000001"
-			x: -6.0d
-			y: 3.0d
-			dependencies: ["C002000000000001"]
 			icon: {
 				id: "tombstone:dark_marble"
 			}
-			tasks: [{
-				id: "C003000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:dark_marble"
-					count: 1
-				}
-				count: 16L
-			}]
+			dependencies: ["0659E869AEE9C2BB"]
+			id: "2AC65392A736C1BA"
 			rewards: [
 				{
-					id: "C003000000000201"
+					id: "122933F76CCD0F89"
 					type: "xp"
 					xp: 50
 				}
 				{
-					id: "C003000000000202"
-					type: "item"
+					id: "6D2A7ABE49A214A7"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				count: 16L
+				id: "62CE1C32277A160A"
+				item: { count: 1, id: "tombstone:dark_marble" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
 		}
 		{
-			id: "C003000000000002"
-			x: -4.5d
-			y: 3.0d
-			dependencies: ["C003000000000001"]
 			icon: {
 				id: "tombstone:decorative_grave_simple"
 			}
-			tasks: [{
-				id: "C003000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:decorative_grave_simple"
-					count: 1
-				}
-			}]
+			dependencies: ["2AC65392A736C1BA"]
+			id: "6DEFCC64411F502E"
 			rewards: [
 				{
-					id: "C003000000000203"
+					id: "0805EF5258E629E3"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C003000000000204"
-					type: "item"
+					id: "353FCCA610805B30"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2BC4CB78367AF4E8"
+				item: { count: 1, id: "tombstone:decorative_grave_simple" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
 		}
 		{
-			id: "C003000000000003"
-			x: -3.0d
-			y: 3.0d
-			dependencies: ["C003000000000002"]
 			icon: {
 				id: "tombstone:decorative_grave_normal"
 			}
+			dependencies: ["6DEFCC64411F502E"]
+			id: "4CEAFA995CB5C435"
+			rewards: [
+				{
+					id: "1EE45408F34F0F80"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2F34BDDA5EB7E21A"
+					item: {
+						count: 1
+						id: "moostack:loot_crate_common"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "C003000000000103"
-				type: "observation"
+				id: "2D0827A52BB12AA5"
 				observe_type: 0
 				timer: 20L
 				to_observe: "tombstone:decorative_grave_simple"
+				type: "observation"
 			}]
-			rewards: [
-				{
-					id: "C003000000000205"
-					type: "xp"
-					xp: 75
-				}
-				{
-					id: "C003000000000206"
-					type: "item"
-					item: {
-						id: "moostack:loot_crate_common"
-						count: 1
-					}
-				}
-			]
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			id: "C003000000000004"
-			x: -3.0d
-			y: 4.0d
-			dependencies: ["C003000000000002"]
 			icon: {
 				id: "tombstone:grave_plate"
 			}
-			tasks: [{
-				id: "C003000000000104"
-				type: "item"
-				item: {
-					id: "tombstone:grave_plate"
-					count: 1
-				}
-			}]
+			dependencies: ["6DEFCC64411F502E"]
+			id: "378B415F770816D3"
 			rewards: [
 				{
-					id: "C003000000000207"
+					id: "35C3169B27BFC5EC"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C003000000000208"
-					type: "item"
+					id: "3FA0B8EB601376D2"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "57E76A4503AFC485"
+				item: { count: 1, id: "tombstone:grave_plate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
-		// ==================== Section 4: Soul System ====================
 		{
-			id: "C004000000000001"
-			x: -6.0d
-			y: 4.5d
-			shape: "hexagon"
-			size: 1.5d
-			dependencies: ["C003000000000003"]
 			icon: {
 				id: "tombstone:receptacle_of_soul"
 			}
-			tasks: [{
-				id: "C004000000000101"
-				type: "checkmark"
-			}]
+			dependencies: ["4CEAFA995CB5C435"]
+			id: "438532748D5B3A7C"
 			rewards: [
 				{
-					id: "C004000000000201"
+					id: "386D620CDD4A417F"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C004000000000202"
-					type: "item"
+					id: "4C5F815CF58BD7E1"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			id: "C004000000000002"
-			x: -4.5d
-			y: 4.5d
 			shape: "hexagon"
 			size: 1.5d
-			dependencies: ["C004000000000001"]
+			tasks: [{
+				id: "19486DBDC8F5BC59"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
 			icon: {
 				id: "tombstone:strange_scroll"
 			}
-			tasks: [{
-				id: "C004000000000102"
-				type: "checkmark"
-			}]
+			dependencies: ["438532748D5B3A7C"]
+			id: "74F56AF00BB8DE9A"
 			rewards: [
 				{
-					id: "C004000000000203"
+					id: "6D982B81A772F54D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C004000000000204"
-					type: "item"
+					id: "0831F3FB30846DAB"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6C8228C79EB0CA9E"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.5d
 		}
 		{
-			id: "C004000000000003"
-			x: -3.0d
-			y: 4.5d
-			dependencies: ["C004000000000001"]
 			icon: {
 				id: "tombstone:receptacle_of_soul"
 			}
-			tasks: [{
-				id: "C004000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:receptacle_of_soul"
-					count: 1
-				}
-			}]
+			dependencies: ["438532748D5B3A7C"]
+			id: "7E667051D9E87597"
 			rewards: [
 				{
-					id: "C004000000000205"
+					id: "2DE9925EB8B3D9C8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C004000000000206"
-					type: "item"
+					id: "48FD65D415C384D2"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5AA3B5B680A9D46C"
+				item: { count: 1, id: "tombstone:receptacle_of_soul" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
 		}
 		{
-			id: "C004000000000004"
-			x: -4.5d
-			y: 5.5d
-			dependencies: ["C004000000000001"]
 			icon: {
 				id: "tombstone:ankh_of_prayer"
 			}
-			tasks: [{
-				id: "C004000000000104"
-				type: "item"
-				item: {
-					id: "tombstone:ankh_of_prayer"
-					count: 1
-				}
-			}]
+			dependencies: ["438532748D5B3A7C"]
+			id: "4121393FF289C86E"
 			rewards: [
 				{
-					id: "C004000000000207"
+					id: "35A585D9E175E05D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C004000000000208"
-					type: "item"
+					id: "5788ABF52BAB287D"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "62645AB4D72A107E"
+				item: { count: 1, id: "tombstone:ankh_of_prayer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
 		}
-		// ==================== Section 5: Magic Scrolls ====================
 		{
-			id: "C005000000000001"
-			x: 0.0d
-			y: 4.5d
-			dependencies: ["C004000000000002"]
 			icon: {
 				id: "tombstone:scroll_of_feather_fall"
 			}
-			tasks: [{
-				id: "C005000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:scroll_of_feather_fall"
-					count: 1
-				}
-			}]
+			dependencies: ["74F56AF00BB8DE9A"]
+			id: "0B6086C0838E6343"
 			rewards: [
 				{
-					id: "C005000000000201"
+					id: "741F53DB02A02EE2"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C005000000000202"
-					type: "item"
+					id: "6B800D62C713705F"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "473CF8F6FBF7A89D"
+				item: { count: 1, id: "tombstone:scroll_of_feather_fall" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			id: "C005000000000002"
-			x: 1.5d
-			y: 4.5d
-			dependencies: ["C005000000000001"]
 			icon: {
 				id: "tombstone:scroll_of_purification"
 			}
-			tasks: [{
-				id: "C005000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:scroll_of_purification"
-					count: 1
-				}
-			}]
+			dependencies: ["0B6086C0838E6343"]
+			id: "3DFA05C21877FC72"
 			rewards: [
 				{
-					id: "C005000000000203"
+					id: "0773486E57595819"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C005000000000204"
-					type: "item"
+					id: "56482D2E6C6A8717"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "45A2E2759E5C8600"
+				item: { count: 1, id: "tombstone:scroll_of_purification" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			id: "C005000000000003"
-			x: 3.0d
-			y: 4.5d
-			dependencies: ["C005000000000001"]
 			icon: {
 				id: "tombstone:scroll_of_preservation"
 			}
-			tasks: [{
-				id: "C005000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:scroll_of_preservation"
-					count: 1
-				}
-			}]
+			dependencies: ["0B6086C0838E6343"]
+			id: "25ECF16CECC72583"
 			rewards: [
 				{
-					id: "C005000000000205"
+					id: "286E97482B67E79B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C005000000000206"
-					type: "item"
+					id: "71A37B096E9BC3B0"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "058BC693CAEDAAFF"
+				item: { count: 1, id: "tombstone:scroll_of_preservation" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 		{
-			id: "C005000000000004"
-			x: 1.5d
-			y: 5.5d
-			dependencies: ["C005000000000001"]
 			icon: {
 				id: "tombstone:scroll_of_true_sight"
 			}
-			tasks: [{
-				id: "C005000000000104"
-				type: "item"
-				item: {
-					id: "tombstone:scroll_of_true_sight"
-					count: 1
-				}
-			}]
+			dependencies: ["0B6086C0838E6343"]
+			id: "250756177CC2F929"
 			rewards: [
 				{
-					id: "C005000000000207"
+					id: "48C0D3C3129ED7AD"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C005000000000208"
-					type: "item"
+					id: "066AEDF4632161D0"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "7803F5D0791F3841"
+				item: { count: 1, id: "tombstone:scroll_of_true_sight" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
-		// ==================== Section 6: Magic Tablets ====================
 		{
-			id: "C006000000000001"
-			x: 0.0d
-			y: 6.0d
-			dependencies: ["C004000000000002"]
 			icon: {
 				id: "tombstone:strange_tablet"
 			}
-			tasks: [{
-				id: "C006000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:strange_tablet"
-					count: 1
-				}
-			}]
+			dependencies: ["74F56AF00BB8DE9A"]
+			id: "6016892590E4947D"
 			rewards: [
 				{
-					id: "C006000000000201"
+					id: "331D0BC6C47A3B00"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C006000000000202"
-					type: "item"
+					id: "7D9B903C44B86870"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "557E84DA7D70584E"
+				item: { count: 1, id: "tombstone:strange_tablet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			id: "C006000000000002"
-			x: 1.5d
-			y: 6.0d
-			dependencies: ["C006000000000001"]
 			icon: {
 				id: "tombstone:tablet_of_home"
 			}
-			tasks: [{
-				id: "C006000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:tablet_of_home"
-					count: 1
-				}
-			}]
+			dependencies: ["6016892590E4947D"]
+			id: "4F249362BCD1D19D"
 			rewards: [
 				{
-					id: "C006000000000203"
+					id: "4C8F43867DF57CB8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C006000000000204"
-					type: "item"
+					id: "2083613A685619BD"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3EFF0C34EF1430EA"
+				item: { count: 1, id: "tombstone:tablet_of_home" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			id: "C006000000000003"
-			x: 3.0d
-			y: 6.0d
-			dependencies: ["C006000000000001"]
 			icon: {
 				id: "tombstone:tablet_of_recall"
 			}
-			tasks: [{
-				id: "C006000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:tablet_of_recall"
-					count: 1
-				}
-			}]
+			dependencies: ["6016892590E4947D"]
+			id: "0842EB1B52EDD02F"
 			rewards: [
 				{
-					id: "C006000000000205"
+					id: "2BD195459499C2A0"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C006000000000206"
-					type: "item"
+					id: "70437A32520F090A"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4344EE741FB84873"
+				item: { count: 1, id: "tombstone:tablet_of_recall" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 		{
-			id: "C006000000000004"
-			x: 1.5d
-			y: 7.0d
-			dependencies: ["C006000000000001"]
 			icon: {
 				id: "tombstone:tablet_of_assistance"
 			}
-			tasks: [{
-				id: "C006000000000104"
-				type: "item"
-				item: {
-					id: "tombstone:tablet_of_assistance"
-					count: 1
-				}
-			}]
+			dependencies: ["6016892590E4947D"]
+			id: "303410A39C7B48E2"
 			rewards: [
 				{
-					id: "C006000000000207"
+					id: "6206B2CAF844C634"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C006000000000208"
-					type: "item"
+					id: "0435E25F49D9730F"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "7484F711AEE05DE0"
+				item: { count: 1, id: "tombstone:tablet_of_assistance" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
 		}
-		// ==================== Section 7: Magic Books ====================
 		{
-			id: "C007000000000001"
-			x: 0.0d
-			y: 7.5d
-			dependencies: ["C004000000000002"]
 			icon: {
 				id: "tombstone:book_of_disenchantment"
 			}
-			tasks: [{
-				id: "C007000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:book_of_disenchantment"
-					count: 1
-				}
-			}]
+			dependencies: ["74F56AF00BB8DE9A"]
+			id: "11E4CBB8812965DB"
 			rewards: [
 				{
-					id: "C007000000000201"
+					id: "4C04783DAD734FBA"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C007000000000202"
-					type: "item"
+					id: "348821E46C80C0AA"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "257187FB6C03E443"
+				item: { count: 1, id: "tombstone:book_of_disenchantment" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 		{
-			id: "C007000000000002"
-			x: 1.5d
-			y: 7.5d
-			dependencies: ["C007000000000001"]
 			icon: {
 				id: "tombstone:book_of_recycling"
 			}
-			tasks: [{
-				id: "C007000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:book_of_recycling"
-					count: 1
-				}
-			}]
+			dependencies: ["11E4CBB8812965DB"]
+			id: "26BE11A4CE4A65FD"
 			rewards: [
 				{
-					id: "C007000000000203"
+					id: "6BCEC0CD7F5F8AF6"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C007000000000204"
-					type: "item"
+					id: "097AD6688234C243"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "470D6AFEACE803B8"
+				item: { count: 1, id: "tombstone:book_of_recycling" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
 		}
 		{
-			id: "C007000000000003"
-			x: 3.0d
-			y: 7.5d
-			dependencies: ["C007000000000001"]
 			icon: {
 				id: "tombstone:book_of_repairing"
 			}
-			tasks: [{
-				id: "C007000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:book_of_repairing"
-					count: 1
-				}
-			}]
+			dependencies: ["11E4CBB8812965DB"]
+			id: "6B2F26D05508467A"
 			rewards: [
 				{
-					id: "C007000000000205"
+					id: "78529F41661A2D81"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C007000000000206"
-					type: "item"
+					id: "7A4E9C0813E7CB3A"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1CF8A0DFF113BB35"
+				item: { count: 1, id: "tombstone:book_of_repairing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
 		}
 		{
-			id: "C007000000000004"
-			x: 1.5d
-			y: 8.5d
-			dependencies: ["C007000000000001"]
 			icon: {
 				id: "tombstone:book_of_soulbound"
 			}
-			tasks: [{
-				id: "C007000000000104"
-				type: "item"
-				item: {
-					id: "tombstone:book_of_soulbound"
-					count: 1
-				}
-			}]
+			dependencies: ["11E4CBB8812965DB"]
+			id: "3E1678862E78FC63"
 			rewards: [
 				{
-					id: "C007000000000207"
+					id: "559C19733817C996"
 					type: "xp"
 					xp: 150
 				}
 				{
-					id: "C007000000000208"
-					type: "item"
+					id: "5242C903D7CEF49A"
 					item: {
-						id: "moostack:loot_crate_rare"
 						count: 1
+						id: "moostack:loot_crate_rare"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4512632727632379"
+				item: { count: 1, id: "tombstone:book_of_soulbound" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
 		}
 		{
-			id: "C007000000000005"
-			x: 3.0d
-			y: 8.5d
-			dependencies: ["C007000000000001"]
 			icon: {
 				id: "tombstone:book_of_scribe"
 			}
-			tasks: [{
-				id: "C007000000000105"
-				type: "item"
-				item: {
-					id: "tombstone:book_of_scribe"
-					count: 1
-				}
-			}]
+			dependencies: ["11E4CBB8812965DB"]
+			id: "2B5054909609CA10"
 			rewards: [
 				{
-					id: "C007000000000209"
+					id: "0A9C2DD1A4DB3019"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C007000000000210"
-					type: "item"
+					id: "482966EC465ECA9B"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "479AB533229AD46A"
+				item: { count: 1, id: "tombstone:book_of_scribe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
 		}
-		// ==================== Section 8: Protective Items ====================
 		{
-			id: "C008000000000001"
-			x: 0.0d
-			y: 9.0d
-			dependencies: ["C004000000000003"]
 			icon: {
 				id: "tombstone:voodoo_poppet"
 			}
-			tasks: [{
-				id: "C008000000000101"
-				type: "item"
-				item: {
-					id: "tombstone:voodoo_poppet"
-					count: 1
-				}
-			}]
+			dependencies: ["7E667051D9E87597"]
+			id: "1486D5315E26A58C"
 			rewards: [
 				{
-					id: "C008000000000201"
+					id: "553920B47EA916C2"
 					type: "xp"
 					xp: 150
 				}
 				{
-					id: "C008000000000202"
-					type: "item"
+					id: "4E7168FDC9786EAF"
 					item: {
-						id: "moostack:loot_crate_rare"
 						count: 1
+						id: "moostack:loot_crate_rare"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "584B2DB48629B241"
+				item: { count: 1, id: "tombstone:voodoo_poppet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			id: "C008000000000002"
-			x: 1.5d
-			y: 9.0d
-			dependencies: ["C008000000000001"]
 			icon: {
 				id: "tombstone:bone_needle"
 			}
-			tasks: [{
-				id: "C008000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:bone_needle"
-					count: 1
-				}
-			}]
+			dependencies: ["1486D5315E26A58C"]
+			id: "37344BDA85B18361"
 			rewards: [
 				{
-					id: "C008000000000203"
+					id: "4D92715CDA357260"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C008000000000204"
-					type: "item"
+					id: "0898D540BDE28C96"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5E41B1D279E92CDC"
+				item: { count: 1, id: "tombstone:bone_needle" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
 		}
 		{
-			id: "C008000000000003"
-			x: 1.5d
-			y: 10.0d
-			dependencies: ["C004000000000002"]
 			icon: {
 				id: "tombstone:impregnated_diamond"
 			}
-			tasks: [{
-				id: "C008000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:impregnated_diamond"
-					count: 1
-				}
-			}]
+			dependencies: ["74F56AF00BB8DE9A"]
+			id: "6B65810CFA08AF11"
 			rewards: [
 				{
-					id: "C008000000000205"
+					id: "7511B889D7D1495D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C008000000000206"
-					type: "item"
+					id: "30858A651E04A439"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "05BA5EEE0D51645D"
+				item: { count: 1, id: "tombstone:impregnated_diamond" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
 		}
-		// ==================== Section 9: Knowledge of Death Perks ====================
 		{
-			id: "C009000000000001"
-			x: 0.0d
-			y: 10.5d
-			dependencies: ["C004000000000004"]
 			icon: {
 				id: "minecraft:book"
 			}
-			tasks: [{
-				id: "C009000000000101"
-				type: "checkmark"
-			}]
+			dependencies: ["4121393FF289C86E"]
+			id: "0CC4D13FBACE6A2C"
 			rewards: [
 				{
-					id: "C009000000000201"
+					id: "630BF7FF84E1D01D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C009000000000202"
-					type: "item"
+					id: "40A188842DDB8EF9"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "63AD4AB629074A16"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
 		}
 		{
-			id: "C009000000000002"
-			x: 1.5d
-			y: 10.5d
-			dependencies: ["C009000000000001"]
 			icon: {
 				id: "tombstone:ankh_of_prayer"
 			}
-			tasks: [{
-				id: "C009000000000102"
-				type: "checkmark"
-			}]
+			dependencies: ["0CC4D13FBACE6A2C"]
+			id: "2651EA6DF6D65821"
 			rewards: [
 				{
-					id: "C009000000000203"
+					id: "358F1DF5A469AE0B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C009000000000204"
-					type: "item"
+					id: "41668EB1ACD2F46F"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "49CD2FE4D60DA301"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 10.5d
 		}
 		{
-			id: "C009000000000003"
-			x: 3.0d
-			y: 10.5d
-			dependencies: ["C009000000000002"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			tasks: [{
-				id: "C009000000000103"
-				type: "checkmark"
-			}]
+			dependencies: ["2651EA6DF6D65821"]
+			id: "16661070C07F2093"
 			rewards: [
 				{
-					id: "C009000000000205"
+					id: "7EC9389C7E35BC6C"
 					type: "xp"
 					xp: 150
 				}
 				{
-					id: "C009000000000206"
-					type: "item"
+					id: "4B66D6960DA3DB78"
 					item: {
-						id: "moostack:loot_crate_rare"
 						count: 1
+						id: "moostack:loot_crate_rare"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6D80843EC3322681"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 10.5d
 		}
 		{
-			id: "C009000000000004"
-			x: 4.5d
-			y: 10.5d
-			dependencies: ["C009000000000003"]
 			icon: {
 				id: "minecraft:enchanted_book"
 			}
-			tasks: [{
-				id: "C009000000000104"
-				type: "checkmark"
-			}]
+			dependencies: ["16661070C07F2093"]
+			id: "77CCB46A3D41A140"
 			rewards: [
 				{
-					id: "C009000000000207"
+					id: "13803DCADAFE2373"
 					type: "xp"
 					xp: 200
 				}
 				{
-					id: "C009000000000208"
-					type: "item"
+					id: "3111F7DC49B5A9F0"
 					item: {
-						id: "moostack:loot_crate_rare"
 						count: 1
+						id: "moostack:loot_crate_rare"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "44D8C6E8BAE22675"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 10.5d
 		}
-		// ==================== Section 10: Exploration & Advanced ====================
 		{
-			id: "C00A000000000001"
-			x: 6.0d
-			y: 4.5d
-			dependencies: ["C004000000000001"]
 			icon: {
 				id: "tombstone:dark_marble"
 			}
-			tasks: [{
-				id: "C00A000000000101"
-				type: "observation"
-				observe_type: 0
-				timer: 20L
-				to_observe: "tombstone:abandoned_grave"
-			}]
+			dependencies: ["438532748D5B3A7C"]
+			id: "17E7F8254698829F"
 			rewards: [
 				{
-					id: "C00A000000000201"
+					id: "76523BAD644306F5"
 					type: "xp"
 					xp: 100
 				}
 				{
-					id: "C00A000000000202"
-					type: "item"
+					id: "52E4C114470B5E41"
 					item: {
-						id: "moostack:loot_crate_uncommon"
 						count: 1
+						id: "moostack:loot_crate_uncommon"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2E9E350825B6C9ED"
+				observe_type: 0
+				timer: 20L
+				to_observe: "tombstone:abandoned_grave"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 4.5d
 		}
 		{
-			id: "C00A000000000002"
-			x: 7.5d
-			y: 4.5d
-			dependencies: ["C00A000000000001"]
 			icon: {
 				id: "tombstone:lost_tablet"
 			}
-			tasks: [{
-				id: "C00A000000000102"
-				type: "item"
-				item: {
-					id: "tombstone:lost_tablet"
-					count: 1
-				}
-			}]
+			dependencies: ["17E7F8254698829F"]
+			id: "0FEDB49A72BE29A9"
 			rewards: [
 				{
-					id: "C00A000000000203"
+					id: "1FF3CFF003F22C7B"
 					type: "xp"
 					xp: 150
 				}
 				{
-					id: "C00A000000000204"
-					type: "item"
+					id: "5B5D086CA8D4D657"
 					item: {
-						id: "moostack:loot_crate_rare"
 						count: 1
+						id: "moostack:loot_crate_rare"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "567BF9F9E0733AA8"
+				item: { count: 1, id: "tombstone:lost_tablet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
 		}
 		{
-			id: "C00A000000000003"
-			x: 6.0d
-			y: 5.5d
-			dependencies: ["C002000000000001"]
 			icon: {
 				id: "tombstone:dust_of_vanishing"
 			}
-			tasks: [{
-				id: "C00A000000000103"
-				type: "item"
-				item: {
-					id: "tombstone:dust_of_vanishing"
-					count: 1
-				}
-			}]
+			dependencies: ["0659E869AEE9C2BB"]
+			id: "1FCE1E8CC960187A"
 			rewards: [
 				{
-					id: "C00A000000000205"
+					id: "15A3F684F7D3240A"
 					type: "xp"
 					xp: 75
 				}
 				{
-					id: "C00A000000000206"
-					type: "item"
+					id: "4283F3415A51ADC9"
 					item: {
-						id: "moostack:loot_crate_common"
 						count: 1
+						id: "moostack:loot_crate_common"
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5F974E23DC0E6F8D"
+				item: { count: 1, id: "tombstone:dust_of_vanishing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 	]
 }
