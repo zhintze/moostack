@@ -26,6 +26,7 @@ import com.zhintze.moostack.config.ClientConfig;
 import com.zhintze.moostack.lootcrate.LootCrateManager;
 import com.zhintze.moostack.registry.MooStackCreativeTabRegistry;
 import com.zhintze.moostack.registry.MooStackItemRegistry;
+import com.zhintze.moostack.starterrole.StarterRoleAttachments;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(mooStack.MODID)
@@ -47,6 +48,9 @@ public class mooStack {
 
         // Register creative tab
         MooStackCreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
+
+        // Register data attachments
+        StarterRoleAttachments.ATTACHMENTS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (mooStack) to respond directly to events.
