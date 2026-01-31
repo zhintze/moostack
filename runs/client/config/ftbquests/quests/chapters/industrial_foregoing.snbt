@@ -767,7 +767,6 @@
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
-			hide_dependent_lines: true
 			icon: {
 				id: "industrialforegoing:sewer"
 			}
@@ -1693,7 +1692,6 @@
 		}
 		{
 			dependencies: ["0EC2053B191C55C6"]
-			hide_dependency_lines: true
 			id: "1BA3D15FFE7DBE59"
 			optional: true
 			rewards: [{

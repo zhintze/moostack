@@ -145,7 +145,6 @@
 		}
 		{
 			dependencies: ["71766BD7321FCB13"]
-			hide_dependent_lines: true
 			id: "09D7D3CF61E156B1"
 			rewards: [
 				{
@@ -449,7 +448,6 @@
 		}
 		{
 			dependencies: ["593CB120B657126C"]
-			hide_dependency_lines: true
 			id: "5194A067BEA98E79"
 			rewards: [{
 				id: "4D8E2A7C9B5F6130"
@@ -534,7 +532,6 @@
 		}
 		{
 			dependencies: ["593CB120B657126C"]
-			hide_dependency_lines: true
 			id: "4BAF44FCA0894DE8"
 			rewards: [{
 				id: "7E4A9C2B8D5F3160"
@@ -845,31 +842,6 @@
 			y: -21.0d
 		}
 		{
-			dependencies: ["7E3C84D7FCEC9D52"]
-			id: "05DA7F48E2A1B77F"
-			rewards: [{
-				id: "7A4E9C2B8D5F3160"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "5D701F72E4A6826F"
-					item: { count: 1, id: "mekanism:robit" }
-					type: "item"
-				}
-				{
-					id: "4C8E2A9D5B7F3160"
-					item: { count: 1, id: "mekanism:chargepad" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7E3C84D7FCEC9D52"]
 			id: "55702BE0151D33FE"
 			rewards: [{
 				count: 3
@@ -880,15 +852,16 @@
 				}
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				count: 2L
 				id: "1023F97EBFA54711"
 				item: { count: 2, id: "mekanism:induction_port" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: -10.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["55702BE0151D33FE"]
@@ -904,8 +877,8 @@
 				item: { count: 1, id: "mekanism:basic_induction_cell" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: -10.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["55702BE0151D33FE"]
@@ -921,8 +894,8 @@
 				item: { count: 1, id: "mekanism:basic_induction_provider" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: -11.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -972,8 +945,8 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: -12.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["20054D077AFE3F56"]
@@ -1410,7 +1383,6 @@
 		}
 		{
 			dependencies: ["7B385FD1CBE02C85"]
-			hide_dependency_lines: true
 			id: "3E5BE6D6422F682C"
 			rewards: [
 				{
@@ -1451,7 +1423,6 @@
 		}
 		{
 			dependencies: ["7B385FD1CBE02C85"]
-			hide_dependency_lines: true
 			id: "4211F29561F21643"
 			rewards: [
 				{
@@ -1498,7 +1469,6 @@
 		}
 		{
 			dependencies: ["7B385FD1CBE02C85"]
-			hide_dependency_lines: true
 			id: "02C6132919DEAF2A"
 			rewards: [
 				{

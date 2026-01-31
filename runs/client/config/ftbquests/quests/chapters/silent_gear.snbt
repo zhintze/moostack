@@ -151,7 +151,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347A0F19B5748E7"
 			rewards: [{
 				id: "53473BC058106FDD"
@@ -169,7 +168,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347C617BF7CA0C3"
 			rewards: [{
 				id: "5347C213D5694B9E"
@@ -187,7 +185,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347CBD3FFF32A13"
 			rewards: [{
 				id: "534788A463F7F205"
@@ -205,7 +202,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347BB6EAB1F2388"
 			rewards: [{
 				id: "5347E57904FFABDF"
@@ -223,7 +219,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347D27B92F48C0D"
 			rewards: [{
 				id: "5347A7E6A735C129"
@@ -241,7 +236,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347A7339E0C66CD"
 			rewards: [{
 				id: "5347C27FB188FCBA"
@@ -259,7 +253,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53477E2E290F39CC"
 			rewards: [{
 				id: "534720138F71F79F"
@@ -277,7 +270,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53471422C8F3ED77"
 			rewards: [{
 				id: "5347C4DE33B785F2"
@@ -295,7 +287,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534726067DB594E6"
 			rewards: [{
 				id: "5347E1F058B8A789"
@@ -313,7 +304,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347C8D103A194CA"
 			rewards: [{
 				id: "5347B523AB6CB7E6"
@@ -331,7 +321,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347B08E9E15DF48"
 			rewards: [{
 				id: "5347C61631EA944A"
@@ -349,7 +338,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347465734E23D9A"
 			rewards: [{
 				id: "534776FDE0BC1752"
@@ -367,7 +355,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534775CA0467819C"
 			rewards: [{
 				id: "53478C27F6464FF9"
@@ -385,7 +372,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534724D4F128B241"
 			rewards: [{
 				id: "53476EDA1EE1D6BF"
@@ -403,7 +389,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347141E20363CB8"
 			rewards: [{
 				id: "53475DF5EECAA006"
@@ -421,7 +406,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53471E126EEE9F63"
 			rewards: [{
 				id: "53471D1FB27489C2"
@@ -439,7 +423,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53470EE46A7F573E"
 			rewards: [{
 				id: "53471319A398EFE0"
@@ -457,7 +440,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347A50030046730"
 			rewards: [{
 				id: "53471C80A5ED6BFC"
@@ -475,7 +457,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347C3370D7773F4"
 			rewards: [{
 				id: "5347CDCD804A380E"
@@ -493,7 +474,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347B99B3C8357E3"
 			rewards: [{
 				id: "5347526762120924"
@@ -511,7 +491,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347AF26CDCDE16B"
 			rewards: [{
 				id: "534770C8B176CFA2"
@@ -529,7 +508,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53475EF1771D627A"
 			rewards: [{
 				id: "5347071CA712352B"
@@ -547,7 +525,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534744DD0137B354"
 			rewards: [{
 				id: "5347F68922A805E7"
@@ -565,7 +542,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534756ABDF07D955"
 			rewards: [{
 				id: "53474AE660FC2E24"
@@ -583,7 +559,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347D448084DCD1E"
 			rewards: [{
 				id: "5347AC562A8D126A"
@@ -601,7 +576,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534710C9FABCE2E4"
 			rewards: [{
 				id: "5347EDF82AB8F7CF"
@@ -619,7 +593,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53478C91AC1A5AEA"
 			rewards: [{
 				id: "53474CDAB1D9CEE9"
@@ -637,7 +610,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347ABD27AF64712"
 			rewards: [{
 				id: "5347FF90E33E7FFF"
@@ -655,7 +627,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347F2E9A62F4C7F"
 			rewards: [{
 				id: "5347ACDE87C86BEB"
@@ -673,7 +644,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347C13F415BBECE"
 			rewards: [{
 				id: "53474443838B0347"
@@ -691,7 +661,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534705C0FAFD5415"
 			rewards: [{
 				id: "5347A1038CA22408"
@@ -709,7 +678,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347BD4B3A3E6EFE"
 			rewards: [{
 				id: "5347DB9F94CDD4F6"
@@ -727,7 +695,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534740E07E62F08F"
 			rewards: [{
 				id: "53473E2DF9D08FB5"
@@ -745,7 +712,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347F3FCC4D0E258"
 			rewards: [{
 				id: "534763E1263E80FB"
@@ -763,7 +729,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53479AD8370EC6D7"
 			rewards: [{
 				id: "53479E1814FACF3F"
@@ -781,7 +746,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "53474B2D803889A7"
 			rewards: [{
 				id: "5347079BF1519B27"
@@ -799,7 +763,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "534755D0EBC8F4E1"
 			rewards: [{
 				id: "534779D90DEE69AA"
@@ -817,7 +780,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347CB6B2CCE6F08"
 			rewards: [{
 				id: "5347F61634A6CC0A"
@@ -835,7 +797,6 @@
 		}
 		{
 			dependencies: ["53477DA2B1E9288A"]
-			hide_dependency_lines: true
 			id: "5347AFE7A63AAD69"
 			rewards: [{
 				id: "53474DBB37DAFAEF"
@@ -1862,7 +1823,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -1890,7 +1850,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_osmium"
 			}
@@ -1918,7 +1877,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "adastramekanized:desh_ingot"
 			}
@@ -1946,7 +1904,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "irons_spellbooks:mithril_ingot"
 			}
@@ -1974,7 +1931,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "chemlibmekanized:lithium_ingot"
 			}
@@ -1995,7 +1951,6 @@
 		}
 		{
 			dependencies: ["53472F734DAFDF65"]
-			hide_dependency_lines: true
 			icon: {
 				id: "industrialforegoing:pink_slime"
 			}
@@ -2016,7 +1971,6 @@
 		}
 		{
 			dependencies: ["5347791507312AEA"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:energy_tablet"
 			}
@@ -2037,7 +1991,6 @@
 		}
 		{
 			dependencies: ["5347791507312AEA"]
-			hide_dependency_lines: true
 			icon: {
 				id: "irons_spellbooks:scroll"
 			}
@@ -2058,7 +2011,6 @@
 		}
 		{
 			dependencies: ["5347791507312AEA"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:powder_snow_bucket"
 			}
@@ -2079,7 +2031,6 @@
 		}
 		{
 			dependencies: ["5347791507312AEA"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:nether_star"
 			}

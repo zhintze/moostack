@@ -392,7 +392,6 @@
 		}
 		{
 			dependencies: ["5ACE97EE75813006"]
-			hide_dependency_lines: true
 			id: "1B5177A774FCEF64"
 			min_width: 350
 			shape: "diamond"
@@ -418,7 +417,6 @@
 		}
 		{
 			dependencies: ["5ACE97EE75813006"]
-			hide_dependency_lines: true
 			id: "7F09F8F98C13F11B"
 			shape: "diamond"
 			tasks: [
@@ -439,7 +437,6 @@
 		}
 		{
 			dependencies: ["5ACE97EE75813006"]
-			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
 			shape: "diamond"
 			tasks: [
@@ -572,7 +569,6 @@
 		}
 		{
 			dependencies: ["0D18BBB04693885A"]
-			hide_dependent_lines: true
 			id: "666EA8B8F13EB292"
 			rewards: [
 				{
@@ -726,7 +722,6 @@
 		}
 		{
 			dependencies: ["6CC5FE34778F0DFA"]
-			hide_dependent_lines: true
 			id: "42F50CE7FE715583"
 			min_width: 300
 			rewards: [
@@ -854,7 +849,6 @@
 		}
 		{
 			dependencies: ["5ACE97EE75813006"]
-			hide_dependency_lines: true
 			id: "4DF0D7B85065ADC9"
 			tasks: [{
 				id: "630455630821CAB0"
@@ -1849,7 +1843,6 @@
 		}
 		{
 			dependencies: ["2960FFE0C53DFEB1"]
-			hide_dependent_lines: true
 			id: "6FFFAE334DFAAAAB"
 			rewards: [{
 				id: "5EDBE01DE9B25580"

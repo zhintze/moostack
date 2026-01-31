@@ -229,7 +229,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "369D3AF332181DA8"
 			rewards: [{
@@ -264,7 +263,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "06044B4452A6B720"
 			rewards: [{
@@ -282,7 +280,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "264BFB8C5F79616F"
 			rewards: [{
@@ -300,7 +297,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "09FD3D0B9BCAEB5A"
 			rewards: [{
@@ -318,7 +314,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "5CC9CB0911954215"
 			rewards: [{
@@ -336,7 +331,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "79D6A251FE3761B3"
 			rewards: [{
@@ -354,7 +348,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "41CF7CAEE4F60CCD"
 			rewards: [{
@@ -372,7 +365,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "027FD9135DEC4949"
 			rewards: [{
@@ -390,7 +382,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "6D484150536536B9"
 			rewards: [{
@@ -408,7 +399,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "349D19F2FCC34B84"
 			rewards: [{
@@ -426,7 +416,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "1E9BD4B74DAEA9FC"
 			rewards: [{
@@ -444,7 +433,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			id: "3155E4212045BC8E"
 			rewards: [{
@@ -462,7 +450,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -489,7 +476,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:quartz"
 			}
@@ -511,7 +497,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:copper_ingot"
 			}
@@ -539,7 +524,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_tin"
 			}
@@ -567,7 +551,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_aluminum"
 			}
@@ -589,7 +572,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			hide_until_deps_visible: false
 			icon: {
 				id: "minecraft:gold_ingot"
@@ -612,7 +594,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:clay_ball"
 			}
@@ -688,7 +669,6 @@
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			hide_dependency_lines: true
 			id: "66324D7D0C51AEAC"
 			rewards: [
 				{
@@ -1102,7 +1082,6 @@
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:ender_pearl"
 			}
@@ -1185,7 +1164,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:cocoa_beans"
 			}
@@ -1205,7 +1183,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:blue_dye"
 			}
@@ -1400,7 +1377,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:skeleton_skull"
 			}
@@ -1442,7 +1418,6 @@
 		}
 		{
 			dependencies: ["131EC039435B8878"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:dragon_head"
 			}
@@ -1489,7 +1464,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "create:zinc_ingot"
 			}
@@ -1517,7 +1491,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_electrum"
 			}
@@ -1545,7 +1518,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:netherite_ingot"
 			}
@@ -1567,7 +1539,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_lead"
 			}
@@ -1589,7 +1560,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:blaze_powder"
 			}
@@ -1611,7 +1581,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "create:brass_ingot"
 			}
@@ -1639,7 +1608,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:oak_leaves"
 			}
@@ -1659,7 +1627,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:glowstone"
 			}
@@ -1678,7 +1645,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:wooden_sword"
 			}
@@ -1697,7 +1663,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:sugar_cane"
 			}
@@ -1716,7 +1681,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			id: "40E4F1172A164DD1"
 			rewards: [{
 				id: "69806B463D43C9FD"
@@ -1734,7 +1698,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:snowball"
 			}
@@ -1753,7 +1716,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:yellow_dye"
 			}
@@ -1772,7 +1734,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:zombie_head"
 			}
@@ -1793,7 +1754,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_bronze"
 			}
@@ -1821,7 +1781,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:coal"
 			}
@@ -1843,7 +1802,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_constantan"
 			}
@@ -1871,7 +1829,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:diamond"
 			}
@@ -1891,7 +1848,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:red_dye"
 			}
@@ -1910,7 +1866,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:ender_pearl"
 			}
@@ -1931,7 +1886,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:experience_bottle"
 			}
@@ -1953,7 +1907,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:iron_hoe"
 			}
@@ -1973,7 +1926,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_steel"
 			}
@@ -1994,7 +1946,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:oak_log"
 			}
@@ -2014,7 +1965,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:glowstone"
 			}
@@ -2041,7 +1991,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_nickel"
 			}
@@ -2063,7 +2012,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:obsidian"
 			}
@@ -2091,7 +2039,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_osmium"
 			}
@@ -2119,7 +2066,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:diamond_pickaxe"
 			}
@@ -2139,7 +2085,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_uranium"
 			}
@@ -2166,7 +2111,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "productivebees:milk_bottle"
 			}
@@ -2188,7 +2132,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:redstone_block"
 			}
@@ -2215,7 +2158,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:string"
 			}
@@ -2237,7 +2179,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_silver"
 			}
@@ -2265,7 +2206,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:ingot_steel"
 			}
@@ -2287,7 +2227,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:soul_sand"
 			}
@@ -2308,7 +2247,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:magma_block"
 			}
@@ -2329,7 +2267,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "productivebees:treat_on_a_stick"
 			}
@@ -2357,7 +2294,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:iron_shovel"
 			}
@@ -2376,7 +2312,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:amethyst_shard"
 			}
@@ -2403,7 +2338,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:brown_mushroom"
 			}
@@ -2425,7 +2359,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			id: "094D28B7A0170039"
 			subtitle: "Flower: Crimson Fungus (Check JEI)"
 			rewards: [{
@@ -2443,7 +2376,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:creeper_head"
 			}
@@ -2464,7 +2396,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:crimson_fungus"
 			}
@@ -2491,7 +2422,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "ae2:fluix_crystal"
 			}
@@ -2513,7 +2443,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:ice"
 			}
@@ -2535,7 +2464,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			id: "309059DEDEE7AECD"
 			subtitle: "Flower: Peridot blocks (Check JEI)"
 			rewards: [{
@@ -2553,7 +2481,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:emerald"
 			}
@@ -2574,7 +2501,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mysticalagriculture:prosperity_shard"
 			}
@@ -2596,7 +2522,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:red_mushroom"
 			}
@@ -2618,7 +2543,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:redstone"
 			}
@@ -2646,7 +2570,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:lapis_lazuli"
 			}
@@ -2674,7 +2597,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "mysticalagriculture:soulium_ingot"
 			}
@@ -2696,7 +2618,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:warped_fungus"
 			}
@@ -2795,7 +2716,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			id: "419DD6FE84B91749"
 			rewards: [
 				{
@@ -2823,7 +2743,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			id: "6F978C4D561F35EC"
 			rewards: [
 				{
@@ -2851,7 +2770,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			id: "7B5A0BFD47D96BDE"
 			rewards: [
 				{
@@ -2879,7 +2797,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			id: "3E301F3EEC8C763A"
 			rewards: [
 				{
@@ -2907,7 +2824,6 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			hide_dependency_lines: true
 			id: "32FDC5FFA000DAF8"
 			rewards: [
 				{
@@ -2935,7 +2851,6 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide_dependency_lines: true
 			id: "160BD0185954C891"
 			rewards: [{
 				id: "76C1F3990EFECFDB"
@@ -3083,7 +2998,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
 			icon: {
 				id: "megacells:sky_steel_ingot"
 			}
@@ -3116,8 +3030,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:lava_bucket"
 			}
@@ -3138,8 +3050,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ars_nouveau:source_gem"
 			}
@@ -3161,8 +3071,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "megacells:sky_osmium_ingot"
 			}
@@ -3184,8 +3092,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:dust_sulfur"
 			}
@@ -3207,8 +3113,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "silentgear:crimson_iron_ingot"
 			}
@@ -3230,8 +3134,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:redstone"
 			}
@@ -3253,8 +3155,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:redstone"
 			}
@@ -3276,8 +3176,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ae2:certus_quartz_crystal"
 			}
@@ -3299,8 +3197,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "create_enchantment_industry:super_experience_nugget"
 			}
@@ -3322,8 +3218,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ae2:certus_quartz_crystal"
 			}
@@ -3345,8 +3239,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -3361,8 +3253,6 @@
 				id: "4814F40AAEFE50B4"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:glowstone_dust"
 			}
@@ -3377,8 +3267,6 @@
 				id: "343F5CE5124C58E4"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -3393,8 +3281,6 @@
 				id: "12C532235F31D1E0"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -3409,8 +3295,6 @@
 				id: "06BE87B101BE8F8A"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -3425,8 +3309,6 @@
 				id: "6E847E67C6408FD8"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "pneumaticcraft:ingot_iron_compressed"
 			}
@@ -3448,8 +3330,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:ingot_steel"
 			}
@@ -3464,8 +3344,6 @@
 				id: "187A3F4ED46B2D6D"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:inferium_essence"
 			}
@@ -3487,8 +3365,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:prudentium_essence"
 			}
@@ -3510,8 +3386,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:tertium_essence"
 			}
@@ -3533,8 +3407,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:imperium_essence"
 			}
@@ -3556,8 +3428,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:awakened_supremium_essence"
 			}
@@ -3579,8 +3449,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagradditions:insanium_essence"
 			}
@@ -3602,8 +3470,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:soulium_ingot"
 			}
@@ -3624,8 +3490,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ars_nouveau:air_essence"
 			}
@@ -3647,8 +3511,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ars_nouveau:water_essence"
 			}
@@ -3670,8 +3532,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ars_nouveau:fire_essence"
 			}
@@ -3693,8 +3553,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ars_nouveau:earth_essence"
 			}
@@ -3716,8 +3574,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ae2:fluix_crystal"
 			}
@@ -3732,8 +3588,6 @@
 				id: "1A62D744CFE59EEA"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:fluorite_gem"
 			}
@@ -3755,8 +3609,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:lithium_bucket"
 			}
@@ -3778,8 +3630,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:ingot_refined_obsidian"
 			}
@@ -3801,8 +3651,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:ingot_refined_glowstone"
 			}
@@ -3824,8 +3672,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "evilcraft:blood_orb_filled"
 			}
@@ -3847,8 +3693,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:blaze_rod"
 			}
@@ -3869,8 +3713,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:breeze_rod"
 			}
@@ -3892,8 +3734,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:echo_shard"
 			}
@@ -3915,8 +3755,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:lava_bucket"
 			}
@@ -3938,8 +3776,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "ae2:silicon"
 			}
@@ -3961,8 +3797,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "immersiveengineering:ingot_hop_graphite"
 			}
@@ -3984,8 +3818,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "create:rose_quartz"
 			}
@@ -4007,8 +3839,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "irons_spellbooks:arcane_essence"
 			}
@@ -4030,8 +3860,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mysticalagriculture:supremium_essence"
 			}
@@ -4053,8 +3881,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "tombstone:grave_dust"
 			}
@@ -4076,8 +3902,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "occultism:iesnium_ingot"
 			}
@@ -4099,8 +3923,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "create:builders_tea"
 			}
@@ -4122,8 +3944,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:quartz"
 			}
@@ -4145,8 +3965,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:prismarine_shard"
 			}
@@ -4168,8 +3986,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "industrialforegoing:plastic"
 			}
@@ -4191,8 +4007,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:torchflower"
 			}
@@ -4213,8 +4027,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "rftoolsbase:dimensionalshard"
 			}
@@ -4235,8 +4047,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "evilcraft:dark_gem"
 			}
@@ -4253,8 +4063,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "industrialforegoing:ether_gas_bucket"
 			}
@@ -4271,8 +4079,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "megacells:sky_bronze_ingot"
 			}
@@ -4289,8 +4095,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "bloodmagic:reagent_lava"
 			}
@@ -4307,8 +4111,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "bloodmagic:blood_orb_filled"
 			}
@@ -4318,8 +4120,6 @@
 				id: "57021DDD76099849"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "bloodmagic:blood_orb_filled"
 			}
@@ -4329,8 +4129,6 @@
 				id: "26282CB87B13A566"
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "industrialforegoing:pink_slime"
 			}
@@ -4347,8 +4145,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "silentgear:azure_silver_ingot"
 			}
@@ -4365,8 +4161,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "aquaculture:neptunium_ingot"
 			}
@@ -4383,8 +4177,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:cyan_dye"
 			}
@@ -4401,8 +4193,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:black_dye"
 			}
@@ -4419,8 +4209,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:lime_dye"
 			}
@@ -4437,8 +4225,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:magenta_dye"
 			}
@@ -4455,8 +4241,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:brown_dye"
 			}
@@ -4473,8 +4257,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:cyan_dye"
 			}
@@ -4491,8 +4273,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:blue_dye"
 			}
@@ -4509,8 +4289,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:gray_dye"
 			}
@@ -4527,8 +4305,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:green_dye"
 			}
@@ -4545,8 +4321,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:red_dye"
 			}
@@ -4563,8 +4337,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:light_gray_dye"
 			}
@@ -4581,8 +4353,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:purple_dye"
 			}
@@ -4599,8 +4369,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:orange_dye"
 			}
@@ -4617,8 +4385,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:pink_dye"
 			}
@@ -4635,8 +4401,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:purple_dye"
 			}
@@ -4653,8 +4417,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:red_dye"
 			}
@@ -4671,8 +4433,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:white_dye"
 			}
@@ -4689,8 +4449,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "minecraft:yellow_dye"
 			}
@@ -4707,8 +4465,6 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				id: "mekanism:pellet_antimatter"
 			}

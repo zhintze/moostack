@@ -457,7 +457,6 @@
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			hide_dependency_lines: true
 			id: "74FC0DDDB91DB172"
 			rewards: [
 				{
@@ -487,7 +486,6 @@
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			hide_dependency_lines: true
 			id: "51DE3157DE3E57B8"
 			rewards: [
 				{
@@ -1840,7 +1838,6 @@
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			hide_dependency_lines: true
 			id: "2B31E6C1707D8195"
 			rewards: [
 				{
@@ -1876,7 +1873,6 @@
 		}
 		{
 			dependencies: ["2FB231069D2E4E77"]
-			hide_dependency_lines: true
 			id: "5BB887411B8B38FA"
 			rewards: [
 				{

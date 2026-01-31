@@ -107,7 +107,6 @@
 	quests: [
 		{
 			dependencies: ["7276892E129A739B"]
-			hide_dependency_lines: true
 			id: "371A34B297C8A8EF"
 			min_width: 250
 			rewards: [
@@ -1096,7 +1095,6 @@
 		}
 		{
 			dependencies: ["2AED15E3AC0346FE"]
-			hide_dependent_lines: true
 			id: "2C5D78630C7AD57F"
 			rewards: [{
 				id: "58C356FB50435D7E"
@@ -1114,7 +1112,6 @@
 		}
 		{
 			dependencies: ["2AED15E3AC0346FE"]
-			hide_dependent_lines: true
 			id: "74AE214747A3DB1A"
 			rewards: [{
 				id: "3EFD52488167EF30"
@@ -1132,7 +1129,6 @@
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "pneumaticcraft:upgrade_matrix"
@@ -1236,7 +1232,6 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			hide_dependency_lines: true
 			id: "7D81F2381516204D"
 			rewards: [
 				{
@@ -1261,7 +1256,6 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			hide_dependency_lines: true
 			id: "15D355EB164EBE68"
 			rewards: [
 				{
@@ -1592,7 +1586,6 @@
 		}
 		{
 			dependencies: ["1427B3AB09510D20"]
-			hide_dependent_lines: true
 			id: "09BA45CBBFB4AE26"
 			rewards: [
 				{
@@ -1891,7 +1884,6 @@
 		}
 		{
 			dependencies: ["1427B3AB09510D20"]
-			hide_dependent_lines: true
 			icon: {
 				id: "pneumaticcraft:pneumatic_chestplate"
 			}
