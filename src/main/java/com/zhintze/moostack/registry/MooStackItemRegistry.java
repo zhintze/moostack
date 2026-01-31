@@ -1,5 +1,6 @@
 package com.zhintze.moostack.registry;
 
+import com.zhintze.moostack.item.ClassRegistryItem;
 import com.zhintze.moostack.item.LootCrateItem;
 import com.zhintze.moostack.lootcrate.LootCrateTier;
 import com.zhintze.moostack.mooStack;
@@ -54,4 +55,8 @@ public class MooStackItemRegistry {
 
     public static final DeferredHolder<Item, LootCrateItem> LOOT_CRATE_LEGENDARY_GAMBLE = ITEMS.register("loot_crate_legendary_gamble",
         () -> new LootCrateItem(LootCrateTier.LEGENDARY, new Item.Properties(), true, RISK_REWARD_CATEGORY));
+
+    // Class Registry Item - Opens GUI for selecting starter role/class
+    public static final DeferredHolder<Item, ClassRegistryItem> CLASS_REGISTRY = ITEMS.register("class_registry",
+        () -> new ClassRegistryItem(new Item.Properties()));
 }
