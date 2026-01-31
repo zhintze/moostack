@@ -7,17 +7,15 @@
 		id: "mekanism:steel_casing"
 	}
 	id: "23983F4DC524B14B"
-	images: [
-		{
-			height: 1.0d
-			image: "mekanismtools:item/osmium/paxel"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: -3.0d
-		}
-	]
-	order_index: 4
+	images: [{
+		height: 1.0d
+		image: "mekanismtools:item/osmium/paxel"
+		rotation: 0.0d
+		width: 1.0d
+		x: -8.5d
+		y: -3.0d
+	}]
+	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -922,8 +920,10 @@
 			]
 			shape: "circle"
 			tasks: [{
+				icon: {
+					id: "mekanism:enriched_redstone"
+				}
 				id: "4B60ACBCC3B46D1D"
-				icon: { id: "mekanism:enriched_redstone" }
 				item: { count: 1, id: "mekanism:enriched_redstone" }
 				type: "item"
 			}]
@@ -1793,8 +1793,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_universal_cable"
+				}
 				id: "6877D91D6603E4FD"
-				icon: { id: "mekanism:basic_universal_cable" }
 				item: { count: 1, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
@@ -1829,8 +1831,10 @@
 			]
 			shape: "rsquare"
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_energy_cube"
+				}
 				id: "03C590DB786810FB"
-				icon: { id: "mekanism:basic_energy_cube" }
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
 				type: "item"
 			}]
@@ -1863,8 +1867,10 @@
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_mechanical_pipe"
+				}
 				id: "4632192573FD8501"
-				icon: { id: "mekanism:basic_mechanical_pipe" }
 				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
 				type: "item"
 			}]
@@ -1897,8 +1903,10 @@
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_pressurized_tube"
+				}
 				id: "50795B2B2A320D16"
-				icon: { id: "mekanism:basic_pressurized_tube" }
 				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 				type: "item"
 			}]
@@ -1931,8 +1939,10 @@
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_logistical_transporter"
+				}
 				id: "6B24D8667BC856A3"
-				icon: { id: "mekanism:basic_logistical_transporter" }
 				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
 				type: "item"
 			}]
@@ -1965,8 +1975,10 @@
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_thermodynamic_conductor"
+				}
 				id: "36B9FB74D9BF26E4"
-				icon: { id: "mekanism:basic_thermodynamic_conductor" }
 				item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
 				type: "item"
 			}]
@@ -1998,8 +2010,10 @@
 			]
 			size: 1.1d
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_tier_installer"
+				}
 				id: "09788D3638E59F3B"
-				icon: { id: "mekanism:basic_tier_installer" }
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
@@ -2030,8 +2044,10 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_chemical_tank"
+				}
 				id: "16E5E87F1CAC042A"
-				icon: { id: "mekanism:basic_chemical_tank" }
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
 				type: "item"
 			}]
@@ -2062,8 +2078,10 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_fluid_tank"
+				}
 				id: "68C11540A9010775"
-				icon: { id: "mekanism:basic_fluid_tank" }
 				item: { count: 1, id: "mekanism:basic_fluid_tank" }
 				type: "item"
 			}]
@@ -2094,8 +2112,10 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					id: "mekanism:basic_bin"
+				}
 				id: "11EF7663818B6CC6"
-				icon: { id: "mekanism:basic_bin" }
 				item: { count: 1, id: "mekanism:basic_bin" }
 				type: "item"
 			}]
@@ -2158,8 +2178,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "mekanism:personal_chest"
+				}
 				id: "2C1B1D314E190B80"
-				icon: { id: "mekanism:personal_chest" }
 				item: { count: 1, id: "mekanism:personal_chest" }
 				type: "item"
 			}]
@@ -2225,14 +2247,18 @@
 			size: 1.25d
 			tasks: [
 				{
+					icon: {
+						id: "mekanism:enrichment_chamber"
+					}
 					id: "4558919345C3BE5D"
-					icon: { id: "mekanism:enrichment_chamber" }
 					item: { count: 1, id: "mekanism:enrichment_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:energized_smelter"
+					}
 					id: "4B6C5B2099B18AB7"
-					icon: { id: "mekanism:energized_smelter" }
 					item: { count: 1, id: "mekanism:energized_smelter" }
 					type: "item"
 				}
@@ -2287,8 +2313,10 @@
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:purification_chamber"
+					}
 					id: "564D0E533237E951"
-					icon: { id: "mekanism:purification_chamber" }
 					item: { count: 1, id: "mekanism:purification_chamber" }
 					type: "item"
 				}
@@ -2329,20 +2357,26 @@
 			size: 1.25d
 			tasks: [
 				{
+					icon: {
+						id: "mekanism:crusher"
+					}
 					id: "35A07C18FFEEB872"
-					icon: { id: "mekanism:crusher" }
 					item: { count: 1, id: "mekanism:crusher" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:enrichment_chamber"
+					}
 					id: "091B97D20403D516"
-					icon: { id: "mekanism:enrichment_chamber" }
 					item: { count: 1, id: "mekanism:enrichment_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:energized_smelter"
+					}
 					id: "6CB34AE622DF9CC2"
-					icon: { id: "mekanism:energized_smelter" }
 					item: { count: 1, id: "mekanism:energized_smelter" }
 					type: "item"
 				}
@@ -2616,26 +2650,34 @@
 			size: 1.25d
 			tasks: [
 				{
+					icon: {
+						id: "mekanism:purification_chamber"
+					}
 					id: "4E0A3C347EDD235A"
-					icon: { id: "mekanism:purification_chamber" }
 					item: { count: 1, id: "mekanism:purification_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:crusher"
+					}
 					id: "62E0C347DC32EA77"
-					icon: { id: "mekanism:crusher" }
 					item: { count: 1, id: "mekanism:crusher" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:enrichment_chamber"
+					}
 					id: "2068F53F091BFD5A"
-					icon: { id: "mekanism:enrichment_chamber" }
 					item: { count: 1, id: "mekanism:enrichment_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:energized_smelter"
+					}
 					id: "17C665008B4C0CD7"
-					icon: { id: "mekanism:energized_smelter" }
 					item: { count: 1, id: "mekanism:energized_smelter" }
 					type: "item"
 				}
@@ -2900,26 +2942,34 @@
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:purification_chamber"
+					}
 					id: "729C1974AE346ECA"
-					icon: { id: "mekanism:purification_chamber" }
 					item: { count: 1, id: "mekanism:purification_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:crusher"
+					}
 					id: "591B93F4B6397821"
-					icon: { id: "mekanism:crusher" }
 					item: { count: 1, id: "mekanism:crusher" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:enrichment_chamber"
+					}
 					id: "4C0098C62CDF1FF9"
-					icon: { id: "mekanism:enrichment_chamber" }
 					item: { count: 1, id: "mekanism:enrichment_chamber" }
 					type: "item"
 				}
 				{
+					icon: {
+						id: "mekanism:energized_smelter"
+					}
 					id: "7EA092725A784CA7"
-					icon: { id: "mekanism:energized_smelter" }
 					item: { count: 1, id: "mekanism:energized_smelter" }
 					type: "item"
 				}
@@ -3336,8 +3386,10 @@
 			]
 			shape: "circle"
 			tasks: [{
+				icon: {
+					id: "mekanism:dust_iron"
+				}
 				id: "6DCF32EB40B8E9C6"
-				icon: { id: "mekanism:dust_iron" }
 				item: { count: 1, id: "mekanism:dust_iron" }
 				type: "item"
 			}]

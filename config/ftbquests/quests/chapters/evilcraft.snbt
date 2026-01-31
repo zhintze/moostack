@@ -2,6 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evilcraft"
+	group: ""
 	icon: {
 		id: "evilcraft:dark_power_gem"
 	}
@@ -193,7 +194,7 @@
 			y: 7.5d
 		}
 	]
-	order_index: 10
+	order_index: 15
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -230,8 +231,12 @@
 			min_width: 250
 			rewards: [
 				{
+					count: 2
 					id: "68A639B9333CF67A"
-					item: { count: 2, id: "evilcraft:dark_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_gem"
+					}
 					type: "item"
 				}
 				{
@@ -261,7 +266,10 @@
 			rewards: [
 				{
 					id: "3A6E9003F2FD8C46"
-					item: { count: 1, id: "evilcraft:dark_power_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_power_gem"
+					}
 					type: "item"
 				}
 				{
@@ -291,8 +299,12 @@
 			id: "64EC182B81BD8B86"
 			rewards: [
 				{
+					count: 3
 					id: "5E6192ED170F229D"
-					item: { count: 3, id: "evilcraft:hardened_blood_shard" }
+					item: {
+						count: 1
+						id: "evilcraft:hardened_blood_shard"
+					}
 					type: "item"
 				}
 				{
@@ -315,7 +327,10 @@
 			rewards: [
 				{
 					id: "44625B1541223CA1"
-					item: { count: 1, id: "evilcraft:hardened_blood" }
+					item: {
+						count: 1
+						id: "evilcraft:hardened_blood"
+					}
 					type: "item"
 				}
 				{
@@ -339,7 +354,10 @@
 			rewards: [
 				{
 					id: "76247B34BA8841F5"
-					item: { count: 1, id: "evilcraft:blood_infusion_core" }
+					item: {
+						count: 1
+						id: "evilcraft:blood_infusion_core"
+					}
 					type: "item"
 				}
 				{
@@ -366,8 +384,12 @@
 			id: "68318811CCC28320"
 			rewards: [
 				{
+					count: 2
 					id: "7E8C0796053AB9AA"
-					item: { count: 2, id: "evilcraft:dark_power_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_power_gem"
+					}
 					type: "item"
 				}
 				{
@@ -391,8 +413,12 @@
 			id: "40888A2C17D8FFF6"
 			rewards: [
 				{
+					count: 4
 					id: "0B38EF65658C1532"
-					item: { count: 4, id: "evilcraft:undead_log" }
+					item: {
+						count: 1
+						id: "evilcraft:undead_log"
+					}
 					type: "item"
 				}
 				{
@@ -416,7 +442,10 @@
 			rewards: [
 				{
 					id: "47FA0303A49EF4AB"
-					item: { count: 1, id: "evilcraft:bowl_of_promises_dusted" }
+					item: {
+						count: 1
+						id: "evilcraft:bowl_of_promises_dusted"
+					}
 					type: "item"
 				}
 				{
@@ -448,7 +477,10 @@
 			rewards: [
 				{
 					id: "66D8E6770DE504C4"
-					item: { count: 1, id: "evilcraft:blook" }
+					item: {
+						count: 1
+						id: "evilcraft:blook"
+					}
 					type: "item"
 				}
 				{
@@ -473,8 +505,12 @@
 			id: "5A8F4CA0F09F4842"
 			rewards: [
 				{
+					count: 2
 					id: "6B8CFD89C44EE579"
-					item: { count: 2, id: "evilcraft:blook" }
+					item: {
+						count: 1
+						id: "evilcraft:blook"
+					}
 					type: "item"
 				}
 				{
@@ -504,7 +540,10 @@
 			rewards: [
 				{
 					id: "26305D52195E181F"
-					item: { count: 1, id: "evilcraft:promise_speed_0" }
+					item: {
+						count: 1
+						id: "evilcraft:promise_speed_0"
+					}
 					type: "item"
 				}
 				{
@@ -527,7 +566,10 @@
 			rewards: [
 				{
 					id: "0ADEE4AC605B5251"
-					item: { count: 1, id: "evilcraft:promise_efficiency_0" }
+					item: {
+						count: 1
+						id: "evilcraft:promise_efficiency_0"
+					}
 					type: "item"
 				}
 				{
@@ -552,8 +594,12 @@
 			id: "51B24CC5E9332C1E"
 			rewards: [
 				{
+					count: 2
 					id: "371B644C835C30EA"
-					item: { count: 2, id: "evilcraft:vengeance_essence" }
+					item: {
+						count: 1
+						id: "evilcraft:vengeance_essence"
+					}
 					type: "item"
 				}
 				{
@@ -584,7 +630,10 @@
 			rewards: [
 				{
 					id: "573FDF001F9F1AB9"
-					item: { count: 1, id: "evilcraft:promise_tier_2" }
+					item: {
+						count: 1
+						id: "evilcraft:promise_tier_2"
+					}
 					type: "item"
 				}
 				{
@@ -616,7 +665,10 @@
 			rewards: [
 				{
 					id: "44939D4BC9B8C136"
-					item: { count: 1, id: "evilcraft:promise_tier_3" }
+					item: {
+						count: 1
+						id: "evilcraft:promise_tier_3"
+					}
 					type: "item"
 				}
 				{
@@ -651,7 +703,10 @@
 			rewards: [
 				{
 					id: "6C8AB2D94C6D46E8"
-					item: { count: 1, id: "evilcraft:potentia_sphere" }
+					item: {
+						count: 1
+						id: "evilcraft:potentia_sphere"
+					}
 					type: "item"
 				}
 				{
@@ -676,7 +731,10 @@
 			rewards: [
 				{
 					id: "6DE5EF50466DE181"
-					item: { count: 1, id: "evilcraft:dark_tank" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_tank"
+					}
 					type: "item"
 				}
 				{
@@ -699,8 +757,12 @@
 			id: "10EF30B919EBA5C6"
 			rewards: [
 				{
+					count: 5
 					id: "49514B79612E46EE"
-					item: { count: 5, id: "evilcraft:condensed_blood" }
+					item: {
+						count: 1
+						id: "evilcraft:condensed_blood"
+					}
 					type: "item"
 				}
 				{
@@ -731,8 +793,12 @@
 			min_width: 400
 			rewards: [
 				{
+					count: 8
 					id: "568E7C5C4146D8E5"
-					item: { count: 8, id: "evilcraft:dark_blood_brick" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_blood_brick"
+					}
 					type: "item"
 				}
 				{
@@ -769,7 +835,10 @@
 			rewards: [
 				{
 					id: "360DC9C044020E82"
-					item: { count: 1, id: "evilcraft:box_of_eternal_closure" }
+					item: {
+						count: 1
+						id: "evilcraft:box_of_eternal_closure"
+					}
 					type: "item"
 				}
 				{
@@ -801,8 +870,12 @@
 			min_width: 250
 			rewards: [
 				{
+					count: 8
 					id: "672BA4DEED784CF4"
-					item: { count: 8, id: "evilcraft:reinforced_undead_planks" }
+					item: {
+						count: 1
+						id: "evilcraft:reinforced_undead_planks"
+					}
 					type: "item"
 				}
 				{
@@ -853,8 +926,12 @@
 			id: "1F8BC2A4CF055038"
 			rewards: [
 				{
+					count: 3
 					id: "554D5EE941EE322B"
-					item: { count: 3, id: "evilcraft:dark_power_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_power_gem"
+					}
 					type: "item"
 				}
 				{
@@ -879,7 +956,10 @@
 			rewards: [
 				{
 					id: "1C16FB83FC2C48D8"
-					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					item: {
+						count: 1
+						id: "evilcraft:vengeance_essence"
+					}
 					type: "item"
 				}
 				{
@@ -903,8 +983,12 @@
 			id: "77B5B23A2C01ED7E"
 			rewards: [
 				{
+					count: 2
 					id: "5CE88E4321FDC29D"
-					item: { count: 2, id: "evilcraft:dark_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_gem"
+					}
 					type: "item"
 				}
 				{
@@ -935,8 +1019,12 @@
 			id: "0EAF01037BB20BCB"
 			rewards: [
 				{
+					count: 2
 					id: "0F9E9A689CB9EB9B"
-					item: { count: 2, id: "evilcraft:vengeance_essence" }
+					item: {
+						count: 1
+						id: "evilcraft:vengeance_essence"
+					}
 					type: "item"
 				}
 				{
@@ -961,7 +1049,10 @@
 			rewards: [
 				{
 					id: "43081F29A68EBFD2"
-					item: { count: 1, id: "evilcraft:blood_infusion_core" }
+					item: {
+						count: 1
+						id: "evilcraft:blood_infusion_core"
+					}
 					type: "item"
 				}
 				{
@@ -986,7 +1077,10 @@
 			rewards: [
 				{
 					id: "7550681DD0E5FD51"
-					item: { count: 1, id: "evilcraft:lightning_bomb" }
+					item: {
+						count: 1
+						id: "evilcraft:lightning_bomb"
+					}
 					type: "item"
 				}
 				{
@@ -1014,7 +1108,10 @@
 			rewards: [
 				{
 					id: "1AB90DDE4440B364"
-					item: { count: 1, id: "evilcraft:garmonbozia" }
+					item: {
+						count: 1
+						id: "evilcraft:garmonbozia"
+					}
 					type: "item"
 				}
 				{
@@ -1040,7 +1137,10 @@
 			rewards: [
 				{
 					id: "6DFBE422C6545BE7"
-					item: { count: 1, id: "evilcraft:potentia_sphere" }
+					item: {
+						count: 1
+						id: "evilcraft:potentia_sphere"
+					}
 					type: "item"
 				}
 				{
@@ -1065,7 +1165,10 @@
 			rewards: [
 				{
 					id: "675EB694BFF6A574"
-					item: { count: 1, id: "evilcraft:garmonbozia" }
+					item: {
+						count: 1
+						id: "evilcraft:garmonbozia"
+					}
 					type: "item"
 				}
 				{
@@ -1089,8 +1192,12 @@
 			optional: true
 			rewards: [
 				{
+					count: 2
 					id: "6B1BBF8109E3F2EE"
-					item: { count: 2, id: "evilcraft:dark_gem" }
+					item: {
+						count: 1
+						id: "evilcraft:dark_gem"
+					}
 					type: "item"
 				}
 				{
@@ -1115,7 +1222,10 @@
 			rewards: [
 				{
 					id: "7D18B5A66930E721"
-					item: { count: 1, id: "evilcraft:potentia_sphere" }
+					item: {
+						count: 1
+						id: "evilcraft:potentia_sphere"
+					}
 					type: "item"
 				}
 				{
@@ -1140,7 +1250,10 @@
 			rewards: [
 				{
 					id: "7F54304620806180"
-					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					item: {
+						count: 1
+						id: "evilcraft:vengeance_essence"
+					}
 					type: "item"
 				}
 				{
@@ -1165,7 +1278,10 @@
 			rewards: [
 				{
 					id: "760AD75578DBD632"
-					item: { count: 1, id: "evilcraft:garmonbozia" }
+					item: {
+						count: 1
+						id: "evilcraft:garmonbozia"
+					}
 					type: "item"
 				}
 				{
@@ -1189,7 +1305,10 @@
 			rewards: [
 				{
 					id: "2ECFFB8411381D71"
-					item: { count: 1, id: "evilcraft:bucket_eternal_water" }
+					item: {
+						count: 1
+						id: "evilcraft:bucket_eternal_water"
+					}
 					type: "item"
 				}
 				{
@@ -1219,8 +1338,12 @@
 			id: "674E2690D66ECD6E"
 			rewards: [
 				{
+					count: 2
 					id: "17BC594F3F5C9BB8"
-					item: { count: 2, id: "evilcraft:lightning_bomb" }
+					item: {
+						count: 1
+						id: "evilcraft:lightning_bomb"
+					}
 					type: "item"
 				}
 				{
@@ -1254,7 +1377,10 @@
 			rewards: [
 				{
 					id: "290DB812ABB16767"
-					item: { count: 1, id: "evilcraft:spiked_plate" }
+					item: {
+						count: 1
+						id: "evilcraft:spiked_plate"
+					}
 					type: "item"
 				}
 				{
@@ -1284,8 +1410,12 @@
 			id: "753B3EF7CC94A6DD"
 			rewards: [
 				{
+					count: 5
 					id: "3D72ED29A2BB3DC3"
-					item: { count: 5, id: "evilcraft:condensed_blood" }
+					item: {
+						count: 1
+						id: "evilcraft:condensed_blood"
+					}
 					type: "item"
 				}
 				{
@@ -1307,8 +1437,12 @@
 			id: "026A71F98A52E3A5"
 			rewards: [
 				{
+					count: 5
 					id: "430A39CF81717C45"
-					item: { count: 5, id: "evilcraft:condensed_blood" }
+					item: {
+						count: 1
+						id: "evilcraft:condensed_blood"
+					}
 					type: "item"
 				}
 				{
@@ -1330,8 +1464,12 @@
 			id: "7B524DAD8A33BF85"
 			rewards: [
 				{
+					count: 5
 					id: "46772D344620C96B"
-					item: { count: 5, id: "evilcraft:condensed_blood" }
+					item: {
+						count: 1
+						id: "evilcraft:condensed_blood"
+					}
 					type: "item"
 				}
 				{
@@ -1358,8 +1496,12 @@
 			id: "28BF66D1B8CD4D44"
 			rewards: [
 				{
+					count: 8
 					id: "7D95900A89F13F46"
-					item: { count: 8, id: "evilcraft:undead_log" }
+					item: {
+						count: 1
+						id: "evilcraft:undead_log"
+					}
 					type: "item"
 				}
 				{

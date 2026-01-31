@@ -7,27 +7,22 @@
 		id: "ars_nouveau:source_gem"
 	}
 	id: "6AEDA2F9BEB57759"
-	order_index: 3
+	order_index: 5
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
-		// ==========================================
-		// SECTION 1: GETTING STARTED (4 quests)
-		// ==========================================
 		{
-			icon: { id: "ars_nouveau:worn_notebook" }
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
 			id: "5501000000000001"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "5501000000010001"
-				item: { id: "minecraft:book" }
-				type: "item"
-			}]
 			rewards: [
 				{
 					id: "5501000000010101"
-					item: { id: "ars_nouveau:worn_notebook" }
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
 					type: "item"
 				}
 				{
@@ -36,21 +31,28 @@
 					xp: 10
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5501000000010001"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
+			}]
 			x: -8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5501000000000001"]
 			id: "5501000000000002"
-			tasks: [{
-				id: "5501000000020001"
-				item: { id: "ars_nouveau:novice_spell_book" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5501000000020101"
 				type: "xp"
 				xp: 50
+			}]
+			tasks: [{
+				id: "5501000000020001"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
 			}]
 			x: -6.0d
 			y: 0.0d
@@ -58,15 +60,13 @@
 		{
 			dependencies: ["5501000000000001"]
 			id: "5501000000000003"
-			tasks: [{
-				id: "5501000000030001"
-				item: { id: "ars_nouveau:blue_archwood_log" }
-				type: "item"
-			}]
 			rewards: [
 				{
 					id: "5501000000030101"
-					item: { id: "ars_nouveau:blue_archwood_sapling" }
+					item: {
+						count: 1
+						id: "ars_nouveau:blue_archwood_sapling"
+					}
 					type: "item"
 				}
 				{
@@ -75,42 +75,44 @@
 					xp: 25
 				}
 			]
+			tasks: [{
+				id: "5501000000030001"
+				item: { count: 1, id: "ars_nouveau:blue_archwood_log" }
+				type: "item"
+			}]
 			x: -8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5501000000000003"]
 			id: "5501000000000004"
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "5501000000040001"
-				item: { id: "ars_nouveau:scribes_table" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5501000000040101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5501000000040001"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
 			x: -6.0d
 			y: -2.0d
 		}
-		// ==========================================
-		// SECTION 2: SOURCE INFRASTRUCTURE (6 quests)
-		// ==========================================
 		{
 			dependencies: ["5501000000000003"]
 			id: "5002000000000001"
-			tasks: [{
-				id: "5002000000010001"
-				item: { id: "ars_nouveau:imbuement_chamber" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5002000000010101"
 				type: "xp"
 				xp: 50
+			}]
+			tasks: [{
+				id: "5002000000010001"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
 			}]
 			x: -8.0d
 			y: -4.0d
@@ -118,16 +120,13 @@
 		{
 			dependencies: ["5002000000000001"]
 			id: "5002000000000002"
-			tasks: [{
-				id: "5002000000020001"
-				count: 2L
-				item: { id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
 			rewards: [
 				{
 					id: "5002000000020101"
-					item: { id: "ars_nouveau:source_gem" }
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -137,22 +136,28 @@
 					xp: 75
 				}
 			]
+			tasks: [{
+				count: 2L
+				id: "5002000000020001"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5002000000000002"]
 			id: "5002000000000003"
-			tasks: [{
-				id: "5002000000030001"
-				count: 8L
-				item: { id: "ars_nouveau:sourcestone" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5002000000030101"
 				type: "xp"
 				xp: 25
+			}]
+			tasks: [{
+				count: 8L
+				id: "5002000000030001"
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
+				type: "item"
 			}]
 			x: -4.0d
 			y: -4.0d
@@ -160,16 +165,16 @@
 		{
 			dependencies: ["5002000000000003"]
 			id: "5002000000000004"
-			tasks: [{
-				id: "5002000000040001"
-				count: 8L
-				item: { id: "ars_nouveau:arcane_pedestal" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5002000000040101"
 				type: "xp"
 				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "5002000000040001"
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+				type: "item"
 			}]
 			x: -2.0d
 			y: -4.0d
@@ -177,40 +182,38 @@
 		{
 			dependencies: ["5002000000000004"]
 			id: "5002000000000005"
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [
-				{
-					id: "5002000000050001"
-					item: { id: "ars_nouveau:enchanting_apparatus" }
-					type: "item"
-				}
-				{
-					id: "5002000000050002"
-					item: { id: "ars_nouveau:arcane_core" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5002000000050101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5002000000050001"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "5002000000050002"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5002000000000002"]
 			id: "5002000000000006"
-			tasks: [{
-				id: "5002000000060001"
-				item: { id: "ars_nouveau:source_jar" }
-				type: "item"
-			}]
 			rewards: [
 				{
 					id: "5002000000060101"
-					item: { id: "ars_nouveau:source_jar" }
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
 					type: "item"
 				}
 				{
@@ -219,26 +222,29 @@
 					xp: 50
 				}
 			]
+			tasks: [{
+				id: "5002000000060001"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
 			x: -6.0d
 			y: -6.0d
 		}
-		// ==========================================
-		// SECTION 3: GLYPH TIERS (12 quests)
-		// ==========================================
-		// Tier 1
 		{
 			dependencies: ["5501000000000004"]
+			icon: {
+				id: "ars_nouveau:glyph_break"
+			}
 			id: "5003000000000001"
-			shape: "hexagon"
-			icon: { id: "ars_nouveau:glyph_break" }
-			tasks: [{
-				id: "5003000000010001"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "5003000000010101"
 				type: "xp"
 				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5003000000010001"
+				type: "checkmark"
 			}]
 			x: -4.0d
 			y: -2.0d
@@ -246,89 +252,94 @@
 		{
 			dependencies: ["5003000000000001"]
 			id: "5003000000000002"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000020001"
-					item: { id: "ars_nouveau:glyph_break" }
-					type: "item"
-				}
-				{
-					id: "5003000000020002"
-					item: { id: "ars_nouveau:glyph_harm" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000020101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000020001"
+					item: { count: 1, id: "ars_nouveau:glyph_break" }
+					type: "item"
+				}
+				{
+					id: "5003000000020002"
+					item: { count: 1, id: "ars_nouveau:glyph_harm" }
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5003000000000001"]
 			id: "5003000000000003"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000030001"
-					item: { id: "ars_nouveau:glyph_light" }
-					type: "item"
-				}
-				{
-					id: "5003000000030002"
-					item: { id: "ars_nouveau:glyph_pickup" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000030101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000030001"
+					item: { count: 1, id: "ars_nouveau:glyph_light" }
+					type: "item"
+				}
+				{
+					id: "5003000000030002"
+					item: { count: 1, id: "ars_nouveau:glyph_pickup" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5003000000000001"]
 			id: "5003000000000004"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000040001"
-					item: { id: "ars_nouveau:glyph_leap" }
-					type: "item"
-				}
-				{
-					id: "5003000000040002"
-					item: { id: "ars_nouveau:glyph_launch" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000040101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000040001"
+					item: { count: 1, id: "ars_nouveau:glyph_leap" }
+					type: "item"
+				}
+				{
+					id: "5003000000040002"
+					item: { count: 1, id: "ars_nouveau:glyph_launch" }
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 1.0d
 		}
-		// Tier 2
 		{
-			dependencies: ["5003000000000002", "5003000000000003", "5003000000000004"]
+			dependencies: [
+				"5003000000000002"
+				"5003000000000003"
+				"5003000000000004"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_explosion"
+			}
 			id: "5003000000000005"
-			shape: "hexagon"
-			icon: { id: "ars_nouveau:glyph_explosion" }
-			tasks: [{
-				id: "5003000000050001"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "5003000000050101"
 				type: "xp"
 				xp: 50
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5003000000050001"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 2.0d
@@ -336,89 +347,94 @@
 		{
 			dependencies: ["5003000000000005"]
 			id: "5003000000000006"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000060001"
-					item: { id: "ars_nouveau:glyph_explosion" }
-					type: "item"
-				}
-				{
-					id: "5003000000060002"
-					item: { id: "ars_nouveau:glyph_heal" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000060101"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000060001"
+					item: { count: 1, id: "ars_nouveau:glyph_explosion" }
+					type: "item"
+				}
+				{
+					id: "5003000000060002"
+					item: { count: 1, id: "ars_nouveau:glyph_heal" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5003000000000005"]
 			id: "5003000000000007"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000070001"
-					item: { id: "ars_nouveau:glyph_smelt" }
-					type: "item"
-				}
-				{
-					id: "5003000000070002"
-					item: { id: "ars_nouveau:glyph_grow" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000070101"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000070001"
+					item: { count: 1, id: "ars_nouveau:glyph_smelt" }
+					type: "item"
+				}
+				{
+					id: "5003000000070002"
+					item: { count: 1, id: "ars_nouveau:glyph_grow" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["5003000000000005"]
 			id: "5003000000000008"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000080001"
-					item: { id: "ars_nouveau:glyph_amplify" }
-					type: "item"
-				}
-				{
-					id: "5003000000080002"
-					item: { id: "ars_nouveau:glyph_extend_time" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000080101"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000080001"
+					item: { count: 1, id: "ars_nouveau:glyph_amplify" }
+					type: "item"
+				}
+				{
+					id: "5003000000080002"
+					item: { count: 1, id: "ars_nouveau:glyph_extend_time" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 4.5d
 		}
-		// Tier 3
 		{
-			dependencies: ["5003000000000006", "5003000000000007", "5003000000000008"]
+			dependencies: [
+				"5003000000000006"
+				"5003000000000007"
+				"5003000000000008"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_blink"
+			}
 			id: "5003000000000009"
-			shape: "hexagon"
-			icon: { id: "ars_nouveau:glyph_blink" }
-			tasks: [{
-				id: "5003000000090001"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "5003000000090101"
 				type: "xp"
 				xp: 75
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5003000000090001"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 6.0d
@@ -426,40 +442,40 @@
 		{
 			dependencies: ["5003000000000009"]
 			id: "5003000000000010"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000100001"
-					item: { id: "ars_nouveau:glyph_lightning" }
-					type: "item"
-				}
-				{
-					id: "5003000000100002"
-					item: { id: "ars_nouveau:glyph_wither" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000100101"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000100001"
+					item: { count: 1, id: "ars_nouveau:glyph_lightning" }
+					type: "item"
+				}
+				{
+					id: "5003000000100002"
+					item: { count: 1, id: "ars_nouveau:glyph_wither" }
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5003000000000009"]
 			id: "5003000000000011"
-			shape: "rsquare"
-			tasks: [{
-				id: "5003000000110001"
-				item: { id: "ars_nouveau:glyph_blink" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5003000000110101"
 				type: "xp"
 				xp: 200
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5003000000110001"
+				item: { count: 1, id: "ars_nouveau:glyph_blink" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 7.5d
@@ -467,42 +483,39 @@
 		{
 			dependencies: ["5003000000000009"]
 			id: "5003000000000012"
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5003000000120001"
-					item: { id: "ars_nouveau:glyph_split" }
-					type: "item"
-				}
-				{
-					id: "5003000000120002"
-					item: { id: "ars_nouveau:glyph_orbit" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5003000000120101"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5003000000120001"
+					item: { count: 1, id: "ars_nouveau:glyph_split" }
+					type: "item"
+				}
+				{
+					id: "5003000000120002"
+					item: { count: 1, id: "ars_nouveau:glyph_orbit" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 8.5d
 		}
-		// ==========================================
-		// SECTION 4: SPELLBOOK PROGRESSION (3 quests)
-		// ==========================================
 		{
 			dependencies: ["5501000000000002"]
 			id: "5004000000000001"
-			tasks: [{
-				id: "5004000000010001"
-				item: { id: "ars_nouveau:apprentice_spell_book" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5004000000010101"
 				type: "xp"
 				xp: 100
+			}]
+			tasks: [{
+				id: "5004000000010001"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
 			}]
 			x: -6.0d
 			y: 2.0d
@@ -510,16 +523,16 @@
 		{
 			dependencies: ["5004000000000001"]
 			id: "5004000000000002"
-			shape: "hexagon"
-			tasks: [{
-				id: "5004000000020001"
-				item: { id: "ars_nouveau:archmage_spell_book" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5004000000020101"
 				type: "xp"
 				xp: 500
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5004000000020001"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
 			}]
 			x: -6.0d
 			y: 4.0d
@@ -527,16 +540,14 @@
 		{
 			dependencies: ["5002000000000005"]
 			id: "5004000000000003"
-			tasks: [{
-				id: "5004000000030001"
-				item: { id: "ars_nouveau:spell_parchment" }
-				type: "item"
-			}]
 			rewards: [
 				{
-					id: "5004000000030101"
-					item: { id: "ars_nouveau:spell_parchment" }
 					count: 3
+					id: "5004000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:spell_parchment"
+					}
 					type: "item"
 				}
 				{
@@ -545,25 +556,27 @@
 					xp: 50
 				}
 			]
+			tasks: [{
+				id: "5004000000030001"
+				item: { count: 1, id: "ars_nouveau:spell_parchment" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
-		// ==========================================
-		// SECTION 5: COMBAT EQUIPMENT (6 quests)
-		// ==========================================
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000001"
-			shape: "diamond"
-			tasks: [{
-				id: "5005000000010001"
-				item: { id: "ars_nouveau:enchanters_sword" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5005000000010101"
 				type: "xp"
 				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5005000000010001"
+				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
+				type: "item"
 			}]
 			x: 2.0d
 			y: -2.0d
@@ -571,16 +584,16 @@
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000002"
-			shape: "diamond"
-			tasks: [{
-				id: "5005000000020001"
-				item: { id: "ars_nouveau:spell_bow" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5005000000020101"
 				type: "xp"
 				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5005000000020001"
+				item: { count: 1, id: "ars_nouveau:spell_bow" }
+				type: "item"
 			}]
 			x: 3.0d
 			y: -3.0d
@@ -588,16 +601,16 @@
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000003"
-			shape: "diamond"
-			tasks: [{
-				id: "5005000000030001"
-				item: { id: "ars_nouveau:enchanters_shield" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5005000000030101"
 				type: "xp"
 				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5005000000030001"
+				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
+				type: "item"
 			}]
 			x: 2.0d
 			y: -6.0d
@@ -605,1404 +618,1549 @@
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000004"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "5005000000040001"
-					item: { id: "ars_nouveau:ring_of_lesser_discount" }
-					type: "item"
-				}
-				{
-					id: "5005000000040002"
-					item: { id: "ars_nouveau:ring_of_greater_discount" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5005000000040101"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5005000000040001"
+					item: { count: 1, id: "ars_nouveau:ring_of_lesser_discount" }
+					type: "item"
+				}
+				{
+					id: "5005000000040002"
+					item: { count: 1, id: "ars_nouveau:ring_of_greater_discount" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000005"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "5005000000050001"
-					item: { id: "ars_nouveau:amulet_of_mana_boost" }
-					type: "item"
-				}
-				{
-					id: "5005000000050002"
-					item: { id: "ars_nouveau:amulet_of_mana_regen" }
-					type: "item"
-				}
-			]
 			rewards: [{
 				id: "5005000000050101"
 				type: "xp"
 				xp: 150
 			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5005000000050001"
+					item: { count: 1, id: "ars_nouveau:amulet_of_mana_boost" }
+					type: "item"
+				}
+				{
+					id: "5005000000050002"
+					item: { count: 1, id: "ars_nouveau:amulet_of_mana_regen" }
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5002000000000005"]
 			id: "5005000000000006"
-			shape: "diamond"
-			tasks: [{
-				id: "5005000000060001"
-				item: { id: "ars_nouveau:belt_of_levitation" }
-				type: "item"
-			}]
 			rewards: [{
 				id: "5005000000060101"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5005000000060001"
+				item: { count: 1, id: "ars_nouveau:belt_of_levitation" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
-		// ==========================================
-		// SECTION 6: ELEMENTAL SPECIALIZATION (20 quests)
-		// ==========================================
-		// Introduction
 		{
 			dependencies: ["5002000000000005"]
+			icon: {
+				id: "ars_elemental:lesser_fire_focus"
+			}
 			id: "5006000000000001"
+			rewards: [
+				{
+					count: 8
+					id: "5006000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000010102"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "gear"
 			size: 1.25d
-			icon: { id: "ars_elemental:lesser_fire_focus" }
 			tasks: [{
 				id: "5006000000010001"
 				type: "checkmark"
 			}]
-			rewards: [
-			{
-				id: "5006000000010101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5006000000010102"
-				type: "xp"
-				xp: 50
-			}
-		]
 			x: 6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5006000000000001"]
 			id: "5006000000000002"
+			rewards: [
+				{
+					count: 4
+					id: "5006000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:spell_parchment"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000020102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5006000000020001"
-				item: { id: "ars_elemental:glyph_homing_projectile" }
+				item: { count: 1, id: "ars_elemental:glyph_homing_projectile" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000020101"
-				item: { id: "ars_nouveau:spell_parchment" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000020102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 6.0d
 			y: -2.0d
 		}
-		// Fire Path
 		{
 			dependencies: ["5006000000000001"]
+			icon: {
+				id: "ars_elemental:lesser_fire_focus"
+			}
 			id: "5006000000000003"
-			icon: { id: "ars_elemental:lesser_fire_focus" }
+			rewards: [
+				{
+					count: 4
+					id: "5006000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000030102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000030001"
-				item: { id: "ars_elemental:lesser_fire_focus" }
+				item: { count: 1, id: "ars_elemental:lesser_fire_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000030101"
-				item: { id: "ars_nouveau:fire_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000030102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 8.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5006000000000003"]
 			id: "5006000000000004"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000040101"
+					item: {
+						count: 1
+						id: "ars_elemental:anima_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000040102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000040001"
-				item: { id: "ars_elemental:fire_bangle" }
+				item: { count: 1, id: "ars_elemental:fire_bangle" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000040101"
-				item: { id: "ars_elemental:anima_essence" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000040102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 10.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5006000000000004"]
 			id: "5006000000000005"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000050101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000050102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5006000000050001"
-				item: { id: "ars_elemental:fire_focus" }
+				item: { count: 1, id: "ars_elemental:fire_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000050101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000050102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 12.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5006000000000005"]
 			id: "5006000000000006"
+			rewards: [
+				{
+					id: "5006000000060101"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000060102"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "5006000000060001"
-					item: { id: "ars_elemental:fire_helmet" }
+					item: { count: 1, id: "ars_elemental:fire_helmet" }
 					type: "item"
 				}
 				{
 					id: "5006000000060002"
-					item: { id: "ars_elemental:fire_chestplate" }
+					item: { count: 1, id: "ars_elemental:fire_chestplate" }
 					type: "item"
 				}
 				{
 					id: "5006000000060003"
-					item: { id: "ars_elemental:fire_leggings" }
+					item: { count: 1, id: "ars_elemental:fire_leggings" }
 					type: "item"
 				}
 				{
 					id: "5006000000060004"
-					item: { id: "ars_elemental:fire_boots" }
+					item: { count: 1, id: "ars_elemental:fire_boots" }
 					type: "item"
 				}
 			]
-			rewards: [
-			{
-				id: "5006000000060101"
-				item: { id: "ars_nouveau:greater_experience_gem" }
-				type: "item"
-			}
-			{
-				id: "5006000000060102"
-				type: "xp"
-				xp: 300
-			}
-		]
 			x: 14.0d
 			y: -6.0d
 		}
-		// Water Path
 		{
 			dependencies: ["5006000000000001"]
+			icon: {
+				id: "ars_elemental:lesser_water_focus"
+			}
 			id: "5006000000000007"
-			icon: { id: "ars_elemental:lesser_water_focus" }
+			rewards: [
+				{
+					count: 4
+					id: "5006000000070101"
+					item: {
+						count: 1
+						id: "ars_nouveau:water_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000070102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000070001"
-				item: { id: "ars_elemental:lesser_water_focus" }
+				item: { count: 1, id: "ars_elemental:lesser_water_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000070101"
-				item: { id: "ars_nouveau:water_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000070102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 8.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5006000000000007"]
 			id: "5006000000000008"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000080101"
+					item: {
+						count: 1
+						id: "ars_elemental:anima_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000080102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000080001"
-				item: { id: "ars_elemental:water_bangle" }
+				item: { count: 1, id: "ars_elemental:water_bangle" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000080101"
-				item: { id: "ars_elemental:anima_essence" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000080102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 10.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5006000000000008"]
 			id: "5006000000000009"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000090101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000090102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5006000000090001"
-				item: { id: "ars_elemental:water_focus" }
+				item: { count: 1, id: "ars_elemental:water_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000090101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000090102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 12.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["5006000000000009"]
 			id: "5006000000000010"
+			rewards: [
+				{
+					id: "5006000000100101"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000100102"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "5006000000100001"
-					item: { id: "ars_elemental:aqua_helmet" }
+					item: { count: 1, id: "ars_elemental:aqua_helmet" }
 					type: "item"
 				}
 				{
 					id: "5006000000100002"
-					item: { id: "ars_elemental:aqua_chestplate" }
+					item: { count: 1, id: "ars_elemental:aqua_chestplate" }
 					type: "item"
 				}
 				{
 					id: "5006000000100003"
-					item: { id: "ars_elemental:aqua_leggings" }
+					item: { count: 1, id: "ars_elemental:aqua_leggings" }
 					type: "item"
 				}
 				{
 					id: "5006000000100004"
-					item: { id: "ars_elemental:aqua_boots" }
+					item: { count: 1, id: "ars_elemental:aqua_boots" }
 					type: "item"
 				}
 			]
-			rewards: [
-			{
-				id: "5006000000100101"
-				item: { id: "ars_nouveau:greater_experience_gem" }
-				type: "item"
-			}
-			{
-				id: "5006000000100102"
-				type: "xp"
-				xp: 300
-			}
-		]
 			x: 14.0d
 			y: -4.0d
 		}
-		// Earth Path
 		{
 			dependencies: ["5006000000000001"]
+			icon: {
+				id: "ars_elemental:lesser_earth_focus"
+			}
 			id: "5006000000000011"
-			icon: { id: "ars_elemental:lesser_earth_focus" }
+			rewards: [
+				{
+					count: 4
+					id: "5006000000110101"
+					item: {
+						count: 1
+						id: "ars_nouveau:earth_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000110102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000110001"
-				item: { id: "ars_elemental:lesser_earth_focus" }
+				item: { count: 1, id: "ars_elemental:lesser_earth_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000110101"
-				item: { id: "ars_nouveau:earth_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000110102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5006000000000011"]
 			id: "5006000000000012"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000120101"
+					item: {
+						count: 1
+						id: "ars_elemental:anima_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000120102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000120001"
-				item: { id: "ars_elemental:earth_bangle" }
+				item: { count: 1, id: "ars_elemental:earth_bangle" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000120101"
-				item: { id: "ars_elemental:anima_essence" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000120102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5006000000000012"]
 			id: "5006000000000013"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000130101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000130102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5006000000130001"
-				item: { id: "ars_elemental:earth_focus" }
+				item: { count: 1, id: "ars_elemental:earth_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000130101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000130102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 12.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5006000000000013"]
 			id: "5006000000000014"
+			rewards: [
+				{
+					id: "5006000000140101"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000140102"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "5006000000140001"
-					item: { id: "ars_elemental:earth_helmet" }
+					item: { count: 1, id: "ars_elemental:earth_helmet" }
 					type: "item"
 				}
 				{
 					id: "5006000000140002"
-					item: { id: "ars_elemental:earth_chestplate" }
+					item: { count: 1, id: "ars_elemental:earth_chestplate" }
 					type: "item"
 				}
 				{
 					id: "5006000000140003"
-					item: { id: "ars_elemental:earth_leggings" }
+					item: { count: 1, id: "ars_elemental:earth_leggings" }
 					type: "item"
 				}
 				{
 					id: "5006000000140004"
-					item: { id: "ars_elemental:earth_boots" }
+					item: { count: 1, id: "ars_elemental:earth_boots" }
 					type: "item"
 				}
 			]
-			rewards: [
-			{
-				id: "5006000000140101"
-				item: { id: "ars_nouveau:greater_experience_gem" }
-				type: "item"
-			}
-			{
-				id: "5006000000140102"
-				type: "xp"
-				xp: 300
-			}
-		]
 			x: 14.0d
 			y: -2.0d
 		}
-		// Air Path
 		{
 			dependencies: ["5006000000000001"]
+			icon: {
+				id: "ars_elemental:lesser_air_focus"
+			}
 			id: "5006000000000015"
-			icon: { id: "ars_elemental:lesser_air_focus" }
+			rewards: [
+				{
+					count: 4
+					id: "5006000000150101"
+					item: {
+						count: 1
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000150102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000150001"
-				item: { id: "ars_elemental:lesser_air_focus" }
+				item: { count: 1, id: "ars_elemental:lesser_air_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000150101"
-				item: { id: "ars_nouveau:air_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000150102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5006000000000015"]
 			id: "5006000000000016"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000160101"
+					item: {
+						count: 1
+						id: "ars_elemental:anima_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000160102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5006000000160001"
-				item: { id: "ars_elemental:air_bangle" }
+				item: { count: 1, id: "ars_elemental:air_bangle" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000160101"
-				item: { id: "ars_elemental:anima_essence" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000160102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5006000000000016"]
 			id: "5006000000000017"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000170101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000170102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5006000000170001"
-				item: { id: "ars_elemental:air_focus" }
+				item: { count: 1, id: "ars_elemental:air_focus" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000170101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000170102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5006000000000017"]
 			id: "5006000000000018"
+			rewards: [
+				{
+					id: "5006000000180101"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000180102"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
 					id: "5006000000180001"
-					item: { id: "ars_elemental:air_helmet" }
+					item: { count: 1, id: "ars_elemental:air_helmet" }
 					type: "item"
 				}
 				{
 					id: "5006000000180002"
-					item: { id: "ars_elemental:air_chestplate" }
+					item: { count: 1, id: "ars_elemental:air_chestplate" }
 					type: "item"
 				}
 				{
 					id: "5006000000180003"
-					item: { id: "ars_elemental:air_leggings" }
+					item: { count: 1, id: "ars_elemental:air_leggings" }
 					type: "item"
 				}
 				{
 					id: "5006000000180004"
-					item: { id: "ars_elemental:air_boots" }
+					item: { count: 1, id: "ars_elemental:air_boots" }
 					type: "item"
 				}
 			]
-			rewards: [
-			{
-				id: "5006000000180101"
-				item: { id: "ars_nouveau:greater_experience_gem" }
-				type: "item"
-			}
-			{
-				id: "5006000000180102"
-				type: "xp"
-				xp: 300
-			}
-		]
 			x: 14.0d
 			y: 0.0d
 		}
-		// Mastery
 		{
-			dependencies: ["5006000000000006", "5006000000000010", "5006000000000014", "5006000000000018"]
+			dependencies: [
+				"5006000000000006"
+				"5006000000000010"
+				"5006000000000014"
+				"5006000000000018"
+			]
 			dependency_requirement: "one_completed"
+			icon: {
+				id: "ars_elemental:mark_of_mastery"
+			}
 			id: "5006000000000019"
+			rewards: [
+				{
+					count: 2
+					id: "5006000000190101"
+					item: {
+						count: 1
+						id: "ars_elemental:mark_of_mastery"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000190102"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "diamond"
-			icon: { id: "ars_elemental:mark_of_mastery" }
 			tasks: [{
-				id: "5006000000190001"
 				entity: "ars_elemental:fire_mage"
+				id: "5006000000190001"
 				type: "kill"
 				value: 1L
 			}]
-			rewards: [
-			{
-				id: "5006000000190101"
-				item: { id: "ars_elemental:mark_of_mastery" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5006000000190102"
-				type: "xp"
-				xp: 250
-			}
-		]
 			x: 16.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5003000000000010"]
 			id: "5006000000000020"
+			rewards: [
+				{
+					count: 4
+					id: "5006000000200101"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5006000000200102"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
 				id: "5006000000200001"
-				item: { id: "ars_elemental:glyph_conflagrate" }
+				item: { count: 1, id: "ars_elemental:glyph_conflagrate" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5006000000200101"
-				item: { id: "ars_nouveau:fire_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5006000000200102"
-				type: "xp"
-				xp: 200
-			}
-		]
 			x: -3.0d
 			y: 8.5d
 		}
-		// ==========================================
-		// SECTION 7: SUMMONED COMPANIONS (6 quests)
-		// ==========================================
 		{
 			dependencies: ["5002000000000005"]
 			id: "5007000000000001"
+			rewards: [
+				{
+					count: 8
+					id: "5007000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000010102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "5007000000010001"
-				item: { id: "ars_nouveau:dominion_wand" }
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000010101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5007000000010102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5007000000000001"]
 			id: "5007000000000002"
+			rewards: [
+				{
+					count: 4
+					id: "5007000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_shards"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000020102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5007000000020001"
-				item: { id: "ars_nouveau:starbuncle_charm" }
+				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000020101"
-				item: { id: "ars_nouveau:starbuncle_shards" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5007000000020102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5007000000000001"]
 			id: "5007000000000003"
+			rewards: [
+				{
+					count: 8
+					id: "5007000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000030102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5007000000030001"
-				item: { id: "ars_nouveau:wixie_charm" }
+				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000030101"
-				item: { id: "ars_nouveau:magebloom" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5007000000030102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5007000000000001"]
 			id: "5007000000000004"
+			rewards: [
+				{
+					count: 8
+					id: "5007000000040101"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_crop"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000040102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5007000000040001"
-				item: { id: "ars_nouveau:whirlisprig_charm" }
+				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000040101"
-				item: { id: "ars_nouveau:magebloom_crop" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5007000000040102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5007000000000001"]
 			id: "5007000000000005"
+			rewards: [
+				{
+					count: 2
+					id: "5007000000050101"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_tribute"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000050102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5007000000050001"
-				item: { id: "ars_nouveau:drygmy_charm" }
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000050101"
-				item: { id: "ars_nouveau:wilden_tribute" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5007000000050102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5007000000000001"]
 			id: "5007000000000006"
+			rewards: [
+				{
+					count: 16
+					id: "5007000000060101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5007000000060102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5007000000060001"
-				item: { id: "ars_nouveau:amethyst_golem_charm" }
+				item: { count: 1, id: "ars_nouveau:amethyst_golem_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5007000000060101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 16
-				type: "item"
-			}
-			{
-				id: "5007000000060102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 0.0d
 			y: 2.0d
 		}
-		// ==========================================
-		// SECTION 8: SOURCE GENERATION (5 quests)
-		// ==========================================
 		{
 			dependencies: ["5002000000000006"]
 			id: "5008000000000001"
+			rewards: [
+				{
+					count: 8
+					id: "5008000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_crop"
+					}
+					type: "item"
+				}
+				{
+					id: "5008000000010102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5008000000010001"
-				item: { id: "ars_nouveau:agronomic_sourcelink" }
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5008000000010101"
-				item: { id: "ars_nouveau:magebloom_crop" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5008000000010102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -8.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5002000000000006"]
 			id: "5008000000000002"
+			rewards: [
+				{
+					count: 8
+					id: "5008000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5008000000020102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5008000000020001"
-				item: { id: "ars_nouveau:mycelial_sourcelink" }
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5008000000020101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5008000000020102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5002000000000006"]
 			id: "5008000000000003"
+			rewards: [
+				{
+					count: 4
+					id: "5008000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5008000000030102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5008000000030001"
-				item: { id: "ars_nouveau:volcanic_sourcelink" }
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5008000000030101"
-				item: { id: "ars_nouveau:fire_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5008000000030102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5002000000000006"]
 			id: "5008000000000004"
+			rewards: [
+				{
+					count: 8
+					id: "5008000000040101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5008000000040102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5008000000040001"
-				item: { id: "ars_nouveau:vitalic_sourcelink" }
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5008000000040101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5008000000040102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -4.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5002000000000006"]
 			id: "5008000000000005"
+			rewards: [
+				{
+					count: 2
+					id: "5008000000050101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5008000000050102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5008000000050001"
-				item: { id: "ars_nouveau:alchemical_sourcelink" }
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5008000000050101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5008000000050102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -6.0d
 			y: -8.0d
 		}
-		// ==========================================
-		// SECTION 9: RITUALS (10 quests)
-		// ==========================================
 		{
 			dependencies: ["5002000000000005"]
 			id: "5009000000000001"
+			rewards: [
+				{
+					count: 16
+					id: "5009000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:archwood_planks"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000010102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "5009000000010001"
-				item: { id: "ars_nouveau:ritual_brazier" }
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000010101"
-				item: { id: "ars_nouveau:archwood_planks" }
-				count: 16
-				type: "item"
-			}
-			{
-				id: "5009000000010102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000002"
+			rewards: [
+				{
+					count: 4
+					id: "5009000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000020102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000020001"
-				item: { id: "ars_nouveau:ritual_sunrise" }
+				item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000020101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5009000000020102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -2.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000003"
+			rewards: [
+				{
+					count: 8
+					id: "5009000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_crop"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000030102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000030001"
-				item: { id: "ars_nouveau:ritual_overgrowth" }
+				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000030101"
-				item: { id: "ars_nouveau:magebloom_crop" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5009000000030102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -1.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000004"
+			rewards: [
+				{
+					count: 4
+					id: "5009000000040101"
+					item: {
+						count: 1
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000040102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000040001"
-				item: { id: "ars_nouveau:ritual_cloudshaping" }
+				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000040101"
-				item: { id: "ars_nouveau:air_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5009000000040102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000005"
+			rewards: [
+				{
+					count: 4
+					id: "5009000000050101"
+					item: {
+						count: 1
+						id: "ars_nouveau:earth_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000050102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000050001"
-				item: { id: "ars_nouveau:ritual_burrowing" }
+				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000050101"
-				item: { id: "ars_nouveau:earth_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5009000000050102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 1.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000006"
+			rewards: [
+				{
+					count: 2
+					id: "5009000000060101"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_spike"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000060102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000060001"
-				item: { id: "ars_nouveau:ritual_disintegration" }
+				item: { count: 1, id: "ars_nouveau:ritual_disintegration" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000060101"
-				item: { id: "ars_nouveau:wilden_spike" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5009000000060102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 2.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000007"
+			rewards: [
+				{
+					count: 8
+					id: "5009000000070101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000070102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000070001"
-				item: { id: "ars_nouveau:ritual_restoration" }
+				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000070101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5009000000070102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: 2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000008"
+			rewards: [
+				{
+					count: 2
+					id: "5009000000080101"
+					item: {
+						count: 1
+						id: "ars_nouveau:warp_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000080102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000080001"
-				item: { id: "ars_nouveau:ritual_warping" }
+				item: { count: 1, id: "ars_nouveau:ritual_warping" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000080101"
-				item: { id: "ars_nouveau:warp_scroll" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5009000000080102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000009"
+			rewards: [
+				{
+					id: "5009000000090101"
+					item: {
+						count: 1
+						id: "ars_nouveau:thread_gliding"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000090102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000090001"
-				item: { id: "ars_nouveau:ritual_flight" }
+				item: { count: 1, id: "ars_nouveau:ritual_flight" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000090101"
-				item: { id: "ars_nouveau:thread_gliding" }
-				type: "item"
-			}
-			{
-				id: "5009000000090102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5009000000000010"
+			rewards: [
+				{
+					count: 2
+					id: "5009000000100101"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_tribute"
+					}
+					type: "item"
+				}
+				{
+					id: "5009000000100102"
+					type: "xp"
+					xp: 200
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "5009000000100001"
-				item: { id: "ars_nouveau:ritual_wilden_summon" }
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5009000000100101"
-				item: { id: "ars_nouveau:wilden_tribute" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5009000000100102"
-				type: "xp"
-				xp: 200
-			}
-		]
 			x: 1.0d
 			y: -6.0d
 		}
-		// ==========================================
-		// SECTION 10: ARS ADDITIONS (5 quests)
-		// ==========================================
 		{
 			dependencies: ["5002000000000006"]
 			id: "5010000000000001"
+			rewards: [
+				{
+					count: 8
+					id: "5010000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5010000000010102"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5010000000010001"
-				item: { id: "ars_additions:warp_index" }
+				item: { count: 1, id: "ars_additions:warp_index" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5010000000010101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 8
-				type: "item"
-			}
-			{
-				id: "5010000000010102"
-				type: "xp"
-				xp: 100
-			}
-		]
 			x: -8.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5010000000000001"]
 			id: "5010000000000002"
+			rewards: [
+				{
+					count: 2
+					id: "5010000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5010000000020102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5010000000020001"
-				item: { id: "ars_additions:stabilized_warp_index" }
+				item: { count: 1, id: "ars_additions:stabilized_warp_index" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5010000000020101"
-				item: { id: "ars_nouveau:experience_gem" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5010000000020102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: -8.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5002000000000006"]
 			id: "5010000000000003"
+			rewards: [
+				{
+					count: 16
+					id: "5010000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5010000000030102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "5010000000030001"
-				item: { id: "ars_additions:ender_source_jar" }
+				item: { count: 1, id: "ars_additions:ender_source_jar" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5010000000030101"
-				item: { id: "ars_nouveau:source_gem" }
-				count: 16
-				type: "item"
-			}
-			{
-				id: "5010000000030102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: -6.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["5003000000000009"]
 			id: "5010000000000004"
+			rewards: [
+				{
+					count: 4
+					id: "5010000000040101"
+					item: {
+						count: 1
+						id: "ars_nouveau:warp_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "5010000000040102"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [
 				{
 					id: "5010000000040001"
-					item: { id: "ars_additions:glyph_mark" }
+					item: { count: 1, id: "ars_additions:glyph_mark" }
 					type: "item"
 				}
 				{
 					id: "5010000000040002"
-					item: { id: "ars_additions:glyph_recall" }
+					item: { count: 1, id: "ars_additions:glyph_recall" }
 					type: "item"
 				}
 			]
-			rewards: [
-			{
-				id: "5010000000040101"
-				item: { id: "ars_nouveau:warp_scroll" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5010000000040102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 1.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["5007000000000003"]
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
 			id: "5010000000000005"
+			rewards: [
+				{
+					count: 16
+					id: "5010000000050101"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom"
+					}
+					type: "item"
+				}
+				{
+					id: "5010000000050102"
+					type: "xp"
+					xp: 200
+				}
+			]
 			shape: "gear"
-			icon: { id: "ars_nouveau:wixie_charm" }
 			tasks: [{
 				id: "5010000000050001"
 				type: "checkmark"
 			}]
-			rewards: [
-			{
-				id: "5010000000050101"
-				item: { id: "ars_nouveau:magebloom" }
-				count: 16
-				type: "item"
-			}
-			{
-				id: "5010000000050102"
-				type: "xp"
-				xp: 200
-			}
-		]
 			x: 1.0d
 			y: 2.5d
 		}
-		// ==========================================
-		// SECTION 11: EXPLORATION & MASTERY (4 quests)
-		// ==========================================
 		{
 			dependencies: ["5006000000000001"]
 			id: "5011000000000001"
-			shape: "diamond"
 			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5011000000010101"
+					item: {
+						count: 1
+						id: "ars_nouveau:water_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5011000000010102"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
 			tasks: [{
 				id: "5011000000010001"
-				item: { id: "ars_elemental:siren_charm" }
+				item: { count: 1, id: "ars_elemental:siren_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5011000000010101"
-				item: { id: "ars_nouveau:water_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5011000000010102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5006000000000001"]
 			id: "5011000000000002"
-			shape: "diamond"
 			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5011000000020101"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "5011000000020102"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
 			tasks: [{
 				id: "5011000000020001"
-				item: { id: "ars_elemental:firenando_charm" }
+				item: { count: 1, id: "ars_elemental:firenando_charm" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5011000000020101"
-				item: { id: "ars_nouveau:fire_essence" }
-				count: 4
-				type: "item"
-			}
-			{
-				id: "5011000000020102"
-				type: "xp"
-				xp: 150
-			}
-		]
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5011000000000003"
-			shape: "diamond"
 			optional: true
+			rewards: [
+				{
+					id: "5011000000030101"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "5011000000030102"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
 			tasks: [{
 				id: "5011000000030001"
-				item: { id: "ars_nouveau:ritual_awakening" }
+				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5011000000030101"
-				item: { id: "ars_nouveau:greater_experience_gem" }
-				type: "item"
-			}
-			{
-				id: "5011000000030102"
-				type: "xp"
-				xp: 200
-			}
-		]
 			x: 0.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["5009000000000001"]
 			id: "5011000000000004"
-			shape: "diamond"
 			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "5011000000040101"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_tribute"
+					}
+					type: "item"
+				}
+				{
+					id: "5011000000040102"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
 			tasks: [{
 				id: "5011000000040001"
-				item: { id: "ars_nouveau:ritual_binding" }
+				item: { count: 1, id: "ars_nouveau:ritual_binding" }
 				type: "item"
 			}]
-			rewards: [
-			{
-				id: "5011000000040101"
-				item: { id: "ars_nouveau:wilden_tribute" }
-				count: 2
-				type: "item"
-			}
-			{
-				id: "5011000000040102"
-				type: "xp"
-				xp: 200
-			}
-		]
 			x: -1.0d
 			y: -11.5d
 		}

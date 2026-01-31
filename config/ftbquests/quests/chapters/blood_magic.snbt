@@ -7,7 +7,7 @@
 		id: "bloodmagic:blood_altar"
 	}
 	id: "004F28C5C85F467B"
-	order_index: 14
+	order_index: 17
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -46,22 +46,11 @@
 				id: "bloodmagic:blood_altar"
 			}
 			id: "0989CF0F03195545"
-			rewards: [
-				{
-					id: "0AE07A652A73F3BA"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "6FDF128DD46062ED"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0AE07A652A73F3BA"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [
@@ -643,7 +632,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["06E8DD6F395BBAA2", "6D4EE8A9403A6A73"]
+			dependencies: [
+				"06E8DD6F395BBAA2"
+				"6D4EE8A9403A6A73"
+			]
 			id: "3283CDAB2B659EA0"
 			rewards: [
 				{

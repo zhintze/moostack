@@ -2,11 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immersive_engineering"
+	group: ""
 	icon: {
 		id: "immersiveengineering:hammer"
 	}
 	id: "22C20C1827FE6805"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -952,8 +953,6 @@
 		}
 		{
 			id: "288406DE6DA31BA6"
-			rewards: [
-			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1005,13 +1004,11 @@
 				"1759A4E2AF0D2C88"
 			]
 			id: "4D193D60A3CAF435"
-			rewards: [
-				{
-					id: "7AE8925746C9D45B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "7AE8925746C9D45B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "none"
 			size: 1.25d
 			tasks: [
@@ -1154,13 +1151,11 @@
 				"1759A4E2AF0D2C88"
 			]
 			id: "3EE95747CA6DFB1A"
-			rewards: [
-				{
-					id: "7690123BA7C41DF4"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "7690123BA7C41DF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "none"
 			size: 1.25d
 			tasks: [
@@ -1336,8 +1331,11 @@
 				{
 					id: "71363739197D8915"
 					item: {
+						components: {
+							"ftbquests:missing_item": "cookingforblockheads:sink"
+						}
 						count: 1
-						id: "cookingforblockheads:sink"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1653,13 +1651,11 @@
 				"4C4C9ADAC6107F89"
 			]
 			id: "1C76E244AE3582E6"
-			rewards: [
-				{
-					id: "7F1D1B00548E10D3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "7F1D1B00548E10D3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "none"
 			size: 1.25d
 			tasks: [
@@ -1975,8 +1971,6 @@
 		{
 			dependencies: ["458265FCD6B3068E"]
 			id: "23FDFA44A162023A"
-			rewards: [
-			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -2012,13 +2006,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "5585130028BB8298"
-			rewards: [
-				{
-					id: "23B1B41083623468"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "23B1B41083623468"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1A616ADFC9A72930"
@@ -2031,13 +2023,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "586F6FD38CF85DCA"
-			rewards: [
-				{
-					id: "4665EED7BCDE962A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "4665EED7BCDE962A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "2EF4495FB6E792AE"
@@ -2050,13 +2040,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "47656073894224AF"
-			rewards: [
-				{
-					id: "0D9BDC6900CD94FC"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "0D9BDC6900CD94FC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3F5109BE954591C1"
@@ -2069,13 +2057,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "5C5546A5103BCF55"
-			rewards: [
-				{
-					id: "7DA028B8CDAE9EEE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "7DA028B8CDAE9EEE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "107A823CDD66067A"
@@ -2342,13 +2328,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "6140EAA6E042EF7C"
-			rewards: [
-				{
-					id: "52A4B224A64F176E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "52A4B224A64F176E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "51813D8BEEF55081"
@@ -2361,13 +2345,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "29C9F8719DA63D8D"
-			rewards: [
-				{
-					id: "4276B185DED89EBA"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "4276B185DED89EBA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5A9D00A32CCF4C1A"
@@ -2380,13 +2362,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "063241B72BB3403E"
-			rewards: [
-				{
-					id: "6AAAC4024DEB866E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "6AAAC4024DEB866E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4EB53F7A98392C54"
@@ -2643,13 +2623,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "3ED40CC40458087E"
-			rewards: [
-				{
-					id: "3024C8A8AFCEB9E5"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "3024C8A8AFCEB9E5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "543D68325BA9C24E"
@@ -2662,13 +2640,11 @@
 		{
 			dependencies: ["23FDFA44A162023A"]
 			id: "0A7B0D0B81E138DE"
-			rewards: [
-				{
-					id: "6F7BF5FD44A30567"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "6F7BF5FD44A30567"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "652E2578DB73608A"
@@ -2941,8 +2917,6 @@
 		{
 			dependencies: ["29C9F8719DA63D8D"]
 			id: "7A1E3E7E2DF17AD2"
-			rewards: [
-			]
 			size: 0.75d
 			tasks: [{
 				id: "0837FA64B9C50048"
@@ -2977,8 +2951,6 @@
 		{
 			dependencies: ["47656073894224AF"]
 			id: "431C62A6F8ECB4EC"
-			rewards: [
-			]
 			size: 0.75d
 			tasks: [{
 				id: "0B62C759781950A1"
@@ -3310,8 +3282,11 @@
 				{
 					id: "34ED818EA7393227"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ironfurnaces:iron_furnace"
+						}
 						count: 1
-						id: "ironfurnaces:iron_furnace"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
