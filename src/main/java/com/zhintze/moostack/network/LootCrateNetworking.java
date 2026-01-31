@@ -24,5 +24,12 @@ public class LootCrateNetworking {
                 SelectCategoryPayload.STREAM_CODEC,
                 SelectCategoryPayload::handle
         );
+
+        // Register the role selection packet (Client -> Server)
+        registrar.playToServer(
+                SelectRolePayload.TYPE,
+                SelectRolePayload.STREAM_CODEC,
+                SelectRolePayload::handle
+        );
     }
 }
