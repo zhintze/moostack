@@ -7,7 +7,7 @@
 		id: "create:large_cogwheel"
 	}
 	id: "100C477F4E63F20A"
-	order_index: 7
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

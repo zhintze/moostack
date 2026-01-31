@@ -7,7 +7,7 @@
 		id: "silentgear:pickaxe_blueprint"
 	}
 	id: "5347000000000000"
-	order_index: 6
+	order_index: 7
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [

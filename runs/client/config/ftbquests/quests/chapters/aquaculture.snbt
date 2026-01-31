@@ -7,7 +7,7 @@
 		id: "aquaculture:iron_fishing_rod"
 	}
 	id: "492649F619082A45"
-	order_index: 18
+	order_index: 19
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
