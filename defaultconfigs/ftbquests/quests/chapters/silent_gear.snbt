@@ -7,7 +7,7 @@
 		id: "silentgear:pickaxe_blueprint"
 	}
 	id: "5347000000000000"
-	order_index: 5
+	order_index: 7
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
@@ -1919,7 +1919,9 @@
 		{
 			dependencies: ["53472F734DAFDF65"]
 			hide_dependency_lines: true
-			icon: { id: "adastramekanized:desh_ingot" }
+			icon: {
+				id: "adastramekanized:desh_ingot"
+			}
 			id: "53476ECCB740CBD1"
 			optional: true
 			rewards: [{

@@ -11,67 +11,6 @@
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
-		// ==========================================
-		// HUB QUESTS (x=0 to x=2, y=0)
-		// ==========================================
-		{
-			icon: {
-				id: "minecraft:chest"
-			}
-			id: "5A94A2664BFDD7B9"
-			rewards: [{
-				id: "570FFAC4E65BBF46"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "51CC9A8E36385400"
-				item: { count: 1, id: "minecraft:chest" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			icon: {
-				id: "minecraft:enchanted_book"
-			}
-			id: "7EF57BBEAA4B6B08"
-			min_width: 300
-			rewards: [
-				{
-					id: "1A2C25BD95D6B332"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"minecraft:unbreaking": 1
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-				{
-					id: "0F416DCD09AC9026"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "21FBC4E0F668347C"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		// ==========================================
-		// VANILLA STORAGE (x=-1.5 to x=1.5, y=3.5 to y=5)
-		// ==========================================
 		{
 			icon: {
 				id: "minecraft:chest"
@@ -175,10 +114,6 @@
 			x: 1.5d
 			y: 3.5d
 		}
-		// ==========================================
-		// SOPHISTICATED STORAGE (x=4.5 to x=18, y=-4.5 to y=-0.5)
-		// Tier Progression + Controller System
-		// ==========================================
 		{
 			icon: {
 				components: {
@@ -203,13 +138,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "6205B6B93B306A12"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:chest" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -242,13 +171,7 @@
 			]
 			tasks: [{
 				id: "200CE35BF3C04F6F"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:copper_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:copper_chest" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -284,13 +207,7 @@
 			]
 			tasks: [{
 				id: "49F46466DB8EDD61"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:iron_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -322,13 +239,7 @@
 			]
 			tasks: [{
 				id: "0427B441A750316F"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:gold_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_chest" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -360,13 +271,7 @@
 			]
 			tasks: [{
 				id: "00ED02255105A973"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:diamond_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -398,13 +303,7 @@
 			]
 			tasks: [{
 				id: "34B6EB0B801E4743"
-				item: {
-					components: {
-						"sophisticatedstorage:wood_type": "oak"
-					}
-					count: 1
-					id: "sophisticatedstorage:netherite_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:netherite_chest" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -504,10 +403,6 @@
 			x: 18.0d
 			y: -3.5d
 		}
-		// ==========================================
-		// SOPHISTICATED BACKPACKS (x=4.5 to x=17.5, y=2 to y=10)
-		// Tier Progression + Upgrade System
-		// ==========================================
 		{
 			id: "6A2B2C5E2ADCE366"
 			rewards: [
@@ -667,7 +562,6 @@
 			x: 15.0d
 			y: 2.0d
 		}
-		// Upgrade Base
 		{
 			dependencies: ["6A2B2C5E2ADCE366"]
 			id: "1FE052F643401232"
@@ -695,9 +589,6 @@
 			x: 7.0d
 			y: 4.0d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - FLUID & ENERGY (y=4-5, x=7-11.5)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -788,9 +679,6 @@
 			x: 11.5d
 			y: 4.0d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - STACK SIZE (y=4, x=13-17.5)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -863,9 +751,6 @@
 			x: 17.5d
 			y: 4.0d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - UTILITY (y=5, x=10-17.5)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -973,9 +858,6 @@
 			x: 17.5d
 			y: 5.0d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - ITEM COLLECTION (y=6.5-7.5, x=7-11.5)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -1085,9 +967,6 @@
 			x: 11.5d
 			y: 7.5d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - FILTERING & INVENTORY (y=6.5-7.5, x=10-16)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -1231,9 +1110,6 @@
 			x: 16.0d
 			y: 7.5d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - PROCESSING (y=9-10, x=7-10)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true
@@ -1342,9 +1218,6 @@
 			x: 10.0d
 			y: 10.0d
 		}
-		// ==========================================
-		// BACKPACK UPGRADES - AUTOMATION (y=9-10, x=11.5-14.5)
-		// ==========================================
 		{
 			dependencies: ["1FE052F643401232"]
 			hide_until_deps_visible: true

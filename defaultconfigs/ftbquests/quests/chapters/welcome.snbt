@@ -7,7 +7,7 @@
 		id: "ftbquests:book"
 	}
 	id: "02FF33D22B10EA88"
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

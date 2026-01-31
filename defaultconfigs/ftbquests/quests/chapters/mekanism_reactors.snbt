@@ -7,7 +7,7 @@
 		id: "mekanism:ultimate_induction_provider"
 	}
 	id: "0A093D8C4429B627"
-	order_index: 7
+	order_index: 14
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
