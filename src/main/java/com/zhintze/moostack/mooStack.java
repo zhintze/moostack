@@ -24,6 +24,7 @@ import com.zhintze.moostack.client.KeyBindings;
 import com.zhintze.moostack.client.jetpack.JetpackAnimTickHandler;
 import com.zhintze.moostack.config.ClientConfig;
 import com.zhintze.moostack.lootcrate.LootCrateManager;
+import com.zhintze.moostack.starterrole.StarterRoleManager;
 import com.zhintze.moostack.registry.MooStackCreativeTabRegistry;
 import com.zhintze.moostack.registry.MooStackItemRegistry;
 import com.zhintze.moostack.starterrole.StarterRoleAttachments;
@@ -94,12 +95,13 @@ public class mooStack {
         LOGGER.info("HELLO from server starting");
     }
 
-    // Load loot crate categories when data packs are loaded/reloaded
+    // Load loot crate categories and starter role kits when data packs are loaded/reloaded
     @SubscribeEvent
     public void onAddReloadListener(AddReloadListenerEvent event) {
         event.addListener((prepBarrier, resourceManager, profilerFiller, profilerFiller2, executor, executor2) ->
             prepBarrier.wait(null).thenRunAsync(() -> {
                 LootCrateManager.getInstance().reload(resourceManager);
+                StarterRoleManager.getInstance().reload(resourceManager);
             }, executor2)
         );
     }
