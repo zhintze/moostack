@@ -1,0 +1,26 @@
+{
+  "role": "farmer",
+  "description": "A humble farmer with full kitchen setup, farming tools, and leather work clothes",
+  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "items": [
+    { "item": "minecraft:potato", "count": [8, 12] },
+    { "item": "minecraft:carrot", "count": [8, 12] },
+    { "item": "croptopia:onion_seed", "count": [4, 8] },
+    { "item": "croptopia:tomato_seed", "count": [4, 8] },
+    { "item": "croptopia:lettuce_seed", "count": [4, 8] },
+    { "item": "croptopia:cabbage_seed", "count": [4, 8] },
+    { "item": "minecraft:hay_block", "count": [4, 8] },
+    { "item": "silentgear:hoe", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hoe\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:excavator\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:fishing_rod\"}" },
+    { "item": "minecraft:lead", "count": 4 },
+    { "item": "minecraft:bone_meal", "count": [32, 64] },
+    { "item": "farmersdelight:organic_compost", "count": 8 },
+    { "item": "minecraft:water_bucket", "count": 2 },
+    { "item": "epicknights:leather_tunic", "count": 1 },
+    { "item": "epicknights:leather_pants", "count": 1 },
+    { "item": "epicknights:leather_boots", "count": 1 },
+    { "item": "farmersdelight:canvas_rug", "count": 1, "comment": "Straw hat alternative - check mod for actual hat item" }
+  ]
+}
