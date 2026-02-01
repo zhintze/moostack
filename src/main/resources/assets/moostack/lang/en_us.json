@@ -2,7 +2,6 @@
   "itemGroup.moostack": "mooStack",
   "block.moostack.example_block": "Example Block",
   "item.moostack.example_item": "Example Item",
-  "item.moostack.mythic_ink": "Mythic Ink",
   "rarity.irons_spellbooks.mythic": "Mythic",
   "moostack.configuration.title": "mooStack Configs",
   "moostack.configuration.section.moostack.common.toml": "mooStack Configs",

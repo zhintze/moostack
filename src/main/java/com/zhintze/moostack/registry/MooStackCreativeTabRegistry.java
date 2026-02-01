@@ -18,10 +18,10 @@ public class MooStackCreativeTabRegistry {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOOSTACK_TAB = CREATIVE_TABS.register("moostack_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.moostack"))
-                    .icon(() -> new ItemStack(MooStackItemRegistry.LOOT_CRATE_LEGENDARY.get()))
+                    .icon(() -> new ItemStack(MooStackItemRegistry.CLASS_REGISTRY.get()))
                     .displayItems((parameters, output) -> {
-                        // Add Mythic Ink
-                        output.accept(MooStackItemRegistry.INK_MYTHIC.get());
+                        // Add Class Registry
+                        output.accept(MooStackItemRegistry.CLASS_REGISTRY.get());
 
                         // Add Loot Crates (all 5 tiers)
                         output.accept(MooStackItemRegistry.LOOT_CRATE_COMMON.get());
