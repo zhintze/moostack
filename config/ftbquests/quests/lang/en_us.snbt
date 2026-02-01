@@ -1,9 +1,9 @@
 {
 	chapter.004F28C5C85F467B.title: "Blood Magic"
 	chapter.02FF33D22B10EA88.title: "Welcome"
-	quest.CLASS_REGISTRY_QUEST.title: "Choose Your Path"
-	quest.CLASS_REGISTRY_QUEST.quest_subtitle: "Your journey begins here"
-	quest.CLASS_REGISTRY_QUEST.quest_desc: [
+	quest.0ECEB17B7C8ADD33.title: "Choose Your Path"
+	quest.0ECEB17B7C8ADD33.quest_subtitle: "Your journey begins here"
+	quest.0ECEB17B7C8ADD33.quest_desc: [
 		"Before you venture into mooStack, you must choose your starting path. The Class Registry is an ancient tome that will grant you a specialized starter kit based on your chosen discipline."
 		""
 		"There are two main paths:"

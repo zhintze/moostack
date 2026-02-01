@@ -178,7 +178,9 @@
   "moostack.loot_crate.message.empty": "The crate was empty...",
 
   "item.moostack.class_registry": "The Class Registry",
-  "item.moostack.class_registry.tooltip": "Choose your path and receive your starter kit",
+  "moostack.class_registry.tooltip": "Choose your path and receive your starter kit",
+  "moostack.class_registry.tooltip.instruction": "Right-click to open the Class Registry",
+  "moostack.class_registry.already_selected": "You have already chosen: %s",
 
   "moostack.class_registry.gui.title": "Choose Your Path",
   "moostack.class_registry.gui.civil": "Civil Disciplines",

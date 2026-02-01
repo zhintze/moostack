@@ -36,11 +36,12 @@
 			icon: {
 				id: "moostack:class_registry"
 			}
-			id: "CLASS_REGISTRY_QUEST"
+			id: "0ECEB17B7C8ADD33"
 			min_width: 350
 			rewards: [{
-				id: "CLASS_REGISTRY_REWARD"
+				id: "1FD9D563D4F6840A"
 				item: {
+					count: 1
 					id: "moostack:class_registry"
 				}
 				type: "item"
@@ -48,7 +49,7 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "CLASS_REGISTRY_TASK"
+				id: "35F5ACC3A6B38EEB"
 				type: "checkmark"
 			}]
 			x: 0.0d
