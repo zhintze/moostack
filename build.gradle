@@ -321,12 +321,15 @@ dependencies {
     implementation "curse.maven:Valhelsia-416935:6296775" //dependency
     implementation "curse.maven:ValhelsiaFurniture-694349:6341023" //dependency
 
-
+    implementation "curse.maven:potionsmaster-356801:6826199"
     implementation "curse.maven:botanypots-353928:7115287"
 
     // TECTONIC WORLDGEN SYSTEM (REQUIRED dependencies for planet generation)
     // TerraBlender for NeoForge 1.21.1
     implementation "curse.maven:terrablender-940057:6054947"
+
+
+
 
     // Tectonic for NeoForge 1.21.1
     implementation "curse.maven:tectonic-686836:7128220"

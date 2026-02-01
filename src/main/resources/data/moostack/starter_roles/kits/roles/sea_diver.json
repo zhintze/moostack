@@ -1,6 +1,6 @@
 {
-  "role": "fisher",
-  "description": "A seasoned fisher with tackle box, boat, full kitchen, and a straw hat",
+  "role": "sea_diver",
+  "description": "An underwater explorer with scuba gear, fishing equipment, and diving supplies",
   "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
   "items": [
     { "item": "silentgear:fishing_rod", "count": 1 },

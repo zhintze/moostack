@@ -1,0 +1,1034 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_and_armor"
+	group: ""
+	icon: {
+		id: "epicfight:skillbook"
+	}
+	id: "4FACE7A7426CE1A5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "epicfight:skillbook"
+			}
+			id: "4A050181D999577F"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0001000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "0D96B42914B65C1A"
+			tasks: [{
+				id: "0001000000000102"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "0001000000000003"
+			tasks: [{
+				id: "0001000000000103"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "147DA32CC31F58DC"
+			tasks: [{
+				id: "0002000000000101"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "7BAE1273C2564F50"
+			tasks: [{
+				id: "0002000000000102"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "66861A196EDAF149"
+			tasks: [{
+				id: "0002000000000103"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0001000000000003"]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "0002000000000004"
+			tasks: [{
+				id: "0002000000000104"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0002000000000004"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "6C03FDE5B2D3CC06"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0003000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "4D6872FE72705AC7"
+			tasks: [{
+				id: "0003000000000102"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "53CBB4ABCF61FDA2"
+			tasks: [{
+				id: "0003000000000103"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "1AE22C5745877654"
+			tasks: [{
+				id: "0003000000000104"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			icon: {
+				id: "magistuarmory:gambeson_chestplate"
+			}
+			id: "7AAFD8569DE1B316"
+			rewards: [{
+				id: "0004000000000201"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0004000000000101"
+				item: { count: 1, id: "magistuarmory:gambeson_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:chainmail_chestplate"
+			}
+			id: "62988C8A24A1053E"
+			rewards: [{
+				id: "0004000000000202"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0004000000000102"
+				item: { count: 1, id: "magistuarmory:chainmail_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:armet"
+			}
+			id: "475D3013FEA877EC"
+			rewards: [{
+				id: "0004000000000203"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0004000000000103"
+				item: { count: 1, id: "magistuarmory:armet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:gothic_chestplate"
+			}
+			id: "670969FF1549CD11"
+			rewards: [{
+				id: "0004000000000204"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0004000000000104"
+				item: { count: 1, id: "magistuarmory:gothic_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:big_plume_decoration"
+			}
+			id: "0004000000000005"
+			rewards: [{
+				id: "0004000000000205"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0004000000000105"
+				item: { count: 1, id: "magistuarmory:big_plume_decoration" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			icon: {
+				id: "magistuarmory:barding"
+			}
+			id: "0004000000000006"
+			rewards: [{
+				id: "0004000000000206"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0004000000000106"
+				item: { count: 1, id: "magistuarmory:barding" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:corinthian_helmet"
+			}
+			id: "5901453EC75161E6"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0005000000000101"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			icon: {
+				id: "antiquelegacy:segmentata"
+			}
+			id: "724AB1A5D11147DD"
+			rewards: [{
+				id: "0005000000000201"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0005000000000102"
+				item: { count: 1, id: "antiquelegacy:segmentata" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"0004000000000005"
+				"0004000000000006"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "30A16F0A565C5AC6"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0006000000000101"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "295EE0B7F74229B9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0006000000000102"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			icon: {
+				id: "silentgear:sword_blueprint"
+			}
+			id: "67540B9DFCD6F9EE"
+			rewards: [{
+				id: "153FB995E0247C9C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "648C576E945C6068"
+				item: { count: 1, id: "silentgear:sword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67540B9DFCD6F9EE"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "5442B3AB4A6B017C"
+			rewards: [
+				{
+					id: "1024629EC21CCDDE"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A00000000000001"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:roll"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3086A582FD2777C9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5442B3AB4A6B017C"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "219A6CFA514FABCD"
+			rewards: [
+				{
+					id: "5383A708B4A3B473"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A00000000000002"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:sword_master"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "452A8D96D584CACB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "silentgear:longsword_blueprint"
+			}
+			id: "4AB1C4D9A5CF9886"
+			rewards: [{
+				id: "2CF263EBA0769AE0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7723668DCEEFA822"
+				item: { count: 1, id: "silentgear:longsword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AB1C4D9A5CF9886"]
+			icon: {
+				id: "silentgear:longsword"
+			}
+			id: "1DD4F9946D69CC0C"
+			rewards: [
+				{
+					id: "20E68E0CDE580E36"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A00000000000003"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:parrying"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D041AFB7E442208"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DD4F9946D69CC0C"]
+			icon: {
+				id: "silentgear:longsword"
+			}
+			id: "0D988BF0557B8834"
+			rewards: [
+				{
+					id: "776042146CBF5AD9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A00000000000004"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:impact_guard"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "42019458CDB958AD"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "silentgear:greatsword_blueprint"
+			}
+			id: "2FE9641D71169F20"
+			rewards: [{
+				id: "27AA0E0E7C953EE9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7760E6D36367E31A"
+				item: { count: 1, id: "silentgear:greatsword_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FE9641D71169F20"]
+			icon: {
+				id: "silentgear:greatsword"
+			}
+			id: "00DCB81D6A41BD44"
+			rewards: [
+				{
+					id: "5E0CBE7CCBAA4247"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A00000000000005"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:berserker"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2E74B3CFD2CCD3F3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00DCB81D6A41BD44"]
+			icon: {
+				id: "silentgear:greatsword"
+			}
+			id: "5B341FC84A7C6F57"
+			rewards: [
+				{
+					id: "16AD0BDBB9A79EC2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A00000000000006"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:forbidden_strength"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "3DDEEB0F9DD35DDB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "silentgear:katana_blueprint"
+			}
+			id: "08FFB925245C38AF"
+			rewards: [{
+				id: "46A29B30D8BEC5FD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "35562BB02D6C4A02"
+				item: { count: 1, id: "silentgear:katana_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08FFB925245C38AF"]
+			icon: {
+				id: "silentgear:katana"
+			}
+			id: "4916A67B0CC75574"
+			rewards: [
+				{
+					id: "6A0949091A899278"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A00000000000007"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:step"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "4F2C7E2A94350706"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4916A67B0CC75574"]
+			icon: {
+				id: "silentgear:katana"
+			}
+			id: "12111A8F1BE36410"
+			rewards: [
+				{
+					id: "4782FBBD3A6E5ADF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A00000000000008"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:technician"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "3AD19747B3DF25E3"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "silentgear:tachi_blueprint"
+			}
+			id: "431FAEA1347F4DA3"
+			rewards: [{
+				id: "6CA5AECF82A750B9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6DAE6B656D2A538D"
+				item: { count: 1, id: "silentgear:tachi_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["431FAEA1347F4DA3"]
+			icon: {
+				id: "silentgear:tachi"
+			}
+			id: "78F20BAC5F8571D8"
+			rewards: [
+				{
+					id: "7D1C19049499D58A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A00000000000009"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:phantom_ascent"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				id: "6D602200B294572F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["78F20BAC5F8571D8"]
+			icon: {
+				id: "silentgear:tachi"
+			}
+			id: "1AEBC314878233CA"
+			rewards: [
+				{
+					id: "1DD5E2A7FED7E96F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A0000000000000A"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:demolition_leap"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7124BC36417356AA"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "silentgear:spear_blueprint"
+			}
+			id: "63BB4C3325346D7E"
+			rewards: [{
+				id: "560726F39BDEE58B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5751F3947C97DF2B"
+				item: { count: 1, id: "silentgear:spear_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["63BB4C3325346D7E"]
+			icon: {
+				id: "silentgear:spear"
+			}
+			id: "2833E10B825E3A2B"
+			rewards: [
+				{
+					id: "34BF8CCE94D6B4E3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A0000000000000B"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:stamina_pillager"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0D2F85A83E3149C5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2833E10B825E3A2B"]
+			icon: {
+				id: "silentgear:spear"
+			}
+			id: "10F9A4EAF82976CD"
+			rewards: [
+				{
+					id: "5371D76FE956C3E0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A0000000000000C"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:endurance"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "35491AD96E013CDB"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			icon: {
+				id: "silentgear:dagger_blueprint"
+			}
+			id: "1A01AFCD0BB97901"
+			rewards: [{
+				id: "17E6091C8E97C743"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5C486F3B440EAF31"
+				item: { count: 1, id: "silentgear:dagger_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1A01AFCD0BB97901"]
+			icon: {
+				id: "silentgear:dagger"
+			}
+			id: "2D04D50BD7BA4232"
+			rewards: [
+				{
+					id: "0E2E530937FCCC37"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A0000000000000D"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:death_harvest"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "6CD796FA8AAE2140"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2D04D50BD7BA4232"]
+			icon: {
+				id: "silentgear:dagger"
+			}
+			id: "0E2691DCE4B44A8D"
+			rewards: [
+				{
+					id: "718C5D51C68DB34B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A0000000000000E"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:emergency_escape"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:silverfish"
+				id: "61FF6D4EF89C61FC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			icon: {
+				id: "silentgear:mace_blueprint"
+			}
+			id: "3B4ED142FCA53952"
+			rewards: [{
+				id: "1C1FCB080C9C7E81"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4F3556F8431D927E"
+				item: { count: 1, id: "silentgear:mace_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3B4ED142FCA53952"]
+			icon: {
+				id: "silentgear:mace"
+			}
+			id: "634803EE25A1C506"
+			rewards: [
+				{
+					id: "00EB4B1D86A00354"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7A0000000000000F"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:hypervitality"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4AA4C835958E23DC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 14.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["634803EE25A1C506"]
+			icon: {
+				id: "silentgear:mace"
+			}
+			id: "2886EBF3DC98C805"
+			rewards: [
+				{
+					id: "76DF5CA89CA71E34"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A00000000000010"
+					item: {
+						components: {
+							"epicfight:skill": "epicfight:meteor_slam"
+						}
+						count: 1
+						id: "epicfight:skillbook"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "3850D80F00E15FAC"
+				type: "kill"
+				value: 20L
+			}]
+			x: 18.0d
+			y: 21.0d
+		}
+	]
+}

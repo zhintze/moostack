@@ -9,7 +9,7 @@ public enum StarterRole {
     FARMER("farmer", RoleCategory.CIVIL, ChatFormatting.GREEN),
     BUTCHER("butcher", RoleCategory.CIVIL, ChatFormatting.RED),
     BARKEEP("barkeep", RoleCategory.CIVIL, ChatFormatting.GOLD),
-    FISHER("fisher", RoleCategory.CIVIL, ChatFormatting.AQUA),
+    SEA_DIVER("sea_diver", RoleCategory.CIVIL, ChatFormatting.AQUA),
     ARCHITECT("architect", RoleCategory.CIVIL, ChatFormatting.GRAY),
     PROSPECTOR("prospector", RoleCategory.CIVIL, ChatFormatting.DARK_GRAY),
     SURVIVALIST("survivalist", RoleCategory.CIVIL, ChatFormatting.DARK_GREEN),

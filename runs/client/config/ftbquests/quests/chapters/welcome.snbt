@@ -32,6 +32,30 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["78B3F7AD4FC47CAA"]
+			icon: {
+				id: "moostack:class_registry"
+			}
+			id: "0ECEB17B7C8ADD33"
+			min_width: 350
+			rewards: [{
+				id: "1FD9D563D4F6840A"
+				item: {
+					count: 1
+					id: "moostack:class_registry"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "35F5ACC3A6B38EEB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
 			icon: {
 				id: "minecraft:book"
 			}
@@ -49,7 +73,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 4.5d
 		}
 		{
 			icon: {
