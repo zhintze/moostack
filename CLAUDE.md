@@ -102,6 +102,47 @@ The mod adds a "Mythic" rarity ink for Iron's Spells 'n Spellbooks:
 ### JEI Integration
 Custom JEI plugin hides broken Industrial Foregoing Patchouli guide book from recipe viewer.
 
+### Starter Role System
+A class selection system that gives new players a specialized starter kit:
+
+**Components:**
+- `com.zhintze.moostack.starterrole.StarterRole` - Enum with 35 classes (16 Civil, 19 Martial)
+- `com.zhintze.moostack.starterrole.StarterRoleData` - Player data persistence via NeoForge attachments
+- `com.zhintze.moostack.starterrole.StarterRoleManager` - JSON kit loading and management
+- `com.zhintze.moostack.starterrole.StarterRoleKitHandler` - Kit distribution logic
+- `com.zhintze.moostack.item.ClassRegistryItem` - "The Class Registry" book item
+- `com.zhintze.moostack.client.screen.ClassRegistryScreen` - Role selection GUI
+- `com.zhintze.moostack.network.SelectRolePayload` - Network packet for selection
+
+**Data Files:**
+- `src/main/resources/data/moostack/starter_roles/kits/base_kit.json` - Universal items for all classes
+- `src/main/resources/data/moostack/starter_roles/kits/sub_kits/` - Cooking and lighting sub-kits
+- `src/main/resources/data/moostack/starter_roles/kits/roles/` - 35 role-specific kit JSONs
+
+**Kit JSON Format:**
+```json
+{
+  "role": "role_id",
+  "description": "Brief description",
+  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "items": [
+    { "item": "namespace:item_id", "count": 1 },
+    { "item": "namespace:item_id", "count": [min, max] }
+  ]
+}
+```
+
+**FTB Quests Integration:**
+- Welcome chapter quest rewards The Class Registry book
+- All other chapters have `default_quest_dependencies: ["CLASS_REGISTRY_QUEST"]`
+- Players must choose a class before accessing other quest content
+
+**Adding New Roles:**
+1. Add entry to `StarterRole` enum
+2. Create `roles/role_id.json` with kit definition
+3. Add translations to `assets/moostack/lang/en_us.json`
+4. Run `/reload` to test (or restart client)
+
 ### Archmage Spell System (Recently Removed)
 Note: Archmage spell classes were recently deleted but spell icon textures remain in:
 - `src/main/resources/assets/moostack/textures/gui/spell_icons/`
