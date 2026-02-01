@@ -1,6 +1,19 @@
 {
 	chapter.004F28C5C85F467B.title: "Blood Magic"
 	chapter.02FF33D22B10EA88.title: "Welcome"
+	quest.CLASS_REGISTRY_QUEST.title: "Choose Your Path"
+	quest.CLASS_REGISTRY_QUEST.quest_subtitle: "Your journey begins here"
+	quest.CLASS_REGISTRY_QUEST.quest_desc: [
+		"Before you venture into mooStack, you must choose your starting path. The Class Registry is an ancient tome that will grant you a specialized starter kit based on your chosen discipline."
+		""
+		"There are two main paths:"
+		""
+		"Civil Disciplines - For those who prefer building, farming, crafting, and technology. Includes Farmer, Architect, Engineer, Enchanter, and more."
+		""
+		"Martial Disciplines - For those who seek combat and adventure. Includes Knight, Ranger, Assassin, various mages, and more."
+		""
+		"Right-click The Class Registry to open the selection screen. Choose wisely - this decision is permanent for your character!"
+	]
 	chapter.07210DDF872160BA.title: "Applied Energistics 2"
 	chapter.0A093D8C4429B627.title: "Mekanism: Power"
 	chapter.100C477F4E63F20A.title: "Create"
