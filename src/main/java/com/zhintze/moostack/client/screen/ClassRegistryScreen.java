@@ -150,8 +150,9 @@ public class ClassRegistryScreen extends Screen {
         graphics.fill(guiLeft - 2, guiTop - 2, guiLeft + GUI_WIDTH + 2, guiTop + GUI_HEIGHT + 2, 0xFF000000);
         graphics.fill(guiLeft, guiTop, guiLeft + GUI_WIDTH, guiTop + GUI_HEIGHT, 0xFF2D2D2D);
 
-        // Draw title
-        graphics.drawCenteredString(this.font, this.title, guiLeft + GUI_WIDTH / 2, guiTop + 10, 0xFFD700);
+        // Draw title (centered, with proper ARGB color - 0xFF prefix for full alpha)
+        int titleWidth = this.font.width(this.title);
+        graphics.drawString(this.font, this.title, guiLeft + (GUI_WIDTH - titleWidth) / 2, guiTop + 10, 0xFFFFD700, false);
 
         // Draw scroll indicator if needed
         List<StarterRole> roles = StarterRole.getByCategory(currentCategory);
