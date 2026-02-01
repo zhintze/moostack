@@ -9,13 +9,13 @@
     { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:shield\"}" },
     { "item": "minecraft:saddle", "count": 1 },
     { "item": "minecraft:iron_horse_armor", "count": 1 },
-    { "item": "epicknights:horse_bard", "count": 1, "comment": "Horse armor/barding - verify item ID" },
+    { "item": "magistuarmory:barding", "count": 1 },
     { "item": "minecraft:white_banner", "count": 1, "comment": "Can be randomized to different colors" },
     { "item": "minecraft:goat_horn", "count": 1 },
     { "item": "minecraft:hay_block", "count": 8 },
-    { "item": "epicknights:steel_helmet", "count": 1 },
-    { "item": "epicknights:steel_chestplate", "count": 1 },
-    { "item": "epicknights:steel_leggings", "count": 1 },
-    { "item": "epicknights:steel_boots", "count": 1 }
+    { "item": "magistuarmory:armet", "count": 1 },
+    { "item": "magistuarmory:knight_chestplate", "count": 1 },
+    { "item": "magistuarmory:knight_leggings", "count": 1 },
+    { "item": "magistuarmory:knight_boots", "count": 1 }
   ]
 }

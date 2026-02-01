@@ -18,9 +18,9 @@
     { "item": "minecraft:bone_meal", "count": [32, 64] },
     { "item": "farmersdelight:organic_compost", "count": 8 },
     { "item": "minecraft:water_bucket", "count": 2 },
-    { "item": "epicknights:leather_tunic", "count": 1 },
-    { "item": "epicknights:leather_pants", "count": 1 },
-    { "item": "epicknights:leather_boots", "count": 1 },
-    { "item": "farmersdelight:canvas_rug", "count": 1, "comment": "Straw hat alternative - check mod for actual hat item" }
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "supplementaries:straw_hat", "count": 1 }
   ]
 }
