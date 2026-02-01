@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "item": "minecraft:furnace", "count": 1 },
+    { "item": "minecraft:coal", "count": 16 }
+  ]
+}
