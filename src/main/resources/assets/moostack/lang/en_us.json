@@ -1,5 +1,5 @@
 {
-  "itemGroup.moostack": "Example Mod Tab",
+  "itemGroup.moostack": "mooStack",
   "block.moostack.example_block": "Example Block",
   "item.moostack.example_item": "Example Item",
   "item.moostack.mythic_ink": "Mythic Ink",
@@ -181,6 +181,7 @@
   "moostack.class_registry.tooltip": "Choose your path and receive your starter kit",
   "moostack.class_registry.tooltip.instruction": "Right-click to open the Class Registry",
   "moostack.class_registry.already_selected": "You have already chosen: %s",
+  "moostack.class_registry.role_selected": "You have chosen the path of the %s!",
 
   "moostack.class_registry.gui.title": "Choose Your Path",
   "moostack.class_registry.gui.civil": "Civil Disciplines",
@@ -203,8 +204,8 @@
   "moostack.role.architect.desc": "Designer of grand structures",
   "moostack.role.prospector": "Prospector",
   "moostack.role.prospector.desc": "Seeker of ores and precious minerals",
-  "moostack.role.survivalist": "Survivalist",
-  "moostack.role.survivalist.desc": "Jack of all trades, master of self-reliance",
+  "moostack.role.generalist": "Generalist",
+  "moostack.role.generalist.desc": "A well-rounded start with basic supplies",
   "moostack.role.explorer": "Explorer",
   "moostack.role.explorer.desc": "Wanderer of distant lands",
   "moostack.role.engineer": "Engineer",
@@ -223,6 +224,8 @@
   "moostack.role.occultist.desc": "Practitioner of dark and forbidden arts",
   "moostack.role.merchant": "Merchant",
   "moostack.role.merchant.desc": "Trader of goods and collector of emeralds",
+  "moostack.merchant.teleported_to_village": "You have been teleported to a nearby village to begin your trade route!",
+  "moostack.merchant.no_village_found": "No village was found nearby. You'll need to find one on your own.",
 
   "moostack.role.ranger": "Ranger",
   "moostack.role.ranger.desc": "Swift archer with animal companions",

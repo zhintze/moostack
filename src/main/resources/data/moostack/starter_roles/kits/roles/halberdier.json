@@ -3,8 +3,17 @@
   "description": "A polearm specialist with spear, horse equipment, and guard armor with kettle hat",
   "include_sub_kits": ["cooking_basic", "light_torches"],
   "items": [
-    { "item": "silentgear:spear", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:spear\"}" },
+    {
+      "item": "silentgear:spear",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:spear_tip\",item:{id:\"silentgear:spear_tip\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:spear_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
+    { "item": "minecraft:horse_spawn_egg", "count": 1 },
     { "item": "minecraft:saddle", "count": 1 },
     { "item": "minecraft:iron_horse_armor", "count": 1 },
     { "item": "magistuarmory:barding", "count": 1 },

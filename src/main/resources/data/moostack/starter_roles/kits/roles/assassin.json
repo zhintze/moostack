@@ -3,11 +3,19 @@
   "description": "A deadly shadow with katana, grappling hook, invisibility charm, and ninja attire",
   "include_sub_kits": ["light_night_vision"],
   "items": [
-    { "item": "silentgear:katana", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:katana\"}" },
+    {
+      "item": "silentgear:katana",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:katana_blade\",item:{id:\"silentgear:katana_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:katana_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "supplementaries:grappling_hook", "count": 1 },
     { "item": "potionsmaster:invisibility_charm", "count": 1 },
-    { "item": "minecraft:lingering_potion", "count": 4, "comment": "Poison potions" },
+    { "item": "minecraft:lingering_potion", "count": 4 },
     { "item": "minecraft:leather_chestplate", "count": 1 },
     { "item": "minecraft:leather_leggings", "count": 1 },
     { "item": "minecraft:leather_boots", "count": 1 }

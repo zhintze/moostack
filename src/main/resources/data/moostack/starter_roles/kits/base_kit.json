@@ -1,10 +1,10 @@
 {
   "description": "Universal base kit for all classes",
   "items": [
-    { "item": "sophisticatedbackpacks:backpack", "count": 1 },
-    { "item": "silentgear:pickaxe", "count": 1 },
-    { "item": "silentgear:axe", "count": 1 },
-    { "item": "silentgear:shovel", "count": 1 },
+    { "item": "sophisticatedbackpacks:iron_backpack", "count": 1 },
+    { "item": "minecraft:iron_pickaxe", "count": 1 },
+    { "item": "minecraft:iron_axe", "count": 1 },
+    { "item": "minecraft:iron_shovel", "count": 1 },
     { "item": "sophisticatedstorage:gold_chest", "count": 1 },
     { "item": "supplementaries:antique_map", "count": 1 },
     { "item": "mightymail:mailbox", "count": 1 },

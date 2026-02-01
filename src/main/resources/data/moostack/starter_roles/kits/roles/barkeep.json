@@ -1,13 +1,21 @@
 {
   "role": "barkeep",
   "description": "A tavern keeper with full kitchen plus oven, brewing supplies, and leather work clothes",
-  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "include_sub_kits": ["civil_bonus", "cooking_full_kitchen", "light_lanterns"],
   "items": [
-    { "item": "farmersdelight:stove", "count": 1, "comment": "Extra oven for Full Kitchen+" },
+    { "item": "farmersdelight:stove", "count": 1 },
     { "item": "brewinandchewin:keg", "count": 2 },
     { "item": "brewinandchewin:tankard", "count": 4 },
-    { "item": "silentgear:hoe", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hoe\"}" },
+    {
+      "item": "silentgear:hoe",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:hoe_head\",item:{id:\"silentgear:hoe_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:hoe_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "minecraft:barrel", "count": 4 },
     { "item": "minecraft:sugar_cane", "count": 32 },
     { "item": "minecraft:honey_bottle", "count": 8 },

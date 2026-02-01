@@ -5,8 +5,11 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.zhintze.moostack.mooStack;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.TagParser;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.server.packs.resources.ResourceManager;
@@ -226,7 +229,19 @@ public class StarterRoleManager {
             }
 
             int count = itemJson.has("count") ? itemJson.get("count").getAsInt() : 1;
-            entries.add(new KitEntry(item, count));
+
+            // Parse NBT data if present
+            CompoundTag nbt = null;
+            if (itemJson.has("nbt")) {
+                String nbtString = itemJson.get("nbt").getAsString();
+                try {
+                    nbt = TagParser.parseTag(nbtString);
+                } catch (CommandSyntaxException e) {
+                    mooStack.LOGGER.warn("Invalid NBT for item {}: {}", itemId, e.getMessage());
+                }
+            }
+
+            entries.add(new KitEntry(item, count, nbt));
         }
 
         return entries;
@@ -300,10 +315,17 @@ public class StarterRoleManager {
      * Represents a single item entry in a kit.
      * @param item The item type
      * @param count The stack count
+     * @param nbt Optional NBT data for the item (for components like Silent Gear blueprints, Mekanism tanks)
      */
-    public record KitEntry(Item item, int count) {
+    public record KitEntry(Item item, int count, CompoundTag nbt) {
         public ItemStack toItemStack() {
-            return new ItemStack(item, count);
+            ItemStack stack = new ItemStack(item, count);
+            if (nbt != null && !nbt.isEmpty()) {
+                // Apply NBT as custom data - mods like Silent Gear and Mekanism read from this
+                stack.set(net.minecraft.core.component.DataComponents.CUSTOM_DATA,
+                        net.minecraft.world.item.component.CustomData.of(nbt));
+            }
+            return stack;
         }
     }
 

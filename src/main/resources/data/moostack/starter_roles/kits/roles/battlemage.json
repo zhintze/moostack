@@ -4,9 +4,17 @@
   "include_sub_kits": ["light_night_vision"],
   "items": [
     { "item": "irons_spellbooks:iron_spell_book", "count": 1 },
-    { "item": "irons_spellbooks:scroll", "count": 3, "comment": "Lightning, fireball, iceshot scrolls" },
-    { "item": "silentgear:mace", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:mace\"}" },
+    { "item": "irons_spellbooks:scroll", "count": 3 },
+    {
+      "item": "silentgear:mace",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:mace_head\",item:{id:\"silentgear:mace_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:mace_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "minecraft:iron_helmet", "count": 1 },
     { "item": "minecraft:iron_chestplate", "count": 1 },
     { "item": "minecraft:iron_leggings", "count": 1 },

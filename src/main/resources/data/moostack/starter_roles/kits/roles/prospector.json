@@ -1,16 +1,33 @@
 {
   "role": "prospector",
   "description": "A mining expert with specialized tools, excavation gear, and extra torches",
-  "include_sub_kits": ["cooking_campfire", "light_torches"],
+  "include_sub_kits": ["civil_bonus", "cooking_campfire", "light_torches"],
   "items": [
-    { "item": "silentgear:excavator", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:excavator\"}" },
-    { "item": "silentgear:prospector_hammer", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:prospector_hammer\"}" },
-    { "item": "silentgear:hammer", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hammer\"}" },
-    { "item": "silentgear:paxel", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:paxel\"}" },
+    {
+      "item": "silentgear:excavator",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:excavator_head\",item:{id:\"silentgear:excavator_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:prospector_hammer",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:prospector_hammer_head\",item:{id:\"silentgear:prospector_hammer_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:hammer",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:hammer_head\",item:{id:\"silentgear:hammer_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:paxel",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:paxel_head\",item:{id:\"silentgear:paxel_head\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:excavator_blueprint\",count:1},{slot:1,id:\"silentgear:prospector_hammer_blueprint\",count:1},{slot:2,id:\"silentgear:hammer_blueprint\",count:1},{slot:3,id:\"silentgear:paxel_blueprint\",count:1},{slot:4,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "minecraft:clock", "count": 1 },
     { "item": "minecraft:torch", "count": [128, 192] },
     { "item": "minecraft:rail", "count": 64 },

@@ -1,13 +1,24 @@
 {
   "role": "sea_diver",
   "description": "An underwater explorer with scuba gear, fishing equipment, and diving supplies",
-  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "include_sub_kits": ["civil_bonus", "cooking_full_kitchen", "light_torches"],
   "items": [
-    { "item": "silentgear:fishing_rod", "count": 1 },
-    { "item": "silentgear:knife", "count": 1 },
+    {
+      "item": "silentgear:fishing_rod",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:fishing_reel\",item:{id:\"silentgear:fishing_reel\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}},{part:\"silentgear:bowstring\",item:{id:\"silentgear:bowstring\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:string\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:knife",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:knife_blade\",item:{id:\"silentgear:knife_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:knife_blueprint\",count:1},{slot:1,id:\"silentgear:fishing_rod_blueprint\",count:1},{slot:2,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "farmersdelight:cutting_board", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:fishing_rod\"}" },
     { "item": "aquaculture:tackle_box", "count": 1 },
     { "item": "aquaculture:worm", "count": 16 },
     { "item": "aquaculture:minnow", "count": 8 },

@@ -1,7 +1,7 @@
 {
   "role": "machinist",
   "description": "A Create mod specialist with kinetic power setup, potato cannon, and mechanical parts",
-  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "include_sub_kits": ["civil_bonus", "cooking_full_kitchen", "light_lanterns"],
   "items": [
     { "item": "create:potato_cannon", "count": 1 },
     { "item": "minecraft:potato", "count": 64 },

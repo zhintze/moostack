@@ -1,10 +1,21 @@
 {
   "role": "butcher",
-  "description": "A skilled butcher with animal husbandry tools, full kitchen, and leather work clothes",
-  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "description": "A skilled butcher with butchercraft equipment, animal husbandry tools, full kitchen, and leather work clothes",
+  "include_sub_kits": ["civil_bonus", "cooking_full_kitchen", "light_torches"],
   "items": [
-    { "item": "silentgear:knife", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "butchercraft:butcher_knife", "count": 1 },
+    { "item": "butchercraft:skinning_knife", "count": 1 },
+    { "item": "butchercraft:gut_knife", "count": 1 },
+    { "item": "butchercraft:bone_saw", "count": 1 },
+    { "item": "butchercraft:meat_hook", "count": 2 },
+    { "item": "butchercraft:butcher_block", "count": 1 },
+    { "item": "butchercraft:meat_grinder", "count": 1 },
+    { "item": "butchercraft:blood_grate", "count": 4 },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:knife_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "minecraft:lead", "count": 4 },
     { "item": "minecraft:hay_block", "count": [16, 24] },
     { "item": "minecraft:cow_spawn_egg", "count": 2 },

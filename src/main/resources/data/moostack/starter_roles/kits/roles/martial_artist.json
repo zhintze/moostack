@@ -1,14 +1,24 @@
 {
   "role": "martial_artist",
-  "description": "An unarmed combatant with gauntlets, jump boost charm, and enhanced mobility",
+  "description": "An unarmed combatant with gauntlets, jump boost charm, camel, and enhanced mobility",
   "include_sub_kits": ["cooking_campfire", "light_night_vision"],
   "items": [
-    { "item": "silentgear:gloves", "count": 2 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:gloves\"}" },
-    { "item": "minecraft:camel_spawn_egg", "count": 1, "comment": "Tamed camel" },
+    {
+      "item": "silentgear:gloves",
+      "count": 2,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:glove_plates\",item:{id:\"silentgear:glove_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:gloves_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
+    { "item": "minecraft:camel_spawn_egg", "count": 1 },
+    { "item": "minecraft:saddle", "count": 1 },
+    { "item": "minecraft:cactus", "count": 64 },
     { "item": "potionsmaster:jump_boost_charm", "count": 1 },
     { "item": "minecraft:leather_chestplate", "count": 1 },
     { "item": "minecraft:leather_leggings", "count": 1 },
-    { "item": "minecraft:leather_boots", "count": 1, "comment": "With step-up enchantment" }
+    { "item": "minecraft:leather_boots", "count": 1 }
   ]
 }

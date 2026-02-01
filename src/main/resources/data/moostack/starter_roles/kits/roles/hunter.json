@@ -3,15 +3,39 @@
   "description": "A stealthy hunter with crossbow, trap glyphs, and leather Silent Gear armor",
   "include_sub_kits": ["cooking_campfire", "light_night_vision"],
   "items": [
-    { "item": "silentgear:crossbow", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:crossbow\"}" },
+    {
+      "item": "silentgear:crossbow",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:crossbow_limbs\",item:{id:\"silentgear:crossbow_limbs\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:bowstring\",item:{id:\"silentgear:bowstring\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:string\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:crossbow_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "minecraft:arrow", "count": 64 },
     { "item": "ars_nouveau:glyph_snare", "count": 4 },
     { "item": "ars_nouveau:glyph_freeze", "count": 4 },
     { "item": "minecraft:lead", "count": 4 },
-    { "item": "silentgear:helmet", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:chestplate", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:leggings", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:boots", "count": 1, "comment": "Leather Silent Gear" }
+    {
+      "item": "silentgear:helmet",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:helmet_plates\",item:{id:\"silentgear:helmet_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:chestplate",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:chestplate_plates\",item:{id:\"silentgear:chestplate_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:leggings",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:leggings_plates\",item:{id:\"silentgear:leggings_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:boots",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:boots_plates\",item:{id:\"silentgear:boots_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    }
   ]
 }

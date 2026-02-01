@@ -1,14 +1,15 @@
 {
   "role": "artificer",
-  "description": "A Mekanism specialist with energy setup, free runners, robit companion, and mek bow",
+  "description": "A Mekanism specialist with powered energy setup, free runners, robit companion, and mek bow",
   "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
   "items": [
-    { "item": "mekanism:electric_bow", "count": 1 },
+    { "item": "mekanism:electric_bow", "count": 1, "nbt": "{mekanism:energy:{stored:120000}}" },
     { "item": "mekanism:chargepad", "count": 1 },
-    { "item": "mekanism:free_runners", "count": 1 },
-    { "item": "mekanism:robit", "count": 1 },
-    { "item": "mekanismgenerators:solar_panel", "count": 2 },
-    { "item": "mekanism:basic_energy_cube", "count": 1 },
+    { "item": "mekanism:free_runners", "count": 1, "nbt": "{mekanism:energy:{stored:64000}}" },
+    { "item": "mekanism:robit", "count": 1, "nbt": "{mekanism:energy:{stored:100000}}" },
+    { "item": "mekanismgenerators:solar_generator", "count": 1 },
+    { "item": "mekanism:basic_energy_cube", "count": 1, "nbt": "{mekanism:energy:{stored:4000000}}" },
+    { "item": "mekanism:basic_universal_cable", "count": 8 },
     { "item": "mekanism:configurator", "count": 1 }
   ]
 }

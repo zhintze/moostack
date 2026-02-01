@@ -3,16 +3,39 @@
   "description": "A wilderness archer with obsidian bow, animal companions, and leather Silent Gear armor",
   "include_sub_kits": ["cooking_campfire", "light_torches"],
   "items": [
-    { "item": "silentgear:bow", "count": 1 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:bow\"}" },
+    {
+      "item": "silentgear:bow",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:bow_limbs\",item:{id:\"silentgear:bow_limbs\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:bowstring\",item:{id:\"silentgear:bowstring\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:string\"}]}}}],example:0b}}"
+    },
     { "item": "silentgear:arrow", "count": 64 },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:arrow\"}" },
-    { "item": "irons_spellbooks:blood_staff", "count": 1, "comment": "Summon staff for mob spawns" },
-    { "item": "irons_spellbooks:scroll", "count": 1, "comment": "Summon spell scroll" },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:bow_blueprint\",count:1},{slot:1,id:\"silentgear:arrow_blueprint\",count:1},{slot:2,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
+    { "item": "irons_spellbooks:blood_staff", "count": 1 },
+    { "item": "irons_spellbooks:scroll", "count": 1 },
     { "item": "minecraft:lead", "count": 4 },
-    { "item": "silentgear:helmet", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:chestplate", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:leggings", "count": 1, "comment": "Leather Silent Gear" },
-    { "item": "silentgear:boots", "count": 1, "comment": "Leather Silent Gear" }
+    {
+      "item": "silentgear:helmet",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:helmet_plates\",item:{id:\"silentgear:helmet_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:chestplate",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:chestplate_plates\",item:{id:\"silentgear:chestplate_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:leggings",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:leggings_plates\",item:{id:\"silentgear:leggings_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:boots",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:boots_plates\",item:{id:\"silentgear:boots_plates\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:leather\"}]}}}],example:0b}}"
+    }
   ]
 }

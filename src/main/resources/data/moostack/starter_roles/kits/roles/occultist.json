@@ -1,9 +1,13 @@
 {
   "role": "occultist",
   "description": "A dark magic practitioner with blood magic altar, evilcraft materials, and sacrificial tools",
-  "include_sub_kits": ["cooking_basic", "light_night_vision"],
+  "include_sub_kits": ["civil_bonus", "cooking_basic", "light_night_vision"],
   "items": [
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:knife_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "evilcraft:dark_spike", "count": 32 },
     { "item": "evilcraft:dark_gem", "count": 16 },
     { "item": "evilcraft:dark_gem_crushed", "count": 16 },

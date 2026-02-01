@@ -1,0 +1,33 @@
+{
+  "role": "generalist",
+  "description": "A well-rounded start with iron armor, crafting tools, and basic supplies",
+  "include_sub_kits": ["civil_bonus", "light_torches"],
+  "items": [
+    { "item": "farmersdelight:stove", "count": 1 },
+    { "item": "minecraft:iron_helmet", "count": 1 },
+    { "item": "minecraft:iron_chestplate", "count": 1 },
+    { "item": "minecraft:iron_leggings", "count": 1 },
+    { "item": "minecraft:iron_boots", "count": 1 },
+    {
+      "item": "silentgear:knife",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:knife_blade\",item:{id:\"silentgear:knife_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:helmet_blueprint\",count:1},{slot:1,id:\"silentgear:chestplate_blueprint\",count:1},{slot:2,id:\"silentgear:leggings_blueprint\",count:1},{slot:3,id:\"silentgear:boots_blueprint\",count:1},{slot:4,id:\"silentgear:knife_blueprint\",count:1},{slot:5,id:\"silentgear:sword_blueprint\",count:1},{slot:6,id:\"silentgear:longsword_blueprint\",count:1},{slot:7,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
+    { "item": "supplementaries:grappling_hook", "count": 1 },
+    { "item": "minecraft:crafting_table", "count": 1 },
+    { "item": "minecraft:coal", "count": 64 },
+    { "item": "minecraft:iron_ingot", "count": [16, 32] },
+    { "item": "minecraft:compass", "count": 1 },
+    { "item": "minecraft:clock", "count": 1 },
+    { "item": "minecraft:leather", "count": 32 },
+    { "item": "minecraft:string", "count": 32 },
+    { "item": "minecraft:flint", "count": 32 },
+    { "item": "minecraft:potion", "count": 4 },
+    { "item": "minecraft:golden_apple", "count": 2 }
+  ]
+}

@@ -12,7 +12,7 @@ public enum StarterRole {
     SEA_DIVER("sea_diver", RoleCategory.CIVIL, ChatFormatting.AQUA),
     ARCHITECT("architect", RoleCategory.CIVIL, ChatFormatting.GRAY),
     PROSPECTOR("prospector", RoleCategory.CIVIL, ChatFormatting.DARK_GRAY),
-    SURVIVALIST("survivalist", RoleCategory.CIVIL, ChatFormatting.DARK_GREEN),
+    GENERALIST("generalist", RoleCategory.CIVIL, ChatFormatting.DARK_GREEN),
     EXPLORER("explorer", RoleCategory.CIVIL, ChatFormatting.BLUE),
     ENGINEER("engineer", RoleCategory.CIVIL, ChatFormatting.DARK_RED),
     MACHINIST("machinist", RoleCategory.CIVIL, ChatFormatting.YELLOW),

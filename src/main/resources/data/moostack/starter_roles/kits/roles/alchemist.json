@@ -1,7 +1,7 @@
 {
   "role": "alchemist",
   "description": "A potion brewer with brewing stand, netherwart farm, and variety of potion ingredients",
-  "include_sub_kits": ["cooking_brewers", "light_lanterns"],
+  "include_sub_kits": ["civil_bonus", "cooking_brewers", "light_lanterns"],
   "items": [
     { "item": "minecraft:nether_wart", "count": 16 },
     { "item": "minecraft:soul_sand", "count": 4 },

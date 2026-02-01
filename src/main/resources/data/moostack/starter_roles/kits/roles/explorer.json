@@ -1,9 +1,9 @@
 {
   "role": "explorer",
   "description": "A world traveler with navigation tools, waystones, iron armor, and mobility gear",
-  "include_sub_kits": ["cooking_campfire", "light_torches"],
+  "include_sub_kits": ["civil_bonus", "cooking_campfire", "light_torches"],
   "items": [
-    { "item": "sophisticatedbackpacks:gold_backpack", "count": 1, "comment": "Bigger backpack upgrade" },
+    { "item": "sophisticatedbackpacks:gold_backpack", "count": 1 },
     { "item": "minecraft:compass", "count": 1 },
     { "item": "minecraft:clock", "count": 1 },
     { "item": "waystones:waystone", "count": 4 },
@@ -11,7 +11,16 @@
     { "item": "minecraft:iron_chestplate", "count": 1 },
     { "item": "minecraft:iron_leggings", "count": 1 },
     { "item": "minecraft:iron_boots", "count": 1 },
-    { "item": "silentgear:machete", "count": 1 },
+    {
+      "item": "silentgear:machete",
+      "count": 1,
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:machete_blade\",item:{id:\"silentgear:machete_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+    },
+    {
+      "item": "silentgear:blueprint_package",
+      "count": 1,
+      "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:machete_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
+    },
     { "item": "supplementaries:grappling_hook", "count": 1 },
     { "item": "minecraft:oak_boat", "count": 3 },
     { "item": "minecraft:ender_pearl", "count": 4 },

@@ -1,7 +1,7 @@
 {
   "role": "archivist",
   "description": "An Applied Energistics 2 specialist with charged staff, storage components, and crystals",
-  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "include_sub_kits": ["civil_bonus", "cooking_full_kitchen", "light_lanterns"],
   "items": [
     { "item": "ae2:charged_staff", "count": 1 },
     { "item": "ae2:charger", "count": 1 },
