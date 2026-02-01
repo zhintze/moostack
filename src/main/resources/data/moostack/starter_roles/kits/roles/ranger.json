@@ -1,0 +1,18 @@
+{
+  "role": "ranger",
+  "description": "A wilderness archer with obsidian bow, animal companions, and leather Silent Gear armor",
+  "include_sub_kits": ["cooking_campfire", "light_torches"],
+  "items": [
+    { "item": "silentgear:bow", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:bow\"}" },
+    { "item": "silentgear:arrow", "count": 64 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:arrow\"}" },
+    { "item": "irons_spellbooks:blood_staff", "count": 1, "comment": "Summon staff for mob spawns" },
+    { "item": "irons_spellbooks:scroll", "count": 1, "comment": "Summon spell scroll" },
+    { "item": "minecraft:lead", "count": 4 },
+    { "item": "silentgear:helmet", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:chestplate", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:leggings", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:boots", "count": 1, "comment": "Leather Silent Gear" }
+  ]
+}

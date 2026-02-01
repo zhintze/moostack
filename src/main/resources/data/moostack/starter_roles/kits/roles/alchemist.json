@@ -1,0 +1,27 @@
+{
+  "role": "alchemist",
+  "description": "A potion brewer with brewing stand, netherwart farm, and variety of potion ingredients",
+  "include_sub_kits": ["cooking_brewers", "light_lanterns"],
+  "items": [
+    { "item": "minecraft:nether_wart", "count": 16 },
+    { "item": "minecraft:soul_sand", "count": 4 },
+    { "item": "minecraft:blaze_rod", "count": 8 },
+    { "item": "minecraft:redstone", "count": 32 },
+    { "item": "minecraft:sugar", "count": 32 },
+    { "item": "minecraft:pufferfish", "count": 4 },
+    { "item": "minecraft:golden_carrot", "count": 8 },
+    { "item": "minecraft:carrot", "count": 16 },
+    { "item": "minecraft:ghast_tear", "count": 4 },
+    { "item": "minecraft:magma_cream", "count": 8 },
+    { "item": "minecraft:rabbit_foot", "count": 2 },
+    { "item": "minecraft:spider_eye", "count": 8 },
+    { "item": "minecraft:fermented_spider_eye", "count": 4 },
+    { "item": "minecraft:glistering_melon_slice", "count": 8 },
+    { "item": "minecraft:glass_bottle", "count": 64 },
+    { "item": "minecraft:coal", "count": 32 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

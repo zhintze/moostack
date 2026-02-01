@@ -1,0 +1,23 @@
+{
+  "role": "explorer",
+  "description": "A world traveler with navigation tools, waystones, iron armor, and mobility gear",
+  "include_sub_kits": ["cooking_campfire", "light_torches"],
+  "items": [
+    { "item": "sophisticatedbackpacks:gold_backpack", "count": 1, "comment": "Bigger backpack upgrade" },
+    { "item": "minecraft:compass", "count": 1 },
+    { "item": "minecraft:clock", "count": 1 },
+    { "item": "waystones:waystone", "count": 4 },
+    { "item": "minecraft:iron_helmet", "count": 1 },
+    { "item": "minecraft:iron_chestplate", "count": 1 },
+    { "item": "minecraft:iron_leggings", "count": 1 },
+    { "item": "minecraft:iron_boots", "count": 1 },
+    { "item": "silentgear:machete", "count": 1 },
+    { "item": "supplementaries:grappling_hook", "count": 1 },
+    { "item": "minecraft:oak_boat", "count": 3 },
+    { "item": "minecraft:ender_pearl", "count": 4 },
+    { "item": "minecraft:spyglass", "count": 1 },
+    { "item": "minecraft:paper", "count": 64 },
+    { "item": "minecraft:cooked_beef", "count": 32 },
+    { "item": "minecraft:golden_carrot", "count": 16 }
+  ]
+}

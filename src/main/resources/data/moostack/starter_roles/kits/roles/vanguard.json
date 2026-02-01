@@ -1,0 +1,19 @@
+{
+  "role": "vanguard",
+  "description": "A heavy frontline warrior with greatsword, horse equipment, and heavy plate armor",
+  "include_sub_kits": ["cooking_basic", "light_torches"],
+  "items": [
+    { "item": "silentgear:greatsword", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:greatsword\"}" },
+    { "item": "minecraft:saddle", "count": 1 },
+    { "item": "minecraft:iron_horse_armor", "count": 1 },
+    { "item": "magistuarmory:barding", "count": 1 },
+    { "item": "minecraft:white_banner", "count": 1 },
+    { "item": "minecraft:goat_horn", "count": 1 },
+    { "item": "minecraft:hay_block", "count": 8 },
+    { "item": "magistuarmory:maximilian_helmet", "count": 1 },
+    { "item": "magistuarmory:maximilian_chestplate", "count": 1 },
+    { "item": "magistuarmory:maximilian_leggings", "count": 1 },
+    { "item": "magistuarmory:maximilian_boots", "count": 1 }
+  ]
+}

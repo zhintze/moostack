@@ -1,0 +1,15 @@
+{
+  "role": "battlemage",
+  "description": "A hybrid warrior-mage with spell book, mace, and full iron armor",
+  "include_sub_kits": ["light_night_vision"],
+  "items": [
+    { "item": "irons_spellbooks:iron_spell_book", "count": 1 },
+    { "item": "irons_spellbooks:scroll", "count": 3, "comment": "Lightning, fireball, iceshot scrolls" },
+    { "item": "silentgear:mace", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:mace\"}" },
+    { "item": "minecraft:iron_helmet", "count": 1 },
+    { "item": "minecraft:iron_chestplate", "count": 1 },
+    { "item": "minecraft:iron_leggings", "count": 1 },
+    { "item": "minecraft:iron_boots", "count": 1 }
+  ]
+}

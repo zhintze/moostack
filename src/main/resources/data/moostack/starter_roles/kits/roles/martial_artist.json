@@ -1,0 +1,14 @@
+{
+  "role": "martial_artist",
+  "description": "An unarmed combatant with gauntlets, jump boost charm, and enhanced mobility",
+  "include_sub_kits": ["cooking_campfire", "light_night_vision"],
+  "items": [
+    { "item": "silentgear:gloves", "count": 2 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:gloves\"}" },
+    { "item": "minecraft:camel_spawn_egg", "count": 1, "comment": "Tamed camel" },
+    { "item": "potionsmaster:jump_boost_charm", "count": 1 },
+    { "item": "minecraft:leather_chestplate", "count": 1 },
+    { "item": "minecraft:leather_leggings", "count": 1 },
+    { "item": "minecraft:leather_boots", "count": 1, "comment": "With step-up enchantment" }
+  ]
+}

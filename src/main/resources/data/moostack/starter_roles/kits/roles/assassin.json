@@ -1,0 +1,15 @@
+{
+  "role": "assassin",
+  "description": "A deadly shadow with katana, grappling hook, invisibility charm, and ninja attire",
+  "include_sub_kits": ["light_night_vision"],
+  "items": [
+    { "item": "silentgear:katana", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:katana\"}" },
+    { "item": "supplementaries:grappling_hook", "count": 1 },
+    { "item": "potionsmaster:invisibility_charm", "count": 1 },
+    { "item": "minecraft:lingering_potion", "count": 4, "comment": "Poison potions" },
+    { "item": "minecraft:leather_chestplate", "count": 1 },
+    { "item": "minecraft:leather_leggings", "count": 1 },
+    { "item": "minecraft:leather_boots", "count": 1 }
+  ]
+}

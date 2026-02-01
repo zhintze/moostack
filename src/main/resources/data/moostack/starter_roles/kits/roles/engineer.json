@@ -1,0 +1,19 @@
+{
+  "role": "engineer",
+  "description": "An Immersive Engineering specialist with power setup, materials, and an iron mace",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "items": [
+    { "item": "silentgear:mace", "count": 1 },
+    { "item": "immersiveengineering:hammer", "count": 1 },
+    { "item": "immersiveengineering:wirecutter", "count": 1 },
+    { "item": "immersiveengineering:coke", "count": [32, 64] },
+    { "item": "immersiveengineering:ingot_steel", "count": 32 },
+    { "item": "immersiveengineering:treated_wood_horizontal", "count": 64 },
+    { "item": "immersiveengineering:hemp_seeds", "count": 16 },
+    { "item": "minecraft:copper_ingot", "count": 64 },
+    { "item": "immersiveengineering:wirecoil_copper", "count": 32 },
+    { "item": "immersiveengineering:connector_lv", "count": 8 },
+    { "item": "immersiveengineering:capacitor_lv", "count": 1 },
+    { "item": "immersiveengineering:dynamo", "count": 1 }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "role": "architect",
+  "description": "A master builder with construction wand, building materials, and full blueprints",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "items": [
+    { "item": "constructionwand:diamond_wand", "count": 1 },
+    { "item": "silentgear:paxel", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:paxel\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:helmet\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:chestplate\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:leggings\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:boots\"}" },
+    { "item": "minecraft:scaffolding", "count": 64 },
+    { "item": "minecraft:ladder", "count": 64 },
+    { "item": "minecraft:glass_pane", "count": 64 },
+    { "item": "minecraft:oak_planks", "count": 128 },
+    { "item": "minecraft:spruce_planks", "count": 64 },
+    { "item": "minecraft:birch_planks", "count": 64 },
+    { "item": "minecraft:dark_oak_planks", "count": 64 },
+    { "item": "minecraft:stone_bricks", "count": 128 },
+    { "item": "minecraft:cobblestone", "count": 128 },
+    { "item": "minecraft:smooth_stone", "count": 64 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

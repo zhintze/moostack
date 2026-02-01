@@ -1,0 +1,21 @@
+{
+  "role": "butcher",
+  "description": "A skilled butcher with animal husbandry tools, full kitchen, and leather work clothes",
+  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "items": [
+    { "item": "silentgear:knife", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "minecraft:lead", "count": 4 },
+    { "item": "minecraft:hay_block", "count": [16, 24] },
+    { "item": "minecraft:cow_spawn_egg", "count": 2 },
+    { "item": "minecraft:pig_spawn_egg", "count": 2 },
+    { "item": "minecraft:sheep_spawn_egg", "count": 2 },
+    { "item": "minecraft:chicken_spawn_egg", "count": 2 },
+    { "item": "minecraft:oak_fence", "count": 64 },
+    { "item": "minecraft:name_tag", "count": 4 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "role": "halberdier",
+  "description": "A polearm specialist with spear, horse equipment, and guard armor with kettle hat",
+  "include_sub_kits": ["cooking_basic", "light_torches"],
+  "items": [
+    { "item": "silentgear:spear", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:spear\"}" },
+    { "item": "minecraft:saddle", "count": 1 },
+    { "item": "minecraft:iron_horse_armor", "count": 1 },
+    { "item": "magistuarmory:barding", "count": 1 },
+    { "item": "minecraft:white_banner", "count": 1 },
+    { "item": "minecraft:goat_horn", "count": 1 },
+    { "item": "minecraft:hay_block", "count": 8 },
+    { "item": "magistuarmory:kettle_hat", "count": 1 },
+    { "item": "magistuarmory:soldier_chestplate", "count": 1 },
+    { "item": "magistuarmory:soldier_leggings", "count": 1 },
+    { "item": "magistuarmory:soldier_boots", "count": 1 }
+  ]
+}

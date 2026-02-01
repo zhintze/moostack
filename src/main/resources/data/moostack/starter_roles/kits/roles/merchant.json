@@ -1,0 +1,27 @@
+{
+  "role": "merchant",
+  "description": "A traveling trader with emeralds, donkey, full blueprints, and merchant attire (no base tools)",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "no_base_tools": true,
+  "items": [
+    { "item": "minecraft:emerald", "count": [48, 64] },
+    { "item": "minecraft:donkey_spawn_egg", "count": 1 },
+    { "item": "minecraft:chest", "count": 1, "comment": "For donkey" },
+    { "item": "minecraft:saddle", "count": 1 },
+    { "item": "minecraft:lead", "count": 2 },
+    { "item": "minecraft:oak_fence", "count": 4 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:sword\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:pickaxe\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:axe\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:shovel\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hoe\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:helmet\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:chestplate\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:leggings\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:boots\"}" },
+    { "item": "sophisticatedbackpacks:pickup_upgrade", "count": 1 },
+    { "item": "magistuarmory:kimono", "count": 1 },
+    { "item": "supplementaries:straw_hat", "count": 1 }
+  ]
+}

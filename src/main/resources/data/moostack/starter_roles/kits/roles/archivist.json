@@ -1,0 +1,20 @@
+{
+  "role": "archivist",
+  "description": "An Applied Energistics 2 specialist with charged staff, storage components, and crystals",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "items": [
+    { "item": "ae2:charged_staff", "count": 1 },
+    { "item": "ae2:charger", "count": 1 },
+    { "item": "ae2:vibration_chamber", "count": 1 },
+    { "item": "ae2:certus_quartz_crystal", "count": 64 },
+    { "item": "ae2:fluix_crystal", "count": 32 },
+    { "item": "minecraft:iron_ingot", "count": 64 },
+    { "item": "minecraft:redstone", "count": 64 },
+    { "item": "minecraft:glass", "count": 64 },
+    { "item": "ae2:fluix_glass_cable", "count": 32 },
+    { "item": "ae2:quartz_fiber", "count": 16 },
+    { "item": "ae2:calculation_processor_press", "count": 1 },
+    { "item": "ae2:engineering_processor_press", "count": 1 },
+    { "item": "ae2:logic_processor_press", "count": 1 }
+  ]
+}

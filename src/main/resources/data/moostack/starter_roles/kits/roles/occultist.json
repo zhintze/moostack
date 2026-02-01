@@ -1,0 +1,22 @@
+{
+  "role": "occultist",
+  "description": "A dark magic practitioner with blood magic altar, evilcraft materials, and sacrificial tools",
+  "include_sub_kits": ["cooking_basic", "light_night_vision"],
+  "items": [
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "evilcraft:dark_spike", "count": 32 },
+    { "item": "evilcraft:dark_gem", "count": 16 },
+    { "item": "evilcraft:dark_gem_crushed", "count": 16 },
+    { "item": "evilcraft:blood_infusion_core", "count": 1 },
+    { "item": "minecraft:candle", "count": 16 },
+    { "item": "minecraft:bone", "count": 32 },
+    { "item": "minecraft:rotten_flesh", "count": 32 },
+    { "item": "minecraft:soul_sand", "count": 32 },
+    { "item": "minecraft:wither_rose", "count": 4 },
+    { "item": "minecraft:skeleton_skull", "count": 1 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

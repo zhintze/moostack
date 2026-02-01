@@ -1,0 +1,21 @@
+{
+  "role": "barkeep",
+  "description": "A tavern keeper with full kitchen plus oven, brewing supplies, and leather work clothes",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "items": [
+    { "item": "farmersdelight:stove", "count": 1, "comment": "Extra oven for Full Kitchen+" },
+    { "item": "brewinandchewin:keg", "count": 2 },
+    { "item": "brewinandchewin:tankard", "count": 4 },
+    { "item": "silentgear:hoe", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hoe\"}" },
+    { "item": "minecraft:barrel", "count": 4 },
+    { "item": "minecraft:sugar_cane", "count": 32 },
+    { "item": "minecraft:honey_bottle", "count": 8 },
+    { "item": "croptopia:grape_seed", "count": 8 },
+    { "item": "croptopia:hops_seed", "count": 8 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

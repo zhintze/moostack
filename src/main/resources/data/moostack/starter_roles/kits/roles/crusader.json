@@ -1,0 +1,21 @@
+{
+  "role": "crusader",
+  "description": "A holy warrior with mace and shield, horse equipment, and templar armor",
+  "include_sub_kits": ["cooking_basic", "light_torches"],
+  "items": [
+    { "item": "silentgear:mace", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:mace\"}" },
+    { "item": "silentgear:shield", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:shield\"}" },
+    { "item": "minecraft:saddle", "count": 1 },
+    { "item": "minecraft:iron_horse_armor", "count": 1 },
+    { "item": "magistuarmory:barding", "count": 1 },
+    { "item": "minecraft:white_banner", "count": 1 },
+    { "item": "minecraft:goat_horn", "count": 1 },
+    { "item": "minecraft:hay_block", "count": 8 },
+    { "item": "magistuarmory:crusader_helmet", "count": 1 },
+    { "item": "magistuarmory:crusader_chestplate", "count": 1 },
+    { "item": "magistuarmory:crusader_leggings", "count": 1 },
+    { "item": "magistuarmory:crusader_boots", "count": 1 }
+  ]
+}

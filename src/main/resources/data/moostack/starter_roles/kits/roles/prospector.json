@@ -1,0 +1,25 @@
+{
+  "role": "prospector",
+  "description": "A mining expert with specialized tools, excavation gear, and extra torches",
+  "include_sub_kits": ["cooking_campfire", "light_torches"],
+  "items": [
+    { "item": "silentgear:excavator", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:excavator\"}" },
+    { "item": "silentgear:prospector_hammer", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:prospector_hammer\"}" },
+    { "item": "silentgear:hammer", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:hammer\"}" },
+    { "item": "silentgear:paxel", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:paxel\"}" },
+    { "item": "minecraft:clock", "count": 1 },
+    { "item": "minecraft:torch", "count": [128, 192] },
+    { "item": "minecraft:rail", "count": 64 },
+    { "item": "minecraft:minecart", "count": 1 },
+    { "item": "minecraft:raw_iron", "count": [16, 32] },
+    { "item": "minecraft:raw_copper", "count": [16, 32] },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "magistuarmory:quilted_coif", "count": 1 }
+  ]
+}

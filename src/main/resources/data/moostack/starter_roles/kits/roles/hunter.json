@@ -1,0 +1,17 @@
+{
+  "role": "hunter",
+  "description": "A stealthy hunter with crossbow, trap glyphs, and leather Silent Gear armor",
+  "include_sub_kits": ["cooking_campfire", "light_night_vision"],
+  "items": [
+    { "item": "silentgear:crossbow", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:crossbow\"}" },
+    { "item": "minecraft:arrow", "count": 64 },
+    { "item": "ars_nouveau:glyph_snare", "count": 4 },
+    { "item": "ars_nouveau:glyph_freeze", "count": 4 },
+    { "item": "minecraft:lead", "count": 4 },
+    { "item": "silentgear:helmet", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:chestplate", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:leggings", "count": 1, "comment": "Leather Silent Gear" },
+    { "item": "silentgear:boots", "count": 1, "comment": "Leather Silent Gear" }
+  ]
+}

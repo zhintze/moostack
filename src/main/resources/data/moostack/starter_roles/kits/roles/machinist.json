@@ -1,0 +1,19 @@
+{
+  "role": "machinist",
+  "description": "A Create mod specialist with kinetic power setup, potato cannon, and mechanical parts",
+  "include_sub_kits": ["cooking_full_kitchen", "light_lanterns"],
+  "items": [
+    { "item": "create:potato_cannon", "count": 1 },
+    { "item": "minecraft:potato", "count": 64 },
+    { "item": "create:hand_crank", "count": 1 },
+    { "item": "create:water_wheel", "count": 2 },
+    { "item": "create:brass_ingot", "count": 32 },
+    { "item": "create:andesite_alloy", "count": 64 },
+    { "item": "create:cogwheel", "count": 32 },
+    { "item": "create:belt_connector", "count": 16 },
+    { "item": "create:shaft", "count": 32 },
+    { "item": "create:iron_sheet", "count": 32 },
+    { "item": "create:wrench", "count": 1 },
+    { "item": "create:goggles", "count": 1 }
+  ]
+}

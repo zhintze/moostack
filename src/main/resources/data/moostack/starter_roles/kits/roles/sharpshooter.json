@@ -1,0 +1,17 @@
+{
+  "role": "sharpshooter",
+  "description": "A gunslinger with 9mm pistol, ammo crafting supplies, and leather armor",
+  "include_sub_kits": ["cooking_basic", "light_torches"],
+  "items": [
+    { "item": "pointblank:glock17", "count": 1 },
+    { "item": "pointblank:ammo_9mm", "count": 64 },
+    { "item": "immersiveengineering:hammer", "count": 1 },
+    { "item": "immersiveengineering:ingot_steel", "count": 16 },
+    { "item": "minecraft:gunpowder", "count": 32 },
+    { "item": "pointblank:gun_oil", "count": 2 },
+    { "item": "minecraft:leather_helmet", "count": 1 },
+    { "item": "minecraft:leather_chestplate", "count": 1 },
+    { "item": "minecraft:leather_leggings", "count": 1 },
+    { "item": "minecraft:leather_boots", "count": 1 }
+  ]
+}

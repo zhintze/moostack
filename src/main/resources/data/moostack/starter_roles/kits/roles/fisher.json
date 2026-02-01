@@ -1,0 +1,24 @@
+{
+  "role": "fisher",
+  "description": "A seasoned fisher with tackle box, boat, full kitchen, and a straw hat",
+  "include_sub_kits": ["cooking_full_kitchen", "light_torches"],
+  "items": [
+    { "item": "silentgear:fishing_rod", "count": 1 },
+    { "item": "silentgear:knife", "count": 1 },
+    { "item": "farmersdelight:cutting_board", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:fishing_rod\"}" },
+    { "item": "aquaculture:tackle_box", "count": 1 },
+    { "item": "aquaculture:worm", "count": 16 },
+    { "item": "aquaculture:minnow", "count": 8 },
+    { "item": "supplementaries:item_shelf", "count": 1, "comment": "Fish wall mount" },
+    { "item": "aquaculture:fish_trap", "count": 4 },
+    { "item": "minecraft:oak_boat", "count": 2 },
+    { "item": "minecraft:tropical_fish_bucket", "count": 1 },
+    { "item": "minecraft:seagrass", "count": 32 },
+    { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
+    { "item": "magistuarmory:pantyhose", "count": 1 },
+    { "item": "magistuarmory:gambeson_boots", "count": 1 },
+    { "item": "supplementaries:straw_hat", "count": 1 }
+  ]
+}

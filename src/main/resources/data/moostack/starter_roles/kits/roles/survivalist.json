@@ -1,0 +1,31 @@
+{
+  "role": "survivalist",
+  "description": "A wilderness expert with survival tools, iron armor, and self-sufficiency gear",
+  "include_sub_kits": ["light_torches"],
+  "items": [
+    { "item": "farmersdelight:stove", "count": 1 },
+    { "item": "minecraft:iron_helmet", "count": 1 },
+    { "item": "minecraft:iron_chestplate", "count": 1 },
+    { "item": "minecraft:iron_leggings", "count": 1 },
+    { "item": "minecraft:iron_boots", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:helmet\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:chestplate\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:leggings\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:boots\"}" },
+    { "item": "silentgear:knife", "count": 1 },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:knife\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:sword\"}" },
+    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:longsword\"}" },
+    { "item": "supplementaries:grappling_hook", "count": 1 },
+    { "item": "minecraft:crafting_table", "count": 1 },
+    { "item": "minecraft:coal", "count": 64 },
+    { "item": "minecraft:iron_ingot", "count": [16, 32] },
+    { "item": "minecraft:compass", "count": 1 },
+    { "item": "minecraft:clock", "count": 1 },
+    { "item": "minecraft:leather", "count": 32 },
+    { "item": "minecraft:string", "count": 32 },
+    { "item": "minecraft:flint", "count": 32 },
+    { "item": "minecraft:potion", "count": 4, "comment": "Water bottles" },
+    { "item": "minecraft:golden_apple", "count": 2 }
+  ]
+}
