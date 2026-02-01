@@ -16,6 +16,8 @@
     { "item": "minecraft:oak_boat", "count": 2 },
     { "item": "minecraft:tropical_fish_bucket", "count": 1 },
     { "item": "minecraft:seagrass", "count": 32 },
+    { "item": "mekanism:scuba_tank", "count": 1, "nbt": "{mekanism:chemical:{amount:24000,id:\"mekanism:oxygen\"}}" },
+    { "item": "mekanism:advanced_chemical_tank", "count": 1, "nbt": "{mekanism:chemical:{amount:128000,id:\"mekanism:oxygen\"}}" },
     { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
     { "item": "magistuarmory:pantyhose", "count": 1 },
     { "item": "magistuarmory:gambeson_boots", "count": 1 },
