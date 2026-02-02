@@ -325,21 +325,14 @@
 			}
 			id: "516E80B59105117A"
 			min_width: 300
-			rewards: [
-				{
-					id: "4E29CBBC95096C2A"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "37BB269FC27EA720"
+				item: {
+					count: 1
+					id: "mighty_mail:oak_mail_box"
 				}
-				{
-					id: "37BB269FC27EA720"
-					item: {
-						count: 1
-						id: "mighty_mail:oak_mail_box"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "26DAA394F28C4A16"
 				type: "checkmark"
