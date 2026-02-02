@@ -1,0 +1,9 @@
+#General settings
+[general]
+	#Spawn a book in the players inventory on login
+	spawnBook = false
+
+#Items
+[item]
+	#Spawn Caster Tomes in Dungeon Loot?
+	spawnTomes = false

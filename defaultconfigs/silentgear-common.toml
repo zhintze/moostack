@@ -1,0 +1,4 @@
+#Blueprint and template settings
+[item.blueprint]
+	#When joining a new world, should players be given a blueprint package?
+	spawn_with_starter_blueprints = false
