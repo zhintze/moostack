@@ -33,13 +33,11 @@ public enum StarterRole {
     HALBERDIER("halberdier", RoleCategory.MARTIAL, ChatFormatting.YELLOW),
     CRUSADER("crusader", RoleCategory.MARTIAL, ChatFormatting.GOLD),
     BATTLEMAGE("battlemage", RoleCategory.MARTIAL, ChatFormatting.LIGHT_PURPLE),
-    SUMMONER("summoner", RoleCategory.MARTIAL, ChatFormatting.DARK_PURPLE),
     PYROMANCER("pyromancer", RoleCategory.MARTIAL, ChatFormatting.RED),
     CRYOMANCER("cryomancer", RoleCategory.MARTIAL, ChatFormatting.AQUA),
     STORMCALLER("stormcaller", RoleCategory.MARTIAL, ChatFormatting.YELLOW),
     EXEMPLAR("exemplar", RoleCategory.MARTIAL, ChatFormatting.WHITE),
     SANGUINIST("sanguinist", RoleCategory.MARTIAL, ChatFormatting.DARK_RED),
-    VOIDBINDER("voidbinder", RoleCategory.MARTIAL, ChatFormatting.DARK_PURPLE),
     BRIARBORN("briarborn", RoleCategory.MARTIAL, ChatFormatting.GREEN),
     EVOKER("evoker", RoleCategory.MARTIAL, ChatFormatting.BLUE);
 

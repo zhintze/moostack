@@ -3,8 +3,23 @@
   "description": "A hybrid warrior-mage with spell book, mace, and full iron armor",
   "include_sub_kits": ["light_night_vision"],
   "items": [
-    { "item": "irons_spellbooks:iron_spell_book", "count": 1 },
-    { "item": "irons_spellbooks:scroll", "count": 3 },
+    {
+      "item": "irons_spellbooks:copper_spell_book",
+      "count": 1,
+      "components": {
+        "irons_spellbooks:spell_container": {
+          "maxSpells": 5,
+          "spellWheel": true,
+          "mustEquip": true,
+          "data": [
+            {"id": "irons_spellbooks:firebolt", "index": 0, "level": 1},
+            {"id": "irons_spellbooks:shield", "index": 1, "level": 1},
+            {"id": "irons_spellbooks:fortify", "index": 2, "level": 1},
+            {"id": "irons_spellbooks:heal", "index": 3, "level": 1}
+          ]
+        }
+      }
+    },
     {
       "item": "silentgear:mace",
       "count": 1,

@@ -9,8 +9,7 @@
     { "item": "butchercraft:bone_saw", "count": 1 },
     { "item": "butchercraft:meat_hook", "count": 2 },
     { "item": "butchercraft:butcher_block", "count": 1 },
-    { "item": "butchercraft:meat_grinder", "count": 1 },
-    { "item": "butchercraft:blood_grate", "count": 4 },
+    { "item": "butchercraft:grinder", "count": 1 },
     {
       "item": "silentgear:blueprint_package",
       "count": 1,
@@ -27,6 +26,6 @@
     { "item": "magistuarmory:gambeson_chestplate", "count": 1 },
     { "item": "magistuarmory:pantyhose", "count": 1 },
     { "item": "magistuarmory:gambeson_boots", "count": 1 },
-    { "item": "magistuarmory:quilted_coif", "count": 1 }
+    { "item": "magistuarmory:coif", "count": 1 }
   ]
 }

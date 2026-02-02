@@ -1,6 +1,6 @@
 {
 	chapter.004F28C5C85F467B.title: "Blood Magic"
-	chapter.02FF33D22B10EA88.title: "Welcome"
+	chapter.02FF33D22B10EA88.title: "The Class Registry"
 	quest.0ECEB17B7C8ADD33.title: "Choose Your Path"
 	quest.0ECEB17B7C8ADD33.quest_subtitle: "Your journey begins here"
 	quest.0ECEB17B7C8ADD33.quest_desc: [
@@ -13,6 +13,52 @@
 		"Martial Disciplines - For those who seek combat and adventure. Includes Knight, Ranger, Assassin, various mages, and more."
 		""
 		"Right-click The Class Registry to open the selection screen. Choose wisely - this decision is permanent for your character!"
+	]
+	quest.7F4274014E7FCD4B.title: "Food Diversity System"
+	quest.7F4274014E7FCD4B.quest_subtitle: "Spice of Life: Ascension"
+	quest.7F4274014E7FCD4B.quest_desc: [
+		"&6Spice of Life: Ascension&r rewards eating a variety of foods with permanent health bonuses."
+		""
+		"The &6Gourmand's Tome&r tracks which foods you've eaten and shows your progress toward the next health milestone. Eat new foods to unlock additional hearts."
+	]
+	quest.77AFD6EF477973CD.title: "Equestrian's Delight"
+	quest.77AFD6EF477973CD.quest_subtitle: "Horse Stats"
+	quest.77AFD6EF477973CD.quest_desc: [
+		"&6Equestrian's Delight&r displays horse statistics when you look at them. Speed, jump height, and health are visible before taming."
+		""
+		"Use the &eMonocle&r item for detailed stat viewing. Breed horses with high stats to produce better offspring."
+	]
+	quest.5A12C7964E51AB68.title: "Multiblock Projector"
+	quest.5A12C7964E51AB68.quest_subtitle: "Build guide visualization"
+	quest.5A12C7964E51AB68.quest_desc: [
+		"The &6Multiblock Projector&r displays holographic build guides for complex structures."
+		""
+		"Place the projector and provide it with a structure template. It will show ghost blocks indicating exact block placement locations."
+		""
+		"Use this for multiblock machines from Immersive Engineering, Mekanism, and PneumaticCraft."
+	]
+	quest.228F5607230C772C.title: "Curios"
+	quest.228F5607230C772C.quest_subtitle: "Curios \\& Cosmetic Armor"
+	quest.228F5607230C772C.quest_desc: [
+		"&6Curios&r adds accessory equipment slots for rings, necklaces, belts, charms, and other items. Use the icons next to the player model on the equipment screen to open the UI."
+		""
+		"&6Cosmetic Armor Reworked&r provides separate cosmetic armor slots. Wear one armor set for stats while displaying another for appearance. Access cosmetic slots from your inventory screen."
+	]
+	quest.0DE97FE3BE95C650.title: "The Map Atlas"
+	quest.0DE97FE3BE95C650.quest_subtitle: "Map Atlas \\& JourneyMap"
+	quest.0DE97FE3BE95C650.quest_desc: [
+		"&6Map Atlases&r is the modpack's default map system of choice, replacing vanilla maps with a multi-page map book that expands automatically as you explore. Craft an atlas and fill it with empty maps."
+		""
+		"&6JourneyMap&r is available as an alternative full-screen map and minimap that many players may find more familiar. Configure waypoints, entity radar, and display options in the JourneyMap settings."
+	]
+	quest.516E80B59105117A.title: "The Mail"
+	quest.516E80B59105117A.quest_subtitle: "Mighty Mail"
+	quest.516E80B59105117A.quest_desc: [
+		"&6Mighty Mail&r adds mailboxes for cross-distance item transfer between players."
+		""
+		"Place your mailbox and use it to send items to other players' mailboxes. On multiplayer servers, this enables item trading without meeting in person."
+		""
+		"Your starter mailbox is provided as a quest reward."
 	]
 	chapter.07210DDF872160BA.title: "Applied Energistics 2"
 	chapter.0A093D8C4429B627.title: "Mekanism: Power"
@@ -32,6 +78,89 @@
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
+	chapter.3D058CE001E90874.title: "RFTools"
+	quest.63B1A07117BA869F.title: "RFTools Introduction"
+	quest.63B1A07117BA869F.quest_desc: [
+		"&6RFTools&r is a suite of RF-powered utility mods providing power generation, storage, teleportation, automation, and programmable control systems."
+		""
+		"This chapter covers four interconnected mods: &eRFTools Base&r (core components), &eRFTools Power&r (generators and energy storage), &eRFTools Utility&r (teleportation and automation), and &eRFTools Control&r (programmable processors)."
+	]
+	quest.3A753C34AE17948C.title: "Machine Frame"
+	quest.3A753C34AE17948C.quest_desc: ["The &6Machine Frame&r is the foundation for most RFTools machines. You will need many of these as nearly every RFTools device requires at least one &eMachine Frame&r in its recipe."]
+	quest.37EB09E17DBDAA43.title: "Using Wrenches"
+	quest.37EB09E17DBDAA43.quest_desc: ["RFTools machines can be configured and picked up using &6wrenches&r. Sneak-click to pick up a machine with all its stored data intact. Regular click to rotate or configure sides."]
+	quest.02B9C0C27D35BAC3.title: "Infused Diamond"
+	quest.02B9C0C27D35BAC3.quest_desc: ["&6Infused Diamonds&r are created by surrounding a diamond with redstone dust in a crafting table. They are used in advanced RFTools recipes."]
+	quest.72E1CA3C16CD084C.title: "Infused Enderpearl"
+	quest.72E1CA3C16CD084C.quest_desc: ["&6Infused Enderpearls&r combine the teleportation properties of ender pearls with enhanced stability from redstone. Required for teleportation devices."]
+	quest.5AA44DE2967FA889.title: "Dimensional Shards"
+	quest.5AA44DE2967FA889.quest_desc: ["&6Dimensional Shards&r are rare materials found while mining in any dimension. Essential for the most advanced RFTools devices."]
+	quest.4A76477679BB6223.title: "RFTools Power"
+	quest.4A76477679BB6223.quest_desc: ["&6RFTools Power&r provides RF generation and storage solutions ranging from &eBlazing Generators&r to advanced &eEndergenic Reactors&r and dimensional power transfer."]
+	quest.75CCDB00F424DDF1.title: "Blazing Generator"
+	quest.75CCDB00F424DDF1.quest_desc: ["The &6Blazing Generator&r burns blaze rods and blaze powder for significant power output. An excellent generator if you have access to a blaze farm."]
+	quest.772E85A52B2AAF6E.title: "First Power Generation"
+	quest.772E85A52B2AAF6E.quest_desc: ["Place your &eBlazing Generator&r and supply it with fuel. Connect it to a machine or power storage device to confirm power is flowing."]
+	quest.1875EF9D31897448.title: "Power Cell Tier 1"
+	quest.1875EF9D31897448.quest_desc: ["&6Cell Blocks&r form multiblock power storage structures. Place multiple Cell blocks adjacent to each other to increase total storage capacity."]
+	quest.4B3B2A0F31876D75.title: "Additional Blazing Generators"
+	quest.4B3B2A0F31876D75.quest_desc: ["Craft additional &6Blazing Generators&r for higher power output. Multiple generators can feed into shared storage."]
+	quest.478187B8267B0A82.title: "Power Cell Block"
+	quest.478187B8267B0A82.quest_desc: ["&6Cell Blocks&r form multiblock power storage structures. This is the basic tier cell block. Upgrade to higher tiers for increased capacity."]
+	quest.3AE76B3D7EB48E7C.title: "Advanced Cell Block"
+	quest.3AE76B3D7EB48E7C.quest_desc: ["&6Cell2 Blocks&r provide higher energy density than basic cell blocks. They can be mixed with other cell tiers in the same multiblock."]
+	quest.090ED3733C924695.title: "Elite Cell Block"
+	quest.090ED3733C924695.quest_desc: ["&6Cell3 Blocks&r offer the highest energy density for multiblock power storage. Ideal for large-scale power infrastructure."]
+	quest.6D64CB6245F4B701.title: "Dimensional Cell"
+	quest.6D64CB6245F4B701.quest_desc: ["The &6Simple Dimensional Cell&r allows wireless power transfer between cells sharing the same channel. Configure the channel in the GUI."]
+	quest.663971A3B0FE732F.title: "Cross-Dimension Power"
+	quest.663971A3B0FE732F.quest_desc: ["Set up &6Dimensional Cells&r in different locations or dimensions to share power wirelessly. All cells on the same channel share their stored energy."]
+	quest.5003C5338763EF9D.title: "Endergenic Generator"
+	quest.5003C5338763EF9D.quest_desc: ["The &6Endergenic Generator&r produces power by consuming ender pearls in carefully timed sequences. Multiple generators can be chained for higher efficiency."]
+	quest.3B88279F9834A7BB.title: "RFTools Utility"
+	quest.3B88279F9834A7BB.quest_desc: ["&6RFTools Utility&r provides automation and teleportation tools including &eCrafters&r, &eScreens&r, teleportation systems, and mob &eSpawners&r."]
+	quest.767463014C1AEBA1.title: "Crafter Tier 1"
+	quest.767463014C1AEBA1.quest_desc: ["The &6Crafter&r automatically crafts items using recipes you configure. Tier 1 supports 2 recipes and basic speed."]
+	quest.6534E808CD79353A.title: "Crafter Tier 2"
+	quest.6534E808CD79353A.quest_desc: ["The &6Tier 2 Crafter&r supports 4 recipes with improved crafting speed. Upgrade when you need more simultaneous recipes."]
+	quest.666B3C3EEE8E17CB.title: "Crafter Tier 3"
+	quest.666B3C3EEE8E17CB.quest_desc: ["The &6Tier 3 Crafter&r is the ultimate crafting solution with 8 recipe slots and maximum speed."]
+	quest.6E27CDAC3B0F3101.title: "Screen"
+	quest.6E27CDAC3B0F3101.quest_desc: ["&6Screens&r display information from your base. They require &emodules&r to show specific data types like energy levels or inventory contents."]
+	quest.6C2F6A46108111F6.title: "Screen Controller"
+	quest.6C2F6A46108111F6.quest_desc: ["The &6Screen Controller&r manages screens in a large area. Connect modules to the controller for centralized management."]
+	quest.2F484F74A9E32F20.title: "Energy Module"
+	quest.2F484F74A9E32F20.quest_desc: ["The &6Energy Module&r displays RF storage levels on screens. Insert it into a &eScreen Controller&r and bind it to an energy storage block."]
+	quest.28DCE90BEC87C38B.title: "Matter Transmitter"
+	quest.28DCE90BEC87C38B.quest_desc: ["The &6Matter Transmitter&r sends players and entities to a linked &eMatter Receiver&r. It consumes RF based on distance."]
+	quest.1A83617C1F9C10F6.title: "Matter Receiver"
+	quest.1A83617C1F9C10F6.quest_desc: ["The &6Matter Receiver&r is the destination for &eMatter Transmitter&r teleportation. Each receiver has a unique name for identification."]
+	quest.59B8B0770E03F010.title: "Dialing Device"
+	quest.59B8B0770E03F010.quest_desc: ["The &6Dialing Device&r links &eMatter Transmitters&r to &eMatter Receivers&r. Place it adjacent to a transmitter to access its configuration."]
+	quest.6D7039BC515804FA.title: "First Teleport"
+	quest.6D7039BC515804FA.quest_desc: ["Set up a complete teleportation link: place a &eMatter Transmitter&r, a &eMatter Receiver&r at your destination, and dial them using the &eDialing Device&r."]
+	quest.35BB84ED34D7709E.title: "Simple Dialer"
+	quest.35BB84ED34D7709E.quest_desc: ["The &6Simple Dialer&r is a compact one-button teleporter. Configure it to dial a specific destination automatically."]
+	quest.3F1D855E0921C49F.title: "Environmental Controller"
+	quest.3F1D855E0921C49F.quest_desc: ["The &6Environmental Controller&r applies effects to players and entities in a configurable radius. Consumes RF based on active effects."]
+	quest.30E0C51CA67F3B50.title: "Spawner"
+	quest.30E0C51CA67F3B50.quest_desc: ["The &6RFTools Spawner&r creates mobs using RF and matter. Configure it with a syringe containing mob essence."]
+	quest.31D6A013A56FD991.title: "RFTools Control"
+	quest.31D6A013A56FD991.quest_desc: ["&6RFTools Control&r adds programmable &eProcessors&r for complex automation. Create visual programs that respond to redstone, items, and other triggers."]
+	quest.22F64893D9D7604C.title: "Programmer"
+	quest.22F64893D9D7604C.quest_desc: ["The &6Programmer&r is where you create and edit programs for the &eProcessor&r. Programs are built by placing opcodes on a grid."]
+	quest.7ED81ABC1C95691B.title: "Processor"
+	quest.7ED81ABC1C95691B.quest_desc: ["The &6Processor&r executes programs stored on &eProgram Cards&r. Insert cards and provide RF power to run automation programs."]
+	quest.471106F91741DCAA.title: "Program Card"
+	quest.471106F91741DCAA.quest_desc: ["&6Program Cards&r store the programs you create in the &eProgrammer&r. Cards can be copied and shared."]
+	quest.4B8B6F4127C1BDF3.title: "First Program"
+	quest.4B8B6F4127C1BDF3.quest_desc: ["Create a simple program in the &eProgrammer&r: add a redstone trigger opcode, connect it to an action, save to a &eProgram Card&r, and test."]
+	quest.2C1EF7CD876AB981.title: "CPU Core"
+	quest.2C1EF7CD876AB981.quest_desc: ["&6CPU Cores&r increase the &eProcessor's&r execution speed and capacity. Install cores in the Processor's expansion slots."]
+	quest.386C3DBE79443AA8.title: "Network Card"
+	quest.386C3DBE79443AA8.quest_desc: ["The &6Network Card&r enables communication between multiple &eProcessors&r. Programs can send messages to processors on the same network."]
+	quest.1EB543C6464BCD1C.title: "Crafting Station"
+	quest.1EB543C6464BCD1C.quest_desc: ["The &6Crafting Station&r is controlled by &eProcessor&r programs. It can execute crafting operations commanded by your automation logic."]
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'N Spellbooks"
 	quest.0001000000000001.quest_desc: ["Iron's Spells uses spell scrolls as consumable magic. Craft scrolls at the Scroll Forge using paper, ink, and a Focus item to inscribe specific spells."]
 	quest.0001000000000001.title: "Spell Scroll System"

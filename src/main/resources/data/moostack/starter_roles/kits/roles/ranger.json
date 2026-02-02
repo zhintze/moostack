@@ -14,8 +14,21 @@
       "count": 1,
       "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:bow_blueprint\",count:1},{slot:1,id:\"silentgear:arrow_blueprint\",count:1},{slot:2,id:\"silentgear:rod_blueprint\",count:1}]}}"
     },
-    { "item": "irons_spellbooks:blood_staff", "count": 1 },
-    { "item": "irons_spellbooks:scroll", "count": 1 },
+    {
+      "item": "irons_spellbooks:copper_spell_book",
+      "count": 1,
+      "components": {
+        "irons_spellbooks:spell_container": {
+          "maxSpells": 5,
+          "spellWheel": true,
+          "mustEquip": true,
+          "data": [
+            {"id": "ironsspellssummoningexpansion:summon_wolf", "index": 0, "level": 1},
+            {"id": "irons_spellbooks:summon_polar_bear", "index": 1, "level": 1}
+          ]
+        }
+      }
+    },
     { "item": "minecraft:lead", "count": 4 },
     {
       "item": "silentgear:helmet",

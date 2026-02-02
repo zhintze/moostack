@@ -6,12 +6,12 @@
     {
       "item": "silentgear:fishing_rod",
       "count": 1,
-      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:fishing_reel\",item:{id:\"silentgear:fishing_reel\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}},{part:\"silentgear:bowstring\",item:{id:\"silentgear:bowstring\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:string\"}]}}}],example:0b}}"
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:fishing_reel\",item:{id:\"silentgear:fishing_reel\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron_ingot\"}]}}},{part:\"silentgear:bowstring\",item:{id:\"silentgear:bowstring\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:string\"}]}}}],example:0b}}"
     },
     {
       "item": "silentgear:knife",
       "count": 1,
-      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:knife_blade\",item:{id:\"silentgear:knife_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"silentgear:wood\"}]}}}],example:0b}}"
+      "nbt": "{silentgear:construction:{parts:[{part:\"silentgear:knife_blade\",item:{id:\"silentgear:knife_blade\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:obsidian\"}]}}},{part:\"silentgear:rod\",item:{id:\"silentgear:rod\",count:1,components:{\"silentgear:material_list\":[{material:\"minecraft:iron_ingot\"}]}}}],example:0b}}"
     },
     {
       "item": "silentgear:blueprint_package",

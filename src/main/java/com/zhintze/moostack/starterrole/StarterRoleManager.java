@@ -7,6 +7,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.zhintze.moostack.mooStack;
+import net.minecraft.core.Holder;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.TagParser;
@@ -16,6 +18,13 @@ import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.Potion;
+import net.minecraft.world.item.alchemy.PotionContents;
+import io.redspace.ironsspellbooks.api.spells.ISpellContainer;
+import io.redspace.ironsspellbooks.capabilities.magic.SpellContainer;
+import io.redspace.ironsspellbooks.api.spells.SpellData;
+import io.redspace.ironsspellbooks.api.spells.SpellSlot;
+import io.redspace.ironsspellbooks.registries.ComponentRegistry;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -40,6 +49,9 @@ public class StarterRoleManager {
 
     // Base kit items given to all roles
     private final List<KitEntry> baseKit = new ArrayList<>();
+
+    // Base kit items that go directly to inventory (not into backpack)
+    private final List<KitEntry> baseKitDirectItems = new ArrayList<>();
 
     // Sub-kits that can be included by roles
     private final Map<String, List<KitEntry>> subKits = new HashMap<>();
@@ -67,6 +79,7 @@ public class StarterRoleManager {
      */
     public void reload(ResourceManager resourceManager) {
         baseKit.clear();
+        baseKitDirectItems.clear();
         subKits.clear();
         roleKits.clear();
 
@@ -90,10 +103,25 @@ public class StarterRoleManager {
                 mooStack.MODID, KITS_PATH + "/base_kit.json");
 
         resourceManager.getResource(baseKitLocation).ifPresent(resource -> {
-            try {
-                List<KitEntry> entries = loadKitEntries(resource);
-                baseKit.addAll(entries);
-                mooStack.LOGGER.debug("Loaded base kit with {} items", entries.size());
+            try (BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(resource.open(), StandardCharsets.UTF_8))) {
+
+                JsonObject json = GSON.fromJson(reader, JsonObject.class);
+
+                // Load regular items
+                if (json.has("items")) {
+                    List<KitEntry> entries = parseItemsArray(json.getAsJsonArray("items"));
+                    baseKit.addAll(entries);
+                }
+
+                // Load direct inventory items (bypass backpack)
+                if (json.has("direct_inventory_items")) {
+                    List<KitEntry> directEntries = parseItemsArray(json.getAsJsonArray("direct_inventory_items"));
+                    baseKitDirectItems.addAll(directEntries);
+                }
+
+                mooStack.LOGGER.debug("Loaded base kit with {} items, {} direct items",
+                        baseKit.size(), baseKitDirectItems.size());
             } catch (Exception e) {
                 mooStack.LOGGER.error("Failed to load base kit: {}", baseKitLocation, e);
             }
@@ -230,7 +258,7 @@ public class StarterRoleManager {
 
             int count = itemJson.has("count") ? itemJson.get("count").getAsInt() : 1;
 
-            // Parse NBT data if present
+            // Parse NBT data if present (legacy format for mods that read CUSTOM_DATA)
             CompoundTag nbt = null;
             if (itemJson.has("nbt")) {
                 String nbtString = itemJson.get("nbt").getAsString();
@@ -241,7 +269,13 @@ public class StarterRoleManager {
                 }
             }
 
-            entries.add(new KitEntry(item, count, nbt));
+            // Parse data components if present (1.21.1+ format)
+            JsonObject componentsJson = null;
+            if (itemJson.has("components")) {
+                componentsJson = itemJson.getAsJsonObject("components");
+            }
+
+            entries.add(new KitEntry(item, count, nbt, componentsJson));
         }
 
         return entries;
@@ -287,6 +321,18 @@ public class StarterRoleManager {
     }
 
     /**
+     * Get items that should go directly to player inventory (bypassing backpack).
+     * @return List of ItemStacks for direct inventory
+     */
+    public List<ItemStack> getDirectInventoryItems() {
+        List<ItemStack> items = new ArrayList<>();
+        for (KitEntry entry : baseKitDirectItems) {
+            items.add(entry.toItemStack());
+        }
+        return items;
+    }
+
+    /**
      * Check if a role has a kit defined.
      * @param role The starter role to check
      * @return true if the role has a kit loaded
@@ -316,16 +362,91 @@ public class StarterRoleManager {
      * @param item The item type
      * @param count The stack count
      * @param nbt Optional NBT data for the item (for components like Silent Gear blueprints, Mekanism tanks)
+     * @param componentsJson Optional JSON object for data components (1.21.1+)
      */
-    public record KitEntry(Item item, int count, CompoundTag nbt) {
+    public record KitEntry(Item item, int count, CompoundTag nbt, JsonObject componentsJson) {
         public ItemStack toItemStack() {
             ItemStack stack = new ItemStack(item, count);
+
+            // Apply NBT as custom data - mods like Silent Gear and Mekanism read from this
             if (nbt != null && !nbt.isEmpty()) {
-                // Apply NBT as custom data - mods like Silent Gear and Mekanism read from this
-                stack.set(net.minecraft.core.component.DataComponents.CUSTOM_DATA,
+                stack.set(DataComponents.CUSTOM_DATA,
                         net.minecraft.world.item.component.CustomData.of(nbt));
             }
+
+            // Apply data components from JSON
+            if (componentsJson != null) {
+                applyComponents(stack, componentsJson);
+            }
+
             return stack;
+        }
+
+        private void applyComponents(ItemStack stack, JsonObject components) {
+            // Handle potion_contents component for potion charms
+            if (components.has("minecraft:potion_contents")) {
+                JsonObject potionContents = components.getAsJsonObject("minecraft:potion_contents");
+                if (potionContents.has("potion")) {
+                    String potionId = potionContents.get("potion").getAsString();
+                    ResourceLocation potionLocation = ResourceLocation.parse(potionId);
+
+                    var potionRegistry = BuiltInRegistries.POTION;
+                    if (potionRegistry.containsKey(potionLocation)) {
+                        Holder<Potion> potionHolder = potionRegistry.getHolder(potionLocation).orElse(null);
+                        if (potionHolder != null) {
+                            stack.set(DataComponents.POTION_CONTENTS, new PotionContents(potionHolder));
+                        } else {
+                            mooStack.LOGGER.warn("Could not get holder for potion: {}", potionId);
+                        }
+                    } else {
+                        mooStack.LOGGER.warn("Unknown potion in kit component: {}", potionId);
+                    }
+                }
+            }
+
+            // Handle Iron's Spellbooks spell_container component for scrolls
+            if (components.has("irons_spellbooks:spell_container")) {
+                JsonObject spellContainerJson = components.getAsJsonObject("irons_spellbooks:spell_container");
+                applySpellContainer(stack, spellContainerJson);
+            }
+        }
+
+        private void applySpellContainer(ItemStack stack, JsonObject spellContainerJson) {
+            try {
+                int maxSpells = spellContainerJson.has("maxSpells") ? spellContainerJson.get("maxSpells").getAsInt() : 1;
+                boolean spellWheel = spellContainerJson.has("spellWheel") && spellContainerJson.get("spellWheel").getAsBoolean();
+                boolean mustEquip = spellContainerJson.has("mustEquip") && spellContainerJson.get("mustEquip").getAsBoolean();
+                boolean improved = spellContainerJson.has("improved") && spellContainerJson.get("improved").getAsBoolean();
+
+                SpellSlot[] slots = new SpellSlot[maxSpells];
+                int activeSlots = 0;
+
+                if (spellContainerJson.has("data")) {
+                    JsonArray dataArray = spellContainerJson.getAsJsonArray("data");
+                    for (JsonElement element : dataArray) {
+                        JsonObject slotJson = element.getAsJsonObject();
+                        String spellId = slotJson.get("id").getAsString();
+                        int index = slotJson.has("index") ? slotJson.get("index").getAsInt() : activeSlots;
+                        int level = slotJson.has("level") ? slotJson.get("level").getAsInt() : 1;
+                        boolean locked = slotJson.has("locked") && slotJson.get("locked").getAsBoolean();
+
+                        ResourceLocation spellLocation = ResourceLocation.parse(spellId);
+                        SpellData spellData = new SpellData(spellLocation, level, locked);
+
+                        if (index >= 0 && index < maxSpells) {
+                            slots[index] = SpellSlot.of(spellData, index);
+                            activeSlots++;
+                        }
+                    }
+                }
+
+                // Create the spell container using the constructor that accepts slots
+                ISpellContainer spellContainer = new SpellContainer(maxSpells, spellWheel, mustEquip, improved, slots);
+                stack.set(ComponentRegistry.SPELL_CONTAINER.get(), spellContainer);
+
+            } catch (Exception e) {
+                mooStack.LOGGER.warn("Failed to apply spell container to item: {}", e.getMessage());
+            }
         }
     }
 

@@ -28,7 +28,8 @@ public class ClassRegistryItem extends Item {
 
         if (level.isClientSide()) {
             StarterRoleData data = player.getData(StarterRoleAttachments.STARTER_ROLE);
-            if (data.hasSelectedRole()) {
+            // Allow reselection in creative mode
+            if (data.hasSelectedRole() && !player.isCreative()) {
                 player.displayClientMessage(
                     Component.translatable("moostack.class_registry.already_selected",
                         data.getSelectedRole().getDisplayName())

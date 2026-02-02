@@ -16,7 +16,7 @@
     { "item": "minecraft:camel_spawn_egg", "count": 1 },
     { "item": "minecraft:saddle", "count": 1 },
     { "item": "minecraft:cactus", "count": 64 },
-    { "item": "potionsmaster:jump_boost_charm", "count": 1 },
+    { "item": "minecraft:potion", "count": 3, "nbt": "{Potion:\"minecraft:long_leaping\"}" },
     { "item": "minecraft:leather_chestplate", "count": 1 },
     { "item": "minecraft:leather_leggings", "count": 1 },
     { "item": "minecraft:leather_boots", "count": 1 }

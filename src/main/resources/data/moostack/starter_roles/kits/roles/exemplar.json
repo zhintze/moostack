@@ -1,20 +1,28 @@
 {
   "role": "exemplar",
-  "description": "A holy mage with healing spells, spell crafting setup, and priest robes",
+  "description": "A holy mage with healing spells and priest robes",
   "include_sub_kits": ["cooking_campfire", "light_torches"],
   "items": [
-    { "item": "irons_spellbooks:iron_spell_book", "count": 1 },
-    { "item": "irons_spellbooks:scroll", "count": 2, "comment": "Heal, blessing scrolls" },
-    { "item": "irons_spellbooks:inscription_table", "count": 1 },
-    { "item": "irons_spellbooks:scroll_forge", "count": 1 },
-    { "item": "irons_spellbooks:arcane_anvil", "count": 1 },
-    { "item": "irons_spellbooks:ink_common", "count": 8 },
-    { "item": "irons_spellbooks:ink_uncommon", "count": 4 },
-    { "item": "minecraft:cauldron", "count": 1 },
-    { "item": "irons_spellbooks:copper_spell_book", "count": 1, "comment": "Upgrade material" },
-    { "item": "irons_spellbooks:priest_hood", "count": 1 },
-    { "item": "irons_spellbooks:priest_robe", "count": 1 },
-    { "item": "irons_spellbooks:priest_pants", "count": 1 },
+    {
+      "item": "irons_spellbooks:copper_spell_book",
+      "count": 1,
+      "components": {
+        "irons_spellbooks:spell_container": {
+          "maxSpells": 5,
+          "spellWheel": true,
+          "mustEquip": true,
+          "data": [
+            {"id": "irons_spellbooks:heal", "index": 0, "level": 1},
+            {"id": "irons_spellbooks:guiding_bolt", "index": 1, "level": 1},
+            {"id": "irons_spellbooks:fortify", "index": 2, "level": 1},
+            {"id": "irons_spellbooks:divine_smite", "index": 3, "level": 1}
+          ]
+        }
+      }
+    },
+    { "item": "irons_spellbooks:priest_helmet", "count": 1 },
+    { "item": "irons_spellbooks:priest_chestplate", "count": 1 },
+    { "item": "irons_spellbooks:priest_leggings", "count": 1 },
     { "item": "irons_spellbooks:priest_boots", "count": 1 }
   ]
 }

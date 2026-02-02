@@ -243,8 +243,6 @@
   "moostack.role.battlemage": "Battlemage",
   "moostack.role.battlemage.desc": "Warrior mage combining steel and sorcery",
 
-  "moostack.role.summoner": "Summoner",
-  "moostack.role.summoner.desc": "Caller of creatures and minions",
   "moostack.role.pyromancer": "Pyromancer",
   "moostack.role.pyromancer.desc": "Master of fire and flames",
   "moostack.role.cryomancer": "Cryomancer",
@@ -255,8 +253,6 @@
   "moostack.role.exemplar.desc": "Channel of divine healing and protection",
   "moostack.role.sanguinist": "Sanguinist",
   "moostack.role.sanguinist.desc": "Blood mage draining life from foes",
-  "moostack.role.voidbinder": "Voidbinder",
-  "moostack.role.voidbinder.desc": "Manipulator of void and ender magic",
   "moostack.role.briarborn": "Briarborn",
   "moostack.role.briarborn.desc": "Shaper of nature and poison",
   "moostack.role.evoker": "Evoker",

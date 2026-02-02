@@ -1,10 +1,6 @@
 {
-  "description": "Civil Discipline bonus items: blueprints and extra resources",
+  "description": "Civil Discipline bonus items: extra resources",
   "items": [
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:pickaxe\"}" },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:axe\"}" },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:shovel\"}" },
-    { "item": "silentgear:blueprint", "count": 1, "nbt": "{BlueprintType:\"silentgear:rod\"}" },
     { "item": "minecraft:iron_ingot", "count": 32 },
     { "item": "minecraft:coal", "count": 32 },
     { "item": "minecraft:oak_log", "count": 32 },

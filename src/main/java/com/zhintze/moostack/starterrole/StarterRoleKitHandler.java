@@ -24,6 +24,7 @@ public class StarterRoleKitHandler {
     public static void giveStarterKit(ServerPlayer player, StarterRole role) {
         // Get items from manager
         List<ItemStack> items = StarterRoleManager.getInstance().getKitItems(role);
+        List<ItemStack> directItems = StarterRoleManager.getInstance().getDirectInventoryItems();
 
         // Separate items into categories
         List<ItemStack> backpacks = new ArrayList<>();
@@ -100,6 +101,16 @@ public class StarterRoleKitHandler {
             if (!stack.isEmpty()) {
                 if (!player.getInventory().add(stack)) {
                     player.drop(stack, false);
+                }
+                givenCount++;
+            }
+        }
+
+        // Give direct inventory items (items that bypass the backpack)
+        for (ItemStack stack : directItems) {
+            if (!stack.isEmpty()) {
+                if (!player.getInventory().add(stack.copy())) {
+                    player.drop(stack.copy(), false);
                 }
                 givenCount++;
             }

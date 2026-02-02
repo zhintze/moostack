@@ -6,21 +6,15 @@ import com.zhintze.moostack.starterrole.StarterRole;
 import com.zhintze.moostack.starterrole.StarterRoleAttachments;
 import com.zhintze.moostack.starterrole.StarterRoleData;
 import com.zhintze.moostack.starterrole.StarterRoleKitHandler;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.HolderSet;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.levelgen.structure.Structure;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 
 /**
@@ -103,11 +97,6 @@ public record SelectRolePayload(
             // Consume the item
             heldItem.shrink(1);
 
-            // Special action for Merchant: teleport to nearest village
-            if (role == StarterRole.MERCHANT) {
-                teleportToNearestVillage(player);
-            }
-
             // Send confirmation message
             player.sendSystemMessage(
                     Component.translatable("moostack.class_registry.role_selected", role.getDisplayName())
@@ -116,57 +105,5 @@ public record SelectRolePayload(
             mooStack.LOGGER.info("Player {} selected role: {}",
                     player.getName().getString(), role.getId());
         });
-    }
-
-    /**
-     * Teleport the merchant to the nearest village.
-     * Searches for any village structure within 100 chunks, retries at 200 chunks if not found.
-     */
-    private static void teleportToNearestVillage(ServerPlayer player) {
-        ServerLevel level = player.serverLevel();
-        BlockPos playerPos = player.blockPosition();
-
-        // Use the #village tag to find any village type
-        TagKey<Structure> villageTag = TagKey.create(Registries.STRUCTURE,
-                ResourceLocation.withDefaultNamespace("village"));
-
-        var structureRegistry = level.registryAccess().registryOrThrow(Registries.STRUCTURE);
-        var villageStructures = structureRegistry.getTag(villageTag);
-
-        if (villageStructures.isEmpty()) {
-            mooStack.LOGGER.warn("No village structures found in registry for merchant teleport");
-            player.sendSystemMessage(Component.translatable("moostack.merchant.no_village_found"));
-            return;
-        }
-
-        HolderSet<Structure> holders = villageStructures.get();
-
-        // Search for nearest village within 100 chunks (~1600 blocks)
-        var result = level.getChunkSource().getGenerator()
-                .findNearestMapStructure(level, holders, playerPos, 100, false);
-
-        // If not found, retry with double the radius (200 chunks ~3200 blocks)
-        if (result == null) {
-            mooStack.LOGGER.info("No village found within 100 chunks for merchant {}, expanding search to 200 chunks",
-                    player.getName().getString());
-            result = level.getChunkSource().getGenerator()
-                    .findNearestMapStructure(level, holders, playerPos, 200, false);
-        }
-
-        if (result != null) {
-            BlockPos villagePos = result.getFirst();
-            // Find a safe Y position at the village
-            int safeY = level.getHeight(net.minecraft.world.level.levelgen.Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-                    villagePos.getX(), villagePos.getZ());
-
-            player.teleportTo(villagePos.getX() + 0.5, safeY + 1, villagePos.getZ() + 0.5);
-            player.sendSystemMessage(Component.translatable("moostack.merchant.teleported_to_village"));
-            mooStack.LOGGER.info("Teleported merchant {} to village at {}",
-                    player.getName().getString(), villagePos);
-        } else {
-            mooStack.LOGGER.warn("No village found near merchant spawn for player {} even at 200 chunk radius",
-                    player.getName().getString());
-            player.sendSystemMessage(Component.translatable("moostack.merchant.no_village_found"));
-        }
     }
 }

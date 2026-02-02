@@ -13,8 +13,9 @@
       "count": 1,
       "nbt": "{silentgear:contained_items:{items:[{slot:0,id:\"silentgear:katana_blueprint\",count:1},{slot:1,id:\"silentgear:rod_blueprint\",count:1}]}}"
     },
-    { "item": "supplementaries:grappling_hook", "count": 1 },
-    { "item": "potionsmaster:invisibility_charm", "count": 1 },
+    { "item": "yo_hooks:netherite_grappling_hook", "count": 1 },
+    { "item": "minecraft:ender_pearl", "count": 8 },
+    { "item": "apotheosis:potion_charm", "count": 1, "components": {"minecraft:potion_contents": {"potion": "minecraft:long_invisibility"}} },
     { "item": "minecraft:lingering_potion", "count": 4 },
     { "item": "minecraft:leather_chestplate", "count": 1 },
     { "item": "minecraft:leather_leggings", "count": 1 },

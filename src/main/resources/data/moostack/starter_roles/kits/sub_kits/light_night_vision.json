@@ -1,5 +1,6 @@
 {
+  "description": "Night vision light kit - provides night vision charm",
   "items": [
-    { "item": "potionsmaster:night_vision_charm", "count": 1 }
+    { "item": "apotheosis:potion_charm", "count": 1, "components": {"minecraft:potion_contents": {"potion": "minecraft:long_night_vision"}} }
   ]
 }
