@@ -277,53 +277,56 @@ public class ClassRegistryScreen extends Screen {
         }
 
         /**
-         * Compact role entry - single line with name, description, and select button.
+         * Compact role entry - single line with name and truncated description.
+         * Click to select, hover for tooltip with full description.
          */
         public class RoleEntry extends ContainerObjectSelectionList.Entry<RoleEntry> {
             private final StarterRole role;
-            private final Button selectButton;
-            private final String displayText;
 
             public RoleEntry(StarterRole role) {
                 this.role = role;
+            }
 
-                // Build compact display: "Name - Description"
-                String name = role.getDisplayName().getString();
-                String desc = role.getDescription().getString();
-                this.displayText = name + " - " + desc;
-
-                this.selectButton = Button.builder(
-                    Component.translatable("moostack.class_registry.gui.select"),
-                    btn -> selectRole(role)
-                ).bounds(0, 0, 50, 18).build();
+            public StarterRole getRole() {
+                return role;
             }
 
             @Override
             public void render(GuiGraphics graphics, int index, int top, int left,
                               int width, int height, int mouseX, int mouseY,
                               boolean hovering, float partialTick) {
-                // Alternating row background
-                int bgColor = (index % 2 == 0) ? COLOR_ENTRY_ALT : COLOR_BACKGROUND;
-                if (hovering) {
-                    bgColor = COLOR_ENTRY_HOVER;
+                // Determine background color based on state
+                int bgColor;
+                if (selectedRole == role) {
+                    bgColor = COLOR_ENTRY_SELECTED;  // Selected state
+                } else if (hovering) {
+                    bgColor = COLOR_ENTRY_HOVER;     // Hover state
+                } else {
+                    bgColor = (index % 2 == 0) ? COLOR_ENTRY_ALT : COLOR_BACKGROUND;  // Alternating
                 }
                 graphics.fill(left, top, left + width, top + height, bgColor);
 
+                // Selection indicator border on left side if selected
+                if (selectedRole == role) {
+                    int indicatorColor = role.getCategory() == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
+                    graphics.fill(left, top, left + 3, top + height, indicatorColor);
+                }
+
                 // Role icon (colored dot based on category)
-                int dotX = left + 6;
+                int dotX = left + 10;
                 int dotY = top + height / 2;
                 int dotColor = role.getCategory() == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
                 graphics.fill(dotX - 3, dotY - 3, dotX + 3, dotY + 3, dotColor);
 
                 // Role name (white) + description (gray)
-                int textX = left + 16;
+                int textX = left + 20;
                 int textY = top + (height - 8) / 2;
 
                 String name = role.getDisplayName().getString();
                 int nameWidth = font.width(name);
 
-                // Calculate max width for description
-                int maxTotalWidth = width - 80; // Leave room for button
+                // Calculate max width for description (no button now, more space)
+                int maxTotalWidth = width - 30;
                 int maxDescWidth = maxTotalWidth - nameWidth - font.width(" - ");
 
                 graphics.drawString(font, name, textX, textY, 0xFFFFFFFF, false);
@@ -337,19 +340,10 @@ public class ClassRegistryScreen extends Screen {
                     graphics.drawString(font, separator, textX + nameWidth, textY, COLOR_DESCRIPTION, false);
                     graphics.drawString(font, desc, textX + nameWidth + font.width(separator), textY, COLOR_DESCRIPTION, false);
                 }
-
-                // Select button (right-aligned)
-                selectButton.setX(left + width - 56);
-                selectButton.setY(top + (height - 18) / 2);
-                selectButton.render(graphics, mouseX, mouseY, partialTick);
             }
 
             @Override
             public boolean mouseClicked(double mouseX, double mouseY, int button) {
-                if (selectButton.isMouseOver(mouseX, mouseY)) {
-                    return selectButton.mouseClicked(mouseX, mouseY, button);
-                }
-                // Single click on row also selects (highlights, doesn't confirm)
                 if (button == 0) {
                     selectRole(role);
                     return true;
@@ -359,12 +353,12 @@ public class ClassRegistryScreen extends Screen {
 
             @Override
             public List<? extends GuiEventListener> children() {
-                return List.of(selectButton);
+                return List.of();
             }
 
             @Override
             public List<? extends NarratableEntry> narratables() {
-                return List.of(selectButton);
+                return List.of();
             }
         }
     }
