@@ -54,8 +54,6 @@ public class ClassRegistryScreen extends Screen {
     private StarterRole selectedRole;  // Currently highlighted role
     private Button confirmButton;
     private Button cancelButton;
-    private Button civilButton;      // Keep temporarily
-    private Button martialButton;    // Keep temporarily
     private int guiLeft;
     private int guiTop;
 
@@ -76,63 +74,57 @@ public class ClassRegistryScreen extends Screen {
         this.guiLeft = (this.width - SCREEN_WIDTH) / 2;
         this.guiTop = (this.height - SCREEN_HEIGHT) / 2;
 
-        // Create role list (positioned below title, above bottom buttons)
-        int listTop = guiTop + 28;
-        int listHeight = SCREEN_HEIGHT - 68;
+        // Clear selection when screen reinitializes
+        this.selectedRole = null;
+
+        // Create role list (positioned below title and tabs, above bottom buttons)
+        int listTop = guiTop + 50;  // Below title (10+16) and tabs (20+4)
+        int listHeight = SCREEN_HEIGHT - 90;  // Room for title, tabs, and bottom buttons
         this.roleList = new RoleList(this.minecraft, SCREEN_WIDTH - 20, listHeight, listTop, ENTRY_HEIGHT);
         this.roleList.setX(guiLeft + 10);
         this.addWidget(this.roleList);
 
-        // Bottom buttons
-        int buttonY = guiTop + SCREEN_HEIGHT - 32;
+        // Bottom buttons - Confirm and Cancel
+        int buttonY = guiTop + SCREEN_HEIGHT - 30;
         int buttonWidth = 80;
-        int buttonSpacing = 8;
-        int totalButtonWidth = buttonWidth * 3 + buttonSpacing * 2;
+        int buttonSpacing = 10;
+        int totalButtonWidth = buttonWidth * 2 + buttonSpacing;
         int buttonStartX = guiLeft + (SCREEN_WIDTH - totalButtonWidth) / 2;
 
-        // Civil category button
-        this.civilButton = Button.builder(
-            Component.translatable("moostack.class_registry.gui.civil"),
-            btn -> switchCategory(RoleCategory.CIVIL)
+        // Confirm button (disabled until selection)
+        this.confirmButton = Button.builder(
+            Component.translatable("gui.ok"),
+            btn -> confirmSelection()
         ).bounds(buttonStartX, buttonY, buttonWidth, 20).build();
-        this.addRenderableWidget(civilButton);
+        this.confirmButton.active = false;
+        this.addRenderableWidget(confirmButton);
 
-        // Martial category button
-        this.martialButton = Button.builder(
-            Component.translatable("moostack.class_registry.gui.martial"),
-            btn -> switchCategory(RoleCategory.MARTIAL)
-        ).bounds(buttonStartX + buttonWidth + buttonSpacing, buttonY, buttonWidth, 20).build();
-        this.addRenderableWidget(martialButton);
-
-        // Cancel button
-        this.addRenderableWidget(Button.builder(
+        // Cancel button (always active)
+        this.cancelButton = Button.builder(
             Component.translatable("gui.cancel"),
             btn -> this.onClose()
-        ).bounds(buttonStartX + (buttonWidth + buttonSpacing) * 2, buttonY, buttonWidth, 20).build());
+        ).bounds(buttonStartX + buttonWidth + buttonSpacing, buttonY, buttonWidth, 20).build();
+        this.addRenderableWidget(cancelButton);
 
         // Populate with current category
         refreshRoleList();
-        updateButtonStates();
     }
 
     private void switchCategory(RoleCategory category) {
         if (this.currentCategory != category) {
             this.currentCategory = category;
             refreshRoleList();
-            updateButtonStates();
         }
-    }
-
-    private void updateButtonStates() {
-        // Visual feedback for active category
-        civilButton.active = currentCategory != RoleCategory.CIVIL;
-        martialButton.active = currentCategory != RoleCategory.MARTIAL;
     }
 
     private void refreshRoleList() {
         if (this.roleList != null) {
             this.roleList.refreshEntries(StarterRole.getByCategory(currentCategory));
         }
+    }
+
+    private void confirmSelection() {
+        // TODO: implement in Task 3
     }
 
     private void onRoleSelected(StarterRole role) {
