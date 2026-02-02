@@ -113,8 +113,15 @@ public class ClassRegistryScreen extends Screen {
     private void switchCategory(RoleCategory category) {
         if (this.currentCategory != category) {
             this.currentCategory = category;
+            this.selectedRole = null;  // Clear selection when switching tabs
+            this.confirmButton.active = false;
             refreshRoleList();
         }
+    }
+
+    private void selectRole(StarterRole role) {
+        this.selectedRole = role;
+        this.confirmButton.active = true;
     }
 
     private void refreshRoleList() {
@@ -124,12 +131,10 @@ public class ClassRegistryScreen extends Screen {
     }
 
     private void confirmSelection() {
-        // TODO: implement in Task 3
-    }
-
-    private void onRoleSelected(StarterRole role) {
-        PacketDistributor.sendToServer(new SelectRolePayload(role.getId(), hand));
-        this.onClose();
+        if (selectedRole != null) {
+            PacketDistributor.sendToServer(new SelectRolePayload(selectedRole.getId(), hand));
+            this.onClose();
+        }
     }
 
     @Override
@@ -243,7 +248,7 @@ public class ClassRegistryScreen extends Screen {
 
                 this.selectButton = Button.builder(
                     Component.translatable("moostack.class_registry.gui.select"),
-                    btn -> onRoleSelected(role)
+                    btn -> selectRole(role)
                 ).bounds(0, 0, 50, 18).build();
             }
 
@@ -298,9 +303,9 @@ public class ClassRegistryScreen extends Screen {
                 if (selectButton.isMouseOver(mouseX, mouseY)) {
                     return selectButton.mouseClicked(mouseX, mouseY, button);
                 }
-                // Single click on row also selects
+                // Single click on row also selects (highlights, doesn't confirm)
                 if (button == 0) {
-                    onRoleSelected(role);
+                    selectRole(role);
                     return true;
                 }
                 return super.mouseClicked(mouseX, mouseY, button);
