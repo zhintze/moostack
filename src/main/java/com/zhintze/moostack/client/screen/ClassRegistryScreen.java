@@ -6,6 +6,9 @@ import com.zhintze.moostack.starterrole.StarterRole.RoleCategory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ContainerObjectSelectionList;
+import net.minecraft.client.gui.components.events.GuiEventListener;
+import net.minecraft.client.gui.narration.NarratableEntry;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
@@ -13,36 +16,53 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.neoforge.network.PacketDistributor;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * GUI screen for selecting a starter role/class when using the Class Registry item.
- * Displays roles organized by category (Civil/Martial) with scrolling support.
+ * Compact keybind-style layout with category buttons at bottom.
  */
 @OnlyIn(Dist.CLIENT)
 public class ClassRegistryScreen extends Screen {
-    private static final int GUI_WIDTH = 220;
-    private static final int GUI_HEIGHT = 180;
-    private static final int BUTTON_WIDTH = 140;
-    private static final int BUTTON_HEIGHT = 20;
-    private static final int BUTTON_SPACING = 2;
-    private static final int MAX_VISIBLE_BUTTONS = 6;
-    private static final int TAB_WIDTH = 100;
+    // Screen dimensions
+    private static final int SCREEN_WIDTH = 320;
+    private static final int SCREEN_HEIGHT = 220;
+
+    // List entry dimensions
+    private static final int ENTRY_HEIGHT = 24;
+
+    // Colors
+    private static final int COLOR_BACKGROUND = 0xFF1A1A1A;
+    private static final int COLOR_PANEL = 0xFF2D2D2D;
+    private static final int COLOR_PANEL_BORDER = 0xFF404040;
+    private static final int COLOR_TITLE = 0xFFFFD700;
+    private static final int COLOR_CIVIL = 0xFF55FF55;
+    private static final int COLOR_MARTIAL = 0xFFFF5555;
+    private static final int COLOR_DESCRIPTION = 0xFF888888;
+    private static final int COLOR_ENTRY_HOVER = 0xFF3A3A3A;
+    private static final int COLOR_ENTRY_ALT = 0xFF252525;
+    private static final int COLOR_DIVIDER = 0xFF404040;
+    private static final int COLOR_ENTRY_SELECTED = 0xFF4A4A2A;  // Gold tint for selection
+    private static final int COLOR_TAB_ACTIVE = 0xFF1A1A1A;      // Matches list background
+    private static final int COLOR_TAB_INACTIVE = 0xFF2D2D2D;    // Darker inactive tab
+    private static final int TAB_WIDTH = 80;
+    private static final int TAB_HEIGHT = 20;
 
     private final InteractionHand hand;
     private RoleCategory currentCategory;
-    private int scrollOffset;
-    private final List<Button> roleButtons;
-    private Button civilTab;
-    private Button martialTab;
+    private RoleList roleList;
+    private StarterRole selectedRole;  // Currently highlighted role
+    private Button confirmButton;
+    private Button cancelButton;
+    private Button civilButton;      // Keep temporarily
+    private Button martialButton;    // Keep temporarily
+    private int guiLeft;
+    private int guiTop;
 
     public ClassRegistryScreen(InteractionHand hand) {
         super(Component.translatable("moostack.class_registry.gui.title"));
         this.hand = hand;
         this.currentCategory = RoleCategory.CIVIL;
-        this.scrollOffset = 0;
-        this.roleButtons = new ArrayList<>();
     }
 
     public static void open(InteractionHand hand) {
@@ -53,83 +73,65 @@ public class ClassRegistryScreen extends Screen {
     protected void init() {
         super.init();
 
-        int guiLeft = (this.width - GUI_WIDTH) / 2;
-        int guiTop = (this.height - GUI_HEIGHT) / 2;
+        this.guiLeft = (this.width - SCREEN_WIDTH) / 2;
+        this.guiTop = (this.height - SCREEN_HEIGHT) / 2;
 
-        // Category tabs - side by side, centered
-        int tabY = guiTop + 30;
-        int tabGap = 4;
-        int totalTabWidth = TAB_WIDTH * 2 + tabGap;
-        int tabStartX = guiLeft + (GUI_WIDTH - totalTabWidth) / 2;
+        // Create role list (positioned below title, above bottom buttons)
+        int listTop = guiTop + 28;
+        int listHeight = SCREEN_HEIGHT - 68;
+        this.roleList = new RoleList(this.minecraft, SCREEN_WIDTH - 20, listHeight, listTop, ENTRY_HEIGHT);
+        this.roleList.setX(guiLeft + 10);
+        this.addWidget(this.roleList);
 
-        civilTab = Button.builder(
+        // Bottom buttons
+        int buttonY = guiTop + SCREEN_HEIGHT - 32;
+        int buttonWidth = 80;
+        int buttonSpacing = 8;
+        int totalButtonWidth = buttonWidth * 3 + buttonSpacing * 2;
+        int buttonStartX = guiLeft + (SCREEN_WIDTH - totalButtonWidth) / 2;
+
+        // Civil category button
+        this.civilButton = Button.builder(
             Component.translatable("moostack.class_registry.gui.civil"),
-            btn -> switchCategory(RoleCategory.CIVIL))
-            .bounds(tabStartX, tabY, TAB_WIDTH, 20)
-            .build();
+            btn -> switchCategory(RoleCategory.CIVIL)
+        ).bounds(buttonStartX, buttonY, buttonWidth, 20).build();
+        this.addRenderableWidget(civilButton);
 
-        martialTab = Button.builder(
+        // Martial category button
+        this.martialButton = Button.builder(
             Component.translatable("moostack.class_registry.gui.martial"),
-            btn -> switchCategory(RoleCategory.MARTIAL))
-            .bounds(tabStartX + TAB_WIDTH + tabGap, tabY, TAB_WIDTH, 20)
-            .build();
+            btn -> switchCategory(RoleCategory.MARTIAL)
+        ).bounds(buttonStartX + buttonWidth + buttonSpacing, buttonY, buttonWidth, 20).build();
+        this.addRenderableWidget(martialButton);
 
-        this.addRenderableWidget(civilTab);
-        this.addRenderableWidget(martialTab);
+        // Cancel button
+        this.addRenderableWidget(Button.builder(
+            Component.translatable("gui.cancel"),
+            btn -> this.onClose()
+        ).bounds(buttonStartX + (buttonWidth + buttonSpacing) * 2, buttonY, buttonWidth, 20).build());
 
-        // Update tab appearance based on current selection
-        updateTabAppearance();
-
-        // Initialize role buttons
-        rebuildRoleButtons();
+        // Populate with current category
+        refreshRoleList();
+        updateButtonStates();
     }
 
     private void switchCategory(RoleCategory category) {
         if (this.currentCategory != category) {
             this.currentCategory = category;
-            this.scrollOffset = 0;
-            updateTabAppearance();
-            rebuildRoleButtons();
+            refreshRoleList();
+            updateButtonStates();
         }
     }
 
-    private void updateTabAppearance() {
-        // Active tab is not clickable, inactive tab is
-        civilTab.active = (currentCategory != RoleCategory.CIVIL);
-        martialTab.active = (currentCategory != RoleCategory.MARTIAL);
+    private void updateButtonStates() {
+        // Visual feedback for active category
+        civilButton.active = currentCategory != RoleCategory.CIVIL;
+        martialButton.active = currentCategory != RoleCategory.MARTIAL;
     }
 
-    private void rebuildRoleButtons() {
-        // Remove old buttons
-        for (Button btn : roleButtons) {
-            this.removeWidget(btn);
-        }
-        roleButtons.clear();
-
-        List<StarterRole> roles = StarterRole.getByCategory(currentCategory);
-        int guiLeft = (this.width - GUI_WIDTH) / 2;
-        int guiTop = (this.height - GUI_HEIGHT) / 2;
-        int startY = guiTop + 58;
-        int buttonX = guiLeft + (GUI_WIDTH - BUTTON_WIDTH) / 2;
-
-        for (int i = 0; i < roles.size(); i++) {
-            final StarterRole role = roles.get(i);
-            final int roleIndex = i;
-
-            Button btn = Button.builder(
-                role.getDisplayName(),
-                button -> onRoleSelected(role))
-                .bounds(buttonX, startY + (i - scrollOffset) * (BUTTON_HEIGHT + BUTTON_SPACING),
-                       BUTTON_WIDTH, BUTTON_HEIGHT)
-                .build();
-
-            // Only show buttons in visible range
-            boolean visible = (i >= scrollOffset && i < scrollOffset + MAX_VISIBLE_BUTTONS);
-            btn.visible = visible;
-            btn.active = visible;
-
-            roleButtons.add(btn);
-            this.addRenderableWidget(btn);
+    private void refreshRoleList() {
+        if (this.roleList != null) {
+            this.roleList.refreshEntries(StarterRole.getByCategory(currentCategory));
         }
     }
 
@@ -139,92 +141,188 @@ public class ClassRegistryScreen extends Screen {
     }
 
     @Override
+    public void renderBackground(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+        // Override to prevent default blurred dirt background
+    }
+
+    @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-        // Dark semi-transparent background
+        // Dark semi-transparent fullscreen background
         graphics.fill(0, 0, this.width, this.height, 0xC0101010);
 
-        int guiLeft = (this.width - GUI_WIDTH) / 2;
-        int guiTop = (this.height - GUI_HEIGHT) / 2;
+        // Main panel background with border
+        graphics.fill(guiLeft - 1, guiTop - 1, guiLeft + SCREEN_WIDTH + 1, guiTop + SCREEN_HEIGHT + 1, COLOR_PANEL_BORDER);
+        graphics.fill(guiLeft, guiTop, guiLeft + SCREEN_WIDTH, guiTop + SCREEN_HEIGHT, COLOR_PANEL);
 
-        // Draw panel background
-        graphics.fill(guiLeft - 2, guiTop - 2, guiLeft + GUI_WIDTH + 2, guiTop + GUI_HEIGHT + 2, 0xFF000000);
-        graphics.fill(guiLeft, guiTop, guiLeft + GUI_WIDTH, guiTop + GUI_HEIGHT, 0xFF2D2D2D);
+        // Draw title centered at top
+        graphics.drawCenteredString(this.font, this.title, guiLeft + SCREEN_WIDTH / 2, guiTop + 10, COLOR_TITLE);
 
-        // Draw title (centered, with proper ARGB color - 0xFF prefix for full alpha)
-        int titleWidth = this.font.width(this.title);
-        graphics.drawString(this.font, this.title, guiLeft + (GUI_WIDTH - titleWidth) / 2, guiTop + 10, 0xFFFFD700, false);
+        // Draw list content area background
+        int listTop = guiTop + 26;
+        int listBottom = guiTop + SCREEN_HEIGHT - 38;
+        graphics.fill(guiLeft + 8, listTop, guiLeft + SCREEN_WIDTH - 8, listBottom, COLOR_BACKGROUND);
 
-        // Draw scroll indicator if needed
-        List<StarterRole> roles = StarterRole.getByCategory(currentCategory);
-        if (roles.size() > MAX_VISIBLE_BUTTONS) {
-            int scrollBarX = guiLeft + GUI_WIDTH - 10;
-            int scrollBarY = guiTop + 58;
-            int scrollBarHeight = MAX_VISIBLE_BUTTONS * (BUTTON_HEIGHT + BUTTON_SPACING) - BUTTON_SPACING;
+        // Draw category indicator
+        Component categoryLabel = currentCategory == RoleCategory.CIVIL
+            ? Component.translatable("moostack.class_registry.gui.civil")
+            : Component.translatable("moostack.class_registry.gui.martial");
+        int categoryColor = currentCategory == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
+        graphics.drawString(this.font, categoryLabel, guiLeft + 12, guiTop + SCREEN_HEIGHT - 50, categoryColor, false);
 
-            // Background
-            graphics.fill(scrollBarX, scrollBarY, scrollBarX + 6, scrollBarY + scrollBarHeight, 0xFF1A1A1A);
+        // Draw role count
+        int roleCount = this.roleList.children().size();
+        Component countLabel = Component.literal(roleCount + " roles");
+        int countWidth = this.font.width(countLabel);
+        graphics.drawString(this.font, countLabel, guiLeft + SCREEN_WIDTH - 12 - countWidth, guiTop + SCREEN_HEIGHT - 50, COLOR_DESCRIPTION, false);
 
-            // Thumb
-            int maxScroll = roles.size() - MAX_VISIBLE_BUTTONS;
-            float scrollPercent = maxScroll > 0 ? (float) scrollOffset / maxScroll : 0;
-            int thumbHeight = Math.max(20, scrollBarHeight / roles.size() * MAX_VISIBLE_BUTTONS);
-            int thumbY = scrollBarY + (int) ((scrollBarHeight - thumbHeight) * scrollPercent);
-            graphics.fill(scrollBarX + 1, thumbY, scrollBarX + 5, thumbY + thumbHeight, 0xFF666666);
-        }
+        // Render the role list
+        this.roleList.render(graphics, mouseX, mouseY, partialTick);
 
         // Render widgets (buttons)
         super.render(graphics, mouseX, mouseY, partialTick);
-
-        // Draw tooltip for hovered role button
-        for (int i = 0; i < roleButtons.size(); i++) {
-            Button btn = roleButtons.get(i);
-            if (btn.isHovered() && btn.visible) {
-                List<StarterRole> currentRoles = StarterRole.getByCategory(currentCategory);
-                if (i < currentRoles.size()) {
-                    StarterRole role = currentRoles.get(i);
-                    graphics.renderTooltip(this.font, role.getDescription(), mouseX, mouseY);
-                }
-            }
-        }
     }
 
     @Override
     public boolean mouseScrolled(double mouseX, double mouseY, double scrollX, double scrollY) {
-        List<StarterRole> roles = StarterRole.getByCategory(currentCategory);
-        int maxScroll = Math.max(0, roles.size() - MAX_VISIBLE_BUTTONS);
-
-        int oldOffset = scrollOffset;
-        if (scrollY > 0) {
-            scrollOffset = Math.max(0, scrollOffset - 1);
-        } else if (scrollY < 0) {
-            scrollOffset = Math.min(maxScroll, scrollOffset + 1);
-        }
-
-        if (oldOffset != scrollOffset) {
-            updateButtonPositions();
-        }
-        return true;
-    }
-
-    private void updateButtonPositions() {
-        int guiLeft = (this.width - GUI_WIDTH) / 2;
-        int guiTop = (this.height - GUI_HEIGHT) / 2;
-        int startY = guiTop + 58;
-
-        for (int i = 0; i < roleButtons.size(); i++) {
-            Button btn = roleButtons.get(i);
-            boolean visible = (i >= scrollOffset && i < scrollOffset + MAX_VISIBLE_BUTTONS);
-            btn.visible = visible;
-            btn.active = visible;
-
-            if (visible) {
-                btn.setY(startY + (i - scrollOffset) * (BUTTON_HEIGHT + BUTTON_SPACING));
-            }
-        }
+        return this.roleList.mouseScrolled(mouseX, mouseY, scrollX, scrollY);
     }
 
     @Override
     public boolean isPauseScreen() {
         return false;
+    }
+
+    /**
+     * Scrollable list widget containing role entries.
+     */
+    private class RoleList extends ContainerObjectSelectionList<RoleList.RoleEntry> {
+
+        public RoleList(Minecraft mc, int width, int height, int top, int itemHeight) {
+            super(mc, width, height, top, itemHeight);
+        }
+
+        @Override
+        protected void renderListBackground(GuiGraphics graphics) {
+            // Don't render default background
+        }
+
+        @Override
+        protected void renderListSeparators(GuiGraphics graphics) {
+            // Don't render default separators
+        }
+
+        @Override
+        protected void enableScissor(GuiGraphics graphics) {
+            graphics.enableScissor(this.getX(), this.getY(), this.getX() + this.width, this.getY() + this.height);
+        }
+
+        public void refreshEntries(List<StarterRole> roles) {
+            this.clearEntries();
+            for (StarterRole role : roles) {
+                this.addEntry(new RoleEntry(role));
+            }
+        }
+
+        @Override
+        public int getRowWidth() {
+            return this.width - 12;
+        }
+
+        @Override
+        protected int getScrollbarPosition() {
+            return this.getX() + this.width - 6;
+        }
+
+        /**
+         * Compact role entry - single line with name, description, and select button.
+         */
+        public class RoleEntry extends ContainerObjectSelectionList.Entry<RoleEntry> {
+            private final StarterRole role;
+            private final Button selectButton;
+            private final String displayText;
+
+            public RoleEntry(StarterRole role) {
+                this.role = role;
+
+                // Build compact display: "Name - Description"
+                String name = role.getDisplayName().getString();
+                String desc = role.getDescription().getString();
+                this.displayText = name + " - " + desc;
+
+                this.selectButton = Button.builder(
+                    Component.translatable("moostack.class_registry.gui.select"),
+                    btn -> onRoleSelected(role)
+                ).bounds(0, 0, 50, 18).build();
+            }
+
+            @Override
+            public void render(GuiGraphics graphics, int index, int top, int left,
+                              int width, int height, int mouseX, int mouseY,
+                              boolean hovering, float partialTick) {
+                // Alternating row background
+                int bgColor = (index % 2 == 0) ? COLOR_ENTRY_ALT : COLOR_BACKGROUND;
+                if (hovering) {
+                    bgColor = COLOR_ENTRY_HOVER;
+                }
+                graphics.fill(left, top, left + width, top + height, bgColor);
+
+                // Role icon (colored dot based on category)
+                int dotX = left + 6;
+                int dotY = top + height / 2;
+                int dotColor = role.getCategory() == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
+                graphics.fill(dotX - 3, dotY - 3, dotX + 3, dotY + 3, dotColor);
+
+                // Role name (white) + description (gray)
+                int textX = left + 16;
+                int textY = top + (height - 8) / 2;
+
+                String name = role.getDisplayName().getString();
+                int nameWidth = font.width(name);
+
+                // Calculate max width for description
+                int maxTotalWidth = width - 80; // Leave room for button
+                int maxDescWidth = maxTotalWidth - nameWidth - font.width(" - ");
+
+                graphics.drawString(font, name, textX, textY, 0xFFFFFFFF, false);
+
+                if (maxDescWidth > 20) {
+                    String separator = " - ";
+                    String desc = role.getDescription().getString();
+                    if (font.width(desc) > maxDescWidth) {
+                        desc = font.plainSubstrByWidth(desc, maxDescWidth - font.width("...")) + "...";
+                    }
+                    graphics.drawString(font, separator, textX + nameWidth, textY, COLOR_DESCRIPTION, false);
+                    graphics.drawString(font, desc, textX + nameWidth + font.width(separator), textY, COLOR_DESCRIPTION, false);
+                }
+
+                // Select button (right-aligned)
+                selectButton.setX(left + width - 56);
+                selectButton.setY(top + (height - 18) / 2);
+                selectButton.render(graphics, mouseX, mouseY, partialTick);
+            }
+
+            @Override
+            public boolean mouseClicked(double mouseX, double mouseY, int button) {
+                if (selectButton.isMouseOver(mouseX, mouseY)) {
+                    return selectButton.mouseClicked(mouseX, mouseY, button);
+                }
+                // Single click on row also selects
+                if (button == 0) {
+                    onRoleSelected(role);
+                    return true;
+                }
+                return super.mouseClicked(mouseX, mouseY, button);
+            }
+
+            @Override
+            public List<? extends GuiEventListener> children() {
+                return List.of(selectButton);
+            }
+
+            @Override
+            public List<? extends NarratableEntry> narratables() {
+                return List.of(selectButton);
+            }
+        }
     }
 }
