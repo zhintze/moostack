@@ -1,6 +1,5 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_dependencies: ["0ECEB17B7C8ADD33"]
 	default_quest_shape: ""
 	filename: "aquaculture"
 	group: ""
@@ -8,7 +7,7 @@
 		id: "aquaculture:iron_fishing_rod"
 	}
 	id: "492649F619082A45"
-	order_index: 19
+	order_index: 20
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

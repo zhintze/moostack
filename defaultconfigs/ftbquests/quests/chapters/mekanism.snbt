@@ -72,7 +72,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependent_lines: true
 			id: "08DDE018A804BFE7"
 			rewards: [
 				{
@@ -183,7 +182,6 @@
 		}
 		{
 			dependencies: ["4274E777FB60BA28"]
-			hide_dependency_lines: true
 			id: "37D4E5ACB35D8BF1"
 			progression_mode: "linear"
 			rewards: [
@@ -226,7 +224,6 @@
 			y: 4.5d
 		}
 		{
-			hide_dependency_lines: true
 			id: "7CC49360D07086B8"
 			progression_mode: "linear"
 			rewards: [
@@ -397,7 +394,6 @@
 		}
 		{
 			dependencies: ["162CE44400A63575"]
-			hide_dependency_lines: true
 			id: "7B0DFA55B4D8B16D"
 			rewards: [
 				{
@@ -446,7 +442,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "3C8D9278B81BB37A"
 			rewards: [
 				{
@@ -487,7 +482,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "0ACE573560A19309"
 			rewards: [
 				{
@@ -528,7 +522,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "763FB27929E053BE"
 			rewards: [
 				{
@@ -569,7 +562,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "001DE8028CAF0A08"
 			rewards: [
 				{
@@ -610,7 +602,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "09830BB2A23E94B4"
 			rewards: [
 				{
@@ -651,7 +642,6 @@
 				"21D8B88155648EA6"
 				"01A90E2541C91DB2"
 			]
-			hide_dependency_lines: true
 			id: "515A60B89ED5440D"
 			rewards: [
 				{
@@ -1060,7 +1050,6 @@
 				"0498A578D0EC3254"
 				"166971866A9234C7"
 			]
-			hide_dependency_lines: true
 			icon: {
 				id: "mekanism:basic_control_circuit"
 			}
@@ -1277,7 +1266,6 @@
 				"6263A27182B2CE3D"
 				"08DDE018A804BFE7"
 			]
-			hide_dependent_lines: true
 			id: "33415CB421F7620A"
 			rewards: [
 				{
@@ -1667,7 +1655,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependent_lines: true
 			id: "71869B1D81D6A7EF"
 			rewards: [
 				{
@@ -1705,7 +1692,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependent_lines: true
 			id: "603BEDD49070ECAD"
 			rewards: [
 				{
@@ -1747,7 +1733,6 @@
 				"08DDE018A804BFE7"
 				"603BEDD49070ECAD"
 			]
-			hide_dependency_lines: true
 			id: "7276892E129A739B"
 			rewards: [{
 				count: 20
@@ -1987,7 +1972,6 @@
 		}
 		{
 			dependencies: ["19341B01E048ACAB"]
-			hide_dependency_lines: true
 			id: "090B564935D7A8F5"
 			rewards: [
 				{
@@ -2190,7 +2174,6 @@
 		}
 		{
 			dependencies: ["4935209D870E25F2"]
-			hide_dependent_lines: true
 			id: "4274E777FB60BA28"
 			rewards: [{
 				id: "71401FACDE62C93B"
@@ -2216,7 +2199,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependency_lines: true
 			id: "119BED334E331C25"
 			rewards: [
 				{
@@ -2268,7 +2250,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependency_lines: true
 			id: "445CC9AAA6F8AAB6"
 			rewards: [
 				{
@@ -2386,7 +2367,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependency_lines: true
 			id: "7485BCBE366501DF"
 			rewards: [
 				{
@@ -2687,7 +2667,6 @@
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
-			hide_dependency_lines: true
 			id: "75E4751F7A802A44"
 			rewards: [
 				{
@@ -3034,7 +3013,6 @@
 		}
 		{
 			dependencies: ["7ECA0633AF1AEC19"]
-			hide_dependency_lines: true
 			id: "24BA664B60E49461"
 			rewards: [
 				{
@@ -3164,7 +3142,6 @@
 				"162CE44400A63575"
 				"7AE502EDB73BD57A"
 			]
-			hide_dependency_lines: true
 			id: "5B556192F060F3F1"
 			rewards: [
 				{
@@ -3474,6 +3451,30 @@
 			]
 			x: 4.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["4274E777FB60BA28"]
+			id: "05DA7F48E2A1B77F"
+			rewards: [{
+				id: "7A4E9C2B8D5F3160"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5D701F72E4A6826F"
+					item: { count: 1, id: "mekanism:robit" }
+					type: "item"
+				}
+				{
+					id: "4C8E2A9D5B7F3160"
+					item: { count: 1, id: "mekanism:chargepad" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.5d
 		}
 	]
 }

@@ -4,7 +4,7 @@
 	filename: "welcome"
 	group: ""
 	icon: {
-		id: "ftbquests:book"
+		id: "moostack:class_registry"
 	}
 	id: "02FF33D22B10EA88"
 	order_index: 0
@@ -13,123 +13,339 @@
 	quests: [
 		{
 			icon: {
-				id: "minecraft:grass_block"
+				id: "moostack:class_registry"
 			}
-			id: "78B3F7AD4FC47CAA"
+			id: "0ECEB17B7C8ADD33"
+			min_width: 400
 			rewards: [{
-				id: "426939131DE5431D"
-				type: "xp"
-				xp: 10
+				id: "1FD9D563D4F6840A"
+				item: {
+					count: 1
+					id: "moostack:class_registry"
+				}
+				type: "item"
 			}]
-			shape: "pentagon"
-			size: 3.0d
+			shape: "hexagon"
+			size: 2.5d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "3523A4E16FCB834A"
-				type: "dimension"
+				id: "35F5ACC3A6B38EEB"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ECEB17B7C8ADD33"]
 			icon: {
-				id: "minecraft:book"
+				id: "spiceoflifeascension:gourmands_tome"
 			}
-			id: "4209DDD97D1E5861"
+			id: "7F4274014E7FCD4B"
 			min_width: 300
-			rewards: [{
-				id: "41C3EE8BBDEB7EE2"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.5d
+			rewards: [
+				{
+					id: "413055B79187EF11"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "652D4DA17D00B2D1"
+					item: {
+						count: 1
+						id: "spiceoflifeascension:gourmands_tome"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "4D9A09E80739F58C"
+				id: "26084080CB6A3A08"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["0ECEB17B7C8ADD33"]
 			icon: {
-				id: "mekanism:ingot_steel"
+				id: "equestriansdelight:monocle"
 			}
-			id: "1178CF5CA0D108E4"
-			min_width: 280
+			id: "77AFD6EF477973CD"
+			min_width: 300
 			rewards: [{
-				id: "4EC3305B156CFE08"
-				type: "xp"
-				xp: 10
+				id: "2BC38A4570DDF0ED"
+				item: {
+					count: 1
+					id: "equestriansdelight:monocle"
+				}
+				type: "item"
 			}]
-			shape: "rsquare"
-			size: 1.5d
 			tasks: [{
-				id: "02C6EAD6367B3526"
+				id: "69A446EFA01FD281"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
+			dependencies: ["0ECEB17B7C8ADD33"]
 			icon: {
-				id: "minecraft:compass"
+				id: "multiblockprojector:projector"
 			}
-			id: "30A1B0A1B54A0AEE"
-			min_width: 350
-			rewards: [{
-				id: "1BE900BD96D8196B"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "7DAB52FA21E199D8"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			icon: {
-				id: "minecraft:filled_map"
-			}
-			id: "42CB375D6A285763"
+			id: "5A12C7964E51AB68"
 			min_width: 300
 			rewards: [{
-				id: "5773DCCD904B565D"
-				type: "xp"
-				xp: 10
+				id: "21E66FA47E667E2E"
+				item: {
+					count: 1
+					id: "multiblockprojector:projector"
+				}
+				type: "item"
 			}]
-			shape: "rsquare"
-			size: 1.5d
 			tasks: [{
-				id: "5FBEEC9714E97684"
+				id: "5B802D09984BF70C"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["0ECEB17B7C8ADD33"]
 			icon: {
-				id: "minecraft:player_head"
+				components: {
+					"minecraft:damage": 0
+					"minecraft:item_name": "{\"translate\":\"item.silentgear.bracelet.nameProper\",\"with\":[{\"translate\":\"material.silentgear.copper\"}]}"
+					"silentgear:construction": {
+						broken_count: 0
+						example: 0b
+						parts: [{
+							item: {
+								components: {
+									"silentgear:material_list": [
+										{
+											item: {
+												count: 1
+												id: "minecraft:copper_ingot"
+											}
+											material: "silentgear:copper"
+										}
+										{
+											item: {
+												count: 1
+												id: "minecraft:copper_ingot"
+											}
+											material: "silentgear:copper"
+										}
+										{
+											item: {
+												count: 1
+												id: "minecraft:copper_ingot"
+											}
+											material: "silentgear:copper"
+										}
+									]
+								}
+								count: 1
+								id: "silentgear:bracelet_band"
+							}
+							part: "silentgear:bracelet_band"
+						}]
+						repairedCount: 0
+					}
+					"silentgear:model_index": 3
+					"silentgear:model_key": "bracelet:bracelet_band{copper},"
+					"silentgear:properties": {
+						"silentgear:armor": 10.0f
+						"silentgear:armor_durability": 12.000001f
+						"silentgear:armor_toughness": 0.0f
+						"silentgear:attack_damage": 1.5f
+						"silentgear:attack_reach": 0.0f
+						"silentgear:attack_speed": 0.0f
+						"silentgear:block_reach": 0.0f
+						"silentgear:charging_value": 1.2f
+						"silentgear:draw_speed": 1.0f
+						"silentgear:durability": 180.00002f
+						"silentgear:enchantment_value": 14.0f
+						"silentgear:harvest_speed": 4.9999995f
+						"silentgear:harvest_tier": {
+							incorrect_blocks_for_tool: "silentgear:incorrect_for_copper_tools"
+							level_hint: "1"
+							name: "copper"
+						}
+						"silentgear:knockback_resistance": 0.0f
+						"silentgear:magic_armor": 4.0f
+						"silentgear:magic_damage": 1.0f
+						"silentgear:projectile_accuracy": 1.0f
+						"silentgear:projectile_speed": 1.0f
+						"silentgear:ranged_damage": 0.5f
+						"silentgear:rarity": 15.0f
+						"silentgear:repair_efficiency": 0.0f
+						"silentgear:repair_value": 0.0f
+						"silentgear:traits": [
+							{
+								conditions: [ ]
+								level: 4
+								trait: "silentgear:conductive"
+							}
+							{
+								conditions: [ ]
+								level: 2
+								trait: "silentgear:flexible"
+							}
+						]
+					}
+				}
+				id: "silentgear:bracelet"
 			}
-			id: "47F453CC1FED7365"
-			min_width: 280
+			id: "228F5607230C772C"
+			min_width: 300
 			rewards: [{
-				id: "01FE9E6BC0A2D1F7"
-				type: "xp"
-				xp: 10
+				id: "369B676EB8CC33E9"
+				item: {
+					components: {
+						"minecraft:damage": 0
+						"minecraft:item_name": "{\"translate\":\"item.silentgear.bracelet.nameProper\",\"with\":[{\"translate\":\"material.silentgear.copper\"}]}"
+						"silentgear:construction": {
+							broken_count: 0
+							example: 0b
+							parts: [{
+								item: {
+									components: {
+										"silentgear:material_list": [
+											{
+												item: {
+													count: 1
+													id: "minecraft:copper_ingot"
+												}
+												material: "silentgear:copper"
+											}
+											{
+												item: {
+													count: 1
+													id: "minecraft:copper_ingot"
+												}
+												material: "silentgear:copper"
+											}
+											{
+												item: {
+													count: 1
+													id: "minecraft:copper_ingot"
+												}
+												material: "silentgear:copper"
+											}
+										]
+									}
+									count: 1
+									id: "silentgear:bracelet_band"
+								}
+								part: "silentgear:bracelet_band"
+							}]
+							repairedCount: 0
+						}
+						"silentgear:model_index": 3
+						"silentgear:model_key": "bracelet:bracelet_band{copper},"
+						"silentgear:properties": {
+							"silentgear:armor": 10.0f
+							"silentgear:armor_durability": 12.000001f
+							"silentgear:armor_toughness": 0.0f
+							"silentgear:attack_damage": 1.5f
+							"silentgear:attack_reach": 0.0f
+							"silentgear:attack_speed": 0.0f
+							"silentgear:block_reach": 0.0f
+							"silentgear:charging_value": 1.2f
+							"silentgear:draw_speed": 1.0f
+							"silentgear:durability": 180.00002f
+							"silentgear:enchantment_value": 14.0f
+							"silentgear:harvest_speed": 4.9999995f
+							"silentgear:harvest_tier": {
+								incorrect_blocks_for_tool: "silentgear:incorrect_for_copper_tools"
+								level_hint: "1"
+								name: "copper"
+							}
+							"silentgear:knockback_resistance": 0.0f
+							"silentgear:magic_armor": 4.0f
+							"silentgear:magic_damage": 1.0f
+							"silentgear:projectile_accuracy": 1.0f
+							"silentgear:projectile_speed": 1.0f
+							"silentgear:ranged_damage": 0.5f
+							"silentgear:rarity": 15.0f
+							"silentgear:repair_efficiency": 0.0f
+							"silentgear:repair_value": 0.0f
+							"silentgear:traits": [
+								{
+									conditions: [ ]
+									level: 4
+									trait: "silentgear:conductive"
+								}
+								{
+									conditions: [ ]
+									level: 2
+									trait: "silentgear:flexible"
+								}
+							]
+						}
+					}
+					count: 1
+					id: "silentgear:bracelet"
+				}
+				type: "item"
 			}]
-			shape: "rsquare"
-			size: 1.5d
 			tasks: [{
-				id: "4DA8DEE31EB00E44"
+				id: "1458D40D0CD8DE11"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ECEB17B7C8ADD33"]
+			icon: {
+				id: "map_atlases:atlas"
+			}
+			id: "0DE97FE3BE95C650"
+			min_width: 300
+			rewards: [{
+				count: 64
+				id: "634F0F0CCB67ECC5"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64CE83BCD6C05863"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ECEB17B7C8ADD33"]
+			icon: {
+				id: "mighty_mail:oak_mail_box"
+			}
+			id: "516E80B59105117A"
+			min_width: 300
+			rewards: [
+				{
+					id: "4E29CBBC95096C2A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37BB269FC27EA720"
+					item: {
+						count: 1
+						id: "mighty_mail:oak_mail_box"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26DAA394F28C4A16"
 				type: "checkmark"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 2.0d
 		}
 	]
 }

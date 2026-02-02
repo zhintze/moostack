@@ -20,6 +20,5 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	show_lock_icons: true
-	version: 1
+	version: 13
 }

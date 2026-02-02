@@ -1,6 +1,5 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_dependencies: ["0ECEB17B7C8ADD33"]
 	default_quest_shape: ""
 	filename: "corail_tombstone"
 	group: ""
@@ -44,10 +43,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1524CC479D9FFBEE"]
 			icon: {
 				id: "tombstone:grave_key"
 			}
-			dependencies: ["1524CC479D9FFBEE"]
 			id: "7E495A5928712EC6"
 			rewards: [
 				{
@@ -73,10 +72,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7E495A5928712EC6"]
 			icon: {
 				id: "minecraft:glass"
 			}
-			dependencies: ["7E495A5928712EC6"]
 			id: "315D25EF38FC68BD"
 			rewards: [
 				{
@@ -101,10 +100,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1524CC479D9FFBEE"]
 			icon: {
 				id: "tombstone:grave_dust"
 			}
-			dependencies: ["1524CC479D9FFBEE"]
 			id: "65DEFCD372F39B3E"
 			rewards: [
 				{
@@ -131,10 +130,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["65DEFCD372F39B3E"]
 			icon: {
 				id: "tombstone:essence_of_undeath"
 			}
-			dependencies: ["65DEFCD372F39B3E"]
 			id: "74D7F7BCBACAA62F"
 			rewards: [
 				{
@@ -161,10 +160,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["65DEFCD372F39B3E"]
 			icon: {
 				id: "tombstone:strange_scroll"
 			}
-			dependencies: ["65DEFCD372F39B3E"]
 			id: "56C96BCF3D002B74"
 			rewards: [
 				{
@@ -190,10 +189,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["65DEFCD372F39B3E"]
 			icon: {
 				id: "tombstone:dark_marble"
 			}
-			dependencies: ["65DEFCD372F39B3E"]
 			id: "0FD78C16AB5D526B"
 			rewards: [
 				{
@@ -220,10 +219,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0FD78C16AB5D526B"]
 			icon: {
 				id: "tombstone:decorative_grave_simple"
 			}
-			dependencies: ["0FD78C16AB5D526B"]
 			id: "0CE944EF81E58491"
 			rewards: [
 				{
@@ -249,10 +248,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0CE944EF81E58491"]
 			icon: {
 				id: "tombstone:decorative_grave_normal"
 			}
-			dependencies: ["0CE944EF81E58491"]
 			id: "635E73E169691CA9"
 			rewards: [
 				{
@@ -280,10 +279,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["0CE944EF81E58491"]
 			icon: {
 				id: "tombstone:grave_plate"
 			}
-			dependencies: ["0CE944EF81E58491"]
 			id: "6F228AE796EEC90A"
 			rewards: [
 				{
@@ -309,10 +308,10 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["635E73E169691CA9"]
 			icon: {
 				id: "tombstone:receptacle_of_soul"
 			}
-			dependencies: ["635E73E169691CA9"]
 			id: "69EBD0482D70E965"
 			rewards: [
 				{
@@ -339,10 +338,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["69EBD0482D70E965"]
 			icon: {
 				id: "tombstone:strange_scroll"
 			}
-			dependencies: ["69EBD0482D70E965"]
 			id: "1C47CB2AF7E18990"
 			rewards: [
 				{
@@ -369,10 +368,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["1C47CB2AF7E18990"]
 			icon: {
 				id: "tombstone:receptacle_of_soul"
 			}
-			dependencies: ["1C47CB2AF7E18990"]
 			id: "5DE76D84FA74619E"
 			rewards: [
 				{
@@ -398,10 +397,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["69EBD0482D70E965"]
 			icon: {
 				id: "tombstone:ankh_of_prayer"
 			}
-			dependencies: ["69EBD0482D70E965"]
 			id: "52CAC54AF7568E85"
 			rewards: [
 				{
@@ -427,10 +426,10 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1C47CB2AF7E18990"]
 			icon: {
 				id: "tombstone:scroll_of_feather_fall"
 			}
-			dependencies: ["1C47CB2AF7E18990"]
 			id: "159A2AE9A4A96186"
 			rewards: [
 				{
@@ -456,10 +455,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["159A2AE9A4A96186"]
 			icon: {
 				id: "tombstone:scroll_of_purification"
 			}
-			dependencies: ["159A2AE9A4A96186"]
 			id: "05768DC4069B3F25"
 			rewards: [
 				{
@@ -485,10 +484,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["159A2AE9A4A96186"]
 			icon: {
 				id: "tombstone:scroll_of_preservation"
 			}
-			dependencies: ["159A2AE9A4A96186"]
 			id: "4D0B6C089B1E4B3B"
 			rewards: [
 				{
@@ -514,10 +513,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["159A2AE9A4A96186"]
 			icon: {
 				id: "tombstone:scroll_of_true_sight"
 			}
-			dependencies: ["159A2AE9A4A96186"]
 			id: "78E4178155416B59"
 			rewards: [
 				{
@@ -543,10 +542,10 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1C47CB2AF7E18990"]
 			icon: {
 				id: "tombstone:strange_tablet"
 			}
-			dependencies: ["1C47CB2AF7E18990"]
 			id: "49BF83C39CE65B64"
 			rewards: [
 				{
@@ -572,10 +571,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["49BF83C39CE65B64"]
 			icon: {
 				id: "tombstone:tablet_of_home"
 			}
-			dependencies: ["49BF83C39CE65B64"]
 			id: "14CC9EA2E3C9E779"
 			rewards: [
 				{
@@ -601,10 +600,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["49BF83C39CE65B64"]
 			icon: {
 				id: "tombstone:tablet_of_recall"
 			}
-			dependencies: ["49BF83C39CE65B64"]
 			id: "69D143C070094668"
 			rewards: [
 				{
@@ -630,10 +629,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["49BF83C39CE65B64"]
 			icon: {
 				id: "tombstone:tablet_of_assistance"
 			}
-			dependencies: ["49BF83C39CE65B64"]
 			id: "5B506D2E55CFFD56"
 			rewards: [
 				{
@@ -659,10 +658,10 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1C47CB2AF7E18990"]
 			icon: {
 				id: "tombstone:book_of_disenchantment"
 			}
-			dependencies: ["1C47CB2AF7E18990"]
 			id: "1A70D3A1356F5793"
 			rewards: [
 				{
@@ -688,10 +687,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["1A70D3A1356F5793"]
 			icon: {
 				id: "tombstone:book_of_recycling"
 			}
-			dependencies: ["1A70D3A1356F5793"]
 			id: "4B7C4A5BC6F47C35"
 			rewards: [
 				{
@@ -717,10 +716,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["1A70D3A1356F5793"]
 			icon: {
 				id: "tombstone:book_of_repairing"
 			}
-			dependencies: ["1A70D3A1356F5793"]
 			id: "0D3B633AA62E8AA5"
 			rewards: [
 				{
@@ -746,10 +745,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["1A70D3A1356F5793"]
 			icon: {
 				id: "tombstone:book_of_soulbound"
 			}
-			dependencies: ["1A70D3A1356F5793"]
 			id: "28F335AB62647A50"
 			rewards: [
 				{
@@ -775,10 +774,10 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["1A70D3A1356F5793"]
 			icon: {
 				id: "tombstone:book_of_scribe"
 			}
-			dependencies: ["1A70D3A1356F5793"]
 			id: "0CAF02D2EEF168D9"
 			rewards: [
 				{
@@ -804,10 +803,10 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["5DE76D84FA74619E"]
 			icon: {
 				id: "tombstone:voodoo_poppet"
 			}
-			dependencies: ["5DE76D84FA74619E"]
 			id: "0ABB07D6EA930E1F"
 			rewards: [
 				{
@@ -833,10 +832,10 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["0ABB07D6EA930E1F"]
 			icon: {
 				id: "tombstone:bone_needle"
 			}
-			dependencies: ["0ABB07D6EA930E1F"]
 			id: "1C60F4D2685789B2"
 			rewards: [
 				{
@@ -862,10 +861,10 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["1C47CB2AF7E18990"]
 			icon: {
 				id: "tombstone:impregnated_diamond"
 			}
-			dependencies: ["1C47CB2AF7E18990"]
 			id: "155ABD22CC4621A3"
 			rewards: [
 				{
@@ -891,10 +890,10 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["52CAC54AF7568E85"]
 			icon: {
 				id: "minecraft:book"
 			}
-			dependencies: ["52CAC54AF7568E85"]
 			id: "3745D1382A3E38E0"
 			rewards: [
 				{
@@ -919,10 +918,10 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["3745D1382A3E38E0"]
 			icon: {
 				id: "tombstone:ankh_of_prayer"
 			}
-			dependencies: ["3745D1382A3E38E0"]
 			id: "5F741E0580624DFF"
 			rewards: [
 				{
@@ -947,10 +946,10 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["5F741E0580624DFF"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			dependencies: ["5F741E0580624DFF"]
 			id: "6151F0EC743C9C89"
 			rewards: [
 				{
@@ -975,10 +974,10 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["6151F0EC743C9C89"]
 			icon: {
 				id: "minecraft:enchanted_book"
 			}
-			dependencies: ["6151F0EC743C9C89"]
 			id: "666229AB93970045"
 			rewards: [
 				{
@@ -1003,10 +1002,10 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["69EBD0482D70E965"]
 			icon: {
 				id: "tombstone:dark_marble"
 			}
-			dependencies: ["69EBD0482D70E965"]
 			id: "00E14DA4B78730BA"
 			rewards: [
 				{
@@ -1034,10 +1033,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["00E14DA4B78730BA"]
 			icon: {
 				id: "tombstone:lost_tablet"
 			}
-			dependencies: ["00E14DA4B78730BA"]
 			id: "3DE688515E217F5F"
 			rewards: [
 				{
@@ -1063,10 +1062,10 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["65DEFCD372F39B3E"]
 			icon: {
 				id: "tombstone:dust_of_vanishing"
 			}
-			dependencies: ["65DEFCD372F39B3E"]
 			id: "4139148E4EC8D310"
 			rewards: [
 				{
