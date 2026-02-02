@@ -154,29 +154,50 @@ public class ClassRegistryScreen extends Screen {
         // Draw title centered at top
         graphics.drawCenteredString(this.font, this.title, guiLeft + SCREEN_WIDTH / 2, guiTop + 10, COLOR_TITLE);
 
-        // Draw list content area background
-        int listTop = guiTop + 26;
-        int listBottom = guiTop + SCREEN_HEIGHT - 38;
+        // Draw category tabs
+        int tabY = guiTop + 28;
+        int tabStartX = guiLeft + 10;
+
+        // Civil tab
+        boolean civilActive = currentCategory == RoleCategory.CIVIL;
+        int civilTabColor = civilActive ? COLOR_TAB_ACTIVE : COLOR_TAB_INACTIVE;
+        graphics.fill(tabStartX, tabY, tabStartX + TAB_WIDTH, tabY + TAB_HEIGHT, civilTabColor);
+        if (!civilActive) {
+            graphics.fill(tabStartX, tabY + TAB_HEIGHT - 1, tabStartX + TAB_WIDTH, tabY + TAB_HEIGHT, COLOR_PANEL_BORDER);
+        }
+        Component civilLabel = Component.translatable("moostack.class_registry.gui.civil");
+        int civilTextColor = civilActive ? COLOR_CIVIL : COLOR_DESCRIPTION;
+        graphics.drawCenteredString(this.font, civilLabel, tabStartX + TAB_WIDTH / 2, tabY + 6, civilTextColor);
+
+        // Martial tab
+        int martialTabX = tabStartX + TAB_WIDTH + 4;
+        boolean martialActive = currentCategory == RoleCategory.MARTIAL;
+        int martialTabColor = martialActive ? COLOR_TAB_ACTIVE : COLOR_TAB_INACTIVE;
+        graphics.fill(martialTabX, tabY, martialTabX + TAB_WIDTH, tabY + TAB_HEIGHT, martialTabColor);
+        if (!martialActive) {
+            graphics.fill(martialTabX, tabY + TAB_HEIGHT - 1, martialTabX + TAB_WIDTH, tabY + TAB_HEIGHT, COLOR_PANEL_BORDER);
+        }
+        Component martialLabel = Component.translatable("moostack.class_registry.gui.martial");
+        int martialTextColor = martialActive ? COLOR_MARTIAL : COLOR_DESCRIPTION;
+        graphics.drawCenteredString(this.font, martialLabel, martialTabX + TAB_WIDTH / 2, tabY + 6, martialTextColor);
+
+        // Draw list content area background (connects to active tab)
+        int listTop = guiTop + 48;
+        int listBottom = guiTop + SCREEN_HEIGHT - 36;
         graphics.fill(guiLeft + 8, listTop, guiLeft + SCREEN_WIDTH - 8, listBottom, COLOR_BACKGROUND);
-
-        // Draw category indicator
-        Component categoryLabel = currentCategory == RoleCategory.CIVIL
-            ? Component.translatable("moostack.class_registry.gui.civil")
-            : Component.translatable("moostack.class_registry.gui.martial");
-        int categoryColor = currentCategory == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
-        graphics.drawString(this.font, categoryLabel, guiLeft + 12, guiTop + SCREEN_HEIGHT - 50, categoryColor, false);
-
-        // Draw role count
-        int roleCount = this.roleList.children().size();
-        Component countLabel = Component.literal(roleCount + " roles");
-        int countWidth = this.font.width(countLabel);
-        graphics.drawString(this.font, countLabel, guiLeft + SCREEN_WIDTH - 12 - countWidth, guiTop + SCREEN_HEIGHT - 50, COLOR_DESCRIPTION, false);
 
         // Render the role list
         this.roleList.render(graphics, mouseX, mouseY, partialTick);
 
+        // Render tooltip if hovering over a role entry
+        renderRoleTooltip(graphics, mouseX, mouseY);
+
         // Render widgets (buttons)
         super.render(graphics, mouseX, mouseY, partialTick);
+    }
+
+    private void renderRoleTooltip(GuiGraphics graphics, int mouseX, int mouseY) {
+        // TODO: implement in Task 7
     }
 
     @Override
