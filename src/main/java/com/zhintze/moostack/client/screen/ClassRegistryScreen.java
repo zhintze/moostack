@@ -206,6 +206,31 @@ public class ClassRegistryScreen extends Screen {
     }
 
     @Override
+    public boolean mouseClicked(double mouseX, double mouseY, int button) {
+        if (button == 0) {
+            // Check tab clicks
+            int tabY = guiTop + 28;
+            int tabStartX = guiLeft + 10;
+
+            // Civil tab bounds
+            if (mouseX >= tabStartX && mouseX < tabStartX + TAB_WIDTH &&
+                mouseY >= tabY && mouseY < tabY + TAB_HEIGHT) {
+                switchCategory(RoleCategory.CIVIL);
+                return true;
+            }
+
+            // Martial tab bounds
+            int martialTabX = tabStartX + TAB_WIDTH + 4;
+            if (mouseX >= martialTabX && mouseX < martialTabX + TAB_WIDTH &&
+                mouseY >= tabY && mouseY < tabY + TAB_HEIGHT) {
+                switchCategory(RoleCategory.MARTIAL);
+                return true;
+            }
+        }
+        return super.mouseClicked(mouseX, mouseY, button);
+    }
+
+    @Override
     public boolean isPauseScreen() {
         return false;
     }
