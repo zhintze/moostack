@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  * GUI screen for selecting a starter role/class when using the Class Registry item.
- * Compact keybind-style layout with category buttons at bottom.
+ * Features tab-based category selection and confirm/cancel workflow.
  */
 @OnlyIn(Dist.CLIENT)
 public class ClassRegistryScreen extends Screen {
