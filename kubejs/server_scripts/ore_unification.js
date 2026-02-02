@@ -306,10 +306,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: /^antiquelegacy:.*bronze_plate.*/ })
 
     // Add Create pressing recipe for bronze sheet
+    // Note: In 1.21, Create results use 'id' instead of 'item'
     event.custom({
         type: 'create:pressing',
         ingredients: [{ tag: 'c:ingots/bronze' }],
-        results: [{ item: 'antiquelegacy:bronze_plate' }]
+        results: [{ id: 'antiquelegacy:bronze_plate' }]
     })
 
     // ===========================================
