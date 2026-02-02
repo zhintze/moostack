@@ -197,7 +197,17 @@ public class ClassRegistryScreen extends Screen {
     }
 
     private void renderRoleTooltip(GuiGraphics graphics, int mouseX, int mouseY) {
-        // TODO: implement in Task 7
+        if (this.roleList == null) return;
+
+        RoleList.RoleEntry hoveredEntry = this.roleList.getHoveredEntry(mouseX, mouseY);
+        if (hoveredEntry != null) {
+            StarterRole role = hoveredEntry.getRole();
+            List<Component> tooltip = List.of(
+                role.getDisplayName(),
+                role.getDescription().copy().withStyle(style -> style.withColor(0xAAAAAA))
+            );
+            graphics.renderComponentTooltip(this.font, tooltip, mouseX, mouseY);
+        }
     }
 
     @Override
@@ -274,6 +284,14 @@ public class ClassRegistryScreen extends Screen {
         @Override
         protected int getScrollbarPosition() {
             return this.getX() + this.width - 6;
+        }
+
+        public RoleEntry getHoveredEntry(int mouseX, int mouseY) {
+            if (mouseX < this.getX() || mouseX > this.getX() + this.width ||
+                mouseY < this.getY() || mouseY > this.getY() + this.height) {
+                return null;
+            }
+            return this.getEntryAtPosition(mouseX, mouseY);
         }
 
         /**
