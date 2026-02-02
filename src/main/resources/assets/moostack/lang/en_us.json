@@ -221,10 +221,6 @@
   "moostack.role.enchanter.desc": "Imbuer of magical properties",
   "moostack.role.occultist": "Occultist",
   "moostack.role.occultist.desc": "Practitioner of dark and forbidden arts",
-  "moostack.role.merchant": "Merchant",
-  "moostack.role.merchant.desc": "Trader of goods and collector of emeralds",
-  "moostack.merchant.teleported_to_village": "You have been teleported to a nearby village to begin your trade route!",
-  "moostack.merchant.no_village_found": "No village was found nearby. You'll need to find one on your own.",
 
   "moostack.role.ranger": "Ranger",
   "moostack.role.ranger.desc": "Swift archer with animal companions",
@@ -263,8 +259,8 @@
   "moostack.role.voidbinder.desc": "Manipulator of void and ender magic",
   "moostack.role.briarborn": "Briarborn",
   "moostack.role.briarborn.desc": "Shaper of nature and poison",
-  "moostack.role.arcanist": "Arcanist",
-  "moostack.role.arcanist.desc": "Scholar of pure arcane magic",
+  "moostack.role.evoker": "Evoker",
+  "moostack.role.evoker.desc": "Scholar of pure arcane magic",
 
   "moostack.starter_role.message.selected": "You have chosen the path of the %s!",
   "moostack.starter_role.message.already_selected": "You have already chosen your path.",

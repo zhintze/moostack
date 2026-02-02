@@ -43,10 +43,12 @@ public class ClassRegistryScreen extends Screen {
     private static final int COLOR_ENTRY_ALT = 0xFF252525;
     private static final int COLOR_DIVIDER = 0xFF404040;
     private static final int COLOR_ENTRY_SELECTED = 0xFF4A4A2A;  // Gold tint for selection
-    private static final int COLOR_TAB_ACTIVE = 0xFF1A1A1A;      // Matches list background
-    private static final int COLOR_TAB_INACTIVE = 0xFF2D2D2D;    // Darker inactive tab
-    private static final int TAB_WIDTH = 80;
-    private static final int TAB_HEIGHT = 20;
+    private static final int COLOR_TAB_ACTIVE = 0xFF505050;      // Button-like active
+    private static final int COLOR_TAB_INACTIVE = 0xFF404040;    // Button-like inactive
+    private static final int COLOR_TAB_HIGHLIGHT = 0xFF606060;   // Top/left border highlight
+    private static final int COLOR_TAB_SHADOW = 0xFF303030;      // Bottom/right border shadow
+    private static final int TAB_HEIGHT = 18;
+    private static final int TAB_PADDING = 8;  // Horizontal padding around text
 
     private final InteractionHand hand;
     private RoleCategory currentCategory;
@@ -56,6 +58,8 @@ public class ClassRegistryScreen extends Screen {
     private Button cancelButton;
     private int guiLeft;
     private int guiTop;
+    private int civilTabWidth;
+    private int martialTabWidth;
 
     public ClassRegistryScreen(InteractionHand hand) {
         super(Component.translatable("moostack.class_registry.gui.title"));
@@ -76,6 +80,12 @@ public class ClassRegistryScreen extends Screen {
 
         // Clear selection when screen reinitializes
         this.selectedRole = null;
+
+        // Calculate tab widths based on text
+        Component civilLabel = Component.translatable("moostack.class_registry.gui.civil");
+        Component martialLabel = Component.translatable("moostack.class_registry.gui.martial");
+        this.civilTabWidth = this.font.width(civilLabel) + TAB_PADDING * 2;
+        this.martialTabWidth = this.font.width(martialLabel) + TAB_PADDING * 2;
 
         // Create role list (positioned below title and tabs, above bottom buttons)
         int listTop = guiTop + 50;  // Below title (10+16) and tabs (20+4)
@@ -160,26 +170,16 @@ public class ClassRegistryScreen extends Screen {
 
         // Civil tab
         boolean civilActive = currentCategory == RoleCategory.CIVIL;
-        int civilTabColor = civilActive ? COLOR_TAB_ACTIVE : COLOR_TAB_INACTIVE;
-        graphics.fill(tabStartX, tabY, tabStartX + TAB_WIDTH, tabY + TAB_HEIGHT, civilTabColor);
-        if (!civilActive) {
-            graphics.fill(tabStartX, tabY + TAB_HEIGHT - 1, tabStartX + TAB_WIDTH, tabY + TAB_HEIGHT, COLOR_PANEL_BORDER);
-        }
-        Component civilLabel = Component.translatable("moostack.class_registry.gui.civil");
-        int civilTextColor = civilActive ? COLOR_CIVIL : COLOR_DESCRIPTION;
-        graphics.drawCenteredString(this.font, civilLabel, tabStartX + TAB_WIDTH / 2, tabY + 6, civilTextColor);
+        drawTab(graphics, tabStartX, tabY, civilTabWidth,
+                Component.translatable("moostack.class_registry.gui.civil"),
+                civilActive, civilActive ? COLOR_CIVIL : COLOR_DESCRIPTION);
 
         // Martial tab
-        int martialTabX = tabStartX + TAB_WIDTH + 4;
+        int martialTabX = tabStartX + civilTabWidth + 4;
         boolean martialActive = currentCategory == RoleCategory.MARTIAL;
-        int martialTabColor = martialActive ? COLOR_TAB_ACTIVE : COLOR_TAB_INACTIVE;
-        graphics.fill(martialTabX, tabY, martialTabX + TAB_WIDTH, tabY + TAB_HEIGHT, martialTabColor);
-        if (!martialActive) {
-            graphics.fill(martialTabX, tabY + TAB_HEIGHT - 1, martialTabX + TAB_WIDTH, tabY + TAB_HEIGHT, COLOR_PANEL_BORDER);
-        }
-        Component martialLabel = Component.translatable("moostack.class_registry.gui.martial");
-        int martialTextColor = martialActive ? COLOR_MARTIAL : COLOR_DESCRIPTION;
-        graphics.drawCenteredString(this.font, martialLabel, martialTabX + TAB_WIDTH / 2, tabY + 6, martialTextColor);
+        drawTab(graphics, martialTabX, tabY, martialTabWidth,
+                Component.translatable("moostack.class_registry.gui.martial"),
+                martialActive, martialActive ? COLOR_MARTIAL : COLOR_DESCRIPTION);
 
         // Draw list content area background (connects to active tab)
         int listTop = guiTop + 48;
@@ -210,6 +210,32 @@ public class ClassRegistryScreen extends Screen {
         }
     }
 
+    private void drawTab(GuiGraphics graphics, int x, int y, int width, Component label, boolean active, int textColor) {
+        int bgColor = active ? COLOR_TAB_ACTIVE : COLOR_TAB_INACTIVE;
+
+        // Main fill
+        graphics.fill(x, y, x + width, y + TAB_HEIGHT, bgColor);
+
+        // Button-like borders
+        if (active) {
+            // Active: pressed look (shadow on top/left, highlight on bottom/right)
+            graphics.fill(x, y, x + width, y + 1, COLOR_TAB_SHADOW);           // Top shadow
+            graphics.fill(x, y, x + 1, y + TAB_HEIGHT, COLOR_TAB_SHADOW);      // Left shadow
+            graphics.fill(x, y + TAB_HEIGHT - 1, x + width, y + TAB_HEIGHT, COLOR_TAB_HIGHLIGHT); // Bottom highlight
+            graphics.fill(x + width - 1, y, x + width, y + TAB_HEIGHT, COLOR_TAB_HIGHLIGHT);      // Right highlight
+        } else {
+            // Inactive: raised look (highlight on top/left, shadow on bottom/right)
+            graphics.fill(x, y, x + width, y + 1, COLOR_TAB_HIGHLIGHT);        // Top highlight
+            graphics.fill(x, y, x + 1, y + TAB_HEIGHT, COLOR_TAB_HIGHLIGHT);   // Left highlight
+            graphics.fill(x, y + TAB_HEIGHT - 1, x + width, y + TAB_HEIGHT, COLOR_TAB_SHADOW);    // Bottom shadow
+            graphics.fill(x + width - 1, y, x + width, y + TAB_HEIGHT, COLOR_TAB_SHADOW);         // Right shadow
+        }
+
+        // Text centered
+        int textY = y + (TAB_HEIGHT - 8) / 2;
+        graphics.drawCenteredString(this.font, label, x + width / 2, textY, textColor);
+    }
+
     @Override
     public boolean mouseScrolled(double mouseX, double mouseY, double scrollX, double scrollY) {
         return this.roleList.mouseScrolled(mouseX, mouseY, scrollX, scrollY);
@@ -223,15 +249,15 @@ public class ClassRegistryScreen extends Screen {
             int tabStartX = guiLeft + 10;
 
             // Civil tab bounds
-            if (mouseX >= tabStartX && mouseX < tabStartX + TAB_WIDTH &&
+            if (mouseX >= tabStartX && mouseX < tabStartX + civilTabWidth &&
                 mouseY >= tabY && mouseY < tabY + TAB_HEIGHT) {
                 switchCategory(RoleCategory.CIVIL);
                 return true;
             }
 
             // Martial tab bounds
-            int martialTabX = tabStartX + TAB_WIDTH + 4;
-            if (mouseX >= martialTabX && mouseX < martialTabX + TAB_WIDTH &&
+            int martialTabX = tabStartX + civilTabWidth + 4;
+            if (mouseX >= martialTabX && mouseX < martialTabX + martialTabWidth &&
                 mouseY >= tabY && mouseY < tabY + TAB_HEIGHT) {
                 switchCategory(RoleCategory.MARTIAL);
                 return true;
@@ -295,7 +321,7 @@ public class ClassRegistryScreen extends Screen {
         }
 
         /**
-         * Compact role entry - single line with name and truncated description.
+         * Compact role entry - single line with name only.
          * Click to select, hover for tooltip with full description.
          */
         public class RoleEntry extends ContainerObjectSelectionList.Entry<RoleEntry> {
@@ -336,28 +362,10 @@ public class ClassRegistryScreen extends Screen {
                 int dotColor = role.getCategory() == RoleCategory.CIVIL ? COLOR_CIVIL : COLOR_MARTIAL;
                 graphics.fill(dotX - 3, dotY - 3, dotX + 3, dotY + 3, dotColor);
 
-                // Role name (white) + description (gray)
+                // Role name only (description shown in tooltip)
                 int textX = left + 20;
                 int textY = top + (height - 8) / 2;
-
-                String name = role.getDisplayName().getString();
-                int nameWidth = font.width(name);
-
-                // Calculate max width for description (no button now, more space)
-                int maxTotalWidth = width - 30;
-                int maxDescWidth = maxTotalWidth - nameWidth - font.width(" - ");
-
-                graphics.drawString(font, name, textX, textY, 0xFFFFFFFF, false);
-
-                if (maxDescWidth > 20) {
-                    String separator = " - ";
-                    String desc = role.getDescription().getString();
-                    if (font.width(desc) > maxDescWidth) {
-                        desc = font.plainSubstrByWidth(desc, maxDescWidth - font.width("...")) + "...";
-                    }
-                    graphics.drawString(font, separator, textX + nameWidth, textY, COLOR_DESCRIPTION, false);
-                    graphics.drawString(font, desc, textX + nameWidth + font.width(separator), textY, COLOR_DESCRIPTION, false);
-                }
+                graphics.drawString(font, role.getDisplayName().getString(), textX, textY, 0xFFFFFFFF, false);
             }
 
             @Override

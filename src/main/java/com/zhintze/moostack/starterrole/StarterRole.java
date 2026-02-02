@@ -5,7 +5,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 
 public enum StarterRole {
-    // Civil Disciplines (16)
+    // Civil Disciplines (15)
     FARMER("farmer", RoleCategory.CIVIL, ChatFormatting.GREEN),
     BUTCHER("butcher", RoleCategory.CIVIL, ChatFormatting.RED),
     BARKEEP("barkeep", RoleCategory.CIVIL, ChatFormatting.GOLD),
@@ -21,7 +21,6 @@ public enum StarterRole {
     ALCHEMIST("alchemist", RoleCategory.CIVIL, ChatFormatting.DARK_PURPLE),
     ENCHANTER("enchanter", RoleCategory.CIVIL, ChatFormatting.LIGHT_PURPLE),
     OCCULTIST("occultist", RoleCategory.CIVIL, ChatFormatting.DARK_RED),
-    MERCHANT("merchant", RoleCategory.CIVIL, ChatFormatting.GOLD),
 
     // Martial Disciplines (19)
     RANGER("ranger", RoleCategory.MARTIAL, ChatFormatting.GREEN),
@@ -42,7 +41,7 @@ public enum StarterRole {
     SANGUINIST("sanguinist", RoleCategory.MARTIAL, ChatFormatting.DARK_RED),
     VOIDBINDER("voidbinder", RoleCategory.MARTIAL, ChatFormatting.DARK_PURPLE),
     BRIARBORN("briarborn", RoleCategory.MARTIAL, ChatFormatting.GREEN),
-    ARCANIST("arcanist", RoleCategory.MARTIAL, ChatFormatting.BLUE);
+    EVOKER("evoker", RoleCategory.MARTIAL, ChatFormatting.BLUE);
 
     private final String id;
     private final RoleCategory category;

@@ -1,6 +1,6 @@
 {
-  "role": "arcanist",
-  "description": "An arcane mage with pure magic spells, spell crafting setup, and arcane robes",
+  "role": "evoker",
+  "description": "An arcane mage with pure magic spells, spell crafting setup, and archevoker robes",
   "include_sub_kits": ["cooking_campfire", "light_torches"],
   "items": [
     { "item": "irons_spellbooks:iron_spell_book", "count": 1 },
@@ -8,13 +8,13 @@
     { "item": "irons_spellbooks:inscription_table", "count": 1 },
     { "item": "irons_spellbooks:scroll_forge", "count": 1 },
     { "item": "irons_spellbooks:arcane_anvil", "count": 1 },
-    { "item": "irons_spellbooks:ink_common", "count": 8 },
-    { "item": "irons_spellbooks:ink_uncommon", "count": 4 },
+    { "item": "irons_spellbooks:common_ink", "count": 8 },
+    { "item": "irons_spellbooks:uncommon_ink", "count": 4 },
     { "item": "minecraft:cauldron", "count": 1 },
     { "item": "irons_spellbooks:copper_spell_book", "count": 1, "comment": "Upgrade material" },
-    { "item": "irons_spellbooks:archevoker_hood", "count": 1 },
-    { "item": "irons_spellbooks:archevoker_robe", "count": 1 },
-    { "item": "irons_spellbooks:archevoker_pants", "count": 1 },
+    { "item": "irons_spellbooks:archevoker_helmet", "count": 1 },
+    { "item": "irons_spellbooks:archevoker_chestplate", "count": 1 },
+    { "item": "irons_spellbooks:archevoker_leggings", "count": 1 },
     { "item": "irons_spellbooks:archevoker_boots", "count": 1 }
   ]
 }
