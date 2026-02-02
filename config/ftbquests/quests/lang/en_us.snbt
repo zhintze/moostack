@@ -288,7 +288,7 @@
 	quest.029AA03790F055E8.quest_subtitle: "Spawns: Nether Gold Nest | Breed: Crystalline + Mason Bee"
 	quest.029AA03790F055E8.subtitle: "Spawns: Nether Gold Nest | Breed: Crystalline + Mason Bee"
 	quest.029AA03790F055E8.title: "Gold Bee"
-	quest.02B9C0C27D35BAC3.quest_desc: ["Infused Diamonds are created by surrounding a diamond with redstone dust in a crafting table. They are used in advanced RFTools recipes."]
+	quest.02B9C0C27D35BAC3.quest_desc: ["&6Infused Diamonds&r are created by surrounding a diamond with redstone dust in a crafting table. They are used in advanced RFTools recipes."]
 	quest.02B9C0C27D35BAC3.title: "Infused Diamond"
 	quest.02C6132919DEAF2A.quest_desc: ["&7Pressure dispersers&r spread steam evenly. &7Electromagnetic coils&r generate power from rotation. &7Saturating condensers&r recover water from exhaust. Fill the upper turbine section with these."]
 	quest.02C6132919DEAF2A.title: "Turbine Internal Components"
@@ -526,7 +526,7 @@
 	quest.08FFB925245C38AF.title: "Katana Blueprint"
 	quest.090B564935D7A8F5.quest_desc: ["Upgrades machines in-place without breaking them. Right-click a machine to upgrade to the next tier. Available in Basic, Advanced, Elite, and Ultimate variants. Preserves machine contents and settings."]
 	quest.090B564935D7A8F5.title: "Tier Installer"
-	quest.090ED3733C924695.quest_desc: ["Cell3 blocks offer the highest energy density for multiblock power storage. Ideal for large-scale power infrastructure."]
+	quest.090ED3733C924695.quest_desc: ["&6Cell3 Blocks&r offer the highest energy density for multiblock power storage. Ideal for large-scale power infrastructure."]
 	quest.090ED3733C924695.title: "Elite Cell Block"
 	quest.09223F02621781BF.quest_subtitle: "Breed: Iron + Mason Bee"
 	quest.09223F02621781BF.subtitle: "Breed: Iron + Mason Bee"
@@ -1387,7 +1387,7 @@
 	quest.1823CC81D613892B.title: "Mob Slaughter Factory"
 	quest.1848F431D0380DA9.quest_desc: ["Higher tier chalks can also be repaired to save valuable materials."]
 	quest.1848F431D0380DA9.title: "Advanced Chalk Repair"
-	quest.1875EF9D31897448.quest_desc: ["Cell blocks form multiblock power storage structures. Place multiple Cell blocks adjacent to each other to increase total storage capacity."]
+	quest.1875EF9D31897448.quest_desc: ["&6Cell Blocks&r form multiblock power storage structures. Place multiple Cell blocks adjacent to each other to increase total storage capacity."]
 	quest.1875EF9D31897448.title: "Power Cell Tier 1"
 	quest.187816477B732517.quest_desc: ["The &3Transfer Gadget&r acts like a Hopper that can be placed inbetween blocks."]
 	quest.187816477B732517.quest_subtitle: "Smaller Hopper"
@@ -1489,7 +1489,7 @@
 	quest.1A739D36D5E3B1AD.quest_desc: ["Feeding with food priority and filter options."]
 	quest.1A739D36D5E3B1AD.quest_subtitle: "More Filtering Options"
 	quest.1A739D36D5E3B1AD.title: "Advanced Feeding Upgrade"
-	quest.1A83617C1F9C10F6.quest_desc: ["The Matter Receiver is the destination for Matter Transmitter teleportation. Each receiver has a unique name for identification."]
+	quest.1A83617C1F9C10F6.quest_desc: ["The &6Matter Receiver&r is the destination for &eMatter Transmitter&r teleportation. Each receiver has a unique name for identification."]
 	quest.1A83617C1F9C10F6.title: "Matter Receiver"
 	quest.1A8F2408970BFCCF.quest_desc: ["&eElectrum&r is an Alloy made from &eGold&r and &7Silver&r. \\n\\nYou can guess by its name it is used a ton in everything electricity related. Wires, Connectors, Transformers, ETC!"]
 	quest.1A8F2408970BFCCF.title: "&eElectrum Ingot&r"
@@ -1722,7 +1722,7 @@
 	quest.1E9BD4B74DAEA9FC.quest_desc: ["To attract Bees to this nest, you'll need Popped Chorus Fruit instead of Honey Treats."]
 	quest.1E9BD4B74DAEA9FC.quest_subtitle: "Lures in Ender Bees when placed in the End"
 	quest.1EAE42D3A2162339.quest_subtitle: "Breaks blocks of average hardness"
-	quest.1EB543C6464BCD1C.quest_desc: ["The Crafting Station is controlled by Processor programs. It can execute crafting operations commanded by your automation logic."]
+	quest.1EB543C6464BCD1C.quest_desc: ["The &6Crafting Station&r is controlled by &eProcessor&r programs. It can execute crafting operations commanded by your automation logic."]
 	quest.1EB543C6464BCD1C.title: "Crafting Station"
 	quest.1EB887F8072439A3.quest_desc: [
 		"&bCrushed Ice&f variants create &eLight Blue Chalk&f."
@@ -1940,7 +1940,7 @@
 	quest.22CF5AD56C1BB8D5.quest_subtitle: "Flower: Dark Block (Evilcraft)"
 	quest.22CF5AD56C1BB8D5.subtitle: "Convert: Diamond Bee + Dark Block"
 	quest.22CF5AD56C1BB8D5.title: "Dark Gem Bee"
-	quest.22F64893D9D7604C.quest_desc: ["The Programmer is where you create and edit programs for the Processor. Programs are built by placing opcodes on a grid."]
+	quest.22F64893D9D7604C.quest_desc: ["The &6Programmer&r is where you create and edit programs for the &eProcessor&r. Programs are built by placing opcodes on a grid."]
 	quest.22F64893D9D7604C.title: "Programmer"
 	quest.22F7FDDE8A99325A.quest_desc: [
 		"Super Enchanting Templates allow enchantments to exceed their normal maximum level."
@@ -2187,7 +2187,7 @@
 	quest.28BF66D1B8CD4D44.title: "&cBlood &dBrooms"
 	quest.28D9ED74EBBC9818.quest_subtitle: "Summons Wilden or the Wilden Chimera boss"
 	quest.28D9ED74EBBC9818.title: "Ritual of Wilden Summon"
-	quest.28DCE90BEC87C38B.quest_desc: ["The Matter Transmitter sends players and entities to a linked Matter Receiver. It consumes RF based on distance."]
+	quest.28DCE90BEC87C38B.quest_desc: ["The &6Matter Transmitter&r sends players and entities to a linked &eMatter Receiver&r. It consumes RF based on distance."]
 	quest.28DCE90BEC87C38B.title: "Matter Transmitter"
 	quest.28E99A6E17E86709.quest_desc: ["Moving &bFluids&r is an essential part of &8&lIE&r, just think of the Creosote Oil and Plant Oil! \\n\\n&bFluid Pipes&r are our basic ways of moving &bFluids&r, if you want them faster check out &bFluid Pumps&r. \\n\\n&bFluid Pipes&r, like Energy Connectors, are determined where to &9Input&r and &6Output&r from what they are connected to. Some Machines need &4Redstone Signals&r to &6Output&r to &bFluid Pipes&r, like the &b&lTank&r! \\n\\nWe can use an &6Engineer's Hammer&r to change what the &bPipes&r connect to, plus we can use &8Steel Scaffolding&r on them to cover them, or Dye to dye them!"]
 	quest.28E99A6E17E86709.title: "Moving &bFluids"
@@ -2370,7 +2370,7 @@
 		"Patterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general '&eprocessing&f' recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant."
 	]
 	quest.2C04B3BA507D5673.title: "Patterns"
-	quest.2C1EF7CD876AB981.quest_desc: ["CPU Cores increase the Processor's execution speed and capacity. Install cores in the Processor's expansion slots."]
+	quest.2C1EF7CD876AB981.quest_desc: ["&6CPU Cores&r increase the &eProcessor's&r execution speed and capacity. Install cores in the Processor's expansion slots."]
 	quest.2C1EF7CD876AB981.title: "CPU Core"
 	quest.2C2958E38293717E.quest_desc: ["To start with the new &6&lCreate&r &eItems&r we'll need &eCardboard&r! \\n\\nWhich is made from &6Pressing&r Pulp. \\n\\nPulp is made from &6Mixing&r 4 Saplings and &9Water&f in a &6Mechanical Mixer&r and &8Basin&r. \\n\\nYou can combine &eCardboards&r to make &eBlocks of Cardboard&r which can make the new &eItems&r in &6&lCreate&r... or &eCardboard Armor&r!"]
 	quest.2C2958E38293717E.title: "&6&lCreate&r 1.21"
@@ -2528,7 +2528,7 @@
 	]
 	quest.2F19529214CA9559.quest_desc: ["It's like Thorns but doesn't Damage, just disorients Attackers. \\n\\nIt'll just stop Mobs for a little, it is much more effective (and aggravating) to Players!"]
 	quest.2F19529214CA9559.quest_subtitle: "Blitz?"
-	quest.2F484F74A9E32F20.quest_desc: ["The Energy Module displays RF storage levels on screens. Insert it into a Screen Controller and bind it to an energy storage block."]
+	quest.2F484F74A9E32F20.quest_desc: ["The &6Energy Module&r displays RF storage levels on screens. Insert it into a &eScreen Controller&r and bind it to an energy storage block."]
 	quest.2F484F74A9E32F20.title: "Energy Module"
 	quest.2F556E7919582D2D.quest_desc: [
 		"The &bCell Workbench&f allows for cells to be 'partitioned' to hold specific items, i.e. given a whitelist filter."
@@ -2656,7 +2656,7 @@
 	quest.30C5B597610F4AFB.title: "Research Fragments"
 	quest.30DF8297FEEC9F22.quest_subtitle: "Tier: &63"
 	quest.30DF8297FEEC9F22.title: "Nether Quartz Seeds"
-	quest.30E0C51CA67F3B50.quest_desc: ["The RFTools Spawner creates mobs using RF and matter. Configure it with a syringe containing mob essence."]
+	quest.30E0C51CA67F3B50.quest_desc: ["The &6RFTools Spawner&r creates mobs using RF and matter. Configure it with a syringe containing mob essence."]
 	quest.30E0C51CA67F3B50.title: "Spawner"
 	quest.30E853CE699E669B.quest_desc: [
 		"Before you can carry out an auto-crafting job, you need a device to actually store the request itself along with any interim items for multi-step crafts. This device is known as a &ecrafting CPU&f."
@@ -2724,7 +2724,7 @@
 	]
 	quest.31BCE63F5E016323.quest_subtitle: "In the palm of my hand..."
 	quest.31BCE63F5E016323.title: "Pressure from the Sun"
-	quest.31D6A013A56FD991.quest_desc: ["RFTools Control adds programmable processors for complex automation. Create visual programs that respond to redstone, items, and other triggers."]
+	quest.31D6A013A56FD991.quest_desc: ["&6RFTools Control&r adds programmable &eProcessors&r for complex automation. Create visual programs that respond to redstone, items, and other triggers."]
 	quest.31D6A013A56FD991.title: "RFTools Control"
 	quest.31ED0C236C41A837.quest_subtitle: "Feed a Lava Bucket to a Magmatic Bee"
 	quest.31ED0C236C41A837.title: "Lava Bee"
@@ -2872,7 +2872,7 @@
 	quest.3567306F2B66BD20.quest_subtitle: "Spawn egg only | Flower: Imperium Block"
 	quest.3567306F2B66BD20.subtitle: "Spawn egg only | Flower: Imperium Block"
 	quest.3567306F2B66BD20.title: "Imperium Bee"
-	quest.35BB84ED34D7709E.quest_desc: ["The Simple Dialer is a compact one-button teleporter. Configure it to dial a specific destination automatically."]
+	quest.35BB84ED34D7709E.quest_desc: ["The &6Simple Dialer&r is a compact one-button teleporter. Configure it to dial a specific destination automatically."]
 	quest.35BB84ED34D7709E.title: "Simple Dialer"
 	quest.35D9CD19EAADED6C.quest_desc: ["Provides radiation protection without hazmat suit. Install in all armor pieces for full protection. Essential for reactor work while wearing Mekasuit."]
 	quest.35D9CD19EAADED6C.title: "Radiation Shielding Module"
@@ -3016,7 +3016,7 @@
 	quest.37D4E5ACB35D8BF1.quest_desc: ["Personal flight using &ehydrogen&r fuel. Press G to toggle modes: Normal (hold jump to fly), Hover (maintains altitude), Disabled. Fill with hydrogen from any machine containing it. Can be upgraded with armor plating."]
 	quest.37D4E5ACB35D8BF1.quest_subtitle: "Requires Hydrogen"
 	quest.37D4E5ACB35D8BF1.title: "Jetpack"
-	quest.37EB09E17DBDAA43.quest_desc: ["RFTools machines can be configured and picked up using wrenches. Sneak-click to pick up a machine with all its stored data intact. Regular click to rotate or configure sides."]
+	quest.37EB09E17DBDAA43.quest_desc: ["RFTools machines can be configured and picked up using &6wrenches&r. Sneak-click to pick up a machine with all its stored data intact. Regular click to rotate or configure sides."]
 	quest.37EB09E17DBDAA43.title: "Using Wrenches"
 	quest.3801E818308438FF.quest_subtitle: "Affects a larger area around targets"
 	quest.383568675B982C5C.quest_desc: ["Obtain gold to begin Blood Magic. The guidebook explains all mechanics and multiblock patterns."]
@@ -3024,7 +3024,7 @@
 	quest.38622692756F1F27.quest_subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.title: "Spatial Bee"
-	quest.386C3DBE79443AA8.quest_desc: ["The Network Card enables communication between multiple Processors. Programs can send messages to processors on the same network."]
+	quest.386C3DBE79443AA8.quest_desc: ["The &6Network Card&r enables communication between multiple &eProcessors&r. Programs can send messages to processors on the same network."]
 	quest.386C3DBE79443AA8.title: "Network Card"
 	quest.3881F901B27F8988.quest_desc: [
 		"Craft the Kimono - the iconic T-shaped garment that has defined Japanese fashion for over a millennium."
@@ -3116,7 +3116,7 @@
 	quest.3A5A1E2EBCA7A76C.quest_desc: ["Catch 3 Searing Cod. Found in the Nether Wastes biome."]
 	quest.3A5A1E2EBCA7A76C.quest_subtitle: "Nether Wastes"
 	quest.3A5A1E2EBCA7A76C.title: "Searing Cod Collection"
-	quest.3A753C34AE17948C.quest_desc: ["The Machine Frame is the foundation for most RFTools machines. You will need many of these as nearly every RFTools device requires at least one Machine Frame in its recipe."]
+	quest.3A753C34AE17948C.quest_desc: ["The &6Machine Frame&r is the foundation for most RFTools machines. You will need many of these as nearly every RFTools device requires at least one &eMachine Frame&r in its recipe."]
 	quest.3A753C34AE17948C.title: "Machine Frame"
 	quest.3A8C7877655CDB70.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
 	quest.3A8C7877655CDB70.quest_subtitle: "Turtle"
@@ -3144,7 +3144,7 @@
 	quest.3AADA53EC01FB0ED.title: "Lava Sigil"
 	quest.3ABD696164C15C17.quest_desc: ["Wireless redstone transmission. Set frequency with two items. Pairs send/receive."]
 	quest.3ABD696164C15C17.title: "Redstone Link"
-	quest.3AE76B3D7EB48E7C.quest_desc: ["Cell2 blocks provide higher energy density than basic cell blocks. They can be mixed with other cell tiers in the same multiblock."]
+	quest.3AE76B3D7EB48E7C.quest_desc: ["&6Cell2 Blocks&r provide higher energy density than basic cell blocks. They can be mixed with other cell tiers in the same multiblock."]
 	quest.3AE76B3D7EB48E7C.title: "Advanced Cell Block"
 	quest.3AE8CAAD25D6A15A.quest_desc: ["Removes fluid blocks on click. Useful for clearing water or lava."]
 	quest.3AE8CAAD25D6A15A.title: "Void Sigil"
@@ -3182,7 +3182,7 @@
 	quest.3B4ED142FCA53952.title: "Mace Blueprint"
 	quest.3B54433C990880E9.quest_desc: ["An automated enchanting table powered by Liquid Experience. Supply enchanted books via belt or funnel to apply specific enchantments to items."]
 	quest.3B54433C990880E9.title: "Blaze Enchanter"
-	quest.3B88279F9834A7BB.quest_desc: ["RFTools Utility provides automation and teleportation tools including crafters, screens, teleportation systems, and mob spawners."]
+	quest.3B88279F9834A7BB.quest_desc: ["&6RFTools Utility&r provides automation and teleportation tools including &eCrafters&r, &eScreens&r, teleportation systems, and mob &eSpawners&r."]
 	quest.3B88279F9834A7BB.title: "RFTools Utility"
 	quest.3B936CA3F0F7B26B.quest_desc: ["Automated mining machine with configurable filters. Mines specific blocks in a large radius. Replaces mined blocks with air or specified fill block. Set up ore filters for automatic resource collection."]
 	quest.3B936CA3F0F7B26B.title: "Digital Miner"
@@ -3336,7 +3336,7 @@
 	quest.3EFB94326C3B2B38.title: "Smart Fluid Pipe"
 	quest.3F02EF19112D23BE.quest_desc: ["You'll need &6Mechanical Crafters&r to make the &6Crushing Wheels&r, they are too big for a 3x3 Crafting Table. You'll also need a ton of &8Andesite Alloys&r. \\n\\nBTW, you'll need 2 to actually use them. \\nOnce you have 2, place them next to each other. Then, feed them both &dRotational Power&r and a lot of Stress Units. \\n\\nMake sure that the &6Crushing Wheels&r are spinning in opposite directions or else it won't &6Crush&r! The left one must be spinning &e&oClockwise&r, and the right one must spin &9&oCounter-Clockwise&r. \\n\\nOnce they are spinning (fast and in the right directions) you can have &eItems&r Dropped in between them and they will be &6Crushed&r. \\n\\nWhat &eItems&r? &6Crushed&r Ores from Ores, &eItems&r from Stones and Netherrack, Sand and Flint from Gravel, and even Netherwart from Netherwart Blocks!"]
 	quest.3F02EF19112D23BE.title: "&6Crushing Wheels"
-	quest.3F1D855E0921C49F.quest_desc: ["The Environmental Controller applies effects to players and entities in a configurable radius. Consumes RF based on active effects."]
+	quest.3F1D855E0921C49F.quest_desc: ["The &6Environmental Controller&r applies effects to players and entities in a configurable radius. Consumes RF based on active effects."]
 	quest.3F1D855E0921C49F.title: "Environmental Controller"
 	quest.3F2C1A81C17D2D67.quest_desc: ["&6Mechanical Arms&r must be configured before Placing them, like the &eWeighted Ejector&r. \\n\\nIt has a 4 Block Range and can pick up from &eBelts &fand &eDepots&r. It can also deposit into &eBelts&f, &eDepots&f, and &eFunnels&r. \\nWhile Holding the &6Mechanical Arm&r, Right Click Blocks to set as Input, then Click again to change it to Output. You can Left Click to deselect the Blocks. You can select as many are in range! \\n\\nOnce it has &dRotational Power&r, an &eItem&r in any Input Block, and space in any Output Block, it will start moving &eItems&r. It will go faster the more Speed is given to it. \\n\\nLike the &eBrass Tunnel&r, the &6Mechanical Arm&r has Distribution Modes. Thankfully a lot less! Round Robin: will go in order for Inputs and Outputs. Forced Round Robin: will wait until every Output has space or every Input has &eItems&r available. Prefer First Target: will go for the closest Block to it."]
 	quest.3F2C1A81C17D2D67.quest_subtitle: "Why do it yourself when Robot can do it better?"
@@ -3668,7 +3668,7 @@
 	quest.46D756F4DC6CC894.title: "Netherite Backpack"
 	quest.47045A0E8E3457C2.quest_subtitle: "Tier: &63"
 	quest.47045A0E8E3457C2.title: "Certus Quartz Seeds"
-	quest.471106F91741DCAA.quest_desc: ["Program Cards store the programs you create in the Programmer. Cards can be copied and shared."]
+	quest.471106F91741DCAA.quest_desc: ["&6Program Cards&r store the programs you create in the &eProgrammer&r. Cards can be copied and shared."]
 	quest.471106F91741DCAA.title: "Program Card"
 	quest.47358ADC1470C82A.quest_desc: [
 		"Grow your Datura Seeds to harvest &eDemon's Dream Fruit&f."
@@ -3689,7 +3689,7 @@
 	quest.47656073894224AF.title: "&5&lRailgun"
 	quest.476C7317510198D9.quest_desc: ["Okay this ones fun! You like throwing &eItems&r? Like, I mean to really throw them! \\n\\nThen, the &eWeighted Ejector&r is for you! \\n\\nFirst, you need to Shift Right Click a Block with the &eWeighted Ejector&r to set it as the target. The target has to be in line with where the &eEjector&r is aimed in order to hit it. \\n\\nOnce it has a target and is placed down, it can be fed &dRotational Power&r to charge it! Then, when an &eItem&r is placed on the &eWeighted Ejector&r, it will throw it! \\nYou can hold on some of the Sides to change the Stack Size needed to throw &eItems&r."]
 	quest.476C7317510198D9.title: "&eWeighted Ejector"
-	quest.478187B8267B0A82.quest_desc: ["Cell blocks form multiblock power storage structures. This is the basic tier cell block. Upgrade to higher tiers for increased capacity."]
+	quest.478187B8267B0A82.quest_desc: ["&6Cell Blocks&r form multiblock power storage structures. This is the basic tier cell block. Upgrade to higher tiers for increased capacity."]
 	quest.478187B8267B0A82.title: "Power Cell Block"
 	quest.4781FF59429D7550.quest_desc: ["Base material for early Create machines. Combine with Iron Nuggets to make Andesite Alloy."]
 	quest.4781FF59429D7550.title: "Andesite"
@@ -3838,7 +3838,7 @@
 		"Craft from an Endshelf, End Rods, and Ender Pearls."
 	]
 	quest.4A59DF02128DA9F3.title: "Craft Pearl Endshelf"
-	quest.4A76477679BB6223.quest_desc: ["RFTools Power provides RF generation and storage solutions ranging from blazing generators to advanced endergenic reactors and dimensional power transfer."]
+	quest.4A76477679BB6223.quest_desc: ["&6RFTools Power&r provides RF generation and storage solutions ranging from &eBlazng Generators&r to advanced &eEndergenic Reactors&r and dimensional power transfer."]
 	quest.4A76477679BB6223.title: "RFTools Power"
 	quest.4A854CD5EC70733E.quest_desc: ["Adds portable crafting grid to the backpack."]
 	quest.4A854CD5EC70733E.title: "Crafting Upgrade"
@@ -3873,8 +3873,8 @@
 	quest.4B2835706B593E9A.title: "Antiprotonic Nucleosynthesizer"
 	quest.4B35C01F5D0AAC58.quest_desc: ["Craft by infusing an &7iron ingot&r with &ecarbon&r (from coal) in the &bMetallurgic Infuser&r. Steel is used for machine casings, pipes, and structural components."]
 	quest.4B35C01F5D0AAC58.title: "Steel Ingot"
-	quest.4B3B2A0F31876D75.quest_desc: ["Craft additional Blazing Generators for higher power output. Multiple generators can feed into shared storage."]
-	quest.4B3B2A0F31876D75.title: "Advanced Blazing Generator"
+	quest.4B3B2A0F31876D75.quest_desc: ["Craft additional &6Blazing Generators&r for higher power output. Multiple generators can feed into shared storage."]
+	quest.4B3B2A0F31876D75.title: "Additional Blazing Generators"
 	quest.4B42D962FE910CB3.quest_desc: ["With this added on to your &d&lRevolver&r, your Bullets will give the Mobs you hit the Stunned Effect."]
 	quest.4B4F5341D6DBDD19.quest_desc: ["Keep your breathing underwater, once your bubbles go down to 5 they will be refilled! It also allows you to see much more easily underwater!"]
 	quest.4B4F5341D6DBDD19.quest_subtitle: "Max: 1"
@@ -3892,7 +3892,7 @@
 		"Hold the item to recycle in your main hand and the book in your offhand, then right-click a Grave Soul. Not all items can be recycled."
 	]
 	quest.4B7C4A5BC6F47C35.title: "Book of Recycling"
-	quest.4B8B6F4127C1BDF3.quest_desc: ["Create a simple program in the Programmer: add a redstone trigger opcode, connect it to an action, save to a card, and test."]
+	quest.4B8B6F4127C1BDF3.quest_desc: ["Create a simple program in the &eProgrammer&r: add a redstone trigger opcode, connect it to an action, save to a &eProgram Card&r, and test."]
 	quest.4B8B6F4127C1BDF3.title: "First Program"
 	quest.4BA2F4AC2A08C294.quest_desc: [
 		"What's that? It's only the hardest and most expensive Multiblock in &8&lImmersive Engineering&r. The &c&lExcavator&r! \\n\\nThis giant behemoth will automatically collect Ores and Blocks from the Ground. \\n\\nThe Items it picks up will be &6Output&r from a Port in the Back of it. If there's no Inventory next to it, it will dispense the Items. \\n\\nThis is also a super &cEnergy&r hungry Machine, you'll need to use the Energy Ports on the Left Side of it to feed it!"
@@ -4223,7 +4223,7 @@
 	quest.5003000000000011.title: "Teleportation"
 	quest.5003000000000012.quest_desc: ["Split divides projectiles into multiple. Orbit creates circling projectiles. These augments enable complex spell behaviors."]
 	quest.5003000000000012.title: "Advanced Effects"
-	quest.5003C5338763EF9D.quest_desc: ["The Endergenic Generator produces power by consuming ender pearls in carefully timed sequences. Multiple generators can be chained for higher efficiency."]
+	quest.5003C5338763EF9D.quest_desc: ["The &6Endergenic Generator&r produces power by consuming ender pearls in carefully timed sequences. Multiple generators can be chained for higher efficiency."]
 	quest.5003C5338763EF9D.title: "Endergenic Generator"
 	quest.5004000000000001.quest_desc: ["Upgraded spellbook with 8 slots. Crafted at the Enchanting Apparatus. Allows more complex spell combinations."]
 	quest.5004000000000001.title: "Apprentice Spell Book"
@@ -5292,7 +5292,7 @@
 	quest.5979DE0E2BA3DAE5.quest_desc: ["&7Train Tracks&r are... well what you'll use to move &5Trains&r! \\n\\nYou'll need to &6Deploy&r 2 &7Iron Nuggets&r onto a &8Stone Slab&r, then &6Press&r it with a &6Metal Press&r to get 1. \\n\\nThese will be the first Block you place in order to get &5Trains&r as it will be needed to place &5Train Stations&r. \\n\\nThey have some limitations though, they can't go at steep angles to turn, or elevate. You'll need 4 Blocks of space to get up a Block with &7Train Tracks&r. To turn it is even worse! Let's just say, if you want a perfect circle with &7Train Tracks&r, it'll need a diameter of 18 Blocks."]
 	quest.5979DE0E2BA3DAE5.title: "&7Train Tracks"
 	quest.598DE7CEDA864B50.quest_desc: ["Why just have 1 Tank, when we can use 3! \\n\\nYou can now hold 3 different &bFluids&r in your &b&lChemical Thrower&r. Hold Shift and Scroll to switch between them. \\n\\nThis can't be used with the Large Tank though..."]
-	quest.59B8B0770E03F010.quest_desc: ["The Dialing Device links Matter Transmitters to Matter Receivers. Place it adjacent to a transmitter to access its configuration."]
+	quest.59B8B0770E03F010.quest_desc: ["The &6Dialing Device&r links &eMatter Transmitters&r to &eMatter Receivers&r. Place it adjacent to a transmitter to access its configuration."]
 	quest.59B8B0770E03F010.title: "Dialing Device"
 	quest.59BD06DB42E0219F.quest_subtitle: "Deletes fluids in an area"
 	quest.59E68086A8B99EA7.quest_desc: [
@@ -5354,7 +5354,7 @@
 		""
 		"Place these &bGrowth Accelerators&f around your Budding Crystals, give them some power, and watch your crystals grow!"
 	]
-	quest.5AA44DE2967FA889.quest_desc: ["Dimensional Shards are rare materials found while mining in any dimension. Essential for the most advanced RFTools devices."]
+	quest.5AA44DE2967FA889.quest_desc: ["&6Dimensional Shards&r are rare materials found while mining in any dimension. Essential for the most advanced RFTools devices."]
 	quest.5AA44DE2967FA889.title: "Dimensional Shards"
 	quest.5AC68C8A4024F4C9.quest_desc: ["Increases equipment energy storage capacity. Stack multiple for greater reserves. Essential for powering other modules during extended use."]
 	quest.5AC68C8A4024F4C9.title: "Energy Unit Module"
@@ -5913,9 +5913,9 @@
 	quest.63B178812C669408.quest_desc: ["Cuts logs and stone. Place horizontally for belt processing. Vertical cuts placed blocks."]
 	quest.63B178812C669408.title: "Mechanical Saw"
 	quest.63B1A07117BA869F.quest_desc: [
-		"RFTools is a suite of RF-powered utility mods providing power generation, storage, teleportation, automation, and programmable control systems."
+		"&6RFTools&r is a suite of RF-powered utility mods providing power generation, storage, teleportation, automation, and programmable control systems."
 		""
-		"This chapter covers four interconnected mods: RFTools Base (core components), RFTools Power (generators and energy storage), RFTools Utility (teleportation and automation), and RFTools Control (programmable processors)."
+		"This chapter covers four interconnected mods: &eRFTools Base&r (core components), &eRFTools Power&r (generators and energy storage), &eRFTools Utility&r (teleportation and automation), and &eRFTools Control&r (programmable processors)."
 	]
 	quest.63B1A07117BA869F.title: "RFTools Introduction"
 	quest.63BB4C3325346D7E.quest_desc: [
@@ -6033,7 +6033,7 @@
 		"It will have 12 Spell Slots and give a boost to Ender Spells!"
 	]
 	quest.652A14E17DDE97E6.title: "Dragonskin Spell Book"
-	quest.6534E808CD79353A.quest_desc: ["The Tier 2 Crafter supports 4 recipes with improved crafting speed. Upgrade when you need more simultaneous recipes."]
+	quest.6534E808CD79353A.quest_desc: ["The &6Tier 2 Crafter&r supports 4 recipes with improved crafting speed. Upgrade when you need more simultaneous recipes."]
 	quest.6534E808CD79353A.title: "Crafter Tier 2"
 	quest.657DB994B029F61C.quest_desc: [
 		"When the &3Heat Frame&r is placed on a container containing certain fluids and made cold enough, it will turn said fluids into items."
@@ -6076,7 +6076,7 @@
 	quest.6601A169CB71BB8A.title: "Diamond Hook"
 	quest.662DD269B027B6C8.quest_desc: ["You can't wirelessly charge your &c&lAccumulator Backpack&r... but you can charge it &cwired&r! \\n\\nSimply attach your Charging Antenna to your &c&lAccumulator Backpack&r and walk up to any &cWires&r transporting &cEnergy&r and some of it will come to your &c&lBackpack&r."]
 	quest.66324D7D0C51AEAC.quest_desc: ["The Upgrade Base is used to craft the various Upgrades in Productive Bees."]
-	quest.663971A3B0FE732F.quest_desc: ["Set up dimensional cells in different locations or dimensions to share power wirelessly. All cells on the same channel share their stored energy."]
+	quest.663971A3B0FE732F.quest_desc: ["Set up &6Dimensional Cells&r in different locations or dimensions to share power wirelessly. All cells on the same channel share their stored energy."]
 	quest.663971A3B0FE732F.title: "Cross-Dimension Power"
 	quest.666229AB93970045.quest_desc: [
 		"Each perk has multiple upgrade levels that increase its effectiveness. Continue earning knowledge points through prayer and soul interactions, then invest them to fully upgrade a perk of your choice."
@@ -6084,7 +6084,7 @@
 		"The Book of Oblivion can reset your perks if you wish to reallocate points."
 	]
 	quest.666229AB93970045.title: "Perk Mastery"
-	quest.666B3C3EEE8E17CB.quest_desc: ["The Tier 3 Crafter is the ultimate crafting solution with 8 recipe slots and maximum speed."]
+	quest.666B3C3EEE8E17CB.quest_desc: ["The &6Tier 3 Crafter&r is the ultimate crafting solution with 8 recipe slots and maximum speed."]
 	quest.666B3C3EEE8E17CB.title: "Crafter Tier 3"
 	quest.666EA8B8F13EB292.quest_desc: [
 		"The &bSoul Gem&f captures the souls of defeated creatures."
@@ -6426,7 +6426,7 @@
 	quest.6C1F7A0B330B3F42.quest_desc: ["Endgame chestplate with module slots. Install jetpack, elytra, geothermal generator, and more. Core piece for the Mekasuit providing flight and power generation capabilities."]
 	quest.6C1F7A0B330B3F42.quest_subtitle: "Requires Antimatter"
 	quest.6C1F7A0B330B3F42.title: "Mekasuit Chestplate"
-	quest.6C2F6A46108111F6.quest_desc: ["The Screen Controller manages screens in a large area. Connect modules to the controller for centralized management."]
+	quest.6C2F6A46108111F6.quest_desc: ["The &6Screen Controller&r manages screens in a large area. Connect modules to the controller for centralized management."]
 	quest.6C2F6A46108111F6.title: "Screen Controller"
 	quest.6C4E72C0BF98E8DD.quest_subtitle: "Places a temporary spell rune on the ground"
 	quest.6C57FF70679AF123.quest_desc: [
@@ -6512,9 +6512,9 @@
 	quest.6D4EE8A9403A6A73.quest_desc: ["Craft from diamond in the altar. Orbs bind to you and store LP from your network for portable use."]
 	quest.6D4EE8A9403A6A73.title: "Weak Blood Orb"
 	quest.6D54B45CDA70FEAB.quest_desc: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
-	quest.6D64CB6245F4B701.quest_desc: ["The Simple Dimensional Cell allows wireless power transfer between cells sharing the same channel. Configure the channel in the GUI."]
+	quest.6D64CB6245F4B701.quest_desc: ["The &6Simple Dimensional Cell&r allows wireless power transfer between cells sharing the same channel. Configure the channel in the GUI."]
 	quest.6D64CB6245F4B701.title: "Dimensional Cell"
-	quest.6D7039BC515804FA.quest_desc: ["Set up a complete teleportation link: place a Matter Transmitter, a Matter Receiver at your destination, and dial them."]
+	quest.6D7039BC515804FA.quest_desc: ["Set up a complete teleportation link: place a &eMatter Transmitter&r, a &eMatter Receiver&r at your destination, and dial them using the &eDialing Device&r."]
 	quest.6D7039BC515804FA.title: "First Teleport"
 	quest.6D750A38944E9B68.quest_desc: [
 		"The &aInfusion Altar&r is how you make all of the seeds. Place down the Altar first and it'll show you where to place the Pedestals after."
@@ -6570,7 +6570,7 @@
 	quest.6E279FB94F751D21.quest_desc: ["Catch 5 Brown Trout. Found in temperate freshwater."]
 	quest.6E279FB94F751D21.quest_subtitle: "Temperate Fish"
 	quest.6E279FB94F751D21.title: "Brown Trout Collection"
-	quest.6E27CDAC3B0F3101.quest_desc: ["Screens display information from your base. They require modules to show specific data types like energy levels or inventory contents."]
+	quest.6E27CDAC3B0F3101.quest_desc: ["&6Screens&r display information from your base. They require &emodules&r to show specific data types like energy levels or inventory contents."]
 	quest.6E27CDAC3B0F3101.title: "Screen"
 	quest.6E3D53D1C4569A89.quest_desc: ["Stores experience as liquid XP. Extract or inject XP to/from yourself."]
 	quest.6E3D53D1C4569A89.quest_subtitle: "Storing XP"
@@ -6746,7 +6746,7 @@
 		"The &6Mechanical Saw&r can also do other tasks when not used in a &aContraption&r. Instead they can be placed down and used with &dRotational Power&r. \\n\\nThe &6Saw&r can also cut down Trees that are near them. Yes, they'll still need to cut down the lowest Logs. \\n\\nBut it can be used as a &7Stonecutter&r/Woodcutter as well! To use it like that it'll need to be placed faced up, like normal. \\n\\nThen, we can either feed it Blocks from our Hands (with the correct protection on) or through &eBelts&r. Logs will be Stripped and Stone Blocks will be Cut. \\n\\nIf the Block has multiple Recipes through the Cutter, you can Filter which one you want by placing that Block in the &6Mechanical Saw's&r Filter."
 	]
 	quest.72DCE154E1714890.title: "&6Mechanical Saw"
-	quest.72E1CA3C16CD084C.quest_desc: ["Infused Enderpearls combine the teleportation properties of ender pearls with enhanced stability from redstone. Required for teleportation devices."]
+	quest.72E1CA3C16CD084C.quest_desc: ["&6Infused Enderpearls&r combine the teleportation properties of ender pearls with enhanced stability from redstone. Required for teleportation devices."]
 	quest.72E1CA3C16CD084C.title: "Infused Enderpearl"
 	quest.7310BBC4A90EDA9D.quest_desc: ["Handheld QIO access terminal. Access your QIO storage from anywhere. Uses same frequency system as stationary dashboards. Requires energy charge. Ultimate mobile storage solution."]
 	quest.7310BBC4A90EDA9D.title: "Portable QIO Dashboard"
@@ -6892,7 +6892,7 @@
 	quest.75C43FDED92FF49D.title: "Brass Casing"
 	quest.75CBB5BD8C1DFEA1.quest_desc: ["The &8Basin&r is similar to the &eDepot&r, but can hold &eItems&r and &bFluids&r. \\n\\nThis will be helpful for using the &6Mechanical Mixer&r to Mix and Brew. \\n\\nAnd with the &6Mechanical Press&r to Autocraft!"]
 	quest.75CBB5BD8C1DFEA1.title: "&8Basin"
-	quest.75CCDB00F424DDF1.quest_desc: ["The Blazing Generator burns blaze rods and blaze powder for significant power output. An excellent generator if you have access to a blaze farm."]
+	quest.75CCDB00F424DDF1.quest_desc: ["The &6Blazing Generator&r burns blaze rods and blaze powder for significant power output. An excellent generator if you have access to a blaze farm."]
 	quest.75CCDB00F424DDF1.title: "Blazing Generator"
 	quest.75CD4EE6A542D687.quest_subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.75CD4EE6A542D687.subtitle: "Breed: Crystalline + Ashy Mining Bee"
@@ -6928,7 +6928,7 @@
 	quest.76558D23A70AFF78.title: "Ice Upgrade Orb"
 	quest.7655E1C6C5E5469F.quest_subtitle: "Range: &a18&r Blocks"
 	quest.7655E1C6C5E5469F.title: "&2Prudentium Growth Accelerator"
-	quest.767463014C1AEBA1.quest_desc: ["The Crafter automatically crafts items using recipes you configure. Tier 1 supports 2 recipes and basic speed."]
+	quest.767463014C1AEBA1.quest_desc: ["The &6Crafter&r automatically crafts items using recipes you configure. Tier 1 supports 2 recipes and basic speed."]
 	quest.767463014C1AEBA1.title: "Crafter Tier 1"
 	quest.7680FDFB79037F03.quest_desc: ["Final altar form with 64 runes. The largest multiblock structure."]
 	quest.7680FDFB79037F03.title: "Tier 5 Altar"
@@ -6949,7 +6949,7 @@
 	]
 	quest.77145113CD5B26FB.quest_subtitle: "Generates Source from Nearby Food"
 	quest.77145113CD5B26FB.title: "Mycelial Sourcelink"
-	quest.772E85A52B2AAF6E.quest_desc: ["Place your generator and supply it with fuel. Connect it to a machine or power storage device to confirm power is flowing."]
+	quest.772E85A52B2AAF6E.quest_desc: ["Place your &eBlazng Generator&r and supply it with fuel. Connect it to a machine or power storage device to confirm power is flowing."]
 	quest.772E85A52B2AAF6E.title: "First Power Generation"
 	quest.77382D4114E901CB.quest_desc: ["The &bHose Pulley&r is used to take and place full Source Blocks of &bFluids&r, yes not just &9Water&r. \\n\\nFirst, set how far the &bHose&r actually goes down or up with the &8Shaft&r at one side. Either with a &6Cog&f, &8Shaft&r, or &dHand Crank&r which is easiest. \\n\\nThen, on the other side of the &bHose Pulley&r we can put some &bFluid Pipes&r. With &bMechanical Pumps&r we can choose whether the &bHose Pulley&r picks up &bFluid&r Sources or place them down. \\n\\nThe &bHose Pulley&r only has an Inventory of 1.5 Buckets or 1500mB, but the &bFluids&r can be &bPiped&r into other Inventories or &bTanks&r! \\n\\nIf the &9Water&r Source is infinite, the &bHose Pulley&r won't take out Source Blocks, but will keep taking &bFluid&r out. \\n\\nThis will also work with &cLava&r Source Blocks, but those aren't infinite. So you might want to check out &c&lThe Nether&r for that as it is pretty much infinite there!"]
 	quest.77382D4114E901CB.title: "&bHose Pulley"
@@ -7382,7 +7382,7 @@
 	quest.7ECE00D12CFC50A4.quest_desc: ["Applies silk touch to Meka-Tool mining. Mutually exclusive with fortune module. Toggle in tool settings as needed."]
 	quest.7ECE00D12CFC50A4.quest_subtitle: "Meka-Tool / Optional"
 	quest.7ECE00D12CFC50A4.title: "Silk Touch Module"
-	quest.7ED81ABC1C95691B.quest_desc: ["The Processor executes programs stored on Program Cards. Insert cards and provide RF power to run automation programs."]
+	quest.7ED81ABC1C95691B.quest_desc: ["The &6Processor&r executes programs stored on &eProgram Cards&r. Insert cards and provide RF power to run automation programs."]
 	quest.7ED81ABC1C95691B.title: "Processor"
 	quest.7EED2502F1F38147.quest_desc: [
 		"The Water Sigil places water source blocks at the cost of LP."
