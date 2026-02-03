@@ -128,8 +128,7 @@ Generated: 2026-01-03
 | ChemLib Mekanized | chemlibmekanized | Content-Tech | ChemLib periodic table integration with Mekanism (local build) |
 | Ad Astra Mekanized | adastramekanized | Content-Tech | Ad Astra space mod integration with Mekanism (local build) |
 | Exchangers | exchangers | Content | Block exchanger tools for mass replacement (local build) |
-| Equestrian's Delight | equestriansdelight | Content-Food | Horse-themed foods for Farmer's Delight (local build) |
-| Horse Stats | horsestats | QoL | Displays horse statistics on screen (local build) |
+| Equestrian's Delight | equestriansdelight | Content-QoL | Horse breeding, stats display, monocle inspection tool (local build) |
 | Stronger Leads | strongerleads | QoL | Increased lead strength and range (local build) |
 | Construction Wand | constructionwand | Content | Building wand for rapid block placement (local build) |
 | Entity Model Features | entitymodelfeatures | Utility | OptiFine Custom Entity Model replacement |
@@ -366,8 +365,7 @@ Simple Voice Chat,voicechat,Utility,Proximity voice chat (local build)
 ChemLib Mekanized,chemlibmekanized,Content-Tech,ChemLib periodic table integration with Mekanism (local build)
 Ad Astra Mekanized,adastramekanized,Content-Tech,Ad Astra space mod integration with Mekanism (local build)
 Exchangers,exchangers,Content,Block exchanger tools for mass replacement (local build)
-Equestrian's Delight,equestriansdelight,Content-Food,Horse-themed foods for Farmer's Delight (local build)
-Horse Stats,horsestats,QoL,Displays horse statistics on screen (local build)
+Equestrian's Delight,equestriansdelight,Content-QoL,Horse breeding stats display monocle inspection tool (local build)
 Stronger Leads,strongerleads,QoL,Increased lead strength and range (local build)
 Construction Wand,constructionwand,Content,Building wand for rapid block placement (local build)
 Entity Model Features,entitymodelfeatures,Utility,OptiFine Custom Entity Model replacement

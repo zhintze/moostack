@@ -278,7 +278,7 @@ dependencies {
     implementation "blank:adastramekanized-1.0.0"
     implementation "blank:exchangers-3.6.0"
     implementation "blank:equestriansdelight-1.0.0"
-    implementation "blank:horsestats-1.1.0"
+    // horsestats removed - functionality merged into equestriansdelight
     implementation "blank:stronger_leads-1.0.1"
     implementation "blank:constructionwand-1.21.1-2.12"
 
