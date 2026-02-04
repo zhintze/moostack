@@ -346,7 +346,8 @@ dependencies {
     implementation "blank:silent-gear-1.21.1-neoforge-4.0.30"
     implementation "curse.maven:lootr-361276:6085253"
 
-
+    implementation "blank:alexsmobs-1.22.17"
+    implementation "blank:citadel-1.21.1-2.7.5"
 
     implementation "curse.maven:securityCraft-64760:5950155"
     // Occultism (Local Build)
