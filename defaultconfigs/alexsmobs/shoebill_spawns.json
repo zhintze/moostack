@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "c:is_swamp" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:bayou" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:marsh" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:wetland" }
+    ]
+  ]
+}

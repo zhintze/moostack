@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_forest" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:flower_forest" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:birch_forest" }
+    ]
+  ]
+}

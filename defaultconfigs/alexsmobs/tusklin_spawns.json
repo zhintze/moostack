@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_taiga" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:muskeg" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:coniferous_forest" }
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_ocean" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_deep_ocean" }
+    ]
+  ]
+}

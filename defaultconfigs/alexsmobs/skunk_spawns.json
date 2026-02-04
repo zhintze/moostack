@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_forest" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "c:is_plains" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:woodland" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:pasture" }
+    ]
+  ]
+}

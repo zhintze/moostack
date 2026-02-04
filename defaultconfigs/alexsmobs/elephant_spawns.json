@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_savanna" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:lush_savanna" }
+    ]
+  ]
+}

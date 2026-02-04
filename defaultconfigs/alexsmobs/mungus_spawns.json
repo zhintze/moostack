@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:mushroom_fields" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:fungal_jungle" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "ars_nouveau:archwood_forest" }
+    ]
+  ]
+}

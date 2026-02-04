@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_river" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "c:is_swamp" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:wetland" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:marsh" }
+    ]
+  ]
+}

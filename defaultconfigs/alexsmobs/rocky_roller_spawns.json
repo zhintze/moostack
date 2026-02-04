@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_badlands" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_mountain" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:crag" }
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:snowy_slopes" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:frozen_peaks" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:ice_spikes" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:tundra" }
+    ]
+  ]
+}

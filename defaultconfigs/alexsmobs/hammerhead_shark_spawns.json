@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:warm_ocean" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:lukewarm_ocean" }
+    ]
+  ]
+}

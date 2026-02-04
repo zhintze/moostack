@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:shrubland" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_forest" }
+    ]
+  ]
+}

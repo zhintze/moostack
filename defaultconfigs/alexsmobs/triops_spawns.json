@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:desert" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:oasis" }
+    ]
+  ]
+}

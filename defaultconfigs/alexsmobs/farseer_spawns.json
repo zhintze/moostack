@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_overworld" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:deep_dark" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "minecraft:dripstone_caves" }
+    ]
+  ]
+}

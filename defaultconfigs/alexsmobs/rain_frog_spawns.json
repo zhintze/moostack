@@ -1,0 +1,19 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "c:is_swamp" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_jungle" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:rainforest" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "ars_nouveau:cascading_forest" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "ars_nouveau:flourishing_forest" }
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_badlands" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "biomesoplenty:volcano" }
+    ],
+    [
+      { "type": "REGISTRY_NAME", "negate": false, "value": "ars_nouveau:blazing_forest" }
+    ]
+  ]
+}

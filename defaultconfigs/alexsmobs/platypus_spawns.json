@@ -1,0 +1,10 @@
+{
+  "biomes": [
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_river" }
+    ],
+    [
+      { "type": "BIOME_TAG", "negate": false, "value": "minecraft:is_forest" }
+    ]
+  ]
+}

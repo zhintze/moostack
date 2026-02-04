@@ -1,0 +1,214 @@
+# Alex's Mobs Spawn Configuration for mooStack Modpack
+# Biome-authentic, rarity-tiered spawn distribution
+#
+# Rarity Tiers:
+# - Abundant (25-35): Flocks/swarms, common prey
+# - Common (15-24): Normal wildlife
+# - Uncommon (8-14): Notable species
+# - Rare (3-7): Apex predators, solitary giants
+# - Legendary (1-2): Boss-tier encounters
+
+[spawning]
+# === Tropical/Jungle ===
+capuchinMonkeySpawnWeight = 28
+capuchinMonkeySpawnRolls = 0
+toucanSpawnWeight = 26
+toucanSpawnRolls = 0
+flySpawnWeight = 30
+flySpawnRolls = 0
+mudskipperSpawnWeight = 18
+mudskipperSpawnRolls = 0
+anteaterSpawnWeight = 16
+anteaterSpawnRolls = 0
+anacondaSpawnWeight = 12
+anacondaSpawnRolls = 0
+gorillaSpawnWeight = 6
+gorillaSpawnRolls = 0
+caimanSpawnWeight = 10
+caimanSpawnRolls = 0
+crocodileSpawnWeight = 5
+crocSpawnRolls = 0
+mantisShrimpSpawnWeight = 15
+mantisShrimpSpawnRolls = 0
+
+# === Savanna/Grassland ===
+gazelleSpawnWeight = 30
+gazelleSpawnRolls = 0
+emuSpawnWeight = 20
+emuSpawnRolls = 0
+roadrunnerSpawnWeight = 18
+roadrunnerSpawnRolls = 0
+kangarooSpawnWeight = 18
+kangarooSpawnRolls = 0
+manedWolfSpawnWeight = 12
+manedWolfSpawnRolls = 0
+elephantSpawnWeight = 10
+elephantSpawnRolls = 0
+rhinocerosSpawnWeight = 4
+rhinocerosSpawnRolls = 0
+tigerSpawnWeight = 5
+tigerSpawnRolls = 0
+
+# === Temperate Forest ===
+crowSpawnWeight = 32
+crowSpawnRolls = 0
+blueJaySpawnWeight = 26
+blueJaySpawnRolls = 0
+raccoonSpawnWeight = 20
+raccoonSpawnRolls = 0
+skunkSpawnWeight = 18
+skunkSpawnRolls = 0
+potooSpawnWeight = 12
+potooSpawnRolls = 0
+mooseSpawnWeight = 10
+mooseSpawnRolls = 0
+grizzlyBearSpawnWeight = 6
+grizzlyBearSpawnRolls = 0
+
+# === Desert/Arid ===
+jerboaSpawnWeight = 28
+jerboaSpawnRolls = 0
+rattlesnakeSpawnWeight = 12
+rattlesnakeSpawnRolls = 0
+tarantulaHawkSpawnWeight = 10
+tarantulaHawkSpawnRolls = 0
+komodoDragonSpawnWeight = 5
+komodoDragonSpawnRolls = 0
+
+# === Cold/Mountain ===
+bisonSpawnWeight = 22
+bisonSpawnRolls = 0
+sealSpawnWeight = 20
+sealSpawnRolls = 0
+geladaMonkeySpawnWeight = 10
+geladaMonkeySpawnRolls = 0
+froststalkerSpawnWeight = 12
+froststalkerSpawnRolls = 0
+snowLeopardSpawnWeight = 4
+snowLeopardSpawnRolls = 0
+
+# === Ocean ===
+lobsterSpawnWeight = 28
+lobsterSpawnRolls = 0
+combJellySpawnWeight = 26
+combJellySpawnRolls = 0
+seagullSpawnWeight = 30
+seagullSpawnRolls = 0
+flyingFishSpawnWeight = 20
+flyingFishSpawnRolls = 0
+mimicOctopusSpawnWeight = 16
+mimicOctopusSpawnRolls = 0
+hammerheadSharkSpawnWeight = 10
+hammerheadSharkSpawnRolls = 0
+orcaSpawnWeight = 8
+orcaSpawnRolls = 0
+giantSquidSpawnWeight = 4
+giantSquidSpawnRolls = 0
+frilledSharkSpawnWeight = 3
+frilledSharkSpawnRolls = 0
+cachalotWhaleSpawnWeight = 5
+cachalotWhaleSpawnRolls = 0
+blobfishSpawnWeight = 4
+blobfishSpawnRolls = 0
+
+# === Freshwater/Wetlands ===
+catfishSpawnWeight = 26
+catfishSpawnRolls = 0
+terrapinSpawnWeight = 20
+terrapinSpawnRolls = 0
+triopsSpawnWeight = 18
+triopsSpawnRolls = 0
+alligatorSnappingTurtleSpawnWeight = 10
+alligatorSnappingTurtleSpawnRolls = 0
+platypusSpawnWeight = 12
+platypusSpawnRolls = 0
+baldEagleSpawnWeight = 10
+baldEagleSpawnRolls = 0
+hummingbirdSpawnWeight = 18
+hummingbirdSpawnRolls = 0
+shoebillSpawnWeight = 12
+shoebillSpawnRolls = 0
+
+# === Australian ===
+sugarGliderSpawnWeight = 20
+sugarGliderSpawnRolls = 0
+tasmanianDevilSpawnWeight = 12
+tasmanianDevilSpawnRolls = 0
+dropbearSpawnWeight = 10
+dropbearSpawnRolls = 0
+
+# === Cave/Underground ===
+cockroachSpawnWeight = 28
+cockroachSpawnRolls = 0
+caveCentipedeSpawnWeight = 18
+caveCentipedeSpawnRolls = 0
+bananaSlugSpawnWeight = 16
+bananaSlugSpawnRolls = 0
+
+# === Nether ===
+warpedToadSpawnWeight = 28
+warpedToadSpawnRolls = 0
+stradpoleSpawnWeight = 26
+stradpoleSpawnRolls = 0
+straddlerSpawnWeight = 20
+straddlerSpawnRolls = 0
+crimsonMosquitoSpawnWeight = 18
+crimsonMosquitoSpawnRolls = 0
+boneSerpentSpawnWeight = 12
+boneSeprentSpawnRolls = 0
+soulVultureSpawnWeight = 10
+soulVultureSpawnRolls = 0
+warpedMoscoSpawnWeight = 8
+warpedMoscoSpawnRolls = 0
+laviathanSpawnWeight = 6
+laviathanSpawnRolls = 0
+
+# === End ===
+endergradeSpawnWeight = 20
+endergradeSpawnRolls = 0
+enderiophageSpawnWeight = 18
+enderiophageSpawnRolls = 0
+cosmicCodSpawnWeight = 16
+cosmicCodSpawnRolls = 0
+mimicubeSpawnWeight = 10
+mimicubeSpawnRolls = 0
+voidWormSpawnWeight = 2
+voidWormSpawnRolls = 0
+
+# === Horror/Deep Dark ===
+murmurSpawnWeight = 12
+murmurSpawnRolls = 0
+underminerSpawnWeight = 10
+underminerSpawnRolls = 0
+skelewagSpawnWeight = 10
+skelewagSpawnRolls = 0
+skreecherSpawnWeight = 12
+skreecherSpawnRolls = 0
+farseerSpawnWeight = 6
+farseerSpawnRolls = 0
+spectreSpawnWeight = 10
+spectreSpawnRolls = 0
+
+# === Magical/Elemental ===
+flutterSpawnWeight = 26
+flutterSpawnRolls = 0
+bunfungusSpawnWeight = 18
+bunfungusSpawnRolls = 0
+mungusSpawnWeight = 16
+mungusSpawnRolls = 0
+sunbirdSpawnWeight = 12
+sunbirdSpawnRolls = 0
+gusterSpawnWeight = 14
+gusterSpawnRolls = 0
+rockyRollerSpawnWeight = 18
+rockyRollerSpawnRolls = 0
+cosmawSpawnWeight = 5
+cosmawSpawnRolls = 0
+rainFrogSpawnWeight = 20
+rainFrogSpawnRolls = 0
+
+# === Other ===
+tusklinSpawnWeight = 18
+tusklinSpawnRolls = 0
+devilsHolePupfishSpawnWeight = 18
+devilsHolePupfishSpawnRolls = 0
