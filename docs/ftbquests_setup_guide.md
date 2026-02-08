@@ -39,7 +39,7 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `EC01`-`EC06` | EvilCraft | Quest IDs (sections 1-6) |
 | `MA01`-`MA10` | Mystical Agriculture | Quest IDs (if using structured) |
 | `MK01`-`MK10` | Mekanism | Quest IDs (if using structured) |
-| `OC01`-`OC10` | Occultism | Quest IDs (if using structured) |
+| `0C01`-`0C08` | Occultism | Quest IDs (sections 1-8) |
 | `PB01`-`PB10` | Productive Bees | Quest IDs (if using structured) |
 | `D001`-`D008` | PneumaticCraft | Quest IDs (sections 1-8) |
 | `5501`-`5507` | Sophisticated Storage | Quest IDs (sections 1-7) |
