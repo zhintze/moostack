@@ -12,7 +12,6 @@
 	chapter.2549EAACFC320C84.title: "Corail Tombstone"
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
 	chapter.282448C70744895F.title: "Apotheosis Enchanting"
-	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.3D058CE001E90874.title: "RFTools"
 	chapter.492649F619082A45.title: "Aquaculture"
 	chapter.4C507C004144BFEE.title: "Occultism"
@@ -203,8 +202,6 @@
 	quest.00A6020BC979947F.title: "Echo Dust"
 	quest.00ABBF2CB07D573C.quest_subtitle: "Damages a target"
 	quest.00D329407250AC7B.quest_subtitle: "Launches target in the direction they look"
-	quest.00DB5495C3A44999.quest_desc: ["Shift-right-click containers to deposit matching items from backpack."]
-	quest.00DB5495C3A44999.title: "Deposit Upgrade"
 	quest.00DCB81D6A41BD44.quest_desc: [
 		"Defeat 10 Piglins to earn the Berserker skill book."
 		""
@@ -225,17 +222,6 @@
 	quest.00FD36C207845895.quest_subtitle: "Spawns: Obsidian Nest (End)"
 	quest.00FD36C207845895.subtitle: "Spawns: Obsidian Nest (End)"
 	quest.00FD36C207845895.title: "Draconic Bee"
-	quest.0104C2E2E30B966B.quest_desc: [
-		"Is the &cBlood Chest&r not working fast enough? Do you have too many items that need to be repaired? You can make a &cColossal Blood Chest&r to solve these problems."
-		""
-		"To build one, you need to make 25 &9Reinforced Undead Planks&r. Using these, you want to make a 3x3x3 hollow cube, then place a &cColossal Blood Chest&r block to close off the multiblock structure. If done right, you'll have a massive &cBlood Chest&r you can now use. Some might call it colossal."
-		""
-		"This also allows you to upgrade it using &6Promises&r."
-	]
-	quest.0104C2E2E30B966B.quest_subtitle: "Blood Chest Sr"
-	quest.0104C2E2E30B966B.title: "&aColossal Repairs"
-	quest.0108F3EFDFD6DFD0.quest_desc: ["Wirelessly connects distant storage containers to your controller network without requiring adjacent placement."]
-	quest.0108F3EFDFD6DFD0.title: "Storage Link"
 	quest.01119871B1D5C576.quest_desc: [
 		"Just about every Village can have Priests in them. This includes modded Villages."
 		""
@@ -249,9 +235,6 @@
 	quest.0133DA323E24A455.title: "Electrolytic Breathing Module"
 	quest.014262BDF1BBA54D.quest_desc: ["Uses crimson/nether items to generate power for the Mycelial Reactor."]
 	quest.014262BDF1BBA54D.title: "Mycelial Crimed Generator"
-	quest.019CA0E35F888222.quest_desc: ["Restock with customizable item targets."]
-	quest.019CA0E35F888222.quest_subtitle: "More Filtering Options"
-	quest.019CA0E35F888222.title: "Advanced Restock Upgrade"
 	quest.01A90E2541C91DB2.quest_desc: ["Transparent blocks for multiblock structures. Use in &bDynamic Tanks&r, &bInduction Matrices&r, and other multiblocks where you want visibility. Purely aesthetic alternative to solid casings."]
 	quest.01A90E2541C91DB2.title: "Structural Glass"
 	quest.01F3F0C25BA72BDA.quest_desc: [
@@ -267,15 +250,7 @@
 	quest.01F7F3589EBD8872.title: "Brown Shroombee"
 	quest.021CB5F245634F80.quest_desc: ["Increases altar crafting speed. Place in your altar ring for faster LP infusion."]
 	quest.021CB5F245634F80.title: "Speed Rune"
-	quest.026A71F98A52E3A5.quest_desc: [
-		"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
-		""
-		"Slaying these beasts will give you &dWerewolf Flesh&r."
-	]
-	quest.026A71F98A52E3A5.title: "Flesh Werewolf"
 	quest.027FD9135DEC4949.quest_subtitle: "Lures in Ghostly Bees when placed in the Nether and given Ghast Tears"
-	quest.0298A17C2AAC5765.quest_desc: ["8x stack sizes. Items stack to 512."]
-	quest.0298A17C2AAC5765.title: "Stack Upgrade Tier 3"
 	quest.029AA03790F055E8.quest_subtitle: "Spawns: Nether Gold Nest | Breed: Crystalline + Mason Bee"
 	quest.029AA03790F055E8.subtitle: "Spawns: Nether Gold Nest | Breed: Crystalline + Mason Bee"
 	quest.029AA03790F055E8.title: "Gold Bee"
@@ -298,8 +273,6 @@
 		"This essence opens access to the most powerful water-based spirit bindings."
 	]
 	quest.03250A0202C25E80.title: "Marid Essence"
-	quest.037415D5B965E214.quest_desc: ["Backpack survives death. Contents preserved when you die."]
-	quest.037415D5B965E214.title: "Everlasting Upgrade"
 	quest.037488EF1F3581CE.quest_desc: [
 		"By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block."
 		""
@@ -392,12 +365,6 @@
 	quest.0641F45BEA6C67E5.quest_subtitle: "Places water or extinguishes fire"
 	quest.0650996C7818ADB5.quest_desc: ["Burns fuel or absorbs heat from adjacent lava. Passive mode uses surrounding lava for free power. Active mode burns coal or wood for higher output. Good early-game generator."]
 	quest.0650996C7818ADB5.title: "Heat Generator"
-	quest.066438B01655D866.quest_desc: [
-		"While their &dEssence&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?"
-		""
-		"To become a Spirit Hunter, you'll need to create the &dVengeance Focus&r first. This is used to &aFreeze Spirits&r in place, then you place a &9Box of Eternal Closure&r near the Spirit. This will then suck the Spirit in for later use."
-	]
-	quest.066438B01655D866.title: "Capturing &dSpirits"
 	quest.0671915D3BDDD07D.quest_subtitle: "Removes potion effects from target"
 	quest.06A7A3FC8634D2DA.quest_subtitle: "Tier: &c5"
 	quest.06A7A3FC8634D2DA.title: "Netherite Seeds"
@@ -598,18 +565,6 @@
 		"Create &ePurified Ink&f first, then craft the appropriate book for the spirit type you wish to bind. The &bBook of Binding: Foliot&f is for the weakest spirits."
 	]
 	quest.0B3EA604C5172D98.title: "Books of Binding"
-	quest.0B9F2B443813F43C.quest_desc: [
-		"Have you ever wanted to be able to attack things with a Shovel, and have it hurt? I would ask why, but this is EvilCraft."
-		""
-		"Well look no further! This serves as both a weapon, and a tool for breaking soft things!"
-	]
-	quest.0B9F2B443813F43C.title: "Spikey Claws"
-	quest.0BB0DF36B079558F.quest_desc: [
-		"When the &6Entangled Chalice&r is placed in the world, it can pump in Blood. When activated in your inventory, it will try to fill up your items that use &cBlood&r as a resource."
-		""
-		"If you want to make more Chalices using the same network, just use the crafting recipe that uses a Chalice instead of a Gold Ingot."
-	]
-	quest.0BB0DF36B079558F.title: "&6Entangled Chalice"
 	quest.0BCB7E97BC566683.quest_subtitle: "Breed: Skeletal + Sugarbag"
 	quest.0BCB7E97BC566683.subtitle: "Breed: Skeletal + Sugarbag"
 	quest.0BCB7E97BC566683.title: "Manganese Bee"
@@ -647,8 +602,6 @@
 		"Hold the scroll to copy in your main hand and the book in your offhand, then right-click a Grave Soul. This allows you to duplicate valuable scrolls."
 	]
 	quest.0CAF02D2EEF168D9.title: "Book of Scribe"
-	quest.0CD04A00529FE1C9.quest_desc: ["Optional intermediate tier. Saves iron but can be skipped by crafting iron tier directly."]
-	quest.0CD04A00529FE1C9.title: "Copper Tier"
 	quest.0CD6F30BBEE20E15.quest_subtitle: "Breed: Osmium + Glowing"
 	quest.0CD6F30BBEE20E15.subtitle: "Breed: Osmium + Glowing"
 	quest.0CD6F30BBEE20E15.title: "Refined Glowstone Bee"
@@ -690,8 +643,6 @@
 		"Hold the damaged item in your main hand and the book in your offhand, then right-click a Grave Soul. The item will be fully repaired."
 	]
 	quest.0D3B633AA62E8AA5.title: "Book of Repairing"
-	quest.0D4C64DD58567758.quest_desc: ["Adds internal fluid tank to the backpack. Store water, lava, or other fluids."]
-	quest.0D4C64DD58567758.title: "Tank Upgrade"
 	quest.0D58B69F05228D40.quest_desc: ["Further increases crafting speed. Stacks with Speed Runes."]
 	quest.0D58B69F05228D40.title: "Acceleration Rune"
 	quest.0D5D76B3551CD5A7.quest_desc: ["Yes, it's called an Aluminium Bee."]
@@ -745,12 +696,6 @@
 	]
 	quest.0DFA4ACFF22B3B65.quest_subtitle: "Arena Champion"
 	quest.0DFA4ACFF22B3B65.title: "Murmillo Gladiator"
-	quest.0E057B7F76401421.quest_desc: ["Optional intermediate tier. Can skip directly to iron backpack."]
-	quest.0E057B7F76401421.quest_subtitle: "The First Upgrade"
-	quest.0E057B7F76401421.title: "Copper Backpack"
-	quest.0E0CAA31480EC0A1.quest_desc: ["Automatically collects dropped items into the backpack."]
-	quest.0E0CAA31480EC0A1.quest_subtitle: "Allows the backpack to pick up items."
-	quest.0E0CAA31480EC0A1.title: "Pickup Upgrade"
 	quest.0E175356D43E6A10.quest_desc: ["Combine &ehydrogen&r and &echlorine&r in a &bChemical Infuser&r to create &ehydrogen chloride&r. Inject into ores with the &bChemical Injection Chamber&r to produce shards. Yields 4x output."]
 	quest.0E175356D43E6A10.quest_subtitle: "Tier 3"
 	quest.0E175356D43E6A10.title: "Tier 3 Processing"
@@ -796,9 +741,6 @@
 	quest.0E88FDAE4CB5561B.title: "Ritual of Awakening"
 	quest.0EA9E52B67B533DF.quest_desc: ["When Rubber is smelted it turns into Plastic, which is the main resource in Industrial Foregoing."]
 	quest.0EA9E52B67B533DF.title: "Dry Rubber"
-	quest.0EAF01037BB20BCB.quest_desc: ["The Necromancer Staff summons zombies to fight for you."]
-	quest.0EAF01037BB20BCB.quest_subtitle: "Summons Zombies"
-	quest.0EAF01037BB20BCB.title: "Necromancer Staff"
 	quest.0EB5B926E1FBAF0E.quest_desc: [
 		"Apotheosis overhauls vanilla enchanting with three stats: Eterna, Quanta, and Arcana. "
 		""
@@ -938,12 +880,6 @@
 	quest.10D3C4FE4B7E0B8D.quest_desc: ["Catch 5 Pollock. Found in temperate ocean biomes."]
 	quest.10D3C4FE4B7E0B8D.quest_subtitle: "Temperate Fish"
 	quest.10D3C4FE4B7E0B8D.title: "Pollock Collection"
-	quest.10EF30B919EBA5C6.quest_desc: [
-		"It's a pickaxe with Fortune V on it. That's all."
-		""
-		"Definitely won't summon spirits when you are mining. &o&5&lDefinitely won't&r."
-	]
-	quest.10EF30B919EBA5C6.title: "Vengeance Pickaxe"
 	quest.10F9A4EAF82976CD.quest_desc: [
 		"Defeat 20 Guardians to earn the Phantom Ascent skill book."
 		""
@@ -951,8 +887,6 @@
 	]
 	quest.10F9A4EAF82976CD.quest_subtitle: "Learn the Phantom Ascent mover skill"
 	quest.10F9A4EAF82976CD.title: "Spear Mastery: Phantom Ascent"
-	quest.110D27EA86CDA62B.quest_desc: ["Pulls nearby dropped items into the backpack."]
-	quest.110D27EA86CDA62B.title: "Magnet Upgrade"
 	quest.111649D7E16D869F.quest_desc: [
 		"The Caster's Wand only accepts a single spell, and is inscribed using the Scribe's Table."
 		""
@@ -997,9 +931,6 @@
 		"Larger gems are needed for advanced forge recipes. Will accumulates when you kill mobs while the gem is in your inventory."
 	]
 	quest.11D37E7391B49A88.title: "Petty Tartaric Gem"
-	quest.11D57C768032E3F7.quest_desc: ["Magnet with configurable range and filters."]
-	quest.11D57C768032E3F7.quest_subtitle: "More Filtering Options"
-	quest.11D57C768032E3F7.title: "Advanced Magnet Upgrade"
 	quest.11F3091574B12757.quest_desc: ["Copies written books, enchanted books, name tags, and train schedules. Supply Liquid Experience and a source item to produce duplicates."]
 	quest.11F3091574B12757.title: "Printer"
 	quest.120572510F525930.quest_desc: ["Solar-powered multiblock that evaporates water into &ebrine&r or brine into &elithium&r. Build on a 4x4 base, 3-18 blocks tall. Add &bAdvanced Solar Generators&r to corners for bonus heat. Required for chlorine production."]
@@ -1054,9 +985,6 @@
 		"This leather is used to craft special boots that improve movement on soul sand and soul soil."
 	]
 	quest.12DAE16CE73E630F.title: "Soul Sucker"
-	quest.12F3A604329EC604.quest_desc: ["The Promise of Efficiency increases the efficiency of EvilCraft machines, reducing blood consumption."]
-	quest.12F3A604329EC604.quest_subtitle: "Increases the Efficiency of Machines"
-	quest.12F3A604329EC604.title: "Promise of Efficiency"
 	quest.12F4980CB3BFCE0D.quest_desc: [
 		"Sightshelves reveal enchantments before you commit to the operation. Each Sightshelf shows one additional enchantment that will appear. The Sightshelf T2 reveals even more. "
 		""
@@ -1082,9 +1010,6 @@
 	quest.132C84A2EF236DE6.title: "Large Fluid Storage"
 	quest.133CA315A1443A49.quest_desc: ["&bMechanical Pumps&r will use Rotational Power to move &bFluids&r through &bPipes&r. \\n\\nFirst, replace a &bPipe&r with the &bMechanical Pump&r. Then, make sure it is facing the right way you want &bFluids&r to be moved. The Arrows next to the internal &6Cog&r will tell which direction it will move, you can change that with a Wrench. \\n\\nThen, feed it &dRotational Power&r with a &6Cog&r near it. The direction does not change anything, but the Speed will effect how quickly &bFluids&r are moved. \\n\\n&bMechanical Pumps&r will also be needed for other Machines like the &bHose Pulley&r!"]
 	quest.133CA315A1443A49.title: "&bMechanical Pump"
-	quest.134608BB2B04D96E.quest_desc: ["Vanilla chests hold 27 slots. Place two adjacent chests to form a double chest with 54 slots."]
-	quest.134608BB2B04D96E.quest_subtitle: "The Chest"
-	quest.134608BB2B04D96E.title: "Chest"
 	quest.1348995F64A94396.quest_desc: [
 		"The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted."
 		""
@@ -1206,8 +1131,6 @@
 		"It combines a diamond with grave magic to create a powerful crafting component for high-tier items."
 	]
 	quest.155ABD22CC4621A3.title: "Impregnated Diamond"
-	quest.156FF8B7B724DC38.quest_desc: ["Controls which items can enter or exit the backpack via automation."]
-	quest.156FF8B7B724DC38.title: "Filter Upgrade"
 	quest.158BB749BCB514B2.quest_desc: [
 		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
 		""
@@ -1227,9 +1150,6 @@
 	quest.15C9CCCC8E06D430.quest_subtitle: "Flower: Black Quartz Block (Check JEI)"
 	quest.15C9CCCC8E06D430.subtitle: "Flower: Black Quartz Block (Check JEI)"
 	quest.15C9CCCC8E06D430.title: "Black Quartz Bee"
-	quest.15CD4BFDC56E9510.quest_desc: ["Tool swapper with weapon switching and filtering."]
-	quest.15CD4BFDC56E9510.quest_subtitle: "More Filtering Options"
-	quest.15CD4BFDC56E9510.title: "Advanced Tool Swapper Upgrade"
 	quest.15D764CAF047EA7A.quest_subtitle: "Tier 3 Armor"
 	quest.15D764CAF047EA7A.title: "&cTertium Gear"
 	quest.1609BF52108238B0.quest_subtitle: "Tier: &e1"
@@ -1247,8 +1167,6 @@
 	quest.16299B9AE87257DC.title: "Wireless Terminals"
 	quest.162CE44400A63575.quest_desc: ["Combines items with &einfuse materials&r to create alloys and circuits. Insert coal, redstone, or other materials into the left slot to build up infuse charge, then process items in the center slot. Required for crafting &bcontrol circuits&r and &binfused alloys&r."]
 	quest.162CE44400A63575.title: "Metallurgic Infuser"
-	quest.1659A59303C15CC9.quest_desc: ["Functions like a chest with 27 slots. Cannot be combined but can be stacked vertically."]
-	quest.1659A59303C15CC9.title: "Barrel"
 	quest.166971866A9234C7.quest_desc: ["Craft by infusing a &7copper ingot&r with &eredstone&r in the &bMetallurgic Infuser&r. Used in most basic Mekanism recipes including machines, cables, and upgrades."]
 	quest.166971866A9234C7.title: "Infused Alloy"
 	quest.1684D52FDAAC894B.quest_desc: [
@@ -1400,14 +1318,8 @@
 	quest.197C0EA753F0666F.quest_subtitle: "Breed: Lapis + Ender"
 	quest.197C0EA753F0666F.subtitle: "Breed: Lapis + Ender"
 	quest.197C0EA753F0666F.title: "Dark Blue Pigment Bee"
-	quest.1985CFD1F0425E88.quest_desc: ["Pickup with configurable item filters."]
-	quest.1985CFD1F0425E88.quest_subtitle: "More Filtering Options"
-	quest.1985CFD1F0425E88.title: "Advanced Pickup Upgrade"
 	quest.198EDBAC1D6E2339.quest_desc: ["You'll need these for Ender Bees."]
 	quest.198EDBAC1D6E2339.quest_subtitle: "Prevents Bees from Teleporting in a Hive"
-	quest.199E7C89584C3DB1.quest_desc: ["The Invigorating Pendant removes bad potion effects from you."]
-	quest.199E7C89584C3DB1.quest_subtitle: "Removes Bad Potion Effects"
-	quest.199E7C89584C3DB1.title: "Invigorating Pendant"
 	quest.19D02325579F2AA8.quest_desc: [
 		"The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source."
 		""
@@ -1448,9 +1360,6 @@
 		"Hold the enchanted item in your main hand and the book in your offhand, then right-click a Grave Soul."
 	]
 	quest.1A70D3A1356F5793.title: "Book of Disenchantment"
-	quest.1A739D36D5E3B1AD.quest_desc: ["Feeding with food priority and filter options."]
-	quest.1A739D36D5E3B1AD.quest_subtitle: "More Filtering Options"
-	quest.1A739D36D5E3B1AD.title: "Advanced Feeding Upgrade"
 	quest.1A76A721B569FBF1.quest_desc: [
 		"Build a &3Solar Compressor&r using &3Solar Cells&r. This compressor generates pressure from sunlight — a completely passive, renewable source. Requires clear sky and daytime."
 		""
@@ -1602,8 +1511,6 @@
 	]
 	quest.1CC4F8570A7A99EB.quest_subtitle: "Tier 1 - Base Essence"
 	quest.1CC4F8570A7A99EB.title: "Inferium Essence"
-	quest.1CD2C6AFD788C35E.quest_desc: ["Auto-compacts items using 2x2 recipes. Ingots to blocks, etc."]
-	quest.1CD2C6AFD788C35E.title: "Compacting Upgrade"
 	quest.1CF8263756EE8F2A.quest_desc: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
 	quest.1CF8263756EE8F2A.title: "&5Cognizant Dust&r"
 	quest.1D06097B6206BA60.quest_desc: [
@@ -1622,9 +1529,6 @@
 		"&eThe full PCB pipeline: fabrication → UV exposure → etching → component assembly.&r"
 	]
 	quest.1D744C8DE66917D5.title: "PCB Fabrication"
-	quest.1D794DE95C9FF6C7.quest_desc: ["The Promise of Speed increases the processing speed of EvilCraft machines."]
-	quest.1D794DE95C9FF6C7.quest_subtitle: "Increase the Speed of Machines"
-	quest.1D794DE95C9FF6C7.title: "Promise of Speed"
 	quest.1D8F93E059360C11.quest_desc: [
 		"Boxes are uncommon fishing loot containing randomized treasures. Open them for a chance at useful items."
 		""
@@ -1633,18 +1537,6 @@
 	quest.1D8F93E059360C11.title: "The Mysterious Box"
 	quest.1D995548A159F291.quest_subtitle: "Feed a Soulium Dagger to a Ghostly Bee"
 	quest.1D995548A159F291.title: "Soulium Bee"
-	quest.1DA0A87C471A38AC.quest_desc: [
-		"&cEvilCraft&r has its own Mob Farm!"
-		""
-		"To start this, you'll need to craft at least 33 &cDark Blood Bricks&r. With these, we'll build a structure that is strong enough to contain the summoned spirits."
-		""
-		"You'll also need a spirit trapped in a &9Box of Eternal Closure&r. This will determine the drops you'll get."
-		""
-		"To build this, you need to build a cuboid structure with enough room for the mob to spawn. The minimum size is 3x4x3, which has enough room to spawn mobs like Zombies. Make sure to place a &9Spirit Furnace&r on one of the faces so you can interact with the structure."
-		""
-		"If you want to spawn bigger mobs, you'll need to make a bigger structure."
-	]
-	quest.1DA0A87C471A38AC.title: "&aMob Farms using &cBlood"
 	quest.1DC407272D9D9CCE.quest_subtitle: "Spawn egg only | Flower: Awakened Supremium Block"
 	quest.1DC407272D9D9CCE.subtitle: "Spawn egg only | Flower: Awakened Supremium Block"
 	quest.1DC407272D9D9CCE.title: "Awakened Supremium Bee"
@@ -1775,22 +1667,12 @@
 	quest.1E08000000000004.title: "Capacitor Backpack"
 	quest.1E08000000000005.quest_desc: ["The upgraded blast furnace adds hopper inputs and outputs for fully automated steel production. Feed it iron and coal coke from conveyors and collect steel ingots without manual interaction. A meaningful upgrade once your factory is running."]
 	quest.1E08000000000005.title: "Improved Blast Furnace"
-	quest.1E3471513C75CC54.quest_desc: [
-		"If you place a Bucket of Blood on the ground long enough or place it in a Drying Basin, it will dry into &cHardened Blood&r."
-		""
-		"Aside from being incredibly unsanitary, we need all kinds of blood for us to progress. Even dried blood."
-		""
-		"This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &9Flint and Steel&r, you'll get &dBlood Shards&r instead."
-	]
-	quest.1E3471513C75CC54.title: "Drying... &cBlood?"
 	quest.1E414D285E7A5FE2.title: "&cTertium Tools"
 	quest.1E420EE26133EDBD.quest_desc: ["Catch 3 Lava Pufferfish. Found in the Warped Forest biome."]
 	quest.1E420EE26133EDBD.quest_subtitle: "Warped Forest"
 	quest.1E420EE26133EDBD.title: "Lava Pufferfish Collection"
 	quest.1E4746630F6A8D4B.quest_desc: ["Create O'Plenty. Alternative sandpaper color from BOP black sand. Polishes items like standard sandpaper."]
 	quest.1E4746630F6A8D4B.title: "Black Sand Paper"
-	quest.1E499F94A2A193E1.quest_desc: ["Adds blast furnace interface for faster ore smelting."]
-	quest.1E499F94A2A193E1.title: "Blasting Upgrade"
 	quest.1E7DC8E0493BE99E.quest_subtitle: "Tier: &e1"
 	quest.1E7DC8E0493BE99E.title: "Water Seeds"
 	quest.1E9B2D814F50A265.quest_desc: ["The &6Encased Fan&r is one of the most underrated Machines in &6&lCreate&r. \\n\\nYou can place it down and it'll face you, or Shift Right Click to place it facing away from you. \\n\\nWhen given &dRotational Power&r &e&oClockwise&r, it will blow air away from it. When given &dRotational Power&r &9&oCounter-Clockwise&r it will suck air toward it. \\n\\nThese sucks and blows will also effect &eItems&r and Entities near them, and yes the faster it spins the more it sucks and blows! \\n\\nWe also get extra Recipes we can make by putting a Block in front of the &6Fan&r. This will then effect the &eItems&r being blown on by the &6Fan&r. \\n\\nWe can use &cLava&r to &6Blast&e Items&r like a Furnace. Getting Ingots from Ores, Stone from Cobble, and Nuggets from Tools. \\n\\nIf we put Fire in front of the Fan we can Smoke Items. Like Cooking them! \\n\\nInstead of Lava we can also place Water in front of it. This will wash whatever is in front of it like Concrete Powder into Concrete. \\n\\nAnd last, instead of Fire we can use Soul Fire to haunt Items! This will change Items either into Nether variants or entirely different Items."]
@@ -1853,21 +1735,9 @@
 	quest.1F88C697817A7680.title: "&aInferium Apple"
 	quest.1F8B4F648EB5A0DC.quest_desc: ["Private storage that only you can access. 54 slots of secure storage. Can be placed or opened from inventory. Right-click when first crafted to bind to your player."]
 	quest.1F8B4F648EB5A0DC.title: "Personal Chest"
-	quest.1F8BC2A4CF055038.quest_desc: ["The Blood Pearl of Teleportation is a reusable Ender Pearl that uses Blood instead of being consumed."]
-	quest.1F8BC2A4CF055038.quest_subtitle: "A Reusable Ender Pearl"
-	quest.1F8BC2A4CF055038.title: "Blood Pearl of Teleportation"
 	quest.1FC88A3BFCE6C9D7.quest_desc: ["Increases step height. Walk up blocks without jumping. Quality of life improvement for traversal."]
 	quest.1FC88A3BFCE6C9D7.quest_subtitle: "Leggings"
 	quest.1FC88A3BFCE6C9D7.title: "Motorized Servo Module"
-	quest.1FE052F643401232.quest_desc: ["Required crafting component for all backpack upgrades. Craft several - you'll need them."]
-	quest.1FE052F643401232.quest_subtitle: "The Base for Upgrades"
-	quest.1FE052F643401232.title: "Upgrade Base"
-	quest.1FE17B1C7C639F88.quest_desc: [
-		"Links multiple Sophisticated Storage containers into a unified network. Acts as a single access point for all connected storage."
-		""
-		"Connect containers by placing them adjacent to the controller or to other connected containers. Maximum range: 14 blocks from controller."
-	]
-	quest.1FE17B1C7C639F88.title: "Storage Controller"
 	quest.1FF399274FFAB76A.quest_desc: ["The Diviner places ritual patterns automatically. The Crystal activates completed rituals."]
 	quest.1FF399274FFAB76A.title: "Ritual Tools"
 	quest.20054D077AFE3F56.quest_desc: ["Crystallize &eplutonium&r into solid pellets. Used in SPS antimatter production. Also a component in high-tier module crafting. Handle with radiation protection."]
@@ -2085,8 +1955,6 @@
 	quest.25343A0C4C22AA60.title: "Advanced Materials"
 	quest.2581B7D8E6C6E510.quest_subtitle: "Tier: &63"
 	quest.2581B7D8E6C6E510.title: "Obsidian Seeds"
-	quest.25AFD10D008DF30B.quest_desc: ["Personal dimensional storage. All your ender chests share the same 27-slot inventory."]
-	quest.25AFD10D008DF30B.title: "Ender Chest"
 	quest.25D84D82DBADA0DB.quest_subtitle: "Tier: &b4"
 	quest.25D84D82DBADA0DB.title: "Nickel Seeds"
 	quest.25DBA00422301EDC.quest_desc: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
@@ -2105,13 +1973,8 @@
 	quest.26924D19EAA487A3.title: "Blaze Burner"
 	quest.269402283277C7A2.quest_desc: ["Multi-block water wheel. Higher output than basic wheel. Build with Radial Chassis."]
 	quest.269402283277C7A2.title: "Large Water Wheel"
-	quest.26988E22BD019628.quest_desc: ["Automatically blast-smelts ores in the backpack."]
-	quest.26988E22BD019628.quest_subtitle: "Automatic"
-	quest.26988E22BD019628.title: "Auto-Blasting Upgrade"
 	quest.26A7746051A4A079.quest_subtitle: "Tier: &63"
 	quest.26A7746051A4A079.title: "Skeleton Seeds"
-	quest.26A9F402DAE15EA2.quest_desc: ["Adds smoker interface for faster food cooking."]
-	quest.26A9F402DAE15EA2.title: "Smoking Upgrade"
 	quest.26B3AE1E77A84BCB.quest_desc: ["If you throw an &9Osmium Bee Spawn Egg&r, &bCharged Certus Quartz&r and &8Sky Stone&r into Lava, you will create a &eSky Osmium Bee Spawn Egg"]
 	quest.26B3AE1E77A84BCB.quest_subtitle: "Spawn egg only | Flower: Sky Osmium Block"
 	quest.26B3AE1E77A84BCB.subtitle: "Spawn egg only | Flower: Sky Osmium Block"
@@ -2221,15 +2084,6 @@
 		"Essential for automating Ether Gas production."
 	]
 	quest.28B3591BFC0FA08B.title: "Wither Builder"
-	quest.28BF66D1B8CD4D44.quest_desc: [
-		"&dBrooms&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush."
-		""
-		"Each part can be crafted by combining the bare part with certain items to give them specific modifiers. As there are too many modifiers to type out, make sure to check the guide book for more info!"
-		""
-		"To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly."
-	]
-	quest.28BF66D1B8CD4D44.quest_subtitle: "Broom Broom"
-	quest.28BF66D1B8CD4D44.title: "&cBlood &dBrooms"
 	quest.28D9ED74EBBC9818.quest_subtitle: "Summons Wilden or the Wilden Chimera boss"
 	quest.28D9ED74EBBC9818.title: "Ritual of Wilden Summon"
 	quest.28DCE90BEC87C38B.quest_desc: ["The &6Matter Transmitter&r sends players and entities to a linked &eMatter Receiver&r. It consumes RF based on distance."]
@@ -2243,12 +2097,6 @@
 	quest.2906F93A803800C4.quest_desc: ["High-capacity power generation. Requires Blaze Burner heating water in tank below."]
 	quest.2906F93A803800C4.title: "Steam Engine"
 	quest.290F943A1FF52070.quest_subtitle: "Projectiles continue after hitting targets"
-	quest.290FAB3DE8FD04E7.quest_desc: [
-		"Holding right click will charge up the Mace to do an AoE attack using &cBlood&r. Sneak-right clicking will change the power level."
-		""
-		"The higher the power level, the more damage it will do at a higher cost of Blood."
-	]
-	quest.290FAB3DE8FD04E7.title: "Mace of Destruction"
 	quest.29239EED0DD0D0F9.quest_desc: ["Create Slice & Dice. Automates Farmer's Delight cutting board recipes. Insert a knife and feed items below."]
 	quest.29239EED0DD0D0F9.title: "Slicer"
 	quest.2936772C62839EF2.quest_desc: [
@@ -2460,14 +2308,6 @@
 	quest.2CA3707BEE2E3C0D.subtitle: "Convert: Diamond Bee + Netherite Block"
 	quest.2CA3707BEE2E3C0D.title: "Ancient Bee"
 	quest.2CA4D7253DA1825F.quest_subtitle: "Spawned using a Wood Nest"
-	quest.2CB69634F6A6E53E.quest_desc: [
-		"&0Dark Temples&r are hard to miss, considering they have a massive beam of light coming from the center."
-		""
-		"In the center of the &9Dark Temple&r is an &aEnvironmental Accumulator&r."
-		""
-		"We can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"
-	]
-	quest.2CB69634F6A6E53E.title: "&l&0Dark Temples"
 	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
 	quest.2CD1B2BCEDA0D473.quest_subtitle: "Exchanges blocks or swaps entity locations"
@@ -2580,8 +2420,6 @@
 	quest.2F5C5077D91E9A8F.title: "Plastic"
 	quest.2F894CE5ABDEC1E0.quest_desc: ["Standard will storage for most recipes. Keeps a good reserve of demon will."]
 	quest.2F894CE5ABDEC1E0.title: "Common Tartaric Gem"
-	quest.2F9B0C642A6BE30C.quest_desc: ["Increased storage capacity and upgrade slots."]
-	quest.2F9B0C642A6BE30C.title: "Iron Backpack"
 	quest.2FA6B8A1C8713DE0.quest_subtitle: "Tier 6 - Nether Star"
 	quest.2FA6B8A1C8713DE0.title: "&5Insanium Farmland"
 	quest.2FB231069D2E4E77.quest_desc: [
@@ -2591,9 +2429,6 @@
 	]
 	quest.2FB231069D2E4E77.quest_subtitle: "The first kilobyte."
 	quest.2FB231069D2E4E77.title: "Creating your first Storage Cell"
-	quest.2FC15D3916DBF4E4.quest_desc: ["Void with customizable filters and conditions."]
-	quest.2FC15D3916DBF4E4.quest_subtitle: "More Filtering Options"
-	quest.2FC15D3916DBF4E4.title: "Advanced Void Upgrade"
 	quest.2FD22502E6481269.quest_desc: [
 		"The &bTrinity Gem&f is a powerful artifact combining three aspects of spirit energy."
 		""
@@ -2757,14 +2592,6 @@
 	quest.31D6A013A56FD991.title: "RFTools Control"
 	quest.31ED0C236C41A837.quest_subtitle: "Feed a Lava Bucket to a Magmatic Bee"
 	quest.31ED0C236C41A837.title: "Lava Bee"
-	quest.31FD9EA513E0D010.quest_desc: [
-		"&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!"
-		""
-		"Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r."
-		""
-		"To get started, find yourself some &9Dark Gems&r."
-	]
-	quest.31FD9EA513E0D010.title: "&aWelcome to &cEvilCraft&r!"
 	quest.321FA7348E532F4E.quest_desc: [
 		"You've collected your first bucket of Latex!"
 		""
@@ -2809,8 +2636,6 @@
 	quest.3367722CDC81746D.title: "Reinforced Slates"
 	quest.3384308C78D86059.quest_subtitle: "Tier: &a2"
 	quest.3384308C78D86059.title: "Chicken Seeds"
-	quest.33882172DA8021F6.quest_desc: ["Keeps your hotbar stocked from backpack contents."]
-	quest.33882172DA8021F6.title: "Refill Upgrade"
 	quest.339DF320DDCAD98B.quest_desc: [
 		"Industrial Foregoing provides its own item and fluid transport systems."
 		""
@@ -2819,8 +2644,6 @@
 	quest.339DF320DDCAD98B.title: "Item & Fluid Transport"
 	quest.33A0E06FE5CFD8F3.quest_desc: ["The &9Centrifuge&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must. This is a faster Centrifuge that runs off of power!\\n\\nIf you're looking for the best way to process your Combs, the &cHeated Centrifuge&r is even faster and processes &aComb Blocks&r instead of Combs!\\n\\nThese can all be made faster by using Speed Upgrades."]
 	quest.33A0E06FE5CFD8F3.quest_subtitle: "Processing Honeycombs"
-	quest.33AADC1B97E9F7A9.quest_desc: ["Mobile storage on rails. Useful for automated item transport systems."]
-	quest.33AADC1B97E9F7A9.title: "Chest Minecart"
 	quest.33ADE41526C39AFD.quest_desc: [
 		"The &bVoid Card&f is an upgrade for storage cells that automatically destroys any items that would overflow the cell's capacity."
 		""
@@ -2901,12 +2724,6 @@
 	quest.35EAB77C195E594E.title: "Amethyst Bee"
 	quest.35F1B16A45AEBD5A.quest_desc: ["Connects to small cogwheels for speed changes. Large-to-small doubles speed, halves torque."]
 	quest.35F1B16A45AEBD5A.title: "Large Cogwheel"
-	quest.35FA55BE8DF49EE8.quest_desc: [
-		"Using the power of a slain &9Vengeance Spirit&r, we can use the Blood Infuser to create &dGarmonbozia&r."
-		""
-		"This is &dPain&r and &dSorrow&r materialized. It's also the high-end crafting material for powerful tools and items in EvilCraft."
-	]
-	quest.35FA55BE8DF49EE8.title: "&dGarmonbozia"
 	quest.35FE9C3395491433.quest_subtitle: "Spawn egg only | Flower: Compressed Iron Block"
 	quest.35FE9C3395491433.subtitle: "Spawn egg only | Flower: Compressed Iron Block"
 	quest.35FE9C3395491433.title: "Compressed Iron Bee"
@@ -2941,9 +2758,6 @@
 	quest.369D3AF332181DA8.quest_subtitle: "Lures Bees in any Overworld Biome"
 	quest.369DADE3B3D8416F.quest_desc: ["Evaporate water to brine, then to &elithium&r. Activate lithium in the &bSolar Neutron Activator&r to produce &etritium&r. Second fusion fuel component. Requires direct sunlight for activation."]
 	quest.369DADE3B3D8416F.title: "Tritium Production"
-	quest.36BCE35215B2B6E9.quest_desc: ["Automatically cooks food in the backpack."]
-	quest.36BCE35215B2B6E9.quest_subtitle: "Automatic"
-	quest.36BCE35215B2B6E9.title: "Auto-Smoking Upgrade"
 	quest.36CC2FDFA6671640.quest_desc: ["Transmits rotation across gaps without contact. Can be placed diagonally."]
 	quest.36CC2FDFA6671640.title: "Encased Chain Drive"
 	quest.36F87173D8CD1D68.quest_desc: [
@@ -3091,9 +2905,6 @@
 	quest.39E78598D288D80B.quest_subtitle: "Breed: Yellow Pigment + Dark Blue Pigment"
 	quest.39E78598D288D80B.subtitle: "Breed: Yellow Pigment + Dark Blue Pigment"
 	quest.39E78598D288D80B.title: "Dark Green Pigment Bee"
-	quest.3A1D07AED2A841E4.quest_desc: ["Automatically smelts items placed in the backpack."]
-	quest.3A1D07AED2A841E4.quest_subtitle: "Automatic"
-	quest.3A1D07AED2A841E4.title: "Auto-Smelting Upgrade"
 	quest.3A44DCF5B7D5024C.quest_subtitle: "Opens your ender chest from anywhere"
 	quest.3A4B5A9B432576AD.quest_subtitle: "Tier 5 - Accelerates Growth"
 	quest.3A4B5A9B432576AD.title: "&6Awakened Supremium Watering Can"
@@ -3276,8 +3087,6 @@
 		"To create Spawn Eggs, you'll need to combine the gene of the bee you want with a honey treat, then use that honey treat in this machine with an egg to create the new spawn egg.\\n\\nGenes can be combined for a maximum of 100% purity, which will give you a 100% chance to convert an Egg to a Bee Spawn Egg."
 	]
 	quest.3E301F3EEC8C763A.quest_subtitle: "Baby Bee Daycare"
-	quest.3E33730DC2115D26.quest_desc: ["Larger capacity and more upgrade slots than iron tier."]
-	quest.3E33730DC2115D26.title: "Gold Tier"
 	quest.3E3DF8E967D95DB0.quest_desc: [
 		"When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r!"
 		""
@@ -3321,9 +3130,6 @@
 	quest.3FD702B5AB006402.title: "Belt of Levitation"
 	quest.3FDA3EB4BC514C5A.quest_desc: ["Fills items with fluid. Place over belt or depot. Auto-fills bottles and buckets."]
 	quest.3FDA3EB4BC514C5A.title: "Spout"
-	quest.4007DFA7CC3A5FF2.quest_desc: ["Required crafting component for all storage upgrades. See the backpack upgrades section for functionality - storage upgrades work the same way."]
-	quest.4007DFA7CC3A5FF2.quest_subtitle: "The Base for Upgrades"
-	quest.4007DFA7CC3A5FF2.title: "Storage Upgrade Base"
 	quest.401BB95B740385B7.title: "Holy Upgrade Orb"
 	quest.40407D2CDC660866.quest_subtitle: "Destroys monsters for double experience"
 	quest.40407D2CDC660866.title: "Ritual of Disintegration"
@@ -3340,12 +3146,6 @@
 		"Used in several advanced recipes."
 	]
 	quest.408203C29BAABA44.title: "Pink Slime Ingot"
-	quest.40888A2C17D8FFF6.quest_desc: [
-		"Using the Blood Infuser, you can create &cUndead Saplings&r that grow into &dUndead Trees&r."
-		""
-		"The logs and planks are useful for creating several tools and items within EvilCraft."
-	]
-	quest.40888A2C17D8FFF6.title: "Undead Trees"
 	quest.409A92D40F539485.quest_subtitle: "Tier: &e1"
 	quest.409A92D40F539485.title: "Wood Seeds"
 	quest.40B13424FA523E11.quest_subtitle: "Tier: &a2"
@@ -3537,8 +3337,6 @@
 	quest.445CC9AAA6F8AAB6.title: "Tier 2 Processing"
 	quest.447CAC472A99835B.quest_subtitle: "Spawns from a Snow Nest"
 	quest.44D5ABE34271D7FE.quest_subtitle: "Increases damage from debuffs"
-	quest.45268A619787288F.quest_desc: ["More capacity and upgrade slots than iron."]
-	quest.45268A619787288F.title: "Gold Backpack"
 	quest.4526E151BAE88310.quest_subtitle: "Tier: &e1"
 	quest.4526E151BAE88310.title: "Dirt Seeds"
 	quest.4578C0EE82F66BD9.quest_desc: [
@@ -3574,8 +3372,6 @@
 	quest.460A8F17F3ED6CAF.quest_subtitle: "The first MEGAbyte."
 	quest.460A8F17F3ED6CAF.title: "1M Storage Component"
 	quest.46469E3A8AF0CB80.quest_subtitle: "Applies silk-touch effect to Break"
-	quest.46D756F4DC6CC894.quest_desc: ["Maximum capacity. Fireproof and survives lava."]
-	quest.46D756F4DC6CC894.title: "Netherite Backpack"
 	quest.46DB421290C57404.quest_desc: [
 		"Craft an &3Omnidirectional Hopper&r, a &3Liquid Hopper&r, and a &3Transfer Gadget&r. These are PneumaticCraft's item and fluid movement tools."
 		""
@@ -3712,8 +3508,6 @@
 	quest.495B0CC178B4CFA9.quest_desc: ["The &eBrass Funnel&r is placed and used similar to the &eAndesite Tunnel&r. \\n\\nBut each side comes with new configs! \\n\\nThe Input Side will now come with a Filter option. Just place the &eItem&r in, and it will only take in that &eItem&r. \\n\\nThe Output Side will now come with a limit. You can Scroll to set a number from 1 to 64. You can also choose whether it will Output exactly that amount, or up to that amount. \\n\\nIf it is exactly that amout, it will wait until that amount is within the Inventory to Output it. If it is up to, it will keep Outputting &eItems&r until that number is reached."]
 	quest.495B0CC178B4CFA9.title: "&eBrass Funnel"
 	quest.496639EC3DC0165C.quest_subtitle: "Harvests crops without destroying them"
-	quest.4978A9B616362CCE.quest_desc: ["Upgrade to Tier 2 promises to unlock even more powerful machine upgrades and recipes."]
-	quest.4978A9B616362CCE.title: "&aRank 2&r: More &cBlood"
 	quest.498A4DE25BE1B639.quest_subtitle: "Breed: Protactinium + Radioactive"
 	quest.498A4DE25BE1B639.subtitle: "Breed: Protactinium + Radioactive"
 	quest.499260F476EB4861.quest_desc: [
@@ -3757,8 +3551,6 @@
 	quest.4A59DF02128DA9F3.title: "Craft Pearl Endshelf"
 	quest.4A76477679BB6223.quest_desc: ["&6RFTools Power&r provides RF generation and storage solutions ranging from &eBlazng Generators&r to advanced &eEndergenic Reactors&r and dimensional power transfer."]
 	quest.4A76477679BB6223.title: "RFTools Power"
-	quest.4A854CD5EC70733E.quest_desc: ["Adds portable crafting grid to the backpack."]
-	quest.4A854CD5EC70733E.title: "Crafting Upgrade"
 	quest.4A86BF284E35C5B4.quest_desc: ["Transfers items between marked inventories. Select inputs/outputs with wrench. Fast item routing."]
 	quest.4A86BF284E35C5B4.title: "Mechanical Arm"
 	quest.4A8C60412E59E971.quest_desc: [
@@ -3795,9 +3587,6 @@
 		"The Tier 2 altar requires 8 runes placed in a ring around the altar at the same level. Check the guide book for exact placement patterns."
 	]
 	quest.4B51189C36B8D291.title: "Tier 2 Altar"
-	quest.4B62AF0405F68041.quest_desc: ["Shift-right-click containers to pull items matching your inventory."]
-	quest.4B62AF0405F68041.quest_subtitle: "All Stocked up"
-	quest.4B62AF0405F68041.title: "Restock Upgrade"
 	quest.4B7C4A5BC6F47C35.quest_desc: [
 		"The Book of Recycling breaks down crafted items into their original ingredients."
 		""
@@ -3821,15 +3610,8 @@
 		""
 		"Make sure to check JEI and the &9Big Book of Bees&r for more info!"
 	]
-	quest.4C0BDD483CCB40C4.quest_desc: ["High-capacity storage with multiple upgrade slots."]
-	quest.4C0BDD483CCB40C4.title: "Diamond Tier"
-	quest.4C0EAB9F795686D0.quest_desc: ["Deposit with configurable filters."]
-	quest.4C0EAB9F795686D0.quest_subtitle: "More Filtering Options"
-	quest.4C0EAB9F795686D0.title: "Advanced Deposit Upgrade"
 	quest.4C203BC3F546D27A.quest_subtitle: "Breed: Dark Blue Pigment + Red Pigment"
 	quest.4C203BC3F546D27A.subtitle: "Breed: Dark Blue Pigment + Red Pigment"
-	quest.4C2A60FC1F1E0328.quest_desc: ["Adds internal energy storage. Powers items in the backpack."]
-	quest.4C2A60FC1F1E0328.title: "Battery Upgrade"
 	quest.4C2A687463212B04.quest_desc: ["Attaches blocks for rotational contraptions. Configure radius with wrench. Core of windmills."]
 	quest.4C2A687463212B04.title: "Radial Chassis"
 	quest.4C31649D721F76B5.quest_desc: ["The &6Mechanical Harvester&r will automatically Farm Mature Crops, and Replant them. \\n\\nObviously it has to be moved by a &aContraption&r to work. \\n\\nIt will also automatically place the collected Crops into Inventories connected to the &aContraption&r. If not, it will drop the Crops on the ground."]
@@ -3915,8 +3697,6 @@
 	]
 	quest.4D6872FE72705AC7.quest_subtitle: "Energy Conservation"
 	quest.4D6872FE72705AC7.title: "Stamina Management"
-	quest.4D7B6842B9F53459.quest_desc: ["The Effortless Ring gives you a speed boost and step height!"]
-	quest.4D7B6842B9F53459.title: "Effortless Ring"
 	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better."]
 	quest.4DB5DD6E20619B4D.title: "Upgrades"
 	quest.4DE3337CD7C3F64D.quest_desc: [
@@ -3932,9 +3712,6 @@
 		"Kill passive mobs with this knife to harvest special components like tallow and bones."
 	]
 	quest.4DF0D7B85065ADC9.title: "Butcher Knife"
-	quest.4DF7E2149F4BD8CC.quest_desc: ["To insert the desired potion, just right click with the &2Primed Pendant&r in hand to open its inventory."]
-	quest.4DF7E2149F4BD8CC.quest_subtitle: "Applies Potion Effects"
-	quest.4DF7E2149F4BD8CC.title: "Primed Pendant"
 	quest.4E0976E1DAF65FC9.quest_subtitle: "Digs four holes to bedrock"
 	quest.4E0976E1DAF65FC9.title: "Ritual of Burrowing"
 	quest.4E09BBC0BAED3440.quest_subtitle: "Tier: &b4"
@@ -3970,8 +3747,6 @@
 		"Place a wet lava sponge in the overworld or use water to dry it out for reuse. Essential for draining lava pools."
 	]
 	quest.4EB555D995329F96.title: "Lava Sponge"
-	quest.4EBED8ABC8C863A4.quest_desc: ["Upgrade to Tier 3 promises for the most powerful EvilCraft machine capabilities."]
-	quest.4EBED8ABC8C863A4.title: "&aRank 3&r: Even More &cBlood"
 	quest.4EDD96EB60EF5814.quest_desc: ["Upgraded solar panel with significantly higher output. Also provides heat bonus when placed on &bThermal Evaporation Plant&r corners. More expensive but much more efficient."]
 	quest.4EDD96EB60EF5814.title: "Advanced Solar Generator"
 	quest.4EE10B8E194F5CA9.quest_desc: ["&6&lCreate&r 1.21 also now comes with Trains included with the base Mod. \\n\\nFirst, you'll need &5Sturdy Metal&r! \\n\\nCrush &5Obsidian&r to get &5Obsidian Dust&r. Then, use a &bSpout&r to place &cLava&r into the &5Crushed Obsidian&r. \\n\\nAfter that, Press it twice with &6Mechanical Presses&r and you'll get &5Sturdy Metal&r. \\n\\n&5Sturdy Metal&r can then be applied to a &eBrass Casing&r to make &5Train Casings&r."]
@@ -4254,14 +4029,11 @@
 	quest.51691128A52F5B25.quest_desc: ["Transfers fluids to moving contraptions. Same mechanics as storage interface."]
 	quest.51691128A52F5B25.title: "Portable Fluid Interface"
 	quest.516E80B59105117A.quest_desc: [
-		"&6Mighty Mail&r adds mailboxes for cross-distance item transfer between players."
+		"The &6Mighty Mail&r adds mailboxes for cross-distance item transfer between players."
 		""
-		"Place your mailbox and use it to send items to other players' mailboxes. On multiplayer servers, this enables item trading without meeting in person."
-		""
-		"Your starter mailbox is provided as a quest reward."
+		"Place your mailbox and use it to send items to other players' mailboxes. On multiplayer servers, this enables item trading without having to deliver it in person."
 	]
-	quest.516E80B59105117A.quest_subtitle: "Mighty Mail"
-	quest.516E80B59105117A.title: "The Mail"
+	quest.516E80B59105117A.title: "The Mighty Mail"
 	quest.5186CB4CD85B530C.quest_desc: ["Consumes potions to generate power for the Mycelial Reactor."]
 	quest.5186CB4CD85B530C.title: "Mycelial Potion Generator"
 	quest.5194A067BEA98E79.quest_desc: ["Process nuclear waste in the &bIsotopic Centrifuge&r to extract &eplutonium&r. Waste from fission reactors is the input. Plutonium is used for advanced fuel and antimatter production."]
@@ -4269,14 +4041,6 @@
 	quest.51A57E142C686C8F.quest_desc: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
 	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
 	quest.51A57E142C686C8F.title: "256M Storage Component"
-	quest.51B24CC5E9332C1E.quest_desc: [
-		"Sometimes when you kill a mob, a &dVengeance Spirit&r will spawn."
-		""
-		"Their &dEssence&r seems to be useful in crafting more advanced items within EvilCraft."
-		""
-		"Not finding many Spirits? Make a &9Vengeance Ring&r and toggle it on to attract more Spirits during your battles."
-	]
-	quest.51B24CC5E9332C1E.title: "Revenge of the &dSpirits"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually?"
 		""
@@ -4296,22 +4060,12 @@
 	quest.523853C1C4E688BA.quest_desc: ["The fourth tier of storage component, providing &e65536&f bytes of storage."]
 	quest.523853C1C4E688BA.quest_subtitle: "x4^3"
 	quest.523853C1C4E688BA.title: "64k Storage Component"
-	quest.525517F1625A9BCB.quest_desc: [
-		"Did a mob hit the floor too hard and get its &cBlood&r everywhere? Oh no!"
-		""
-		"You can use a &cSanguinary Pedestal&r to absorb that precious &cBlood&r for later use!"
-		""
-		"Want to automate collecting blood? Place a &9Spiked Plate&r on top of the Pedestal, then have a mob stand on it."
-	]
-	quest.525517F1625A9BCB.title: "&aCollecting &cBlood Stains"
 	quest.525F25F4ADE45B50.quest_desc: [
 		"The &bME Formation Plane&f acts similarly to the Storage Bus, but treats the world itself as its storage medium. In other words, it will place down any block in its filter directly in front of itself."
 		""
 		"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
 	]
 	quest.525F25F4ADE45B50.quest_subtitle: "GET OUT"
-	quest.52672B7FFFD51D16.quest_desc: ["Adds stonecutter interface to the backpack."]
-	quest.52672B7FFFD51D16.title: "Stonecutter Upgrade"
 	quest.52B22C07818981D0.quest_subtitle: "Breed: Copper + Nickel"
 	quest.52B22C07818981D0.subtitle: "Breed: Copper + Nickel"
 	quest.52B22C07818981D0.title: "Constantan Bee"
@@ -4824,9 +4578,6 @@
 	quest.53DEA3DFEDC4809E.title: "Marid Summoning"
 	quest.53E929BF89209CFC.quest_desc: ["Automate item transfer to/from QIO storage. &7Importers&r pull from adjacent inventories into QIO. &7Exporters&r push from QIO to adjacent inventories. Configure filters for selective transfer."]
 	quest.53E929BF89209CFC.title: "QIO Import/Export"
-	quest.53F861876B991C36.quest_desc: ["Play music discs from your backpack while traveling."]
-	quest.53F861876B991C36.quest_subtitle: "Now we're jammin"
-	quest.53F861876B991C36.title: "Jukebox Upgrade"
 	quest.540B857F043C24D5.quest_desc: ["The Bioreactor uses Biofuel made from the Biofuel Generator to generate FE."]
 	quest.540B857F043C24D5.title: "Bio Power"
 	quest.541446863A72B96C.title: "Common Ink"
@@ -4848,8 +4599,6 @@
 	]
 	quest.5442B3AB4A6B017C.quest_subtitle: "Prove your combat basics"
 	quest.5442B3AB4A6B017C.title: "Sword Training: Basics"
-	quest.544791880F315D5A.quest_desc: ["Boat with built-in chest storage. Single rider only when chest is attached."]
-	quest.544791880F315D5A.title: "Chest Boat"
 	quest.548F85EE6B6F1811.quest_desc: [
 		"Just like the Piglins the Apothecarist resembles, he is also Neutral. He doesn't care about Gold like his fellow Piglins though, just people who attack him."
 		""
@@ -4872,14 +4621,6 @@
 	quest.54E0B946BAC13654.title: "Induction Matrix"
 	quest.54EC1C7FC1DA9107.quest_desc: ["&dAdjustable Chain Drives&r work like &dEncased Chain Drives&r, just with more configs. \\n\\nIf we send a &4Redstone Signal&r to the &dAdjustable Chain Drive&r that the original &8Shaft&r is connected to, the other &dChain Drive &8Shafts&r will double in Speed! \\n\\nIf we send one to a different &dChain Drive&r though, the Speed of that &dChain Drive&r will be cut in half!"]
 	quest.54EC1C7FC1DA9107.title: "&dAdjustable Chain Drive"
-	quest.5501000000000001.quest_desc: ["Find a Book to receive the Worn Notebook, your guide to Ars Nouveau. This guidebook explains all mechanics, recipes, and progression."]
-	quest.5501000000000001.title: "Worn Notebook"
-	quest.5501000000000002.quest_desc: ["Craft your first Spell Book. Holds up to 5 spell slots. Open the spell crafting interface with Shift+Right-Click."]
-	quest.5501000000000002.title: "Novice Spell Book"
-	quest.5501000000000003.quest_desc: ["Find Archwood trees in magical forest biomes. Any color works: Blue, Green, Red, or Purple. These logs are required for most Ars crafting."]
-	quest.5501000000000003.title: "Archwood Log"
-	quest.5501000000000004.quest_desc: ["The Scribe's Table creates Glyphs from items and experience. Place it near your crafting area. Glyphs are spell components that define what your spells do."]
-	quest.5501000000000004.title: "Scribe's Table"
 	quest.55186B8602689B66.quest_desc: [
 		"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
 		""
@@ -4932,7 +4673,11 @@
 		"Using a Gold Hook or Luck of the Sea enchantment increases your chances of finding lockboxes."
 	]
 	quest.55D95800839B5164.title: "Lockbox Discovery"
-	quest.566C1DBA9829E328.quest_desc: ["Recombines dusts or processed materials back into ore blocks. Useful for storage, decoration, or reversing accidental processing. Consumes cobblestone as a binding material."]
+	quest.566C1DBA9829E328.quest_desc: [
+		"Recombines dusts or processed materials back into ore blocks. Useful for storage, decoration, or reversing accidental processing. Consumes cobblestone as a binding material."
+		""
+		"This is hands-down &4the worst&r mekanism machine by utility comparison."
+	]
 	quest.566C1DBA9829E328.title: "Combiner"
 	quest.56806BFCA37D8D98.quest_desc: [
 		"Craft a &3Pneumatic Jackhammer&r with a &3Diamond Drill Bit&r. The jackhammer is a pressure-powered mining tool that can be upgraded with better bits for increased speed and area."
@@ -4955,9 +4700,6 @@
 	quest.569C93853F967B46.title: "Glove Mastery: Meteor Slam"
 	quest.56B58CAFCB707565.quest_subtitle: "Tier: &63"
 	quest.56B58CAFCB707565.title: "Tin Seeds"
-	quest.56B80A7EBFE21428.quest_desc: ["Enhanced pump with filtering options."]
-	quest.56B80A7EBFE21428.quest_subtitle: "More Filtering Options"
-	quest.56B80A7EBFE21428.title: "Advanced Pump Upgrade"
 	quest.56C4D4FA388942A0.quest_desc: [
 		"Craft a &3Heat Frame&r. This upgrade attaches to any inventory and applies heat-based processing to items inside. It can smelt items, cook food, or cool fluids depending on temperature."
 		""
@@ -4981,8 +4723,6 @@
 		"Armadillo scutes, rabbit feet, pointed dripstone, and wool are used in the cruelty-themed rituals."
 	]
 	quest.56EC79AF11B0869E.title: "Cruelty Ritual"
-	quest.56FB82DEB944F758.quest_desc: ["Works like the &aMace&r, except it causes an AoE explosion instead."]
-	quest.56FB82DEB944F758.title: "Mace of Distortion"
 	quest.5706B5BFF072EBFC.quest_desc: [
 		"Build an &3Aerial Interface&r. This advanced machine connects to a player and can automatically recharge worn pneumatic equipment. Place it in your base, link it to yourself, and your armor will never run dry."
 		""
@@ -5038,9 +4778,6 @@
 	]
 	quest.57C4A0BAE739E903.quest_subtitle: "The Crafting Table?"
 	quest.57C4A0BAE739E903.title: "Dissolution Chamber"
-	quest.57CF8C6C867B9BDA.quest_desc: ["Enhanced filter with more slots and matching options."]
-	quest.57CF8C6C867B9BDA.quest_subtitle: "More Filtering Options"
-	quest.57CF8C6C867B9BDA.title: "Advanced Filter Upgrade"
 	quest.57E119F749A324F7.quest_desc: [
 		"Craft a &3Reinforced Chest&r. A blast-resistant storage container made from reinforced stone."
 		""
@@ -5061,9 +4798,6 @@
 	quest.5831B3192C0E8C56.title: "Remote Access"
 	quest.5849581C68C6B160.quest_subtitle: "Spawn egg only | Flower: Any flowers"
 	quest.5849581C68C6B160.subtitle: "Spawn egg only | Flower: Any flowers"
-	quest.58514FDE153FD971.quest_desc: ["Increased storage capacity. First major upgrade from basic tier."]
-	quest.58514FDE153FD971.quest_subtitle: "Iron Chests?"
-	quest.58514FDE153FD971.title: "Iron Tier"
 	quest.5867713D016143A6.quest_subtitle: "Spawn egg only | Flower: Source Gem Block"
 	quest.5867713D016143A6.subtitle: "Spawn egg only | Flower: Source Gem Block"
 	quest.5867713D016143A6.title: "Arcane Bee"
@@ -5114,14 +4848,6 @@
 	]
 	quest.5901453EC75161E6.quest_subtitle: "Classical Designs"
 	quest.5901453EC75161E6.title: "Ancient Armor Styles"
-	quest.59036A2741E7A8AA.quest_desc: [
-		"Want to create a Spawn Egg from the spirit you have trapped in that box?"
-		""
-		"The &9Spirit Reanimator&r does exactly that. Give it a lot of &cBlood&r and an Egg, and of course a &9Box of Eternal Closure&r with the Spirit you want to create the Spawn Egg from, and it will attempt to create the Spawn Egg!"
-		""
-		"Note: Some mobs cannot be used to create Spawn Eggs."
-	]
-	quest.59036A2741E7A8AA.title: "&aCreating &9Spawn Eggs"
 	quest.593CB120B657126C.quest_desc: ["Stores nuclear waste from fission reactors. Waste slowly decays over time. Keep away from living areas. Can be processed further for plutonium and polonium production."]
 	quest.593CB120B657126C.title: "Radioactive Waste Barrel"
 	quest.594F6ED00D1619EE.quest_subtitle: "Tier: &a2"
@@ -5172,14 +4898,6 @@
 	quest.5A1B2C3D4E5F6071.quest_subtitle: "The Mercenary's Helm"
 	quest.5A1B2C3D4E5F6071.title: "Sallet Armor"
 	quest.5A58D4B25C9CB757.title: "&6Awakened Supremium Tools"
-	quest.5A8F4CA0F09F4842.quest_desc: [
-		"Need to remove &dEnchantments&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &cPurifier&r."
-		""
-		"To do this, first place at least 3 buckets worth of blood into the Purifier, then throw in the item you want to remove an enchantment from."
-		""
-		"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
-	]
-	quest.5A8F4CA0F09F4842.title: "Removing &dEnchantments&r and &dCurses"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
 		"Naturally, AE2 provides its own way to dramatically speed up crystal growth."
 		""
@@ -5410,16 +5128,6 @@
 		"It requires Weak Tau Oil and additional processing in the ARC."
 	]
 	quest.5E2D15E4A410B5DA.title: "Strong Tau Oil"
-	quest.5E4BC0F59C90433A.quest_desc: [
-		"Upgradeable storage containers that accept functional upgrades. Craft a basic chest or barrel to start."
-		""
-		"Higher tier containers hold more items and support more upgrade slots."
-	]
-	quest.5E4BC0F59C90433A.quest_subtitle: "Vanilla Chest"
-	quest.5E4BC0F59C90433A.title: "Sophisticated Storage"
-	quest.5E4FE420B6D2C97F.quest_desc: ["Compacts using both 2x2 and 3x3 recipes."]
-	quest.5E4FE420B6D2C97F.quest_subtitle: "More Filtering Options"
-	quest.5E4FE420B6D2C97F.title: "Advanced Compacting Upgrade"
 	quest.5E6585F7627247E3.quest_desc: [
 		"When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item."
 		""
@@ -5489,8 +5197,6 @@
 	quest.5F7A07D0F71044D2.quest_subtitle: "Reduces duration of spell effects"
 	quest.5F8017F8DE749DF1.quest_desc: ["Accelerates plant growth in an area. Costs LP while active."]
 	quest.5F8017F8DE749DF1.title: "Green Grove Sigil"
-	quest.5FA9BC0D8476D322.quest_desc: ["Automatically feeds you food from the backpack when hungry."]
-	quest.5FA9BC0D8476D322.title: "Feeding Upgrade"
 	quest.5FD4F40CEC37D9FD.quest_desc: [
 		"The Library of Alexandria (Ender Library) is the ultimate enchanted book storage. While the standard Library holds 32,768 points per enchantment, the Library of Alexandria holds over 1 billion. "
 		""
@@ -5507,8 +5213,6 @@
 	quest.5FE631066CAB7397.title: "Mob Imprisonment Tool"
 	quest.5FFB378EE44A660B.quest_desc: ["Requires Tier 3 altar and 5,000 LP. Unlocks rituals, ARC, and advanced sigils."]
 	quest.5FFB378EE44A660B.title: "Imbued Slates"
-	quest.600F66B13B29708B.quest_desc: ["Either with the flesh of &aPlayers&r or &dWerewolves&r, you can create an &aInfinite Food Source&r using the power of Garmonbozia!"]
-	quest.600F66B13B29708B.title: "Flesh Rejuvenated"
 	quest.602A6CF9D5B66AD3.quest_desc: ["Crystallizes clean slurry back into solid ore crystals. Also crystallizes &elithium&r, &eantimatter&r, and other chemicals into solid form. Versatile endgame machine."]
 	quest.602A6CF9D5B66AD3.title: "Chemical Crystallizer"
 	quest.603BEDD49070ECAD.quest_desc: ["Converts between liquid and gas forms of the same substance. Use to liquefy &ehydrogen&r, gasify &9water&r to vapor, or process reactor coolants. Toggle mode with the button in the GUI."]
@@ -5563,8 +5267,6 @@
 		"Each perk can be upgraded multiple times."
 	]
 	quest.6151F0EC743C9C89.title: "Unlocking a Perk"
-	quest.615B9062FE8CCD36.quest_desc: ["Auto-swaps to the best tool for the block you're mining."]
-	quest.615B9062FE8CCD36.title: "Tool Swapper Upgrade"
 	quest.615C3E012B2DECD3.quest_desc: [
 		"Spellbooks! Where else would you put Spells?"
 		""
@@ -5637,14 +5339,6 @@
 	]
 	quest.629B52A6F11DB493.quest_subtitle: "Honor in Steel"
 	quest.629B52A6F11DB493.title: "Diamond Samurai Set"
-	quest.62A262A706CFCAF0.quest_desc: [
-		"We won't be creating Dark Power Gems using pools of blood anymore."
-		""
-		"Instead, we can make the &9Blood Infuser&r to do all of the messy work for us. This allows you to directly infuse items with blood!"
-		""
-		"These can be upgraded using &6Promises&r as well. This is one of the main machines used for progression!"
-	]
-	quest.62A262A706CFCAF0.title: "&aThe &cBlood Infuser"
 	quest.62A9FD6138446A17.quest_subtitle: "Decreases the power of spells"
 	quest.62B29AEF8468750E.quest_desc: ["Generates power from heat. Stand in lava or fire to charge suit. Passive power generation while exploring hot areas."]
 	quest.62B29AEF8468750E.quest_subtitle: "Chestplate"
@@ -5655,12 +5349,6 @@
 		"Deepshelves provide 5 &aEterna&r (max 60), 10% &4Quanta&r, and 10% &5Arcana&r. From here, both paths continue into Sculk-tier progression."
 	]
 	quest.62B2C1A24AE245EA.title: "Infuse Deepshelf"
-	quest.62CE0FFAF6352287.quest_desc: [
-		"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
-		""
-		"To do this, we need to create a &6Promise of Tenacity: Tier 1&r. Generally, this just increases the storage capacity of a machine. For the Blood Infuser, this will unlock more recipes!"
-	]
-	quest.62CE0FFAF6352287.title: "&aUpgrading Machines"
 	quest.62D04566426DD979.quest_desc: [
 		"Watering Cans manually accelerate crop growth."
 		""
@@ -5704,9 +5392,6 @@
 		"There's 8 different classes (1 secret one) each having their own Scrolls, Focus Material, Upgrades, and Outfits."
 	]
 	quest.639531AB27DCD267.title: "Classes"
-	quest.63AE4568375DD1BF.quest_desc: ["With &dGarmonbozia&r, we can now create our own &aEnvironmental Accumulator&r."]
-	quest.63AE4568375DD1BF.quest_subtitle: "Your Own Environmental Accumulator"
-	quest.63AE4568375DD1BF.title: "Sanguinary Environmental Accumulator"
 	quest.63B0E39CA4B25A7E.quest_desc: ["Auto-feeds using nutritional paste. Store paste in helmet, automatically consumes when hungry. Eliminates manual eating."]
 	quest.63B0E39CA4B25A7E.quest_subtitle: "Helmet"
 	quest.63B0E39CA4B25A7E.title: "Nutritional Injection Module"
@@ -5787,14 +5472,6 @@
 		"Right-click the cutting board with fish, then use your knife to process them."
 	]
 	quest.64E204F9261DF6B0.title: "The Cutting Board"
-	quest.64EC182B81BD8B86.quest_desc: [
-		"To progress, we'll need to create our first &5Dark Power Gem&r."
-		""
-		"To do this, you'll need to collect at least 5 buckets worth of blood in your &aBlood Extractor&r. Once collected, make a hole with at least 5 blocks of space, and then fill it with the blood."
-		""
-		"Once you've created your pool of blood, toss in a &9Dark Gem&r to infuse it."
-	]
-	quest.64EC182B81BD8B86.title: "&dInfusing Gems with&r &cBlood"
 	quest.64FF7118E29931C0.quest_desc: ["Before we get into the many &eItems&r we can get from the &6Millstone&r, let's talk about how to use it! \\n\\nFirst, it will need some &dRotational Power&r, don't worry it only needs a little. \\n\\nThen, you'll need to Drop the &eItem&r you want &6Milled&r, into the top of the &6Millstone&r. After it gets &6Milled&r, just Right Click the &6Millstone&r to take out your &eItems&r. \\n\\nNow, what &eItems&r can we get from the &6Millstone&r? We can get Dyes from pretty much every Flower, we can crush &7Stone&r into Gravel or other &7Stone&r like Blocks into similar Gravel Items. You can even get Wheat Flour from Wheat!"]
 	quest.64FF7118E29931C0.title: "&6Millstone"
 	quest.6518480251F0565A.quest_desc: ["Enables Meka-Tool farming functions. Tills soil, plants seeds, and harvests crops. Area effect for efficient farming."]
@@ -5876,8 +5553,6 @@
 	]
 	quest.66861A196EDAF149.quest_subtitle: "Defensive Techniques"
 	quest.66861A196EDAF149.title: "Guard and Block"
-	quest.668C313FF46B6005.quest_desc: ["Adds furnace interface to the backpack."]
-	quest.668C313FF46B6005.title: "Smelting Upgrade"
 	quest.66A450CAC07232E1.quest_desc: ["Transfers heat between machines and heat sources. Connect &bFuelwood Heaters&r or &bResistive Heaters&r to the &bThermal Evaporation Plant&r for faster brine production."]
 	quest.66A450CAC07232E1.title: "Thermodynamic Conductor"
 	quest.66C52B137A4FF869.quest_subtitle: "Tier 4 - Combine 4 Imperium"
@@ -5899,12 +5574,6 @@
 	quest.67482ED4B18F828D.quest_subtitle: "Breed: Iron + Neon Cuckoo Bee"
 	quest.67482ED4B18F828D.subtitle: "Breed: Iron + Neon Cuckoo Bee"
 	quest.67482ED4B18F828D.title: "Osmium Bee"
-	quest.674E2690D66ECD6E.quest_desc: [
-		"When it's a thunderstorm, throwing in a &aWeather Container&r into the &aEnvironmental Accumulator&r will harness the power of the storm."
-		""
-		"Using this, we can create items that allow us to control Lightning at will."
-	]
-	quest.674E2690D66ECD6E.title: "&aYou've Been &9Thunderstruck"
 	quest.67540B9DFCD6F9EE.quest_desc: [
 		"Obtain a Sword Blueprint from Silent Gear to begin training the one-handed sword combat style."
 		""
@@ -5912,8 +5581,6 @@
 	]
 	quest.67540B9DFCD6F9EE.quest_subtitle: "One-handed Sword Style"
 	quest.67540B9DFCD6F9EE.title: "Sword Blueprint"
-	quest.67704F7341EDCC49.quest_desc: ["High-capacity backpack with many upgrade slots."]
-	quest.67704F7341EDCC49.title: "Diamond Backpack"
 	quest.677D0E27CAD7B145.quest_subtitle: "Convert: Pink Slimy Bee + Ether Gas Bucket"
 	quest.677D0E27CAD7B145.subtitle: "Convert: Pink Slimy Bee + Ether Gas Bucket"
 	quest.677D0E27CAD7B145.title: "Ether Gas Bee"
@@ -5953,12 +5620,6 @@
 	quest.67E7A9A65B14C933.title: "Clump Processing"
 	quest.67EF282FA3182369.quest_desc: ["Fast single-seat aircraft. Good speed and maneuverability. Entry-level plane."]
 	quest.67EF282FA3182369.title: "Biplane"
-	quest.68318811CCC28320.quest_desc: [
-		"Combining &cHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
-		""
-		"&9Blood Infusion Cores&r are the main crafting components of several machines in EvilCraft."
-	]
-	quest.68318811CCC28320.title: "&aInfusion Cores"
 	quest.683B58B699D4D381.quest_subtitle: "Spawns in a nest that has a Blue Banded Bee"
 	quest.685C4A646E092A82.quest_subtitle: "Tier 5 Armor"
 	quest.685C4A646E092A82.title: "&6Awakened Supremium Gear"
@@ -6022,8 +5683,6 @@
 		"There you can also find Cauldrons and Brewing Stands with Potions!"
 	]
 	quest.6963EC8A71D66AE3.title: "Mangrove Hut"
-	quest.696E063016CAD1B9.quest_desc: ["Adds Chipped workbench interfaces to the backpack. Access block variants on the go."]
-	quest.696E063016CAD1B9.title: "Chipped Upgrade"
 	quest.69763C2E2F454A73.quest_desc: [
 		"Fire is obviously related to Fire. Most of the Scrolls are with using Fire to burn and hurt things."
 		""
@@ -6082,13 +5741,6 @@
 	quest.6A1C0B17B22CE50F.title: "The Amulets"
 	quest.6A2AD67569F91F1F.quest_subtitle: "Tier: &b4"
 	quest.6A2AD67569F91F1F.title: "Diamond Seeds"
-	quest.6A2B2C5E2ADCE366.quest_desc: [
-		"Portable storage that accepts functional upgrades. Equip in the Curios back slot for hands-free access."
-		""
-		"Backpacks can be dyed and upgraded to higher tiers for more capacity."
-	]
-	quest.6A2B2C5E2ADCE366.quest_subtitle: "Inventories are too Small"
-	quest.6A2B2C5E2ADCE366.title: "Backpack"
 	quest.6A4C49AE72E98727.quest_desc: ["The Tinkering Table is how you add these augments to your essence gear!"]
 	quest.6A4C49AE72E98727.title: "Tinkering Table"
 	quest.6A507BACD41D8D82.quest_desc: ["Catch 5 Tambaqui. A large Amazonian fish found in jungles."]
@@ -6194,9 +5846,6 @@
 	quest.6C7B879451D57C68.quest_desc: ["Catch 5 Synodontis. An African catfish."]
 	quest.6C7B879451D57C68.quest_subtitle: "African Fish"
 	quest.6C7B879451D57C68.title: "Synodontis Collection"
-	quest.6CA1D90CCE17097D.quest_desc: ["The Sceptre of Thunder summons a single lightning bolt at your target location. It can only be used once."]
-	quest.6CA1D90CCE17097D.quest_subtitle: "A One-Time Use Lightning Scepter"
-	quest.6CA1D90CCE17097D.title: "Sceptre of Thunder"
 	quest.6CA3A66921216063.quest_desc: ["Catch 3 Glowdine. Found in the Crimson Forest biome."]
 	quest.6CA3A66921216063.quest_subtitle: "Crimson Forest"
 	quest.6CA3A66921216063.title: "Glowdine Collection"
@@ -6320,14 +5969,9 @@
 		"These are installed in the helmet. Most consume minimal pressure."
 	]
 	quest.6E2E233B648D097B.title: "Vision \\& Tracking"
-	quest.6E3D53D1C4569A89.quest_desc: ["Stores experience as liquid XP. Extract or inject XP to/from yourself."]
-	quest.6E3D53D1C4569A89.quest_subtitle: "Storing XP"
-	quest.6E3D53D1C4569A89.title: "XP Pump Upgrade"
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "Breed: Copper + Tin"
 	quest.6E4C3B87FABE9EFA.subtitle: "Breed: Copper + Tin"
 	quest.6E4C3B87FABE9EFA.title: "Bronze Bee"
-	quest.6E9041744C592573.quest_desc: ["Enables fluid transfer between tank and held items."]
-	quest.6E9041744C592573.title: "Pump Upgrade"
 	quest.6EAC81649890D9E8.quest_desc: ["Immersive Aircraft. Basic aircraft component. Generates thrust when connected to an engine."]
 	quest.6EAC81649890D9E8.title: "Propeller"
 	quest.6F1CFF4144A36142.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
@@ -6559,12 +6203,6 @@
 	quest.7485BCBE366501DF.quest_desc: ["Build a &bThermal Evaporation Plant&r to convert water to &ebrine&r using solar heat. Brine is electrolyzed to produce &echlorine&r, needed for Tier 3 ore processing. Minimum 3 blocks tall, 4x4 base."]
 	quest.7485BCBE366501DF.quest_subtitle: "Tier 3 Prerequisite"
 	quest.7485BCBE366501DF.title: "Brine Production"
-	quest.74B0308336F5E017.quest_desc: [
-		"The &cBlood Chest&r can be used to repair items using &cBlood&r."
-		""
-		"However, items repaired might become &dCursed&r..."
-	]
-	quest.74B0308336F5E017.title: "Repairing Tools with &cBlood"
 	quest.74C9A7EF6D9E0CC3.quest_desc: ["Transfers FE between machines. No power loss. Made with Rolling Mill."]
 	quest.74C9A7EF6D9E0CC3.title: "Copper Wire"
 	quest.74D15068B4388FB5.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
@@ -6591,12 +6229,6 @@
 		"Craft from Infused Seashelves with Prismarine Crystals. 12 Crystal Seashelves provide enough stats (30 &aEterna&r, 60% &4Quanta&r, 120% &5Arcana&r) to infuse Dormant Deepshelves. Also craft 2 Heart-Forged Seashelves."
 	]
 	quest.751189465F91B353.title: "Craft Crystal Seashelves"
-	quest.753B3EF7CC94A6DD.quest_desc: [
-		"This is a unique drop from &aPlayers&r, including when you die!"
-		""
-		"You &ocould&r get this by dying over and over, or by participating in PvP."
-	]
-	quest.753B3EF7CC94A6DD.title: "Flesh Humanoid"
 	quest.754B8F1FBCD983C5.quest_desc: ["&eStock Tickers&r can be set to the &eNetwork&r by Right Clicking the &eStock Link &fwith the &eStock Ticker&r in Hand. \\n\\nThen, place down the &eStock Ticker&r and give it a &eStock Keeper&r by either placing down a &cBlaze Burner&r or a Mob on a Seat nearby. \\n\\nYou'll know they are a &eStock Keeper&r by their stereotypical &aGreen&r Visor. We can now Right Click the &eStock Keeper&r to view and order &eItems&r from our &eNetwork&r. \\n\\nWhen you order &eItems&r, they'll be placed into a &ePackage &ffrom a &ePackager &fbelow the &eStock Link&r."]
 	quest.754B8F1FBCD983C5.title: "&eStock Ticker"
 	quest.75560045ED084900.quest_desc: [
@@ -6624,14 +6256,6 @@
 	quest.75CD4EE6A542D687.quest_subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.75CD4EE6A542D687.subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.75CD4EE6A542D687.title: "Copper Bee"
-	quest.75CF9EAB75C3907E.quest_desc: [
-		"Using the power of &9Dark Gems&r, we can create &aDark Tanks&r."
-		""
-		"These can store 16 buckets of any liquid you want, but you'll probably need this for all of the &cBlood&r you'll be collecting."
-		""
-		"Need it to hold more? Just combine it in a crafting grid with another Dark Tank."
-	]
-	quest.75CF9EAB75C3907E.title: "&aStoring &cFluids"
 	quest.75D09040185B0E40.quest_subtitle: "Tier: &a2"
 	quest.75D09040185B0E40.title: "Pig Seeds"
 	quest.75E4751F7A802A44.quest_desc: ["Oxidize &7sulfur&r in the &bChemical Oxidizer&r, then combine with water vapor in the &bChemical Infuser&r to create &esulfuric acid&r. Required for Tier 4 ore processing."]
@@ -6698,13 +6322,6 @@
 	]
 	quest.77AFD6EF477973CD.quest_subtitle: "Horse Stats \\& Breeding"
 	quest.77AFD6EF477973CD.title: "Equestrian's Delight"
-	quest.77B5B23A2C01ED7E.quest_desc: [
-		"The &9Kineticator&r works like a magnet for items and experience."
-		""
-		"The &eReverse Kineticator&r will instead repel items and experience."
-	]
-	quest.77B5B23A2C01ED7E.quest_subtitle: "Magnets"
-	quest.77B5B23A2C01ED7E.title: "Kineticators"
 	quest.77B6A7151B3E5980.quest_desc: ["Mines connected ore blocks automatically. Breaks entire ore veins with one block. Essential for efficient mining."]
 	quest.77B6A7151B3E5980.quest_subtitle: "Meka-Tool / Optional"
 	quest.77B6A7151B3E5980.title: "Vein Mining Module"
@@ -6717,9 +6334,6 @@
 	]
 	quest.77DD1D76333CC439.quest_desc: ["Upgraded tau oil. Required for higher-tier ritual crafting."]
 	quest.77DD1D76333CC439.title: "Strong Tau"
-	quest.77F241BEE9902751.quest_desc: ["Maximum storage capacity. Fireproof and holds the most items."]
-	quest.77F241BEE9902751.quest_subtitle: "So much room for activities!"
-	quest.77F241BEE9902751.title: "Netherite Tier"
 	quest.77FA873D6B95D4E6.quest_desc: ["Catch 5 Rainbow Trout. Found in temperate waters."]
 	quest.77FA873D6B95D4E6.quest_subtitle: "Temperate Fish"
 	quest.77FA873D6B95D4E6.title: "Rainbow Trout Collection"
@@ -6738,8 +6352,6 @@
 	quest.783C4CE2B0173669.title: "Fortress Grouper Collection"
 	quest.7846B7FFC3DD85C5.quest_desc: ["I/O for the SPS multiblock. Configure for polonium input, power input, or antimatter output. Need multiple ports for full operation. Place in SPS casing walls."]
 	quest.7846B7FFC3DD85C5.title: "SPS Port"
-	quest.785951190FFDAA21.quest_desc: ["Quadruples stack sizes. Items stack to 256."]
-	quest.785951190FFDAA21.title: "Stack Upgrade Tier 2"
 	quest.7862778F8424419B.quest_subtitle: "Launches entities or blocks into the air"
 	quest.7864C8F2CBC910CB.quest_desc: ["Endgame helmet accepting numerous modules. Install vision enhancement, nutritional injection, radiation shielding, and more. Powered armor providing ultimate protection and utility."]
 	quest.7864C8F2CBC910CB.quest_subtitle: "Requires Antimatter"
@@ -6772,8 +6384,6 @@
 		"Useful for exploring caves and dungeons."
 	]
 	quest.78E4178155416B59.title: "Scroll of True Sight"
-	quest.78E51D22C16C4686.quest_desc: ["Wirelessly links storage containers to the controller. Right-click the controller to bind, then right-click containers to connect them."]
-	quest.78E51D22C16C4686.title: "Storage Tool"
 	quest.78ECC28DD4BA9696.quest_desc: [
 		"The &bDivination Rod&f helps you locate special materials in the world."
 		""
@@ -6847,14 +6457,6 @@
 		"The Dormant Deepshelf provides 2 &aEterna&r (max 30) and no other stats. Its purpose is to be infused into a full Deepshelf using 60 &aEterna&r, 60% &4Quanta&r, and 60% &5Arcana&r. Deepshelves and beyond provide much higher Eterna caps than earlier shelves."
 	]
 	quest.7A8B9C0D1E2F3A4B.title: "Craft Dormant Deepshelf"
-	quest.7A93F07BE2E6EC97.quest_desc: [
-		"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
-		""
-		"With this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!"
-		""
-		"You can also just do this to get rid of the rain!"
-	]
-	quest.7A93F07BE2E6EC97.title: "&aStop the &9Rain!"
 	quest.7A9F9F6FC00E7434.quest_desc: ["Catch 3 Blazefish. Found near Fortress Piece structures in lava."]
 	quest.7A9F9F6FC00E7434.quest_subtitle: "Fortress Structure"
 	quest.7A9F9F6FC00E7434.title: "Blazefish Collection"
@@ -6872,8 +6474,6 @@
 	quest.7AD83A26A52C0983.title: "&5Creative Essence"
 	quest.7ADE214373DE135F.quest_subtitle: "Tier: &63"
 	quest.7ADE214373DE135F.title: "Creeper Seeds"
-	quest.7AE3C8134F5ED726.quest_desc: ["16x stack sizes. Items stack to 1024."]
-	quest.7AE3C8134F5ED726.title: "Stack Upgrade Tier 4"
 	quest.7AE502EDB73BD57A.quest_desc: ["Grinds items into crushed forms. Converts ingots to dust, cobblestone to gravel, and organic matter to &ebio fuel&r. Essential for ore processing chains and fuel production."]
 	quest.7AE502EDB73BD57A.title: "Crusher"
 	quest.7B0764DDE94E73D0.quest_desc: ["Build automatic SCRAM (emergency shutdown) circuits using logic adapters and redstone. Trigger shutdown on high temperature, high damage, or low coolant. Multiple redundant circuits recommended."]
@@ -6894,12 +6494,6 @@
 	]
 	quest.7B4AF35313D7D779.quest_subtitle: "Tier: &64"
 	quest.7B4AF35313D7D779.title: "&6Supreme Machine Frame"
-	quest.7B524DAD8A33BF85.quest_desc: [
-		"Need more blood from your enemies? Of course you do!"
-		""
-		"The &dVein Sword&r allows you to collect more blood, as well as more drops with Looting attached to it!"
-	]
-	quest.7B524DAD8A33BF85.title: "Vein Sword"
 	quest.7B5A0BFD47D96BDE.quest_desc: ["Used to catch bees that are flying around it.\\n\\nYou can use a Filter Upgrade to filter out which bees you want to catch, as well as a BaBee Upgrade to only catch baby bees."]
 	quest.7B5A0BFD47D96BDE.quest_subtitle: "Catches Bees"
 	quest.7B72CF322A3C985D.quest_desc: ["An &8Obsidian Bee&r pollinating a &4Redstone Bee Spawn Egg&r will convert it into a &2Flux Dust Bee Spawn Egg&r."]
@@ -6948,12 +6542,6 @@
 		"This essence embodies harmful intent channeled into ritual power."
 	]
 	quest.7BCD4A425CF6199B.title: "Cruelty Essence"
-	quest.7C07D6A33F7ADB02.quest_desc: ["Store backpacks inside backpacks. Nested storage for extreme organization."]
-	quest.7C07D6A33F7ADB02.quest_subtitle: "Backpacks in your Backpacks?"
-	quest.7C07D6A33F7ADB02.title: "Inception Upgrade"
-	quest.7C0F7A1B3AB9A1A1.quest_desc: ["Refill with customizable slot targets."]
-	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "More Filtering Options"
-	quest.7C0F7A1B3AB9A1A1.title: "Advanced Refill Upgrade"
 	quest.7C169A4A39F37FAC.quest_desc: ["With the vanilla Beehive, we'll use this to craft an &eAdvanced Beehive&r. It can be Oak or any kind of wood.\\n\\nBees will fly in and out of these, and drop off Honeycombs in the inventory. You can also insert glass bottles to get Honey Bottles.\\n\\nWe'll need a lot of Honeycomb for treats!"]
 	quest.7C169A4A39F37FAC.quest_subtitle: "No more shearing."
 	quest.7C169A4A39F37FAC.title: "Advanced Beehive"
@@ -7060,26 +6648,12 @@
 	quest.7E57964F6AD5B060.quest_subtitle: "Flower: Leaves (Check JEI)"
 	quest.7E57964F6AD5B060.subtitle: "Flower: Leaves (Check JEI)"
 	quest.7E57964F6AD5B060.title: "Tea Bee"
-	quest.7E79F52147B606F9.quest_desc: [
-		"To start collecting blood, we need to craft the &cBlood Extractor&r."
-		""
-		"As long as you have this in your inventory, killing mobs will collect blood into the extractor. &cBlood&r is an important resource in EvilCraft."
-		""
-		"Need to increase the storage of the Extractor? Simply make another, and then combine them in a crafting grid!"
-		""
-		"These can also be used to extract blood from &cBlood Stains&r you find (or create) on the ground."
-		""
-		"Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down."
-	]
-	quest.7E79F52147B606F9.title: "&aCollecting&r &cBlood"
 	quest.7E842FFA18E56400.quest_desc: [
 		"Besides fish, you'll catch various items while fishing. Driftwood, tin cans, and algae are common junk items."
 		""
 		"Occasionally you'll find more valuable treasures. Keep fishing for rare rewards."
 	]
 	quest.7E842FFA18E56400.title: "Fishing Up Junk"
-	quest.7E9E03274A88347D.quest_desc: ["Doubles stack sizes in the backpack. Items stack to 128."]
-	quest.7E9E03274A88347D.title: "Stack Upgrade Tier 1"
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Breed: Iron + Sweat Bee"
 	quest.7EAFF64FFE8B5378.subtitle: "Breed: Iron + Sweat Bee"
 	quest.7EAFF64FFE8B5378.title: "Zinc Bee"
@@ -7103,9 +6677,6 @@
 		"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "The spare chest"
-	quest.7EFBFF5D0DA018E7.quest_desc: ["Auto-deletes specified items. Useful for clearing junk while mining."]
-	quest.7EFBFF5D0DA018E7.quest_subtitle: "Adds a filter for items you want to auto-delete in the backpack."
-	quest.7EFBFF5D0DA018E7.title: "Void Upgrade"
 	quest.7F042DED357DEF3C.quest_desc: [
 		"Vanilla bookshelves provide &aEterna&r up to a maximum of 15 shelves for 30 &aEterna.&r Apotheosis specialized shelves break this limit and add &4Quanta&r and &5Arcana.&r "
 		""
@@ -7168,9 +6739,6 @@
 	quest.7F8E50FA436DB4E6.quest_desc: ["&dEncased Chain Drives&r will act similar to &eBelts&r, by connecting &8Shafts&r to each other in a row. \\n\\nThere is quite a few differences though, like that &dEncased Chain Drives&r can be used with a &6Wrench&r to rotate. They also need to be placed directly next to other &dChain Drives&r to keep &dRotating&r. \\n\\nLike &eBelts&r though, they keep the same Speed and Stress Units as the original &8Shaft&r. Plus they keep the same direction!"]
 	quest.7F8E50FA436DB4E6.title: "&dEncased Chain Drives"
 	quest.7F97805EE8DFC9F6.quest_subtitle: "Accelerates plant growth like bonemeal"
-	quest.7F990FBC1A691020.quest_desc: ["Emits a redstone signal when opened. Cannot be combined into double chests."]
-	quest.7F990FBC1A691020.quest_subtitle: "I wonder what's in here?"
-	quest.7F990FBC1A691020.title: "Trapped Chest"
 	quest.7FC54AF87CBDD222.quest_desc: [
 		"Ancient Battlegrounds are only a fragment of the past."
 		""
@@ -8089,7 +7657,6 @@
 	task.0006000000000101.title: "I am prepared"
 	task.0006000000000102.title: "I seek further training"
 	task.00D5D96DA535CFE7.title: "Dislocation Rune"
-	task.00ED02255105A973.title: "Diamond Chests"
 	task.01FD75641E5EA5E4.title: "Mana"
 	task.02C6EAD6367B3526.title: "I understand materials"
 	task.02DC08143339307F.title: "Fully upgrade any single perk"
@@ -8097,13 +7664,11 @@
 	task.03DBCA5695879C49.title: "Blood Runes (48)"
 	task.03EB390E79866058.title: "Sourcestones"
 	task.0414EFB4AE9AB3B8.title: "Generate your first RF power"
-	task.0427B441A750316F.title: "Gold Chests"
 	task.049052953E05D38F.title: "Simple Key"
 	task.04BCD1D949FCB24D.title: "Common Tartaric Gem"
 	task.04EAE604D8B668B3.title: "Bloodstone Brick"
 	task.0658CD084C5E9A08.title: "Transfer power between dimensional cells"
 	task.065E5450AC87F1D5.title: "Ancient Comb"
-	task.073D1C45B3018BBA.title: "Chests"
 	task.088CD8231DD1A37A.title: "Dusk Ritual Diviner"
 	task.08DA73B1AC17E5F5.title: "Crafting Storage"
 	task.09788D3638E59F3B.title: "Tier Installers"
@@ -8124,7 +7689,6 @@
 	task.131E7C1B4C0A8CB5.title: "Create and run your first program"
 	task.1458D40D0CD8DE11.title: "Acknowledge equipment slot systems"
 	task.14DEFFB80CC96BC1.title: "ME Dense Covered Cables"
-	task.14FA4A933C39A406.title: "Boats with Chests"
 	task.151AF2F49AAEBBDA.title: "Induction Cells"
 	task.1589663D302CE21E.title: "ARC"
 	task.15C6E9C02D1FBEC0.title: "Tier 2 Glyphs"
@@ -8145,7 +7709,6 @@
 	task.1E4979886B89B2AD.title: "Petty Tartaric Gem"
 	task.1F1A69738DE70DB6.title: "The Mycelial Reactor"
 	task.1F8C37B32E46FA69.title: "Build Tier 2 Altar"
-	task.200CE35BF3C04F6F.title: "Copper Chests"
 	task.212BB84583FE4B8B.title: "Farmer Bee"
 	task.2153473228DA4678.title: "Breeding and Converting Bees"
 	task.21FBC4E0F668347C.title: "I understand NBT storage"
@@ -8176,7 +7739,6 @@
 	task.343438DEFC6E307A.title: "Awakened Supremium Tools and Weapons"
 	task.345245C32DB7B4D4.title: "Redstone Comb"
 	task.348A7E3E3A3D324E.title: "The Basics"
-	task.34B6EB0B801E4743.title: "Netherite Chests"
 	task.34C16667CDF3E53A.title: "CuBee"
 	task.359396879CBA62D5.title: "Nest Spawning"
 	task.35F5ACC3A6B38EEB.title: "Select your class from The Class Registry"
@@ -8215,7 +7777,6 @@
 	task.47BAD4AA76F9CF82.title: "Silver Comb"
 	task.496C4FDD2515EB24.title: "Induction Providers"
 	task.49E5D4B7057851E7.title: "Sacrificial Dagger"
-	task.49F46466DB8EDD61.title: "Iron Chests"
 	task.4A26B1A6BDC9BEF2.title: "Self-Sacrifice Rune Tier 2"
 	task.4A6ADD52B113E3CA.title: "Leafcutter Bee"
 	task.4B60ACBCC3B46D1D.title: "Enriched Items"
@@ -8270,7 +7831,6 @@
 	task.57F75D0B2554BA61.title: "Demonic Slate"
 	task.5860D1574D18BA1A.title: "Expansion Boxes"
 	task.58CB57D06D9BF904.title: "Read this introduction"
-	task.593CD1E685B4DDAA.title: "Chipped Upgrades"
 	task.593E92F8F8BC0B0A.title: "Complete your first teleport"
 	task.59D4952D3D164F6D.title: "Hellfire Forge"
 	task.5A91384EF5463B4D.title: "Teleposition Sigil"
@@ -8287,7 +7847,6 @@
 	task.6047113DC2263E46.title: "Lumber Bee"
 	task.6168644A110A263A.title: "Arcane Ashes"
 	task.61D93B13D496547D.title: "Fluid Storage"
-	task.6205B6B93B306A12.title: "Chests"
 	task.64248C6FBC867D56.title: "Nomad Bee"
 	task.642940CFA557BEF9.title: "Augmented Capacity Rune Tier 2"
 	task.64CE83BCD6C05863.title: "Acknowledge navigation tools"
@@ -8332,7 +7891,6 @@
 	task.7D4224D89E799A14.title: "Prudentium Tools and Weapons"
 	task.7DA8A385C843AD5F.title: "Advanced Chalk Repair"
 	task.7DAB52FA21E199D8.title: "I'm ready to explore"
-	task.7DE03D4A420D1028.title: "Visit a Dark Temple"
 	task.7E0D9E6342295AB0.title: "Foreword on Channels"
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
@@ -8358,4 +7916,695 @@
 	task.DC01000000000204.title: "Acknowledge equipment slot systems"
 	task.DC01000000000205.title: "Acknowledge navigation tools"
 	task.DC01000000000206.title: "Claim your mailbox reward"
+	quest.5501000000000100.title: "Sophisticated Chest"
+	quest.5501000000000100.quest_desc: [
+		"Craft a &3Sophisticated Chest&r to start upgrading your storage beyond vanilla. These containers accept &efunctional upgrades&r that add automation, filtering, and processing — things no vanilla chest can do."
+		""
+		"Higher material tiers increase both slot count and the number of upgrades you can install. Start with basic wood, then work your way up through metals."
+	]
+	quest.5501000000000200.title: "Iron Storage"
+	quest.5501000000000200.quest_desc: [
+		"Upgrade to &3Iron Tier&r for significantly more storage slots and an extra upgrade slot. You can craft an iron chest directly or use a &eTier Upgrade&r item on an existing chest in-place."
+		""
+		"Iron is where Sophisticated Storage starts to shine — enough capacity for a proper workshop, and enough upgrade slots to add smelting or magnet functionality."
+	]
+	quest.5501000000000300.title: "Diamond Storage"
+	quest.5501000000000300.quest_desc: [
+		"&3Diamond Tier&r is the workhorse of endgame storage. Massive slot count, plenty of upgrade capacity, and enough room to run a fully automated smelting-and-sorting operation from a single chest."
+		""
+		"Gold tier exists between iron and diamond but offers only a marginal capacity bump — most players skip straight here. &eDiamond is also the minimum tier for the Storage Controller network.&r"
+	]
+	quest.5501000000000400.title: "Netherite Storage"
+	quest.5501000000000400.quest_desc: [
+		"The ultimate tier. &3Netherite chests&r are fireproof, blast-resistant, and hold the maximum number of slots and upgrades. Expensive to craft, but nothing short of the void will destroy them."
+		""
+		"Worth it for your most valuable items or for chests in dangerous locations like nether bases. &eUpgrade existing diamond chests in-place with a tier upgrade item.&r"
+	]
+	quest.5501000000000500.title: "Copper Storage"
+	quest.5501000000000500.quest_desc: [
+		"An &3optional intermediate tier&r between basic and iron. Copper chests cost less iron but offer only a modest capacity increase. Most players skip this and go straight to iron."
+		""
+		"If you're playing on a server where iron is scarce early on, copper tier lets you get a bit more storage while you save up. &eOtherwise, jump to iron.&r"
+	]
+	quest.5502000000000100.title: "Storage Controller"
+	quest.5502000000000100.quest_desc: [
+		"The &3Storage Controller&r unifies multiple Sophisticated Storage containers into a single searchable network. Place it adjacent to your chests — or to other connected chests — and access everything from one interface."
+		""
+		"Maximum reach is &e14 blocks from the controller&r, measured through connected containers. Think of it as a poor man's AE2 for physical storage."
+	]
+	quest.5502000000000200.title: "Storage Tool"
+	quest.5502000000000200.quest_desc: [
+		"Right-click a &3Storage Controller&r to bind the tool, then right-click any Sophisticated Storage container to wirelessly link it to the network. No adjacency required."
+		""
+		"Useful for connecting containers in different rooms or floors. &eThe linked container still counts against the 14-block network range.&r"
+	]
+	quest.5502000000000300.title: "Storage Link"
+	quest.5502000000000300.quest_desc: [
+		"A block that acts as a wireless bridge in the controller network. Place a &3Storage Link&r anywhere within range and it extends the network to containers adjacent to it."
+		""
+		"Chains of links can reach farther than direct adjacency alone. &eCombine with the Storage Tool for maximum flexibility.&r"
+	]
+	quest.5503000000000100.title: "Backpack"
+	quest.5503000000000100.quest_desc: [
+		"Craft a &3Sophisticated Backpack&r for portable, upgradeable storage you carry with you. Equip it in the &eCurios back slot&r for hands-free access — open it with a keybind without taking up an inventory slot."
+		""
+		"Backpacks accept the same functional upgrades as chests: auto-smelting, magnet, feeding, and more. They can also be dyed any color."
+	]
+	quest.5503000000000200.title: "Iron Backpack"
+	quest.5503000000000200.quest_desc: [
+		"&3Iron Backpack&r adds more slots and an extra upgrade capacity. Upgrade an existing backpack by combining it with iron ingots in a crafting table — contents are preserved."
+		""
+		"This is the sweet spot for early-game adventuring. Enough room for loot, enough upgrades to run a &efeeding upgrade&r and a &emagnet&r simultaneously."
+	]
+	quest.5503000000000300.title: "Diamond Backpack"
+	quest.5503000000000300.quest_desc: [
+		"The &3Diamond Backpack&r is the practical endgame for most players. Huge slot count and enough upgrade capacity to run smelting, feeding, magnet, and auto-pickup all at once."
+		""
+		"Gold tier exists but is barely worth the detour — diamond is only slightly more expensive and substantially better. &eSkip gold, come straight here.&r"
+	]
+	quest.5503000000000400.title: "Netherite Backpack"
+	quest.5503000000000400.quest_desc: [
+		"Maximum capacity, maximum upgrade slots, and &3completely fireproof&r. A Netherite Backpack survives lava, fire, and explosions — your items won't burn even if you do."
+		""
+		"Combine with the &eEverlasting Upgrade&r to make a backpack that persists through death AND fire. The ultimate portable storage."
+	]
+	quest.5503000000000500.title: "Copper Backpack"
+	quest.5503000000000500.quest_desc: [
+		"An &3optional budget tier&r if you want slightly more capacity without spending iron. Most players skip copper and go straight to iron backpack."
+		""
+		"Copper is plentiful in most worlds and this tier is cheap to craft. &eGood for skyblock or resource-limited starts.&r"
+	]
+	quest.5504000000000100.title: "Upgrade Base"
+	quest.5504000000000100.quest_desc: [
+		"Every functional upgrade starts with an &3Upgrade Base&r. Storage and backpacks use separate base items but work the same way — craft both. You'll burn through these fast, so keep a stack handy."
+		""
+		"Upgrades come in basic and advanced variants. Basic provides the core function; advanced adds &efiltering and configuration options&r. Start with basic versions and upgrade when you need fine control."
+	]
+	quest.5504000000000200.title: "Pickup Upgrade"
+	quest.5504000000000200.quest_desc: [
+		"Install a &3Pickup Upgrade&r to automatically collect dropped items into your backpack or storage container. Walk over items and they go straight in — no manual collection needed."
+		""
+		"Works in both backpacks and storage containers. &eThe storage version auto-collects items that land on top of the chest.&r"
+	]
+	quest.5504000000000300.title: "Advanced Pickup Upgrade"
+	quest.5504000000000300.quest_desc: [
+		"The &3Advanced Pickup&r adds configurable filter slots to control exactly which items get collected. Set it to only pick up valuables and leave the junk behind."
+		""
+		"&eSupports tag-based filtering&r for mod-wide item categories. Much more useful than basic pickup for organized inventory management."
+	]
+	quest.5504000000000400.title: "Magnet Upgrade"
+	quest.5504000000000400.quest_desc: [
+		"The &3Magnet Upgrade&r pulls dropped items toward you from a distance, then collects them into your backpack or container. No need to walk over every drop."
+		""
+		"Essential for mining and mob farming. &eArguably the single best backpack upgrade in the game&r — items fly toward you from several blocks away."
+	]
+	quest.5504000000000500.title: "Advanced Magnet Upgrade"
+	quest.5504000000000500.quest_desc: [
+		"The &3Advanced Magnet&r adds configurable range and item filters. Set a specific pickup radius and choose exactly which items to attract."
+		""
+		"&eCombine with a void upgrade&r to pull items toward you, keep the good stuff, and delete the garbage automatically."
+	]
+	quest.5504000000000600.title: "Filter Upgrade"
+	quest.5504000000000600.quest_desc: [
+		"The &3Filter Upgrade&r controls which items can enter or exit your storage through automation. Essential for sorting systems and targeted collection."
+		""
+		"Set up whitelist or blacklist filters. &eWorks with hopper inputs and pipe connections&r from other mods like Create or Mekanism."
+	]
+	quest.5504000000000700.title: "Advanced Filter Upgrade"
+	quest.5504000000000700.quest_desc: [
+		"&3Advanced Filter&r adds more filter slots and supports tag-based matching. Filter by mod, item type, or specific NBT data for precise control."
+		""
+		"The most powerful sorting tool in Sophisticated Storage. &eCombine with a hopper upgrade to build complex sorting systems without external mods.&r"
+	]
+	quest.5504000000000800.title: "Void Upgrade"
+	quest.5504000000000800.quest_desc: [
+		"The &3Void Upgrade&r automatically deletes specified items. Install it in a mining backpack to trash cobblestone and dirt on pickup, keeping your inventory clean."
+		""
+		"Configure which items to void in the upgrade's filter interface. &eBe careful — voided items are gone forever.&r There is no undo."
+	]
+	quest.5504000000000900.title: "Advanced Void Upgrade"
+	quest.5504000000000900.quest_desc: [
+		"&3Advanced Void&r adds condition-based voiding. Set it to only void items when your storage is full, or only void items that exceed a certain stack count."
+		""
+		"&eSafer than basic void&r since overflow mode keeps one stack of everything and only voids the excess. Prevents accidentally deleting valuables."
+	]
+	quest.5505000000000100.title: "Feeding Upgrade"
+	quest.5505000000000100.quest_desc: [
+		"Install a &3Feeding Upgrade&r and your backpack automatically feeds you when your hunger drops. Keep food in the backpack and never manually eat again."
+		""
+		"Works with any food item. &ePrioritizes the highest-saturation food available.&r One of the first upgrades every player should craft."
+	]
+	quest.5505000000000200.title: "Advanced Feeding Upgrade"
+	quest.5505000000000200.quest_desc: [
+		"&3Advanced Feeding&r adds food priority selection and configurable hunger thresholds. Choose which food to eat first and at what hunger level to start eating."
+		""
+		"&eSet it to use cheap food for small hunger&r and save your best dishes for emergencies. Fine-grained control over automatic eating."
+	]
+	quest.5505000000000300.title: "Refill Upgrade"
+	quest.5505000000000300.quest_desc: [
+		"The &3Refill Upgrade&r automatically restocks your hotbar from backpack contents when items run out. Arrows, torches, food, building blocks — whatever you deplete gets replaced."
+		""
+		"&ePairs perfectly with the feeding upgrade&r for hands-free survival. Never run out of arrows mid-fight or torches mid-cave again."
+	]
+	quest.5505000000000400.title: "Advanced Refill Upgrade"
+	quest.5505000000000400.quest_desc: [
+		"&3Advanced Refill&r lets you configure which hotbar slots get restocked and from which backpack slots. Target specific items to specific positions."
+		""
+		"&eSet up your hotbar layout once&r and the backpack maintains it automatically. Sword in slot 1, pickaxe in slot 2, torches in slot 9 — always."
+	]
+	quest.5505000000000500.title: "Tool Swapper Upgrade"
+	quest.5505000000000500.quest_desc: [
+		"The &3Tool Swapper&r automatically equips the best tool from your backpack when you start mining a block. Look at stone and it swaps to your pickaxe, look at wood and it grabs your axe."
+		""
+		"Also works with swords for combat. &eKeep all your tools in the backpack&r and let the upgrade handle switching. Frees up hotbar slots for other items."
+	]
+	quest.5505000000000600.title: "Advanced Tool Swapper Upgrade"
+	quest.5505000000000600.quest_desc: [
+		"&3Advanced Tool Swapper&r adds weapon priority, tool filtering, and exclusion lists. Configure which tools to prefer and which to never auto-swap."
+		""
+		"&eExclude your favorite sword&r to prevent accidentally using it on blocks. Smart tool selection for players with organized inventories."
+	]
+	quest.5505000000000700.title: "Tank Upgrade"
+	quest.5505000000000700.quest_desc: [
+		"The &3Tank Upgrade&r adds an internal fluid tank to your backpack or storage container. Store water, lava, potions, or any other fluid alongside your items."
+		""
+		"&eUseful for builders who need lots of water&r or for storing fluids found during exploration. Required before you can install any pump upgrades."
+	]
+	quest.5505000000000800.title: "Pump Upgrade"
+	quest.5505000000000800.quest_desc: [
+		"The &3Pump Upgrade&r enables fluid transfer between your internal tank and held fluid containers. Interact with buckets and tanks to fill or drain automatically."
+		""
+		"&eRequires a Tank Upgrade to be installed first.&r The pump handles the transfer logic while the tank provides the fluid storage."
+	]
+	quest.5505000000000900.title: "Advanced Pump Upgrade"
+	quest.5505000000000900.quest_desc: [
+		"&3Advanced Pump&r adds directional filtering to control which fluids transfer and in which direction. Set input and output rules for automated fluid management."
+		""
+		"&eCombine with a large tank&r to build a portable fluid storage system that automatically handles different fluid types."
+	]
+	quest.5505000000000A00.title: "Battery Upgrade"
+	quest.5505000000000A00.quest_desc: [
+		"The &3Battery Upgrade&r adds internal energy storage to your backpack or container. Stores Forge Energy (FE) that can power RF-compatible items stored inside."
+		""
+		"&eCharge powered tools and equipment&r directly from your backpack's internal battery. Works with Mekanism, Create, and most other tech mod energy systems."
+	]
+	quest.5505000000000B00.title: "XP Pump Upgrade"
+	quest.5505000000000B00.quest_desc: [
+		"The &3XP Pump&r stores experience as liquid XP in your tank. Collect experience orbs directly into fluid storage instead of absorbing them into your level bar."
+		""
+		"&eExtract XP back into yourself&r whenever you need it for enchanting or repairs. Never lose experience to death again — bank it in your backpack's tank."
+	]
+	quest.5506000000000100.title: "Stack Upgrade Tier 1"
+	quest.5506000000000100.quest_desc: [
+		"Install a &3Stack Upgrade Tier 1&r to double all stack sizes inside your storage or backpack. Items that normally stack to 64 now stack to &e128&r."
+		""
+		"Effectively doubles your capacity without adding more slots. Only the highest tier installed matters — they don't stack additively."
+	]
+	quest.5506000000000200.title: "Stack Upgrade Tier 2"
+	quest.5506000000000200.quest_desc: [
+		"&3Tier 2&r quadruples stack sizes to &e256&r. A meaningful upgrade that significantly reduces how often you need to empty your storage during long trips."
+		""
+		"Replace your Tier 1 upgrade with Tier 2 — &eonly the highest tier matters.&r No benefit from installing multiple tiers simultaneously."
+	]
+	quest.5506000000000300.title: "Stack Upgrade Tier 3"
+	quest.5506000000000300.quest_desc: [
+		"&3Tier 3&r pushes stacks to &e512 items&r. At this point a single diamond backpack holds as much as several vanilla double chests."
+		""
+		"The crafting cost increases significantly at this tier. &eWorth it for extended mining trips&r where you want to stay underground for hours."
+	]
+	quest.5506000000000400.title: "Stack Upgrade Tier 4"
+	quest.5506000000000400.quest_desc: [
+		"The ultimate stack multiplier. &3Tier 4&r allows stacks of &e1024 items&r — sixteen times the vanilla limit. Endgame storage density at its finest."
+		""
+		"Expensive to craft but transforms a diamond backpack into a nearly bottomless container. &eCombine with auto-smelting for the ultimate mining backpack.&r"
+	]
+	quest.5506000000000500.title: "Crafting Upgrade"
+	quest.5506000000000500.quest_desc: [
+		"The &3Crafting Upgrade&r adds a portable 3x3 crafting grid to your backpack or storage container. Open the upgrade interface to craft using items directly from your inventory."
+		""
+		"&eNo crafting table needed.&r Craft on the go while exploring, mining, or fighting. One of the most generally useful utility upgrades available."
+	]
+	quest.5506000000000600.title: "Stonecutter Upgrade"
+	quest.5506000000000600.quest_desc: [
+		"The &3Stonecutter Upgrade&r adds a stonecutter interface to your storage or backpack. Process stone, copper, and other materials into slabs, stairs, and decorative variants."
+		""
+		"&ePerfect for builders&r who want to quickly convert bulk stone into building materials without placing a separate stonecutter block."
+	]
+	quest.5506000000000700.title: "Compacting Upgrade"
+	quest.5506000000000700.quest_desc: [
+		"The &3Compacting Upgrade&r automatically compresses items using 2x2 crafting recipes. Raw metals become blocks, items become their compressed forms automatically."
+		""
+		"&eGreat for storage optimization.&r Nine iron ingots become one iron block, saving eight slots per stack. Works continuously on items in the container."
+	]
+	quest.5506000000000800.title: "Advanced Compacting Upgrade"
+	quest.5506000000000800.quest_desc: [
+		"&3Advanced Compacting&r handles both 2x2 and 3x3 crafting recipes and adds filter slots. Automatically compresses items into their most compact form."
+		""
+		"&eAdd filters to control which items get compacted.&r Prevents accidentally compressing items you want to keep in their original form."
+	]
+	quest.5506000000000900.title: "Everlasting Upgrade"
+	quest.5506000000000900.quest_desc: [
+		"Install the &3Everlasting Upgrade&r and your backpack survives death. When you die, the backpack stays in your inventory instead of dropping on the ground."
+		""
+		"&eCritical for hardcore or long-distance exploration.&r Combine with a netherite backpack for storage that survives both death and fire. Backpack-only upgrade."
+	]
+	quest.5506000000000A00.title: "Inception Upgrade"
+	quest.5506000000000A00.quest_desc: [
+		"The &3Inception Upgrade&r allows you to store backpacks inside backpacks. Nested storage for extreme organization — each sub-backpack retains its own upgrades and contents."
+		""
+		"&eOrganize by category:&r a mining backpack, a building backpack, and a combat backpack, all inside your main backpack. Backpack-only upgrade."
+	]
+	quest.5506000000000B00.title: "Deposit Upgrade"
+	quest.5506000000000B00.quest_desc: [
+		"The &3Deposit Upgrade&r lets you shift-right-click any container to instantly dump matching items from your backpack. Items that already exist in the target container get transferred."
+		""
+		"&eFast inventory management when returning to base.&r Walk up to your storage wall, shift-click each chest, and your backpack empties itself into the right places."
+	]
+	quest.5506000000000C00.title: "Advanced Deposit Upgrade"
+	quest.5506000000000C00.quest_desc: [
+		"&3Advanced Deposit&r adds configurable item filters to control exactly what gets deposited and what stays in your backpack."
+		""
+		"&eSet up a whitelist of items to keep&r — your sword, tools, and food stay in the backpack while everything else gets dumped. Smart depositing."
+	]
+	quest.5506000000000D00.title: "Restock Upgrade"
+	quest.5506000000000D00.quest_desc: [
+		"The &3Restock Upgrade&r is the reverse of deposit — shift-right-click a container to pull items into your backpack that match what you already carry."
+		""
+		"&eGrab supplies before heading out.&r If you had 32 torches last trip, restocking pulls another 32 from your torch chest automatically."
+	]
+	quest.5506000000000E00.title: "Advanced Restock Upgrade"
+	quest.5506000000000E00.quest_desc: [
+		"&3Advanced Restock&r adds item filters and quantity targets. Configure exactly which items to pull and how many of each to carry."
+		""
+		"&eSet target quantities&r — always carry exactly 64 torches, 16 food, and a stack of arrows. The upgrade handles the math."
+	]
+	quest.5506000000000F00.title: "Hopper Upgrade"
+	quest.5506000000000F00.quest_desc: [
+		"The &3Hopper Upgrade&r gives your storage container built-in hopper functionality. Items landing on top are automatically pulled in, and items can be pushed out the bottom to adjacent inventories."
+		""
+		"&eStorage containers only — not available for backpacks.&r Eliminates the need for a separate hopper block, saving space and reducing entity lag from hopper tick updates."
+	]
+	quest.5507000000000100.title: "Compression Upgrade"
+	quest.5507000000000100.quest_desc: [
+		"The &3Compression Upgrade&r visually condenses your storage display. Items are shown in their most compact form — iron ingots appear as iron blocks with a count, saving visual clutter."
+		""
+		"&eStorage containers only — not available for backpacks.&r The items aren't physically compacted (use the Compacting Upgrade for that), just displayed more efficiently in the container GUI."
+	]
+	quest.5507000000000200.title: "Chipped Upgrades"
+	quest.5507000000000200.quest_desc: [
+		"Install &3Chipped Upgrades&r to access all Chipped mod workbenches directly from your backpack or storage container. Alchemy bench, botanist table, carpenter, glassblower, loom, mason, and tinkering table — all in one upgrade."
+		""
+		"&eCraft both the backpack and storage versions&r to unlock portable block variant crafting everywhere. Convert cobblestone to bricks, planks to panels, and glass to stained variants without placing a single workbench."
+	]
+	quest.5507000000000300.title: "Jukebox Upgrade"
+	quest.5507000000000300.quest_desc: [
+		"The &3Jukebox Upgrade&r lets you play music discs from inside your backpack while exploring. Insert a disc and your adventure gets a soundtrack."
+		""
+		"&eBackpack-only upgrade.&r The music follows you wherever you go. Swap discs on the fly without needing to find or place a jukebox block."
+	]
+	quest.5507000000000400.title: "Storage Crafting Upgrade"
+	quest.5507000000000400.quest_desc: [
+		"The &3Storage Crafting Upgrade&r adds a 3x3 crafting grid directly inside your Sophisticated Storage chest. Craft items using the container's contents without removing them first."
+		""
+		"&eStorage containers only.&r Turn a diamond chest into an all-in-one crafting station. Keeps your workshop compact — one block for storage and crafting."
+	]
+	quest.5507000000000500.title: "Storage Stonecutter Upgrade"
+	quest.5507000000000500.quest_desc: [
+		"The &3Storage Stonecutter Upgrade&r adds a stonecutter interface to your chest or barrel. Process stone and copper variants directly from the container's inventory."
+		""
+		"&eStorage containers only.&r Ideal for a builder's supply chest — store raw stone and cut it into slabs, stairs, and walls without a separate workstation."
+	]
+	quest.5507000000000600.title: "Storage Compacting Upgrade"
+	quest.5507000000000600.quest_desc: [
+		"The &3Storage Compacting Upgrade&r auto-compresses items inside your chest using 2x2 crafting recipes. Ingots become blocks, nuggets become ingots — all automatically as items enter."
+		""
+		"&eStorage containers only.&r Pair with a hopper upgrade on a collection chest and incoming items compress themselves. Nine iron ingots in, one iron block stored."
+	]
+	quest.5507000000000700.title: "Storage Stack Tier 1"
+	quest.5507000000000700.quest_desc: [
+		"Install a &3Stack Upgrade Tier 1&r in your storage container to double all stack sizes to &e128&r. The same concept as backpack stack upgrades, but for your chests and barrels."
+		""
+		"&eStorage containers only.&r Doubles the effective capacity of every slot without adding more slots. Cheap to craft and immediately impactful."
+	]
+	quest.5507000000000800.title: "Storage Stack Tier 2"
+	quest.5507000000000800.quest_desc: [
+		"&3Tier 2&r quadruples stack sizes to &e256&r in your storage containers. A single diamond chest with this upgrade rivals several vanilla double chests in raw capacity."
+		""
+		"Replace your Tier 1 with Tier 2 — &eonly the highest tier matters.&r No benefit from installing multiple tiers at once."
+	]
+	quest.5507000000000900.title: "Storage Stack Tier 3"
+	quest.5507000000000900.quest_desc: [
+		"&3Tier 3&r pushes stack sizes to &e512&r per slot. Combined with a netherite chest's slot count, a single container holds an absurd amount of material."
+		""
+		"Expensive to craft but &eworth it for bulk storage&r of common items like cobblestone, wood, or ingots that accumulate fast."
+	]
+	quest.5507000000000A00.title: "Storage Stack Tier 4"
+	quest.5507000000000A00.quest_desc: [
+		"The ultimate storage density. &3Tier 4&r allows &e1024 items per stack&r in your chests and barrels — sixteen times vanilla capacity per slot."
+		""
+		"&eCombine with a netherite chest and a controller network&r for a physical storage system that rivals AE2 in raw capacity. The endgame of Sophisticated Storage."
+	]
+
+	// ==================== EvilCraft ====================
+chapter.3456E0C530C0038E.title: "EvilCraft"
+
+	// Section 1: Foundation
+	quest.5040BE435A1693AC.title: "Dark Gems"
+	quest.5040BE435A1693AC.quest_desc: [
+		"Mine &9Dark Ore&r found underground to obtain &9Dark Gems&r. These are the foundation material for everything in EvilCraft — blood collection tools, tanks, infusion components, and more."
+		""
+		"Dark Ore generates at the same rate as gold. Look below Y=32 for the best yields. The guidebook, &aOrigins of Darkness&r, covers all recipes and mechanics."
+	]
+	quest.757D3F0A66959E37.title: "Blood Extractor"
+	quest.757D3F0A66959E37.quest_desc: [
+		"Craft a &cBlood Extractor&r and keep it in your inventory. Killing mobs will automatically collect &cBlood&r into it. Blood is the core resource powering all EvilCraft machines and crafting."
+		""
+		"Combine two extractors in a crafting grid to increase capacity. You can also right-click blood stains on the ground to absorb them, or sneak-right-click to place blood as a fluid."
+	]
+	quest.4A562C39CBE7D746.title: "Spikey Claws"
+	quest.4A562C39CBE7D746.quest_desc: [
+		"A weapon that doubles as a digging tool for soft blocks. &eSpikey Claws&r deal decent damage and break dirt, sand, and gravel quickly — useful early-game utility before you have dedicated tools."
+		""
+		"These require only Dark Gems and iron to craft. A solid early sidegrade while you build toward more powerful EvilCraft equipment."
+	]
+	quest.1A3FBA7470BBF24D.title: "Sanguinary Pedestal"
+	quest.1A3FBA7470BBF24D.quest_desc: [
+		"The &cSanguinary Pedestal&r passively absorbs &cBlood Stains&r left on the ground by damaged mobs. Place it near mob-heavy areas and it will slowly accumulate blood without any manual work."
+		""
+		"This is useful before you have a full Spirit Furnace setup — any mob grinder or trap near a pedestal generates blood automatically."
+	]
+	quest.7EB4BD84F387A080.title: "Spiked Plate"
+	quest.7EB4BD84F387A080.quest_desc: [
+		"Place a &9Spiked Plate&r on top of a Sanguinary Pedestal to damage mobs standing on it automatically. Combined with the pedestal's blood absorption, this creates a passive blood farm."
+		""
+		"Lure or push mobs onto the plate — they take damage, drop blood stains, and the pedestal collects it. &eThis is the simplest automated blood generation method.&r"
+	]
+	quest.73028BAAB52A9DE9.title: "Dark Tank"
+	quest.73028BAAB52A9DE9.quest_desc: [
+		"Craft a &aDark Tank&r to store 16 buckets of any fluid. You'll primarily use these for storing the &cBlood&r you collect, but they work with any liquid."
+		""
+		"Combine two Dark Tanks in a crafting grid to double the capacity. &eStack multiple combinations for massive fluid storage.&r"
+	]
+	quest.02779311D8165784.title: "Dark Power Gem"
+	quest.02779311D8165784.quest_desc: [
+		"Create a &5Dark Power Gem&r by infusing a &9Dark Gem&r in a pool of blood. Collect at least 5 buckets of blood in your extractor, dig a 1-deep hole, fill it with blood, then toss in a Dark Gem."
+		""
+		"Dark Power Gems are the key crafting material for mid-tier EvilCraft items. You'll need many of these as you progress through infusion and machine recipes."
+	]
+	quest.6E680C809E173108.title: "Blood Pearl"
+	quest.6E680C809E173108.quest_desc: [
+		"Infuse an Ender Pearl with blood to create a &5Blood Pearl of Teleportation&r. Unlike a regular Ender Pearl, this one is &ereusable&r — it consumes blood from your extractor instead of being destroyed on use."
+		""
+		"Keep one in your hotbar for instant teleportation without burning through pearls. The blood cost per throw is minimal."
+	]
+	quest.6495CD50C1B27057.title: "Hardened Blood"
+	quest.6495CD50C1B27057.quest_desc: [
+		"Place a bucket of blood on the ground and wait — it will dry into &cHardened Blood&r. Alternatively, use a Drying Basin. Break the hardened blood with &9Flint and Steel&r to obtain &dBlood Shards&r."
+		""
+		"Collect &e8 Blood Shards&r. Rain dissolves hardened blood, so do this indoors or in a dry biome. Regular tool hits return the blood to liquid form — only flint and steel gives shards."
+	]
+	quest.5E01C6FB7C078C60.title: "Infusion Core"
+	quest.5E01C6FB7C078C60.quest_desc: [
+		"Combine &cHardened Blood Shards&r with &9Dark Power Gems&r to craft a &9Blood Infusion Core&r. This is the gateway component for all EvilCraft machinery — the Blood Infuser, Spirit Furnace, and more require these."
+		""
+		"Infusion Cores are consumed in crafting. &eKeep a stockpile of Dark Power Gems and Blood Shards to craft more as needed.&r"
+	]
+	quest.5E3DAEB19911EE3D.title: "Dark Temple"
+	quest.5E3DAEB19911EE3D.quest_desc: [
+		"Locate a &0Dark Temple&r — a large structure with a beam of light visible from far away. At its center is an &aEnvironmental Accumulator&r, a unique machine that harnesses weather energy."
+		""
+		"The Environmental Accumulator converts items using the current weather conditions. Different weather states produce different results. &eYou cannot craft this machine — only find it.&r"
+	]
+	quest.36862272C37A6B7C.title: "Weather Container"
+	quest.36862272C37A6B7C.quest_desc: [
+		"Craft a &aWeather Container&r and throw it into the Environmental Accumulator during rain or a thunderstorm. The container captures the weather energy, clearing the weather and storing it for later use."
+		""
+		"Different weather types produce different containers: &9rain&r containers create water-based items, &ethunderstorm&r containers create lightning-based items. Collect both types."
+	]
+	quest.142A03950654FF39.title: "Eternal Water"
+	quest.142A03950654FF39.quest_desc: [
+		"Use a &9rain-charged Weather Container&r in the Environmental Accumulator to create an &9Eternal Water Block&r or an &9Eternal Water Bucket&r. Both provide infinite water — extremely useful utility items."
+		""
+		"The bucket acts as an infinite water source you can carry. The block, when placed, acts as a permanent water source. &eBoth are reusable — craft early and keep forever.&r"
+	]
+	quest.3F3E542559ABA908.title: "Lightning Bombs"
+	quest.3F3E542559ABA908.quest_desc: [
+		"Use a &ethunderstorm-charged Weather Container&r in the Environmental Accumulator to create &dLightning Bombs&r and &dLightning Grenades&r. These summon lightning on impact."
+		""
+		"Lightning Bombs are thrown like snowballs and call a lightning bolt on the target location. Lightning Grenades have an AoE effect. &eBoth are powerful combat tools and utility items.&r"
+	]
+	quest.79E9E184B19BFC97.title: "Necromancer Staff"
+	quest.79E9E184B19BFC97.quest_desc: [
+		"Craft the &dNecromancer Staff&r using Dark Gems and Dark Temple components. When used, it summons a small squad of &eZombies&r to fight alongside you."
+		""
+		"The summoned undead are temporary but can distract enemies and deal decent damage. Useful for clearing mob-heavy areas or defending a position."
+	]
+	// Section 2: Blood Infusion
+	quest.6D3FCB2424F9F9C1.title: "Blood Infuser"
+	quest.6D3FCB2424F9F9C1.quest_desc: [
+		"The &9Blood Infuser&r is the central crafting machine of EvilCraft. It infuses items with blood to create more advanced materials, replacing the manual pool-of-blood method you used for Dark Power Gems."
+		""
+		"Place it down and supply it with blood (pipe in from Dark Tanks or use Blood Extractors directly). &eThis machine can be upgraded with Promises to unlock more recipes and increase speed.&r"
+	]
+	quest.09BAC1D4B6C95C7F.title: "Undead Sapling"
+	quest.09BAC1D4B6C95C7F.quest_desc: [
+		"Use the Blood Infuser to create an &cUndead Sapling&r from a regular sapling and blood. Plant it and let it grow into an &dUndead Tree&r."
+		""
+		"Undead Trees drop &dUndead Logs&r and &dUndead Planks&r — specialized materials required for many EvilCraft items including storage, tools, and brooms."
+	]
+	quest.17DC7F2A51CD0E61.title: "Undead Lumber"
+	quest.17DC7F2A51CD0E61.quest_desc: [
+		"Grow your Undead Sapling and harvest &e8 Undead Logs&r. These logs craft into Undead Planks, which are the primary building material for advanced EvilCraft structures."
+		""
+		"Undead Trees grow like normal trees. Plant multiple saplings for a sustainable supply — you'll need planks for the Colossal Blood Chest, brooms, and several weapon recipes."
+	]
+	quest.3A5FD8469B39E661.title: "Blood Chest"
+	quest.3A5FD8469B39E661.quest_desc: [
+		"Craft a &cBlood Chest&r that automatically repairs items placed inside it using blood. Feed it blood and it will slowly restore durability on tools, armor, and weapons."
+		""
+		"&dWarning&r: repaired items have a chance to gain a random &dCurse&r. Use the Purifier to remove unwanted curses afterward."
+	]
+	quest.3D4F42EE155B91AE.title: "Colossal Blood Chest"
+	quest.3D4F42EE155B91AE.quest_desc: [
+		"Build a &cColossal Blood Chest&r — a multiblock repair station. Construct a 3x3x3 hollow cube using &925 Reinforced Undead Planks&r, then place a Colossal Blood Chest block to complete the structure."
+		""
+		"This repairs items much faster than a standard Blood Chest and can accept &6Promise&r upgrades. &eRequires both Undead Lumber and a functioning Blood Chest to build.&r"
+	]
+	quest.7FB2BC315140D738.title: "Purifier"
+	quest.7FB2BC315140D738.quest_desc: [
+		"The &cPurifier&r removes enchantments and curses from items. Fill it with at least 3 buckets of blood, throw in the enchanted item, then add a &cBlook&r."
+		""
+		"The Blook absorbs one enchantment and converts it into an Enchanted Book. &eThis is the primary way to strip curses from Blood Chest repairs or recover enchantments from unwanted gear.&r"
+	]
+	quest.3499A5936E40EEBE.title: "Blook"
+	quest.3499A5936E40EEBE.quest_desc: [
+		"Craft &cBlook&r — a blood-infused book. Blook is consumed by the Purifier to absorb enchantments. One Blook removes one enchantment."
+		""
+		"You'll want a steady supply of these. The recipe requires paper and blood. &eKeep a stack handy whenever you're using the Blood Chest, since curse removal is frequent.&r"
+	]
+	quest.5D769BA3ED66C567.title: "Effortless Ring"
+	quest.5D769BA3ED66C567.quest_desc: [
+		"Craft the &aEffortless Ring&r using the Blood Infuser. When worn, it grants a &espeed boost and increased step height&r — walk up single blocks without jumping."
+		""
+		"A quality-of-life accessory for general traversal. Equip it in a Curios ring slot and forget about it. No blood cost to maintain."
+	]
+	// Section 3: Promise Tiers
+	quest.42F791945712A4C8.title: "Tier 1 Promises"
+	quest.42F791945712A4C8.quest_desc: [
+		"EvilCraft machines are upgraded using the &6Promise&r system. Start by crafting a &6Promise Acceptor (Iron)&r and a &6Promise of Tenacity: Tier 1&r. Insert the acceptor into a machine to unlock the promise slot."
+		""
+		"Tier 1 increases machine storage capacity. For the Blood Infuser specifically, &ethis unlocks additional infusion recipes&r that are gated behind the first promise tier."
+	]
+	quest.716FE06BF0A3EC6E.title: "Promise of Speed"
+	quest.716FE06BF0A3EC6E.quest_desc: [
+		"Craft a &ePromise of Speed&r and apply it to your Blood Infuser or other EvilCraft machines. This increases the processing speed of the machine, reducing the time each operation takes."
+		""
+		"Speed promises stack — apply multiple to the same machine for increasingly fast operations. &eCombine with Efficiency promises for optimal throughput.&r"
+	]
+	quest.5F5FB5699AD4BB0F.title: "Promise of Efficiency"
+	quest.5F5FB5699AD4BB0F.quest_desc: [
+		"Craft a &ePromise of Efficiency&r to reduce the blood consumption of EvilCraft machines. Each efficiency promise lowers the amount of blood needed per operation."
+		""
+		"Blood can be expensive to generate in large quantities. Efficiency promises let your blood supply stretch further, especially for recipes that consume hundreds of millibuckets."
+	]
+	quest.5B9749E30099FF8E.title: "Potentia Sphere"
+	quest.5B9749E30099FF8E.quest_desc: [
+		"Craft a &dPotentia Sphere&r by combining both Speed and Efficiency concepts. This is an advanced component used in several high-tier EvilCraft recipes."
+		""
+		"The Potentia Sphere represents mastery over the promise system — you've proven you can manipulate blood-powered machines at peak performance."
+	]
+	quest.024E7D25DBAB3E06.title: "Tier 2 Promises"
+	quest.024E7D25DBAB3E06.quest_desc: [
+		"Upgrade to &6Tier 2 Promises&r by crafting a &6Promise Acceptor (Gold)&r and a &6Promise of Tenacity: Tier 2&r. This further expands machine capabilities and unlocks more powerful infusion recipes."
+		""
+		"Tier 2 is required for the Spirit Furnace and several advanced item recipes. &eThis is a significant power spike in the EvilCraft progression.&r"
+	]
+	quest.3D605C4584603692.title: "Condensed Blood"
+	quest.3D605C4584603692.quest_desc: [
+		"The Blood Infuser can create &cCondensed Blood&r — a dense block of crystallized blood used as a crafting material in advanced recipes. Collect &e5 blocks&r."
+		""
+		"Condensed Blood is consumed in several endgame recipes and is also useful as a compact blood storage medium. &eKeep a reserve for Garmonbozia crafting later.&r"
+	]
+	quest.71FD1768649BF80F.title: "Tier 3 Promises"
+	quest.71FD1768649BF80F.quest_desc: [
+		"The final promise tier. Craft a &6Promise Acceptor (Diamond)&r and a &6Promise of Tenacity: Tier 3&r to unlock the full potential of EvilCraft machines."
+		""
+		"Tier 3 unlocks access to &dGarmonbozia&r recipes and the most powerful EvilCraft items. &eThis is the last hard gate before endgame content.&r"
+	]
+	// Section 4: Spirit System
+	quest.6B45B2FD231E04A5.title: "Vengeance Spirits"
+	quest.6B45B2FD231E04A5.quest_desc: [
+		"Kill mobs and watch for &dVengeance Spirits&r that occasionally spawn. These ghostly entities drop &dVengeance Essence&r — a material needed for capturing spirits and crafting advanced items."
+		""
+		"Craft a &9Vengeance Ring&r and toggle it on to &eincrease the spawn rate of spirits&r during combat. The ring makes farming essence much more efficient."
+	]
+	quest.5BFE1F271055B8EB.title: "Vengeance Focus"
+	quest.5BFE1F271055B8EB.quest_desc: [
+		"Craft a &dVengeance Focus&r — a tool that &afreezes Vengeance Spirits in place&r when you right-click them. Frozen spirits can then be captured."
+		""
+		"Without the focus, spirits are aggressive and will attack you. Freezing them first makes capture safe and reliable."
+	]
+	quest.50B200AF8C08AA76.title: "Box of Eternal Closure"
+	quest.50B200AF8C08AA76.quest_desc: [
+		"Craft a &9Box of Eternal Closure&r and place it near a frozen spirit. The box automatically sucks in the spirit, trapping it indefinitely. Each box holds one spirit."
+		""
+		"Captured spirits are essential for the &eSpirit Furnace&r — the mob type trapped determines what drops the furnace produces. &eCapture different mob types for different resources.&r"
+	]
+	quest.588EF81C4F3A8CA0.title: "Spirit Furnace"
+	quest.588EF81C4F3A8CA0.quest_desc: [
+		"Build the &9Spirit Furnace&r multiblock — EvilCraft's mob farm. Construct a cuboid shell using &e33 Dark Blood Bricks&r (minimum 3x4x3 interior) and place a Spirit Furnace block on one face."
+		""
+		"Insert a &9Box of Eternal Closure&r containing a mob spirit. The furnace will continuously produce that mob's drops using blood as fuel. &eLarger structures are needed for bigger mobs.&r"
+	]
+	quest.276E5F61FC9AAC23.title: "Spirit Reanimator"
+	quest.276E5F61FC9AAC23.quest_desc: [
+		"Craft a &9Spirit Reanimator&r to convert captured spirits into &eSpawn Eggs&r. Provide it with blood and a regular egg, then insert a Box of Eternal Closure with the desired mob."
+		""
+		"The reanimator attempts to create a spawn egg for the trapped mob type. &eNote: some mob types cannot produce spawn eggs.&r This is one of the few ways to obtain spawn eggs for unusual mobs."
+	]
+	quest.41D0B35D98071B2E.title: "Entangled Chalice"
+	quest.41D0B35D98071B2E.quest_desc: [
+		"Craft a pair of &6Entangled Chalices&r. When one is placed in the world near a blood source, the other (in your inventory) will automatically refill your blood-consuming items wirelessly."
+		""
+		"Craft additional chalices using the same base chalice to create linked pairs sharing the same blood network. &eThis is the ultimate blood logistics solution — never manually refill again.&r"
+	]
+	// Section 5: Combat & Tools
+	quest.066C0B8F06B9F76E.title: "Vein Sword"
+	quest.066C0B8F06B9F76E.quest_desc: [
+		"Craft the &dVein Sword&r from Undead materials. This weapon has an innate &eblood collection bonus&r — kills yield significantly more blood than a regular weapon."
+		""
+		"It also comes with built-in Looting, increasing mob drops. &eThe best weapon for blood farming once you have undead lumber available.&r"
+	]
+	quest.7262FC026E2B48E1.title: "Vengeance Pickaxe"
+	quest.7262FC026E2B48E1.quest_desc: [
+		"Craft the &dVengeance Pickaxe&r — a mining tool with built-in &eFortune V&r. This far exceeds any vanilla enchantment level, making it devastating for diamond, lapis, and redstone mining."
+		""
+		"There's a side effect: mining occasionally summons &dVengeance Spirits&r. If you have a Vengeance Ring equipped, this turns mining into a spirit farming activity."
+	]
+	quest.1BD75478D01ABD9E.title: "Blood Broom"
+	quest.1BD75478D01ABD9E.quest_desc: [
+		"Assemble a &dBlood Broom&r from three &eBroom Parts&r — a Rod, a Cap, and a Brush. Each part can be modified with different items to add specific stat modifiers before assembly."
+		""
+		"Brooms function as flying mounts that consume blood as fuel. Check the &aOrigins of Darkness&r guidebook for the full list of broom part modifiers — there are dozens of combinations."
+	]
+	quest.52494139FBB78604.title: "Mace of Distortion"
+	quest.52494139FBB78604.quest_desc: [
+		"Craft the &aMace of Distortion&r using Dark Temple components. It functions like a melee weapon that causes an &eAoE explosion on impact&r, damaging all nearby enemies."
+		""
+		"The explosion radius scales with the mace's charge level. Useful for crowd control situations where you're surrounded."
+	]
+	quest.3A905CF9BE641C1D.title: "Sceptre of Thunder"
+	quest.3A905CF9BE641C1D.quest_desc: [
+		"Craft the &eSceptre of Thunder&r to summon a &dlightning bolt&r at any target location. This is a one-time use item — once fired, it's consumed."
+		""
+		"Despite being single-use, it's cheap to craft with lightning bomb materials. Useful for precise lightning strikes on specific targets or for triggering lightning-based game mechanics."
+	]
+	quest.0D1E3481748ADFB4.title: "Invigorating Pendant"
+	quest.0D1E3481748ADFB4.quest_desc: [
+		"Craft the &aInvigorating Pendant&r to automatically &eremove negative potion effects&r when worn. Poison, weakness, slowness — the pendant clears them immediately."
+		""
+		"Equip it in a Curios slot for passive effect cleansing. Extremely useful in combat situations where enemies apply debuffs, or when exploring areas with lingering potions."
+	]
+	quest.15373B6E1F12199E.title: "Kineticators"
+	quest.15373B6E1F12199E.quest_desc: [
+		"Craft both the &9Kineticator&r (item/XP magnet) and the &eReverse Kineticator&r (item/XP repeller). Toggle them on/off as needed for different situations."
+		""
+		"The Kineticator pulls items and experience orbs toward you — useful for farming. The Reverse Kineticator pushes them away — useful for item sorting or keeping drops clear of machinery."
+	]
+	quest.1FDD595A99328F6F.title: "Primed Pendant"
+	quest.1FDD595A99328F6F.quest_desc: [
+		"Craft the &2Primed Pendant&r and load it with a potion of your choice. When worn, the pendant continuously &eapplies that potion effect to you&r at the cost of blood."
+		""
+		"Right-click with the pendant in hand to open its inventory and insert a potion. &eSwap potions any time — strength for combat, speed for travel, night vision for mining.&r"
+	]
+	quest.5CD059DC1E10FA1C.title: "Mace of Destruction"
+	quest.5CD059DC1E10FA1C.quest_desc: [
+		"Craft the &cMace of Destruction&r — an upgraded mace that charges up with right-click for a devastating &eAoE blood explosion&r. Sneak-right-click to adjust the power level."
+		""
+		"Higher power levels deal more damage in a larger area but consume more blood per swing. At max power, this is one of the most destructive melee weapons in the pack."
+	]
+	quest.1C902B343877343B.title: "Blood Stain Collector"
+	quest.1C902B343877343B.quest_desc: [
+		"Collecting &cBlood Stains&r from the ground manually is tedious. The Sanguinary Pedestal automates this, but you can also right-click stains with a &cBlood Extractor&r for faster manual pickup."
+		""
+		"Place multiple pedestals in high-traffic mob areas for passive blood income. Combine with Spiked Plates for a fully automated blood collection system."
+	]
+	quest.1E36A1F6CCD1AC7F.title: "Dark Spike"
+	quest.1E36A1F6CCD1AC7F.quest_desc: [
+		"Craft a &9Dark Spike&r — a placeable trap block that damages entities walking over it. Useful for mob traps, base defense, and automating damage for blood farming setups."
+		""
+		"Dark Spikes work well in combination with Sanguinary Pedestals. Place spikes in a hallway or pit and let mobs walk into them for continuous blood stain generation."
+	]
+	quest.7DEF544F2ED35136.title: "Sanguinary Pedestal Tier 1"
+	quest.7DEF544F2ED35136.quest_desc: [
+		"Upgrade your Sanguinary Pedestal to &eTier 1&r by surrounding it with Dark Gems. The upgraded pedestal absorbs blood stains faster and from a wider radius."
+		""
+		"Higher tier pedestals dramatically improve passive blood collection rates. &eCombine with an efficient mob farm for industrial-scale blood production.&r"
+	]
+	// Section 6: Endgame
+	quest.647A59ACEFF21808.title: "Garmonbozia"
+	quest.647A59ACEFF21808.quest_desc: [
+		"Use the Blood Infuser with Tier 3 Promises to create &dGarmonbozia&r — materialized &dPain and Sorrow&r. This is EvilCraft's ultimate crafting material, required for the most powerful items."
+		""
+		"The recipe requires a captured &9Vengeance Spirit&r essence and significant blood. &eThis is the pinnacle of EvilCraft progression — everything beyond this point is endgame territory.&r"
+	]
+	quest.26AABB7B3D613EC8.title: "Humanoid Flesh"
+	quest.26AABB7B3D613EC8.quest_desc: [
+		"Obtain &aHumanoid Flesh&r — a unique drop from &ePlayers&r. This includes your own flesh dropped when you die, or flesh obtained through PvP."
+		""
+		"Yes, you can farm this by dying repeatedly. It's one of two flesh types needed for Flesh Rejuvenated. &eKeep your blood extractor handy — you'll lose some on death.&r"
+	]
+	quest.1AD71EF270AA871E.title: "Werewolf Flesh"
+	quest.1AD71EF270AA871E.quest_desc: [
+		"Slay &dWerewolves&r found in villages to obtain &dWerewolf Flesh&r. These hostile villagers transform under certain conditions and drop their flesh on death."
+		""
+		"Check villages during nighttime for the best chance of finding werewolves. They're relatively rare, so explore multiple villages."
+	]
+	quest.132F499850280976.title: "Flesh Rejuvenated"
+	quest.132F499850280976.quest_desc: [
+		"Combine either &aHumanoid Flesh&r or &dWerewolf Flesh&r with Garmonbozia to create &aFlesh Rejuvenated&r — an &einfinite food source&r that never depletes."
+		""
+		"Rejuvenated Flesh provides excellent hunger restoration and never runs out. &eThis is the ultimate food item — once crafted, you never need to worry about food again.&r"
+	]
+	quest.5E8CA73483C49ED9.title: "Sanguinary Accumulator"
+	quest.5E8CA73483C49ED9.quest_desc: [
+		"Craft your own &aSanguinary Environmental Accumulator&r using Garmonbozia and Dark Temple materials. Unlike the one found in Dark Temples, &ethis version is portable and placeable anywhere&r."
+		""
+		"Having your own accumulator means you no longer need to travel to Dark Temples for weather-based crafting. Place it at your base for convenient access to all Environmental Accumulator recipes."
+	]
+	quest.6D10C63E034D00E4.title: "Dark Power Gem Block"
+	quest.6D10C63E034D00E4.quest_desc: [
+		"Craft a full block of &5Dark Power Gems&r — 9 gems compressed into a single decorative and storage block. This represents a significant investment of materials."
+		""
+		"Dark Power Gem Blocks are used in some advanced recipes and serve as compact storage. &eAlso useful as building material for a suitably evil-looking base.&r"
+	]
+	quest.6E3119FB56DD9904.title: "Environmental Accumulator Mastery"
+	quest.6E3119FB56DD9904.quest_desc: [
+		"With your own Sanguinary Accumulator and a full Garmonbozia supply, you've mastered the forces of EvilCraft. Weather bends to your will, spirits serve your furnaces, and blood flows endlessly."
+		""
+		"You have conquered every tier of EvilCraft's progression — from humble Dark Gems to Pain and Sorrow materialized. &eThe darkness answers to you now.&r"
+	]
+
+	task.6C2EE1512A549589.title: "Visit a Dark Temple"
+
 }

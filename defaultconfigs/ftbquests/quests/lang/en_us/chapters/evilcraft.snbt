@@ -1,0 +1,342 @@
+{
+	chapter.3456E0C530C0038E.title: "EvilCraft"
+
+	// Section 1: Foundation
+	quest.5040BE435A1693AC.title: "Dark Gems"
+	quest.5040BE435A1693AC.quest_desc: [
+		"Mine &9Dark Ore&r found underground to obtain &9Dark Gems&r. These are the foundation material for everything in EvilCraft — blood collection tools, tanks, infusion components, and more."
+		""
+		"Dark Ore generates at the same rate as gold. Look below Y=32 for the best yields. The guidebook, &aOrigins of Darkness&r, covers all recipes and mechanics."
+	]
+	quest.757D3F0A66959E37.title: "Blood Extractor"
+	quest.757D3F0A66959E37.quest_desc: [
+		"Craft a &cBlood Extractor&r and keep it in your inventory. Killing mobs will automatically collect &cBlood&r into it. Blood is the core resource powering all EvilCraft machines and crafting."
+		""
+		"Combine two extractors in a crafting grid to increase capacity. You can also right-click blood stains on the ground to absorb them, or sneak-right-click to place blood as a fluid."
+	]
+	quest.4A562C39CBE7D746.title: "Spikey Claws"
+	quest.4A562C39CBE7D746.quest_desc: [
+		"A weapon that doubles as a digging tool for soft blocks. &eSpikey Claws&r deal decent damage and break dirt, sand, and gravel quickly — useful early-game utility before you have dedicated tools."
+		""
+		"These require only Dark Gems and iron to craft. A solid early sidegrade while you build toward more powerful EvilCraft equipment."
+	]
+	quest.1A3FBA7470BBF24D.title: "Sanguinary Pedestal"
+	quest.1A3FBA7470BBF24D.quest_desc: [
+		"The &cSanguinary Pedestal&r passively absorbs &cBlood Stains&r left on the ground by damaged mobs. Place it near mob-heavy areas and it will slowly accumulate blood without any manual work."
+		""
+		"This is useful before you have a full Spirit Furnace setup — any mob grinder or trap near a pedestal generates blood automatically."
+	]
+	quest.7EB4BD84F387A080.title: "Spiked Plate"
+	quest.7EB4BD84F387A080.quest_desc: [
+		"Place a &9Spiked Plate&r on top of a Sanguinary Pedestal to damage mobs standing on it automatically. Combined with the pedestal's blood absorption, this creates a passive blood farm."
+		""
+		"Lure or push mobs onto the plate — they take damage, drop blood stains, and the pedestal collects it. &eThis is the simplest automated blood generation method.&r"
+	]
+	quest.73028BAAB52A9DE9.title: "Dark Tank"
+	quest.73028BAAB52A9DE9.quest_desc: [
+		"Craft a &aDark Tank&r to store 16 buckets of any fluid. You'll primarily use these for storing the &cBlood&r you collect, but they work with any liquid."
+		""
+		"Combine two Dark Tanks in a crafting grid to double the capacity. &eStack multiple combinations for massive fluid storage.&r"
+	]
+	quest.02779311D8165784.title: "Dark Power Gem"
+	quest.02779311D8165784.quest_desc: [
+		"Create a &5Dark Power Gem&r by infusing a &9Dark Gem&r in a pool of blood. Collect at least 5 buckets of blood in your extractor, dig a 1-deep hole, fill it with blood, then toss in a Dark Gem."
+		""
+		"Dark Power Gems are the key crafting material for mid-tier EvilCraft items. You'll need many of these as you progress through infusion and machine recipes."
+	]
+	quest.6E680C809E173108.title: "Blood Pearl"
+	quest.6E680C809E173108.quest_desc: [
+		"Infuse an Ender Pearl with blood to create a &5Blood Pearl of Teleportation&r. Unlike a regular Ender Pearl, this one is &ereusable&r — it consumes blood from your extractor instead of being destroyed on use."
+		""
+		"Keep one in your hotbar for instant teleportation without burning through pearls. The blood cost per throw is minimal."
+	]
+	quest.6495CD50C1B27057.title: "Hardened Blood"
+	quest.6495CD50C1B27057.quest_desc: [
+		"Place a bucket of blood on the ground and wait — it will dry into &cHardened Blood&r. Alternatively, use a Drying Basin. Break the hardened blood with &9Flint and Steel&r to obtain &dBlood Shards&r."
+		""
+		"Collect &e8 Blood Shards&r. Rain dissolves hardened blood, so do this indoors or in a dry biome. Regular tool hits return the blood to liquid form — only flint and steel gives shards."
+	]
+	quest.5E01C6FB7C078C60.title: "Infusion Core"
+	quest.5E01C6FB7C078C60.quest_desc: [
+		"Combine &cHardened Blood Shards&r with &9Dark Power Gems&r to craft a &9Blood Infusion Core&r. This is the gateway component for all EvilCraft machinery — the Blood Infuser, Spirit Furnace, and more require these."
+		""
+		"Infusion Cores are consumed in crafting. &eKeep a stockpile of Dark Power Gems and Blood Shards to craft more as needed.&r"
+	]
+	quest.5E3DAEB19911EE3D.title: "Dark Temple"
+	quest.5E3DAEB19911EE3D.quest_desc: [
+		"Locate a &0Dark Temple&r — a large structure with a beam of light visible from far away. At its center is an &aEnvironmental Accumulator&r, a unique machine that harnesses weather energy."
+		""
+		"The Environmental Accumulator converts items using the current weather conditions. Different weather states produce different results. &eYou cannot craft this machine — only find it.&r"
+	]
+	quest.36862272C37A6B7C.title: "Weather Container"
+	quest.36862272C37A6B7C.quest_desc: [
+		"Craft a &aWeather Container&r and throw it into the Environmental Accumulator during rain or a thunderstorm. The container captures the weather energy, clearing the weather and storing it for later use."
+		""
+		"Different weather types produce different containers: &9rain&r containers create water-based items, &ethunderstorm&r containers create lightning-based items. Collect both types."
+	]
+	quest.142A03950654FF39.title: "Eternal Water"
+	quest.142A03950654FF39.quest_desc: [
+		"Use a &9rain-charged Weather Container&r in the Environmental Accumulator to create an &9Eternal Water Block&r or an &9Eternal Water Bucket&r. Both provide infinite water — extremely useful utility items."
+		""
+		"The bucket acts as an infinite water source you can carry. The block, when placed, acts as a permanent water source. &eBoth are reusable — craft early and keep forever.&r"
+	]
+	quest.3F3E542559ABA908.title: "Lightning Bombs"
+	quest.3F3E542559ABA908.quest_desc: [
+		"Use a &ethunderstorm-charged Weather Container&r in the Environmental Accumulator to create &dLightning Bombs&r and &dLightning Grenades&r. These summon lightning on impact."
+		""
+		"Lightning Bombs are thrown like snowballs and call a lightning bolt on the target location. Lightning Grenades have an AoE effect. &eBoth are powerful combat tools and utility items.&r"
+	]
+	quest.79E9E184B19BFC97.title: "Necromancer Staff"
+	quest.79E9E184B19BFC97.quest_desc: [
+		"Craft the &dNecromancer Staff&r using Dark Gems and Dark Temple components. When used, it summons a small squad of &eZombies&r to fight alongside you."
+		""
+		"The summoned undead are temporary but can distract enemies and deal decent damage. Useful for clearing mob-heavy areas or defending a position."
+	]
+	// Section 2: Blood Infusion
+	quest.6D3FCB2424F9F9C1.title: "Blood Infuser"
+	quest.6D3FCB2424F9F9C1.quest_desc: [
+		"The &9Blood Infuser&r is the central crafting machine of EvilCraft. It infuses items with blood to create more advanced materials, replacing the manual pool-of-blood method you used for Dark Power Gems."
+		""
+		"Place it down and supply it with blood (pipe in from Dark Tanks or use Blood Extractors directly). &eThis machine can be upgraded with Promises to unlock more recipes and increase speed.&r"
+	]
+	quest.09BAC1D4B6C95C7F.title: "Undead Sapling"
+	quest.09BAC1D4B6C95C7F.quest_desc: [
+		"Use the Blood Infuser to create an &cUndead Sapling&r from a regular sapling and blood. Plant it and let it grow into an &dUndead Tree&r."
+		""
+		"Undead Trees drop &dUndead Logs&r and &dUndead Planks&r — specialized materials required for many EvilCraft items including storage, tools, and brooms."
+	]
+	quest.17DC7F2A51CD0E61.title: "Undead Lumber"
+	quest.17DC7F2A51CD0E61.quest_desc: [
+		"Grow your Undead Sapling and harvest &e8 Undead Logs&r. These logs craft into Undead Planks, which are the primary building material for advanced EvilCraft structures."
+		""
+		"Undead Trees grow like normal trees. Plant multiple saplings for a sustainable supply — you'll need planks for the Colossal Blood Chest, brooms, and several weapon recipes."
+	]
+	quest.3A5FD8469B39E661.title: "Blood Chest"
+	quest.3A5FD8469B39E661.quest_desc: [
+		"Craft a &cBlood Chest&r that automatically repairs items placed inside it using blood. Feed it blood and it will slowly restore durability on tools, armor, and weapons."
+		""
+		"&dWarning&r: repaired items have a chance to gain a random &dCurse&r. Use the Purifier to remove unwanted curses afterward."
+	]
+	quest.3D4F42EE155B91AE.title: "Colossal Blood Chest"
+	quest.3D4F42EE155B91AE.quest_desc: [
+		"Build a &cColossal Blood Chest&r — a multiblock repair station. Construct a 3x3x3 hollow cube using &925 Reinforced Undead Planks&r, then place a Colossal Blood Chest block to complete the structure."
+		""
+		"This repairs items much faster than a standard Blood Chest and can accept &6Promise&r upgrades. &eRequires both Undead Lumber and a functioning Blood Chest to build.&r"
+	]
+	quest.7FB2BC315140D738.title: "Purifier"
+	quest.7FB2BC315140D738.quest_desc: [
+		"The &cPurifier&r removes enchantments and curses from items. Fill it with at least 3 buckets of blood, throw in the enchanted item, then add a &cBlook&r."
+		""
+		"The Blook absorbs one enchantment and converts it into an Enchanted Book. &eThis is the primary way to strip curses from Blood Chest repairs or recover enchantments from unwanted gear.&r"
+	]
+	quest.3499A5936E40EEBE.title: "Blook"
+	quest.3499A5936E40EEBE.quest_desc: [
+		"Craft &cBlook&r — a blood-infused book. Blook is consumed by the Purifier to absorb enchantments. One Blook removes one enchantment."
+		""
+		"You'll want a steady supply of these. The recipe requires paper and blood. &eKeep a stack handy whenever you're using the Blood Chest, since curse removal is frequent.&r"
+	]
+	quest.5D769BA3ED66C567.title: "Effortless Ring"
+	quest.5D769BA3ED66C567.quest_desc: [
+		"Craft the &aEffortless Ring&r using the Blood Infuser. When worn, it grants a &espeed boost and increased step height&r — walk up single blocks without jumping."
+		""
+		"A quality-of-life accessory for general traversal. Equip it in a Curios ring slot and forget about it. No blood cost to maintain."
+	]
+	// Section 3: Promise Tiers
+	quest.42F791945712A4C8.title: "Tier 1 Promises"
+	quest.42F791945712A4C8.quest_desc: [
+		"EvilCraft machines are upgraded using the &6Promise&r system. Start by crafting a &6Promise Acceptor (Iron)&r and a &6Promise of Tenacity: Tier 1&r. Insert the acceptor into a machine to unlock the promise slot."
+		""
+		"Tier 1 increases machine storage capacity. For the Blood Infuser specifically, &ethis unlocks additional infusion recipes&r that are gated behind the first promise tier."
+	]
+	quest.716FE06BF0A3EC6E.title: "Promise of Speed"
+	quest.716FE06BF0A3EC6E.quest_desc: [
+		"Craft a &ePromise of Speed&r and apply it to your Blood Infuser or other EvilCraft machines. This increases the processing speed of the machine, reducing the time each operation takes."
+		""
+		"Speed promises stack — apply multiple to the same machine for increasingly fast operations. &eCombine with Efficiency promises for optimal throughput.&r"
+	]
+	quest.5F5FB5699AD4BB0F.title: "Promise of Efficiency"
+	quest.5F5FB5699AD4BB0F.quest_desc: [
+		"Craft a &ePromise of Efficiency&r to reduce the blood consumption of EvilCraft machines. Each efficiency promise lowers the amount of blood needed per operation."
+		""
+		"Blood can be expensive to generate in large quantities. Efficiency promises let your blood supply stretch further, especially for recipes that consume hundreds of millibuckets."
+	]
+	quest.5B9749E30099FF8E.title: "Potentia Sphere"
+	quest.5B9749E30099FF8E.quest_desc: [
+		"Craft a &dPotentia Sphere&r by combining both Speed and Efficiency concepts. This is an advanced component used in several high-tier EvilCraft recipes."
+		""
+		"The Potentia Sphere represents mastery over the promise system — you've proven you can manipulate blood-powered machines at peak performance."
+	]
+	quest.024E7D25DBAB3E06.title: "Tier 2 Promises"
+	quest.024E7D25DBAB3E06.quest_desc: [
+		"Upgrade to &6Tier 2 Promises&r by crafting a &6Promise Acceptor (Gold)&r and a &6Promise of Tenacity: Tier 2&r. This further expands machine capabilities and unlocks more powerful infusion recipes."
+		""
+		"Tier 2 is required for the Spirit Furnace and several advanced item recipes. &eThis is a significant power spike in the EvilCraft progression.&r"
+	]
+	quest.3D605C4584603692.title: "Condensed Blood"
+	quest.3D605C4584603692.quest_desc: [
+		"The Blood Infuser can create &cCondensed Blood&r — a dense block of crystallized blood used as a crafting material in advanced recipes. Collect &e5 blocks&r."
+		""
+		"Condensed Blood is consumed in several endgame recipes and is also useful as a compact blood storage medium. &eKeep a reserve for Garmonbozia crafting later.&r"
+	]
+	quest.71FD1768649BF80F.title: "Tier 3 Promises"
+	quest.71FD1768649BF80F.quest_desc: [
+		"The final promise tier. Craft a &6Promise Acceptor (Diamond)&r and a &6Promise of Tenacity: Tier 3&r to unlock the full potential of EvilCraft machines."
+		""
+		"Tier 3 unlocks access to &dGarmonbozia&r recipes and the most powerful EvilCraft items. &eThis is the last hard gate before endgame content.&r"
+	]
+	// Section 4: Spirit System
+	quest.6B45B2FD231E04A5.title: "Vengeance Spirits"
+	quest.6B45B2FD231E04A5.quest_desc: [
+		"Kill mobs and watch for &dVengeance Spirits&r that occasionally spawn. These ghostly entities drop &dVengeance Essence&r — a material needed for capturing spirits and crafting advanced items."
+		""
+		"Craft a &9Vengeance Ring&r and toggle it on to &eincrease the spawn rate of spirits&r during combat. The ring makes farming essence much more efficient."
+	]
+	quest.5BFE1F271055B8EB.title: "Vengeance Focus"
+	quest.5BFE1F271055B8EB.quest_desc: [
+		"Craft a &dVengeance Focus&r — a tool that &afreezes Vengeance Spirits in place&r when you right-click them. Frozen spirits can then be captured."
+		""
+		"Without the focus, spirits are aggressive and will attack you. Freezing them first makes capture safe and reliable."
+	]
+	quest.50B200AF8C08AA76.title: "Box of Eternal Closure"
+	quest.50B200AF8C08AA76.quest_desc: [
+		"Craft a &9Box of Eternal Closure&r and place it near a frozen spirit. The box automatically sucks in the spirit, trapping it indefinitely. Each box holds one spirit."
+		""
+		"Captured spirits are essential for the &eSpirit Furnace&r — the mob type trapped determines what drops the furnace produces. &eCapture different mob types for different resources.&r"
+	]
+	quest.588EF81C4F3A8CA0.title: "Spirit Furnace"
+	quest.588EF81C4F3A8CA0.quest_desc: [
+		"Build the &9Spirit Furnace&r multiblock — EvilCraft's mob farm. Construct a cuboid shell using &e33 Dark Blood Bricks&r (minimum 3x4x3 interior) and place a Spirit Furnace block on one face."
+		""
+		"Insert a &9Box of Eternal Closure&r containing a mob spirit. The furnace will continuously produce that mob's drops using blood as fuel. &eLarger structures are needed for bigger mobs.&r"
+	]
+	quest.276E5F61FC9AAC23.title: "Spirit Reanimator"
+	quest.276E5F61FC9AAC23.quest_desc: [
+		"Craft a &9Spirit Reanimator&r to convert captured spirits into &eSpawn Eggs&r. Provide it with blood and a regular egg, then insert a Box of Eternal Closure with the desired mob."
+		""
+		"The reanimator attempts to create a spawn egg for the trapped mob type. &eNote: some mob types cannot produce spawn eggs.&r This is one of the few ways to obtain spawn eggs for unusual mobs."
+	]
+	quest.41D0B35D98071B2E.title: "Entangled Chalice"
+	quest.41D0B35D98071B2E.quest_desc: [
+		"Craft a pair of &6Entangled Chalices&r. When one is placed in the world near a blood source, the other (in your inventory) will automatically refill your blood-consuming items wirelessly."
+		""
+		"Craft additional chalices using the same base chalice to create linked pairs sharing the same blood network. &eThis is the ultimate blood logistics solution — never manually refill again.&r"
+	]
+	// Section 5: Combat & Tools
+	quest.066C0B8F06B9F76E.title: "Vein Sword"
+	quest.066C0B8F06B9F76E.quest_desc: [
+		"Craft the &dVein Sword&r from Undead materials. This weapon has an innate &eblood collection bonus&r — kills yield significantly more blood than a regular weapon."
+		""
+		"It also comes with built-in Looting, increasing mob drops. &eThe best weapon for blood farming once you have undead lumber available.&r"
+	]
+	quest.7262FC026E2B48E1.title: "Vengeance Pickaxe"
+	quest.7262FC026E2B48E1.quest_desc: [
+		"Craft the &dVengeance Pickaxe&r — a mining tool with built-in &eFortune V&r. This far exceeds any vanilla enchantment level, making it devastating for diamond, lapis, and redstone mining."
+		""
+		"There's a side effect: mining occasionally summons &dVengeance Spirits&r. If you have a Vengeance Ring equipped, this turns mining into a spirit farming activity."
+	]
+	quest.1BD75478D01ABD9E.title: "Blood Broom"
+	quest.1BD75478D01ABD9E.quest_desc: [
+		"Assemble a &dBlood Broom&r from three &eBroom Parts&r — a Rod, a Cap, and a Brush. Each part can be modified with different items to add specific stat modifiers before assembly."
+		""
+		"Brooms function as flying mounts that consume blood as fuel. Check the &aOrigins of Darkness&r guidebook for the full list of broom part modifiers — there are dozens of combinations."
+	]
+	quest.52494139FBB78604.title: "Mace of Distortion"
+	quest.52494139FBB78604.quest_desc: [
+		"Craft the &aMace of Distortion&r using Dark Temple components. It functions like a melee weapon that causes an &eAoE explosion on impact&r, damaging all nearby enemies."
+		""
+		"The explosion radius scales with the mace's charge level. Useful for crowd control situations where you're surrounded."
+	]
+	quest.3A905CF9BE641C1D.title: "Sceptre of Thunder"
+	quest.3A905CF9BE641C1D.quest_desc: [
+		"Craft the &eSceptre of Thunder&r to summon a &dlightning bolt&r at any target location. This is a one-time use item — once fired, it's consumed."
+		""
+		"Despite being single-use, it's cheap to craft with lightning bomb materials. Useful for precise lightning strikes on specific targets or for triggering lightning-based game mechanics."
+	]
+	quest.0D1E3481748ADFB4.title: "Invigorating Pendant"
+	quest.0D1E3481748ADFB4.quest_desc: [
+		"Craft the &aInvigorating Pendant&r to automatically &eremove negative potion effects&r when worn. Poison, weakness, slowness — the pendant clears them immediately."
+		""
+		"Equip it in a Curios slot for passive effect cleansing. Extremely useful in combat situations where enemies apply debuffs, or when exploring areas with lingering potions."
+	]
+	quest.15373B6E1F12199E.title: "Kineticators"
+	quest.15373B6E1F12199E.quest_desc: [
+		"Craft both the &9Kineticator&r (item/XP magnet) and the &eReverse Kineticator&r (item/XP repeller). Toggle them on/off as needed for different situations."
+		""
+		"The Kineticator pulls items and experience orbs toward you — useful for farming. The Reverse Kineticator pushes them away — useful for item sorting or keeping drops clear of machinery."
+	]
+	quest.1FDD595A99328F6F.title: "Primed Pendant"
+	quest.1FDD595A99328F6F.quest_desc: [
+		"Craft the &2Primed Pendant&r and load it with a potion of your choice. When worn, the pendant continuously &eapplies that potion effect to you&r at the cost of blood."
+		""
+		"Right-click with the pendant in hand to open its inventory and insert a potion. &eSwap potions any time — strength for combat, speed for travel, night vision for mining.&r"
+	]
+	quest.5CD059DC1E10FA1C.title: "Mace of Destruction"
+	quest.5CD059DC1E10FA1C.quest_desc: [
+		"Craft the &cMace of Destruction&r — an upgraded mace that charges up with right-click for a devastating &eAoE blood explosion&r. Sneak-right-click to adjust the power level."
+		""
+		"Higher power levels deal more damage in a larger area but consume more blood per swing. At max power, this is one of the most destructive melee weapons in the pack."
+	]
+	quest.1C902B343877343B.title: "Blood Stain Collector"
+	quest.1C902B343877343B.quest_desc: [
+		"Collecting &cBlood Stains&r from the ground manually is tedious. The Sanguinary Pedestal automates this, but you can also right-click stains with a &cBlood Extractor&r for faster manual pickup."
+		""
+		"Place multiple pedestals in high-traffic mob areas for passive blood income. Combine with Spiked Plates for a fully automated blood collection system."
+	]
+	quest.1E36A1F6CCD1AC7F.title: "Dark Spike"
+	quest.1E36A1F6CCD1AC7F.quest_desc: [
+		"Craft a &9Dark Spike&r — a placeable trap block that damages entities walking over it. Useful for mob traps, base defense, and automating damage for blood farming setups."
+		""
+		"Dark Spikes work well in combination with Sanguinary Pedestals. Place spikes in a hallway or pit and let mobs walk into them for continuous blood stain generation."
+	]
+	quest.7DEF544F2ED35136.title: "Sanguinary Pedestal Tier 1"
+	quest.7DEF544F2ED35136.quest_desc: [
+		"Upgrade your Sanguinary Pedestal to &eTier 1&r by surrounding it with Dark Gems. The upgraded pedestal absorbs blood stains faster and from a wider radius."
+		""
+		"Higher tier pedestals dramatically improve passive blood collection rates. &eCombine with an efficient mob farm for industrial-scale blood production.&r"
+	]
+	// Section 6: Endgame
+	quest.647A59ACEFF21808.title: "Garmonbozia"
+	quest.647A59ACEFF21808.quest_desc: [
+		"Use the Blood Infuser with Tier 3 Promises to create &dGarmonbozia&r — materialized &dPain and Sorrow&r. This is EvilCraft's ultimate crafting material, required for the most powerful items."
+		""
+		"The recipe requires a captured &9Vengeance Spirit&r essence and significant blood. &eThis is the pinnacle of EvilCraft progression — everything beyond this point is endgame territory.&r"
+	]
+	quest.26AABB7B3D613EC8.title: "Humanoid Flesh"
+	quest.26AABB7B3D613EC8.quest_desc: [
+		"Obtain &aHumanoid Flesh&r — a unique drop from &ePlayers&r. This includes your own flesh dropped when you die, or flesh obtained through PvP."
+		""
+		"Yes, you can farm this by dying repeatedly. It's one of two flesh types needed for Flesh Rejuvenated. &eKeep your blood extractor handy — you'll lose some on death.&r"
+	]
+	quest.1AD71EF270AA871E.title: "Werewolf Flesh"
+	quest.1AD71EF270AA871E.quest_desc: [
+		"Slay &dWerewolves&r found in villages to obtain &dWerewolf Flesh&r. These hostile villagers transform under certain conditions and drop their flesh on death."
+		""
+		"Check villages during nighttime for the best chance of finding werewolves. They're relatively rare, so explore multiple villages."
+	]
+	quest.132F499850280976.title: "Flesh Rejuvenated"
+	quest.132F499850280976.quest_desc: [
+		"Combine either &aHumanoid Flesh&r or &dWerewolf Flesh&r with Garmonbozia to create &aFlesh Rejuvenated&r — an &einfinite food source&r that never depletes."
+		""
+		"Rejuvenated Flesh provides excellent hunger restoration and never runs out. &eThis is the ultimate food item — once crafted, you never need to worry about food again.&r"
+	]
+	quest.5E8CA73483C49ED9.title: "Sanguinary Accumulator"
+	quest.5E8CA73483C49ED9.quest_desc: [
+		"Craft your own &aSanguinary Environmental Accumulator&r using Garmonbozia and Dark Temple materials. Unlike the one found in Dark Temples, &ethis version is portable and placeable anywhere&r."
+		""
+		"Having your own accumulator means you no longer need to travel to Dark Temples for weather-based crafting. Place it at your base for convenient access to all Environmental Accumulator recipes."
+	]
+	quest.6D10C63E034D00E4.title: "Dark Power Gem Block"
+	quest.6D10C63E034D00E4.quest_desc: [
+		"Craft a full block of &5Dark Power Gems&r — 9 gems compressed into a single decorative and storage block. This represents a significant investment of materials."
+		""
+		"Dark Power Gem Blocks are used in some advanced recipes and serve as compact storage. &eAlso useful as building material for a suitably evil-looking base.&r"
+	]
+	quest.6E3119FB56DD9904.title: "Environmental Accumulator Mastery"
+	quest.6E3119FB56DD9904.quest_desc: [
+		"With your own Sanguinary Accumulator and a full Garmonbozia supply, you've mastered the forces of EvilCraft. Weather bends to your will, spirits serve your furnaces, and blood flows endlessly."
+		""
+		"You have conquered every tier of EvilCraft's progression — from humble Dark Gems to Pain and Sorrow materialized. &eThe darkness answers to you now.&r"
+	]
+
+	task.6C2EE1512A549589.title: "Visit a Dark Temple"
+}

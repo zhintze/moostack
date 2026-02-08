@@ -36,7 +36,7 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `BM01`-`BM10` | Blood Magic | Quest IDs (if using structured) |
 | `CR01`-`CR10` | Create | Quest IDs (if using structured) |
 | `EF01`-`EF10` | Epic Fight | Quest IDs (original range) |
-| `EV01`-`EV10` | EvilCraft | Quest IDs (if using structured) |
+| `EC01`-`EC06` | EvilCraft | Quest IDs (sections 1-6) |
 | `MA01`-`MA10` | Mystical Agriculture | Quest IDs (if using structured) |
 | `MK01`-`MK10` | Mekanism | Quest IDs (if using structured) |
 | `OC01`-`OC10` | Occultism | Quest IDs (if using structured) |
