@@ -46,6 +46,7 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `C000` | Corail Tombstone | Chapter ID |
 | `C001`-`C00A` | Corail Tombstone | Quest IDs (sections 1-10) |
 | `1E01`-`1E08` | Immersive Engineering | Quest IDs (sections 1-8) |
+| `5F01`-`5F04` | RFTools | Quest IDs (sections 1-4) |
 
 **Note**: Many existing chapters use random hex IDs (like `796C5F40115A5AE3`) which are statistically unique. The prefix system is for chapters using structured/readable IDs.
 
