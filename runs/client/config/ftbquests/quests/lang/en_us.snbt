@@ -19,7 +19,398 @@
 	chapter.5347000000000000.title: "Silent Gear"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
+	// RFTools (5F01-5F04)
 	chapter.5F00000000000000.title: "RFTools"
+
+	// Section 1: RFTools Base
+	quest.5F01000000000100.title: "Machine Frame"
+	quest.5F01000000000100.quest_desc: [
+		"Craft a &3Machine Frame&r — the core component used in nearly every &aRFTools&r machine. Iron ingots, redstone, and glass produce the standard frame."
+		""
+		"&eYou will need dozens of these.&r Stock up early. Every generator, crafter, screen, and teleporter requires at least one machine frame in its recipe."
+	]
+	quest.5F01000000000200.title: "Smart Wrench"
+	quest.5F01000000000200.quest_desc: [
+		"Craft a &3Smart Wrench&r — the universal configuration tool for all RFTools machines. Right-click to rotate blocks. &eSneak-right-click&r to pick up machines without breaking them, preserving their settings."
+		""
+		"The wrench also toggles between select and configure modes. In select mode, it links machines together (transmitters to receivers, screens to controllers)."
+	]
+	quest.5F01000000000300.title: "Machine Base"
+	quest.5F01000000000300.quest_desc: [
+		"Craft a &3Machine Base&r — a simpler version of the machine frame used in less demanding recipes. Some utility blocks and accessories use a base instead of a full frame."
+		""
+		"Cheaper to produce than a full machine frame. Check JEI to see which recipes call for a base versus a frame."
+	]
+	quest.5F01000000000400.title: "Infused Diamond"
+	quest.5F01000000000400.quest_desc: [
+		"Craft an &3Infused Diamond&r by surrounding a diamond with 8 &3Dimensional Shards&r in a crafting table. Infused diamonds are required for advanced RFTools recipes — teleporters, environmental controllers, and elite power cells."
+		""
+		"&eA simple but expensive crafting recipe.&r Keep a stockpile of dimensional shards — you will need many infused diamonds for endgame machines."
+	]
+	quest.5F01000000000500.title: "Infused Enderpearl"
+	quest.5F01000000000500.quest_desc: [
+		"Craft an &3Infused Enderpearl&r by surrounding an ender pearl with 8 &3Dimensional Shards&r in a crafting table. These are critical for anything involving teleportation or cross-dimensional technology."
+		""
+		"Teleporters, dimensional cells, and the endergenic generator all require infused enderpearls. &eKeep a steady supply of both ender pearls and dimensional shards.&r"
+	]
+	quest.5F01000000000600.title: "Dimensional Shards"
+	quest.5F01000000000600.quest_desc: [
+		"Collect &3Dimensional Shards&r — rare crystals found as ore in all three dimensions (Overworld, Nether, End). These are the premium material for RFTools' most powerful machines."
+		""
+		"&eDimensional shard ore is uncommon.&r Use a Fortune pickaxe to maximize yield. Shards are used to craft &3Infused Diamonds&r, &3Infused Enderpearls&r, and fuel the &3Machine Infuser&r."
+	]
+	quest.5F01000000000700.title: "Filter Module"
+	quest.5F01000000000700.quest_desc: [
+		"Craft a &3Filter Module&r — a configurable item filter used across many RFTools machines. Filters control which items a crafter accepts, which items a screen monitors, or which items a processor handles."
+		""
+		"Right-click the filter to configure its whitelist or blacklist. &eFilters save time and prevent automation jams.&r"
+	]
+	quest.5F01000000000800.title: "Machine Infuser"
+	quest.5F01000000000800.quest_desc: [
+		"Craft a &3Machine Infuser&r — a machine that infuses other &aRFTools&r machines with &3Dimensional Shards&r to improve their performance. Place any RFTools machine inside and supply shards to upgrade it."
+		""
+		"&eInfused machines consume less RF and operate more efficiently.&r The infuser requires RF power and dimensional shards per infusion. Prioritize infusing your most power-hungry machines first."
+	]
+	// Section 2: RFTools Power
+	quest.5F02000000000100.title: "Coal Generator"
+	quest.5F02000000000100.quest_desc: [
+		"Craft a &3Coal Generator&r — a reliable solid-fuel RF generator. Burns coal, charcoal, and other furnace fuels to produce steady power."
+		""
+		"Simple and dependable. &eGood starter power for your first RFTools machines&r before upgrading to blaze or endergenic generators."
+	]
+	quest.5F02000000000200.title: "Blazing Generator"
+	quest.5F02000000000200.quest_desc: [
+		"Craft a &3Blazing Generator&r — burns blaze rods and blaze powder for significantly more RF than coal. The preferred mid-game generator if you have a blaze farm."
+		""
+		"&eBlaze rods produce more RF per item than blaze powder.&r Pair with a blaze spawner or blaze farm for consistent fuel."
+	]
+	quest.5F02000000000300.title: "Blazing Agitator"
+	quest.5F02000000000300.quest_desc: [
+		"Craft a &3Blazing Agitator&r — a heat source block used to boost the efficiency of adjacent blazing generators. Place it next to a generator to increase its RF output."
+		""
+		"The agitator consumes lava or blaze materials to produce heat. &eOne agitator can boost multiple adjacent generators.&r"
+	]
+	quest.5F02000000000400.title: "Blazing Infuser"
+	quest.5F02000000000400.quest_desc: [
+		"Craft a &3Blazing Infuser&r — infuses blaze materials with dimensional energy to produce enhanced fuel. The infused output burns longer and hotter in blazing generators."
+		""
+		"Part of the advanced blaze power pipeline. &eCombine with agitators and generators for maximum RF throughput.&r"
+	]
+	quest.5F02000000000500.title: "Powercell Tier 1"
+	quest.5F02000000000500.quest_desc: [
+		"Craft a &3Powercell (Tier 1)&r — basic RF energy storage. These store a modest amount of power and can be placed adjacent to machines for direct power transfer."
+		""
+		"Powercells form the backbone of your RF storage. &eThey can be upgraded to Tier 2 and Tier 3 for exponentially more capacity.&r"
+	]
+	quest.5F02000000000600.title: "Powercell Tier 2"
+	quest.5F02000000000600.quest_desc: [
+		"Upgrade to a &3Powercell (Tier 2)&r for significantly increased RF storage capacity. Crafted by surrounding a Tier 1 cell with infused diamonds."
+		""
+		"Tier 2 cells hold several times more RF than Tier 1. &ePlacing multiple cells adjacent to each other creates a multiblock with shared capacity.&r"
+	]
+	quest.5F02000000000700.title: "Powercell Tier 3"
+	quest.5F02000000000700.quest_desc: [
+		"Craft a &3Powercell (Tier 3)&r — the highest-tier local power storage. Massive RF capacity suitable for endgame power demands."
+		""
+		"Tier 3 cells require dimensional shards in their recipe. &eCombine with dimensional cells for wireless power distribution across your base.&r"
+	]
+	quest.5F02000000000800.title: "Simple Dimensional Cell"
+	quest.5F02000000000800.quest_desc: [
+		"Craft a &3Simple Dimensional Cell&r — wireless power transfer across any distance within the same dimension. Link two cells together and power flows between them instantly."
+		""
+		"Place one cell at your generator array, another at your machines. &eNo cables needed.&r Power transfers at the speed of dimensions."
+	]
+	quest.5F02000000000900.title: "Dimensional Cell"
+	quest.5F02000000000900.quest_desc: [
+		"Upgrade to a full &3Dimensional Cell&r — wireless power transfer that works &eacross dimensions&r. Send power from your Overworld generators to Nether or End machines."
+		""
+		"Requires infused enderpearls and dimensional shards. This is how you power remote outposts without running cables through portals."
+	]
+	quest.5F02000000000A00.title: "Advanced Dimensional Cell"
+	quest.5F02000000000A00.quest_desc: [
+		"Craft an &3Advanced Dimensional Cell&r — the highest-tier wireless power block. Maximum transfer rate and storage capacity for cross-dimensional power networks."
+		""
+		"&eHandles the throughput demands of endgame machines.&r Expensive to craft but eliminates all power distribution bottlenecks."
+	]
+	quest.5F02000000000B00.title: "Pearl Injector"
+	quest.5F02000000000B00.quest_desc: [
+		"Craft a &3Pearl Injector&r — a specialized block that feeds ender pearls into the &3Endergenic Generator&r. The injector automates the pearl supply that the endergenic needs to produce power."
+		""
+		"&ePlace the injector adjacent to the endergenic generator.&r Fill it with ender pearls and it feeds them in at the correct timing."
+	]
+	quest.5F02000000000C00.title: "Endergenic Generator"
+	quest.5F02000000000C00.quest_desc: [
+		"Craft an &3Endergenic Generator&r — the most powerful RF generator in &aRFTools Power&r. It converts ender pearls into massive amounts of RF through dimensional energy extraction."
+		""
+		"Requires careful timing and setup with &3Pearl Injectors&r. &eWhen properly configured, it produces more RF per tick than any other RFTools generator.&r A true endgame power source."
+	]
+	// Section 3: RFTools Utility
+	quest.5F03000000000100.title: "Crafter Tier 1"
+	quest.5F03000000000100.quest_desc: [
+		"Craft a &3Crafter (Tier 1)&r — an automated crafting machine that stores up to 2 recipes. Insert ingredients and it crafts the configured outputs automatically."
+		""
+		"Configure recipes by placing the result in the recipe slot and filling the 3x3 grid. &eThe crafter pulls ingredients from adjacent inventories or piped input.&r"
+	]
+	quest.5F03000000000200.title: "Crafter Tier 2"
+	quest.5F03000000000200.quest_desc: [
+		"Upgrade to a &3Crafter (Tier 2)&r — stores 4 recipes and processes faster than Tier 1. Ideal for multi-step crafting chains."
+		""
+		"Chain multiple crafters together for complex recipes. &eOutput from one crafter can feed directly into the next.&r"
+	]
+	quest.5F03000000000300.title: "Crafter Tier 3"
+	quest.5F03000000000300.quest_desc: [
+		"Craft a &3Crafter (Tier 3)&r — the ultimate autocrafting machine. Stores 8 recipes and operates at maximum speed. Handles entire production lines in a single block."
+		""
+		"&eThe go-to crafter for endgame automation.&r Replaces entire walls of Tier 1 crafters with a single, fast, multi-recipe machine."
+	]
+	quest.5F03000000000400.title: "Screen"
+	quest.5F03000000000400.quest_desc: [
+		"Craft a &3Screen&r — a wall-mounted display that shows information from installed modules. Place it on any surface and insert modules to monitor RF levels, fluid tanks, item counts, or redstone signals."
+		""
+		"Screens are the information backbone of an RFTools base. &eEach screen accepts multiple modules stacked vertically.&r"
+	]
+	quest.5F03000000000500.title: "Screen Controller"
+	quest.5F03000000000500.quest_desc: [
+		"Craft a &3Screen Controller&r — manages multiple screens from a single block. Link screens to the controller with the &3Smart Wrench&r and they all update from one central point."
+		""
+		"&eReduces redstone and cable clutter.&r One controller can manage all the screens in your base."
+	]
+	quest.5F03000000000600.title: "Energy Module"
+	quest.5F03000000000600.quest_desc: [
+		"Craft an &3Energy Module&r — a screen module that displays the RF energy level of an adjacent or linked machine. Shows current stored RF, max capacity, and a visual bar."
+		""
+		"Insert into a screen facing your power storage. &eMonitor RF levels at a glance without opening GUIs.&r"
+	]
+	quest.5F03000000000700.title: "Fluid Module"
+	quest.5F03000000000700.quest_desc: [
+		"Craft a &3Fluid Module&r — displays fluid tank levels on a screen. Shows the fluid type, amount, and capacity of linked tanks."
+		""
+		"Useful for monitoring fuel reserves, coolant levels, or any fluid system. &eCombine with energy modules for a complete status dashboard.&r"
+	]
+	quest.5F03000000000800.title: "Inventory Module"
+	quest.5F03000000000800.quest_desc: [
+		"Craft an &3Inventory Module&r — displays item counts from linked inventories on a screen. Track specific items across chests, barrels, or storage systems."
+		""
+		"&eConfigure it to show specific items or all contents.&r Essential for monitoring production lines and resource stockpiles."
+	]
+	quest.5F03000000000900.title: "Redstone Module"
+	quest.5F03000000000900.quest_desc: [
+		"Craft a &3Redstone Module&r — shows redstone signal strength on a screen. Displays the current signal level (0-15) from a linked block or position."
+		""
+		"Useful for debugging redstone circuits and monitoring conditional triggers. &eCombine with button modules for interactive control panels.&r"
+	]
+	quest.5F03000000000A00.title: "Counter Module"
+	quest.5F03000000000A00.quest_desc: [
+		"Craft a &3Counter Module&r — displays a running count on a screen. Tracks items passing through, redstone pulses received, or other countable events."
+		""
+		"&ePair with a sensor or redstone circuit to count production output, mob kills, or crafting cycles.&r"
+	]
+	quest.5F03000000000B00.title: "Clock Module"
+	quest.5F03000000000B00.quest_desc: [
+		"Craft a &3Clock Module&r — displays the current in-game time on a screen. Shows the Minecraft day/night cycle, useful for automation that depends on time of day."
+		""
+		"Place on a screen near your base entrance so you always know if it's safe to go outside."
+	]
+	quest.5F03000000000C00.title: "Button Module"
+	quest.5F03000000000C00.quest_desc: [
+		"Craft a &3Button Module&r — adds clickable buttons to a screen. Players can interact with the screen to toggle redstone outputs, trigger commands, or control linked machines."
+		""
+		"&eThis turns screens into interactive control panels.&r Configure button labels and redstone output channels per button."
+	]
+	quest.5F03000000000D00.title: "Machine Info Module"
+	quest.5F03000000000D00.quest_desc: [
+		"Craft a &3Machine Information Module&r — displays detailed status from linked RFTools machines on a screen. Shows processing progress, current operation, fuel levels, and error states."
+		""
+		"&eThe most versatile screen module for monitoring automation.&r Point it at any RFTools machine for a real-time status readout."
+	]
+	quest.5F03000000000E00.title: "Matter Transmitter"
+	quest.5F03000000000E00.quest_desc: [
+		"Craft a &3Matter Transmitter&r — the sending end of RFTools' teleportation system. Stand on the transmitter and it beams you to a linked &3Matter Receiver&r anywhere in the world."
+		""
+		"Requires RF power and a linked receiver. &eThe transmitter must be dialed to a specific receiver before use.&r"
+	]
+	quest.5F03000000000F00.title: "Matter Receiver"
+	quest.5F03000000000F00.quest_desc: [
+		"Craft a &3Matter Receiver&r — the destination end of the teleportation system. Place receivers at every location you want to teleport to."
+		""
+		"Each receiver has a unique name you set in its GUI. &ePower is consumed at the transmitter end, not the receiver.&r Place receivers at your base, mines, farms, and outposts."
+	]
+	quest.5F03000000001000.title: "Dialing Device"
+	quest.5F03000000001000.quest_desc: [
+		"Craft a &3Dialing Device&r — the control center for your teleportation network. It scans for all transmitters and receivers in range and lets you link any transmitter to any receiver."
+		""
+		"Place it near your transmitters. &eSelect a transmitter on the left, a receiver on the right, and click Dial.&r The connection persists until you change it."
+	]
+	quest.5F03000000001100.title: "Simple Dialer"
+	quest.5F03000000001100.quest_desc: [
+		"Craft a &3Simple Dialer&r — a compact one-button teleporter. Configure it once with a destination and any player who right-clicks it instantly dials the linked transmitter."
+		""
+		"&ePlace these around your base as quick-travel buttons.&r No need to open the full dialing device GUI — just click and go."
+	]
+	quest.5F03000000001300.title: "Destination Analyzer"
+	quest.5F03000000001300.quest_desc: [
+		"Craft a &3Destination Analyzer&r — place it adjacent to a &3Matter Transmitter&r to enable the transmitter to check if the destination is safe before teleporting."
+		""
+		"&eBlocks teleportation if the receiver area is obstructed or dangerous.&r Prevents suffocation or landing in lava. A smart safety addition to any teleport network."
+	]
+	quest.5F03000000001400.title: "Tank"
+	quest.5F03000000001400.quest_desc: [
+		"Craft an &aRFTools&r &3Tank&r — a fluid storage block that holds a large amount of any fluid. Accepts piped input and output from all sides."
+		""
+		"Useful for buffering fuel, coolant, or any liquid in your automation systems. &eThe tank renders its fluid visually so you can see fill levels at a glance.&r"
+	]
+	quest.5F03000000001500.title: "Syringe"
+	quest.5F03000000001500.quest_desc: [
+		"Craft a &3Syringe&r — right-click a mob multiple times to extract its essence. A filled syringe stores the mob type and is used to configure the &3Spawner&r."
+		""
+		"&eYou need to hit the mob several times to fill the syringe completely.&r The mob does not need to die. Once full, insert it into a spawner to spawn that mob type."
+	]
+	quest.5F03000000001600.title: "Environmental Controller"
+	quest.5F03000000001600.quest_desc: [
+		"Craft an &3Environmental Controller&r — an area-effect machine that applies potion effects, buffs, or debuffs to all entities within its radius. Insert effect modules to configure which effects are applied."
+		""
+		"Powered by RF. &eRange, power cost, and available effects depend on installed modules.&r Use it for base defense (poison, slowness) or player buffs (speed, regeneration)."
+	]
+	quest.5F03000000001700.title: "Spawner"
+	quest.5F03000000001700.quest_desc: [
+		"Craft an &aRFTools&r &3Spawner&r — an RF-powered mob spawner that creates mobs from a filled syringe. Unlike vanilla spawners, this one requires three ingredients per spawn: matter (iron/diamond), living matter (flesh/eggs), and RF power."
+		""
+		"&eMore powerful mobs require rarer ingredients.&r Configure spawn rates in the GUI. Combine with a syringe of any mob type for a fully controllable mob farm."
+	]
+	quest.5F03000000001800.title: "Redstone Transmitter"
+	quest.5F03000000001800.quest_desc: [
+		"Craft a &3Redstone Transmitter&r — sends a wireless redstone signal to a linked &3Redstone Receiver&r at any distance. No redstone dust required between them."
+		""
+		"Link with the &3Smart Wrench&r. &eSupports up to 16 channels per transmitter.&r Eliminates long redstone lines and simplifies cross-base signal routing."
+	]
+	quest.5F03000000001900.title: "Redstone Receiver"
+	quest.5F03000000001900.quest_desc: [
+		"Craft a &3Redstone Receiver&r — receives wireless redstone signals from a linked &3Redstone Transmitter&r. Outputs the received signal to adjacent blocks."
+		""
+		"&ePair transmitters and receivers for instant, wireless redstone across any distance.&r Perfect for controlling remote machines, doors, or traps."
+	]
+	quest.5F03000000001A00.title: "Timer"
+	quest.5F03000000001A00.quest_desc: [
+		"Craft a &3Timer&r — emits a redstone pulse at a configurable interval. Set the delay in ticks (20 ticks = 1 second) and it pulses continuously."
+		""
+		"Fundamental for timed automation: periodic item extraction, machine cycling, or light flashing. &eCombine with sequencers for complex timing patterns.&r"
+	]
+	quest.5F03000000001B00.title: "Sequencer"
+	quest.5F03000000001B00.quest_desc: [
+		"Craft a &3Sequencer&r — outputs a programmable pattern of redstone signals. Configure up to 64 steps of on/off states that cycle in order."
+		""
+		"&ePerfect for orchestrating multi-step automation&r — activate machines in sequence, create complex door mechanisms, or synchronize multiple systems."
+	]
+	quest.5F03000000001C00.title: "Sensor"
+	quest.5F03000000001C00.quest_desc: [
+		"Craft a &3Sensor&r — detects blocks, entities, or conditions in front of it and outputs a redstone signal. Configure it to detect specific blocks, mob types, player proximity, or light levels."
+		""
+		"&eThe most versatile detection block in RFTools.&r Use it to trigger defenses when mobs approach, activate lights at night, or monitor block changes in automation."
+	]
+	quest.5F03000000001D00.title: "Regeneration Module"
+	quest.5F03000000001D00.quest_desc: [
+		"Insert a &3Regeneration Module&r into an &3Environmental Controller&r to grant &3Regeneration&r to all players within range. Steadily heals hearts over time — invaluable for combat arenas or hazardous work areas."
+		""
+		"&eCosts RF per tick per affected player.&r A reliable passive heal for your base. Upgrade to a &3Regeneration+ Module&r for a stronger effect."
+	]
+	quest.5F03000000001E00.title: "Speed Module"
+	quest.5F03000000001E00.quest_desc: [
+		"Insert a &3Speed Module&r into an &3Environmental Controller&r to grant &3Speed&r to all players within range. Greatly increases movement speed — ideal for large bases or sprawling farm complexes."
+		""
+		"&eUpgrade to Speed+ for an even stronger boost.&r Combine with other buff modules to turn your base into a fully enhanced zone."
+	]
+	quest.5F03000000001F00.title: "Flight Module"
+	quest.5F03000000001F00.quest_desc: [
+		"Insert a &3Flight Module&r into an &3Environmental Controller&r to grant &3Creative Flight&r to all players within its range. Fly freely as if in creative mode while inside the effect area."
+		""
+		"&eThe most RF-expensive module, but incredibly powerful.&r Define your controller's radius carefully — flight only works within the configured range."
+	]
+	quest.5F03000000002000.title: "Peaceful Module"
+	quest.5F03000000002000.quest_desc: [
+		"Insert a &3Peaceful Module&r into an &3Environmental Controller&r to prevent hostile mob spawning within its range. A cleaner alternative to lighting up every surface."
+		""
+		"&eProtects your entire base from mob spawns at the cost of continuous RF.&r No more torches everywhere — just power and peace."
+	]
+	quest.5F03000000002100.title: "Poison Module"
+	quest.5F03000000002100.quest_desc: [
+		"Insert a &3Poison Module&r into an &3Environmental Controller&r to inflict &3Poison&r on all non-player entities within range. Useful for automatic mob processing or perimeter defense."
+		""
+		"&eCombine with Slowness and Weakness modules for layered defense.&r Poison cannot kill on its own — pair with other damage sources for a full kill chamber."
+	]
+	// Section 4: RFTools Control
+	quest.5F04000000000100.title: "Programmer"
+	quest.5F04000000000100.quest_desc: [
+		"Craft a &3Programmer&r — the visual programming interface for &aRFTools Control&r. Open it to create programs by placing opcodes (instruction blocks) on a grid."
+		""
+		"Programs are saved to &3Program Cards&r and loaded into &3Processors&r for execution. &eStart simple: a redstone trigger that outputs an item is a good first program.&r"
+	]
+	quest.5F04000000000200.title: "Program Card"
+	quest.5F04000000000200.quest_desc: [
+		"Craft a &3Program Card&r — the storage medium for programs created in the Programmer. Each card holds one complete program."
+		""
+		"Insert the card into the Programmer to edit, then move it to a &3Processor&r to run. &eKeep spare cards for different programs — swap cards to change processor behavior instantly.&r"
+	]
+	quest.5F04000000000300.title: "Processor"
+	quest.5F04000000000300.quest_desc: [
+		"Craft a &3Processor&r — the execution engine that runs programs from program cards. Insert a card, supply RF power, and the processor executes the program's instructions."
+		""
+		"The processor has item and fluid slots for I/O, plus expansion card slots. &ePlace it adjacent to inventories and machines it needs to interact with.&r"
+	]
+	quest.5F04000000000400.title: "CPU Core B500"
+	quest.5F04000000000400.quest_desc: [
+		"Craft a &3CPU Core B500&r — the base-tier execution core for the Processor. Determines how many operations per tick the processor can execute."
+		""
+		"Insert into the processor's expansion slot. &eHigher-tier cores execute more opcodes per tick, enabling faster and more complex programs.&r"
+	]
+	quest.5F04000000000500.title: "CPU Core B1000"
+	quest.5F04000000000500.quest_desc: [
+		"Upgrade to a &3CPU Core B1000&r — double the execution speed of the B500. Handles moderately complex programs with multiple branches and conditions."
+		""
+		"&eRequired for programs that need to respond quickly to changing inputs&r — item sorting, conditional crafting, or multi-machine coordination."
+	]
+	quest.5F04000000000600.title: "CPU Core B2000"
+	quest.5F04000000000600.quest_desc: [
+		"Craft a &3CPU Core B2000&r — the fastest execution core. Maximum opcodes per tick for the most demanding programs."
+		""
+		"&eThe endgame CPU for complex factory automation.&r Processes conditional logic, multi-inventory management, and networked processor communication at full speed."
+	]
+	quest.5F04000000000700.title: "Network Card"
+	quest.5F04000000000700.quest_desc: [
+		"Craft a &3Network Card&r — enables processors to communicate with each other over a network. Insert into a processor's expansion slot to join it to the RFTools Control network."
+		""
+		"&eNetworked processors can share variables, trigger remote programs, and coordinate complex automation across your base.&r"
+	]
+	quest.5F04000000000800.title: "Crafting Station"
+	quest.5F04000000000800.quest_desc: [
+		"Craft a &3Crafting Station&r — a processor-controlled crafting block. The processor can issue crafting commands to the station, enabling fully programmable autocrafting."
+		""
+		"Place adjacent to a processor. &eThe station handles the actual crafting grid — the processor tells it what to make and when.&r More flexible than standard crafters for conditional recipes."
+	]
+	quest.5F04000000000900.title: "Graphics Card"
+	quest.5F04000000000900.quest_desc: [
+		"Craft a &3Graphics Card&r — enables a processor to output information to &3Screens&r. The processor can dynamically update screen content based on program logic."
+		""
+		"&eBridges RFTools Control and RFTools Utility.&r Display custom status messages, dynamic data, or alert notifications on screens driven by processor programs."
+	]
+	quest.5F04000000000A00.title: "Variable Module"
+	quest.5F04000000000A00.quest_desc: [
+		"Craft a &3Variable Module&r — stores variables that programs can read and write. Variables persist across processor restarts and can be shared between networked processors."
+		""
+		"Use variables to store item counts, track states, or pass data between programs. &eEssential for any program that needs to remember information between runs.&r"
+	]
+	quest.5F04000000000B00.title: "Node"
+	quest.5F04000000000B00.quest_desc: [
+		"Craft a &3Node&r — extends the reach of a processor's interaction range. Place nodes between the processor and remote inventories or machines it needs to access."
+		""
+		"&eEach node extends the processor's interaction radius.&r Chain nodes to reach machines anywhere in your base without moving the processor."
+	]
+	quest.5F04000000000C00.title: "Workbench"
+	quest.5F04000000000C00.quest_desc: [
+		"Craft an &aRFTools Control&r &3Workbench&r — an advanced crafting table with built-in recipe storage and processor integration. Stores frequently-used recipes for quick access."
+		""
+		"&eCombine with a processor and crafting station for the ultimate programmable crafting setup.&r The workbench serves as both a manual and automated crafting interface."
+	]
+
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'N Spellbooks"
 	chapter.C000000000000000.title: "Corail Tombstone"
@@ -6008,360 +6399,6 @@
 	quest.5ED368C926E5F32C.title: "The Last Class..."
 	quest.5EE485880EA9FACF.quest_subtitle: "Tier: &63"
 	quest.5EE485880EA9FACF.title: "Redstone Seeds"
-	quest.5F01000000000100.quest_desc: [
-		"Craft a &3Machine Frame&r — the core component used in nearly every &aRFTools&r machine. Iron ingots, redstone, and glass produce the standard frame."
-		""
-		"&eYou will need dozens of these.&r Stock up early. Every generator, crafter, screen, and teleporter requires at least one machine frame in its recipe."
-	]
-	quest.5F01000000000100.title: "Machine Frame"
-	quest.5F01000000000200.quest_desc: [
-		"Craft a &3Smart Wrench&r — the universal configuration tool for all RFTools machines. Right-click to rotate blocks. &eSneak-right-click&r to pick up machines without breaking them, preserving their settings."
-		""
-		"The wrench also toggles between select and configure modes. In select mode, it links machines together (transmitters to receivers, screens to controllers)."
-	]
-	quest.5F01000000000200.title: "Smart Wrench"
-	quest.5F01000000000300.quest_desc: [
-		"Craft a &3Machine Base&r — a simpler version of the machine frame used in less demanding recipes. Some utility blocks and accessories use a base instead of a full frame."
-		""
-		"Cheaper to produce than a full machine frame. Check JEI to see which recipes call for a base versus a frame."
-	]
-	quest.5F01000000000300.title: "Machine Base"
-	quest.5F01000000000400.quest_desc: [
-		"Craft an &3Infused Diamond&r by infusing a diamond with redstone in the &3Machine Infuser&r. Infused diamonds are required for advanced RFTools recipes — teleporters, environmental controllers, and elite power cells."
-		""
-		"&eRequires the Machine Infuser block and RF power to process.&r The infuser accepts a diamond and redstone dust, outputting the infused version."
-	]
-	quest.5F01000000000400.title: "Infused Diamond"
-	quest.5F01000000000500.quest_desc: [
-		"Craft an &3Infused Enderpearl&r by infusing an ender pearl with redstone in the &3Machine Infuser&r. These are critical for anything involving teleportation or cross-dimensional technology."
-		""
-		"Teleporters, dimensional cells, and the endergenic generator all require infused enderpearls. &eKeep a steady supply of ender pearls.&r"
-	]
-	quest.5F01000000000500.title: "Infused Enderpearl"
-	quest.5F01000000000600.quest_desc: [
-		"Collect &3Dimensional Shards&r — rare crystals found as ore in all three dimensions (Overworld, Nether, End). These are the premium material for RFTools' most powerful machines."
-		""
-		"&eDimensional shard ore is uncommon.&r Use a &3Shard Wand&r or Fortune pickaxe to maximize yield. Shards are required for dimensional cells, the endergenic generator, and programmable processors."
-	]
-	quest.5F01000000000600.title: "Dimensional Shards"
-	quest.5F01000000000700.quest_desc: [
-		"Craft a &3Filter Module&r — a configurable item filter used across many RFTools machines. Filters control which items a crafter accepts, which items a screen monitors, or which items a processor handles."
-		""
-		"Right-click the filter to configure its whitelist or blacklist. &eFilters save time and prevent automation jams.&r"
-	]
-	quest.5F01000000000700.title: "Filter Module"
-	quest.5F02000000000100.quest_desc: [
-		"Craft a &3Coal Generator&r — a reliable solid-fuel RF generator. Burns coal, charcoal, and other furnace fuels to produce steady power."
-		""
-		"Simple and dependable. &eGood starter power for your first RFTools machines&r before upgrading to blaze or endergenic generators."
-	]
-	quest.5F02000000000100.title: "Coal Generator"
-	quest.5F02000000000200.quest_desc: [
-		"Craft a &3Blazing Generator&r — burns blaze rods and blaze powder for significantly more RF than coal. The preferred mid-game generator if you have a blaze farm."
-		""
-		"&eBlaze rods produce more RF per item than blaze powder.&r Pair with a blaze spawner or blaze farm for consistent fuel."
-	]
-	quest.5F02000000000200.title: "Blazing Generator"
-	quest.5F02000000000300.quest_desc: [
-		"Craft a &3Blazing Agitator&r — a heat source block used to boost the efficiency of adjacent blazing generators. Place it next to a generator to increase its RF output."
-		""
-		"The agitator consumes lava or blaze materials to produce heat. &eOne agitator can boost multiple adjacent generators.&r"
-	]
-	quest.5F02000000000300.title: "Blazing Agitator"
-	quest.5F02000000000400.quest_desc: [
-		"Craft a &3Blazing Infuser&r — infuses blaze materials with dimensional energy to produce enhanced fuel. The infused output burns longer and hotter in blazing generators."
-		""
-		"Part of the advanced blaze power pipeline. &eCombine with agitators and generators for maximum RF throughput.&r"
-	]
-	quest.5F02000000000400.title: "Blazing Infuser"
-	quest.5F02000000000500.quest_desc: [
-		"Craft a &3Powercell (Tier 1)&r — basic RF energy storage. These store a modest amount of power and can be placed adjacent to machines for direct power transfer."
-		""
-		"Powercells form the backbone of your RF storage. &eThey can be upgraded to Tier 2 and Tier 3 for exponentially more capacity.&r"
-	]
-	quest.5F02000000000500.title: "Powercell Tier 1"
-	quest.5F02000000000600.quest_desc: [
-		"Upgrade to a &3Powercell (Tier 2)&r for significantly increased RF storage capacity. Crafted by surrounding a Tier 1 cell with infused diamonds."
-		""
-		"Tier 2 cells hold several times more RF than Tier 1. &ePlacing multiple cells adjacent to each other creates a multiblock with shared capacity.&r"
-	]
-	quest.5F02000000000600.title: "Powercell Tier 2"
-	quest.5F02000000000700.quest_desc: [
-		"Craft a &3Powercell (Tier 3)&r — the highest-tier local power storage. Massive RF capacity suitable for endgame power demands."
-		""
-		"Tier 3 cells require dimensional shards in their recipe. &eCombine with dimensional cells for wireless power distribution across your base.&r"
-	]
-	quest.5F02000000000700.title: "Powercell Tier 3"
-	quest.5F02000000000800.quest_desc: [
-		"Craft a &3Simple Dimensional Cell&r — wireless power transfer across any distance within the same dimension. Link two cells together and power flows between them instantly."
-		""
-		"Place one cell at your generator array, another at your machines. &eNo cables needed.&r Power transfers at the speed of dimensions."
-	]
-	quest.5F02000000000800.title: "Simple Dimensional Cell"
-	quest.5F02000000000900.quest_desc: [
-		"Upgrade to a full &3Dimensional Cell&r — wireless power transfer that works &eacross dimensions&r. Send power from your Overworld generators to Nether or End machines."
-		""
-		"Requires infused enderpearls and dimensional shards. This is how you power remote outposts without running cables through portals."
-	]
-	quest.5F02000000000900.title: "Dimensional Cell"
-	quest.5F02000000000A00.quest_desc: [
-		"Craft an &3Advanced Dimensional Cell&r — the highest-tier wireless power block. Maximum transfer rate and storage capacity for cross-dimensional power networks."
-		""
-		"&eHandles the throughput demands of endgame machines.&r Expensive to craft but eliminates all power distribution bottlenecks."
-	]
-	quest.5F02000000000A00.title: "Advanced Dimensional Cell"
-	quest.5F02000000000B00.quest_desc: [
-		"Craft a &3Pearl Injector&r — a specialized block that feeds ender pearls into the &3Endergenic Generator&r. The injector automates the pearl supply that the endergenic needs to produce power."
-		""
-		"&ePlace the injector adjacent to the endergenic generator.&r Fill it with ender pearls and it feeds them in at the correct timing."
-	]
-	quest.5F02000000000B00.title: "Pearl Injector"
-	quest.5F02000000000C00.quest_desc: [
-		"Craft an &3Endergenic Generator&r — the most powerful RF generator in &aRFTools Power&r. It converts ender pearls into massive amounts of RF through dimensional energy extraction."
-		""
-		"Requires careful timing and setup with &3Pearl Injectors&r. &eWhen properly configured, it produces more RF per tick than any other RFTools generator.&r A true endgame power source."
-	]
-	quest.5F02000000000C00.title: "Endergenic Generator"
-	quest.5F03000000000100.quest_desc: [
-		"Craft a &3Crafter (Tier 1)&r — an automated crafting machine that stores up to 2 recipes. Insert ingredients and it crafts the configured outputs automatically."
-		""
-		"Configure recipes by placing the result in the recipe slot and filling the 3x3 grid. &eThe crafter pulls ingredients from adjacent inventories or piped input.&r"
-	]
-	quest.5F03000000000100.title: "Crafter Tier 1"
-	quest.5F03000000000200.quest_desc: [
-		"Upgrade to a &3Crafter (Tier 2)&r — stores 4 recipes and processes faster than Tier 1. Ideal for multi-step crafting chains."
-		""
-		"Chain multiple crafters together for complex recipes. &eOutput from one crafter can feed directly into the next.&r"
-	]
-	quest.5F03000000000200.title: "Crafter Tier 2"
-	quest.5F03000000000300.quest_desc: [
-		"Craft a &3Crafter (Tier 3)&r — the ultimate autocrafting machine. Stores 8 recipes and operates at maximum speed. Handles entire production lines in a single block."
-		""
-		"&eThe go-to crafter for endgame automation.&r Replaces entire walls of Tier 1 crafters with a single, fast, multi-recipe machine."
-	]
-	quest.5F03000000000300.title: "Crafter Tier 3"
-	quest.5F03000000000400.quest_desc: [
-		"Craft a &3Screen&r — a wall-mounted display that shows information from installed modules. Place it on any surface and insert modules to monitor RF levels, fluid tanks, item counts, or redstone signals."
-		""
-		"Screens are the information backbone of an RFTools base. &eEach screen accepts multiple modules stacked vertically.&r"
-	]
-	quest.5F03000000000400.title: "Screen"
-	quest.5F03000000000500.quest_desc: [
-		"Craft a &3Screen Controller&r — manages multiple screens from a single block. Link screens to the controller with the &3Smart Wrench&r and they all update from one central point."
-		""
-		"&eReduces redstone and cable clutter.&r One controller can manage all the screens in your base."
-	]
-	quest.5F03000000000500.title: "Screen Controller"
-	quest.5F03000000000600.quest_desc: [
-		"Craft an &3Energy Module&r — a screen module that displays the RF energy level of an adjacent or linked machine. Shows current stored RF, max capacity, and a visual bar."
-		""
-		"Insert into a screen facing your power storage. &eMonitor RF levels at a glance without opening GUIs.&r"
-	]
-	quest.5F03000000000600.title: "Energy Module"
-	quest.5F03000000000700.quest_desc: [
-		"Craft a &3Fluid Module&r — displays fluid tank levels on a screen. Shows the fluid type, amount, and capacity of linked tanks."
-		""
-		"Useful for monitoring fuel reserves, coolant levels, or any fluid system. &eCombine with energy modules for a complete status dashboard.&r"
-	]
-	quest.5F03000000000700.title: "Fluid Module"
-	quest.5F03000000000800.quest_desc: [
-		"Craft an &3Inventory Module&r — displays item counts from linked inventories on a screen. Track specific items across chests, barrels, or storage systems."
-		""
-		"&eConfigure it to show specific items or all contents.&r Essential for monitoring production lines and resource stockpiles."
-	]
-	quest.5F03000000000800.title: "Inventory Module"
-	quest.5F03000000000900.quest_desc: [
-		"Craft a &3Redstone Module&r — shows redstone signal strength on a screen. Displays the current signal level (0-15) from a linked block or position."
-		""
-		"Useful for debugging redstone circuits and monitoring conditional triggers. &eCombine with button modules for interactive control panels.&r"
-	]
-	quest.5F03000000000900.title: "Redstone Module"
-	quest.5F03000000000A00.quest_desc: [
-		"Craft a &3Counter Module&r — displays a running count on a screen. Tracks items passing through, redstone pulses received, or other countable events."
-		""
-		"&ePair with a sensor or redstone circuit to count production output, mob kills, or crafting cycles.&r"
-	]
-	quest.5F03000000000A00.title: "Counter Module"
-	quest.5F03000000000B00.quest_desc: [
-		"Craft a &3Clock Module&r — displays the current in-game time on a screen. Shows the Minecraft day/night cycle, useful for automation that depends on time of day."
-		""
-		"Place on a screen near your base entrance so you always know if it's safe to go outside."
-	]
-	quest.5F03000000000B00.title: "Clock Module"
-	quest.5F03000000000C00.quest_desc: [
-		"Craft a &3Button Module&r — adds clickable buttons to a screen. Players can interact with the screen to toggle redstone outputs, trigger commands, or control linked machines."
-		""
-		"&eThis turns screens into interactive control panels.&r Configure button labels and redstone output channels per button."
-	]
-	quest.5F03000000000C00.title: "Button Module"
-	quest.5F03000000000D00.quest_desc: [
-		"Craft a &3Machine Information Module&r — displays detailed status from linked RFTools machines on a screen. Shows processing progress, current operation, fuel levels, and error states."
-		""
-		"&eThe most versatile screen module for monitoring automation.&r Point it at any RFTools machine for a real-time status readout."
-	]
-	quest.5F03000000000D00.title: "Machine Info Module"
-	quest.5F03000000000E00.quest_desc: [
-		"Craft a &3Matter Transmitter&r — the sending end of RFTools' teleportation system. Stand on the transmitter and it beams you to a linked &3Matter Receiver&r anywhere in the world."
-		""
-		"Requires RF power and a linked receiver. &eThe transmitter must be dialed to a specific receiver before use.&r"
-	]
-	quest.5F03000000000E00.title: "Matter Transmitter"
-	quest.5F03000000000F00.quest_desc: [
-		"Craft a &3Matter Receiver&r — the destination end of the teleportation system. Place receivers at every location you want to teleport to."
-		""
-		"Each receiver has a unique name you set in its GUI. &ePower is consumed at the transmitter end, not the receiver.&r Place receivers at your base, mines, farms, and outposts."
-	]
-	quest.5F03000000000F00.title: "Matter Receiver"
-	quest.5F03000000001000.quest_desc: [
-		"Craft a &3Dialing Device&r — the control center for your teleportation network. It scans for all transmitters and receivers in range and lets you link any transmitter to any receiver."
-		""
-		"Place it near your transmitters. &eSelect a transmitter on the left, a receiver on the right, and click Dial.&r The connection persists until you change it."
-	]
-	quest.5F03000000001000.title: "Dialing Device"
-	quest.5F03000000001100.quest_desc: [
-		"Craft a &3Simple Dialer&r — a compact one-button teleporter. Configure it once with a destination and any player who right-clicks it instantly dials the linked transmitter."
-		""
-		"&ePlace these around your base as quick-travel buttons.&r No need to open the full dialing device GUI — just click and go."
-	]
-	quest.5F03000000001100.title: "Simple Dialer"
-	quest.5F03000000001200.quest_desc: [
-		"Craft a &3Teleport Probe&r — a handheld device that scans for all matter receivers within range. Right-click to see a list of available destinations and teleport directly to one."
-		""
-		"&eA portable alternative to the dialing device.&r Useful when exploring or when you need to teleport from locations without a transmitter."
-	]
-	quest.5F03000000001200.title: "Teleport Probe"
-	quest.5F03000000001300.quest_desc: [
-		"Craft a &3Destination Analyzer&r — place it adjacent to a &3Matter Transmitter&r to enable the transmitter to check if the destination is safe before teleporting."
-		""
-		"&eBlocks teleportation if the receiver area is obstructed or dangerous.&r Prevents suffocation or landing in lava. A smart safety addition to any teleport network."
-	]
-	quest.5F03000000001300.title: "Destination Analyzer"
-	quest.5F03000000001400.quest_desc: [
-		"Craft an &aRFTools&r &3Tank&r — a fluid storage block that holds a large amount of any fluid. Accepts piped input and output from all sides."
-		""
-		"Useful for buffering fuel, coolant, or any liquid in your automation systems. &eThe tank renders its fluid visually so you can see fill levels at a glance.&r"
-	]
-	quest.5F03000000001400.title: "Tank"
-	quest.5F03000000001500.quest_desc: [
-		"Craft a &3Syringe&r — right-click a mob multiple times to extract its essence. A filled syringe stores the mob type and is used to configure the &3Spawner&r."
-		""
-		"&eYou need to hit the mob several times to fill the syringe completely.&r The mob does not need to die. Once full, insert it into a spawner to spawn that mob type."
-	]
-	quest.5F03000000001500.title: "Syringe"
-	quest.5F03000000001600.quest_desc: [
-		"Craft an &3Environmental Controller&r — an area-effect machine that applies potion effects, buffs, or debuffs to all entities within its radius. Insert effect modules to configure which effects are applied."
-		""
-		"Powered by RF. &eRange, power cost, and available effects depend on installed modules.&r Use it for base defense (poison, slowness) or player buffs (speed, regeneration)."
-	]
-	quest.5F03000000001600.title: "Environmental Controller"
-	quest.5F03000000001700.quest_desc: [
-		"Craft an &aRFTools&r &3Spawner&r — an RF-powered mob spawner that creates mobs from a filled syringe. Unlike vanilla spawners, this one requires three ingredients per spawn: matter (iron/diamond), living matter (flesh/eggs), and RF power."
-		""
-		"&eMore powerful mobs require rarer ingredients.&r Configure spawn rates in the GUI. Combine with a syringe of any mob type for a fully controllable mob farm."
-	]
-	quest.5F03000000001700.title: "Spawner"
-	quest.5F03000000001800.quest_desc: [
-		"Craft a &3Redstone Transmitter&r — sends a wireless redstone signal to a linked &3Redstone Receiver&r at any distance. No redstone dust required between them."
-		""
-		"Link with the &3Smart Wrench&r. &eSupports up to 16 channels per transmitter.&r Eliminates long redstone lines and simplifies cross-base signal routing."
-	]
-	quest.5F03000000001800.title: "Redstone Transmitter"
-	quest.5F03000000001900.quest_desc: [
-		"Craft a &3Redstone Receiver&r — receives wireless redstone signals from a linked &3Redstone Transmitter&r. Outputs the received signal to adjacent blocks."
-		""
-		"&ePair transmitters and receivers for instant, wireless redstone across any distance.&r Perfect for controlling remote machines, doors, or traps."
-	]
-	quest.5F03000000001900.title: "Redstone Receiver"
-	quest.5F03000000001A00.quest_desc: [
-		"Craft a &3Timer&r — emits a redstone pulse at a configurable interval. Set the delay in ticks (20 ticks = 1 second) and it pulses continuously."
-		""
-		"Fundamental for timed automation: periodic item extraction, machine cycling, or light flashing. &eCombine with sequencers for complex timing patterns.&r"
-	]
-	quest.5F03000000001A00.title: "Timer"
-	quest.5F03000000001B00.quest_desc: [
-		"Craft a &3Sequencer&r — outputs a programmable pattern of redstone signals. Configure up to 64 steps of on/off states that cycle in order."
-		""
-		"&ePerfect for orchestrating multi-step automation&r — activate machines in sequence, create complex door mechanisms, or synchronize multiple systems."
-	]
-	quest.5F03000000001B00.title: "Sequencer"
-	quest.5F03000000001C00.quest_desc: [
-		"Craft a &3Sensor&r — detects blocks, entities, or conditions in front of it and outputs a redstone signal. Configure it to detect specific blocks, mob types, player proximity, or light levels."
-		""
-		"&eThe most versatile detection block in RFTools.&r Use it to trigger defenses when mobs approach, activate lights at night, or monitor block changes in automation."
-	]
-	quest.5F03000000001C00.title: "Sensor"
-	quest.5F04000000000100.quest_desc: [
-		"Craft a &3Programmer&r — the visual programming interface for &aRFTools Control&r. Open it to create programs by placing opcodes (instruction blocks) on a grid."
-		""
-		"Programs are saved to &3Program Cards&r and loaded into &3Processors&r for execution. &eStart simple: a redstone trigger that outputs an item is a good first program.&r"
-	]
-	quest.5F04000000000100.title: "Programmer"
-	quest.5F04000000000200.quest_desc: [
-		"Craft a &3Program Card&r — the storage medium for programs created in the Programmer. Each card holds one complete program."
-		""
-		"Insert the card into the Programmer to edit, then move it to a &3Processor&r to run. &eKeep spare cards for different programs — swap cards to change processor behavior instantly.&r"
-	]
-	quest.5F04000000000200.title: "Program Card"
-	quest.5F04000000000300.quest_desc: [
-		"Craft a &3Processor&r — the execution engine that runs programs from program cards. Insert a card, supply RF power, and the processor executes the program's instructions."
-		""
-		"The processor has item and fluid slots for I/O, plus expansion card slots. &ePlace it adjacent to inventories and machines it needs to interact with.&r"
-	]
-	quest.5F04000000000300.title: "Processor"
-	quest.5F04000000000400.quest_desc: [
-		"Craft a &3CPU Core B500&r — the base-tier execution core for the Processor. Determines how many operations per tick the processor can execute."
-		""
-		"Insert into the processor's expansion slot. &eHigher-tier cores execute more opcodes per tick, enabling faster and more complex programs.&r"
-	]
-	quest.5F04000000000400.title: "CPU Core B500"
-	quest.5F04000000000500.quest_desc: [
-		"Upgrade to a &3CPU Core B1000&r — double the execution speed of the B500. Handles moderately complex programs with multiple branches and conditions."
-		""
-		"&eRequired for programs that need to respond quickly to changing inputs&r — item sorting, conditional crafting, or multi-machine coordination."
-	]
-	quest.5F04000000000500.title: "CPU Core B1000"
-	quest.5F04000000000600.quest_desc: [
-		"Craft a &3CPU Core B2000&r — the fastest execution core. Maximum opcodes per tick for the most demanding programs."
-		""
-		"&eThe endgame CPU for complex factory automation.&r Processes conditional logic, multi-inventory management, and networked processor communication at full speed."
-	]
-	quest.5F04000000000600.title: "CPU Core B2000"
-	quest.5F04000000000700.quest_desc: [
-		"Craft a &3Network Card&r — enables processors to communicate with each other over a network. Insert into a processor's expansion slot to join it to the RFTools Control network."
-		""
-		"&eNetworked processors can share variables, trigger remote programs, and coordinate complex automation across your base.&r"
-	]
-	quest.5F04000000000700.title: "Network Card"
-	quest.5F04000000000800.quest_desc: [
-		"Craft a &3Crafting Station&r — a processor-controlled crafting block. The processor can issue crafting commands to the station, enabling fully programmable autocrafting."
-		""
-		"Place adjacent to a processor. &eThe station handles the actual crafting grid — the processor tells it what to make and when.&r More flexible than standard crafters for conditional recipes."
-	]
-	quest.5F04000000000800.title: "Crafting Station"
-	quest.5F04000000000900.quest_desc: [
-		"Craft a &3Graphics Card&r — enables a processor to output information to &3Screens&r. The processor can dynamically update screen content based on program logic."
-		""
-		"&eBridges RFTools Control and RFTools Utility.&r Display custom status messages, dynamic data, or alert notifications on screens driven by processor programs."
-	]
-	quest.5F04000000000900.title: "Graphics Card"
-	quest.5F04000000000A00.quest_desc: [
-		"Craft a &3Variable Module&r — stores variables that programs can read and write. Variables persist across processor restarts and can be shared between networked processors."
-		""
-		"Use variables to store item counts, track states, or pass data between programs. &eEssential for any program that needs to remember information between runs.&r"
-	]
-	quest.5F04000000000A00.title: "Variable Module"
-	quest.5F04000000000B00.quest_desc: [
-		"Craft a &3Node&r — extends the reach of a processor's interaction range. Place nodes between the processor and remote inventories or machines it needs to access."
-		""
-		"&eEach node extends the processor's interaction radius.&r Chain nodes to reach machines anywhere in your base without moving the processor."
-	]
-	quest.5F04000000000B00.title: "Node"
-	quest.5F04000000000C00.quest_desc: [
-		"Craft an &aRFTools Control&r &3Workbench&r — an advanced crafting table with built-in recipe storage and processor integration. Stores frequently-used recipes for quick access."
-		""
-		"&eCombine with a processor and crafting station for the ultimate programmable crafting setup.&r The workbench serves as both a manual and automated crafting interface."
-	]
-	quest.5F04000000000C00.title: "Workbench"
 	quest.5F080CFA1DC7F435.quest_subtitle: "Spawns: Nether Brick Nest (Nether)"
 	quest.5F080CFA1DC7F435.subtitle: "Spawns: Nether Brick Nest (Nether)"
 	quest.5F080CFA1DC7F435.title: "Ghostly Bee"

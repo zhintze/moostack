@@ -7,7 +7,8 @@
 		id: "rftoolsbase:machine_frame"
 	}
 	id: "5F00000000000000"
-	order_index: 12
+	images: [ ]
+	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -61,7 +62,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5F01000000000100"]
+			dependencies: ["5F01000000000600"]
 			id: "5F01000000000400"
 			rewards: [{
 				id: "5F010000000004B1"
@@ -73,11 +74,11 @@
 				item: { count: 1, id: "rftoolsbase:infused_diamond" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["5F01000000000100"]
+			dependencies: ["5F01000000000600"]
 			id: "5F01000000000500"
 			rewards: [{
 				id: "5F010000000005B1"
@@ -89,14 +90,11 @@
 				item: { count: 1, id: "rftoolsbase:infused_enderpearl" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"5F01000000000400"
-				"5F01000000000500"
-			]
+			dependencies: ["5F01000000000100"]
 			id: "5F01000000000600"
 			rewards: [{
 				id: "5F010000000006B1"
@@ -111,7 +109,7 @@
 				item: { count: 1, id: "rftoolsbase:dimensionalshard" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -127,11 +125,27 @@
 				item: { count: 1, id: "rftoolsbase:filter_module" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5F01000000000600"]
+			id: "5F01000000000800"
+			rewards: [{
+				id: "5F010000000008B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F010000000008A1"
+				item: { count: 1, id: "rftoolsbase:machine_infuser" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F01000000000100"]
 			id: "5F02000000000100"
 			rewards: [{
 				id: "5F020000000001B1"
@@ -350,7 +364,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000100"]
 			id: "5F03000000000100"
 			rewards: [{
 				id: "5F030000000001B1"
@@ -399,7 +413,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000000400"
 			rewards: [{
 				id: "5F030000000004B1"
@@ -559,7 +573,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["5F01000000000500"]
+			dependencies: ["5F01000000000100"]
 			id: "5F03000000000E00"
 			rewards: [{
 				id: "5F03000000000EB1"
@@ -628,22 +642,6 @@
 		}
 		{
 			dependencies: ["5F03000000001000"]
-			id: "5F03000000001200"
-			rewards: [{
-				id: "5F030000000012B1"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "2F33ECA5E9A35B4F"
-				item: { count: 1, id: "rftoolsutility:teleport_probe" }
-				type: "item"
-			}]
-			x: 14.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["5F03000000001000"]
 			id: "5F03000000001300"
 			rewards: [{
 				id: "5F030000000013B1"
@@ -659,7 +657,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000001400"
 			rewards: [{
 				id: "5F030000000014B1"
@@ -675,7 +673,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000001500"
 			rewards: [{
 				id: "5F030000000015B1"
@@ -732,7 +730,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000001800"
 			rewards: [{
 				id: "5F030000000018B1"
@@ -764,7 +762,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000001A00"
 			rewards: [{
 				id: "5F03000000001AB1"
@@ -796,7 +794,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F01000000000300"]
 			id: "5F03000000001C00"
 			rewards: [{
 				id: "5F03000000001CB1"
@@ -812,7 +810,88 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["5F01000000000600"]
+			dependencies: ["5F03000000001600"]
+			id: "5F03000000001D00"
+			rewards: [{
+				id: "5F03000000001DB1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F03000000001DA1"
+				item: { count: 1, id: "rftoolsutility:regeneration_module" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F03000000001600"]
+			id: "5F03000000001E00"
+			rewards: [{
+				id: "5F03000000001EB1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F03000000001EA1"
+				item: { count: 1, id: "rftoolsutility:speed_module" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F03000000001600"]
+			id: "5F03000000001F00"
+			rewards: [{
+				id: "5F03000000001FB1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5F03000000001FA1"
+				item: { count: 1, id: "rftoolsutility:flight_module" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F03000000001600"]
+			id: "5F03000000002000"
+			rewards: [{
+				id: "5F030000000020B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F030000000020A1"
+				item: { count: 1, id: "rftoolsutility:peaceful_module" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F03000000001600"]
+			id: "5F03000000002100"
+			rewards: [{
+				id: "5F030000000021B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5F030000000021A1"
+				item: { count: 1, id: "rftoolsutility:poison_module" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F01000000000100"]
 			id: "5F04000000000100"
 			rewards: [{
 				id: "5F040000000001B1"

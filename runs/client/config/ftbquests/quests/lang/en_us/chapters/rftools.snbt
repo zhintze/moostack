@@ -22,27 +22,33 @@
 	]
 	quest.5F01000000000400.title: "Infused Diamond"
 	quest.5F01000000000400.quest_desc: [
-		"Craft an &3Infused Diamond&r by infusing a diamond with redstone in the &3Machine Infuser&r. Infused diamonds are required for advanced RFTools recipes — teleporters, environmental controllers, and elite power cells."
+		"Craft an &3Infused Diamond&r by surrounding a diamond with 8 &3Dimensional Shards&r in a crafting table. Infused diamonds are required for advanced RFTools recipes — teleporters, environmental controllers, and elite power cells."
 		""
-		"&eRequires the Machine Infuser block and RF power to process.&r The infuser accepts a diamond and redstone dust, outputting the infused version."
+		"&eA simple but expensive crafting recipe.&r Keep a stockpile of dimensional shards — you will need many infused diamonds for endgame machines."
 	]
 	quest.5F01000000000500.title: "Infused Enderpearl"
 	quest.5F01000000000500.quest_desc: [
-		"Craft an &3Infused Enderpearl&r by infusing an ender pearl with redstone in the &3Machine Infuser&r. These are critical for anything involving teleportation or cross-dimensional technology."
+		"Craft an &3Infused Enderpearl&r by surrounding an ender pearl with 8 &3Dimensional Shards&r in a crafting table. These are critical for anything involving teleportation or cross-dimensional technology."
 		""
-		"Teleporters, dimensional cells, and the endergenic generator all require infused enderpearls. &eKeep a steady supply of ender pearls.&r"
+		"Teleporters, dimensional cells, and the endergenic generator all require infused enderpearls. &eKeep a steady supply of both ender pearls and dimensional shards.&r"
 	]
 	quest.5F01000000000600.title: "Dimensional Shards"
 	quest.5F01000000000600.quest_desc: [
 		"Collect &3Dimensional Shards&r — rare crystals found as ore in all three dimensions (Overworld, Nether, End). These are the premium material for RFTools' most powerful machines."
 		""
-		"&eDimensional shard ore is uncommon.&r Use a &3Shard Wand&r or Fortune pickaxe to maximize yield. Shards are required for dimensional cells, the endergenic generator, and programmable processors."
+		"&eDimensional shard ore is uncommon.&r Use a Fortune pickaxe to maximize yield. Shards are used to craft &3Infused Diamonds&r, &3Infused Enderpearls&r, and fuel the &3Machine Infuser&r."
 	]
 	quest.5F01000000000700.title: "Filter Module"
 	quest.5F01000000000700.quest_desc: [
 		"Craft a &3Filter Module&r — a configurable item filter used across many RFTools machines. Filters control which items a crafter accepts, which items a screen monitors, or which items a processor handles."
 		""
 		"Right-click the filter to configure its whitelist or blacklist. &eFilters save time and prevent automation jams.&r"
+	]
+	quest.5F01000000000800.title: "Machine Infuser"
+	quest.5F01000000000800.quest_desc: [
+		"Craft a &3Machine Infuser&r — a machine that infuses other &aRFTools&r machines with &3Dimensional Shards&r to improve their performance. Place any RFTools machine inside and supply shards to upgrade it."
+		""
+		"&eInfused machines consume less RF and operate more efficiently.&r The infuser requires RF power and dimensional shards per infusion. Prioritize infusing your most power-hungry machines first."
 	]
 	// Section 2: RFTools Power
 	quest.5F02000000000100.title: "Coal Generator"
@@ -220,12 +226,6 @@
 		""
 		"&ePlace these around your base as quick-travel buttons.&r No need to open the full dialing device GUI — just click and go."
 	]
-	quest.5F03000000001200.title: "Teleport Probe"
-	quest.5F03000000001200.quest_desc: [
-		"Craft a &3Teleport Probe&r — a handheld device that scans for all matter receivers within range. Right-click to see a list of available destinations and teleport directly to one."
-		""
-		"&eA portable alternative to the dialing device.&r Useful when exploring or when you need to teleport from locations without a transmitter."
-	]
 	quest.5F03000000001300.title: "Destination Analyzer"
 	quest.5F03000000001300.quest_desc: [
 		"Craft a &3Destination Analyzer&r — place it adjacent to a &3Matter Transmitter&r to enable the transmitter to check if the destination is safe before teleporting."
@@ -285,6 +285,36 @@
 		"Craft a &3Sensor&r — detects blocks, entities, or conditions in front of it and outputs a redstone signal. Configure it to detect specific blocks, mob types, player proximity, or light levels."
 		""
 		"&eThe most versatile detection block in RFTools.&r Use it to trigger defenses when mobs approach, activate lights at night, or monitor block changes in automation."
+	]
+	quest.5F03000000001D00.title: "Regeneration Module"
+	quest.5F03000000001D00.quest_desc: [
+		"Insert a &3Regeneration Module&r into an &3Environmental Controller&r to grant &3Regeneration&r to all players within range. Steadily heals hearts over time — invaluable for combat arenas or hazardous work areas."
+		""
+		"&eCosts RF per tick per affected player.&r A reliable passive heal for your base. Upgrade to a &3Regeneration+ Module&r for a stronger effect."
+	]
+	quest.5F03000000001E00.title: "Speed Module"
+	quest.5F03000000001E00.quest_desc: [
+		"Insert a &3Speed Module&r into an &3Environmental Controller&r to grant &3Speed&r to all players within range. Greatly increases movement speed — ideal for large bases or sprawling farm complexes."
+		""
+		"&eUpgrade to Speed+ for an even stronger boost.&r Combine with other buff modules to turn your base into a fully enhanced zone."
+	]
+	quest.5F03000000001F00.title: "Flight Module"
+	quest.5F03000000001F00.quest_desc: [
+		"Insert a &3Flight Module&r into an &3Environmental Controller&r to grant &3Creative Flight&r to all players within its range. Fly freely as if in creative mode while inside the effect area."
+		""
+		"&eThe most RF-expensive module, but incredibly powerful.&r Define your controller's radius carefully — flight only works within the configured range."
+	]
+	quest.5F03000000002000.title: "Peaceful Module"
+	quest.5F03000000002000.quest_desc: [
+		"Insert a &3Peaceful Module&r into an &3Environmental Controller&r to prevent hostile mob spawning within its range. A cleaner alternative to lighting up every surface."
+		""
+		"&eProtects your entire base from mob spawns at the cost of continuous RF.&r No more torches everywhere — just power and peace."
+	]
+	quest.5F03000000002100.title: "Poison Module"
+	quest.5F03000000002100.quest_desc: [
+		"Insert a &3Poison Module&r into an &3Environmental Controller&r to inflict &3Poison&r on all non-player entities within range. Useful for automatic mob processing or perimeter defense."
+		""
+		"&eCombine with Slowness and Weakness modules for layered defense.&r Poison cannot kill on its own — pair with other damage sources for a full kill chamber."
 	]
 	// Section 4: RFTools Control
 	quest.5F04000000000100.title: "Programmer"
