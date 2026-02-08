@@ -1,0 +1,350 @@
+{
+	chapter.12F628EC8BD24C3C.title: "Mekanism: Nuclear"
+
+	// Section 1: Raw Materials
+	quest.2CA77D11CC2B917B.title: "Sulfur & Chemicals"
+	quest.2CA77D11CC2B917B.quest_desc: [
+		"&3Sulfur&r is the starting chemical for nuclear processing in &aMekanism&r. The &3Chemical Oxidizer&r converts solid dusts into gaseous form, and the &3Chemical Infuser&r combines two gases into a new compound. You need both machines to process uranium into reactor fuel."
+		""
+		"&eKeep a healthy supply of sulfur dust — it comes from ore processing or as a byproduct.&r These two machines are the foundation of your entire chemical pipeline."
+	]
+	quest.168AFBD76DA2D2F1.title: "Uranium Ore"
+	quest.168AFBD76DA2D2F1.quest_desc: [
+		"&3Uranium&r ore generates deep underground and is the primary fuel source for &aMekanism&r's nuclear reactors. Smelt it directly for ingots, or process it through an &3Enrichment Chamber&r to produce &3Yellowcake Uranium&r for nuclear fuel."
+		""
+		"&eUranium is not particularly rare, but you will need a lot of it.&r Set up a quarry or Digital Miner filter for uranium ore early to keep your fuel supply steady."
+	]
+	quest.6AB223DCAC31FDDC.title: "Fluorite"
+	quest.6AB223DCAC31FDDC.quest_desc: [
+		"&3Fluorite&r gems are found in ore veins deep underground. They are required for producing &3Hydrogen Fluoride&r gas, which is essential for the uranium enrichment process that creates reactor fuel."
+		""
+		"&eFluorite is consumed in the chemical process, so stockpile it.&r You will need a steady supply to keep your fissile fuel production running."
+	]
+	// Section 2: Fission Fuel Production
+	quest.642E5F1A7A918DCD.title: "Yellowcake Uranium"
+	quest.642E5F1A7A918DCD.quest_desc: [
+		"The &3Enrichment Chamber&r processes raw uranium ore into &3Yellowcake Uranium&r — the first step toward nuclear fuel. The &3Chemical Oxidizer&r then converts yellowcake into uranium oxide gas."
+		""
+		"&eThis is a two-machine pipeline: Enrichment Chamber → Yellowcake → Chemical Oxidizer → Uranium Oxide gas.&r Automate the chain for continuous fuel production."
+	]
+	quest.56906D6D009E41E8.title: "Hydrogen Fluoride"
+	quest.56906D6D009E41E8.quest_desc: [
+		"The &3Chemical Dissolution Chamber&r dissolves &3Fluorite&r gems into &3Hydrogen Fluoride&r gas. HF is combined with uranium oxide in the Chemical Infuser to produce uranium hexafluoride."
+		""
+		"&eThe dissolution chamber requires sulfuric acid to operate.&r Produce sulfuric acid from sulfur dust using the Chemical Oxidizer and Chemical Infuser pipeline."
+	]
+	quest.667B512C7342E597.title: "Uranium Hexafluoride"
+	quest.667B512C7342E597.quest_desc: [
+		"The &3Chemical Infuser&r combines &3Uranium Oxide&r gas with &3Hydrogen Fluoride&r gas to produce &3Uranium Hexafluoride&r (UF6). This is the intermediate compound that gets enriched into usable reactor fuel."
+		""
+		"&eThis is where both processing chains converge.&r Uranium oxide from yellowcake meets hydrogen fluoride from fluorite. Ensure both gas inputs are flowing before starting the infuser."
+	]
+	quest.08765970B74EAF33.title: "Fissile Fuel"
+	quest.08765970B74EAF33.quest_desc: [
+		"The &3Isotopic Centrifuge&r enriches &3Uranium Hexafluoride&r into &3Fissile Fuel&r — the actual fuel that powers the fission reactor. The centrifuge also produces depleted uranium as a byproduct."
+		""
+		"&eOne unit of UF6 produces one unit of fissile fuel.&r The centrifuge is the final machine in the fuel production chain. Keep it running to maintain a fuel buffer for your reactor."
+	]
+	quest.70868CF7145BDC7D.title: "Enrichment Chamber"
+	quest.70868CF7145BDC7D.quest_desc: [
+		"The &3Enrichment Chamber&r is a versatile ore processing machine in &aMekanism&r. For nuclear purposes, it converts raw uranium into &3Yellowcake Uranium&r, the first step in the fuel pipeline."
+		""
+		"&eYou may already have one from general ore processing.&r If so, consider dedicating a second enrichment chamber solely to yellowcake production to keep your fuel line separate."
+	]
+	// Section 3: Fission Reactor
+	quest.7DA159E0F2FEB91D.title: "Fuel & Control Assemblies"
+	quest.7DA159E0F2FEB91D.quest_desc: [
+		"&3Fuel Assemblies&r hold fissile fuel inside the reactor core. &3Control Rod Assemblies&r sit on top and regulate the reaction rate. You need at least one of each for the smallest reactor."
+		""
+		"&eMore fuel assemblies increase power output but also increase heat and waste production.&r Start small with one assembly stack and scale up once you have proper cooling and safety systems."
+	]
+	quest.3D4595C5D7C8F461.title: "Reactor Ports"
+	quest.3D4595C5D7C8F461.quest_desc: [
+		"&3Fission Reactor Ports&r are the I/O interfaces for your reactor. You need a minimum of 4 ports: one to input fissile fuel, one to input water coolant, one to output heated coolant (steam), and one to output nuclear waste."
+		""
+		"&eRight-click each port to toggle between input and output mode.&r Label them clearly or use colored cables to avoid piping fuel into the waste output."
+	]
+	quest.043BE1812B628E4E.title: "Fission Reactor"
+	quest.043BE1812B628E4E.quest_desc: [
+		"Build the &3Fission Reactor&r multiblock — a 3x3x4 structure of &3Fission Reactor Casing&r with ports, fuel assemblies, and control rods inside. This is the core power generation structure of &aMekanism&r's nuclear program."
+		""
+		"&cWARNING: A fission reactor can melt down if overheated.&r Always set up redstone safety controls, monitor damage percentage, and &cnever run a reactor without coolant flowing&r. Start at a low burn rate and increase gradually."
+	]
+	quest.4C591EBD072D2DB6.title: "Logic Adapter"
+	quest.4C591EBD072D2DB6.quest_desc: [
+		"The &3Fission Reactor Logic Adapter&r connects your reactor to redstone and computer systems for monitoring and control. It reports reactor status including temperature, damage, burn rate, and coolant levels."
+		""
+		"&cThis is not optional — it is critical safety infrastructure.&r Without a logic adapter, you cannot automate emergency shutdowns. Place it on the reactor casing where you can access it."
+	]
+	quest.040CBC8360F8A718.title: "Redstone Safety"
+	quest.040CBC8360F8A718.quest_desc: [
+		"&cCRITICAL SAFETY&r — set up redstone to SCRAM (emergency shutdown) the reactor if damage exceeds a safe threshold. Use two &3Logic Adapters&r: one to read damage status, one to trigger shutdown. A repeater adds the necessary signal delay."
+		""
+		"&cA reactor meltdown destroys everything nearby and irradiates the area.&r Configure the logic adapter to emit redstone when damage exceeds 0%. Any damage means something is wrong — shut it down immediately."
+	]
+	quest.5351C3D16E881B1C.title: "Hazmat Suit"
+	quest.5351C3D16E881B1C.quest_desc: [
+		"A full &3Hazmat Suit&r protects you from &aMekanism&r's radiation system. Radiation accumulates when you are near radioactive materials — nuclear waste, fissile fuel, or a running reactor without shielding."
+		""
+		"&cNever approach a running fission reactor without a full hazmat suit.&r All four pieces are required for full protection: mask, gown, pants, and boots. Radiation poisoning causes ongoing damage and is difficult to remove."
+	]
+	quest.240CEEB97273DBAE.title: "Emergency SCRAM"
+	quest.240CEEB97273DBAE.quest_desc: [
+		"A &3Daylight Detector&r can serve as a backup SCRAM trigger for your fission reactor. Wire it to the reactor's logic adapter as an additional safety layer beyond your primary redstone controls."
+		""
+		"&eRedundancy saves bases.&r If your primary safety system fails, a secondary trigger prevents catastrophe. Consider using multiple independent shutdown mechanisms."
+	]
+	// Section 4: Steam Power & Turbine
+	quest.72BF1016A109103D.title: "Steam Generation"
+	quest.72BF1016A109103D.quest_desc: [
+		"The fission reactor heats water into steam. Steam drives the &3Industrial Turbine&r to generate massive amounts of RF power. The turbine condenses steam back into water, creating a closed cooling loop."
+		""
+		"&ePipe water into the reactor and steam out to the turbine.&r The turbine returns condensed water which you pipe back to the reactor. A properly closed loop requires no external water supply."
+	]
+	quest.2A08EDD9AB9277C2.title: "Turbine Valves & Vents"
+	quest.2A08EDD9AB9277C2.quest_desc: [
+		"&3Turbine Valves&r handle fluid I/O for the turbine — steam input and water output. &3Turbine Vents&r are placed on the upper section of the turbine to release excess pressure."
+		""
+		"&eYou need at least 2 valves (one steam in, one water out) and enough vents for your steam throughput.&r Place vents on the top layer of the turbine structure."
+	]
+	quest.755BA8C105DEC93F.title: "Turbine Internals"
+	quest.755BA8C105DEC93F.quest_desc: [
+		"&3Turbine Rotors&r and &3Turbine Blades&r convert steam pressure into rotational energy. The &3Rotational Complex&r sits on top of the rotor stack and transfers energy to the electromagnetic coils."
+		""
+		"&eStack rotors vertically with blades attached, then place the rotational complex on top.&r More rotors and blades handle more steam throughput. The complex is always at the top of the rotor column."
+	]
+	quest.34498739CE19C0D6.title: "Turbine Components"
+	quest.34498739CE19C0D6.quest_desc: [
+		"&3Pressure Dispersers&r spread steam evenly across the turbine interior. &3Electromagnetic Coils&r generate RF from the rotational energy. &3Saturating Condensers&r recover water from spent steam to complete the loop."
+		""
+		"&eDispersers go in the layer above the rotational complex, coils sit on top of or adjacent to the complex, and condensers go in the top section.&r All three are essential for a functioning turbine."
+	]
+	quest.2F1D59A4AE06383F.title: "Industrial Turbine"
+	quest.2F1D59A4AE06383F.quest_desc: [
+		"Build a 5x5x8 &3Industrial Turbine&r — the primary power generator for your nuclear setup. The turbine converts steam from the fission reactor into enormous amounts of RF power, then condenses the steam back into water."
+		""
+		"&eThis is a large multiblock requiring significant resources.&r Place it near your fission reactor for efficient piping. The turbine window (structural glass) lets you see the rotor spinning — both functional and satisfying."
+	]
+	// Section 5: Thermoelectric Boiler
+	quest.5129450AE7EE6F06.title: "Boiler Valves"
+	quest.5129450AE7EE6F06.quest_desc: [
+		"&3Boiler Valves&r are the I/O interfaces for the &3Thermoelectric Boiler&r — an alternative to direct water-cooled fission. In a sodium-cooled setup, superheated sodium from the reactor enters the boiler, which then produces steam for the turbine."
+		""
+		"&eThis is an optional path for advanced players.&r Sodium cooling is more efficient than water cooling, but adds complexity. You need 4 valves: sodium in, sodium out, water in, steam out."
+	]
+	quest.0A51FA6BC56B5B03.title: "Boiler Internals"
+	quest.0A51FA6BC56B5B03.quest_desc: [
+		"The &3Superheating Element&r converts thermal energy from superheated sodium into heat for steam generation. &3Pressure Dispersers&r ensure steam distributes evenly throughout the boiler structure."
+		""
+		"&eThe superheating element goes in the lower section of the boiler, dispersers in the upper section.&r Together they transform the sodium's thermal energy into usable steam."
+	]
+	quest.675FD79817B4764E.title: "Thermoelectric Boiler"
+	quest.675FD79817B4764E.quest_desc: [
+		"Build the &3Thermoelectric Boiler&r multiblock — the bridge between a sodium-cooled fission reactor and your Industrial Turbine. It converts superheated sodium into steam, which then drives the turbine as normal."
+		""
+		"&eThis is the optional advanced cooling path.&r Water cooling is simpler, but sodium cooling transfers heat more efficiently, allowing higher reactor burn rates with fewer cooling resources."
+	]
+	// Section 6: Fusion Reactor
+	quest.1F9647FB0B57C857.title: "Thermal Evaporation Plant"
+	quest.1F9647FB0B57C857.quest_desc: [
+		"The &3Thermal Evaporation Plant&r is a solar-heated multiblock that evaporates fluids. Pump in water to produce &3Brine&r, then process brine to produce &3Lithium&r. Lithium is essential for tritium production in the fusion fuel chain."
+		""
+		"&eBuild it in a sunny location — clouds and night slow evaporation.&r The plant is a 4x4 base structure up to 18 blocks tall. Taller plants are more efficient. Use Thermal Evaporation Valves for fluid I/O."
+	]
+	quest.27998EA2224D2979.title: "Deuterium"
+	quest.27998EA2224D2979.quest_desc: [
+		"Pump water using an &3Electric Pump&r and separate it in an &3Electrolytic Separator&r to produce &3Deuterium&r and oxygen. Deuterium is one of two fusion fuel components."
+		""
+		"&eUse a Speed Upgrade or Filter Upgrade in the separator for faster output.&r Deuterium production is straightforward — water is unlimited, so scale up separators for more throughput."
+	]
+	quest.799F3DBDD81C7B0E.title: "Tritium"
+	quest.799F3DBDD81C7B0E.quest_desc: [
+		"The &3Solar Neutron Activator&r converts &3Lithium&r gas (from the Thermal Evaporation Plant) into &3Tritium&r — the second fusion fuel component. Use a &3Rotary Condensentrator&r to manage gas-liquid conversions as needed."
+		""
+		"&eThe activator requires direct sunlight to operate.&r Place it on the surface with no blocks above. Night and rain halt tritium production, so buffer extra lithium and tritium in chemical tanks."
+	]
+	quest.1610DAD24061AFA1.title: "D-T Fuel"
+	quest.1610DAD24061AFA1.quest_desc: [
+		"The &3Chemical Infuser&r combines &3Deuterium&r and &3Tritium&r gases to produce &3D-T Fuel&r — the fusion fuel that powers the reactor. This is the final step in fusion fuel production."
+		""
+		"&eBoth gases must flow into the infuser simultaneously.&r Buffer deuterium and tritium in chemical tanks before the infuser to ensure uninterrupted fuel production. You will also need to fill a &3Hohlraum&r with D-T fuel to ignite the reactor."
+	]
+	quest.3395F59CA5CF7E2F.title: "Hohlraum"
+	quest.3395F59CA5CF7E2F.quest_desc: [
+		"The &3Hohlraum&r is a container that stores D-T fuel for fusion ignition. Fill it by placing it in a &3Chemical Infuser&r or piping D-T fuel into it. Once full, insert it into the fusion reactor to enable ignition."
+		""
+		"&eThe hohlraum must be completely filled with D-T fuel before the reactor can start.&r This is a one-time requirement per ignition — once the reactor is running, it consumes fuel from the input port directly."
+	]
+	quest.5C91E7A398196089.title: "Laser"
+	quest.5C91E7A398196089.quest_desc: [
+		"The &3Laser&r generates a concentrated energy beam that travels in a straight line. Point it at a &3Laser Amplifier&r to charge it with energy for fusion ignition."
+		""
+		"&eLasers require significant RF power to operate.&r Place them in a line pointing directly at the amplifier. Multiple lasers aimed at the same amplifier charge it faster."
+	]
+	quest.08AB1E827403E958.title: "Laser Amplifier"
+	quest.08AB1E827403E958.quest_desc: [
+		"The &3Laser Amplifier&r accumulates energy from lasers and fires a concentrated burst at the fusion reactor to ignite the plasma. It stores laser energy until the threshold is met, then fires on redstone signal or automatically."
+		""
+		"&eSet the minimum energy threshold to 400 MFE (400,000,000 FE) for fusion ignition.&r Point the amplifier at the reactor's &3Laser Focus Matrix&r. The amplifier fires once it has enough stored energy."
+	]
+	quest.25FFA059BD86AAAF.title: "Fusion Reactor Ports"
+	quest.25FFA059BD86AAAF.quest_desc: [
+		"&3Fusion Reactor Ports&r handle all I/O for the fusion reactor. You need at least 3: one to input D-T fuel, one to output heated coolant or steam, and one for power output."
+		""
+		"&eRight-click each port to set input or output mode.&r The fusion reactor can output power directly or heat coolant for a turbine, depending on your setup."
+	]
+	quest.03EA3F9E4710A485.title: "Laser Focus Matrix"
+	quest.03EA3F9E4710A485.quest_desc: [
+		"The &3Laser Focus Matrix&r is a special casing block on the fusion reactor that acts as the window for the laser amplifier's ignition beam. Place it on the reactor where the laser amplifier is aimed."
+		""
+		"&eThe laser amplifier must have a direct line of sight to the focus matrix.&r Only one focus matrix is needed per reactor. It replaces one of the reactor glass blocks."
+	]
+	quest.6C51F48847C0D769.title: "Fusion Reactor"
+	quest.6C51F48847C0D769.quest_desc: [
+		"Build the &3Fusion Reactor&r — the ultimate power source in &aMekanism&r. This massive multiblock fuses deuterium and tritium to produce virtually unlimited energy. The reactor frame, glass, ports, and laser focus matrix form the structure."
+		""
+		"&eThe fusion reactor produces more power than any other generator in the modpack.&r Once ignited, it runs continuously as long as D-T fuel is supplied. It does not produce radioactive waste and cannot melt down — a clean, safe, endgame power source."
+	]
+	// Section 7: Nuclear Waste & SPS
+	quest.052705592B17A264.title: "Radioactive Waste"
+	quest.052705592B17A264.quest_desc: [
+		"Fission reactors produce &3Radioactive Nuclear Waste&r as a byproduct. Store it safely in &3Radioactive Waste Barrels&r or process it for valuable materials like plutonium and polonium."
+		""
+		"&cRadioactive waste is DANGEROUS&r — it emits radiation that damages players without hazmat protection. Never vent it into the environment. Store it in barrels or pipe it directly into processing machines."
+	]
+	quest.36D8FDE408AB1CE5.title: "Plutonium"
+	quest.36D8FDE408AB1CE5.quest_desc: [
+		"Process nuclear waste in the &3Isotopic Centrifuge&r to extract &3Plutonium&r gas. Plutonium is one of two materials needed to produce antimatter in the Supercritical Phase Shifter."
+		""
+		"&eThe centrifuge separates waste into plutonium and other byproducts.&r Pipe waste directly from the reactor or from waste barrels into the centrifuge for continuous processing."
+	]
+	quest.5D9C60F89377E72A.title: "Polonium"
+	quest.5D9C60F89377E72A.quest_desc: [
+		"Process nuclear waste in the &3Solar Neutron Activator&r to produce &3Polonium&r gas. Polonium is the second material needed for antimatter production alongside plutonium."
+		""
+		"&eThe Solar Neutron Activator requires direct sunlight to operate.&r Place it on the surface with no blocks above. Like tritium production, it halts at night and during rain."
+	]
+	quest.79100FBA9505D71E.title: "Plutonium Pellet"
+	quest.79100FBA9505D71E.quest_desc: [
+		"Crystallize &3Plutonium&r gas into solid &3Plutonium Pellets&r using the &3Chemical Crystallizer&r. Pellets are the solid form required for SPS antimatter production."
+		""
+		"&ePellets are the physical input for the SPS.&r The crystallizer converts gas to solid — make sure you have enough plutonium gas buffered before starting."
+	]
+	quest.055F2D6EF62C20EA.title: "Polonium Pellet"
+	quest.055F2D6EF62C20EA.quest_desc: [
+		"Crystallize &3Polonium&r gas into solid &3Polonium Pellets&r using the &3Chemical Crystallizer&r. Polonium pellets are combined with plutonium pellets as SPS inputs."
+		""
+		"&eThe Chemical Crystallizer handles both plutonium and polonium gas.&r You can use the same crystallizer for both, or dedicate one to each for parallel processing."
+	]
+	quest.6D6243A9EB7293A2.title: "Antimatter"
+	quest.6D6243A9EB7293A2.quest_desc: [
+		"&3Antimatter Pellets&r are the rarest and most powerful material in &aMekanism&r. Produced by the Supercritical Phase Shifter from plutonium and polonium pellets, antimatter is required to craft the MekaSuit, MekaTool, and use the Antiprotonic Nucleosynthesizer."
+		""
+		"&eAntimatter production is slow and energy-intensive.&r The SPS requires massive amounts of power. Plan your power infrastructure before attempting antimatter production."
+	]
+	quest.56D7498CF9947C3A.title: "SPS Build"
+	quest.56D7498CF9947C3A.quest_desc: [
+		"Build the &3Supercritical Phase Shifter&r (SPS) — a massive 7x7x7 multiblock that converts polonium into antimatter. The SPS requires &3SPS Casing&r, &3SPS Ports&r for I/O, and &3Supercharged Coils&r to focus energy."
+		""
+		"&eAll SPS components use the mekanism: namespace, not mekanismgenerators:.&r The SPS is the most resource-intensive single build in Mekanism. It also requires enormous power input — have your fusion reactor running first."
+	]
+	quest.52949B7AB18EADDA.title: "Nucleosynthesizer"
+	quest.52949B7AB18EADDA.quest_desc: [
+		"The &3Antiprotonic Nucleosynthesizer&r uses antimatter to transmute one element into another. Feed it antimatter pellets plus any input material, and it synthesizes rare resources that would otherwise require extensive mining or farming."
+		""
+		"&eThis is the ultimate crafting machine in Mekanism.&r With enough antimatter and power, you can produce any material on demand. The nucleosynthesizer represents the pinnacle of nuclear technology."
+	]
+	// Section 8: Endgame Equipment
+	quest.5B0A79C8AEB1F3FE.title: "Digital Miner"
+	quest.5B0A79C8AEB1F3FE.quest_desc: [
+		"The &3Digital Miner&r is a programmable quarry that teleports ores directly into its inventory. Configure filters to mine specific blocks within a configurable radius — no tunnels, no mess."
+		""
+		"&eSet up ore filters for the resources you need most.&r The Digital Miner uses significant RF but is the cleanest and most efficient mining solution in &aMekanism&r. Replaces entire quarry operations."
+	]
+	quest.3F19D6E8D86F6C89.title: "Atomic Disassembler"
+	quest.3F19D6E8D86F6C89.quest_desc: [
+		"The &3Atomic Disassembler&r is a powerful multi-tool that mines, digs, and fights. It has configurable mining modes including vein mining and extended vein mining for rapid resource collection."
+		""
+		"&eCharges from any RF source.&r Toggle mining modes with Sneak + scroll wheel. The disassembler is the precursor to the MekaTool — strong on its own, but eventually outclassed by antimatter technology."
+	]
+	quest.21DB25B8FE1A1596.title: "MekaTool"
+	quest.21DB25B8FE1A1596.quest_desc: [
+		"The &3MekaTool&r combines the functionality of every &aMekanism&r tool into one. It mines, digs, chops, fights, and more. Requires antimatter to craft, making it a true endgame item. Install modules at the &3Modification Station&r to customize its abilities."
+		""
+		"&eThe MekaTool accepts modules for vein mining, teleportation, silk touch, and more.&r It is the most versatile tool in the modpack — one tool to replace them all."
+	]
+	quest.648C5ACCC86705B1.title: "Modification Station"
+	quest.648C5ACCC86705B1.quest_desc: [
+		"The &3Modification Station&r is where you install and remove modules on the &3MekaSuit&r and &3MekaTool&r. Place the equipment in the station and select which modules to install."
+		""
+		"&eModules are not consumed on removal — you can swap them freely.&r The station is essential for customizing your endgame equipment to suit your playstyle."
+	]
+	quest.0CA70698154841A7.title: "MekaSuit"
+	quest.0CA70698154841A7.quest_desc: [
+		"The &3MekaSuit&r is the ultimate armor set in &aMekanism&r. Each piece — helmet, bodyarmor, pants, and boots — accepts specialized modules for flight, radiation shielding, energy generation, and more. Requires antimatter to craft."
+		""
+		"&eInstall modules at the Modification Station.&r Each armor piece has specific module slots: helmet for vision, bodyarmor for jetpacks and generators, pants for speed, boots for step assist and fall protection."
+	]
+	quest.567A838221FD9E07.title: "QIO Drive Array"
+	quest.567A838221FD9E07.quest_desc: [
+		"The &3QIO Drive Array&r is the core of &aMekanism&r's quantum item storage network. Insert QIO drives to store items in a frequency-linked digital network accessible from anywhere."
+		""
+		"&eQIO networks use frequencies — set the same frequency on all QIO components to link them.&r The drive array holds the physical drives that store your items. Like AE2, but wireless and cross-dimensional."
+	]
+	quest.570EF3A9C1A6E8A3.title: "QIO Drive"
+	quest.570EF3A9C1A6E8A3.quest_desc: [
+		"A &3QIO Drive&r stores items within the QIO network. Insert drives into a &3QIO Drive Array&r to expand storage capacity. Higher-tier drives store more item types and larger quantities."
+		""
+		"&eStart with base drives and upgrade as your storage needs grow.&r Each drive stores a fixed number of item types and total count. Multiple drives in one array combine their capacity."
+	]
+	quest.580E6865B12E6BCD.title: "QIO Import/Export"
+	quest.580E6865B12E6BCD.quest_desc: [
+		"The &3QIO Importer&r and &3QIO Exporter&r connect your physical inventories to the QIO network. Importers pull items from adjacent inventories into the network. Exporters push items from the network into adjacent inventories."
+		""
+		"&eAttach importers to your farms and crafting outputs, exporters to your processing machines.&r Together they automate item flow between your physical base and digital storage."
+	]
+	quest.48C677C4BE848434.title: "QIO Dashboard"
+	quest.48C677C4BE848434.quest_desc: [
+		"The &3QIO Dashboard&r provides a crafting grid interface linked to your QIO network. Place it anywhere and access your entire QIO inventory for crafting — like an ME Terminal but wireless."
+		""
+		"&eThe dashboard shows all stored items, supports searching, and provides a full crafting grid.&r Place one in your workshop, one in your sorting room, and one wherever you craft most."
+	]
+	quest.61B09BECB1E91257.title: "Portable QIO"
+	quest.61B09BECB1E91257.quest_desc: [
+		"The &3Portable QIO Dashboard&r is a handheld version of the QIO Dashboard. Right-click to open your full QIO network inventory from anywhere — no blocks required."
+		""
+		"&eCarry your entire storage system in your pocket.&r Access, search, and craft with your QIO items while exploring caves, raiding dungeons, or building in the field."
+	]
+	quest.00D6D9B6AA3A6BDC.title: "Energy Unit"
+	quest.00D6D9B6AA3A6BDC.quest_desc: [
+		"The &3Energy Unit&r module increases the energy storage capacity of any MekaSuit piece or the MekaTool. Stack multiple units for massive energy reserves that keep your equipment powered longer."
+	]
+	quest.0F08E4E17A2F3871.title: "Radiation Shielding"
+	quest.0F08E4E17A2F3871.quest_desc: [
+		"The &3Radiation Shielding Unit&r module provides radiation protection without needing a full hazmat suit. Install it on any MekaSuit piece to replace your hazmat gear with superior armor."
+	]
+	quest.0D3CDF46C9EC26DD.title: "Jetpack Module"
+	quest.0D3CDF46C9EC26DD.quest_desc: [
+		"The &3Jetpack Unit&r module installs on the MekaSuit bodyarmor, granting powered flight. Hold jump to ascend, release to descend. Consumes stored energy from the suit."
+	]
+	quest.58CD6FAE4073BCCA.title: "Gravitational Modulator"
+	quest.58CD6FAE4073BCCA.quest_desc: [
+		"The &3Gravitational Modulating Unit&r installs on the MekaSuit bodyarmor, enabling creative-style flight. More energy-hungry than the jetpack but provides full directional control in the air."
+	]
+	quest.15A9AE185A9C26A9.title: "Elytra Module"
+	quest.15A9AE185A9C26A9.quest_desc: [
+		"The &3Elytra Unit&r module adds elytra gliding capability to the MekaSuit bodyarmor. Glide through the air without needing fireworks or a separate elytra — the suit handles it all."
+	]
+	quest.72EB068E5B85B8BF.title: "Vision Enhancement"
+	quest.72EB068E5B85B8BF.quest_desc: [
+		"The &3Vision Enhancement Unit&r installs on the MekaSuit helmet, providing night vision. Toggle it on and off as needed — no more carrying night vision potions."
+	]
+	quest.1A58D3C9E0B01FB4.title: "Excavation Escalation"
+	quest.1A58D3C9E0B01FB4.quest_desc: [
+		"The &3Excavation Escalation Unit&r installs on the MekaTool, dramatically increasing mining speed. Stack multiple units for even faster block breaking — turns the MekaTool into a mining machine."
+	]
+	quest.1F182653E0A824DD.title: "Geothermal Generator"
+	quest.1F182653E0A824DD.quest_desc: [
+		"The &3Geothermal Generator Unit&r installs on the MekaSuit bodyarmor, generating energy from heat sources like lava. Stand in or near lava to passively charge your suit — turns hazards into power."
+	]
+}

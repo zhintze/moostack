@@ -38,7 +38,9 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `EF01`-`EF10` | Epic Fight | Quest IDs (original range) |
 | `EC01`-`EC06` | EvilCraft | Quest IDs (sections 1-6) |
 | `MA01`-`MA10` | Mystical Agriculture | Quest IDs (if using structured) |
-| `MK01`-`MK10` | Mekanism | Quest IDs (if using structured) |
+| `A101`-`A107` | Mekanism (Basics) | Quest IDs (sections 1-7) |
+| `A201`-`A206` | Mekanism: Ore Processing | Quest IDs (sections 1-6) |
+| `A301`-`A308` | Mekanism: Nuclear | Quest IDs (sections 1-8) |
 | `0C01`-`0C08` | Occultism | Quest IDs (sections 1-8) |
 | `PB01`-`PB10` | Productive Bees | Quest IDs (if using structured) |
 | `D001`-`D008` | PneumaticCraft | Quest IDs (sections 1-8) |

@@ -1,0 +1,299 @@
+{
+	chapter.3C121C2CDBCB1ECB.title: "Mekanism"
+
+	// Section 1: Getting Started
+	quest.1CECC6707EA34DBA.title: "Osmium Ingot"
+	quest.1CECC6707EA34DBA.quest_desc: [
+		"Mine and smelt &3Osmium Ore&r to obtain your first &3Osmium Ingots&r. Osmium is the foundation material for everything in &aMekanism&r — machines, circuits, tools, and alloys all start here."
+		""
+		"Osmium ore generates at all depths, similar to iron. &eSmelt it in a regular furnace to get started.&r Later, use an Enrichment Chamber to double your ore output."
+	]
+	quest.02552D5300A9423A.title: "Metallurgic Infuser"
+	quest.02552D5300A9423A.quest_desc: [
+		"Craft the &3Metallurgic Infuser&r — your first &aMekanism&r machine. It combines infusion materials (coal, redstone, diamond, etc.) with metals to produce alloys, circuits, and steel."
+		""
+		"Feed it coal or charcoal as infusion fuel, then insert iron ingots to make &3Steel Ingots&r. &eThis single machine unlocks the entire Mekanism tech tree.&r Check JEI for all infusion recipes."
+	]
+	quest.435C16CD7CA6DA11.title: "Steel Ingot"
+	quest.435C16CD7CA6DA11.quest_desc: [
+		"Produce a &3Steel Ingot&r by infusing an iron ingot with coal in the &3Metallurgic Infuser&r. Steel is the backbone of &aMekanism&r's machine casings, pipes, and tools."
+		""
+		"&eKeep a large stock of steel.&r You will need it for the &3Steel Casing&r and nearly every machine recipe. Coal, charcoal, and coal blocks all work as infusion fuel."
+	]
+	quest.3AD2FEA7E21FBFC4.title: "Infused Alloy"
+	quest.3AD2FEA7E21FBFC4.quest_desc: [
+		"Produce an &3Infused Alloy&r by infusing iron with redstone in the &3Metallurgic Infuser&r. This is the basic-tier alloy used in circuits, energy tablets, and many machine recipes."
+		""
+		"Infused Alloys are consumed constantly throughout Mekanism progression. &eBatch-produce them whenever you have spare redstone.&r Higher-tier alloys build upon this one."
+	]
+	quest.445FE72C2D8C30ED.title: "Basic Control Circuit"
+	quest.445FE72C2D8C30ED.quest_desc: [
+		"Produce a &3Basic Control Circuit&r by infusing osmium with redstone in the &3Metallurgic Infuser&r. Circuits are the brains of every &aMekanism&r machine."
+		""
+		"&eYou will need many of these.&r Every machine, energy cube, and factory requires at least one basic circuit. Upgrade circuits to Advanced, Elite, and Ultimate tiers for higher-tier machines."
+	]
+	quest.197E54F925C7055C.title: "Steel Casing"
+	quest.197E54F925C7055C.quest_desc: [
+		"Craft a &3Steel Casing&r — the universal machine frame for &aMekanism&r. Every single Mek machine requires at least one steel casing in its recipe."
+		""
+		"Made from steel ingots, glass, and osmium ingots. &eStock up on these early — you will burn through dozens as you build out your factory.&r This is the gateway to all core machines."
+	]
+	// Section 2: Core Machines
+	quest.702BF1120A257F24.title: "Enrichment Chamber"
+	quest.702BF1120A257F24.quest_desc: [
+		"Craft an &3Enrichment Chamber&r — the ore-doubling machine. Every ore block becomes two ingots instead of one, effectively doubling your mining output from the start."
+		""
+		"Beyond ores, it enriches many materials: coal into compressed carbon, redstone into enriched redstone, and more. &eThis is usually the first machine you should build after the Metallurgic Infuser.&r"
+	]
+	quest.56BB37C6A251C523.title: "Crusher"
+	quest.56BB37C6A251C523.quest_desc: [
+		"Craft a &3Crusher&r — grinds items into dust and fragments. Its most important function is turning organic materials (crops, saplings, vines) into &3Bio Fuel&r for the Bio Generator."
+		""
+		"The Crusher also reverses ingots into dust and processes many other materials. &ePair it with a Bio Generator for an easy early-game power source.&r"
+	]
+	quest.0D59F88FAF8AA053.title: "Energized Smelter"
+	quest.0D59F88FAF8AA053.quest_desc: [
+		"Craft an &3Energized Smelter&r — an electric furnace that smelts with RF instead of coal. Faster than a vanilla furnace and can be upgraded with speed and energy upgrades."
+		""
+		"&eOptional but convenient.&r It handles the same recipes as a regular furnace but integrates cleanly into your Mekanism power grid. Great for automated smelting setups."
+	]
+	quest.3F5073717BD20778.title: "Precision Sawmill"
+	quest.3F5073717BD20778.quest_desc: [
+		"Craft a &3Precision Sawmill&r — the wood-processing machine. It yields 6 planks per log instead of the usual 4, plus bonus sawdust that can be used for other recipes."
+		""
+		"A strict upgrade over hand-crafting wood. &eFeed it any log type for extra planks and free sawdust.&r The sawdust can be pressed into paper or used in various recipes."
+	]
+	quest.4FE2053F22E69C1C.title: "Electrolytic Separator"
+	quest.4FE2053F22E69C1C.quest_desc: [
+		"Craft an &3Electrolytic Separator&r — splits compounds into their chemical components. Its primary use is electrolyzing water into &3Hydrogen&r and &3Oxygen&r gases."
+		""
+		"Hydrogen fuels the &3Gas-Burning Generator&r and the &3Jetpack&r. Oxygen is used in various chemical processes. &ePipe in water and power, then store or consume the gases.&r"
+	]
+	quest.72EAA89A2874413D.title: "Chemical Oxidizer"
+	quest.72EAA89A2874413D.quest_desc: [
+		"Craft a &3Chemical Oxidizer&r — converts solid materials into gaseous form. Key uses include turning sulfur dust into &3Sulfur Dioxide&r and enriched materials into chemical gases."
+		""
+		"Part of the chemical processing pipeline alongside the &3Chemical Infuser&r. &eCheck JEI for which solids can be oxidized — it unlocks several advanced material chains.&r"
+	]
+	quest.6621D3A1CE7A4458.title: "Chemical Infuser"
+	quest.6621D3A1CE7A4458.quest_desc: [
+		"Craft a &3Chemical Infuser&r — combines two input gases into a new output gas. For example, combining &3Hydrogen&r and &3Sulfur Dioxide&r produces &3Sulfuric Acid&r."
+		""
+		"This machine is essential for producing advanced chemicals like &3Hydrogen Chloride&r and &3Sulfuric Acid&r. &ePair it with the Oxidizer and Separator for a full gas processing setup.&r"
+	]
+	quest.0B91D330DDC61156.title: "Rotary Condensentrator"
+	quest.0B91D330DDC61156.quest_desc: [
+		"Craft a &3Rotary Condensentrator&r — converts gases into fluids and fluids back into gases. Toggle between condensentrating (gas to fluid) and decondensentrating (fluid to gas) modes."
+		""
+		"This bridges &aMekanism&r's gas system with fluid-based mods and piping. &eEssential for interfacing chemical outputs with tanks and fluid pipes from other mods.&r"
+	]
+	// Section 3: Infrastructure
+	quest.264B3952539FE5B9.title: "Configurator"
+	quest.264B3952539FE5B9.quest_desc: [
+		"Craft a &3Configurator&r — the essential multi-tool for &aMekanism&r. It configures machine side I/O (which sides accept input, output, or both), rotates blocks, and empties pipes."
+		""
+		"&eShift-right-click to cycle through modes.&r Use it on machine sides to set input/output colors, on pipes to configure routing, and on logistical transporters to set filter rules."
+	]
+	quest.21F08E6E08AF65CE.title: "Basic Mechanical Pipe"
+	quest.21F08E6E08AF65CE.quest_desc: [
+		"Craft a &3Basic Mechanical Pipe&r — the standard fluid transport pipe for &aMekanism&r. Connects to tanks, machines, and any block that holds fluids."
+		""
+		"Upgradeable to Advanced, Elite, and Ultimate tiers for higher throughput. &eUse the Configurator to set pull mode on the pipe end connected to a fluid source.&r"
+	]
+	quest.7705C6493F312F14.title: "Basic Pressurized Tube"
+	quest.7705C6493F312F14.quest_desc: [
+		"Craft a &3Basic Pressurized Tube&r — transports gases between machines, chemical tanks, and generators. Essential for moving Hydrogen, Oxygen, and other chemical outputs."
+		""
+		"Like all Mekanism pipes, tubes support tiered upgrades for increased flow rate. &eConnect the tube to a gas output, then use the Configurator to set pull mode if needed.&r"
+	]
+	quest.084F4F600BAA39E4.title: "Basic Logistical Transporter"
+	quest.084F4F600BAA39E4.quest_desc: [
+		"Craft a &3Basic Logistical Transporter&r — the item transport pipe for &aMekanism&r. Moves items between inventories with visible item travel along the pipe."
+		""
+		"Transporters support color-coded routing and item filters via the Configurator. &eSet a transporter to pull mode to extract items from a connected inventory automatically.&r"
+	]
+	quest.2A5A8A9C5E9DE906.title: "Basic Thermodynamic Conductor"
+	quest.2A5A8A9C5E9DE906.quest_desc: [
+		"Craft a &3Basic Thermodynamic Conductor&r — transfers heat between machines. Some Mekanism machines produce or consume heat, and conductors move it where it's needed."
+		""
+		"Heat transfer is used in the &3Fuelwood Heater&r, &3Resistive Heater&r, and certain advanced setups. &eNiche but important for optimizing specific machine chains.&r"
+	]
+	quest.64EABFA327E6BF50.title: "Basic Chemical Tank"
+	quest.64EABFA327E6BF50.quest_desc: [
+		"Craft a &3Basic Chemical Tank&r — stores gases produced by your chemical machines. Buffer Hydrogen from the Electrolytic Separator, store Oxygen, or hold any other Mekanism gas."
+		""
+		"Tanks are tiered: Basic, Advanced, Elite, and Ultimate for increasing capacity. &eAlways buffer gas outputs to prevent machines from stalling when downstream is full.&r"
+	]
+	quest.0970A1C3CE7E08CA.title: "Basic Fluid Tank"
+	quest.0970A1C3CE7E08CA.quest_desc: [
+		"Craft a &3Basic Fluid Tank&r — stores any fluid (water, lava, brine, etc.). Useful for buffering fluid inputs to machines like the Electrolytic Separator."
+		""
+		"Place a bucket in the tank GUI to fill or empty it manually, or pipe fluids in and out. &eTiered upgrades increase capacity significantly.&r"
+	]
+	quest.0A4075174AF051FF.title: "Pressurized Reaction Chamber"
+	quest.0A4075174AF051FF.quest_desc: [
+		"Craft a &3Pressurized Reaction Chamber (PRC)&r — a triple-input machine that combines a solid item, a fluid, and a gas to produce outputs. Its most important recipe is creating &3HDPE Pellets&r for plastic sheets."
+		""
+		"The PRC is key to unlocking the plastics production chain. &eFeed it a substrate, water, and hydrogen to produce HDPE and Ethylene.&r Check JEI for all PRC recipes."
+	]
+	// Section 4: Power & Energy
+	quest.7EC63E56188C86B0.title: "Energy Tablet"
+	quest.7EC63E56188C86B0.quest_desc: [
+		"Craft an &3Energy Tablet&r — a portable energy storage item and essential crafting component. Energy Tablets appear in the recipes for cables, energy cubes, generators, and many machines."
+		""
+		"&eCraft several of these.&r They are used constantly in &aMekanism&r recipes. The tablet can also be charged and used as a portable RF battery."
+	]
+	quest.3DC51D9C5FC7EF90.title: "Basic Universal Cable"
+	quest.3DC51D9C5FC7EF90.quest_desc: [
+		"Craft a &3Basic Universal Cable&r — the standard power cable for &aMekanism&r. Transfers RF/FE between generators, energy cubes, and machines. Compatible with power from other mods."
+		""
+		"Cables are tiered: Basic, Advanced, Elite, and Ultimate for increasing transfer rates. &eRun cables from your generator to your machines — no configuration needed, just connect and go.&r"
+	]
+	quest.4EF6B9306C576C6C.title: "Basic Energy Cube"
+	quest.4EF6B9306C576C6C.quest_desc: [
+		"Craft a &3Basic Energy Cube&r — a block-form energy storage unit. Stores RF and distributes it to adjacent machines or through cables."
+		""
+		"Energy Cubes retain their charge when broken and picked up. &eUpgrade through Advanced, Elite, and Ultimate tiers for exponentially more storage.&r Great for buffering generator output."
+	]
+	quest.784743CDCCDE2D6C.title: "Solar Generator"
+	quest.784743CDCCDE2D6C.quest_desc: [
+		"Craft a &3Solar Generator&r — a simple passive power source that produces RF from sunlight. No fuel needed — just place it under open sky and it generates power during the day."
+		""
+		"Output is modest but completely free. &eA good starter generator to supplement fuel-based power.&r Upgrade to the Advanced Solar Generator for significantly more output."
+	]
+	quest.13DBBEA0F0BCF6D2.title: "Advanced Solar Generator"
+	quest.13DBBEA0F0BCF6D2.quest_desc: [
+		"Craft an &3Advanced Solar Generator&r — a 4-block tall solar array that produces significantly more RF than the basic model. Still completely passive — just sunlight and open sky."
+		""
+		"&eProduces roughly 4x the power of a basic Solar Generator.&r Combine several for a clean, renewable power farm. No moving parts, no fuel, no maintenance."
+	]
+	quest.2A8AB8B29E4A9F49.title: "Wind Generator"
+	quest.2A8AB8B29E4A9F49.quest_desc: [
+		"Craft a &3Wind Generator&r — produces RF based on altitude. The higher you place it, the more power it generates. Works day and night, rain or shine."
+		""
+		"&ePlace these on top of tall towers or mountains for maximum output.&r At Y=200+, a single wind generator can rival several solar panels. Great for consistent 24/7 power."
+	]
+	quest.3D3B2FFA4FA18BEC.title: "Heat Generator"
+	quest.3D3B2FFA4FA18BEC.quest_desc: [
+		"Craft a &3Heat Generator&r — produces RF by burning solid fuels (coal, wood) or passively from adjacent lava. A reliable early-game generator that uses familiar fuel sources."
+		""
+		"Place lava around it for free passive power on top of active fuel burning. &eSurround it with lava source blocks for maximum passive output.&r Works well as your first Mekanism generator."
+	]
+	quest.4B988D786ABF369F.title: "Bio Generator"
+	quest.4B988D786ABF369F.quest_desc: [
+		"Craft a &3Bio Generator&r — burns &3Bio Fuel&r to produce RF. Bio Fuel is made by crushing organic materials (crops, seeds, saplings, vines) in the &3Crusher&r."
+		""
+		"An excellent renewable power source — any farm output can become fuel. &ePipe Bio Fuel in from a Crusher connected to a farm for fully automated green energy.&r"
+	]
+	quest.2CAC625D722740C1.title: "Gas-Burning Generator"
+	quest.2CAC625D722740C1.quest_desc: [
+		"Craft a &3Gas-Burning Generator&r — burns Hydrogen gas (or other burnable gases) for high RF output. Pipe in Hydrogen from an &3Electrolytic Separator&r for powerful, scalable energy."
+		""
+		"&eThis is one of the strongest mid-game generators.&r A single Separator feeding a Gas-Burning Generator can power a sizable factory. Scale up with more Separators for endgame power."
+	]
+	// Section 5: Control Circuits
+	quest.0BE60C85E4563B2A.title: "Basic Control Circuit"
+	quest.0BE60C85E4563B2A.quest_desc: [
+		"Craft a &3Basic Control Circuit&r by infusing an osmium ingot with redstone in the &3Metallurgic Infuser&r. This is the entry-level circuit used in every basic-tier machine."
+		""
+		"&eYou also need Infused Alloys for many recipes alongside these circuits.&r Master both to unlock the full range of basic Mekanism machines."
+	]
+	quest.6D21661BEE077EB5.title: "Advanced Control Circuit"
+	quest.6D21661BEE077EB5.quest_desc: [
+		"Craft an &3Advanced Control Circuit&r by combining an &3Infused Alloy&r with a Basic Control Circuit in the &3Metallurgic Infuser&r. Required for mid-tier machines, factories, and advanced energy cubes."
+		""
+		"You also need &3Reinforced Alloy&r (infused alloy + diamond) for advanced-tier recipes. &ePrepare enriched diamond and infused alloy in bulk before upgrading your machines.&r"
+	]
+	quest.05E417E3BB373073.title: "Elite Control Circuit"
+	quest.05E417E3BB373073.quest_desc: [
+		"Craft an &3Elite Control Circuit&r by combining a &3Reinforced Alloy&r with an Advanced Control Circuit in the &3Metallurgic Infuser&r. These power elite-tier factories, machines, and high-capacity storage."
+		""
+		"You also need &3Atomic Alloy&r (reinforced alloy + obsidian) for the ultimate tier. &eStart stockpiling obsidian and diamonds — the top tiers consume expensive materials.&r"
+	]
+	quest.618AE2884CEC7CAB.title: "Ultimate Control Circuit"
+	quest.618AE2884CEC7CAB.quest_desc: [
+		"Craft an &3Ultimate Control Circuit&r by combining an &3Atomic Alloy&r with an Elite Control Circuit in the &3Metallurgic Infuser&r. The pinnacle of Mekanism circuit technology — required for ultimate-tier everything."
+		""
+		"&eUltimate circuits unlock the highest-tier machines, factories, and the Digital Miner.&r These are expensive to produce, so craft them only when you are ready to upgrade."
+	]
+	// Section 6: Upgrades & Utility
+	quest.69BF5F8C1D5925FC.title: "Speed Upgrade"
+	quest.69BF5F8C1D5925FC.quest_desc: [
+		"Craft a &3Speed Upgrade&r — insert it into any &aMekanism&r machine to increase its processing speed. Each machine accepts up to 8 speed upgrades."
+		""
+		"&eSpeed upgrades increase power consumption proportionally.&r Balance speed upgrades with energy upgrades to find the sweet spot between performance and power draw."
+	]
+	quest.6A9EE1002761CDD5.title: "Energy Upgrade"
+	quest.6A9EE1002761CDD5.quest_desc: [
+		"Craft an &3Energy Upgrade&r — insert it into any &aMekanism&r machine to reduce its power consumption. Each machine accepts up to 8 energy upgrades."
+		""
+		"&ePair energy upgrades with speed upgrades to offset the increased power draw.&r A fully speed-upgraded machine with energy upgrades runs fast without draining your power grid."
+	]
+	quest.175D29C482673936.title: "Muffling Upgrade"
+	quest.175D29C482673936.quest_desc: [
+		"Craft a &3Muffling Upgrade&r — silences machine noise. Mekanism machines can be quite loud, and muffling upgrades reduce the volume incrementally."
+		""
+		"&eInstall 4 muffling upgrades for complete silence.&r Essential for machines placed near your living quarters or in shared multiplayer spaces."
+	]
+	quest.3053BA2E19E79421.title: "Chemical Upgrade"
+	quest.3053BA2E19E79421.quest_desc: [
+		"Craft a &3Chemical Upgrade&r — reduces the amount of gas consumed by chemical-processing machines. Insert into machines that use gas inputs to improve efficiency."
+		""
+		"&eParticularly valuable for the Chemical Infuser and PRC.&r Reduces waste and extends your gas reserves, making chemical processing chains more sustainable."
+	]
+	quest.7EA3D2BC78EE3F64.title: "Filter Upgrade"
+	quest.7EA3D2BC78EE3F64.quest_desc: [
+		"Craft a &3Filter Upgrade&r — enables tag-based filtering in compatible machines. Insert it into machines that process or sort items to enable ore dictionary / tag filtering."
+		""
+		"&eUseful in the Digital Miner and logistical sorters.&r Allows filtering by tags like 'c:ingots' instead of individual items, making automation more flexible."
+	]
+	quest.3E77627AE5137576.title: "Basic Tier Installer"
+	quest.3E77627AE5137576.quest_desc: [
+		"Craft a &3Basic Tier Installer&r — upgrades a machine from basic to advanced tier in-place. No need to break and re-craft the machine. Just shift-right-click the machine with the installer."
+		""
+		"Tier installers are available for each tier: Basic, Advanced, Elite, and Ultimate. &eThis saves you from losing machine contents or reconfiguring side I/O when upgrading.&r"
+	]
+	quest.46858D3F7BDDBB7B.title: "Jetpack"
+	quest.46858D3F7BDDBB7B.quest_desc: [
+		"Craft a &3Jetpack&r — a hydrogen-powered personal flight device worn in the chestplate slot. Fill it with Hydrogen gas from the &3Electrolytic Separator&r and take to the skies."
+		""
+		"Hold jump to ascend, release to descend. &eToggle hover mode with the armor mode key to maintain altitude automatically.&r A must-have for exploring and building at height."
+	]
+	// Section 7: Storage & Transport
+	quest.31E3A402304D29A1.title: "Induction Port"
+	quest.31E3A402304D29A1.quest_desc: [
+		"Craft an &3Induction Port&r — the I/O block for the &3Induction Matrix&r multiblock. Ports allow energy to flow into and out of the matrix. At least two are needed (one input, one output)."
+		""
+		"Right-click a port to toggle between input and output mode. &eThe Induction Matrix is Mekanism's ultimate energy storage — a multiblock structure that holds massive amounts of RF.&r"
+	]
+	quest.172E6A4928CF56DD.title: "Basic Induction Cell"
+	quest.172E6A4928CF56DD.quest_desc: [
+		"Craft a &3Basic Induction Cell&r — the energy storage component placed inside the Induction Matrix. Each cell adds to the matrix's total storage capacity."
+		""
+		"Cells come in Basic, Advanced, Elite, and Ultimate tiers. &eMore cells and higher tiers mean more total energy storage.&r Place cells inside the matrix frame alongside providers."
+	]
+	quest.758BE28C43F8CDDD.title: "Basic Induction Provider"
+	quest.758BE28C43F8CDDD.quest_desc: [
+		"Craft a &3Basic Induction Provider&r — controls the transfer rate of the Induction Matrix. Each provider increases how fast energy can flow in or out of the matrix."
+		""
+		"&eCells store energy, providers control throughput.&r Balance cells and providers based on your needs — lots of storage vs. fast transfer. Providers are also tiered for higher rates."
+	]
+	quest.0513551AF55E8325.title: "Induction Matrix"
+	quest.0513551AF55E8325.quest_desc: [
+		"Build a complete &3Induction Matrix&r — a 3x3x3 multiblock energy storage structure. You need 18 &3Induction Casings&r for the frame, 2 &3Induction Ports&r for I/O, plus cells and providers inside."
+		""
+		"&eThis is the definitive Mekanism power storage solution.&r Even a basic matrix dwarfs energy cubes in capacity. Expand with higher-tier cells and providers as your power needs grow."
+	]
+	quest.41EC7A36662874E8.title: "Teleporter"
+	quest.41EC7A36662874E8.quest_desc: [
+		"Build a &3Teleporter&r — instant point-to-point travel across any distance or dimension. Place the teleporter block and surround it with 9 &3Teleporter Frames&r to form the pad."
+		""
+		"Link two teleporters by setting the same frequency in both GUIs. &eRequires significant RF per teleport — keep an energy buffer nearby.&r The ultimate travel infrastructure for your world."
+	]
+	quest.16D63705E21BF277.title: "Quantum Entangloporter"
+	quest.16D63705E21BF277.quest_desc: [
+		"Craft two &3Quantum Entangloporter&r blocks — wireless transport of items, fluids, gases, energy, and heat across any distance and dimension. Set the same frequency on both and they share their contents instantly."
+		""
+		"&eThe ultimate logistics solution in Mekanism.&r One entangloporter at your power plant, another at a remote outpost — energy, fluids, and items flow seamlessly. Expensive but worth every ingot."
+	]
+}
