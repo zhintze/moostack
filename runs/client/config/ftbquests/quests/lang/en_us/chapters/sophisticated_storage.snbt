@@ -1,258 +1,381 @@
 {
 	// Sophisticated Storage & Backpacks Chapter
 	// Chapter ID: 1DB294A8F8686321
+	// Prefix: 55 (sections 01-06)
 
 	// ==========================================
-	// HUB QUESTS
+	// SECTION 1: STORAGE CONTAINERS
 	// ==========================================
-	quest.5A94A2664BFDD7B9.title: "Storage Basics"
-	quest.5A94A2664BFDD7B9.quest_desc: ["This chapter covers item storage options from vanilla chests to upgradeable Sophisticated Storage containers and backpacks."]
-
-	quest.7EF57BBEAA4B6B08.title: "NBT Items"
-	quest.7EF57BBEAA4B6B08.quest_desc: [
-		"Enchanted items, tools with durability, and other NBT-tagged items don't stack. Storing many of these in virtual storage systems (like AE2) can cause performance issues."
+	quest.5501000000000100.title: "Sophisticated Chest"
+	quest.5501000000000100.quest_desc: [
+		"Craft a &3Sophisticated Chest&r to start upgrading your storage beyond vanilla. These containers accept &efunctional upgrades&r that add automation, filtering, and processing — things no vanilla chest can do."
 		""
-		"Store NBT items in physical containers like chests or backpacks instead."
+		"Higher material tiers increase both slot count and the number of upgrades you can install. Start with basic wood, then work your way up through metals."
 	]
-	task.21FBC4E0F668347C.title: "I understand NBT storage"
-
-	// ==========================================
-	// VANILLA STORAGE
-	// ==========================================
-	quest.134608BB2B04D96E.title: "Chest"
-	quest.134608BB2B04D96E.quest_desc: ["Vanilla chests hold 27 slots. Place two adjacent chests to form a double chest with 54 slots."]
-
-	quest.7F990FBC1A691020.title: "Trapped Chest"
-	quest.7F990FBC1A691020.quest_desc: ["Emits a redstone signal when opened. Cannot be combined into double chests."]
-
-	quest.1659A59303C15CC9.title: "Barrel"
-	quest.1659A59303C15CC9.quest_desc: ["Functions like a chest with 27 slots. Cannot be combined but can be stacked vertically."]
-
-	quest.25AFD10D008DF30B.title: "Ender Chest"
-	quest.25AFD10D008DF30B.quest_desc: ["Personal dimensional storage. All your ender chests share the same 27-slot inventory."]
-
-	quest.33AADC1B97E9F7A9.title: "Chest Minecart"
-	quest.33AADC1B97E9F7A9.quest_desc: ["Mobile storage on rails. Useful for automated item transport systems."]
-
-	quest.544791880F315D5A.title: "Chest Boat"
-	quest.544791880F315D5A.quest_desc: ["Boat with built-in chest storage. Single rider only when chest is attached."]
-
-	// ==========================================
-	// SOPHISTICATED STORAGE - TIER PROGRESSION
-	// ==========================================
-	quest.5E4BC0F59C90433A.title: "Sophisticated Storage"
-	quest.5E4BC0F59C90433A.quest_desc: [
-		"Upgradeable storage containers that accept functional upgrades. Craft a basic chest or barrel to start."
+	quest.5501000000000200.title: "Iron Storage"
+	quest.5501000000000200.quest_desc: [
+		"Upgrade to &3Iron Tier&r for significantly more storage slots and an extra upgrade slot. You can craft an iron chest directly or use a &eTier Upgrade&r item on an existing chest in-place."
 		""
-		"Higher tier containers hold more items and support more upgrade slots."
+		"Iron is where Sophisticated Storage starts to shine — enough capacity for a proper workshop, and enough upgrade slots to add smelting or magnet functionality."
+	]
+	quest.5501000000000300.title: "Diamond Storage"
+	quest.5501000000000300.quest_desc: [
+		"&3Diamond Tier&r is the workhorse of endgame storage. Massive slot count, plenty of upgrade capacity, and enough room to run a fully automated smelting-and-sorting operation from a single chest."
+		""
+		"Gold tier exists between iron and diamond but offers only a marginal capacity bump — most players skip straight here. &eDiamond is also the minimum tier for the Storage Controller network.&r"
+	]
+	quest.5501000000000400.title: "Netherite Storage"
+	quest.5501000000000400.quest_desc: [
+		"The ultimate tier. &3Netherite chests&r are fireproof, blast-resistant, and hold the maximum number of slots and upgrades. Expensive to craft, but nothing short of the void will destroy them."
+		""
+		"Worth it for your most valuable items or for chests in dangerous locations like nether bases. &eUpgrade existing diamond chests in-place with a tier upgrade item.&r"
+	]
+	quest.5501000000000500.title: "Copper Storage"
+	quest.5501000000000500.quest_desc: [
+		"An &3optional intermediate tier&r between basic and iron. Copper chests cost less iron but offer only a modest capacity increase. Most players skip this and go straight to iron."
+		""
+		"If you're playing on a server where iron is scarce early on, copper tier lets you get a bit more storage while you save up. &eOtherwise, jump to iron.&r"
 	]
 
-	quest.0CD04A00529FE1C9.title: "Copper Tier"
-	quest.0CD04A00529FE1C9.quest_desc: ["Optional intermediate tier. Saves iron but can be skipped by crafting iron tier directly."]
-
-	quest.58514FDE153FD971.title: "Iron Tier"
-	quest.58514FDE153FD971.quest_desc: ["Increased storage capacity. First major upgrade from basic tier."]
-
-	quest.3E33730DC2115D26.title: "Gold Tier"
-	quest.3E33730DC2115D26.quest_desc: ["Larger capacity and more upgrade slots than iron tier."]
-
-	quest.4C0BDD483CCB40C4.title: "Diamond Tier"
-	quest.4C0BDD483CCB40C4.quest_desc: ["High-capacity storage with multiple upgrade slots."]
-
-	quest.77F241BEE9902751.title: "Netherite Tier"
-	quest.77F241BEE9902751.quest_desc: ["Maximum storage capacity. Fireproof and holds the most items."]
-
 	// ==========================================
-	// SOPHISTICATED STORAGE - UTILITIES
+	// SECTION 2: STORAGE NETWORK
 	// ==========================================
-	quest.4007DFA7CC3A5FF2.title: "Storage Upgrade Base"
-	quest.4007DFA7CC3A5FF2.quest_desc: ["Required crafting component for all storage upgrades. See the backpack upgrades section for functionality - storage upgrades work the same way."]
-
-	quest.1FE17B1C7C639F88.title: "Storage Controller"
-	quest.1FE17B1C7C639F88.quest_desc: [
-		"Links multiple Sophisticated Storage containers into a unified network. Acts as a single access point for all connected storage."
+	quest.5502000000000100.title: "Storage Controller"
+	quest.5502000000000100.quest_desc: [
+		"The &3Storage Controller&r unifies multiple Sophisticated Storage containers into a single searchable network. Place it adjacent to your chests — or to other connected chests — and access everything from one interface."
 		""
-		"Connect containers by placing them adjacent to the controller or to other connected containers. Maximum range: 14 blocks from controller."
+		"Maximum reach is &e14 blocks from the controller&r, measured through connected containers. Think of it as a poor man's AE2 for physical storage."
+	]
+	quest.5502000000000200.title: "Storage Tool"
+	quest.5502000000000200.quest_desc: [
+		"Right-click a &3Storage Controller&r to bind the tool, then right-click any Sophisticated Storage container to wirelessly link it to the network. No adjacency required."
+		""
+		"Useful for connecting containers in different rooms or floors. &eThe linked container still counts against the 14-block network range.&r"
+	]
+	quest.5502000000000300.title: "Storage Link"
+	quest.5502000000000300.quest_desc: [
+		"A block that acts as a wireless bridge in the controller network. Place a &3Storage Link&r anywhere within range and it extends the network to containers adjacent to it."
+		""
+		"Chains of links can reach farther than direct adjacency alone. &eCombine with the Storage Tool for maximum flexibility.&r"
 	]
 
-	quest.78E51D22C16C4686.title: "Storage Tool"
-	quest.78E51D22C16C4686.quest_desc: ["Wirelessly links storage containers to the controller. Right-click the controller to bind, then right-click containers to connect them."]
-
-	quest.0108F3EFDFD6DFD0.title: "Storage Link"
-	quest.0108F3EFDFD6DFD0.quest_desc: ["Wirelessly connects distant storage containers to your controller network without requiring adjacent placement."]
-
 	// ==========================================
-	// SOPHISTICATED BACKPACKS - TIER PROGRESSION
+	// SECTION 3: BACKPACKS
 	// ==========================================
-	quest.6A2B2C5E2ADCE366.title: "Backpack"
-	quest.6A2B2C5E2ADCE366.quest_desc: [
-		"Portable storage that accepts functional upgrades. Equip in the Curios back slot for hands-free access."
+	quest.5503000000000100.title: "Backpack"
+	quest.5503000000000100.quest_desc: [
+		"Craft a &3Sophisticated Backpack&r for portable, upgradeable storage you carry with you. Equip it in the &eCurios back slot&r for hands-free access — open it with a keybind without taking up an inventory slot."
 		""
-		"Backpacks can be dyed and upgraded to higher tiers for more capacity."
+		"Backpacks accept the same functional upgrades as chests: auto-smelting, magnet, feeding, and more. They can also be dyed any color."
+	]
+	quest.5503000000000200.title: "Iron Backpack"
+	quest.5503000000000200.quest_desc: [
+		"&3Iron Backpack&r adds more slots and an extra upgrade capacity. Upgrade an existing backpack by combining it with iron ingots in a crafting table — contents are preserved."
+		""
+		"This is the sweet spot for early-game adventuring. Enough room for loot, enough upgrades to run a &efeeding upgrade&r and a &emagnet&r simultaneously."
+	]
+	quest.5503000000000300.title: "Diamond Backpack"
+	quest.5503000000000300.quest_desc: [
+		"The &3Diamond Backpack&r is the practical endgame for most players. Huge slot count and enough upgrade capacity to run smelting, feeding, magnet, and auto-pickup all at once."
+		""
+		"Gold tier exists but is barely worth the detour — diamond is only slightly more expensive and substantially better. &eSkip gold, come straight here.&r"
+	]
+	quest.5503000000000400.title: "Netherite Backpack"
+	quest.5503000000000400.quest_desc: [
+		"Maximum capacity, maximum upgrade slots, and &3completely fireproof&r. A Netherite Backpack survives lava, fire, and explosions — your items won't burn even if you do."
+		""
+		"Combine with the &eEverlasting Upgrade&r to make a backpack that persists through death AND fire. The ultimate portable storage."
+	]
+	quest.5503000000000500.title: "Copper Backpack"
+	quest.5503000000000500.quest_desc: [
+		"An &3optional budget tier&r if you want slightly more capacity without spending iron. Most players skip copper and go straight to iron backpack."
+		""
+		"Copper is plentiful in most worlds and this tier is cheap to craft. &eGood for skyblock or resource-limited starts.&r"
 	]
 
-	quest.0E057B7F76401421.title: "Copper Backpack"
-	quest.0E057B7F76401421.quest_desc: ["Optional intermediate tier. Can skip directly to iron backpack."]
-
-	quest.2F9B0C642A6BE30C.title: "Iron Backpack"
-	quest.2F9B0C642A6BE30C.quest_desc: ["Increased storage capacity and upgrade slots."]
-
-	quest.45268A619787288F.title: "Gold Backpack"
-	quest.45268A619787288F.quest_desc: ["More capacity and upgrade slots than iron."]
-
-	quest.67704F7341EDCC49.title: "Diamond Backpack"
-	quest.67704F7341EDCC49.quest_desc: ["High-capacity backpack with many upgrade slots."]
-
-	quest.46D756F4DC6CC894.title: "Netherite Backpack"
-	quest.46D756F4DC6CC894.quest_desc: ["Maximum capacity. Fireproof and survives lava."]
+	// ==========================================
+	// SECTION 4: UPGRADES: CORE & COLLECTION
+	// ==========================================
+	quest.5504000000000100.title: "Upgrade Base"
+	quest.5504000000000100.quest_desc: [
+		"Every functional upgrade starts with an &3Upgrade Base&r. Storage and backpacks use separate base items but work the same way — craft both. You'll burn through these fast, so keep a stack handy."
+		""
+		"Upgrades come in basic and advanced variants. Basic provides the core function; advanced adds &efiltering and configuration options&r. Start with basic versions and upgrade when you need fine control."
+	]
+	quest.5504000000000200.title: "Pickup Upgrade"
+	quest.5504000000000200.quest_desc: [
+		"Install a &3Pickup Upgrade&r to automatically collect dropped items into your backpack or storage container. Walk over items and they go straight in — no manual collection needed."
+		""
+		"Works in both backpacks and storage containers. &eThe storage version auto-collects items that land on top of the chest.&r"
+	]
+	quest.5504000000000300.title: "Advanced Pickup Upgrade"
+	quest.5504000000000300.quest_desc: [
+		"The &3Advanced Pickup&r adds configurable filter slots to control exactly which items get collected. Set it to only pick up valuables and leave the junk behind."
+		""
+		"&eSupports tag-based filtering&r for mod-wide item categories. Much more useful than basic pickup for organized inventory management."
+	]
+	quest.5504000000000400.title: "Magnet Upgrade"
+	quest.5504000000000400.quest_desc: [
+		"The &3Magnet Upgrade&r pulls dropped items toward you from a distance, then collects them into your backpack or container. No need to walk over every drop."
+		""
+		"Essential for mining and mob farming. &eArguably the single best backpack upgrade in the game&r — items fly toward you from several blocks away."
+	]
+	quest.5504000000000500.title: "Advanced Magnet Upgrade"
+	quest.5504000000000500.quest_desc: [
+		"The &3Advanced Magnet&r adds configurable range and item filters. Set a specific pickup radius and choose exactly which items to attract."
+		""
+		"&eCombine with a void upgrade&r to pull items toward you, keep the good stuff, and delete the garbage automatically."
+	]
+	quest.5504000000000600.title: "Filter Upgrade"
+	quest.5504000000000600.quest_desc: [
+		"The &3Filter Upgrade&r controls which items can enter or exit your storage through automation. Essential for sorting systems and targeted collection."
+		""
+		"Set up whitelist or blacklist filters. &eWorks with hopper inputs and pipe connections&r from other mods like Create or Mekanism."
+	]
+	quest.5504000000000700.title: "Advanced Filter Upgrade"
+	quest.5504000000000700.quest_desc: [
+		"&3Advanced Filter&r adds more filter slots and supports tag-based matching. Filter by mod, item type, or specific NBT data for precise control."
+		""
+		"The most powerful sorting tool in Sophisticated Storage. &eCombine with a hopper upgrade to build complex sorting systems without external mods.&r"
+	]
+	quest.5504000000000800.title: "Void Upgrade"
+	quest.5504000000000800.quest_desc: [
+		"The &3Void Upgrade&r automatically deletes specified items. Install it in a mining backpack to trash cobblestone and dirt on pickup, keeping your inventory clean."
+		""
+		"Configure which items to void in the upgrade's filter interface. &eBe careful — voided items are gone forever.&r There is no undo."
+	]
+	quest.5504000000000900.title: "Advanced Void Upgrade"
+	quest.5504000000000900.quest_desc: [
+		"&3Advanced Void&r adds condition-based voiding. Set it to only void items when your storage is full, or only void items that exceed a certain stack count."
+		""
+		"&eSafer than basic void&r since overflow mode keeps one stack of everything and only voids the excess. Prevents accidentally deleting valuables."
+	]
 
 	// ==========================================
-	// BACKPACK UPGRADES - BASE
+	// SECTION 5: UPGRADES: SURVIVAL & RESOURCES
 	// ==========================================
-	quest.1FE052F643401232.title: "Upgrade Base"
-	quest.1FE052F643401232.quest_desc: ["Required crafting component for all backpack upgrades. Craft several - you'll need them."]
-
-	// ==========================================
-	// BACKPACK UPGRADES - FLUID & ENERGY
-	// ==========================================
-	quest.0D4C64DD58567758.title: "Tank Upgrade"
-	quest.0D4C64DD58567758.quest_desc: ["Adds internal fluid tank to the backpack. Store water, lava, or other fluids."]
-
-	quest.4C2A60FC1F1E0328.title: "Battery Upgrade"
-	quest.4C2A60FC1F1E0328.quest_desc: ["Adds internal energy storage. Powers items in the backpack."]
-
-	quest.6E9041744C592573.title: "Pump Upgrade"
-	quest.6E9041744C592573.quest_desc: ["Enables fluid transfer between tank and held items."]
-
-	quest.56B80A7EBFE21428.title: "Advanced Pump Upgrade"
-	quest.56B80A7EBFE21428.quest_desc: ["Enhanced pump with filtering options."]
-
-	quest.6E3D53D1C4569A89.title: "XP Pump Upgrade"
-	quest.6E3D53D1C4569A89.quest_desc: ["Stores experience as liquid XP. Extract or inject XP to/from yourself."]
-
-	// ==========================================
-	// BACKPACK UPGRADES - STACK SIZE
-	// ==========================================
-	quest.7E9E03274A88347D.title: "Stack Upgrade Tier 1"
-	quest.7E9E03274A88347D.quest_desc: ["Doubles stack sizes in the backpack. Items stack to 128."]
-
-	quest.785951190FFDAA21.title: "Stack Upgrade Tier 2"
-	quest.785951190FFDAA21.quest_desc: ["Quadruples stack sizes. Items stack to 256."]
-
-	quest.0298A17C2AAC5765.title: "Stack Upgrade Tier 3"
-	quest.0298A17C2AAC5765.quest_desc: ["8x stack sizes. Items stack to 512."]
-
-	quest.7AE3C8134F5ED726.title: "Stack Upgrade Tier 4"
-	quest.7AE3C8134F5ED726.quest_desc: ["16x stack sizes. Items stack to 1024."]
-
-	// ==========================================
-	// BACKPACK UPGRADES - UTILITY
-	// ==========================================
-	quest.52672B7FFFD51D16.title: "Stonecutter Upgrade"
-	quest.52672B7FFFD51D16.quest_desc: ["Adds stonecutter interface to the backpack."]
-
-	quest.53F861876B991C36.title: "Jukebox Upgrade"
-	quest.53F861876B991C36.quest_desc: ["Play music discs from your backpack while traveling."]
-
-	quest.4A854CD5EC70733E.title: "Crafting Upgrade"
-	quest.4A854CD5EC70733E.quest_desc: ["Adds portable crafting grid to the backpack."]
-
-	quest.7C07D6A33F7ADB02.title: "Inception Upgrade"
-	quest.7C07D6A33F7ADB02.quest_desc: ["Store backpacks inside backpacks. Nested storage for extreme organization."]
-
-	quest.037415D5B965E214.title: "Everlasting Upgrade"
-	quest.037415D5B965E214.quest_desc: ["Backpack survives death. Contents preserved when you die."]
-
-	quest.696E063016CAD1B9.title: "Chipped Upgrade"
-	quest.696E063016CAD1B9.quest_desc: ["Adds Chipped workbench interfaces to the backpack. Access block variants on the go."]
-
-	// ==========================================
-	// BACKPACK UPGRADES - ITEM COLLECTION
-	// ==========================================
-	quest.0E0CAA31480EC0A1.title: "Pickup Upgrade"
-	quest.0E0CAA31480EC0A1.quest_desc: ["Automatically collects dropped items into the backpack."]
-
-	quest.1985CFD1F0425E88.title: "Advanced Pickup Upgrade"
-	quest.1985CFD1F0425E88.quest_desc: ["Pickup with configurable item filters."]
-
-	quest.00DB5495C3A44999.title: "Deposit Upgrade"
-	quest.00DB5495C3A44999.quest_desc: ["Shift-right-click containers to deposit matching items from backpack."]
-
-	quest.4C0EAB9F795686D0.title: "Advanced Deposit Upgrade"
-	quest.4C0EAB9F795686D0.quest_desc: ["Deposit with configurable filters."]
-
-	quest.110D27EA86CDA62B.title: "Magnet Upgrade"
-	quest.110D27EA86CDA62B.quest_desc: ["Pulls nearby dropped items into the backpack."]
-
-	quest.11D57C768032E3F7.title: "Advanced Magnet Upgrade"
-	quest.11D57C768032E3F7.quest_desc: ["Magnet with configurable range and filters."]
+	quest.5505000000000100.title: "Feeding Upgrade"
+	quest.5505000000000100.quest_desc: [
+		"Install a &3Feeding Upgrade&r and your backpack automatically feeds you when your hunger drops. Keep food in the backpack and never manually eat again."
+		""
+		"Works with any food item. &ePrioritizes the highest-saturation food available.&r One of the first upgrades every player should craft."
+	]
+	quest.5505000000000200.title: "Advanced Feeding Upgrade"
+	quest.5505000000000200.quest_desc: [
+		"&3Advanced Feeding&r adds food priority selection and configurable hunger thresholds. Choose which food to eat first and at what hunger level to start eating."
+		""
+		"&eSet it to use cheap food for small hunger&r and save your best dishes for emergencies. Fine-grained control over automatic eating."
+	]
+	quest.5505000000000300.title: "Refill Upgrade"
+	quest.5505000000000300.quest_desc: [
+		"The &3Refill Upgrade&r automatically restocks your hotbar from backpack contents when items run out. Arrows, torches, food, building blocks — whatever you deplete gets replaced."
+		""
+		"&ePairs perfectly with the feeding upgrade&r for hands-free survival. Never run out of arrows mid-fight or torches mid-cave again."
+	]
+	quest.5505000000000400.title: "Advanced Refill Upgrade"
+	quest.5505000000000400.quest_desc: [
+		"&3Advanced Refill&r lets you configure which hotbar slots get restocked and from which backpack slots. Target specific items to specific positions."
+		""
+		"&eSet up your hotbar layout once&r and the backpack maintains it automatically. Sword in slot 1, pickaxe in slot 2, torches in slot 9 — always."
+	]
+	quest.5505000000000500.title: "Tool Swapper Upgrade"
+	quest.5505000000000500.quest_desc: [
+		"The &3Tool Swapper&r automatically equips the best tool from your backpack when you start mining a block. Look at stone and it swaps to your pickaxe, look at wood and it grabs your axe."
+		""
+		"Also works with swords for combat. &eKeep all your tools in the backpack&r and let the upgrade handle switching. Frees up hotbar slots for other items."
+	]
+	quest.5505000000000600.title: "Advanced Tool Swapper Upgrade"
+	quest.5505000000000600.quest_desc: [
+		"&3Advanced Tool Swapper&r adds weapon priority, tool filtering, and exclusion lists. Configure which tools to prefer and which to never auto-swap."
+		""
+		"&eExclude your favorite sword&r to prevent accidentally using it on blocks. Smart tool selection for players with organized inventories."
+	]
+	quest.5505000000000700.title: "Tank Upgrade"
+	quest.5505000000000700.quest_desc: [
+		"The &3Tank Upgrade&r adds an internal fluid tank to your backpack or storage container. Store water, lava, potions, or any other fluid alongside your items."
+		""
+		"&eUseful for builders who need lots of water&r or for storing fluids found during exploration. Required before you can install any pump upgrades."
+	]
+	quest.5505000000000800.title: "Pump Upgrade"
+	quest.5505000000000800.quest_desc: [
+		"The &3Pump Upgrade&r enables fluid transfer between your internal tank and held fluid containers. Interact with buckets and tanks to fill or drain automatically."
+		""
+		"&eRequires a Tank Upgrade to be installed first.&r The pump handles the transfer logic while the tank provides the fluid storage."
+	]
+	quest.5505000000000900.title: "Advanced Pump Upgrade"
+	quest.5505000000000900.quest_desc: [
+		"&3Advanced Pump&r adds directional filtering to control which fluids transfer and in which direction. Set input and output rules for automated fluid management."
+		""
+		"&eCombine with a large tank&r to build a portable fluid storage system that automatically handles different fluid types."
+	]
+	quest.5505000000000A00.title: "Battery Upgrade"
+	quest.5505000000000A00.quest_desc: [
+		"The &3Battery Upgrade&r adds internal energy storage to your backpack or container. Stores Forge Energy (FE) that can power RF-compatible items stored inside."
+		""
+		"&eCharge powered tools and equipment&r directly from your backpack's internal battery. Works with Mekanism, Create, and most other tech mod energy systems."
+	]
+	quest.5505000000000B00.title: "XP Pump Upgrade"
+	quest.5505000000000B00.quest_desc: [
+		"The &3XP Pump&r stores experience as liquid XP in your tank. Collect experience orbs directly into fluid storage instead of absorbing them into your level bar."
+		""
+		"&eExtract XP back into yourself&r whenever you need it for enchanting or repairs. Never lose experience to death again — bank it in your backpack's tank."
+	]
 
 	// ==========================================
-	// BACKPACK UPGRADES - FILTERING & INVENTORY
+	// SECTION 6: UPGRADES: STACKING, CRAFTING & SPECIAL
 	// ==========================================
-	quest.156FF8B7B724DC38.title: "Filter Upgrade"
-	quest.156FF8B7B724DC38.quest_desc: ["Controls which items can enter or exit the backpack via automation."]
-
-	quest.57CF8C6C867B9BDA.title: "Advanced Filter Upgrade"
-	quest.57CF8C6C867B9BDA.quest_desc: ["Enhanced filter with more slots and matching options."]
-
-	quest.5FA9BC0D8476D322.title: "Feeding Upgrade"
-	quest.5FA9BC0D8476D322.quest_desc: ["Automatically feeds you food from the backpack when hungry."]
-
-	quest.1A739D36D5E3B1AD.title: "Advanced Feeding Upgrade"
-	quest.1A739D36D5E3B1AD.quest_desc: ["Feeding with food priority and filter options."]
-
-	quest.1CD2C6AFD788C35E.title: "Compacting Upgrade"
-	quest.1CD2C6AFD788C35E.quest_desc: ["Auto-compacts items using 2x2 recipes. Ingots to blocks, etc."]
-
-	quest.5E4FE420B6D2C97F.title: "Advanced Compacting Upgrade"
-	quest.5E4FE420B6D2C97F.quest_desc: ["Compacts using both 2x2 and 3x3 recipes."]
-
-	quest.33882172DA8021F6.title: "Refill Upgrade"
-	quest.33882172DA8021F6.quest_desc: ["Keeps your hotbar stocked from backpack contents."]
-
-	quest.7C0F7A1B3AB9A1A1.title: "Advanced Refill Upgrade"
-	quest.7C0F7A1B3AB9A1A1.quest_desc: ["Refill with customizable slot targets."]
+	quest.5506000000000100.title: "Stack Upgrade Tier 1"
+	quest.5506000000000100.quest_desc: [
+		"Install a &3Stack Upgrade Tier 1&r to double all stack sizes inside your storage or backpack. Items that normally stack to 64 now stack to &e128&r."
+		""
+		"Effectively doubles your capacity without adding more slots. Only the highest tier installed matters — they don't stack additively."
+	]
+	quest.5506000000000200.title: "Stack Upgrade Tier 2"
+	quest.5506000000000200.quest_desc: [
+		"&3Tier 2&r quadruples stack sizes to &e256&r. A meaningful upgrade that significantly reduces how often you need to empty your storage during long trips."
+		""
+		"Replace your Tier 1 upgrade with Tier 2 — &eonly the highest tier matters.&r No benefit from installing multiple tiers simultaneously."
+	]
+	quest.5506000000000300.title: "Stack Upgrade Tier 3"
+	quest.5506000000000300.quest_desc: [
+		"&3Tier 3&r pushes stacks to &e512 items&r. At this point a single diamond backpack holds as much as several vanilla double chests."
+		""
+		"The crafting cost increases significantly at this tier. &eWorth it for extended mining trips&r where you want to stay underground for hours."
+	]
+	quest.5506000000000400.title: "Stack Upgrade Tier 4"
+	quest.5506000000000400.quest_desc: [
+		"The ultimate stack multiplier. &3Tier 4&r allows stacks of &e1024 items&r — sixteen times the vanilla limit. Endgame storage density at its finest."
+		""
+		"Expensive to craft but transforms a diamond backpack into a nearly bottomless container. &eCombine with auto-smelting for the ultimate mining backpack.&r"
+	]
+	quest.5506000000000500.title: "Crafting Upgrade"
+	quest.5506000000000500.quest_desc: [
+		"The &3Crafting Upgrade&r adds a portable 3x3 crafting grid to your backpack or storage container. Open the upgrade interface to craft using items directly from your inventory."
+		""
+		"&eNo crafting table needed.&r Craft on the go while exploring, mining, or fighting. One of the most generally useful utility upgrades available."
+	]
+	quest.5506000000000600.title: "Stonecutter Upgrade"
+	quest.5506000000000600.quest_desc: [
+		"The &3Stonecutter Upgrade&r adds a stonecutter interface to your storage or backpack. Process stone, copper, and other materials into slabs, stairs, and decorative variants."
+		""
+		"&ePerfect for builders&r who want to quickly convert bulk stone into building materials without placing a separate stonecutter block."
+	]
+	quest.5506000000000700.title: "Compacting Upgrade"
+	quest.5506000000000700.quest_desc: [
+		"The &3Compacting Upgrade&r automatically compresses items using 2x2 crafting recipes. Raw metals become blocks, items become their compressed forms automatically."
+		""
+		"&eGreat for storage optimization.&r Nine iron ingots become one iron block, saving eight slots per stack. Works continuously on items in the container."
+	]
+	quest.5506000000000800.title: "Advanced Compacting Upgrade"
+	quest.5506000000000800.quest_desc: [
+		"&3Advanced Compacting&r handles both 2x2 and 3x3 crafting recipes and adds filter slots. Automatically compresses items into their most compact form."
+		""
+		"&eAdd filters to control which items get compacted.&r Prevents accidentally compressing items you want to keep in their original form."
+	]
+	quest.5506000000000900.title: "Everlasting Upgrade"
+	quest.5506000000000900.quest_desc: [
+		"Install the &3Everlasting Upgrade&r and your backpack survives death. When you die, the backpack stays in your inventory instead of dropping on the ground."
+		""
+		"&eCritical for hardcore or long-distance exploration.&r Combine with a netherite backpack for storage that survives both death and fire. Backpack-only upgrade."
+	]
+	quest.5506000000000A00.title: "Inception Upgrade"
+	quest.5506000000000A00.quest_desc: [
+		"The &3Inception Upgrade&r allows you to store backpacks inside backpacks. Nested storage for extreme organization — each sub-backpack retains its own upgrades and contents."
+		""
+		"&eOrganize by category:&r a mining backpack, a building backpack, and a combat backpack, all inside your main backpack. Backpack-only upgrade."
+	]
+	quest.5506000000000B00.title: "Deposit Upgrade"
+	quest.5506000000000B00.quest_desc: [
+		"The &3Deposit Upgrade&r lets you shift-right-click any container to instantly dump matching items from your backpack. Items that already exist in the target container get transferred."
+		""
+		"&eFast inventory management when returning to base.&r Walk up to your storage wall, shift-click each chest, and your backpack empties itself into the right places."
+	]
+	quest.5506000000000C00.title: "Advanced Deposit Upgrade"
+	quest.5506000000000C00.quest_desc: [
+		"&3Advanced Deposit&r adds configurable item filters to control exactly what gets deposited and what stays in your backpack."
+		""
+		"&eSet up a whitelist of items to keep&r — your sword, tools, and food stay in the backpack while everything else gets dumped. Smart depositing."
+	]
+	quest.5506000000000D00.title: "Restock Upgrade"
+	quest.5506000000000D00.quest_desc: [
+		"The &3Restock Upgrade&r is the reverse of deposit — shift-right-click a container to pull items into your backpack that match what you already carry."
+		""
+		"&eGrab supplies before heading out.&r If you had 32 torches last trip, restocking pulls another 32 from your torch chest automatically."
+	]
+	quest.5506000000000E00.title: "Advanced Restock Upgrade"
+	quest.5506000000000E00.quest_desc: [
+		"&3Advanced Restock&r adds item filters and quantity targets. Configure exactly which items to pull and how many of each to carry."
+		""
+		"&eSet target quantities&r — always carry exactly 64 torches, 16 food, and a stack of arrows. The upgrade handles the math."
+	]
+	quest.5506000000000F00.title: "Hopper Upgrade"
+	quest.5506000000000F00.quest_desc: [
+		"The &3Hopper Upgrade&r gives your storage container built-in hopper functionality. Items landing on top are automatically pulled in, and items can be pushed out the bottom to adjacent inventories."
+		""
+		"&eStorage containers only — not available for backpacks.&r Eliminates the need for a separate hopper block, saving space and reducing entity lag from hopper tick updates."
+	]
 
 	// ==========================================
-	// BACKPACK UPGRADES - PROCESSING
+	// SECTION 7: UPGRADES: STORAGE-SPECIFIC & UTILITY
 	// ==========================================
-	quest.668C313FF46B6005.title: "Smelting Upgrade"
-	quest.668C313FF46B6005.quest_desc: ["Adds furnace interface to the backpack."]
-
-	quest.3A1D07AED2A841E4.title: "Auto-Smelting Upgrade"
-	quest.3A1D07AED2A841E4.quest_desc: ["Automatically smelts items placed in the backpack."]
-
-	quest.1E499F94A2A193E1.title: "Blasting Upgrade"
-	quest.1E499F94A2A193E1.quest_desc: ["Adds blast furnace interface for faster ore smelting."]
-
-	quest.26988E22BD019628.title: "Auto-Blasting Upgrade"
-	quest.26988E22BD019628.quest_desc: ["Automatically blast-smelts ores in the backpack."]
-
-	quest.26A9F402DAE15EA2.title: "Smoking Upgrade"
-	quest.26A9F402DAE15EA2.quest_desc: ["Adds smoker interface for faster food cooking."]
-
-	quest.36BCE35215B2B6E9.title: "Auto-Smoking Upgrade"
-	quest.36BCE35215B2B6E9.quest_desc: ["Automatically cooks food in the backpack."]
-
-	// ==========================================
-	// BACKPACK UPGRADES - AUTOMATION
-	// ==========================================
-	quest.615B9062FE8CCD36.title: "Tool Swapper Upgrade"
-	quest.615B9062FE8CCD36.quest_desc: ["Auto-swaps to the best tool for the block you're mining."]
-
-	quest.15CD4BFDC56E9510.title: "Advanced Tool Swapper Upgrade"
-	quest.15CD4BFDC56E9510.quest_desc: ["Tool swapper with weapon switching and filtering."]
-
-	quest.7EFBFF5D0DA018E7.title: "Void Upgrade"
-	quest.7EFBFF5D0DA018E7.quest_desc: ["Auto-deletes specified items. Useful for clearing junk while mining."]
-
-	quest.2FC15D3916DBF4E4.title: "Advanced Void Upgrade"
-	quest.2FC15D3916DBF4E4.quest_desc: ["Void with customizable filters and conditions."]
-
-	quest.4B62AF0405F68041.title: "Restock Upgrade"
-	quest.4B62AF0405F68041.quest_desc: ["Shift-right-click containers to pull items matching your inventory."]
-
-	quest.019CA0E35F888222.title: "Advanced Restock Upgrade"
-	quest.019CA0E35F888222.quest_desc: ["Restock with customizable item targets."]
+	quest.5507000000000100.title: "Compression Upgrade"
+	quest.5507000000000100.quest_desc: [
+		"The &3Compression Upgrade&r visually condenses your storage display. Items are shown in their most compact form — iron ingots appear as iron blocks with a count, saving visual clutter."
+		""
+		"&eStorage containers only — not available for backpacks.&r The items aren't physically compacted (use the Compacting Upgrade for that), just displayed more efficiently in the container GUI."
+	]
+	quest.5507000000000200.title: "Chipped Upgrades"
+	quest.5507000000000200.quest_desc: [
+		"Install &3Chipped Upgrades&r to access all Chipped mod workbenches directly from your backpack or storage container. Alchemy bench, botanist table, carpenter, glassblower, loom, mason, and tinkering table — all in one upgrade."
+		""
+		"&eCraft both the backpack and storage versions&r to unlock portable block variant crafting everywhere. Convert cobblestone to bricks, planks to panels, and glass to stained variants without placing a single workbench."
+	]
+	quest.5507000000000300.title: "Jukebox Upgrade"
+	quest.5507000000000300.quest_desc: [
+		"The &3Jukebox Upgrade&r lets you play music discs from inside your backpack while exploring. Insert a disc and your adventure gets a soundtrack."
+		""
+		"&eBackpack-only upgrade.&r The music follows you wherever you go. Swap discs on the fly without needing to find or place a jukebox block."
+	]
+	quest.5507000000000400.title: "Storage Crafting Upgrade"
+	quest.5507000000000400.quest_desc: [
+		"The &3Storage Crafting Upgrade&r adds a 3x3 crafting grid directly inside your Sophisticated Storage chest. Craft items using the container's contents without removing them first."
+		""
+		"&eStorage containers only.&r Turn a diamond chest into an all-in-one crafting station. Keeps your workshop compact — one block for storage and crafting."
+	]
+	quest.5507000000000500.title: "Storage Stonecutter Upgrade"
+	quest.5507000000000500.quest_desc: [
+		"The &3Storage Stonecutter Upgrade&r adds a stonecutter interface to your chest or barrel. Process stone and copper variants directly from the container's inventory."
+		""
+		"&eStorage containers only.&r Ideal for a builder's supply chest — store raw stone and cut it into slabs, stairs, and walls without a separate workstation."
+	]
+	quest.5507000000000600.title: "Storage Compacting Upgrade"
+	quest.5507000000000600.quest_desc: [
+		"The &3Storage Compacting Upgrade&r auto-compresses items inside your chest using 2x2 crafting recipes. Ingots become blocks, nuggets become ingots — all automatically as items enter."
+		""
+		"&eStorage containers only.&r Pair with a hopper upgrade on a collection chest and incoming items compress themselves. Nine iron ingots in, one iron block stored."
+	]
+	quest.5507000000000700.title: "Storage Stack Tier 1"
+	quest.5507000000000700.quest_desc: [
+		"Install a &3Stack Upgrade Tier 1&r in your storage container to double all stack sizes to &e128&r. The same concept as backpack stack upgrades, but for your chests and barrels."
+		""
+		"&eStorage containers only.&r Doubles the effective capacity of every slot without adding more slots. Cheap to craft and immediately impactful."
+	]
+	quest.5507000000000800.title: "Storage Stack Tier 2"
+	quest.5507000000000800.quest_desc: [
+		"&3Tier 2&r quadruples stack sizes to &e256&r in your storage containers. A single diamond chest with this upgrade rivals several vanilla double chests in raw capacity."
+		""
+		"Replace your Tier 1 with Tier 2 — &eonly the highest tier matters.&r No benefit from installing multiple tiers at once."
+	]
+	quest.5507000000000900.title: "Storage Stack Tier 3"
+	quest.5507000000000900.quest_desc: [
+		"&3Tier 3&r pushes stack sizes to &e512&r per slot. Combined with a netherite chest's slot count, a single container holds an absurd amount of material."
+		""
+		"Expensive to craft but &eworth it for bulk storage&r of common items like cobblestone, wood, or ingots that accumulate fast."
+	]
+	quest.5507000000000A00.title: "Storage Stack Tier 4"
+	quest.5507000000000A00.quest_desc: [
+		"The ultimate storage density. &3Tier 4&r allows &e1024 items per stack&r in your chests and barrels — sixteen times vanilla capacity per slot."
+		""
+		"&eCombine with a netherite chest and a controller network&r for a physical storage system that rivals AE2 in raw capacity. The endgame of Sophisticated Storage."
+	]
 }
