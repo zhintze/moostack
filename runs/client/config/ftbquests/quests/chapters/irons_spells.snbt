@@ -151,24 +151,14 @@
 		{
 			dependencies: ["0001000000000002"]
 			id: "5AE21A2712A82D62"
-			rewards: [
-				{
-					id: "0D7128938F540DA1"
-					item: {
-						count: 1
-						id: "irons_spellbooks:oakskin_elixir"
-					}
-					type: "item"
+			rewards: [{
+				id: "0D7128938F540DA1"
+				item: {
+					count: 1
+					id: "irons_spellbooks:oakskin_elixir"
 				}
-				{
-					id: "0002000000000105"
-					item: {
-						count: 1
-						id: "irons_spellbooks:evasion_elixir"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
