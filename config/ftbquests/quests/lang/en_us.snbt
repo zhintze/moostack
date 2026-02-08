@@ -142,8 +142,6 @@
 	quest.0007000000000007.title: "Nature Mastery"
 	quest.0007000000000008.quest_desc: ["Obtain an Ender Rune and Ender Upgrade Orb. These items enhance ender spell damage and allow spell upgrades."]
 	quest.0007000000000008.title: "Ender Mastery"
-	quest.00075A5F9AC120ED.quest_desc: ["This will take the items out of your input chest."]
-	quest.00075A5F9AC120ED.quest_subtitle: "Always Required"
 	quest.0008000000000001.quest_desc: ["Obtain Pyromancer, Cryomancer, and Electromancer armor sets. Each provides school-specific bonuses and a spell slot in the chestplate."]
 	quest.0008000000000001.title: "Elemental Armor"
 	quest.0008000000000002.quest_desc: ["Obtain Cultist and Shadowwalker armor sets. Cultist enhances blood magic. Shadowwalker provides ender spell bonuses."]
@@ -179,8 +177,6 @@
 	quest.00143D4FC12AEFD9.quest_subtitle: "Causes multiple projectiles at once"
 	quest.001DE8028CAF0A08.quest_desc: ["Reduces machine noise. A single upgrade significantly quiets operation. Quality of life improvement for bases with many machines. Install in machines near living/working areas."]
 	quest.001DE8028CAF0A08.title: "Muffling Upgrade"
-	quest.002163B909070CF8.quest_desc: ["Allows you to see details about certain blocks/fluid, even through walls."]
-	quest.002163B909070CF8.quest_subtitle: "Max: 1"
 	quest.00611844AFD5C31E.quest_desc: [
 		"While the Inscriber and Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE."
 		""
@@ -207,8 +203,6 @@
 	quest.00A6020BC979947F.title: "Echo Dust"
 	quest.00ABBF2CB07D573C.quest_subtitle: "Damages a target"
 	quest.00D329407250AC7B.quest_subtitle: "Launches target in the direction they look"
-	quest.00D7BCC68D971A53.quest_desc: ["Living creatures nearby will be automatically tracked, even through walls. If it's an aggressive mob you'll get a warning when it targets you."]
-	quest.00D7BCC68D971A53.quest_subtitle: "Max: 1"
 	quest.00DB5495C3A44999.quest_desc: ["Shift-right-click containers to deposit matching items from backpack."]
 	quest.00DB5495C3A44999.title: "Deposit Upgrade"
 	quest.00DCB81D6A41BD44.quest_desc: [
@@ -273,7 +267,6 @@
 	quest.01F7F3589EBD8872.title: "Brown Shroombee"
 	quest.021CB5F245634F80.quest_desc: ["Increases altar crafting speed. Place in your altar ring for faster LP infusion."]
 	quest.021CB5F245634F80.title: "Speed Rune"
-	quest.02643BAD1AE747C6.quest_desc: ["The &3Advanced Liquid Compressor&r works the same as the Liquid Compressor, only way better!"]
 	quest.026A71F98A52E3A5.quest_desc: [
 		"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
 		""
@@ -355,9 +348,6 @@
 	quest.0498A578D0EC3254.title: "Basic Control Circuit"
 	quest.04B6E31120663EB2.quest_subtitle: "Tier: &a2"
 	quest.04B6E31120663EB2.title: "Slime Seeds"
-	quest.04BE9F63E6003475.quest_desc: ["&3LPG&r can be used to make Molten Plastic."]
-	quest.04BE9F63E6003475.quest_subtitle: "The one we need"
-	quest.04BE9F63E6003475.title: "LPG"
 	quest.04D9F6587EF8D9B7.quest_desc: [
 		"The Potion Jar stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar."
 		""
@@ -409,9 +399,14 @@
 	]
 	quest.066438B01655D866.title: "Capturing &dSpirits"
 	quest.0671915D3BDDD07D.quest_subtitle: "Removes potion effects from target"
-	quest.0672462DA3599484.quest_subtitle: "512,000mb"
 	quest.06A7A3FC8634D2DA.quest_subtitle: "Tier: &c5"
 	quest.06A7A3FC8634D2DA.title: "Netherite Seeds"
+	quest.06C6D0B1A7DDB55C.quest_desc: [
+		"Craft the full &3Pneumatic Armor&r set: helmet, chestplate, leggings, and boots. This is PneumaticCraft's endgame armor — highly customizable through an upgrade system."
+		""
+		"Each piece must be charged at a charging station. Press &e'U'&r (default) while wearing it to open the upgrade GUI. The armor's true power comes from the upgrades below."
+	]
+	quest.06C6D0B1A7DDB55C.title: "Pneumatic Armor"
 	quest.06E8DD6F395BBAA2.quest_desc: ["Place stone in the altar with LP to create slates. Slates are the base material for all Blood Magic crafting."]
 	quest.06E8DD6F395BBAA2.title: "Blank Slates"
 	quest.06EAA74E0A10CBB6.quest_subtitle: "Range: &b36&r Blocks"
@@ -481,7 +476,7 @@
 	quest.08A3292277D2FDE2.subtitle: "Spawn egg only (from loot)"
 	quest.08A3292277D2FDE2.title: "Water Essence Bee"
 	quest.08B6FA532A136AF2.quest_subtitle: "Creates a lingering spell field"
-	quest.08DDE018A804BFE7.quest_desc: ["Processes ores into dusts for smelting, doubling output. Also enriches materials like &7redstone&r and &7diamond&r for more efficient infusing. The foundation of Mekanism ore processing."]
+	quest.08DDE018A804BFE7.quest_desc: ["Processes ores into dusts for smelting, increasing output. Also enriches materials like &7redstone&r and &7diamond&r for more efficient infusing. The foundation of Mekanism ore processing."]
 	quest.08DDE018A804BFE7.quest_subtitle: "Tier 1"
 	quest.08DDE018A804BFE7.title: "Enrichment Chamber"
 	quest.08F28A9E4DEA7CD0.quest_desc: [
@@ -526,8 +521,6 @@
 		"To \"unmount\" the Blocks from the &7Minecart&r, simply turn off the &4Redstone signal&r and let the &7Minecart&r ride through."
 	]
 	quest.09936F8FCEA72C5C.title: "&aCart Assembler"
-	quest.09BA45CBBFB4AE26.quest_desc: ["The next stage of this mod requires you to set up &3Assembly Lines&r. The main component of an &3Assembly Line&r is the &3Assembly Controller&r. This is where the pressure will go."]
-	quest.09BA45CBBFB4AE26.quest_subtitle: "Always Required"
 	quest.09D7D3CF61E156B1.quest_desc: ["Core components for the fission reactor. &7Fuel assemblies&r hold fissile fuel and generate heat. &7Control rod assemblies&r sit atop fuel assemblies and regulate reaction rate. Stack fuel assemblies vertically."]
 	quest.09D7D3CF61E156B1.title: "Reactor Core Components"
 	quest.09E34E1F9C751458.quest_desc: ["The &dVertical Gearbox&r is just like the normal &dGearbox&r if someone rotated it. \\n\\nIt has 4 internal &8Shafts&r just this time instead of the Cardinal Directions, they are (from where you place it) Front, Back, Up, and Down. \\n\\nAlso like the normal &dGearbox&r, it will keep the Speed and Stress Units from the original &8Shaft&r!"]
@@ -556,8 +549,6 @@
 	quest.0A896438F293895B.title: "Goldfish Collection"
 	quest.0A8F44B9B3C8FC0F.quest_subtitle: "Tier: &63"
 	quest.0A8F44B9B3C8FC0F.title: "Zinc Seeds"
-	quest.0A912B2E2BE34920.quest_desc: ["Although you can find Crude Oil on the surface, drilling is a great way to obtain a bunch of oil. First use a &3Seismic Sensor&r until you find oil underneath you, then use your &3Gas Lift&r filled with drill pipes to drill for oil. (This requires pressure to work)."]
-	quest.0A912B2E2BE34920.quest_subtitle: "Drilling for Oil"
 	quest.0AA9EF3981E9BA37.quest_desc: ["Stores large amounts of energy. Can be placed or carried in inventory while retaining charge. Higher tiers store dramatically more. Use for power buffering or portable energy."]
 	quest.0AA9EF3981E9BA37.title: "Energy Cube"
 	quest.0ABB07D6EA930E1F.quest_desc: [
@@ -570,8 +561,6 @@
 	quest.0ACE573560A19309.title: "Energy Upgrade"
 	quest.0AD768E4CC10358C.quest_desc: ["Burns furnace fuels to generate power for the Mycelial Reactor."]
 	quest.0AD768E4CC10358C.title: "Mycelial Furnace Generator"
-	quest.0AEAEA976ED0C470.quest_desc: ["The &3Charging Station&r is used to charge various tools and gadgets in &aPneumaticCraft&r using pressure."]
-	quest.0AEAEA976ED0C470.quest_subtitle: "Where's the cord?"
 	quest.0AF2460579C6BD8C.quest_subtitle: "Breed: Osmium + Obsidian"
 	quest.0AF2460579C6BD8C.subtitle: "Breed: Osmium + Obsidian"
 	quest.0AF2460579C6BD8C.title: "Refined Obsidian Bee"
@@ -658,7 +647,6 @@
 		"Hold the scroll to copy in your main hand and the book in your offhand, then right-click a Grave Soul. This allows you to duplicate valuable scrolls."
 	]
 	quest.0CAF02D2EEF168D9.title: "Book of Scribe"
-	quest.0CC48C2AA553A314.quest_desc: ["&3Drill Bits&r can be used in a Pneumatic Jackhammer."]
 	quest.0CD04A00529FE1C9.quest_desc: ["Optional intermediate tier. Saves iron but can be skipped by crafting iron tier directly."]
 	quest.0CD04A00529FE1C9.title: "Copper Tier"
 	quest.0CD6F30BBEE20E15.quest_subtitle: "Breed: Osmium + Glowing"
@@ -690,11 +678,6 @@
 		"Useful for mob farm automation."
 	]
 	quest.0D2DD9AA960843A3.title: "Mob Detector"
-	quest.0D2F5CC96269F9E3.quest_desc: ["The next step of making PCBs involves using the &3Etching Tank&r with Etching Acid. Requires heat to run."]
-	quest.0D2F5CC96269F9E3.quest_subtitle: "It's Etching Time!"
-	quest.0D31CD79BE6CC8D2.quest_desc: ["Why doesn't regular Bread need Yeast?"]
-	quest.0D31CD79BE6CC8D2.quest_subtitle: "The Yeast of your Problems"
-	quest.0D31CD79BE6CC8D2.title: "Yeast"
 	quest.0D330FAD6C993DBC.quest_desc: [
 		"This is the next upgrade to your Spellbook!"
 		""
@@ -709,19 +692,12 @@
 	quest.0D3B633AA62E8AA5.title: "Book of Repairing"
 	quest.0D4C64DD58567758.quest_desc: ["Adds internal fluid tank to the backpack. Store water, lava, or other fluids."]
 	quest.0D4C64DD58567758.title: "Tank Upgrade"
-	quest.0D5015B8FF482D0A.quest_desc: ["We will need to order some stuff off of &3Amadron&r using the &3Amadron Tablet&r in order to continue progression. To use it, shift-right click a Chest and a Fluid tank, put your currency in a linked container (Emeralds, etc) and order something. You'll see an Amadrone come down to take your money and another Amadrone come to drop off what you ordered."]
-	quest.0D5015B8FF482D0A.quest_subtitle: "I wonder if they have 1 day delivery?"
-	quest.0D5015B8FF482D0A.title: "Amadron"
-	quest.0D50BDEFA0319EA1.quest_desc: ["This will drop the finished product into your output chest."]
-	quest.0D50BDEFA0319EA1.quest_subtitle: "Always Required"
 	quest.0D58B69F05228D40.quest_desc: ["Further increases crafting speed. Stacks with Speed Runes."]
 	quest.0D58B69F05228D40.title: "Acceleration Rune"
 	quest.0D5D76B3551CD5A7.quest_desc: ["Yes, it's called an Aluminium Bee."]
 	quest.0D5D76B3551CD5A7.quest_subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.0D5D76B3551CD5A7.subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.0D5D76B3551CD5A7.title: "Aluminium Bee"
-	quest.0D9560C8E247F9E7.quest_desc: ["Right-click somewhere and you will be able to pathfind your way back. If you're close enough and have a direct route, a path will appear."]
-	quest.0D9560C8E247F9E7.quest_subtitle: "Max: 1"
 	quest.0D96B42914B65C1A.quest_desc: [
 		"Ability Points are earned through XP gain. Use them in the skill menu to unlock passive abilities and active skills."
 		""
@@ -803,7 +779,6 @@
 	quest.0E56D056F07D8BE2.title: "Train Observer"
 	quest.0E594BC58CC7476F.quest_desc: ["He may be evil, but he still is fashionable."]
 	quest.0E594BC58CC7476F.title: "Archevoker Outfit"
-	quest.0E65BE9460B74000.quest_desc: ["The Logistic Frames need to connect to a &3Logistics Module&r to work."]
 	quest.0E809747193ED3A9.quest_desc: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
 	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
 	quest.0E809747193ED3A9.title: "16M Storage Component"
@@ -892,8 +867,6 @@
 	quest.0F16498769DFB3B0.title: "&8Andesite Alloys"
 	quest.0F326EEEC2EBE4E5.quest_desc: ["Enriched materials provide 8x more infuse value than raw forms. Create &7enriched redstone&r, &7enriched coal&r, and &7enriched diamond&r in the &bEnrichment Chamber&r for efficient infusing."]
 	quest.0F326EEEC2EBE4E5.title: "Enriched Materials"
-	quest.0F49E9167B5E97C9.quest_desc: ["Any damage you take when falling (ignoring armor) will also be dealt to nearby mobs."]
-	quest.0F49E9167B5E97C9.quest_subtitle: "Max: 1"
 	quest.0F77A9AD1F422537.quest_desc: [
 		"Glowing Hellshelves provide 5 &aEterna&r (max 60), 7.5% &4Quanta&r, and 5% &5Arcana&r. They are the advanced Hellshelf path endpoint before Deepshelf convergence. "
 		""
@@ -918,6 +891,12 @@
 	]
 	quest.0FAAE744E156D8EF.quest_subtitle: "Mycelial Reactor, huh?"
 	quest.0FAAE744E156D8EF.title: "Mycelial Reactor Complete"
+	quest.0FADFDF66CD379AE.quest_desc: [
+		"Craft a &3Pneumatic Door&r and &3Pneumatic Door Base&r. This pressure-powered door opens and closes automatically."
+		""
+		"It can be configured to only respond to specific players — useful for securing areas."
+	]
+	quest.0FADFDF66CD379AE.title: "Pneumatic Door"
 	quest.0FB1FC640471363A.quest_subtitle: "Breed: Emerald + Lapis"
 	quest.0FB1FC640471363A.subtitle: "Breed: Emerald + Lapis"
 	quest.0FB1FC640471363A.title: "Experience Bee"
@@ -927,8 +906,6 @@
 		"Marble blocks are the primary building material for these graves."
 	]
 	quest.0FD78C16AB5D526B.title: "Marble Blocks"
-	quest.0FF050EC1EA6EAED.quest_desc: ["The &3Liquid Hopper&r is a Hopper, but for liquids. Not a replacement for pipes."]
-	quest.0FF050EC1EA6EAED.quest_subtitle: "Who needs pipes?"
 	quest.100ACB5C8A359BF0.quest_desc: ["Breed a Redstone Bee with a Blue Banded Bee to get a Lapis Bee!"]
 	quest.100ACB5C8A359BF0.quest_subtitle: "Breed: Redstone + Blue Banded Bee"
 	quest.100ACB5C8A359BF0.subtitle: "Breed: Redstone + Blue Banded Bee"
@@ -984,6 +961,12 @@
 		"This allows you to cast spells beyond the 10 spell cap. If you want to use Break, just inscribe the wand with Break by itself."
 	]
 	quest.111649D7E16D869F.title: "Caster's Wand"
+	quest.111BBAB9A78444A4.quest_desc: [
+		"Craft &3Gun Ammo&r and a &3Minigun&r. A handheld pressure-powered weapon with a high rate of fire. The minigun shreds through enemies quickly but consumes air rapidly."
+		""
+		"Charge at a charging station and load ammo to fire. Different ammo types affect damage and behavior."
+	]
+	quest.111BBAB9A78444A4.title: "Minigun"
 	quest.114D668C691A2BDF.quest_subtitle: "Ashy Mining + Crystalline"
 	quest.114D668C691A2BDF.title: "Iron Bee"
 	quest.117241986C99E475.quest_desc: ["With the Glowing Bee, breed it with the Chocolate Mining Bee to get a Redstone Bee!"]
@@ -1050,13 +1033,6 @@
 		"At 100 &aEterna&r, you can infuse charms with Unbreaking enchantments to extend their duration significantly. Craft the base charm, then enchant or infuse as desired."
 	]
 	quest.12282CBB658F1132.title: "Craft Potion Charm"
-	quest.122EDEC12C9A05D2.quest_desc: [
-		"Did I forget to mention everything can blow up? ..."
-		""
-		"Luckily there's an easy solution! The &3Security Upgrade&r when placed in a machine makes sure they don't explode, put these into any machines they can go into."
-	]
-	quest.122EDEC12C9A05D2.quest_subtitle: "If only there was an easy Solution..."
-	quest.122EDEC12C9A05D2.title: "Preventing Explosions?"
 	quest.123C0417D85B9DB2.quest_desc: ["Generates power from sunlight. Passive charging while outdoors during day. Reduces dependence on charging stations."]
 	quest.123C0417D85B9DB2.quest_subtitle: "Helmet"
 	quest.123C0417D85B9DB2.title: "Solar Recharging Module"
@@ -1098,7 +1074,12 @@
 		""
 		"Make sure to check out which biome you need to be in to lure in the right Bees!"
 	]
-	quest.132DF9ECEFFB3B71.quest_desc: ["The &3Module Expansion Card&r makes the Charging Module even better."]
+	quest.132C84A2EF236DE6.quest_desc: [
+		"Upgrade to a &3Huge Tank&r. At full capacity, a single huge tank stores enough fluid to supply even the most demanding processing chains."
+		""
+		"Build these when your refinery or processing plant needs consistent input."
+	]
+	quest.132C84A2EF236DE6.title: "Large Fluid Storage"
 	quest.133CA315A1443A49.quest_desc: ["&bMechanical Pumps&r will use Rotational Power to move &bFluids&r through &bPipes&r. \\n\\nFirst, replace a &bPipe&r with the &bMechanical Pump&r. Then, make sure it is facing the right way you want &bFluids&r to be moved. The Arrows next to the internal &6Cog&r will tell which direction it will move, you can change that with a Wrench. \\n\\nThen, feed it &dRotational Power&r with a &6Cog&r near it. The direction does not change anything, but the Speed will effect how quickly &bFluids&r are moved. \\n\\n&bMechanical Pumps&r will also be needed for other Machines like the &bHose Pulley&r!"]
 	quest.133CA315A1443A49.title: "&bMechanical Pump"
 	quest.134608BB2B04D96E.quest_desc: ["Vanilla chests hold 27 slots. Place two adjacent chests to form a double chest with 54 slots."]
@@ -1112,6 +1093,12 @@
 	quest.1348995F64A94396.quest_subtitle: "Download more VRAM"
 	quest.138C7E96BBBD3EEE.quest_desc: ["Damage scales with stored demon will. Collects will from kills automatically."]
 	quest.138C7E96BBBD3EEE.title: "Sentient Sword"
+	quest.13934DDB2428C1B7.quest_desc: [
+		"Assemble a &3Printed Circuit Board&r by combining an unassembled PCB with transistors and capacitors in a pressure chamber. This is the single most important component in PneumaticCraft."
+		""
+		"&ePCBs are required for drones, armor, assembly machines, and nearly every endgame recipe.&r Automate this pipeline when possible."
+	]
+	quest.13934DDB2428C1B7.title: "Printed Circuit Board"
 	quest.13A5748DF69D832E.quest_desc: ["Stationary terminal for accessing QIO storage. Place near crafting areas for convenient item access. Shows all stored items with search functionality. Must be on same frequency as drive array."]
 	quest.13A5748DF69D832E.title: "QIO Dashboard"
 	quest.13AA91D39A2CABF2.quest_desc: ["Welcome to &6Productive Bees&r!\\n\\nTo get started with the mod, you'll first need to find some Honeycombs and Honey Bottles! Find yourself a Beehive, and let the bees do their work for a little. Shearing it when it is full will give you honeycombs, and glass bottles will give you Honey Bottles!\\n\\n&9Important Note&r: With the bee quests requiring combs, the recipes will not be shown. Make sure to look them up in JEI if you need them!"]
@@ -1120,9 +1107,6 @@
 	quest.13AEBC331F29BC3D.title: "&e&lItem Logistics"
 	quest.13CFDB5444489AC6.quest_desc: ["Transports fluids between tanks. Pumps required for active flow. Wrenching adjusts connections."]
 	quest.13CFDB5444489AC6.title: "Fluid Pipe"
-	quest.13F68CA518CD287C.quest_desc: ["&3Diesel&r can be used to make more Kerosene or to make Lubricant."]
-	quest.13F68CA518CD287C.quest_subtitle: "Poor Sel"
-	quest.13F68CA518CD287C.title: "Diesel"
 	quest.13F77C38AC015E9F.quest_desc: [
 		"High above the Mountains, high above the Clouds rests another Tower. This one giving you shivers down your spine."
 		""
@@ -1139,12 +1123,15 @@
 		"Any added enchantments significantly increase the amount of energy used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall energy use incurred by all other enchantments, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to Unbreaking on regular tools."
 	]
 	quest.140DE53DC0FCD9F4.quest_subtitle: "GET IN"
+	quest.140F1F289ECF6107.quest_desc: [
+		"Build an &3Advanced Air Compressor&r. A direct upgrade to the basic air compressor with higher output and efficiency."
+		""
+		"Burns the same solid fuels but produces significantly more pressure per tick."
+	]
+	quest.140F1F289ECF6107.title: "Advanced Air Compressor"
 	quest.141D68BAD039784B.quest_desc: ["I/O for the thermoelectric boiler. Configure for water input, heated coolant input (from sodium reactor loop), or steam output. Place in walls of the multiblock."]
 	quest.141D68BAD039784B.quest_subtitle: "Optional"
 	quest.141D68BAD039784B.title: "Boiler Valve"
-	quest.1427B3AB09510D20.quest_desc: ["Craft together your Unassembled PCB with 2 Capacitors and 2 Transistors to get yourself a &3Finished PCB&r."]
-	quest.1427B3AB09510D20.quest_subtitle: "You did it!"
-	quest.142C67218BD16867.quest_desc: ["Load up your Minigun with this &3Minigun Ammo&r to use it."]
 	quest.14385D3D359224BC.quest_desc: ["Ultimate multi-tool crafted with antimatter. Install modules to add mining, combat, farming, and utility functions. Teleportation, vein mining, and more. The pinnacle of handheld tools."]
 	quest.14385D3D359224BC.quest_subtitle: "Requires Antimatter"
 	quest.14385D3D359224BC.title: "Meka-Tool"
@@ -1179,8 +1166,6 @@
 		"To apply a spell to the sword, use a Scribe's Table. Create the spell without using a form."
 	]
 	quest.14DB8A515CA50932.title: "Enchanter's Sword"
-	quest.15007DCAF701B361.quest_desc: ["Charges other pressurizable items in your inventory from the chestplate's storage."]
-	quest.15007DCAF701B361.quest_subtitle: "Max: 6"
 	quest.150FB369BEFFCBBF.quest_subtitle: "Molten Lumium over Silver/Tin Bee Spawn Egg"
 	quest.150FB369BEFFCBBF.title: "Lumium Bee"
 	quest.151648179684B088.quest_desc: [
@@ -1245,8 +1230,6 @@
 	quest.15CD4BFDC56E9510.quest_desc: ["Tool swapper with weapon switching and filtering."]
 	quest.15CD4BFDC56E9510.quest_subtitle: "More Filtering Options"
 	quest.15CD4BFDC56E9510.title: "Advanced Tool Swapper Upgrade"
-	quest.15D355EB164EBE68.quest_subtitle: "Needed for Finished PCBs"
-	quest.15D355EB164EBE68.title: "Capacitors"
 	quest.15D764CAF047EA7A.quest_subtitle: "Tier 3 Armor"
 	quest.15D764CAF047EA7A.title: "&cTertium Gear"
 	quest.1609BF52108238B0.quest_subtitle: "Tier: &e1"
@@ -1310,6 +1293,12 @@
 	quest.176ACC61DC206E55.title: "Crimson Shroombee"
 	quest.177199FED92C3B5B.quest_subtitle: "Feed an Infused Diamond to a Diamond Bee"
 	quest.177199FED92C3B5B.title: "Dimensional Bee"
+	quest.177A7C0DF0A477A2.quest_desc: [
+		"Craft a &3Logistics Core&r and a &3Logistics Configurator&r. The logistics system automates item and fluid transport using frames attached to inventories."
+		""
+		"The configurator assigns filters and priorities. Attach &3Logistics Modules&r to tubes for distribution points, and &3Logistics Frame Requesters&r on machines that need supplies."
+	]
+	quest.177A7C0DF0A477A2.title: "Logistics System"
 	quest.1780A9FDD6983401.quest_desc: [
 		"The Blood Light Sigil creates temporary light sources where you click."
 		"Useful for illuminating dark areas quickly during exploration."
@@ -1337,6 +1326,12 @@
 	quest.17989643018D00C1.title: "Stopping Dripping"
 	quest.17E2C05C48B03043.quest_desc: ["Produce &esodium&r coolant for advanced reactor setups. Evaporate water to brine, electrolyze brine to sodium and chlorine. Sodium coolant transfers more heat than water for higher reactor efficiency."]
 	quest.17E2C05C48B03043.title: "Sodium Coolant Production"
+	quest.17E5A66DDB13A0A0.quest_desc: [
+		"Craft a &3Programmer&r and a &3Drone&r. The programmer is a visual programming interface where you define drone behavior using puzzle-piece widgets. Drones are autonomous flying robots that execute your programs."
+		""
+		"Drones can harvest, dig, place blocks, attack, and deliver items. &eStart with a simple item transport program&r to learn the system."
+	]
+	quest.17E5A66DDB13A0A0.title: "Programmer \\& Drone"
 	quest.1820AC47BF39FA46.quest_desc: ["Requires Tier 4 altar and 15,000 LP. Unlocks demon realm access and dusk rituals."]
 	quest.1820AC47BF39FA46.title: "Demonic Slates"
 	quest.1823CC81D613892B.quest_desc: [
@@ -1346,14 +1341,24 @@
 	quest.1823CC81D613892B.title: "Mob Slaughter Factory"
 	quest.1848F431D0380DA9.quest_desc: ["Higher tier chalks can also be repaired to save valuable materials."]
 	quest.1848F431D0380DA9.title: "Advanced Chalk Repair"
+	quest.18512FF26F84044E.quest_desc: [
+		"Build a &3Flux Compressor&r. The inverse of the dynamo — it converts Forge Energy into pressurized air. Use it when you have surplus FE from other mods."
+		""
+		"&eDo not loop a dynamo into a flux compressor&r — energy is lost on each conversion."
+	]
+	quest.18512FF26F84044E.title: "Flux Compressor"
 	quest.1875EF9D31897448.quest_desc: ["&6Cell Blocks&r form multiblock power storage structures. Place multiple Cell blocks adjacent to each other to increase total storage capacity."]
 	quest.1875EF9D31897448.title: "Power Cell Tier 1"
-	quest.187816477B732517.quest_desc: ["The &3Transfer Gadget&r acts like a Hopper that can be placed inbetween blocks."]
-	quest.187816477B732517.quest_subtitle: "Smaller Hopper"
 	quest.18783C62009934DB.quest_desc: ["Splits fluids into component chemicals. Water becomes &ehydrogen&r and &eoxygen&r. Brine becomes &esodium&r and &echlorine&r. Fundamental for ore processing and reactor fuel production."]
 	quest.18783C62009934DB.title: "Electrolytic Separator"
 	quest.18914FDF9CF9EEA8.quest_desc: ["&aClockwork Bearings&r will move based on the Time of Day when given &dRotational Power&r. \\n\\nThe Block in front of the &aClockwork Bearing&r will automatically &aGlue&r to it, but other Blocks can be &aGlued&r to that Block to join it! \\n\\nIf you want more Hands to your &aClock&r, add more Blocks in front of the first Block, but make sure these aren't &aGlued&r together. \\n\\nYou can change which Hands are which by Holding on the &aBearing&r to change whether the first Hand (closest Block) is the Hour or Minute Hand. "]
 	quest.18914FDF9CF9EEA8.title: "&aClockwork Bearing"
+	quest.189823BEBBC8C7B2.quest_desc: [
+		"Craft &3Reinforced Pressure Tubes&r. These handle higher pressure than standard tubes, allowing you to push more air without risk of explosion."
+		""
+		"Required for machines that operate at tier 2 pressure levels."
+	]
+	quest.189823BEBBC8C7B2.title: "Reinforced Pressure Tube"
 	quest.18A2FBE2D4133FA2.quest_desc: [
 		"Arcane Pedestals are needed for the Ritual Brazier and crafting items with an Enchanting Apparatus."
 		""
@@ -1428,6 +1433,12 @@
 	quest.1A0672C7509271B3.quest_subtitle: "Flower: Fluorite blocks (Check JEI)"
 	quest.1A0672C7509271B3.subtitle: "Flower: Fluorite blocks (Check JEI)"
 	quest.1A0672C7509271B3.title: "Fluorite Bee"
+	quest.1A1B5A96ACD57123.quest_desc: [
+		"Build a &3Gas Lift&r with &3Drill Pipes&r and a &3Seismic Sensor&r. The seismic sensor detects underground fluid deposits. Stack drill pipes downward from the gas lift to reach the oil layer."
+		""
+		"&ePlace the seismic sensor and right-click&r to scan. It shows the depth and type of fluid below. Supply pressure to the gas lift to begin pumping."
+	]
+	quest.1A1B5A96ACD57123.title: "Gas Lift Setup"
 	quest.1A4FAE5705B53753.quest_subtitle: "Spawn egg only (from loot)"
 	quest.1A4FAE5705B53753.subtitle: "Spawn egg only (from loot)"
 	quest.1A4FAE5705B53753.title: "Air Essence Bee"
@@ -1440,6 +1451,12 @@
 	quest.1A739D36D5E3B1AD.quest_desc: ["Feeding with food priority and filter options."]
 	quest.1A739D36D5E3B1AD.quest_subtitle: "More Filtering Options"
 	quest.1A739D36D5E3B1AD.title: "Advanced Feeding Upgrade"
+	quest.1A76A721B569FBF1.quest_desc: [
+		"Build a &3Solar Compressor&r using &3Solar Cells&r. This compressor generates pressure from sunlight — a completely passive, renewable source. Requires clear sky and daytime."
+		""
+		"Craft at least 3 solar cells to maximize output. No heat, no fuel required."
+	]
+	quest.1A76A721B569FBF1.title: "Solar Compressor"
 	quest.1A83617C1F9C10F6.quest_desc: ["The &6Matter Receiver&r is the destination for &eMatter Transmitter&r teleportation. Each receiver has a unique name for identification."]
 	quest.1A83617C1F9C10F6.title: "Matter Receiver"
 	quest.1AAF0B31B47AF23D.quest_desc: [
@@ -1477,6 +1494,12 @@
 	quest.1AEBC314878233CA.title: "Tachi Mastery: Death Harvest"
 	quest.1AEFF93A398B8BBF.quest_desc: ["High-performance equipment using &breinforced alloys&r and &belite control circuits&r. Significant speed and capacity improvements. Reinforced alloys require infusing &binfused alloys&r with &ediamond&r."]
 	quest.1AEFF93A398B8BBF.title: "Elite Tier"
+	quest.1AF029024723BE5F.quest_desc: [
+		"Craft a &3Heat Pipe&r. Heat pipes transfer thermal energy between machines over distance, similar to how pressure tubes carry air."
+		""
+		"Use them to connect your vortex tube to machines that need heat without placing them adjacent."
+	]
+	quest.1AF029024723BE5F.title: "Heat Pipe"
 	quest.1B182A30604655E2.quest_desc: ["&cBlaze Burners&r are pretty easy to Craft, you'll just need some &7Iron Plates&r with a singular Block of &4Netherrack&r. \\n\\nThen you'll need to use a &oMysterious Conversion&r to make it less Empty! That is just Right Clicking a &cBlaze&r with your &cEmpty Blaze Burner&r. \\n\\nWhen we place him though, he seems a little small and... lukewarm... \\n\\nWe'll need to feed him! No, not Steak, &cBlazes&r don't like Steaks. He'll need either Furnace Fuels like Wood or Coal, or his favorite: the &cBlaze Cakes&r! \\n\\nThe Furnace Fuel will get them only a bit Heated, but the &cBlaze Cakes&r will make them &bSuper-Heated&r! Yes, &bSuper-Heated&r is hotter than &6Orange&r Hot. \\n\\nSome Recipes and &6Machines&r will need to be Heated, like &6Automated Brewing&r, &6Mixing&r, and the Steam Boiler will! "]
 	quest.1B182A30604655E2.title: "&cBlaze Burner"
 	quest.1B5177A774FCEF64.quest_desc: [
@@ -1512,6 +1535,12 @@
 	]
 	quest.1BA3D15FFE7DBE59.quest_subtitle: "Latex and Plastic? Huh?"
 	quest.1BA3D15FFE7DBE59.title: "Latex and Plastic? Huh?"
+	quest.1BADBB34A86270DE.quest_desc: [
+		"Obtain a bucket of &3Oil&r. Oil spawns naturally underground and can be pumped to the surface."
+		""
+		"Oil is the raw input for all fuel products. Everything from this point forward depends on having a steady oil supply."
+	]
+	quest.1BADBB34A86270DE.title: "Oil Extraction"
 	quest.1BBF6451EE057AD4.quest_desc: ["Holds one item stack. Items can be processed by machines above. Good for pressing."]
 	quest.1BBF6451EE057AD4.title: "Depot"
 	quest.1BDB369FD243D4C6.quest_desc: [
@@ -1587,6 +1616,12 @@
 	quest.1D720AC88431BD70.quest_desc: ["Breed the Ender Bee with a Lapis Bee to create a Diamond Bee!"]
 	quest.1D720AC88431BD70.quest_subtitle: "Ender + Lapis"
 	quest.1D720AC88431BD70.title: "Diamond Bee"
+	quest.1D744C8DE66917D5.quest_desc: [
+		"Craft an &3Empty PCB&r and a &3PCB Blueprint&r. The empty PCB is a blank circuit board made from plastic and iron. The blueprint defines the circuit pattern."
+		""
+		"&eThe full PCB pipeline: fabrication → UV exposure → etching → component assembly.&r"
+	]
+	quest.1D744C8DE66917D5.title: "PCB Fabrication"
 	quest.1D794DE95C9FF6C7.quest_desc: ["The Promise of Speed increases the processing speed of EvilCraft machines."]
 	quest.1D794DE95C9FF6C7.quest_subtitle: "Increase the Speed of Machines"
 	quest.1D794DE95C9FF6C7.title: "Promise of Speed"
@@ -1630,6 +1665,116 @@
 	quest.1DE0F289821F55D1.quest_subtitle: "Advanced pentacle components"
 	quest.1DE0F289821F55D1.title: "More Chalks"
 	quest.1DF026030780AE96.quest_subtitle: "Extracts Genes from Bees in Hives"
+	quest.1E01000000000001.quest_desc: ["The primary tool for Immersive Engineering. Craft it to form multiblock structures and rotate blocks."]
+	quest.1E01000000000001.title: "Engineer's Hammer"
+	quest.1E01000000000002.quest_desc: ["A multiblock kiln that converts coal into coal coke and creosote oil. Build with sandstone bricks in a 3x3x3 hollow cube."]
+	quest.1E01000000000002.title: "Coke Oven"
+	quest.1E01000000000003.quest_desc: ["Burns twice as long as coal and is required for steel production. Creosote oil is a useful byproduct for treated wood."]
+	quest.1E01000000000003.title: "Coal Coke"
+	quest.1E01000000000004.quest_desc: ["Smelts two materials into alloys without power. Build with kiln bricks in a 2x2x2 cube."]
+	quest.1E01000000000004.title: "Alloy Kiln"
+	quest.1E01000000000005.quest_desc: ["An alloy of copper and nickel, smelted in the Alloy Kiln. Constantan is used in IE's thermoelectric generators and heating coils, making it essential for power infrastructure."]
+	quest.1E01000000000005.title: "Constantan Ingot"
+	quest.1E01000000000006.quest_desc: ["Gold and silver combined in the Alloy Kiln. Electrum is the primary conductor material for IE wiring and electrical components."]
+	quest.1E01000000000006.title: "Electrum Ingot"
+	quest.1E01000000000007.quest_desc: ["Copper and zinc smelted together. Brass appears in various IE mechanical components and is shared with Create's crafting system."]
+	quest.1E01000000000007.title: "Brass Ingot"
+	quest.1E01000000000008.quest_desc: ["Smelts iron into steel using coal coke. The crude version is a 3x3x3 multiblock; the improved version adds hoppers for automation."]
+	quest.1E01000000000008.title: "Blast Furnace"
+	quest.1E01000000000009.quest_desc: ["Steel is the backbone of IE. Most machines, tools, and structures require it."]
+	quest.1E01000000000009.title: "Steel Ingot"
+	quest.1E02000000000001.quest_desc: ["Soak wood planks in creosote oil to produce treated wood. This weatherproofed lumber is the foundation of IE's electrical infrastructure — used in poles, connectors, and most machine housings."]
+	quest.1E02000000000001.title: "Treated Wood"
+	quest.1E02000000000002.quest_desc: ["The crafting station for wires, components, and blueprints. Place a treated wood fence and slab together to form the multiblock. Most IE recipes beyond basic smelting require this station."]
+	quest.1E02000000000002.title: "Engineer's Workbench"
+	quest.1E02000000000003.quest_desc: ["Connectors attach to blocks and transfer Forge Energy through wires. Start with LV connectors and copper wire. Higher voltage tiers (MV, HV) carry more power but require better insulation and materials."]
+	quest.1E02000000000003.title: "Wire Connectors"
+	quest.1E02000000000004.quest_desc: ["Generates power from temperature differentials between adjacent blocks. Place hot blocks (lava, magma) on one side and cold blocks (ice, packed ice) on the other. A reliable early-game power source."]
+	quest.1E02000000000004.title: "Thermoelectric Generator"
+	quest.1E02000000000005.quest_desc: ["Stores Forge Energy for machines and tools. Connect it to a generator with LV wire and connectors to build your first power grid. Without stored power, most IE machines won't operate."]
+	quest.1E02000000000005.title: "LV Accumulator"
+	quest.1E02000000000006.quest_desc: ["An automated indoor crop grower. Place it, supply power and water, add a soil block and a seed, and it grows crops continuously. Especially useful for hemp — IE needs hemp fiber for insulation, fabric, and several blueprint recipes."]
+	quest.1E02000000000006.title: "Garden Cloche"
+	quest.1E03000000000001.quest_desc: ["A multiblock that grinds ores into dusts, doubling your yield per ore. Build it with steel scaffolding, fencing, and hoppers. Feed it power and ores — it handles the rest. The Crusher is one of IE's most-used early machines."]
+	quest.1E03000000000001.title: "Crusher"
+	quest.1E03000000000002.quest_desc: ["Stamps ingots into plates, rods, wires, and gears using interchangeable molds. Nearly every advanced IE recipe requires pressed components. This machine also drives the gun blueprint and coin minting systems."]
+	quest.1E03000000000002.title: "Metal Press"
+	quest.1E03000000000003.quest_desc: ["Extracts fluids and byproducts from solid inputs. Crush seeds for plant oil, or process fruits into juices with unique potion-like effects. A key machine for both biodiesel production and the Juicery branch."]
+	quest.1E03000000000003.title: "Squeezer"
+	quest.1E03000000000004.quest_desc: ["Converts plant matter into ethanol. Combined with plant oil from the Squeezer, ethanol is the base ingredient for biodiesel — IE's most efficient liquid fuel."]
+	quest.1E03000000000004.title: "Fermenter"
+	quest.1E03000000000005.quest_desc: ["Blends ethanol and plant oil into biodiesel. This high-energy fuel powers the Diesel Generator, IE's best power source. Building a Refinery means you've mastered IE's fluid processing chain."]
+	quest.1E03000000000005.title: "Refinery"
+	quest.1E03000000000006.quest_desc: ["The most powerful IE generator. Burns biodiesel to produce substantial Forge Energy. Connect it to MV or HV accumulators to power your entire factory."]
+	quest.1E03000000000006.title: "Diesel Generator"
+	quest.1E03000000000007.quest_desc: ["An industrial-scale smelter that processes ores, alloys, and recycling in bulk. In the arms pipeline, the Arc Furnace produces gunmetal ingots and other specialized alloys needed for weapon components. Requires significant power but replaces multiple furnaces and kilns."]
+	quest.1E03000000000007.title: "Arc Furnace"
+	quest.1E03000000000008.quest_desc: ["A massive multiblock mining machine that extracts ore veins from underground deposits. Use the Core Sample Drill first to locate veins, then build the Excavator above them for automated resource extraction."]
+	quest.1E03000000000008.title: "Excavator"
+	quest.1E04000000000001.quest_desc: ["Move items automatically between machines, hoppers, and chests. Place them on any surface and they'll push items in the direction they face. Vertical, dropping, and splitting variants let you build complex sorting lines."]
+	quest.1E04000000000001.title: "Conveyor Belts"
+	quest.1E04000000000002.quest_desc: ["Transfer fluids between tanks, machines, and the Refinery chain. IE pipes auto-connect and support pump-assisted flow for longer distances. Essential for any biodiesel or juice production setup."]
+	quest.1E04000000000002.title: "Fluid Pipes"
+	quest.1E04000000000003.quest_desc: ["A large multiblock that stores up to 41,472 items of a single type. Build it from sheet metal in a 3x3 footprint, 5 blocks tall. Attach conveyors or hoppers to automate input and output."]
+	quest.1E04000000000003.title: "Silo"
+	quest.1E04000000000004.quest_desc: ["Stores up to 512 buckets of any fluid. Same construction style as the Silo — sheet metal walls with a 3x3 footprint. Connect fluid pipes to manage your creosote, biodiesel, or juice reserves."]
+	quest.1E04000000000004.title: "Tank"
+	quest.1E04000000000005.quest_desc: ["Filters and distributes items across multiple outputs based on configurable rules. Useful for sorting ore processing outputs or directing pressed components to the right storage."]
+	quest.1E04000000000005.title: "Item Router"
+	quest.1E05000000000001.quest_desc: ["Acquire the Firearms blueprint from the Engineer's Workbench. IE's blueprint system replaces the standard gun crafting — all Point Blank weapons are manufactured using IE materials and the Metal Press."]
+	quest.1E05000000000001.title: "Blueprint: Firearms"
+	quest.1E05000000000002.quest_desc: ["Your first firearm. Pistols require steel components, treated wood grips, and pressed metal parts. Compact and reliable — a good sidearm while you work toward heavier hardware."]
+	quest.1E05000000000002.title: "Craft a Pistol"
+	quest.1E05000000000003.quest_desc: ["Ammunition is consumed on use and must be manufactured in bulk. Set up a pressing line for casings and projectiles to keep your sidearm loaded. The same manufacturing principles apply to all weapon calibers."]
+	quest.1E05000000000003.title: "Pistol Ammunition"
+	quest.1E05000000000004.quest_desc: ["Rifles demand more materials than pistols — steel barrels, mechanical components, and electronic parts for optics compatibility. Higher damage and range make them worth the investment."]
+	quest.1E05000000000004.title: "Craft a Rifle"
+	quest.1E05000000000005.quest_desc: ["Shotguns use wider steel barrels and reinforced stocks. Devastating at close range with spread patterns that clear groups of mobs efficiently."]
+	quest.1E05000000000005.title: "Craft a Shotgun"
+	quest.1E05000000000006.quest_desc: ["Machine guns and launchers sit at the top of the arms tree. They consume significant IE resources — steel plates, electronic components, and osmium ingots — but deliver unmatched firepower."]
+	quest.1E05000000000006.title: "Heavy Ordnance"
+	quest.1E05000000000007.quest_desc: ["Scopes and optics are crafted from glass panes, electronic components, and osmium. Each scope type offers different zoom levels and reticle styles for various combat ranges."]
+	quest.1E05000000000007.title: "Blueprint: Scopes"
+	quest.1E05000000000008.quest_desc: ["Suppressors, grips, and muzzle devices modify weapon handling. Suppressors reduce noise, grips improve stability, and muzzle brakes control recoil. All crafted from steel and aluminum on the workbench."]
+	quest.1E05000000000008.title: "Blueprint: Attachments"
+	quest.1E05000000000009.quest_desc: ["A multiblock that combines fluids with solid items. Its primary use in the arms pipeline is producing duraplast plates from liquid resin and a plate mold. Also used for filling bottles, canisters, and ammunition shells."]
+	quest.1E05000000000009.title: "Bottling Machine"
+	quest.1E0500000000000A.quest_desc: ["A tough plastic plate produced in the Bottling Machine from resin and a plate mold. Duraplast is required for heavy weapon frames, reinforced housings, and advanced machine components. The mold is returned after each press."]
+	quest.1E0500000000000A.title: "Duraplast Sheet"
+	quest.1E0500000000000B.quest_desc: ["Craft an electronic component at the Engineer's Workbench using the components blueprint. Requires a treated wood slab, nether quartz, redstone, and electrum wire. These components appear in nearly every advanced IE recipe — weapons, turrets, and precision machinery all need them."]
+	quest.1E0500000000000B.title: "Electronic Component"
+	quest.1E0500000000000C.quest_desc: ["A printed circuit board crafted at the workbench from a plastic plate and copper plate. Circuit boards are the highest-tier crafting component — required for heavy ordnance, the slot machine, and advanced electronic systems."]
+	quest.1E0500000000000C.title: "Circuit Board"
+	quest.1E06000000000001.quest_desc: ["Feed any fruit into the Squeezer to extract its juice. Each fruit produces a unique juice with distinct potion-like effects — apple juice grants bonus health and luck, while melon juice reduces gravity. Check JEI for the full list of supported fruits."]
+	quest.1E06000000000001.title: "Squeeze a Fruit"
+	quest.1E06000000000002.quest_desc: ["Fill glass bottles from juice fluid to create drinkable potions. Each juice provides attribute modifiers and status effects when consumed. Bottled juice stacks and is easy to carry into combat or exploration."]
+	quest.1E06000000000002.title: "Bottled Juice"
+	quest.1E06000000000003.quest_desc: ["Juices come in three potency tiers. Potency I is standard strength, II provides 1.5x effects, and III delivers double potency. Higher tiers require additional processing or concentrated fruit inputs."]
+	quest.1E06000000000003.title: "Potency Levels"
+	quest.1E06000000000004.quest_desc: ["Pour juice from a bucket to create a fluid block in the world. Any entity that walks through or falls into the liquid receives its effects. Use this to create buff zones for allies or add environmental effects to your base."]
+	quest.1E06000000000004.title: "Juice Pouring"
+	quest.1E07000000000001.quest_desc: ["A multiplayer card game supporting up to four players. Place any item stack as your bet — if you win, the table doubles it. This makes blackjack a powerful item duplicator for rare tools, filled backpacks, or valuable materials. Hit or stand against the dealer, and blackjack pays 1.5x. Built from wool, planks, and gold."]
+	quest.1E07000000000001.title: "Blackjack Table"
+	quest.1E07000000000002.quest_desc: ["Craft a blank mold at the Engineer's Workbench using steel plates and a wirecutter. This mold is the starting point for the coin minting pipeline — it's used to stamp out coin dies for each metal type."]
+	quest.1E07000000000002.title: "Blank Mold"
+	quest.1E07000000000003.quest_desc: ["Produce coin dies from the blank mold at the workbench. Each die — copper, nickel, and silver — has 1,000 uses before it wears out. You'll need one die per coin denomination."]
+	quest.1E07000000000003.title: "Coin Dies"
+	quest.1E07000000000004.quest_desc: ["Heat-treat raw coin blanks in the Alloy Smelter with coke dust. Annealing hardens the metal and prepares it for the press. The process takes 100 ticks per blank — batch production is recommended."]
+	quest.1E07000000000004.title: "Anneal Blanks"
+	quest.1E07000000000005.quest_desc: ["Stamp annealed blanks in the Metal Press using your coin dies. Copper coins are the base currency, nickel coins are worth 2x, and silver coins 3x. Higher denominations multiply your gambling payouts."]
+	quest.1E07000000000005.title: "Mint Coins"
+	quest.1E07000000000006.quest_desc: ["A placeable gambling machine with four win tiers — from small payouts to a full jackpot with particle effects and rare loot. Insert coins, pull the lever, and test your luck. Crafted from iron blocks, gold, redstone, and an electronic component."]
+	quest.1E07000000000006.title: "Slot Machine"
+	quest.1E08000000000001.quest_desc: ["A powered handheld mining tool that chews through stone and ore faster than diamond picks. Requires a drill head and power from an IE capacitor backpack or external charger. Auger heads can be upgraded for wider mining patterns."]
+	quest.1E08000000000001.title: "Mining Drill"
+	quest.1E08000000000002.quest_desc: ["A powered saw that fells entire trees in one cut. Like the drill, it runs on stored Forge Energy and accepts interchangeable blade attachments for different wood types and cutting speeds."]
+	quest.1E08000000000002.title: "Buzzsaw"
+	quest.1E08000000000003.quest_desc: ["Clips onto overhead IE wires and rides them like a zipline. Connect wire networks across your base or build long-range transport lines between locations. A fast, satisfying way to travel without elytra."]
+	quest.1E08000000000003.title: "Skyhook"
+	quest.1E08000000000004.quest_desc: ["A wearable battery that powers your drill, buzzsaw, and other IE tools on the go. Charges from any IE power source and eliminates the need to return to base for tool recharging."]
+	quest.1E08000000000004.title: "Capacitor Backpack"
+	quest.1E08000000000005.quest_desc: ["The upgraded blast furnace adds hopper inputs and outputs for fully automated steel production. Feed it iron and coal coke from conveyors and collect steel ingots without manual interaction. A meaningful upgrade once your factory is running."]
+	quest.1E08000000000005.title: "Improved Blast Furnace"
 	quest.1E3471513C75CC54.quest_desc: [
 		"If you place a Bucket of Blood on the ground long enough or place it in a Drying Basin, it will dry into &cHardened Blood&r."
 		""
@@ -1653,6 +1798,12 @@
 	quest.1E9B2D814F50A265.title: "&6Encased Fan"
 	quest.1E9BD4B74DAEA9FC.quest_desc: ["To attract Bees to this nest, you'll need Popped Chorus Fruit instead of Honey Treats."]
 	quest.1E9BD4B74DAEA9FC.quest_subtitle: "Lures in Ender Bees when placed in the End"
+	quest.1EA8C764DDF059BB.quest_desc: [
+		"Craft &3Advanced Pressure Tubes&r. These tier 3 tubes handle the highest pressure levels in the mod."
+		""
+		"Required for machines that operate above reinforced tube limits. Replace critical segments as you build higher-pressure systems."
+	]
+	quest.1EA8C764DDF059BB.title: "Advanced Pressure Tube"
 	quest.1EAE42D3A2162339.quest_subtitle: "Breaks blocks of average hardness"
 	quest.1EB543C6464BCD1C.quest_desc: ["The &6Crafting Station&r is controlled by &eProcessor&r programs. It can execute crafting operations commanded by your automation logic."]
 	quest.1EB543C6464BCD1C.title: "Crafting Station"
@@ -1666,6 +1817,12 @@
 	quest.1EBD5E4410A6DF34.subtitle: "Convert: Ghostly Bee + Soulium Dagger"
 	quest.1EBD5E4410A6DF34.title: "Soulium Bee"
 	quest.1EEC5622F2A9A163.quest_subtitle: "Picks up nearby items"
+	quest.1F0576BFA4F7A057.quest_desc: [
+		"Install utility upgrades. &3Charging&r lets armor recharge from tubes you walk past. &3Elytra&r enables gliding with the chestplate. &3Scuba&r provides underwater breathing. &3Magnet&r attracts nearby items. &3Gilded&r pacifies Piglins."
+		""
+		"The &3Armor Upgrade&r itself boosts base protection. Mix and match to suit your playstyle."
+	]
+	quest.1F0576BFA4F7A057.title: "Utility Upgrades"
 	quest.1F3B9803AFAEED5F.quest_desc: [
 		"Arcane Ashes are used to draw Alchemy Arrays on the ground."
 		"Right-click a block to create an array. Different items placed on arrays trigger different effects."
@@ -1759,8 +1916,6 @@
 	quest.212EF8601746C500.title: "&9Imperium Apple"
 	quest.21622BDD15E53CED.quest_desc: ["Detects inventory or fluid changes. Emits pulse when contents change. Good for triggers."]
 	quest.21622BDD15E53CED.title: "Content Observer"
-	quest.21624A6500545C42.quest_desc: ["&3Crop Supports&r can be placed over your crops to make them grow faster."]
-	quest.21624A6500545C42.quest_subtitle: "Faster Crops"
 	quest.2182492BCC1B33D8.quest_desc: ["When installed in a Hive, it gives a 5% chance for a new baby Bee to be spawned every time honey is delivered.\\n\\nWhen placed in a Catcher, it only allows the catcher to catch baby Bees.\\n\\nYou can stack these for a greater chance."]
 	quest.2182492BCC1B33D8.quest_subtitle: "Making Babies"
 	quest.218803812A9C332B.quest_desc: [
@@ -1814,7 +1969,6 @@
 	quest.224C07AC71C5F40E.title: "Plant Fertilizer"
 	quest.2252B2C3B43F141A.quest_desc: ["Increases LP gained from mob sacrifice. Effective when using the Dagger of Sacrifice."]
 	quest.2252B2C3B43F141A.title: "Sacrifice Rune"
-	quest.22572456571C3F8D.quest_desc: ["The &3Charging Module&r depressurizes any pressurizable things in containers it points at."]
 	quest.22702838FC507A2E.quest_desc: [
 		"The Hydroponic Bed grows crops at accelerated rates."
 		""
@@ -1862,19 +2016,13 @@
 	]
 	quest.22F7FDDE8A99325A.quest_subtitle: "Beyond the Limits"
 	quest.22F7FDDE8A99325A.title: "Super Enchanting"
-	quest.230463E830D6FFEB.quest_desc: ["Now that we have plastic, the next step is getting some finished PCBs, first make some &3Empty PCBs&r in the Pressure Chamber."]
-	quest.230463E830D6FFEB.quest_subtitle: "The path to PCBs"
 	quest.2307F31643E35B57.quest_desc: ["Shows linked information. Multiple lines of data. Use for status displays."]
 	quest.2307F31643E35B57.title: "Display Board"
-	quest.2338E5269CA23C91.quest_desc: ["The &3Netherite Drill Bit&r is the best Drill Bit, it's even better than the Diamond Drill Bit."]
-	quest.2338E5269CA23C91.quest_subtitle: "This is the Best Bit"
 	quest.234DC1702333EB18.quest_desc: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
 	quest.234DC1702333EB18.quest_subtitle: "I'm not writing the Toy Story line"
 	quest.234DC1702333EB18.title: "Infinity Booster"
 	quest.236A493CE7FF0795.quest_desc: ["Rides along gantry shaft. Moves contraption along rail. Good for 3D printers."]
 	quest.236A493CE7FF0795.title: "Gantry Carriage"
-	quest.23737103592776C2.quest_desc: ["The &3Kerosene Lamp&r is a great light source that uses fuel (Kerosene being the best) to produce light."]
-	quest.23737103592776C2.quest_subtitle: "Mega Torches are nothing!"
 	quest.23820B0DCEC022D1.quest_subtitle: "Breed: Resin Bee + Lumber Bee"
 	quest.23820B0DCEC022D1.subtitle: "Breed: Resin Bee + Lumber Bee"
 	quest.23820B0DCEC022D1.title: "Plastic Bee"
@@ -1884,9 +2032,6 @@
 	quest.23B9018073045294.quest_subtitle: "Breed: Red Pigment + Yellow Pigment"
 	quest.23B9018073045294.subtitle: "Breed: Red Pigment + Yellow Pigment"
 	quest.23B9018073045294.title: "Orange Pigment Bee"
-	quest.24042326B4632DD4.quest_desc: ["To start with Logistics craft a &3Logistics Core&r, I recommend reading the PNC:R Manual for a full tutorial on how to use these items."]
-	quest.24042326B4632DD4.quest_subtitle: "Transporting Items/Fluids"
-	quest.24042326B4632DD4.title: "Logistics"
 	quest.24150DE600C2D761.quest_desc: [
 		"Blood is all about slaying enemies for your own Health! Most attacks will heal you back."
 		""
@@ -1971,7 +2116,6 @@
 	quest.26B3AE1E77A84BCB.quest_subtitle: "Spawn egg only | Flower: Sky Osmium Block"
 	quest.26B3AE1E77A84BCB.subtitle: "Spawn egg only | Flower: Sky Osmium Block"
 	quest.26B3AE1E77A84BCB.title: "Sky Osmium Bee"
-	quest.26BEA64C80ECE1A6.quest_desc: ["Each &3Logistic Frame&r can be used for different types of automation."]
 	quest.26D2183E27E1273A.quest_subtitle: "Reveals blocks through walls"
 	quest.26D2183E27E1273A.title: "Ritual of Scrying"
 	quest.26E6ED94168A05C4.subtitle: "Breed: Crystalline + Ashy Mining Bee"
@@ -1981,8 +2125,6 @@
 	quest.27195E9A3482C158.title: "Inhalation Purification Module"
 	quest.272E27EFE40C913A.quest_desc: ["Gains power from mob deaths nearby. Pairs well with a mob farm."]
 	quest.272E27EFE40C913A.title: "Mycelial Death Generator"
-	quest.2745297337E13E9E.quest_desc: ["The &3Advanced Air Compressor&r works the same way as the Air Compressor, only way better!"]
-	quest.2745297337E13E9E.quest_subtitle: "No need for boring old Air Compressors now!"
 	quest.2747AEE1F7F97848.quest_desc: ["Increases sprint speed. Stack for faster movement. Essential for ground traversal enhancement."]
 	quest.2747AEE1F7F97848.quest_subtitle: "Leggings"
 	quest.2747AEE1F7F97848.title: "Locomotive Boosting Module"
@@ -2017,9 +2159,12 @@
 	quest.27EC4B15DA344B2F.title: "Bell Cuirass Armor"
 	quest.27EFE30ADE855643.quest_desc: ["Assembles trains and sets schedules. Place on track. Click with wrench to access."]
 	quest.27EFE30ADE855643.title: "Train Station"
-	quest.2801B7B6BF61E978.quest_desc: ["&3Kerosene&r can be used to make Gasoline or it can be used as fuel in a Kerosene Lamp."]
-	quest.2801B7B6BF61E978.quest_subtitle: "Have you Kero-seen this?"
-	quest.2801B7B6BF61E978.title: "Kerosene"
+	quest.2802086803DD5FAA.quest_desc: [
+		"Obtain &3Compressed Iron Seeds&r from &aMystical Agriculture&r. Growing compressed iron provides a renewable supply without constant smelting."
+		""
+		"Plant, harvest, and never run out of your most-used material."
+	]
+	quest.2802086803DD5FAA.title: "Compressed Iron Seeds"
 	quest.281AAC27DEBEE84D.quest_desc: [
 		"The Divination Sigil shows your current LP and altar status when held."
 		"Essential for monitoring your blood network. Shift-right-click an altar to bind it for remote monitoring."
@@ -2144,6 +2289,12 @@
 	quest.29A71E780923874E.quest_subtitle: "Breed: Nomad Bee + Reed Bee"
 	quest.29A71E780923874E.subtitle: "Breed: Nomad Bee + Reed Bee"
 	quest.29A71E780923874E.title: "Silicon Bee"
+	quest.29AA0D28A4218A89.quest_desc: [
+		"Build an &3Elevator&r using an &3Elevator Base&r, &3Elevator Frames&r, and an &3Elevator Caller&r. The elevator moves entities vertically using pressure."
+		""
+		"Stack frames to set the height. Place callers at each floor to summon it. A practical vertical transport solution for multi-level bases."
+	]
+	quest.29AA0D28A4218A89.title: "Elevator"
 	quest.29AE69722AB4C75C.quest_subtitle: "Tier: &a2"
 	quest.29AE69722AB4C75C.title: "Fish Seeds"
 	quest.29C83B00AC4AFC23.quest_desc: [
@@ -2165,6 +2316,12 @@
 	quest.29DFDE7A44DAA9F8.subtitle: "Breed: Orange Pigment + Dark Red Pigment"
 	quest.29DFDE7A44DAA9F8.title: "Brown Pigment Bee"
 	quest.29E3DD9A3F85CE80.quest_subtitle: "Summons a decoy to attract mobs"
+	quest.29ED7A94920620D3.quest_desc: [
+		"Build an &3Air Compressor&r to generate pressure by burning solid fuel. This is your first pressure source and the foundation of every system that follows."
+		""
+		"Place it adjacent to your tube network. &eWatch the pressure gauge&r — exceeding a tube's rated pressure will cause an explosion."
+	]
+	quest.29ED7A94920620D3.title: "Air Compressor"
 	quest.29EE878BC8D3A742.quest_desc: [
 		"To get our own bee farm going, we'll have to find us some bees... and capture them."
 		""
@@ -2220,13 +2377,6 @@
 	quest.2AEC294578952BFD.title: "Dye Bee"
 	quest.2AECDD9E2DEA708C.quest_subtitle: "Tier: &a2"
 	quest.2AECDD9E2DEA708C.title: "Squid Seeds"
-	quest.2AED15E3AC0346FE.quest_desc: [
-		"Below are some &3Upgrades&r you can use early on in this mod. Shift while hovering over an &3Upgrade&r to see what it can be used in, or shift while hovering over something to see what upgrades it can use."
-		""
-		"Note: The subtitle will tell you the max amount of that &3Upgrade&r that can be put in something."
-	]
-	quest.2AED15E3AC0346FE.quest_subtitle: "Very useful stuff"
-	quest.2AED15E3AC0346FE.title: "Simple Upgrades"
 	quest.2AEEDCC6826CF4AB.quest_subtitle: "Flower: Oil/Crude Oil (Industrial Foregoing)"
 	quest.2AEEDCC6826CF4AB.subtitle: "Flower: Oil/Crude Oil (Industrial Foregoing)"
 	quest.2AEEDCC6826CF4AB.title: "Oily Bee"
@@ -2256,6 +2406,12 @@
 	quest.2BB3DB19D5EFC7E2.title: "&dClutch"
 	quest.2BB910B217DF3A12.quest_subtitle: "Why is it wet? Was it in a Lake?"
 	quest.2BB910B217DF3A12.title: "Ender Upgrade Orb"
+	quest.2BBAC0E1DA3003EB.quest_desc: [
+		"Craft a &3Vortex Tube&r and a &3Heat Sink&r. The vortex tube splits pressurized air into hot and cold sides — this is PneumaticCraft's heat generation system."
+		""
+		"Attach a heat sink to dissipate excess temperature from the cold side. Heat is required for refining, plastic production, and many advanced recipes."
+	]
+	quest.2BBAC0E1DA3003EB.title: "Vortex Tube"
 	quest.2BC411A858F69E67.quest_subtitle: "Flower: Dungeon Metal (Blood Magic)"
 	quest.2BC411A858F69E67.subtitle: "Soul Forge: Regenerative Bee + 3x Hellforged Parts"
 	quest.2C04B3BA507D5673.quest_desc: [
@@ -2283,8 +2439,6 @@
 	]
 	quest.2C46829AF8DAD837.title: "Your First Fishing Rod"
 	quest.2C47C9B566A63135.title: "Whirlisprig"
-	quest.2C5D78630C7AD57F.quest_desc: ["Increases range, does different things when used in different things."]
-	quest.2C5D78630C7AD57F.quest_subtitle: "Come Closer!"
 	quest.2C617797C476DADA.quest_desc: [
 		"Blazefish spawn exclusively in Fortress Pieces - small structures found submerged in lava near Nether Fortresses."
 		""
@@ -2314,9 +2468,6 @@
 		"We can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"
 	]
 	quest.2CB69634F6A6E53E.title: "&l&0Dark Temples"
-	quest.2CC56A4F06E53307.quest_desc: ["Place your Empty PCBs in a &3UV Light Box&r to charge them. Needs pressure and access to sunlight."]
-	quest.2CC56A4F06E53307.quest_subtitle: "I hope you have some Sunglasses!"
-	quest.2CC56A4F06E53307.title: "Charging with UVs"
 	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
 	quest.2CD1B2BCEDA0D473.quest_subtitle: "Exchanges blocks or swaps entity locations"
@@ -2360,8 +2511,6 @@
 	quest.2DC012EF21FB359E.title: "Enchantment Extractor"
 	quest.2DC4446A644A4079.quest_desc: ["Full-body radiation protection. Wear all four pieces when working near reactors or radioactive materials. Prevents radiation damage and contamination. Required safety equipment for nuclear operations."]
 	quest.2DC4446A644A4079.title: "Hazmat Suit"
-	quest.2DE7CC686B56881F.quest_desc: ["Protects you from Mekanism radiation."]
-	quest.2DE7CC686B56881F.quest_subtitle: "Max: 1"
 	quest.2DFF263856BCCE63.quest_desc: ["Catch 5 Smallmouth Bass. Found in temperate freshwater."]
 	quest.2DFF263856BCCE63.quest_subtitle: "Temperate Fish"
 	quest.2DFF263856BCCE63.title: "Smallmouth Bass Collection"
@@ -2384,15 +2533,6 @@
 		"Combined with the Laser Drill, this enables Supreme tier progression."
 	]
 	quest.2E8E292ED596A104.title: "Purple Laser Lens"
-	quest.2E8F851A4E98F741.quest_desc: [
-		"The &3Pneumatic Armor&r by itself is pretty great, however if you want to make this armor amazing, you'll need to install upgrades. Press 'U' by default to open the Upgrade GUI, some upgrades use pressure, some don't."
-		""
-		"Just like upgrading other tools in PneumaticCraft, to upgrade &3Pneumatic Armor&r you will need a Charging Station with pressure."
-		""
-		"Note: The subtitle will tell you the max amount of that upgrade that can be put in something."
-	]
-	quest.2E8F851A4E98F741.quest_subtitle: "Compressed Iron Man"
-	quest.2E8F851A4E98F741.title: "Pneumatic Armor"
 	quest.2EA0C74AE7366656.quest_desc: ["Teleports you to any &bTeleporter&r pad on the same frequency. Requires energy charge. Right-click to open destination list. Does not require a teleporter at your current location."]
 	quest.2EA0C74AE7366656.title: "Portable Teleporter"
 	quest.2EB88ABC7017D5FE.quest_subtitle: "Interacts with blocks/entities like a player"
@@ -2418,6 +2558,12 @@
 	]
 	quest.2F484F74A9E32F20.quest_desc: ["The &6Energy Module&r displays RF storage levels on screens. Insert it into a &eScreen Controller&r and bind it to an energy storage block."]
 	quest.2F484F74A9E32F20.title: "Energy Module"
+	quest.2F4FF6D45E0C22BB.quest_desc: [
+		"Fry up some &3Cod 'n' Chips&r. PneumaticCraft adds food recipes that use the thermopneumatic processing plant with vegetable oil."
+		""
+		"&3Sourdough&r is another option — produce a &3Yeast Culture&r for a renewable bread source."
+	]
+	quest.2F4FF6D45E0C22BB.title: "Cooking with Pressure"
 	quest.2F556E7919582D2D.quest_desc: [
 		"The &bCell Workbench&f allows for cells to be 'partitioned' to hold specific items, i.e. given a whitelist filter."
 		""
@@ -2426,6 +2572,12 @@
 		"Cells can also be given a higher or lower 'priority' via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
 	]
 	quest.2F5AECF5CDC8D8DB.quest_subtitle: "Causes forms to target normally untargetable blocks"
+	quest.2F5C5077D91E9A8F.quest_desc: [
+		"Produce your first &3Plastic Sheet&r. Feed LPG and coal into the thermopneumatic processing plant with sufficient heat and pressure. Molten plastic is output as a fluid — pipe it into a tank or directly into molds."
+		""
+		"&ePlastic unlocks the entire electronics pipeline.&r Nearly every advanced recipe requires it. Automate production early."
+	]
+	quest.2F5C5077D91E9A8F.title: "Plastic"
 	quest.2F894CE5ABDEC1E0.quest_desc: ["Standard will storage for most recipes. Keeps a good reserve of demon will."]
 	quest.2F894CE5ABDEC1E0.title: "Common Tartaric Gem"
 	quest.2F9B0C642A6BE30C.quest_desc: ["Increased storage capacity and upgrade slots."]
@@ -2523,8 +2675,6 @@
 	quest.30A1B0A1B54A0AEE.title: "Exploration Tips"
 	quest.30AC43222FF9B18A.quest_desc: ["&5Train Signals&r are used with &5Conductors&r who aren't Players. \\n\\nThey place just like &5Train Stations&f and &5Observers&r, but the way they are placed determines the Arrow placement. \\n\\nThe Arrows will restrict where &5Conductors&r can pass their &5Trains&r, if the Arrow is facing the opposite way, the &5Train&r won't pass. \\n\\nYou can add two Signals facing opposite directions to let &5Conductors&r pass wherever you want. \\n\\nWith a bunch of &5Signals&r we can make Stop Lights for &7Track&r intersections. Place the &5Signals&r to where there are Arrows on both sides of the intersection. \\n\\nThis will make it so &5Trains&r will stop if another &5Train&r is in the intersection. That prevents collisions which Derail &5Trains&r. Derailed &5Trains&r will need a Wrench to put them back on &7Track&r!"]
 	quest.30AC43222FF9B18A.title: "&5Train Signals"
-	quest.30AD7B15682E4D0E.quest_desc: ["A smart Sign which can store and display arbitrary amounts of text, scaled so the text always fits. Right-click with any Dye to recolor the tile, you can color the border and the background independently."]
-	quest.30AD7B15682E4D0E.quest_subtitle: "Signs? Never heard of them!"
 	quest.30B7AF815D9D7553.quest_desc: [
 		"The Burned Tower of the Pyromancer. Some say if you're close enough to see the Tower, then you're close enough to feel the heat from it."
 		""
@@ -2551,8 +2701,12 @@
 	]
 	quest.30E853CE699E669B.quest_subtitle: "Download more RAM"
 	quest.30E9255DEC69C061.title: "Unknown Quest"
-	quest.312331F6DB0CE5F4.quest_desc: ["Goes faster than Tier I."]
-	quest.312331F6DB0CE5F4.quest_subtitle: "Max: 1"
+	quest.30F74A84575DEE93.quest_desc: [
+		"Upgrade to a &3Smart Chest&r. This advanced container has built-in filtering and can automatically sort incoming items into designated slots."
+		""
+		"Pairs well with logistics frames for automated storage."
+	]
+	quest.30F74A84575DEE93.title: "Smart Chest"
 	quest.3142A40E1EAEBAA3.quest_desc: [
 		"The Dowsing Rod gives you Magic Find and Scrying when used."
 		""
@@ -2599,13 +2753,6 @@
 	quest.31B73D16C0199785.title: "Refined Obsidian Ingot"
 	quest.31BAC57972148E1F.quest_subtitle: "Tier: &a2"
 	quest.31BAC57972148E1F.title: "Coral Seeds"
-	quest.31BCE63F5E016323.quest_desc: [
-		"The &3Solar Compressor&r generates Pressure by using sunlight, the warmer it gets, the more Pressure it will produce."
-		""
-		"However, be careful, if it gets too hot it will malfunction and you will need to repair it."
-	]
-	quest.31BCE63F5E016323.quest_subtitle: "In the palm of my hand..."
-	quest.31BCE63F5E016323.title: "Pressure from the Sun"
 	quest.31D6A013A56FD991.quest_desc: ["&6RFTools Control&r adds programmable &eProcessors&r for complex automation. Create visual programs that respond to redstone, items, and other triggers."]
 	quest.31D6A013A56FD991.title: "RFTools Control"
 	quest.31ED0C236C41A837.quest_subtitle: "Feed a Lava Bucket to a Magmatic Bee"
@@ -2634,8 +2781,6 @@
 	quest.32ABE5D734703B9C.quest_desc: ["Built-in elytra for gliding. Works with jetpack for powered flight. Uses energy for boost instead of fireworks."]
 	quest.32ABE5D734703B9C.quest_subtitle: "Chestplate"
 	quest.32ABE5D734703B9C.title: "Elytra Module"
-	quest.32C3E14578D48E6C.quest_desc: ["Just like regular &3Pressure Tubes&r only these can hold 10 bars of pressure."]
-	quest.32C3E14578D48E6C.quest_subtitle: "Upgraded Pressure Tubes"
 	quest.32D2CE292E088939.title: "Fire Upgrade Orb"
 	quest.32FDC5FFA000DAF8.quest_desc: ["Proud of the Bees you have?\\n\\nWanna put them into a jar to show it off?\\n\\nPlace a Bee Jar down and use a Pipe or Hopper to insert the caged Bee into the jar."]
 	quest.32FDC5FFA000DAF8.quest_subtitle: "Showing Off Bees"
@@ -2651,8 +2796,6 @@
 	quest.3314FBC4FEAE1D08.quest_desc: ["&6Deployer&r is a very fun &6Machine&r for poking! \\n\\nBy poking, I mostly mean &eItem Interactions&r that we can preform. Place an &eItem&r into the &6Deployer Hand&r, and then give it &dRotational Power&r. It will then place the &eItem&r into the Block on a &eDepot&f or &eBelt&r below. \\n\\nThis will mimick many actions that we can do, like adding &6Wax&r to &cCopper&r. \\n\\nYou'll most likely use it for &8Andesite&r/&cCopper&r/&eBrass&r Casings and &4Polished Rose Quartz&r."]
 	quest.3314FBC4FEAE1D08.quest_subtitle: "Poke"
 	quest.3314FBC4FEAE1D08.title: "&6Deployer"
-	quest.3334D15766A47A46.quest_desc: ["Using a Laser Assembly Program you can speed up the production of &3Unassembled PCBs&r. Just put an Empty PCB in the input chest, pump in some pressure and wait."]
-	quest.3334D15766A47A46.title: "Automating PCBs"
 	quest.3339445194568D77.title: "&2Prudentium Tools"
 	quest.33415CB421F7620A.quest_desc: ["Combines ores with &eoxygen&r to produce clumps. Central to Tier 2 ore processing (3x output). Also purifies other materials. Requires a steady oxygen supply from an &bElectrolytic Separator&r."]
 	quest.33415CB421F7620A.quest_subtitle: "Tier 2"
@@ -2692,6 +2835,12 @@
 	]
 	quest.33D23C65E7274A8F.quest_subtitle: "Upgrade to Awakened Tier"
 	quest.33D23C65E7274A8F.title: "&dThe Awakening&r"
+	quest.33EA1ED95C731A71.quest_desc: [
+		"Craft &3Transistors&r and &3Capacitors&r. These electronic components get soldered onto unassembled PCBs. Each printed circuit board requires both."
+		""
+		"Both are crafted from plastic and basic materials in a crafting table."
+	]
+	quest.33EA1ED95C731A71.title: "Electronic Components"
 	quest.3466C70EB256026B.quest_subtitle: "Spawn egg only (from loot)"
 	quest.3466C70EB256026B.subtitle: "Spawn egg only (from loot)"
 	quest.3466C70EB256026B.title: "Fire Essence Bee"
@@ -2711,6 +2860,12 @@
 	]
 	quest.34B3ED6C37475D4F.quest_subtitle: "Rings of Iron"
 	quest.34B3ED6C37475D4F.title: "Chainmail Armor"
+	quest.34DB494F9DA3570D.quest_desc: [
+		"Build a &3Thermopneumatic Processing Plant&r. This machine combines pressure, heat, and fluid or item inputs to produce advanced materials."
+		""
+		"It is the key to unlocking plastic — the most important intermediate in the mod. Supply pressure via tubes, heat via vortex tube or heat pipe, and pump in LPG with coal as input."
+	]
+	quest.34DB494F9DA3570D.title: "Thermopneumatic Processing"
 	quest.34DC34EA5ED7C96D.quest_subtitle: "Sets the time to night"
 	quest.34DC34EA5ED7C96D.title: "Ritual of Moonfall"
 	quest.3514E9C1A8C7400C.quest_desc: [
@@ -2791,8 +2946,6 @@
 	quest.36BCE35215B2B6E9.title: "Auto-Smoking Upgrade"
 	quest.36CC2FDFA6671640.quest_desc: ["Transmits rotation across gaps without contact. Can be placed diagonally."]
 	quest.36CC2FDFA6671640.title: "Encased Chain Drive"
-	quest.36D72D759C4E8823.quest_desc: ["Maybe a little too fast even."]
-	quest.36D72D759C4E8823.quest_subtitle: "Max: 1"
 	quest.36F87173D8CD1D68.quest_desc: [
 		"Ride the Lightning! Lightning is all about using Electricity to kill and support yourself. Some attacks even work as real Lightning!"
 		""
@@ -2803,15 +2956,6 @@
 	quest.36F87173D8CD1D68.title: "Lightning"
 	quest.37045B986619A03D.quest_subtitle: "Breed: Silver + Glowing"
 	quest.37045B986619A03D.subtitle: "Breed: Silver + Glowing"
-	quest.371A34B297C8A8EF.quest_desc: [
-		"PneumaticCraft is all about Pressure! These quests won't go over everything the mod has, but will still go over a lot! Please remember to check JEI, read the tooltips and read the PNC:R guide book, they are all very useful."
-		""
-		"To get started, you'll need to craft some &3Compressed Iron Ingots&r! The easiest way to do this is to make a hole in the ground, throw in some iron ingots (or blocks) and then blow it up with some TNT!"
-		""
-		"Some might get lost in the explosion, but that's a risk we'll have to take!"
-	]
-	quest.371A34B297C8A8EF.quest_subtitle: "The Power of Air"
-	quest.371A34B297C8A8EF.title: "PneumaticCraft: Repressurized"
 	quest.371A382CF1DDF2B2.quest_desc: [
 		"The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter."
 		""
@@ -2865,6 +3009,12 @@
 	quest.3801E818308438FF.quest_subtitle: "Affects a larger area around targets"
 	quest.383568675B982C5C.quest_desc: ["Obtain gold to begin Blood Magic. The guidebook explains all mechanics and multiblock patterns."]
 	quest.383568675B982C5C.title: "Getting Started"
+	quest.38540BF9D1B4323D.quest_desc: [
+		"Produce an &3Unassembled PCB&r from the etching tank. This is a finished circuit board that still needs electronic components soldered on before it can function."
+		""
+		"Inspect it in your inventory — it should show the etched circuit pattern."
+	]
+	quest.38540BF9D1B4323D.title: "Unassembled PCB"
 	quest.38622692756F1F27.quest_subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.subtitle: "Breed: Crystalline + Ender"
 	quest.38622692756F1F27.title: "Spatial Bee"
@@ -2941,9 +3091,6 @@
 	quest.39E78598D288D80B.quest_subtitle: "Breed: Yellow Pigment + Dark Blue Pigment"
 	quest.39E78598D288D80B.subtitle: "Breed: Yellow Pigment + Dark Blue Pigment"
 	quest.39E78598D288D80B.title: "Dark Green Pigment Bee"
-	quest.39F142224D5210A9.quest_desc: ["&3Biodiesel&r can be used to make &3Lubricant&r and &3Molten Plastic&r."]
-	quest.39F142224D5210A9.quest_subtitle: "Bio/Diesel"
-	quest.39F142224D5210A9.title: "Biodiesel"
 	quest.3A1D07AED2A841E4.quest_desc: ["Automatically smelts items placed in the backpack."]
 	quest.3A1D07AED2A841E4.quest_subtitle: "Automatic"
 	quest.3A1D07AED2A841E4.title: "Auto-Smelting Upgrade"
@@ -2964,13 +3111,6 @@
 	quest.3A97E99FEC78E9C2.title: "Mycelial Halitosis Generator"
 	quest.3A9A989D747FF62D.quest_desc: ["Prevents train collisions. Place on tracks at intersections. Required for multi-train networks."]
 	quest.3A9A989D747FF62D.title: "Train Signals"
-	quest.3A9AC6AB4407DC32.quest_desc: [
-		"Although not every recipe requires the same components, you can set up your &3Assembly Lines&r with everything installed. A simple &3Assembly Line&r setup that can be used for everything is shown in the PNC:R guide book."
-		""
-		"Speed Upgrades make this so much quicker!"
-	]
-	quest.3A9AC6AB4407DC32.quest_subtitle: "Some Assembly Required"
-	quest.3A9AC6AB4407DC32.title: "Using Assembly Lines"
 	quest.3A9B90A453C933C4.quest_desc: [
 		"Blood Magic is an arcane path that harnesses the power of life essence through sacrifice. Begin your journey by consulting the Sanguine Scientiem guide book."
 		"This dark art requires careful progression through altar tiers and ritual mastery. The path rewards dedication with powerful sigils, sentient weapons, and living armor."
@@ -2981,6 +3121,12 @@
 		"Dangerous but useful for obsidian farms, traps, and nether-style builds. Handle with care."
 	]
 	quest.3AADA53EC01FB0ED.title: "Lava Sigil"
+	quest.3AAFF48C24A29314.quest_desc: [
+		"Craft a &3Netherite Drill Bit&r for your jackhammer. The ultimate mining upgrade — faster, larger area, and more durable than diamond."
+		""
+		"Requires netherite materials. Worth the investment for serious mining operations."
+	]
+	quest.3AAFF48C24A29314.title: "Netherite Drill Bit"
 	quest.3ABD696164C15C17.quest_desc: ["Wireless redstone transmission. Set frequency with two items. Pairs send/receive."]
 	quest.3ABD696164C15C17.title: "Redstone Link"
 	quest.3AE76B3D7EB48E7C.quest_desc: ["&6Cell2 Blocks&r provide higher energy density than basic cell blocks. They can be mixed with other cell tiers in the same multiblock."]
@@ -3050,12 +3196,24 @@
 	]
 	quest.3C24008E4B8A87EC.quest_subtitle: "The Way of the Warrior Begins"
 	quest.3C24008E4B8A87EC.title: "Iron Samurai Set"
+	quest.3C849A35AA38D920.quest_desc: [
+		"Assemble a &3Pressure Chamber&r — a hollow multiblock made of reinforced stone walls, at least one &3Pressure Chamber Valve&r, and two &3Pressure Chamber Interfaces&r."
+		""
+		"Items are inserted and extracted through the interfaces. The chamber is used for advanced crafting recipes that require high pressure. &eCraft Security Upgrades&r and install them in the valve to prevent dangerous over-pressurization."
+	]
+	quest.3C849A35AA38D920.title: "Pressure Chamber"
 	quest.3C892B33758B7BA6.quest_desc: ["&dCogs &fand &dLarge Cogs&r can interact with each other to change Speed and Stress! \\n\\nIf you connect a &dCog&r, diagonally from a &dLarge Cog&r, the &dCog&r will double in Speed! This is because the &dLarge Cog&r has more Teeth than the &dCog&r, it takes longer to take a full &dRotation&r. \\n\\nThis also works in the reverse, if you put a &dLarge Cog&r diagonal to a &dCog&r, the &dLarge Cog&r will spin at half Speed. \\n\\nThese will also change the Stress Units from the &dCogs&r. More Speed, more Stress. Less Speed, less Stress."]
 	quest.3C892B33758B7BA6.title: "&dCog&r Teamwork!"
 	quest.3C8D9278B81BB37A.quest_desc: ["Increases machine processing speed. Each upgrade stacks for faster operation. Machines can hold up to 8 speed upgrades. Note: faster processing uses more energy per operation."]
 	quest.3C8D9278B81BB37A.title: "Speed Upgrade"
 	quest.3C99017FD32B6DE2.quest_desc: ["&eBrass Casings&r are made the same way as &8Andesite&r and &cCopper Casings&r. Just apply the &eItem&r to Stripped Wood. \\n\\nBut with &eBrass Casings&r giving us some of the most powerful &6Machines&r, it won't be as easy to get as &8Andesite&r or &cCopper&r. \\n\\nLuckily in this modpack you can make &eBrass&r in many different ways! \\n\\nBut the &6&lCreate&r way would be to throw a &cCopper Ingot&r and &7Zinc Ingot&r into a &8Basin&r below a &6Mechanical Mixer&r, while the &8Basin&r is heated."]
 	quest.3C99017FD32B6DE2.title: "&eBrass Casing"
+	quest.3C9945A57E6CE1DA.quest_desc: [
+		"Craft a &3Speed Upgrade&r, &3Volume Upgrade&r, &3Range Upgrade&r, and &3Dispenser Upgrade&r. Most PneumaticCraft machines accept upgrades through their GUI."
+		""
+		"&3Speed&r increases processing rate. &3Volume&r increases air storage. &3Range&r extends working area. &3Dispenser&r enables world interaction. Check each machine's upgrade slots."
+	]
+	quest.3C9945A57E6CE1DA.title: "Machine Upgrades"
 	quest.3CB7884B7B32CF00.quest_desc: [
 		"Getting your first &bEther Gas&r might be a little bit scary."
 		""
@@ -3072,8 +3230,6 @@
 	quest.3CE3D9245F8EC005.quest_desc: ["The fourth MEGA tier of storage component, providing &e67108864&f (65536k) bytes of storage."]
 	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
 	quest.3CE3D9245F8EC005.title: "64M Storage Component"
-	quest.3CFE522A4B7CC2EC.quest_desc: ["The &3Reinforced Chest&r is a blast-proof Chest with 36 slots. Not Double Chest-able. Also works like a Shulker Box."]
-	quest.3CFE522A4B7CC2EC.quest_subtitle: "Better than your Everyday Chest"
 	quest.3D00118E2760D129.quest_subtitle: "Names an entity after the spell name"
 	quest.3D2A03EB2B91E9C1.quest_desc: ["These are literally just fancy Hoppers. \\n\\nThey connect two Inventories, bringing &eItems&r from the Top one to the Bottom one. \\n\\n&eChutes&r can connect to each other, even diagonally. \\n\\nYou can also use them with &6Fans&r to shoot &eItems&r up the &eChutes&r!"]
 	quest.3D2A03EB2B91E9C1.title: "&eChute"
@@ -3091,8 +3247,6 @@
 	quest.3D7480E4F9063E93.title: "Rancher Bee"
 	quest.3D7ACC6C82AE9C8E.quest_desc: ["Sends data to display targets. Links sources like tanks to signs or boards."]
 	quest.3D7ACC6C82AE9C8E.title: "Display Link"
-	quest.3D819550074CA376.quest_desc: ["The item will need to be placed here before getting picked back up."]
-	quest.3D819550074CA376.quest_subtitle: "Always Required"
 	quest.3DA7D0BA045CE7AB.quest_desc: [
 		"The Blood Altar is the cornerstone of Blood Magic. Place it and use the Sacrificial Dagger to cut yourself, filling the altar with Life Essence."
 		"Stand on the altar and right-click the dagger to self-sacrifice. The altar stores LP (Life Points) which powers all Blood Magic operations."
@@ -3111,9 +3265,6 @@
 	quest.3DDB7C8E61BA048F.title: "Nether Seeds"
 	quest.3DE688515E217F5F.quest_desc: ["Lost Tablets are ancient artifacts found in dungeon loot or dropped rarely by undead. These tablets depict distant locations and can be awakened by right-clicking on a Grave Soul to enable teleportation to mysterious places."]
 	quest.3DE688515E217F5F.title: "Lost Tablet"
-	quest.3E16CF590C911129.quest_desc: ["The &3Air Compressor&r is an easy way of making pressure, simply put some burnable items into it, and watch the magic happen! (I recommend making at least 3 of these to start off with)."]
-	quest.3E16CF590C911129.quest_subtitle: "Feeling the Pressure"
-	quest.3E16CF590C911129.title: "Generating Pressure"
 	quest.3E26E20B8AE80FF9.quest_desc: ["Catch 5 Catfish. Found in various freshwater biomes."]
 	quest.3E26E20B8AE80FF9.quest_subtitle: "Catfish"
 	quest.3E26E20B8AE80FF9.title: "Catfish Collection"
@@ -3160,9 +3311,6 @@
 	quest.3F2C1A81C17D2D67.title: "&6Mechanical Arm"
 	quest.3F663416E824720C.quest_desc: ["&cCopper Casings&r will be needed for most Machines involved in &bFluid Logistics&r. \\n\\nYou wanna place &9Water&r? You'll need &cCopper Casings&r. You wanna pick up &9Water&r? You'll need &cCopper Casings&r. \\n\\nThey are made just like &8Andesite Casings&r, apply a &cCopper Ingot&r to a Stripped Log."]
 	quest.3F663416E824720C.title: "&cCopper Casings"
-	quest.3F9CCCFEF4E84166.quest_desc: ["To increase your heat production, place a &3Heat Sink&r on the cold side of your Vortex Tube."]
-	quest.3F9CCCFEF4E84166.quest_subtitle: "More Heat"
-	quest.3F9CCCFEF4E84166.title: "Better Heat Production"
 	quest.3FBCBBEBB78B83FC.quest_desc: ["Finally make a &5Train&r! \\n\\nWe should have our &5Boogeys&r from the &5Train Station&r Quest, no the design of &5Boogey&r doesn't matter. \\n\\nThen, we can place Blocks onto the &5Boogey&r with &aSuper-Glue&r. It doesn't matter what Blocks, pretty much any Block that can be moved can be &aGlued&r! \\n\\nThis is when you try and make it look pretty! \\n\\nThe most important Block for our &5Train&r is the &5Train Controls&r. You'll need one in order to actually move the &5Train&r. \\n\\nYou can also add a &5Seat&r for &5Conductors&r (more on that later) or even yourself! \\n\\nOnce it is all ready, just hit \"Assemble Train\" and either your &5Train&r will be made, or it will tell you what you did wrong!"]
 	quest.3FBCBBEBB78B83FC.title: "Constructing &5Trains"
 	quest.3FD702B5AB006402.quest_desc: [
@@ -3198,8 +3346,6 @@
 		"The logs and planks are useful for creating several tools and items within EvilCraft."
 	]
 	quest.40888A2C17D8FFF6.title: "Undead Trees"
-	quest.40924F0D64253A38.quest_desc: ["Makes things able to dispense items."]
-	quest.40924F0D64253A38.quest_subtitle: "Gone!"
 	quest.409A92D40F539485.quest_subtitle: "Tier: &e1"
 	quest.409A92D40F539485.title: "Wood Seeds"
 	quest.40B13424FA523E11.quest_subtitle: "Tier: &a2"
@@ -3219,9 +3365,6 @@
 	quest.40E4F1172A164DD1.title: "Sugarbag Bee"
 	quest.40E8940C92668D4F.quest_desc: ["Electrolyze heavy water to produce &edeuterium&r. Pump water with filter upgrade to extract heavy water, then separate. One of two fusion fuel components."]
 	quest.40E8940C92668D4F.title: "Deuterium Production"
-	quest.40F634AC38F42B88.quest_desc: ["To move pressure you will need to obtain &3Pressure Tubes&r. What pressure you may be asking? Continue the questline to see what these are used for."]
-	quest.40F634AC38F42B88.quest_subtitle: "What Pressure?"
-	quest.40F634AC38F42B88.title: "Moving Pressure"
 	quest.40F8A44DF4D8DBD6.quest_subtitle: "Magmatic + Nomad"
 	quest.40F8A44DF4D8DBD6.title: "BlazBee"
 	quest.41030E1E341C3A4E.quest_desc: [
@@ -3230,6 +3373,12 @@
 	]
 	quest.41030E1E341C3A4E.title: "Living Armor"
 	quest.4104ABDC0E577350.title: "Nature Upgrade Orb"
+	quest.412D24173CB78271.quest_desc: [
+		"Craft an &3Electrostatic Compressor&r and an &3Advanced Liquid Compressor&r. The electrostatic compressor generates pressure from lightning — place iron bars above it to attract strikes."
+		""
+		"The advanced liquid compressor is a more efficient version for high-throughput fuel burning."
+	]
+	quest.412D24173CB78271.title: "Specialist Compressors"
 	quest.4139148E4EC8D310.quest_desc: [
 		"Dust of Vanishing allows for a quick escape. Right-click to vanish in a cloud of smoke, becoming temporarily invisible and causing nearby hostile mobs to lose track of you."
 		""
@@ -3280,9 +3429,6 @@
 		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
 	]
 	quest.422D7945AA0DFB0C.title: "Neptune's Bounty"
-	quest.423B8DA485C1308C.quest_desc: ["&3Gasoline&r can be used to make LPG."]
-	quest.423B8DA485C1308C.quest_subtitle: "Gas, gas, gas"
-	quest.423B8DA485C1308C.title: "Gasoline"
 	quest.424B3E3B299D3999.quest_desc: ["Extracts chemicals from machines. Drag over chemical gauges in GUIs to remove contents. Right-click storage to deposit. Useful for clearing stuck chemicals or transferring small amounts."]
 	quest.424B3E3B299D3999.title: "Gauge Dropper"
 	quest.4274E777FB60BA28.quest_desc: ["Charges all powered items in your inventory when you stand on it. Connect to power supply and place near workstations. Convenient for keeping tools and armor charged."]
@@ -3295,9 +3441,6 @@
 	quest.427C3AFC0FF131CD.title: "Fluids"
 	quest.4285510271B5223D.quest_desc: ["The &dGearbox&r is helpful for sending &dRotational Power&r in a whole bunch of different directions! \\n\\nThe normal &dGearbox&r will have 4 internal &8Shafts&r, on each of the Cardinal Directions: North, East, South, and West. \\n\\nThe other &8Shafts&r will match the Speed and Stress Units but they will also spin in different directions from the original &8Shaft&r."]
 	quest.4285510271B5223D.title: "&dGearbox"
-	quest.42951D14ADCD9332.quest_desc: ["Could I get that with some Mashed Peas with a side of Beans on Toast please Governor?"]
-	quest.42951D14ADCD9332.quest_subtitle: "Fancy some Fish \\& Chips?"
-	quest.42951D14ADCD9332.title: "Fish \\& Chips!"
 	quest.429B5A81DF6C43FE.quest_desc: [
 		"Nether creatures can be possessed for special drops."
 		""
@@ -3358,7 +3501,6 @@
 	quest.439B5FDAC84271A2.quest_subtitle: "Breed: Diamond + Iron"
 	quest.439B5FDAC84271A2.subtitle: "Breed: Diamond + Iron"
 	quest.439B5FDAC84271A2.title: "Titanium Bee"
-	quest.43CDC28DC56BB3E2.quest_subtitle: "128,000mb"
 	quest.43DB0CFC5F5B0967.quest_desc: ["Displays radiation level in HUD. Warns of dangerous radiation exposure. Important for reactor operations."]
 	quest.43DB0CFC5F5B0967.quest_subtitle: "Helmet"
 	quest.43DB0CFC5F5B0967.title: "Dosimeter Module"
@@ -3371,17 +3513,12 @@
 		"Keep a steady supply from your Worm Farm for consistent fishing efficiency."
 	]
 	quest.43EF1FFC08F16D1D.title: "Harvesting Worms"
-	quest.43EF5513A1C52A37.quest_desc: ["The &3Thermopneumatic Processing Plant&r will be used to make Molten Plastic, simply pump in some LPG, Coal and some heat."]
-	quest.43EF5513A1C52A37.quest_subtitle: "The longer the name, the better"
-	quest.43EF5513A1C52A37.title: "Thermopneumatic Processing"
 	quest.4407BD7B5F033765.quest_desc: [
 		"Another Craftable Spell Book and following the pattern this one is even more expensive. It requires Arcane Clothes, Gold, and an Enchanted Book. It's not picky on which Book just needs to be Enchanted!"
 		""
 		"It has 10 Spell Slots and grants a huge Mana Boost!"
 	]
 	quest.4407BD7B5F033765.title: "Enchanted Spell Book"
-	quest.440B1E1D4951F808.quest_desc: ["The &3Smart Chest&r is a blast-proof Chest with 72 slots, includes a built in, fully configurable Omnidirectional Hopper and has upgrade slots. Not Double Chest-able. Also works like a Shulker Box."]
-	quest.440B1E1D4951F808.quest_subtitle: "The Nerds of Chests"
 	quest.441D994CB752E6A8.quest_desc: ["Armor that gains experience through combat. Develops upgrades based on your playstyle."]
 	quest.441D994CB752E6A8.title: "Living Armor"
 	quest.44451D04A277F3FE.quest_desc: ["Catch 5 Piranha. Found in jungle biomes. Handle with care."]
@@ -3404,8 +3541,6 @@
 	quest.45268A619787288F.title: "Gold Backpack"
 	quest.4526E151BAE88310.quest_subtitle: "Tier: &e1"
 	quest.4526E151BAE88310.title: "Dirt Seeds"
-	quest.456B9DD108CF340F.quest_desc: ["Makes things faster."]
-	quest.456B9DD108CF340F.quest_subtitle: "Speedy!"
 	quest.4578C0EE82F66BD9.quest_desc: [
 		"Ritual Stones and the Master Ritual Stone form the basis of the ritual system. Place the Master in the center."
 		"Rituals are complex multiblock structures that provide powerful effects like flight, mining speed, mob spawning, and more."
@@ -3438,17 +3573,15 @@
 	]
 	quest.460A8F17F3ED6CAF.quest_subtitle: "The first MEGAbyte."
 	quest.460A8F17F3ED6CAF.title: "1M Storage Component"
-	quest.461C8F1E88AA58D9.quest_desc: [
-		"These can be used in recipes using the bucketed version of PneumaticCraft liquids."
-		""
-		"When a &3Fluid Tank&r is put on top of another &3Fluid Tank&r and wrenched together they become one big tank."
-	]
-	quest.461C8F1E88AA58D9.quest_subtitle: "32,000mb"
 	quest.46469E3A8AF0CB80.quest_subtitle: "Applies silk-touch effect to Break"
-	quest.46BE62C20C720D10.quest_desc: ["Makes Endermen not get angry at you like Carved Pumpkins."]
-	quest.46BE62C20C720D10.quest_subtitle: "Max: 1"
 	quest.46D756F4DC6CC894.quest_desc: ["Maximum capacity. Fireproof and survives lava."]
 	quest.46D756F4DC6CC894.title: "Netherite Backpack"
+	quest.46DB421290C57404.quest_desc: [
+		"Craft an &3Omnidirectional Hopper&r, a &3Liquid Hopper&r, and a &3Transfer Gadget&r. These are PneumaticCraft's item and fluid movement tools."
+		""
+		"The omnidirectional hopper pulls from any side. The liquid hopper handles fluids. The transfer gadget moves items between adjacent inventories."
+	]
+	quest.46DB421290C57404.title: "Item Transport"
 	quest.47045A0E8E3457C2.quest_subtitle: "Tier: &63"
 	quest.47045A0E8E3457C2.title: "Certus Quartz Seeds"
 	quest.471106F91741DCAA.quest_desc: ["&6Program Cards&r store the programs you create in the &eProgrammer&r. Cards can be copied and shared."]
@@ -3459,6 +3592,12 @@
 		"This fruit is used to create Spirit Fire, which is essential for converting materials into their otherworldly forms."
 	]
 	quest.47358ADC1470C82A.title: "Demon's Dream Fruit"
+	quest.474FCD149144A0F2.quest_desc: [
+		"Craft a &3Liquid Compressor&r and a &3Thermal Compressor&r. The liquid compressor burns liquid fuels for higher efficiency than solid fuel."
+		""
+		"The thermal compressor generates pressure from temperature differentials — place it between hot and cold sources. Experiment to find your preferred setup."
+	]
+	quest.474FCD149144A0F2.title: "Alternate Compressors"
 	quest.475B63AF0E87E318.quest_subtitle: "Tier 5 - Accelerates Growth"
 	quest.475B63AF0E87E318.title: "&4Supremium Watering Can"
 	quest.475D3013FEA877EC.quest_desc: [
@@ -3513,8 +3652,6 @@
 	]
 	quest.4821419D44F8083F.quest_subtitle: "Range: &e9&r Blocks"
 	quest.4821419D44F8083F.title: "&aInferium Growth Accelerator"
-	quest.482E558BCFEE6B7E.quest_desc: ["&3Construction Bricks&r are cool building blocks, be careful they hurt. Craft them again to make them smooth."]
-	quest.482E558BCFEE6B7E.quest_subtitle: "There's no pain worse than stepping on these"
 	quest.483892F0A0F75B97.quest_desc: ["&bFluid Pipes&r are what we'll use to actually move &bFluids&r automatically from one Inventory to another! \\n\\nYou can place them down and they will automatically connect to Inventories and other &bPipes&r. \\n\\nWith a Wrench you can add Windows to a &bPipe&r. These won't connect to parallel &bPipes&r without Windows. \\n\\nThe &bPipes&r themselves won't move &bFluids&r though, we'll need a &bMechanical Pump&r for that! \\n\\nWhen we do get &bPipes&r to start flowing though, we can use them to take &bFluids&r out from a Source Block or the opposite with placing down Source Blocks. \\n\\nThe &bPipe&r will need to have an Open End to do so though, so there can't be Blocks in the way."]
 	quest.483892F0A0F75B97.title: "&bFluid Pipe"
 	quest.483E93500E645835.quest_desc: [
@@ -3539,7 +3676,8 @@
 		"Higher capacity gems allow crafting more expensive forge recipes and fueling sentient weapons for longer."
 	]
 	quest.487275B970530E3F.title: "Lesser Tartaric Gem"
-	quest.488DBE69595F38F8.quest_desc: ["Electric furnace that smelts items using power instead of fuel. Faster than vanilla furnaces and can be upgraded for even higher throughput. Integrates cleanly with ore processing chains."]
+	quest.488DBE69595F38F8.quest_desc: ["Electric furnace that smelts items using &4power&r instead of &7fuel&r. Faster than vanilla furnaces and can be &eupgraded&r for even higher throughput, processing multiple item stacks at a time."]
+	quest.488DBE69595F38F8.quest_subtitle: "Powered Furnace"
 	quest.488DBE69595F38F8.title: "Energized Smelter"
 	quest.4897C7BB3139C6C6.quest_subtitle: "Breed: Iron + Nickel"
 	quest.4897C7BB3139C6C6.subtitle: "Breed: Iron + Nickel"
@@ -3573,13 +3711,17 @@
 	quest.495990C8C95A955B.quest_subtitle: "Places a temporary redstone signal"
 	quest.495B0CC178B4CFA9.quest_desc: ["The &eBrass Funnel&r is placed and used similar to the &eAndesite Tunnel&r. \\n\\nBut each side comes with new configs! \\n\\nThe Input Side will now come with a Filter option. Just place the &eItem&r in, and it will only take in that &eItem&r. \\n\\nThe Output Side will now come with a limit. You can Scroll to set a number from 1 to 64. You can also choose whether it will Output exactly that amount, or up to that amount. \\n\\nIf it is exactly that amout, it will wait until that amount is within the Inventory to Output it. If it is up to, it will keep Outputting &eItems&r until that number is reached."]
 	quest.495B0CC178B4CFA9.title: "&eBrass Funnel"
-	quest.495DCA49B4E80852.quest_desc: ["The &3Minigun&r is a gun that needs pressure and ammo to work. Read the tooltip for more info."]
-	quest.495DCA49B4E80852.quest_subtitle: "Pew Pew!"
 	quest.496639EC3DC0165C.quest_subtitle: "Harvests crops without destroying them"
 	quest.4978A9B616362CCE.quest_desc: ["Upgrade to Tier 2 promises to unlock even more powerful machine upgrades and recipes."]
 	quest.4978A9B616362CCE.title: "&aRank 2&r: More &cBlood"
 	quest.498A4DE25BE1B639.quest_subtitle: "Breed: Protactinium + Radioactive"
 	quest.498A4DE25BE1B639.subtitle: "Breed: Protactinium + Radioactive"
+	quest.499260F476EB4861.quest_desc: [
+		"With all assembly components placed and connected, run your first assembly recipe. Insert the required input items and verify the controller assigns work to the correct tools."
+		""
+		"&eA working assembly system is the gateway to endgame PneumaticCraft.&r Advanced tubes, armor, and specialist machines all require assembly-crafted components."
+	]
+	quest.499260F476EB4861.title: "Assembly System Complete"
 	quest.49A5996B4F4807E5.quest_desc: ["Create Crafts & Additions. Compact wire storage for automation. Made from copper wire on the Rolling Mill."]
 	quest.49A5996B4F4807E5.title: "Copper Spool"
 	quest.49BF83C39CE65B64.quest_desc: [
@@ -3602,8 +3744,6 @@
 	]
 	quest.4A050181D999577F.quest_subtitle: "Combat Mode and Auto-Battle"
 	quest.4A050181D999577F.title: "Combat Mode Basics"
-	quest.4A076530297F4A97.quest_desc: ["With these 3 components you can create some amazing &3Elevators&r. Check the PNC:R guide book for building instructions."]
-	quest.4A076530297F4A97.title: "Elevators"
 	quest.4A41FCBFE985D81E.quest_subtitle: "Grants Elytra-like flight"
 	quest.4A45357A4CE13374.quest_desc: ["Base material for sigil crafting. Combine with reagents to create sigil components."]
 	quest.4A45357A4CE13374.title: "Arcane Ashes"
@@ -3650,8 +3790,6 @@
 	quest.4B35C01F5D0AAC58.title: "Steel Ingot"
 	quest.4B3B2A0F31876D75.quest_desc: ["Craft additional &6Blazing Generators&r for higher power output. Multiple generators can feed into shared storage."]
 	quest.4B3B2A0F31876D75.title: "Additional Blazing Generators"
-	quest.4B4F5341D6DBDD19.quest_desc: ["Keep your breathing underwater, once your bubbles go down to 5 they will be refilled! It also allows you to see much more easily underwater!"]
-	quest.4B4F5341D6DBDD19.quest_subtitle: "Max: 1"
 	quest.4B51189C36B8D291.quest_desc: [
 		"Blood Runes form the structure around your altar, unlocking higher tiers and providing various bonuses."
 		"The Tier 2 altar requires 8 runes placed in a ring around the altar at the same level. Check the guide book for exact placement patterns."
@@ -3685,8 +3823,6 @@
 	]
 	quest.4C0BDD483CCB40C4.quest_desc: ["High-capacity storage with multiple upgrade slots."]
 	quest.4C0BDD483CCB40C4.title: "Diamond Tier"
-	quest.4C0D00B5305117A1.quest_desc: ["The &3Sentry Turret&r can be placed somewhere and set to attack mobs or players when they are in range. It just needs some Minigun Ammo."]
-	quest.4C0D00B5305117A1.quest_subtitle: "Pew Pew (Without you)"
 	quest.4C0EAB9F795686D0.quest_desc: ["Deposit with configurable filters."]
 	quest.4C0EAB9F795686D0.quest_subtitle: "More Filtering Options"
 	quest.4C0EAB9F795686D0.title: "Advanced Deposit Upgrade"
@@ -3751,8 +3887,6 @@
 	quest.4C873491F6F0FFAF.title: "Spiritfire Conversions"
 	quest.4C966AAA649911C8.quest_desc: ["Links minecarts together. Right-click two carts sequentially. Creates cart trains."]
 	quest.4C966AAA649911C8.title: "Minecart Coupling"
-	quest.4CA17B0A80020B2F.quest_desc: ["The &3Manometer&r is used to show extra information about a machine."]
-	quest.4CA17B0A80020B2F.quest_subtitle: "I need more Info!"
 	quest.4CAC87774C1B15C0.quest_subtitle: "Harvests entire trees and vegetation"
 	quest.4CCA1E2AAA9AB9D9.quest_desc: ["When's this one going to come to the Mod?"]
 	quest.4CCA1E2AAA9AB9D9.title: "Electromancer Outfit"
@@ -3807,7 +3941,6 @@
 	quest.4E09BBC0BAED3440.title: "Emerald Seeds"
 	quest.4E18E28BDF6B7983.quest_desc: ["I/O for the fusion reactor. Configure for fuel input, coolant, steam output, or power output. Need multiple ports for full operation. Place in reactor frame."]
 	quest.4E18E28BDF6B7983.title: "Fusion Reactor Port"
-	quest.4E1E31EDD544EE10.quest_subtitle: "64,000mb"
 	quest.4E3355FDCB65BB63.quest_desc: [
 		"Evokers are known as being a powerful and deadly Miniboss of Minecraft. So of course Iron added an even more powerful and deadly version! And yes this Book is a rare drop from both!"
 		""
@@ -3872,9 +4005,6 @@
 		"Critical for safely drilling Withers for Ether Gas."
 	]
 	quest.4F3EF1574F31A7E2.title: "Stasis Chamber"
-	quest.4F5348D0C83C3B0D.quest_desc: ["&3Solar Cells&r are used to make Solar Compressors."]
-	quest.4F5348D0C83C3B0D.quest_subtitle: "The Sun's Cells"
-	quest.4F5348D0C83C3B0D.title: "Solar Cells"
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "Applies the Wither debuff"
 	quest.4F6859CE7216618F.quest_desc: ["Attracts nearby items to you. Toggle on for automatic item collection."]
 	quest.4F6859CE7216618F.title: "Magnetism Sigil"
@@ -3889,8 +4019,6 @@
 	quest.4F9C8D90ACF563F5.quest_desc: ["Enables walking on water. Also increases swim speed. Useful for ocean exploration without flight."]
 	quest.4F9C8D90ACF563F5.quest_subtitle: "Leggings"
 	quest.4F9C8D90ACF563F5.title: "Hydrostatic Repulsor Module"
-	quest.4FCC20D9F8F87B2F.quest_desc: ["The &3Pneumatic Wrench&r is used to move around or break your machines and tubes."]
-	quest.4FCC20D9F8F87B2F.quest_subtitle: "Torque-ing about Tools!"
 	quest.4FE7F45C72EF5DC1.quest_subtitle: "Breed: Iron + Sweat Bee"
 	quest.4FE7F45C72EF5DC1.subtitle: "Breed: Iron + Sweat Bee"
 	quest.4FE7F45C72EF5DC1.title: "Nickel Bee"
@@ -4069,6 +4197,12 @@
 		"Craft it using the ARC (Alchemical Reaction Chamber) with appropriate materials."
 	]
 	quest.50A28E1946047A6E.title: "Weak Tau Oil"
+	quest.50BB25ABE6564453.quest_desc: [
+		"Build a &3Charging Station&r to fill pneumatic tools and items with pressurized air. Place any chargeable item on top and supply pressure through tubes."
+		""
+		"Many PneumaticCraft tools — the wrench, manometer, minigun, and armor — require charging before use. This station is essential infrastructure."
+	]
+	quest.50BB25ABE6564453.title: "Charging Station"
 	quest.50DBB87E53017E60.quest_desc: ["&bFluid Valves&r can be used to stop &bPipes&r from moving &bFluid&r. \\n\\nGive them a Rotation, most likely from a &cValve Handle&r, to stop moving &bFluids&r. \\n\\nJust Rotate it again to get the &bFluids&r back!"]
 	quest.50DBB87E53017E60.title: "&bFluid Valve"
 	quest.50ED69AEEE808B24.quest_subtitle: "Breed: Sodium + Hydrogen"
@@ -4084,8 +4218,6 @@
 	quest.50EEDDDE129D2742.title: "Craft Hellshelves"
 	quest.50F23B2688D7E699.quest_desc: ["Crystallize &eantimatter&r gas into solid pellets. Required for Mekasuit armor, Meka-Tool, and nucleosynthesis. The most valuable material in Mekanism."]
 	quest.50F23B2688D7E699.title: "Antimatter Pellet"
-	quest.5103C817381181DE.quest_desc: ["Allows you to use an Elytra while still having your Pneumatic Chestplate on."]
-	quest.5103C817381181DE.quest_subtitle: "Max: 1"
 	quest.51162B9185A45BB1.quest_desc: [
 		"This bow can be inscribed with a spell using a Scribe's Table."
 		""
@@ -4156,11 +4288,6 @@
 	quest.51DE3157DE3E57B8.title: "Auto-Crafting"
 	quest.51EA6B1452883AB2.quest_desc: ["Linear Chasis work like Puddy in real life, only connecting to each other. \\n\\nLinear Chasis, which are facing the same way, will automatically connect as if they were Glued. Other Linear Chasis or ones facing different ways, will not stick together. \\n\\nYou can then use Glue on the Top and Bottom of the Linear Chasis to connect a line of Blocks from it. So all Blocks on top of those will be Glued to the Linear Chasis. Very helpful for saving Glue! \\n\\nWith the Wrench you can set how many Blocks get Glued on the Top or Bottom of the Linear Chasis."]
 	quest.51EA6B1452883AB2.title: "&aLinear Chasis"
-	quest.520EFA7F446AFBF2.quest_desc: ["&3Lubricant&r can be used to make Drill Bits."]
-	quest.520EFA7F446AFBF2.quest_subtitle: "Producing Lube!"
-	quest.520EFA7F446AFBF2.title: "Lubricant"
-	quest.521656D425E2FDBA.quest_desc: ["Goes even faster than Tier II."]
-	quest.521656D425E2FDBA.quest_subtitle: "Max: 1"
 	quest.5229EE4867DCB2EB.quest_desc: ["Transmits rotation and moves items/entities. Place on two shafts with Andesite Casing."]
 	quest.5229EE4867DCB2EB.title: "Mechanical Belt"
 	quest.5233A447BAA4593C.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
@@ -4197,12 +4324,8 @@
 		"Each grave has a cooldown before it can be prayed at again. Knowledge points unlock perks in the Tombstone GUI."
 	]
 	quest.52CAC54AF7568E85.title: "Ankh of Prayer"
-	quest.52D3697F1F5625C7.quest_desc: ["&3Etching Acid&r is made in the Pressure Chamber with Molten Plastic...and some other stuff. Used in the Etching Tank."]
-	quest.52D3697F1F5625C7.quest_subtitle: "Don't Ask..."
 	quest.52EC3D68CF329D4C.quest_desc: ["Automates train routes. Add stations and conditions. Insert into station controller."]
 	quest.52EC3D68CF329D4C.title: "Train Schedule"
-	quest.5303509A1C2B1CCD.quest_desc: ["The &3Pneumatic Jackhammer&r uses pressure to mine, it can be upgraded to be amazing!"]
-	quest.5303509A1C2B1CCD.quest_subtitle: "Sorry Jack!"
 	quest.53129F8F52DC7541.quest_desc: [
 		"Craft Soul Sucker Boots using 4 Soul Sucker Leather and 2 String in the standard boot pattern."
 		""
@@ -4671,8 +4794,6 @@
 	quest.5347FDCCE74427FE.title: "Magic Traits"
 	quest.5347FFB8573B4876.quest_desc: ["Tier 5 alloy combining space materials. Near-ultimate tier."]
 	quest.5347FFB8573B4876.title: "Cosmic Steel"
-	quest.53518D4ED99A242F.quest_desc: ["The &3Camouflage Applicator&r can be used to hide PneumaticCraft machinery inside of other blocks."]
-	quest.53518D4ED99A242F.quest_subtitle: "Want to make your setup look cool?"
 	quest.5361F72BAB72D318.quest_desc: [
 		"The Dagger of Sacrifice kills mobs instantly and converts their life force into LP for your altar."
 		"Use it on passive mobs near the altar. This is more efficient than self-sacrifice once you have a mob farm set up."
@@ -4709,9 +4830,6 @@
 	quest.540B857F043C24D5.quest_desc: ["The Bioreactor uses Biofuel made from the Biofuel Generator to generate FE."]
 	quest.540B857F043C24D5.title: "Bio Power"
 	quest.541446863A72B96C.title: "Common Ink"
-	quest.54169B69725C49DF.quest_desc: ["Place your Liquid Plastic onto the ground or store some in a Chest with a Heat Frame attached and there's your &3Plastic Sheet&r!"]
-	quest.54169B69725C49DF.quest_subtitle: "Finally!"
-	quest.54169B69725C49DF.title: "&fPlastic"
 	quest.5425794AFEA7D706.quest_desc: ["Places lava source blocks. Useful for fuel generation or mob farms."]
 	quest.5425794AFEA7D706.title: "Lava Sigil"
 	quest.542C6D76B579886C.quest_desc: ["Magebloom is a magical fiber used for crafting various cloth-based items and equipment."]
@@ -4802,6 +4920,12 @@
 	quest.55882C10292B6A3D.quest_subtitle: "Flower: Prosperity Block (Check JEI)"
 	quest.55882C10292B6A3D.subtitle: "Flower: Prosperity Block (Check JEI)"
 	quest.55882C10292B6A3D.title: "ProsperiBee"
+	quest.55A8520241DF2F5F.quest_desc: [
+		"Craft an &3Assembly Controller&r. This is the brain of the assembly system — a crafting automation setup that produces advanced components."
+		""
+		"The controller coordinates all other assembly pieces. Place it as the center of your assembly layout."
+	]
+	quest.55A8520241DF2F5F.title: "Assembly Controller"
 	quest.55D95800839B5164.quest_desc: [
 		"Lockboxes are rarer than regular boxes and contain better loot. They have a lower catch rate but higher reward potential."
 		""
@@ -4810,6 +4934,18 @@
 	quest.55D95800839B5164.title: "Lockbox Discovery"
 	quest.566C1DBA9829E328.quest_desc: ["Recombines dusts or processed materials back into ore blocks. Useful for storage, decoration, or reversing accidental processing. Consumes cobblestone as a binding material."]
 	quest.566C1DBA9829E328.title: "Combiner"
+	quest.56806BFCA37D8D98.quest_desc: [
+		"Craft a &3Pneumatic Jackhammer&r with a &3Diamond Drill Bit&r. The jackhammer is a pressure-powered mining tool that can be upgraded with better bits for increased speed and area."
+		""
+		"Charge the jackhammer at a charging station before use. The &3Netherite Drill Bit&r is the ultimate upgrade."
+	]
+	quest.56806BFCA37D8D98.title: "Pneumatic Jackhammer"
+	quest.56967CB8E68CDE3A.quest_desc: [
+		"Build a &3UV Light Box&r. Place your empty PCB inside with a blueprint to expose the circuit pattern onto the board."
+		""
+		"The UV process takes time — progress is shown in the GUI. The exposed PCB is then ready for etching."
+	]
+	quest.56967CB8E68CDE3A.title: "UV Light Box"
 	quest.569C93853F967B46.quest_desc: [
 		"Defeat 20 Zombified Piglins to earn the Meteor Slam skill book."
 		""
@@ -4822,6 +4958,12 @@
 	quest.56B80A7EBFE21428.quest_desc: ["Enhanced pump with filtering options."]
 	quest.56B80A7EBFE21428.quest_subtitle: "More Filtering Options"
 	quest.56B80A7EBFE21428.title: "Advanced Pump Upgrade"
+	quest.56C4D4FA388942A0.quest_desc: [
+		"Craft a &3Heat Frame&r. This upgrade attaches to any inventory and applies heat-based processing to items inside. It can smelt items, cook food, or cool fluids depending on temperature."
+		""
+		"A simple but powerful tool for passive processing."
+	]
+	quest.56C4D4FA388942A0.title: "Heat Frame"
 	quest.56C96BCF3D002B74.quest_desc: [
 		"The Strange Scroll is crafted from Grave Dust and paper. It serves as the base material for all magic scrolls in Tombstone."
 		""
@@ -4841,6 +4983,12 @@
 	quest.56EC79AF11B0869E.title: "Cruelty Ritual"
 	quest.56FB82DEB944F758.quest_desc: ["Works like the &aMace&r, except it causes an AoE explosion instead."]
 	quest.56FB82DEB944F758.title: "Mace of Distortion"
+	quest.5706B5BFF072EBFC.quest_desc: [
+		"Build an &3Aerial Interface&r. This advanced machine connects to a player and can automatically recharge worn pneumatic equipment. Place it in your base, link it to yourself, and your armor will never run dry."
+		""
+		"&eRequires a steady pressure supply.&r Connect it to your main network with advanced tubes."
+	]
+	quest.5706B5BFF072EBFC.title: "Aerial Interface"
 	quest.57167FE67CFAC255.quest_subtitle: "Used to add Bees to a Filter"
 	quest.57282D7E31EE61EE.quest_desc: [
 		"The &bIesnium Pickaxe&f is a powerful mining tool that automatically sees Otherworld blocks."
@@ -4853,6 +5001,12 @@
 	quest.573BC5360C5CA675.quest_subtitle: "Breed: Ghostly + Zombie | Breed: Ghostly + Skeletal"
 	quest.573BC5360C5CA675.subtitle: "Breed: Ghostly + Zombie | Breed: Ghostly + Skeletal"
 	quest.573BC5360C5CA675.title: "Grave's Bee"
+	quest.575CCBB85B73BF2E.quest_desc: [
+		"Build a &3Sentry Turret&r. An automated defense platform that fires at hostile entities in range. Load it with gun ammo and supply pressure to keep it active."
+		""
+		"Place near base entrances or mob farms for passive defense. Configurable targeting filters available in the GUI."
+	]
+	quest.575CCBB85B73BF2E.title: "Sentry Turret"
 	quest.5766C8B9E850C186.quest_desc: [
 		"To create one of the main crafting items in Ars, the Source Gem, we'll need to make an Imbuement Chamber."
 		""
@@ -4887,6 +5041,12 @@
 	quest.57CF8C6C867B9BDA.quest_desc: ["Enhanced filter with more slots and matching options."]
 	quest.57CF8C6C867B9BDA.quest_subtitle: "More Filtering Options"
 	quest.57CF8C6C867B9BDA.title: "Advanced Filter Upgrade"
+	quest.57E119F749A324F7.quest_desc: [
+		"Craft a &3Reinforced Chest&r. A blast-resistant storage container made from reinforced stone."
+		""
+		"Useful for protecting valuables near high-pressure equipment."
+	]
+	quest.57E119F749A324F7.title: "Reinforced Chest"
 	quest.58245132D32285F2.quest_desc: ["Catch 5 Starshell Turtles. A special turtle variety."]
 	quest.58245132D32285F2.quest_subtitle: "Turtle"
 	quest.58245132D32285F2.title: "Starshell Turtle Collection"
@@ -4922,13 +5082,17 @@
 	quest.589EB4602E3F9EEE.quest_subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.589EB4602E3F9EEE.subtitle: "Breed: Crystalline + Ashy Mining Bee"
 	quest.589EB4602E3F9EEE.title: "Tin Bee"
-	quest.58B125BD4876054C.quest_desc: ["Mekanism machines require iron as a primary crafting material. Gather iron to begin building your industrial base."]
-	quest.58B125BD4876054C.title: "Iron Ingot"
 	quest.58B5EF8EB72934C2.quest_desc: ["Built-in jetpack for Mekasuit chestplate. Uses energy instead of hydrogen. Multiple flight modes available. Core mobility module."]
 	quest.58B5EF8EB72934C2.quest_subtitle: "Chestplate"
 	quest.58B5EF8EB72934C2.title: "Jetpack Module"
 	quest.58C33ED92F63EACB.quest_subtitle: "Flower: Near animals (vampire bee)"
 	quest.58C33ED92F63EACB.subtitle: "Flower: Near animals (vampire bee)"
+	quest.58CE08DFDC1C3046.quest_desc: [
+		"Produce &3Biodiesel&r. The chain: grow &3Yeast Culture&r, ferment into &3Ethanol&r, then combine ethanol with vegetable oil to make biodiesel."
+		""
+		"Biodiesel is a renewable fuel that works in liquid compressors — build a sustainable pressure loop without relying on oil."
+	]
+	quest.58CE08DFDC1C3046.title: "Biodiesel Production"
 	quest.58D085452013268B.quest_desc: [
 		"Neptunium Ingots are found inside Neptune's Bounty chests. This rare material creates powerful aquatic gear."
 		""
@@ -4984,8 +5148,6 @@
 		"Place it near your fishing spot for quick access to your gear. You can shift-click to pick up the entire box with its contents."
 	]
 	quest.59F2EAF2D6AE2813.title: "The Tackle Box"
-	quest.5A0860631323B5E3.quest_desc: ["Made with &3Wheat Flour&r. Can be used to make Salmon Tempura and Sourdough Bread."]
-	quest.5A0860631323B5E3.quest_subtitle: "You knead this"
 	quest.5A088F8402230BA5.quest_desc: ["I/O for the fission reactor multiblock. Configure for fuel input, coolant input, heated coolant output, or waste output. Need multiple ports for full reactor operation."]
 	quest.5A088F8402230BA5.title: "Fission Reactor Port"
 	quest.5A12C7964E51AB68.quest_desc: [
@@ -5018,8 +5180,6 @@
 		"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
 	]
 	quest.5A8F4CA0F09F4842.title: "Removing &dEnchantments&r and &dCurses"
-	quest.5A9D6672385D3D82.quest_desc: ["Only use 1 Lapis for an Upgrade instead of 4."]
-	quest.5A9D6672385D3D82.quest_subtitle: "Saving Lapis"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
 		"Naturally, AE2 provides its own way to dramatically speed up crystal growth."
 		""
@@ -5053,9 +5213,12 @@
 	quest.5AE851B8074BC7E6.title: "Redstone Crystal Bee"
 	quest.5AEA705D6A64A982.quest_desc: ["Use daylight sensors and other redstone inputs with logic adapters for sophisticated reactor automation. Control burn rate based on power demand or time of day."]
 	quest.5AEA705D6A64A982.title: "Automated Reactor Control"
-	quest.5AEE86EB39FD4087.quest_desc: ["The &3Vortex Tube&r separates pressure into hot and cold air. The cold air goes to the blue side and the hot air goes to the red side."]
-	quest.5AEE86EB39FD4087.quest_subtitle: "Still not RF..."
-	quest.5AEE86EB39FD4087.title: "Heat Production"
+	quest.5AEC912F5CCAC5C8.quest_desc: [
+		"Craft &3Micromissiles&r. A shoulder-mounted launcher that fires guided missiles from your chestplate. Configure targeting in the upgrade GUI to focus on hostile mobs or specific entities."
+		""
+		"Consumes pressure per shot. Devastating against groups of enemies."
+	]
+	quest.5AEC912F5CCAC5C8.title: "Micromissiles"
 	quest.5B013A3A37D6902B.quest_desc: [
 		"You can find the fragments of Ancient Knowledge spread out in the Chests of the Ancient City."
 		""
@@ -5066,6 +5229,12 @@
 	quest.5B18676A77CD6069.title: "QIO Drive Array"
 	quest.5B1E0E3E876339E7.quest_subtitle: "Tier 5 Armor"
 	quest.5B1E0E3E876339E7.title: "&4Supremium Gear"
+	quest.5B2CB449BF70929D.quest_desc: [
+		"Craft an &3Assembly Platform&r, an &3Import IO Unit&r, and an &3Export IO Unit&r. The platform holds the workpiece. Import units feed materials in, export units pull finished products out."
+		""
+		"Arrange these adjacent to the controller. The IO units connect to inventories for automation."
+	]
+	quest.5B2CB449BF70929D.title: "Assembly Line"
 	quest.5B2CCD2B425620CE.quest_desc: [
 		"Create: Enchantment Industry adds automated enchanting, disenchanting, and experience manipulation."
 		""
@@ -5100,14 +5269,18 @@
 	quest.5B52389583A70E66.title: "Uraninite Seeds"
 	quest.5B556192F060F3F1.quest_desc: ["Crush obsidian in the &bCrusher&r, then enrich the dust. Compress with &eosmium&r in the &bOsmium Compressor&r to create &7refined obsidian ingots&r for ultimate-tier recipes."]
 	quest.5B556192F060F3F1.title: "Refined Obsidian Dust"
+	quest.5B705CE593EAF545.quest_desc: [
+		"Craft a &3Compressed Iron Ingot&r by smelting iron in a blast furnace or using a pressure chamber later. This is the base material for nearly everything in &aPneumaticCraft&r."
+		""
+		"Tubes, machines, armor, and tools all start here. &eThe in-game guide book is your best friend&r — check JEI and read tooltips as you go."
+	]
+	quest.5B705CE593EAF545.title: "Compressed Iron"
 	quest.5B969BF6F00A84D8.quest_subtitle: "Breed: Lead + Iron"
 	quest.5B969BF6F00A84D8.subtitle: "Breed: Lead + Iron"
 	quest.5B969BF6F00A84D8.title: "Chromium Bee"
 	quest.5B9F3F32AB28A83A.quest_desc: ["&7Superheating elements&r generate heat when powered. &7Pressure dispersers&r spread steam in the upper chamber. Core components for the thermoelectric boiler multiblock."]
 	quest.5B9F3F32AB28A83A.quest_subtitle: "Optional"
 	quest.5B9F3F32AB28A83A.title: "Boiler Heating Elements"
-	quest.5B9F933ECD6B24FD.quest_desc: ["Allows you to jump higher than with Tier II."]
-	quest.5B9F933ECD6B24FD.quest_subtitle: "Max: 1"
 	quest.5BB155110168DF92.quest_subtitle: "Freezes water/lava or slows targets"
 	quest.5BB389DE5DBDF015.quest_desc: ["Increases LP gained from self-sacrifice. Reduces the health cost of filling your altar."]
 	quest.5BB389DE5DBDF015.title: "Self-Sacrifice Rune"
@@ -5156,8 +5329,6 @@
 		"Use these to fine-tune your setup when an infusion requires lower values than your current shelves provide."
 	]
 	quest.5C56452BE7879D0A.title: "Stat Reduction Shelves"
-	quest.5C7D9BCDF19B86BD.quest_desc: ["Prevents things from exploding."]
-	quest.5C7D9BCDF19B86BD.quest_subtitle: "Secure!"
 	quest.5CC9CB0911954215.quest_desc: ["A Reed Nest will work in any overworld biome, and will lure in a Mason Bee or a Reed Bee."]
 	quest.5CC9CB0911954215.quest_subtitle: "Lures bees in any Overworld Biome"
 	quest.5CCEB9B966C41311.quest_desc: ["Catch 5 Jellyfish. Can be converted to slimeballs."]
@@ -5205,17 +5376,6 @@
 	quest.5CFBA24B3E0CDEDD.title: "Creating Your First Spell"
 	quest.5D43B0074F9FEBDF.quest_desc: ["Create Dragons Plus. Fluid version of Create's Item Hatch. Deposits and retrieves fluids from tanks."]
 	quest.5D43B0074F9FEBDF.title: "Fluid Hatch"
-	quest.5D64250B940BC8FD.quest_desc: [
-		"Compressed Iron can be used to craft &3Compressed Iron Armor&r, it's the same as Iron Armor but with better Armor Toughness and Knockback Resistance."
-		""
-		"The armor can be crafted or can be found commonly in loot chests."
-	]
-	quest.5D64250B940BC8FD.quest_subtitle: "Great Knockback Resistance"
-	quest.5D64250B940BC8FD.title: "Compressed Iron Armor"
-	quest.5D71ED16FD4E725A.quest_desc: ["Makes Piglins Passive (same as wearing Gold Armor), you only need to put the Upgrade on one piece."]
-	quest.5D71ED16FD4E725A.quest_subtitle: "Max: 1"
-	quest.5D7B34761E8FD212.quest_desc: ["The &3Electrostatic Compressor&r generates a lot of pressure from Lightning Strikes. For more info check out the PNC:R guide book."]
-	quest.5D7B34761E8FD212.title: "Pressure from Lightning"
 	quest.5DC892BA79EB52EC.quest_desc: ["The &6Mixer&r can do quite a few different Recipes but all will need a &8Basin&r below it! \\n\\nWe can &6Mix&r, this combines &bLiquids&f and &eItems&f into new &eItems&r. Like Baking! \\n\\n&6Brewing&r can combine the right &bLiquids &fand &eItems&r to make Liquid Potions. These can then be scooped out into Empty Bottles to get Potions. You'll need Heat from a &cBlaze Burner&r to &6Brew&r though. \\n\\nLast is &6Automated Shapeless Crafting&r. To the normal Player this might be a confusing statement but trust me it ain't that bad. &6Shapeless Crafting&r is a Recipe that can be made with the ingrediants in any pattern. \\n\\nLike Dying Wool, the Dye and Wool can be anywhere in the Crafting Table. Or even Silent Gear parts and patterns!"]
 	quest.5DC892BA79EB52EC.title: "&6Mechanical Mixer"
 	quest.5DD6631F5996BA71.quest_desc: ["&9Water Wheels&r are simple automatic &dRotational Power&r generators. \\n\\nSimply place them down, and have &9Water&r run over them in a certain direction. If it flows over both sides, it won't move, and the direction the &9Water&r flows determines where the &9Water Wheel&r &dRotates&r to. \\n\\nThe normal &9Water Wheel&r is just 1 Block big and provides a bit of Speed but with minimal Stress Units. \\n\\nThe &9Large Water Wheel&r takes up 3x3 area and grants more Stress Units, just at a lower Speed. \\n\\nYou can use both together to get the same Stress Units and Speed!"]
@@ -5268,17 +5428,22 @@
 		"When the &eLevel Emitter&f is upgraded with the Crafting Card, it can be configured to emit redstone in order to directly facilitate in crafting, by emitting a signal either &owhile&r a crafting job for its given item is detected or specifically &oto&r craft the item."
 	]
 	quest.5E6585F7627247E3.quest_subtitle: "Automation in upgrade form!"
-	quest.5E71F8A046C60346.quest_desc: [
-		"Whoever told you PneumaticCraft wasn't about generating power?"
+	quest.5E7A189BAE51813A.quest_desc: [
+		"Craft a full set of &3Compressed Iron Armor&r. Decent early-game protection made entirely from compressed iron."
 		""
-		"The &3Pneumatic Dynamo&r allows you to turn your pressure in FE. Read the tooltip or read about it in the PNC:R to learn how it works."
+		"Not as powerful as the &3Pneumatic Armor&r you'll unlock later, but a solid stepping stone."
 	]
-	quest.5E71F8A046C60346.quest_subtitle: "Pressure = Power"
-	quest.5E71F8A046C60346.title: "Generating Power"
+	quest.5E7A189BAE51813A.title: "Compressed Iron Armor"
 	quest.5E7E35CCAF1C88EE.quest_desc: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
 	quest.5E7E35CCAF1C88EE.quest_subtitle: "The I"
 	quest.5E994936ED9616CE.quest_desc: ["Reverses rotation direction when powered by redstone. Useful for bi-directional machines."]
 	quest.5E994936ED9616CE.title: "Gearshift"
+	quest.5ECD8889C329978E.quest_desc: [
+		"Assemble a &3Refinery&r multiblock. Stack the refinery block on the bottom with up to four &3Refinery Outputs&r on top. Wrap the structure in &3Thermal Lagging&r to retain heat and improve efficiency."
+		""
+		"Pump in oil and supply heat. The refinery separates oil into progressively lighter fuels. &eMore output blocks means more fuel types separated.&r"
+	]
+	quest.5ECD8889C329978E.title: "Refinery"
 	quest.5ED368C926E5F32C.quest_desc: [
 		"There is a final class of Spells I forgot to mention. Well all knowledge of these Spells have been forgotten so it's not just me."
 		""
@@ -5294,6 +5459,12 @@
 	quest.5F1784E562C29B66.quest_subtitle: "Spawns: End Stone Nest (End)"
 	quest.5F1784E562C29B66.subtitle: "Spawns: End Stone Nest (End)"
 	quest.5F1784E562C29B66.title: "Ender Bee"
+	quest.5F2E97D646E69700.quest_desc: [
+		"Craft a &3Pneumatic Wrench&r and a &3Manometer&r. The wrench rotates and safely removes pneumatic machines without breaking them. The manometer reads exact pressure levels from any block in the network."
+		""
+		"Charge both at your &3Charging Station&r before first use."
+	]
+	quest.5F2E97D646E69700.title: "Pneumatic Tools"
 	quest.5F56892CD904C40F.quest_desc: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
 	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
 	quest.5F56892CD904C40F.title: "256k Storage Component"
@@ -5340,8 +5511,6 @@
 	quest.600F66B13B29708B.title: "Flesh Rejuvenated"
 	quest.602A6CF9D5B66AD3.quest_desc: ["Crystallizes clean slurry back into solid ore crystals. Also crystallizes &elithium&r, &eantimatter&r, and other chemicals into solid form. Versatile endgame machine."]
 	quest.602A6CF9D5B66AD3.title: "Chemical Crystallizer"
-	quest.602C3E88D96F8843.quest_desc: ["Put a Charged Empty PCB into the Etching Tank with some Etching Acid and some heat and you'll get an &3Unassembled PCBs&r."]
-	quest.602C3E88D96F8843.quest_subtitle: "Almost there!"
 	quest.603BEDD49070ECAD.quest_desc: ["Converts between liquid and gas forms of the same substance. Use to liquefy &ehydrogen&r, gasify &9water&r to vapor, or process reactor coolants. Toggle mode with the button in the GUI."]
 	quest.603BEDD49070ECAD.title: "Rotary Condensentrator"
 	quest.6040773363FE7749.quest_desc: ["Extends contraption linearly. Attach chassis and blocks. Speed controlled by RPM."]
@@ -5366,6 +5535,12 @@
 	quest.60B985069E0E643E.quest_subtitle: "Breed: Lava + Water"
 	quest.60B985069E0E643E.subtitle: "Breed: Lava + Water"
 	quest.60B985069E0E643E.title: "Obsidian Bee"
+	quest.60EB98CFB2837609.quest_desc: [
+		"Collect all four refined fuels: &3Diesel&r, &3Kerosene&r, &3Gasoline&r, and &3LPG&r. Each fuel has different properties — LPG burns hottest while heavier fuels produce more total energy."
+		""
+		"These fuels power advanced compressors and the thermopneumatic processing plant."
+	]
+	quest.60EB98CFB2837609.title: "Fuel Products"
 	quest.60ECCCAB66AAC05D.quest_desc: ["Item transport pipes. Configure with the &bConfigurator&r to set pull/push modes and apply color channels for routing. Higher tiers move items faster. Sneak-click machines to auto-configure connections."]
 	quest.60ECCCAB66AAC05D.title: "Logistical Transporter"
 	quest.60FAD8BF235E381B.title: "Rare Ink"
@@ -5413,12 +5588,6 @@
 	quest.61999669BDE127F9.title: "Chalk Repair"
 	quest.6199A6F3921472A3.quest_subtitle: "Breed: Redstone + Blazing"
 	quest.6199A6F3921472A3.subtitle: "Breed: Redstone + Blazing"
-	quest.61AD2207E770CD7F.quest_desc: ["Allows you to pickup items and experience from further away."]
-	quest.61AD2207E770CD7F.quest_subtitle: "Max: 6"
-	quest.61B479079DC1C69C.quest_desc: ["Allows you to jump higher than with Tier I."]
-	quest.61B479079DC1C69C.quest_subtitle: "Max: 1"
-	quest.61BA2932EC86DA2E.quest_desc: ["Allows you to jump VERY high."]
-	quest.61BA2932EC86DA2E.quest_subtitle: "Max: 1"
 	quest.61C39D6638D64D39.quest_desc: [
 		"The Iron Hook provides a 20% chance to not consume rod durability when catching fish."
 		""
@@ -5442,6 +5611,18 @@
 	quest.626C07DB8B8C5A04.title: "Common Tartaric Gem"
 	quest.62827AA1AD29A222.quest_desc: ["Transfers energy between generators, machines, and storage. Higher tiers transfer more energy per tick. Compatible with most modded power systems (RF/FE)."]
 	quest.62827AA1AD29A222.title: "Universal Cable"
+	quest.6286E76084EA0A03.quest_desc: [
+		"Produce &3Vegetable Oil&r by processing crops or seeds in the &3Thermopneumatic Processing Plant&r."
+		""
+		"This is the base for cooking and biodiesel production."
+	]
+	quest.6286E76084EA0A03.title: "Vegetable Oil"
+	quest.6292243C5FE6AEFF.quest_desc: [
+		"Craft &3Reinforced Stone&r in bulk. This blast-resistant block is the primary building material for the &3Pressure Chamber&r multiblock."
+		""
+		"You will need approximately 95 blocks for a 5x5x5 chamber. Reinforced stone also serves as durable building material for any high-pressure setup."
+	]
+	quest.6292243C5FE6AEFF.title: "Reinforced Stone"
 	quest.62988C8A24A1053E.quest_desc: [
 		"Chainmail offers improved protection over gambeson while maintaining reasonable mobility."
 		""
@@ -5548,15 +5729,6 @@
 	quest.63E62330B4FAE623.title: "Schematicannon"
 	quest.63F41475236F99D2.quest_desc: ["Scans underground for ore deposits. Place the &bSeismic Vibrator&r and power it, then use the &bSeismic Reader&r nearby to view ore locations in a column below. Useful for targeted mining."]
 	quest.63F41475236F99D2.title: "Seismic Equipment"
-	quest.63F6F4EBCEB914B0.quest_desc: [
-		"The &3Pressure Chamber&r is an important multiblock structure made up of &3Pressure Chamber Walls&r (The faces can be replaced with &3Pressure Chamber Glass&r). The Pressure Chamber can be as small as a 3x3x3 multiblock, or as big as a 5x5x5 multiblock. The blocks required for the 5x5x5 is what's needed to complete this quest."
-		""
-		"To use the Pressure Chamber you will need to pipe pressure into a &3Pressure Chamber Valve&r using the &3Pressure Tubes&r you made earlier, remember to put a Security Upgrade into the Pressure Valve. &lDifferent recipes require different amounts of pressure&r."
-		""
-		"You'll need to be able to input and output items to and from the Pressure Chamber, this is where &3Pressure Chamber Interfaces&r come into it. Blue on the outside means it's for importing items, while if gold is on the outside it's for outputing items, place one of each on any face."
-	]
-	quest.63F6F4EBCEB914B0.quest_subtitle: "Pressurizing!"
-	quest.63F6F4EBCEB914B0.title: "The Pressure Chamber"
 	quest.64111783C3458571.quest_desc: ["Propels you upward. Functions as a double-jump at LP cost."]
 	quest.64111783C3458571.title: "Air Sigil"
 	quest.6411B0FD921761C0.quest_subtitle: "Breed: Dark Green Pigment + White Pigment"
@@ -5587,12 +5759,15 @@
 	]
 	quest.6471177FEDB967F8.quest_subtitle: "Knight Errant"
 	quest.6471177FEDB967F8.title: "Bascinet Armor"
+	quest.6482A75510B3728D.quest_desc: [
+		"Install mobility upgrades in your armor. &3Jet Boots&r (tiers 1-5) provide increasingly powerful flight. &3Jumping Upgrades&r (tiers 1-4) boost jump height. &3Flippers&r increase swim speed, and &3Stomp&r creates a shockwave on landing."
+		""
+		"Start with Jet Boots Tier 1 and Jumping Tier 1. Higher tiers consume more air — balance upgrade level with your pressure supply."
+	]
+	quest.6482A75510B3728D.title: "Mobility Upgrades"
 	quest.64860340A5BEBAB9.quest_desc: ["&eTable Cloths&r can either be used to show off &eItems&r, or to sell off &eItems&r! \\n\\nTo set up a Shop, do all the steps from the previous Quest: placing &eStock Links&f, &eStock Tickers&r, and a Mob on a Seat or &cBlaze Burner&r. \\n\\nNow use a &eTable Cloth&r to Interact with the Mob or &cBlaze Burner&r, this will bind the &eTable Cloth&r to that &eStock Ticker&r. \\n\\nPlace down the &eTable Cloth&r and you'll be able to place the &eItems&r you want to sell on top, and the price below. \\n\\nWhen someone buys an &eItem&r, it will send a message to the &eStock Link&r, which will &ePackage&f the &eItems&r bought and take the price."]
 	quest.64860340A5BEBAB9.quest_subtitle: "With Table Cloths"
 	quest.64860340A5BEBAB9.title: "Shops"
-	quest.649167FC31EB916E.quest_desc: ["&3Vegetable Oil&r can be made by putting either crops or seeds into a &3Thermopneumatic Processing Plant&r."]
-	quest.649167FC31EB916E.quest_subtitle: "Better Oil"
-	quest.649167FC31EB916E.title: "Vegetable Oil"
 	quest.64B04D1CBC923789.quest_subtitle: "Tier: &b4"
 	quest.64B04D1CBC923789.title: "Lapis Lazuli Seeds"
 	quest.64D0E66CB4FBEC82.quest_desc: [
@@ -5606,20 +5781,12 @@
 	]
 	quest.64D0E66CB4FBEC82.quest_subtitle: "Our First Spellbook"
 	quest.64D0E66CB4FBEC82.title: "Spell Books"
-	quest.64D34A6C3487C5DF.quest_desc: ["The &3Aerial Interface&r can be used to refill your pressurizable things with pressure. Now you can use your Pneumatic Armor without needing to recharge!"]
-	quest.64D34A6C3487C5DF.quest_subtitle: "Wireless Pressure!"
 	quest.64E204F9261DF6B0.quest_desc: [
 		"The Farmer's Delight Cutting Board is used for processing fish. Place it in the world and use your knife on fish to create fillets."
 		""
 		"Right-click the cutting board with fish, then use your knife to process them."
 	]
 	quest.64E204F9261DF6B0.title: "The Cutting Board"
-	quest.64E2E05B228EA53E.quest_desc: [
-		"&3Advanced Pressure Tubes&r are the best Pressure Tubes available, being able to hold 20 bars of pressure!"
-		""
-		"Although these are really cool on their own, they can also be used in some even cooler recipes."
-	]
-	quest.64E2E05B228EA53E.quest_subtitle: "A Whole new Level!"
 	quest.64EC182B81BD8B86.quest_desc: [
 		"To progress, we'll need to create our first &5Dark Power Gem&r."
 		""
@@ -5643,13 +5810,12 @@
 	quest.652A14E17DDE97E6.title: "Dragonskin Spell Book"
 	quest.6534E808CD79353A.quest_desc: ["The &6Tier 2 Crafter&r supports 4 recipes with improved crafting speed. Upgrade when you need more simultaneous recipes."]
 	quest.6534E808CD79353A.title: "Crafter Tier 2"
-	quest.657DB994B029F61C.quest_desc: [
-		"When the &3Heat Frame&r is placed on a container containing certain fluids and made cold enough, it will turn said fluids into items."
+	quest.6554607489394A0C.quest_desc: [
+		"Craft a &3Charging Module&r and a &3Module Expansion Card&r. Tube modules snap onto pressure tubes to add inline functionality."
 		""
-		"Turns Molten Plastic into Plastic."
-		"Turns Water into Ice."
-		"Turns Lava into Obsidian."
+		"The charging module charges items passing through. The expansion card increases a module's capabilities."
 	]
+	quest.6554607489394A0C.title: "Tube Modules"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"Some rituals require additional components placed around the pentacle:"
 		""
@@ -5673,9 +5839,6 @@
 		"Collect Grave Dust by defeating undead enemies."
 	]
 	quest.65DEFCD372F39B3E.title: "Grave Dust"
-	quest.65E2AF881709C896.quest_desc: ["One of the most important materials you'll be needing is &3Reinforced Stone&r, start by making 32 using Compressed Iron and some regular stone."]
-	quest.65E2AF881709C896.quest_subtitle: "You'll need a lot of this"
-	quest.65E2AF881709C896.title: "Reinforced Stone"
 	quest.6601A169CB71BB8A.quest_desc: [
 		"The Diamond Hook provides a 50% chance to not consume rod durability."
 		""
@@ -5700,12 +5863,6 @@
 	]
 	quest.666EA8B8F13EB292.quest_subtitle: "Capturing souls"
 	quest.666EA8B8F13EB292.title: "Soul Gem"
-	quest.6674270897997BF7.quest_desc: [
-		"Allows you to jump higher than usual and makes you springy, making for faster travel."
-		""
-		"You can only have one level of these Upgrades in the Leggings at a time."
-	]
-	quest.6674270897997BF7.quest_subtitle: "Max: 1"
 	quest.66762A4743104157.quest_desc: [
 		"Another craftable Spellbook, this one's a little more expensive! It'll need Hogskin which is a drop from Hoglins."
 		""
@@ -5796,8 +5953,6 @@
 	quest.67E7A9A65B14C933.title: "Clump Processing"
 	quest.67EF282FA3182369.quest_desc: ["Fast single-seat aircraft. Good speed and maneuverability. Entry-level plane."]
 	quest.67EF282FA3182369.title: "Biplane"
-	quest.681A3F31FB242555.quest_desc: ["&3Ethanol&r can be used to make Biodiesel."]
-	quest.681A3F31FB242555.title: "Ethanol"
 	quest.68318811CCC28320.quest_desc: [
 		"Combining &cHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
 		""
@@ -5807,6 +5962,12 @@
 	quest.683B58B699D4D381.quest_subtitle: "Spawns in a nest that has a Blue Banded Bee"
 	quest.685C4A646E092A82.quest_subtitle: "Tier 5 Armor"
 	quest.685C4A646E092A82.title: "&6Awakened Supremium Gear"
+	quest.687837826B511629.quest_desc: [
+		"Craft an &3Assembly Laser&r and an &3Assembly Drill&r. These are the two tool types the assembly system uses. The laser cuts and welds. The drill shapes and bores."
+		""
+		"Different recipes require different tools — some need both. Place them within reach of the assembly platform."
+	]
+	quest.687837826B511629.title: "Assembly Tools"
 	quest.6893D537716AA748.quest_desc: ["&dCogwheels&r (&dCogs&r) are the next Block needed to use &dRotational Power&r! They can connect to &8Shafts&r or other &dCogs&r to move the &dRotational Power&r. \\n\\nThere is two versions of &dCogs&r: regular &dCogs &fand &dLarge Cogs&r. They will both act the same in the sense of &dRotational Power&r but there is also a few changes! \\nRegular &dCogs&r can connect to other &dCogs&r adjacent to them. This will move the &dRotational Power&r into a whole different direction. When this happens the direction of the second &dCog&r will be reversed. If the first &dCog&r is rotating &e&oClockwise&r, the second one will rotate &9&oCounter-Clockwise&r. \\n\\n&dLarge Cogs&r are a little more difficult to use than &dCogs&r. They can't connect to other &dLarge Cogs&r adjacent, rather they can only connect to &dCogs&r that are diagonal to them! \\n\\nMost &6Machines&r will need &dRotational Power&r from connecting &dCogs&r. You'll recognize if the &6Machine&r has an internal &dCog&r, that is what must be moved in order to use the &6Machine&r. "]
 	quest.6893D537716AA748.quest_subtitle: "I just call them Cogs"
 	quest.6893D537716AA748.title: "&dCogwheels&r!"
@@ -5838,13 +5999,6 @@
 	quest.68CE30097BADE20E.title: "Searching for Nests"
 	quest.68CEB119BB4C3755.quest_subtitle: "Breed: Dark Blue Pigment + Dark Green Pigment"
 	quest.68CEB119BB4C3755.subtitle: "Breed: Dark Blue Pigment + Dark Green Pigment"
-	quest.68F92455A9483AD6.quest_desc: [
-		"You will only see this quest if you have used Jet Boots."
-		""
-		"There's no way of using Jet Boots without taking damage, don't even try..."
-	]
-	quest.68F92455A9483AD6.quest_subtitle: "You thought using an Elytra was hard?"
-	quest.68F92455A9483AD6.title: "Jet Boots"
 	quest.690A7182899481CC.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
 	quest.690A7182899481CC.quest_subtitle: "African Fish"
 	quest.690A7182899481CC.title: "Boulti Collection"
@@ -5959,7 +6113,6 @@
 	quest.6AC85C14613F685E.quest_subtitle: "Spawn egg only | Flower: Sky Bronze Block"
 	quest.6AC85C14613F685E.subtitle: "Spawn egg only | Flower: Sky Bronze Block"
 	quest.6AC85C14613F685E.title: "Sky Bronze Bee"
-	quest.6B1C06C753C10E44.quest_desc: ["The &3Logistics Configurator&r can be used to configure Logistic Frames and Transfer Gadgets."]
 	quest.6B2C3D4E5F607182.quest_desc: [
 		"Craft the Crusader armor set - the greathelm and surcoat that defined the holy warriors of Christendom."
 		""
@@ -6017,6 +6170,12 @@
 	quest.6C1F7A0B330B3F42.title: "Mekasuit Chestplate"
 	quest.6C2F6A46108111F6.quest_desc: ["The &6Screen Controller&r manages screens in a large area. Connect modules to the controller for centralized management."]
 	quest.6C2F6A46108111F6.title: "Screen Controller"
+	quest.6C3DE43635F686C6.quest_desc: [
+		"Build an &3Etching Tank&r and produce &3Etching Acid&r. The etching tank dissolves unexposed material from the PCB, leaving the circuit traces behind."
+		""
+		"Fill the tank with etching acid and insert UV-exposed boards. &eHeat the etching tank&r to speed up the process significantly."
+	]
+	quest.6C3DE43635F686C6.title: "Etching Setup"
 	quest.6C4E72C0BF98E8DD.quest_subtitle: "Places a temporary spell rune on the ground"
 	quest.6C57FF70679AF123.quest_desc: [
 		"Charging Runes increase the rate at which LP transfers from the altar into items being crafted."
@@ -6035,9 +6194,6 @@
 	quest.6C7B879451D57C68.quest_desc: ["Catch 5 Synodontis. An African catfish."]
 	quest.6C7B879451D57C68.quest_subtitle: "African Fish"
 	quest.6C7B879451D57C68.title: "Synodontis Collection"
-	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
-	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
-	quest.6CA01DCE1F4A0EC3.title: "Crude Oil"
 	quest.6CA1D90CCE17097D.quest_desc: ["The Sceptre of Thunder summons a single lightning bolt at your target location. It can only be used once."]
 	quest.6CA1D90CCE17097D.quest_subtitle: "A One-Time Use Lightning Scepter"
 	quest.6CA1D90CCE17097D.title: "Sceptre of Thunder"
@@ -6085,8 +6241,6 @@
 	quest.6CF7B0B8E4F39D0E.title: "Gearbox"
 	quest.6D0C9C5782E56663.quest_desc: ["Mixing and packing container. Place under press or mixer. Holds items and fluids."]
 	quest.6D0C9C5782E56663.title: "Basin"
-	quest.6D124ACF4AE80490.quest_desc: ["With Micromissiles you can shoot explosions from far away! Now nobody can escape!"]
-	quest.6D124ACF4AE80490.quest_subtitle: "Firing Explosions from afar!"
 	quest.6D232F6D8E8DA546.quest_desc: ["Very popular around Halloween!"]
 	quest.6D232F6D8E8DA546.title: "Plagued Outfit"
 	quest.6D484150536536B9.quest_desc: [
@@ -6160,6 +6314,12 @@
 	quest.6E279FB94F751D21.title: "Brown Trout Collection"
 	quest.6E27CDAC3B0F3101.quest_desc: ["&6Screens&r display information from your base. They require &emodules&r to show specific data types like energy levels or inventory contents."]
 	quest.6E27CDAC3B0F3101.title: "Screen"
+	quest.6E2E233B648D097B.quest_desc: [
+		"Install sensory upgrades. &3Night Vision&r illuminates dark areas. &3Entity Tracker&r highlights nearby mobs. &3Block Tracker&r reveals ores and special blocks. &3Coordinate Tracker&r marks waypoints. &3Search&r highlights specific items."
+		""
+		"These are installed in the helmet. Most consume minimal pressure."
+	]
+	quest.6E2E233B648D097B.title: "Vision \\& Tracking"
 	quest.6E3D53D1C4569A89.quest_desc: ["Stores experience as liquid XP. Extract or inject XP to/from yourself."]
 	quest.6E3D53D1C4569A89.quest_subtitle: "Storing XP"
 	quest.6E3D53D1C4569A89.title: "XP Pump Upgrade"
@@ -6170,7 +6330,6 @@
 	quest.6E9041744C592573.title: "Pump Upgrade"
 	quest.6EAC81649890D9E8.quest_desc: ["Immersive Aircraft. Basic aircraft component. Generates thrust when connected to an engine."]
 	quest.6EAC81649890D9E8.title: "Propeller"
-	quest.6EB53CDCB80D4B66.quest_desc: ["The &3Pneumatic Door&r acts as automatic door that can be made to only open for you!"]
 	quest.6F1CFF4144A36142.quest_desc: ["Catch 5 Tuna. A prized catch from warm waters."]
 	quest.6F1CFF4144A36142.quest_subtitle: "Warm Water Fish"
 	quest.6F1CFF4144A36142.title: "Tuna Collection"
@@ -6195,6 +6354,12 @@
 		"From then on, any blocks contained either within the cell's region of space or in an SCS with the same size as the one used for the initial encoding can be moved back into the overworld or into the spatial dimension respectively. If there are blocks both within the spatial region and within the SCS, these will simply swap places accordingly."
 	]
 	quest.6F3D0A248B5A9CA2.title: "Spatial Storage Cell"
+	quest.6F4B1D2CE000FF31.quest_desc: [
+		"Craft an &3Amadron Tablet&r. This wireless trading device connects to the Amadron network, where you can buy and sell items and fluids."
+		""
+		"Some trades offer materials that are difficult to obtain otherwise. Charge it at a charging station and browse trades by right-clicking."
+	]
+	quest.6F4B1D2CE000FF31.title: "Amadron Tablet"
 	quest.6F62B5510FA881CD.quest_desc: ["Osmium is Mekanism's core metal, used in nearly every machine and component. Mine osmium ore found at all depths and smelt it into ingots."]
 	quest.6F62B5510FA881CD.title: "Osmium Ingot"
 	quest.6F7AC41B703028CC.quest_subtitle: "Molten Signalum over Copper/Silver Bee Spawn Egg"
@@ -6204,12 +6369,6 @@
 		"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 	]
 	quest.6F978C4D561F35EC.quest_subtitle: "Honey I Squished The Bees"
-	quest.6FD65139CD50A8C0.quest_desc: [
-		"Is that even possible?"
-		""
-		"If you wish to automate this process you can use &eProductive Bees&r or &aMystical Agriculture&r. Or I guess you could automate it, with...explosions."
-	]
-	quest.6FD65139CD50A8C0.quest_subtitle: "Tired of blowing stuff up?"
 	quest.6FEED25FFAC4101F.quest_desc: [
 		"&bGray Chalk&f is used in pentacles for binding Djinni-level spirits and for some Afrit rituals."
 		""
@@ -6238,9 +6397,6 @@
 	]
 	quest.700EF718235DBDA7.quest_subtitle: "Master of Shadows"
 	quest.700EF718235DBDA7.title: "Netherite Ninja Set"
-	quest.7040CA41C0A3C2F2.quest_desc: ["&3PCB Blueprints&r ON SALE NOW for 8 Emeralds. (Only for a limited time)."]
-	quest.7040CA41C0A3C2F2.quest_subtitle: "Thanks Amadron!"
-	quest.7040CA41C0A3C2F2.title: "&9PCB Blueprint"
 	quest.7053E8464CC6B14D.quest_desc: ["Transfers rotation between parallel shafts. Two adjacent cogwheels reverse direction."]
 	quest.7053E8464CC6B14D.title: "Cogwheel"
 	quest.70B585F71CA7DD45.quest_desc: [
@@ -6263,8 +6419,6 @@
 	quest.715588642623A8A1.quest_subtitle: "Breed: Crystalline + Iron"
 	quest.715588642623A8A1.subtitle: "Breed: Crystalline + Iron"
 	quest.715588642623A8A1.title: "Quartz Enriched Iron Bee"
-	quest.715B86DC82EA636B.quest_desc: ["The &3Liquid Compressor&r creates pressure using certain liquids. You can put the fuel in by right-clicking the bucket onto the machine, pumping in the fluid, or by putting a bucket in the top slot in the GUI."]
-	quest.715B86DC82EA636B.title: "Pressure from Liquids"
 	quest.71667FFC8011525C.quest_subtitle: "Breed: Magmatic + Leafcutter Bee"
 	quest.71667FFC8011525C.subtitle: "Breed: Magmatic + Leafcutter Bee"
 	quest.71667FFC8011525C.title: "Coal Bee"
@@ -6272,12 +6426,8 @@
 	quest.71766BD7321FCB13.title: "Isotopic Centrifuge"
 	quest.7177653B736AB10E.quest_desc: ["Combine &edeuterium&r and &etritium&r in the &bChemical Infuser&r to create &efusion fuel&r (D-T fuel). Fill a &7Hohlraum&r with fuel to ignite the fusion reactor."]
 	quest.7177653B736AB10E.title: "D-T Fuel"
-	quest.7177E49BF9ECA5CF.quest_desc: ["The &3Thermal Compressor&r creates pressure using heat! Place something hot on one side and something cold on the other to create pressure."]
-	quest.7177E49BF9ECA5CF.title: "Pressure from Heat"
 	quest.71869B1D81D6A7EF.quest_desc: ["Combines a solid, liquid, and gas under pressure to produce new materials. Primary use is creating &7HDPE pellets&r from bio fuel, water, and ethylene. Also produces substrate for plastic production."]
 	quest.71869B1D81D6A7EF.title: "Pressurized Reaction Chamber"
-	quest.718DABA6C9E5982A.quest_desc: ["Grants the player Night Vision when worn."]
-	quest.718DABA6C9E5982A.quest_subtitle: "Max: 1"
 	quest.71B1B53A03A16296.quest_desc: ["&bPortable Fluid Interfaces&r are used with &aContraptions&r that are using &bFluid Tanks&r. \\n\\nIn order to access the &bFluid Tanks&r you'll need two &bPortable Fluid Interfaces&r, one connected to the &aContraption&r and one connected to &bFluid Pipes&r. \\n\\nThe &bPortable Fluid Interfaces&r will need a 1 or 2 Block gap between a meeting point in order for them to work. \\n\\nIf we have all that, the &bPortable Fluid Interface&r connected to the &aContraption&r will stop the &aContraption&r to either take &bFluids&r in or out from the second &bPortable Fluid Interface&r to add it to the &bFluid Tanks&r within the &aContraption&r."]
 	quest.71B1B53A03A16296.title: "&bPortable Fluid Interfaces"
 	quest.71CF9E59F8F0B4A6.quest_desc: ["Crafted from an &badvanced control circuit&r and &breinforced alloys&r. Required for high-tier machines including the &bChemical Injection Chamber&r."]
@@ -6294,6 +6444,12 @@
 	quest.71EF7B993128644D.quest_subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.subtitle: "Convert: Slimy Bee + Pink Slime item"
 	quest.71EF7B993128644D.title: "Pink Slimy Bee"
+	quest.72125B2950BC4CEA.quest_desc: [
+		"Craft a &3Small Tank&r to store fluids. PneumaticCraft uses many fluids — oil, fuel products, etching acid, lubricant — and tanks are how you buffer them."
+		""
+		"Tanks can be upgraded: Small → Medium → Large → Huge. Each tier holds significantly more."
+	]
+	quest.72125B2950BC4CEA.title: "Fluid Storage"
 	quest.7233E7A4AD5B175F.quest_desc: ["Requires Reinforced Slate. Stores more LP and activates mid-tier sigils."]
 	quest.7233E7A4AD5B175F.title: "Apprentice Orb"
 	quest.7242F591DA474B37.quest_desc: ["&bFluids &fand &bLiquids&r aren't the most important in every aspect of &6&lCreate&r, but luck is, you'll most likely run into them anyways! \\n\\nYou'll need to learn the difficult path of &bFluid Logistics&r in order to use and move them. \\n\\nAnd to start, you'll need &cCopper&r!"]
@@ -6319,9 +6475,6 @@
 	quest.7276892E129A739B.title: "Sulfur Processing"
 	quest.72AB70FD8D8FABBF.quest_subtitle: "The Nether!"
 	quest.72AB70FD8D8FABBF.title: "On a Highway to..."
-	quest.72C09FD89C28B1EC.quest_desc: ["The &3Oil Refinery&r we'll be making is a 1x1x5 multiblock made up of 1 &3Refinery Controller&r (at the bottom) and four &3Refinery Outputs&r (on top). You will need to input Oil and heat for this to work. This will produce Diesel, Kerosene, Gasoline and LPG. Putting &3Thermal Laggings&r on the sides helps keep it warm."]
-	quest.72C09FD89C28B1EC.quest_subtitle: "Now we're getting somewhere"
-	quest.72C09FD89C28B1EC.title: "Oil Refinery"
 	quest.72C7698072BF0F1D.quest_desc: ["The &dHand Crank&r is the simplest and worst form of &dRotational Power&r generation. \\n\\nWhen you hold Right Click it'll move &e&oClockwise&r and if you hold Shift Right Click it will move &9&oCounter-Clockwise&r. \\n\\nIt only gives a tiny bit of Stress Units and will stop after you quit holding it."]
 	quest.72C7698072BF0F1D.quest_subtitle: "Manual Power!"
 	quest.72C7698072BF0F1D.title: "&dHand Crank"
@@ -6355,11 +6508,6 @@
 	quest.7361BD20A6B95D14.title: "Lead Seeds"
 	quest.737DC37E4310090C.quest_desc: ["&8Chain Conveyors&r won't do much on their own. They need another &8Chain Conveyor&f, &8Chains&f, and &dRotational Power&r! \\n&8Chain Conveyors&r will need another &8Chain Conveyor&r near by in order to attach to them with &8Chains&r. \\n\\nThe &8Chains&r will need to be Right Clicked onto 1 &8Chain Conveyor&r then done the same to another you want to connect it to. \\n\\nOnce, one is given &dRotational Power&r, the &8Chains&r will move at the same Speed. Don't worry about Direction, there'll be 2 &8Chains&r! \\n\\nWhen the &8Chains&r are a moving, you can connect to them with a &6Wrench&r to move with the &8Chains&r, you can either press Shift or switch Items to drop off the &8Chain&r. \\n\\nYou can also place &ePackages&r on them, but without the &eItem&r described in the next Quest, they will just go around in a circle!"]
 	quest.737DC37E4310090C.title: "&8Chain Conveyor"
-	quest.7386A8433698946C.quest_desc: ["Select an item and this upgrade will search for it nearby in chests or on the floor. To find it in chests it will need the Block Tracker Upgrade and to find it on the floor it will need the Entity Tracker Upgrade."]
-	quest.7386A8433698946C.quest_subtitle: "Max: 1"
-	quest.7395B41685F4BC1A.quest_desc: ["The &3Flux Compressor&r can create a ton of pressure using power. Simply pump some FE in and it will start generating some. If you have enough FE to spare, this is probably the easiest way to generate pressure."]
-	quest.7395B41685F4BC1A.quest_subtitle: "Power = Pressure"
-	quest.7395B41685F4BC1A.title: "Pressure from Power"
 	quest.7399FEABDCFA5974.quest_desc: ["Increases LP transfer speed to/from orbs. Improves network efficiency."]
 	quest.7399FEABDCFA5974.title: "Dislocation Rune"
 	quest.73A2DA7A9947FC07.quest_desc: ["Catch 5 Capitaine. Also known as Nile Perch."]
@@ -6384,8 +6532,6 @@
 	quest.73D6B980D35082A0.title: "Villager Bible"
 	quest.73E6878553BA6908.quest_desc: ["Single-item storage that holds large quantities. Higher tiers store more items. Place in processing lines as buffers or use for compact bulk storage. Items can be inserted/extracted from any side."]
 	quest.73E6878553BA6908.title: "Bin"
-	quest.74015945716FD10A.quest_desc: ["The &3Omnidirectional Hopper&r can input items from any side, plus it can be upgraded to be way faster than a regular Hopper! Nice for when Pipes aren't needed."]
-	quest.74015945716FD10A.quest_subtitle: "A configurable hopper"
 	quest.7408CCF998D9CD37.quest_desc: [
 		"A Craftable Spell Book... yeah it's not easy to craft."
 		""
@@ -6413,8 +6559,6 @@
 	quest.7485BCBE366501DF.quest_desc: ["Build a &bThermal Evaporation Plant&r to convert water to &ebrine&r using solar heat. Brine is electrolyzed to produce &echlorine&r, needed for Tier 3 ore processing. Minimum 3 blocks tall, 4x4 base."]
 	quest.7485BCBE366501DF.quest_subtitle: "Tier 3 Prerequisite"
 	quest.7485BCBE366501DF.title: "Brine Production"
-	quest.74AE214747A3DB1A.quest_desc: ["Increases how much pressure things can hold."]
-	quest.74AE214747A3DB1A.quest_subtitle: "Turn it up!"
 	quest.74B0308336F5E017.quest_desc: [
 		"The &cBlood Chest&r can be used to repair items using &cBlood&r."
 		""
@@ -6490,9 +6634,6 @@
 	quest.75CF9EAB75C3907E.title: "&aStoring &cFluids"
 	quest.75D09040185B0E40.quest_subtitle: "Tier: &a2"
 	quest.75D09040185B0E40.title: "Pig Seeds"
-	quest.75D3F3C1D4A3EAA2.quest_desc: ["To move the heat being made by the Vortex Tube, make some &3Heat Pipes&r."]
-	quest.75D3F3C1D4A3EAA2.quest_subtitle: "We have the heat to move :)"
-	quest.75D3F3C1D4A3EAA2.title: "Moving Heat"
 	quest.75E4751F7A802A44.quest_desc: ["Oxidize &7sulfur&r in the &bChemical Oxidizer&r, then combine with water vapor in the &bChemical Infuser&r to create &esulfuric acid&r. Required for Tier 4 ore processing."]
 	quest.75E4751F7A802A44.quest_subtitle: "Tier 4 Prerequisite"
 	quest.75E4751F7A802A44.title: "Sulfuric Acid Production"
@@ -6500,8 +6641,6 @@
 	quest.76071C22A73A2026.title: "&cTertium Farmland"
 	quest.761D21C6FBD13EE1.quest_subtitle: "Feed a Diamond Bee Peridot"
 	quest.761D21C6FBD13EE1.title: "Peridot Bee"
-	quest.762B8309E1A31B99.quest_desc: ["Each upgrade adds +0.5 Armor Defence and +1 Armor Toughness."]
-	quest.762B8309E1A31B99.quest_subtitle: "Max: 4"
 	quest.763FB27929E053BE.quest_desc: ["Enables the &bElectric Pump&r to filter what fluids it collects. Required for selective pumping in mixed-fluid environments. Also used in other filtration applications."]
 	quest.763FB27929E053BE.title: "Filter Upgrade"
 	quest.764052FE00071761.quest_desc: ["Rotates attached contraption. Use radial chassis for windmills. Block above becomes rotor."]
@@ -6536,8 +6675,6 @@
 	quest.77382D4114E901CB.title: "&bHose Pulley"
 	quest.776EE1F5C4565146.quest_desc: ["Uses firework rockets to generate power for the Mycelial Reactor."]
 	quest.776EE1F5C4565146.title: "Mycelial Rocket Generator"
-	quest.7770F0D62457096D.quest_desc: ["Although these quests won't go over Drones, they are amazing! Look into using them if you want to."]
-	quest.7770F0D62457096D.title: "Programming Drones"
 	quest.7778937DF377C1B4.quest_desc: ["Generates power from wind. Output increases with altitude - place high for maximum efficiency. Works day and night, rain or shine. Good complement to solar power."]
 	quest.7778937DF377C1B4.title: "Wind Generator"
 	quest.779C2162C69DAE8E.quest_subtitle: "Summons two wolves to fight with you"
@@ -6677,22 +6814,19 @@
 	quest.7941938014E97A30.quest_subtitle: "Flower: Amethyst blocks (Check JEI for breeding)"
 	quest.7941938014E97A30.subtitle: "Flower: Amethyst blocks (Check JEI for breeding)"
 	quest.7941938014E97A30.title: "Bumble Bee"
-	quest.795143471F31A64A.quest_subtitle: "Required for Laser recipes"
 	quest.7952DA35B4F5C598.quest_desc: ["Portable fluid storage that can be placed or carried in inventory. Higher tiers store more fluid. Right-click fluid sources to collect, shift-right-click to place fluid."]
 	quest.7952DA35B4F5C598.title: "Fluid Tank"
-	quest.7953C87C488A2AF7.quest_desc: [
-		"Allows you to fly like Iron Man."
-		""
-		"You can only have one level of these Upgrades in the Boots at a time. Each level will use more pressure than the previous."
-		""
-		"Use these upgrades, don't just craft them."
-	]
-	quest.7953C87C488A2AF7.quest_subtitle: "Max: 1"
 	quest.795B80BF12D23897.quest_desc: ["Freezes water under your feet. Walk on water as ice. Alternative to hydrostatic repulsor."]
 	quest.795B80BF12D23897.quest_subtitle: "Boots"
 	quest.795B80BF12D23897.title: "Frost Walker Module"
 	quest.79905DF663865952.quest_desc: ["Increases altar LP storage. Essential for high-LP crafting operations."]
 	quest.79905DF663865952.title: "Capacity Rune"
+	quest.7991474D1A25E0E4.quest_desc: [
+		"Craft a &3Camo Applicator&r. This charged tool disguises PneumaticCraft machines and tubes as any other block."
+		""
+		"Useful for hiding infrastructure in builds without losing functionality."
+	]
+	quest.7991474D1A25E0E4.title: "Camo Applicator"
 	quest.79D2617E01481281.quest_desc: [
 		"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f."
 		""
@@ -6749,8 +6883,6 @@
 	quest.7B0CE182D3FE3035.title: "Craftable flowers"
 	quest.7B0DFA55B4D8B16D.quest_desc: ["Instant teleportation between linked teleporter pads. Build a 3x3 frame with the teleporter in the center. Set frequency in GUI to link multiple pads. Requires significant power per teleport."]
 	quest.7B0DFA55B4D8B16D.title: "Teleporter"
-	quest.7B2008977702D0C8.quest_desc: ["When making pressure in an Air Compressor, if you don't have anywhere for the pressure to go, it will just disappear. Make sure you have somewhere for the pressure to go before making some."]
-	quest.7B2008977702D0C8.quest_subtitle: "What happened to RF or FE?"
 	quest.7B385FD1CBE02C85.quest_desc: ["The &bIndustrial Turbine&r converts steam from reactors or boilers into power. Plan your turbine size based on expected steam input. Larger turbines handle more steam and generate more power."]
 	quest.7B385FD1CBE02C85.title: "Turbine Planning"
 	quest.7B427BE98D227EFD.quest_desc: ["Stores fluids. Multi-block structure expands capacity. Comparator outputs fill level."]
@@ -6816,9 +6948,6 @@
 		"This essence embodies harmful intent channeled into ritual power."
 	]
 	quest.7BCD4A425CF6199B.title: "Cruelty Essence"
-	quest.7BFC24607189B6D0.quest_desc: ["Makes you swim faster."]
-	quest.7BFC24607189B6D0.quest_subtitle: "Max: 1"
-	quest.7BFE7DAF18981843.quest_subtitle: "Required for Drill recipes"
 	quest.7C07D6A33F7ADB02.quest_desc: ["Store backpacks inside backpacks. Nested storage for extreme organization."]
 	quest.7C07D6A33F7ADB02.quest_subtitle: "Backpacks in your Backpacks?"
 	quest.7C07D6A33F7ADB02.title: "Inception Upgrade"
@@ -6848,6 +6977,12 @@
 	quest.7C7BD54624ED9AC2.quest_desc: ["Enables creative-style flight. More stable than jetpack. High energy consumption but ultimate mobility."]
 	quest.7C7BD54624ED9AC2.quest_subtitle: "Chestplate"
 	quest.7C7BD54624ED9AC2.title: "Gravitational Modulating Module"
+	quest.7C89E95A4E43DBD2.quest_desc: [
+		"Build a &3Pneumatic Dynamo&r. This machine converts pressurized air into Forge Energy (FE). Use it to bridge PneumaticCraft's pressure network with power systems from other mods."
+		""
+		"Efficiency depends on input pressure — higher pressure converts more efficiently."
+	]
+	quest.7C89E95A4E43DBD2.title: "Pneumatic Dynamo"
 	quest.7C8CDD259495A31A.quest_desc: ["&eTunnels&r at the most basic level, will cover your &eBelts&r. This will make it so the &eItems&r can't be picked up, and hopefully the Mobs won't leave. \\n\\nIf you place another &eBelt&r moving perpendicular to the &eBelt&r the &eTunnel&r is on, the &eTunnel&r will filter 1 &eItem&r from the Stack of &eItems&r to the perpendicular &eBelt&r, while leaving the rest of the &eItems&r on the first &eBelt&r. \\n\\nIf there is just 1 &eItem&r, it will move through the &eTunnel&r like normal."]
 	quest.7C8CDD259495A31A.title: "&eAndesite Tunnel"
 	quest.7C8D74692C963000.quest_desc: [
@@ -6881,12 +7016,8 @@
 	quest.7D43016926E77150.title: "&9Imperium Armor&r"
 	quest.7D67058592EE5958.quest_desc: ["The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
 	quest.7D67058592EE5958.title: "Schematic Cannon"
-	quest.7D6B4AEF806AF62E.quest_desc: ["100% way too fast! Try not to die!"]
-	quest.7D6B4AEF806AF62E.quest_subtitle: "Max: 1"
 	quest.7D7A367A1F377925.quest_desc: ["Expand to 28 runes total. The structure grows vertically with pillars at corners."]
 	quest.7D7A367A1F377925.title: "Tier 3 Altar"
-	quest.7D81F2381516204D.quest_subtitle: "Needed for Finished PCBs"
-	quest.7D81F2381516204D.title: "Transistors"
 	quest.7DB3A0EF7C5A9A94.quest_desc: [
 		"Craft the Linothorax set - layered linen armor that protected Alexander's conquering armies."
 		""
@@ -7040,14 +7171,18 @@
 	quest.7F990FBC1A691020.quest_desc: ["Emits a redstone signal when opened. Cannot be combined into double chests."]
 	quest.7F990FBC1A691020.quest_subtitle: "I wonder what's in here?"
 	quest.7F990FBC1A691020.title: "Trapped Chest"
-	quest.7FB12EC3A5888123.quest_desc: ["The &3Tube Junction&r gives you more control over the transportation of your pressure by allowing you to move your Pressure Tubes in more directions."]
-	quest.7FB12EC3A5888123.quest_subtitle: "No, go this way!"
 	quest.7FC54AF87CBDD222.quest_desc: [
 		"Ancient Battlegrounds are only a fragment of the past."
 		""
 		"Who knows what happened. Who knows who fought who. All we have now are parts of the walls and these Piles of Armor. Might as well just pick them up by Mining them with your Pickaxe."
 	]
 	quest.7FC54AF87CBDD222.title: "Ancient Battleground"
+	quest.7FF26770116DE816.quest_desc: [
+		"Craft &3Pressure Tubes&r to connect your machines. Tubes carry pressurized air between compressors and the devices that consume it."
+		""
+		"Plan your layout before placing — pressure travels through the entire connected network. &3Tube Junctions&r allow branching in multiple directions."
+	]
+	quest.7FF26770116DE816.title: "Pressure Tubes"
 	quest.812B441E301F7708.title: "Hematophagous Bee"
 	quest.859C4790C36C5267.title: "Purple Pigment Bee"
 	quest.92026AAF8ED708B7.title: "Yellow Pigment Bee"
@@ -7506,6 +7641,378 @@
 		"Useful for retreating from dangerous encounters."
 	]
 	quest.C00A000000000003.title: "Dust of Vanishing"
+	quest.D001000000000100.quest_desc: [
+		"Craft a &3Compressed Iron Ingot&r by smelting iron in a blast furnace or using a pressure chamber later. This is the base material for nearly everything in &aPneumaticCraft&r."
+		""
+		"Tubes, machines, armor, and tools all start here. &eThe in-game guide book is your best friend&r — check JEI and read tooltips as you go."
+	]
+	quest.D001000000000100.title: "Compressed Iron"
+	quest.D001000000000200.quest_desc: [
+		"Craft &3Pressure Tubes&r to connect your machines. Tubes carry pressurized air between compressors and the devices that consume it."
+		""
+		"Plan your layout before placing — pressure travels through the entire connected network. &3Tube Junctions&r allow branching in multiple directions."
+	]
+	quest.D001000000000200.title: "Pressure Tubes"
+	quest.D001000000000300.quest_desc: [
+		"Build an &3Air Compressor&r to generate pressure by burning solid fuel. This is your first pressure source and the foundation of every system that follows."
+		""
+		"Place it adjacent to your tube network. &eWatch the pressure gauge&r — exceeding a tube's rated pressure will cause an explosion."
+	]
+	quest.D001000000000300.title: "Air Compressor"
+	quest.D001000000000400.quest_desc: [
+		"Craft a full set of &3Compressed Iron Armor&r. Decent early-game protection made entirely from compressed iron."
+		""
+		"Not as powerful as the &3Pneumatic Armor&r you'll unlock later, but a solid stepping stone."
+	]
+	quest.D001000000000400.title: "Compressed Iron Armor"
+	quest.D001000000000500.quest_desc: [
+		"Obtain &3Compressed Iron Seeds&r from &aMystical Agriculture&r. Growing compressed iron provides a renewable supply without constant smelting."
+		""
+		"Plant, harvest, and never run out of your most-used material."
+	]
+	quest.D001000000000500.title: "Compressed Iron Seeds"
+	quest.D001000000000600.quest_desc: [
+		"Craft a &3Small Tank&r to store fluids. PneumaticCraft uses many fluids — oil, fuel products, etching acid, lubricant — and tanks are how you buffer them."
+		""
+		"Tanks can be upgraded: Small → Medium → Large → Huge. Each tier holds significantly more."
+	]
+	quest.D001000000000600.title: "Fluid Storage"
+	quest.D001000000000700.quest_desc: [
+		"Upgrade to a &3Huge Tank&r. At full capacity, a single huge tank stores enough fluid to supply even the most demanding processing chains."
+		""
+		"Build these when your refinery or processing plant needs consistent input."
+	]
+	quest.D001000000000700.title: "Large Fluid Storage"
+	quest.D002000000000100.quest_desc: [
+		"Build a &3Charging Station&r to fill pneumatic tools and items with pressurized air. Place any chargeable item on top and supply pressure through tubes."
+		""
+		"Many PneumaticCraft tools — the wrench, manometer, minigun, and armor — require charging before use. This station is essential infrastructure."
+	]
+	quest.D002000000000100.title: "Charging Station"
+	quest.D002000000000200.quest_desc: [
+		"Craft &3Reinforced Stone&r in bulk. This blast-resistant block is the primary building material for the &3Pressure Chamber&r multiblock."
+		""
+		"You will need approximately 95 blocks for a 5x5x5 chamber. Reinforced stone also serves as durable building material for any high-pressure setup."
+	]
+	quest.D002000000000200.title: "Reinforced Stone"
+	quest.D002000000000300.quest_desc: [
+		"Assemble a &3Pressure Chamber&r — a hollow multiblock made of reinforced stone walls, at least one &3Pressure Chamber Valve&r, and two &3Pressure Chamber Interfaces&r."
+		""
+		"Items are inserted and extracted through the interfaces. The chamber is used for advanced crafting recipes that require high pressure. &eCraft Security Upgrades&r and install them in the valve to prevent dangerous over-pressurization."
+	]
+	quest.D002000000000300.title: "Pressure Chamber"
+	quest.D002000000000400.quest_desc: [
+		"Craft a &3Pneumatic Wrench&r and a &3Manometer&r. The wrench rotates and safely removes pneumatic machines without breaking them. The manometer reads exact pressure levels from any block in the network."
+		""
+		"Charge both at your &3Charging Station&r before first use."
+	]
+	quest.D002000000000400.title: "Pneumatic Tools"
+	quest.D002000000000500.quest_desc: [
+		"Craft an &3Omnidirectional Hopper&r, a &3Liquid Hopper&r, and a &3Transfer Gadget&r. These are PneumaticCraft's item and fluid movement tools."
+		""
+		"The omnidirectional hopper pulls from any side. The liquid hopper handles fluids. The transfer gadget moves items between adjacent inventories."
+	]
+	quest.D002000000000500.title: "Item Transport"
+	quest.D002000000000600.quest_desc: [
+		"Craft a &3Camo Applicator&r. This charged tool disguises PneumaticCraft machines and tubes as any other block."
+		""
+		"Useful for hiding infrastructure in builds without losing functionality."
+	]
+	quest.D002000000000600.title: "Camo Applicator"
+	quest.D002000000000700.quest_desc: [
+		"Craft a &3Speed Upgrade&r, &3Volume Upgrade&r, &3Range Upgrade&r, and &3Dispenser Upgrade&r. Most PneumaticCraft machines accept upgrades through their GUI."
+		""
+		"&3Speed&r increases processing rate. &3Volume&r increases air storage. &3Range&r extends working area. &3Dispenser&r enables world interaction. Check each machine's upgrade slots."
+	]
+	quest.D002000000000700.title: "Machine Upgrades"
+	quest.D002000000000800.quest_desc: [
+		"Craft a &3Charging Module&r and a &3Module Expansion Card&r. Tube modules snap onto pressure tubes to add inline functionality."
+		""
+		"The charging module charges items passing through. The expansion card increases a module's capabilities."
+	]
+	quest.D002000000000800.title: "Tube Modules"
+	quest.D002000000000900.quest_desc: [
+		"Craft a &3Logistics Core&r and a &3Logistics Configurator&r. The logistics system automates item and fluid transport using frames attached to inventories."
+		""
+		"The configurator assigns filters and priorities. Attach &3Logistics Modules&r to tubes for distribution points, and &3Logistics Frame Requesters&r on machines that need supplies."
+	]
+	quest.D002000000000900.title: "Logistics System"
+	quest.D002000000000A00.quest_desc: [
+		"Craft a &3Reinforced Chest&r. A blast-resistant storage container made from reinforced stone."
+		""
+		"Useful for protecting valuables near high-pressure equipment."
+	]
+	quest.D002000000000A00.title: "Reinforced Chest"
+	quest.D002000000000B00.quest_desc: [
+		"Upgrade to a &3Smart Chest&r. This advanced container has built-in filtering and can automatically sort incoming items into designated slots."
+		""
+		"Pairs well with logistics frames for automated storage."
+	]
+	quest.D002000000000B00.title: "Smart Chest"
+	quest.D002000000000C00.quest_desc: [
+		"Craft &3Gun Ammo&r and a &3Minigun&r. A handheld pressure-powered weapon with a high rate of fire. The minigun shreds through enemies quickly but consumes air rapidly."
+		""
+		"Charge at a charging station and load ammo to fire. Different ammo types affect damage and behavior."
+	]
+	quest.D002000000000C00.title: "Minigun"
+	quest.D002000000000D00.quest_desc: [
+		"Build a &3Sentry Turret&r. An automated defense platform that fires at hostile entities in range. Load it with gun ammo and supply pressure to keep it active."
+		""
+		"Place near base entrances or mob farms for passive defense. Configurable targeting filters available in the GUI."
+	]
+	quest.D002000000000D00.title: "Sentry Turret"
+	quest.D003000000000100.quest_desc: [
+		"Obtain a bucket of &3Oil&r. Oil spawns naturally underground and can be pumped to the surface."
+		""
+		"Oil is the raw input for all fuel products. Everything from this point forward depends on having a steady oil supply."
+	]
+	quest.D003000000000100.title: "Oil Extraction"
+	quest.D003000000000200.quest_desc: [
+		"Build a &3Gas Lift&r with &3Drill Pipes&r and a &3Seismic Sensor&r. The seismic sensor detects underground fluid deposits. Stack drill pipes downward from the gas lift to reach the oil layer."
+		""
+		"&ePlace the seismic sensor and right-click&r to scan. It shows the depth and type of fluid below. Supply pressure to the gas lift to begin pumping."
+	]
+	quest.D003000000000200.title: "Gas Lift Setup"
+	quest.D003000000000300.quest_desc: [
+		"Craft a &3Vortex Tube&r and a &3Heat Sink&r. The vortex tube splits pressurized air into hot and cold sides — this is PneumaticCraft's heat generation system."
+		""
+		"Attach a heat sink to dissipate excess temperature from the cold side. Heat is required for refining, plastic production, and many advanced recipes."
+	]
+	quest.D003000000000300.title: "Vortex Tube"
+	quest.D003000000000400.quest_desc: [
+		"Craft a &3Heat Pipe&r. Heat pipes transfer thermal energy between machines over distance, similar to how pressure tubes carry air."
+		""
+		"Use them to connect your vortex tube to machines that need heat without placing them adjacent."
+	]
+	quest.D003000000000400.title: "Heat Pipe"
+	quest.D003000000000500.quest_desc: [
+		"Assemble a &3Refinery&r multiblock. Stack the refinery block on the bottom with up to four &3Refinery Outputs&r on top. Wrap the structure in &3Thermal Lagging&r to retain heat and improve efficiency."
+		""
+		"Pump in oil and supply heat. The refinery separates oil into progressively lighter fuels. &eMore output blocks means more fuel types separated.&r"
+	]
+	quest.D003000000000500.title: "Refinery"
+	quest.D003000000000600.quest_desc: [
+		"Collect all four refined fuels: &3Diesel&r, &3Kerosene&r, &3Gasoline&r, and &3LPG&r. Each fuel has different properties — LPG burns hottest while heavier fuels produce more total energy."
+		""
+		"These fuels power advanced compressors and the thermopneumatic processing plant."
+	]
+	quest.D003000000000600.title: "Fuel Products"
+	quest.D003000000000700.quest_desc: [
+		"Craft a &3Liquid Compressor&r and a &3Thermal Compressor&r. The liquid compressor burns liquid fuels for higher efficiency than solid fuel."
+		""
+		"The thermal compressor generates pressure from temperature differentials — place it between hot and cold sources. Experiment to find your preferred setup."
+	]
+	quest.D003000000000700.title: "Alternate Compressors"
+	quest.D004000000000100.quest_desc: [
+		"Build a &3Thermopneumatic Processing Plant&r. This machine combines pressure, heat, and fluid or item inputs to produce advanced materials."
+		""
+		"It is the key to unlocking plastic — the most important intermediate in the mod. Supply pressure via tubes, heat via vortex tube or heat pipe, and pump in LPG with coal as input."
+	]
+	quest.D004000000000100.title: "Thermopneumatic Processing"
+	quest.D004000000000200.quest_desc: [
+		"Produce your first &3Plastic Sheet&r. Feed LPG and coal into the thermopneumatic processing plant with sufficient heat and pressure. Molten plastic is output as a fluid — pipe it into a tank or directly into molds."
+		""
+		"&ePlastic unlocks the entire electronics pipeline.&r Nearly every advanced recipe requires it. Automate production early."
+	]
+	quest.D004000000000200.title: "Plastic"
+	quest.D004000000000300.quest_desc: [
+		"Craft a &3Heat Frame&r. This upgrade attaches to any inventory and applies heat-based processing to items inside. It can smelt items, cook food, or cool fluids depending on temperature."
+		""
+		"A simple but powerful tool for passive processing."
+	]
+	quest.D004000000000300.title: "Heat Frame"
+	quest.D004000000000400.quest_desc: [
+		"Craft a &3Pneumatic Jackhammer&r with a &3Diamond Drill Bit&r. The jackhammer is a pressure-powered mining tool that can be upgraded with better bits for increased speed and area."
+		""
+		"Charge the jackhammer at a charging station before use. The &3Netherite Drill Bit&r is the ultimate upgrade."
+	]
+	quest.D004000000000400.title: "Pneumatic Jackhammer"
+	quest.D004000000000500.quest_desc: [
+		"Build an &3Elevator&r using an &3Elevator Base&r, &3Elevator Frames&r, and an &3Elevator Caller&r. The elevator moves entities vertically using pressure."
+		""
+		"Stack frames to set the height. Place callers at each floor to summon it. A practical vertical transport solution for multi-level bases."
+	]
+	quest.D004000000000500.title: "Elevator"
+	quest.D004000000000600.quest_desc: [
+		"Craft a &3Pneumatic Door&r and &3Pneumatic Door Base&r. This pressure-powered door opens and closes automatically."
+		""
+		"It can be configured to only respond to specific players — useful for securing areas."
+	]
+	quest.D004000000000600.title: "Pneumatic Door"
+	quest.D004000000000700.quest_desc: [
+		"Craft &3Reinforced Pressure Tubes&r. These handle higher pressure than standard tubes, allowing you to push more air without risk of explosion."
+		""
+		"Required for machines that operate at tier 2 pressure levels."
+	]
+	quest.D004000000000700.title: "Reinforced Pressure Tube"
+	quest.D004000000000800.quest_desc: [
+		"Produce &3Vegetable Oil&r by processing crops or seeds in the &3Thermopneumatic Processing Plant&r."
+		""
+		"This is the base for cooking and biodiesel production."
+	]
+	quest.D004000000000800.title: "Vegetable Oil"
+	quest.D004000000000900.quest_desc: [
+		"Fry up some &3Cod 'n' Chips&r. PneumaticCraft adds food recipes that use the thermopneumatic processing plant with vegetable oil."
+		""
+		"&3Sourdough&r is another option — produce a &3Yeast Culture&r for a renewable bread source."
+	]
+	quest.D004000000000900.title: "Cooking with Pressure"
+	quest.D004000000000A00.quest_desc: [
+		"Produce &3Biodiesel&r. The chain: grow &3Yeast Culture&r, ferment into &3Ethanol&r, then combine ethanol with vegetable oil to make biodiesel."
+		""
+		"Biodiesel is a renewable fuel that works in liquid compressors — build a sustainable pressure loop without relying on oil."
+	]
+	quest.D004000000000A00.title: "Biodiesel Production"
+	quest.D004000000000B00.quest_desc: [
+		"Craft a &3Netherite Drill Bit&r for your jackhammer. The ultimate mining upgrade — faster, larger area, and more durable than diamond."
+		""
+		"Requires netherite materials. Worth the investment for serious mining operations."
+	]
+	quest.D004000000000B00.title: "Netherite Drill Bit"
+	quest.D005000000000100.quest_desc: [
+		"Craft an &3Empty PCB&r and a &3PCB Blueprint&r. The empty PCB is a blank circuit board made from plastic and iron. The blueprint defines the circuit pattern."
+		""
+		"&eThe full PCB pipeline: fabrication → UV exposure → etching → component assembly.&r"
+	]
+	quest.D005000000000100.title: "PCB Fabrication"
+	quest.D005000000000200.quest_desc: [
+		"Build a &3UV Light Box&r. Place your empty PCB inside with a blueprint to expose the circuit pattern onto the board."
+		""
+		"The UV process takes time — progress is shown in the GUI. The exposed PCB is then ready for etching."
+	]
+	quest.D005000000000200.title: "UV Light Box"
+	quest.D005000000000300.quest_desc: [
+		"Build an &3Etching Tank&r and produce &3Etching Acid&r. The etching tank dissolves unexposed material from the PCB, leaving the circuit traces behind."
+		""
+		"Fill the tank with etching acid and insert UV-exposed boards. &eHeat the etching tank&r to speed up the process significantly."
+	]
+	quest.D005000000000300.title: "Etching Setup"
+	quest.D005000000000400.quest_desc: [
+		"Produce an &3Unassembled PCB&r from the etching tank. This is a finished circuit board that still needs electronic components soldered on before it can function."
+		""
+		"Inspect it in your inventory — it should show the etched circuit pattern."
+	]
+	quest.D005000000000400.title: "Unassembled PCB"
+	quest.D005000000000500.quest_desc: [
+		"Craft &3Transistors&r and &3Capacitors&r. These electronic components get soldered onto unassembled PCBs. Each printed circuit board requires both."
+		""
+		"Both are crafted from plastic and basic materials in a crafting table."
+	]
+	quest.D005000000000500.title: "Electronic Components"
+	quest.D005000000000600.quest_desc: [
+		"Assemble a &3Printed Circuit Board&r by combining an unassembled PCB with transistors and capacitors in a pressure chamber. This is the single most important component in PneumaticCraft."
+		""
+		"&ePCBs are required for drones, armor, assembly machines, and nearly every endgame recipe.&r Automate this pipeline when possible."
+	]
+	quest.D005000000000600.title: "Printed Circuit Board"
+	quest.D005000000000700.quest_desc: [
+		"Craft an &3Amadron Tablet&r. This wireless trading device connects to the Amadron network, where you can buy and sell items and fluids."
+		""
+		"Some trades offer materials that are difficult to obtain otherwise. Charge it at a charging station and browse trades by right-clicking."
+	]
+	quest.D005000000000700.title: "Amadron Tablet"
+	quest.D005000000000800.quest_desc: [
+		"Craft &3Micromissiles&r. A shoulder-mounted launcher that fires guided missiles from your chestplate. Configure targeting in the upgrade GUI to focus on hostile mobs or specific entities."
+		""
+		"Consumes pressure per shot. Devastating against groups of enemies."
+	]
+	quest.D005000000000800.title: "Micromissiles"
+	quest.D006000000000100.quest_desc: [
+		"Craft an &3Assembly Controller&r. This is the brain of the assembly system — a crafting automation setup that produces advanced components."
+		""
+		"The controller coordinates all other assembly pieces. Place it as the center of your assembly layout."
+	]
+	quest.D006000000000100.title: "Assembly Controller"
+	quest.D006000000000200.quest_desc: [
+		"Craft an &3Assembly Platform&r, an &3Import IO Unit&r, and an &3Export IO Unit&r. The platform holds the workpiece. Import units feed materials in, export units pull finished products out."
+		""
+		"Arrange these adjacent to the controller. The IO units connect to inventories for automation."
+	]
+	quest.D006000000000200.title: "Assembly Line"
+	quest.D006000000000300.quest_desc: [
+		"Craft an &3Assembly Laser&r and an &3Assembly Drill&r. These are the two tool types the assembly system uses. The laser cuts and welds. The drill shapes and bores."
+		""
+		"Different recipes require different tools — some need both. Place them within reach of the assembly platform."
+	]
+	quest.D006000000000300.title: "Assembly Tools"
+	quest.D006000000000400.quest_desc: [
+		"With all assembly components placed and connected, run your first assembly recipe. Insert the required input items and verify the controller assigns work to the correct tools."
+		""
+		"&eA working assembly system is the gateway to endgame PneumaticCraft.&r Advanced tubes, armor, and specialist machines all require assembly-crafted components."
+	]
+	quest.D006000000000400.title: "Assembly System Complete"
+	quest.D006000000000500.quest_desc: [
+		"Craft a &3Programmer&r and a &3Drone&r. The programmer is a visual programming interface where you define drone behavior using puzzle-piece widgets. Drones are autonomous flying robots that execute your programs."
+		""
+		"Drones can harvest, dig, place blocks, attack, and deliver items. &eStart with a simple item transport program&r to learn the system."
+	]
+	quest.D006000000000500.title: "Programmer & Drone"
+	quest.D007000000000100.quest_desc: [
+		"Craft &3Advanced Pressure Tubes&r. These tier 3 tubes handle the highest pressure levels in the mod."
+		""
+		"Required for machines that operate above reinforced tube limits. Replace critical segments as you build higher-pressure systems."
+	]
+	quest.D007000000000100.title: "Advanced Pressure Tube"
+	quest.D007000000000200.quest_desc: [
+		"Build a &3Pneumatic Dynamo&r. This machine converts pressurized air into Forge Energy (FE). Use it to bridge PneumaticCraft's pressure network with power systems from other mods."
+		""
+		"Efficiency depends on input pressure — higher pressure converts more efficiently."
+	]
+	quest.D007000000000200.title: "Pneumatic Dynamo"
+	quest.D007000000000300.quest_desc: [
+		"Build a &3Flux Compressor&r. The inverse of the dynamo — it converts Forge Energy into pressurized air. Use it when you have surplus FE from other mods."
+		""
+		"&eDo not loop a dynamo into a flux compressor&r — energy is lost on each conversion."
+	]
+	quest.D007000000000300.title: "Flux Compressor"
+	quest.D007000000000400.quest_desc: [
+		"Build an &3Advanced Air Compressor&r. A direct upgrade to the basic air compressor with higher output and efficiency."
+		""
+		"Burns the same solid fuels but produces significantly more pressure per tick."
+	]
+	quest.D007000000000400.title: "Advanced Air Compressor"
+	quest.D007000000000500.quest_desc: [
+		"Build a &3Solar Compressor&r using &3Solar Cells&r. This compressor generates pressure from sunlight — a completely passive, renewable source. Requires clear sky and daytime."
+		""
+		"Craft at least 3 solar cells to maximize output. No heat, no fuel required."
+	]
+	quest.D007000000000500.title: "Solar Compressor"
+	quest.D007000000000600.quest_desc: [
+		"Build an &3Aerial Interface&r. This advanced machine connects to a player and can automatically recharge worn pneumatic equipment. Place it in your base, link it to yourself, and your armor will never run dry."
+		""
+		"&eRequires a steady pressure supply.&r Connect it to your main network with advanced tubes."
+	]
+	quest.D007000000000600.title: "Aerial Interface"
+	quest.D007000000000700.quest_desc: [
+		"Craft an &3Electrostatic Compressor&r and an &3Advanced Liquid Compressor&r. The electrostatic compressor generates pressure from lightning — place iron bars above it to attract strikes."
+		""
+		"The advanced liquid compressor is a more efficient version for high-throughput fuel burning."
+	]
+	quest.D007000000000700.title: "Specialist Compressors"
+	quest.D008000000000100.quest_desc: [
+		"Craft the full &3Pneumatic Armor&r set: helmet, chestplate, leggings, and boots. This is PneumaticCraft's endgame armor — highly customizable through an upgrade system."
+		""
+		"Each piece must be charged at a charging station. Press &e'U'&r (default) while wearing it to open the upgrade GUI. The armor's true power comes from the upgrades below."
+	]
+	quest.D008000000000100.title: "Pneumatic Armor"
+	quest.D008000000000200.quest_desc: [
+		"Install mobility upgrades in your armor. &3Jet Boots&r (tiers 1-5) provide increasingly powerful flight. &3Jumping Upgrades&r (tiers 1-4) boost jump height. &3Flippers&r increase swim speed, and &3Stomp&r creates a shockwave on landing."
+		""
+		"Start with Jet Boots Tier 1 and Jumping Tier 1. Higher tiers consume more air — balance upgrade level with your pressure supply."
+	]
+	quest.D008000000000200.title: "Mobility Upgrades"
+	quest.D008000000000300.quest_desc: [
+		"Install sensory upgrades. &3Night Vision&r illuminates dark areas. &3Entity Tracker&r highlights nearby mobs. &3Block Tracker&r reveals ores and special blocks. &3Coordinate Tracker&r marks waypoints. &3Search&r highlights specific items."
+		""
+		"These are installed in the helmet. Most consume minimal pressure."
+	]
+	quest.D008000000000300.title: "Vision & Tracking"
+	quest.D008000000000400.quest_desc: [
+		"Install utility upgrades. &3Charging&r lets armor recharge from tubes you walk past. &3Elytra&r enables gliding with the chestplate. &3Scuba&r provides underwater breathing. &3Magnet&r attracts nearby items. &3Gilded&r pacifies Piglins."
+		""
+		"The &3Armor Upgrade&r itself boosts base protection. Mix and match to suit your playstyle."
+	]
+	quest.D008000000000400.title: "Utility Upgrades"
 	quest.D2864C3948E59656.title: "Aqua Pigment Bee"
 	quest.DC01000000000001.quest_desc: [
 		"&6Spice of Life: Ascension&r tracks your last 32 foods eaten and rewards dietary variety with &eNourishment&r and &eComfort&r effects."
@@ -7603,7 +8110,6 @@
 	task.097D8139589AF377.title: "Suppression Sigil"
 	task.0A77407CE9055F04.title: "Sweat Bee"
 	task.0B14A7CBC056CC9F.title: "Augmented Capacity Rune"
-	task.0B54EDC9E21F2E77.title: "Logistics Frames"
 	task.0BD1BA7949BB5855.title: "Mechanical Pistons"
 	task.0CDFF60D581118E3.title: "Neon Cuckoo Bee"
 	task.0EE3A88719BB0221.title: "I understand Infusion"
@@ -7635,8 +8141,8 @@
 	task.1BEBE185FBB4969A.title: "Chalk Mastery"
 	task.1CC0E97BB8DC4F35.title: "Kill 5 Necromancers"
 	task.1CC556A6921208B8.title: "Tier 1 Glyphs"
+	task.1DDD92E1D815B027.title: "Run an assembly recipe successfully"
 	task.1E4979886B89B2AD.title: "Petty Tartaric Gem"
-	task.1EEC7B67E037F766.title: "Understanding Pressure"
 	task.1F1A69738DE70DB6.title: "The Mycelial Reactor"
 	task.1F8C37B32E46FA69.title: "Build Tier 2 Altar"
 	task.200CE35BF3C04F6F.title: "Copper Chests"
@@ -7646,7 +8152,6 @@
 	task.23D186249A999B8C.title: "Quartz Cutting Knives"
 	task.2448345116BDC7C6.title: "Chalk Repair"
 	task.25B30F1BCCEE920A.title: "Greater Tartaric Gem"
-	task.25FF884779D98BAD.title: "Construction Bricks"
 	task.26084080CB6A3A08.title: "Acknowledge the food diversity system"
 	task.263F0E416A8E1110.title: "Copper Comb"
 	task.26DAA394F28C4A16.title: "Claim your mailbox reward"
@@ -7657,6 +8162,7 @@
 	task.2BC0F5A88E2F03C3.title: "Archwood Logs"
 	task.2BEC3F34860494B0.title: "Imbued Slate"
 	task.2C1B1D314E190B80.title: "Personal Storage"
+	task.2CA0CD408983DB9B.title: "Run an assembly recipe successfully"
 	task.2CC38211F4C54ED8.title: "Draconic Comb"
 	task.2D780C226FCF4A03.title: "Strong Tau"
 	task.2EA19C4E46380CDA.title: "RuBee Comb"
@@ -7708,7 +8214,6 @@
 	task.471F062B01D0DDA1.title: "Quarry Bee"
 	task.47BAD4AA76F9CF82.title: "Silver Comb"
 	task.496C4FDD2515EB24.title: "Induction Providers"
-	task.49A8320F9EA7F4BD.title: "Compressed Iron Automation"
 	task.49E5D4B7057851E7.title: "Sacrificial Dagger"
 	task.49F46466DB8EDD61.title: "Iron Chests"
 	task.4A26B1A6BDC9BEF2.title: "Self-Sacrifice Rune Tier 2"
@@ -7846,120 +8351,11 @@
 	task.C009000000000102.title: "Pray at a decorative grave using the Ankh of Prayer"
 	task.C009000000000103.title: "Spend knowledge points to unlock a perk"
 	task.C009000000000104.title: "Fully upgrade any single perk"
+	task.D0060000000004A1.title: "Run an assembly recipe successfully"
 	task.DC01000000000201.title: "Acknowledge the food diversity system"
 	task.DC01000000000202.title: "Acknowledge horse stat visibility"
 	task.DC01000000000203.title: "Acknowledge the Multiblock Projector"
 	task.DC01000000000204.title: "Acknowledge equipment slot systems"
 	task.DC01000000000205.title: "Acknowledge navigation tools"
 	task.DC01000000000206.title: "Claim your mailbox reward"
-	quest.1E01000000000001.title: "Engineer's Hammer"
-	quest.1E01000000000001.quest_desc: ["The primary tool for Immersive Engineering. Craft it to form multiblock structures and rotate blocks."]
-	quest.1E01000000000002.title: "Coke Oven"
-	quest.1E01000000000002.quest_desc: ["A multiblock kiln that converts coal into coal coke and creosote oil. Build with sandstone bricks in a 3x3x3 hollow cube."]
-	quest.1E01000000000003.title: "Coal Coke"
-	quest.1E01000000000003.quest_desc: ["Burns twice as long as coal and is required for steel production. Creosote oil is a useful byproduct for treated wood."]
-	quest.1E01000000000004.title: "Alloy Kiln"
-	quest.1E01000000000004.quest_desc: ["Smelts two materials into alloys without power. Build with kiln bricks in a 2x2x2 cube."]
-	quest.1E01000000000005.title: "Constantan Ingot"
-	quest.1E01000000000005.quest_desc: ["An alloy of copper and nickel, smelted in the Alloy Kiln. Constantan is used in IE's thermoelectric generators and heating coils, making it essential for power infrastructure."]
-	quest.1E01000000000006.title: "Electrum Ingot"
-	quest.1E01000000000006.quest_desc: ["Gold and silver combined in the Alloy Kiln. Electrum is the primary conductor material for IE wiring and electrical components."]
-	quest.1E01000000000007.title: "Brass Ingot"
-	quest.1E01000000000007.quest_desc: ["Copper and zinc smelted together. Brass appears in various IE mechanical components and is shared with Create's crafting system."]
-	quest.1E01000000000008.title: "Blast Furnace"
-	quest.1E01000000000008.quest_desc: ["Smelts iron into steel using coal coke. The crude version is a 3x3x3 multiblock; the improved version adds hoppers for automation."]
-	quest.1E01000000000009.title: "Steel Ingot"
-	quest.1E01000000000009.quest_desc: ["Steel is the backbone of IE. Most machines, tools, and structures require it."]
-	quest.1E02000000000001.title: "Treated Wood"
-	quest.1E02000000000001.quest_desc: ["Soak wood planks in creosote oil to produce treated wood. This weatherproofed lumber is the foundation of IE's electrical infrastructure — used in poles, connectors, and most machine housings."]
-	quest.1E02000000000002.title: "Engineer's Workbench"
-	quest.1E02000000000002.quest_desc: ["The crafting station for wires, components, and blueprints. Place a treated wood fence and slab together to form the multiblock. Most IE recipes beyond basic smelting require this station."]
-	quest.1E02000000000003.title: "Wire Connectors"
-	quest.1E02000000000003.quest_desc: ["Connectors attach to blocks and transfer Forge Energy through wires. Start with LV connectors and copper wire. Higher voltage tiers (MV, HV) carry more power but require better insulation and materials."]
-	quest.1E02000000000004.title: "Thermoelectric Generator"
-	quest.1E02000000000004.quest_desc: ["Generates power from temperature differentials between adjacent blocks. Place hot blocks (lava, magma) on one side and cold blocks (ice, packed ice) on the other. A reliable early-game power source."]
-	quest.1E02000000000005.title: "LV Accumulator"
-	quest.1E02000000000005.quest_desc: ["Stores Forge Energy for machines and tools. Connect it to a generator with LV wire and connectors to build your first power grid. Without stored power, most IE machines won't operate."]
-	quest.1E03000000000001.title: "Crusher"
-	quest.1E03000000000001.quest_desc: ["A multiblock that grinds ores into dusts, doubling your yield per ore. Build it with steel scaffolding, fencing, and hoppers. Feed it power and ores — it handles the rest. The Crusher is one of IE's most-used early machines."]
-	quest.1E03000000000002.title: "Metal Press"
-	quest.1E03000000000002.quest_desc: ["Stamps ingots into plates, rods, wires, and gears using interchangeable molds. Nearly every advanced IE recipe requires pressed components. This machine also drives the gun blueprint and coin minting systems."]
-	quest.1E03000000000003.title: "Squeezer"
-	quest.1E03000000000003.quest_desc: ["Extracts fluids and byproducts from solid inputs. Crush seeds for plant oil, or process fruits into juices with unique potion-like effects. A key machine for both biodiesel production and the Juicery branch."]
-	quest.1E03000000000004.title: "Fermenter"
-	quest.1E03000000000004.quest_desc: ["Converts plant matter into ethanol. Combined with plant oil from the Squeezer, ethanol is the base ingredient for biodiesel — IE's most efficient liquid fuel."]
-	quest.1E03000000000005.title: "Refinery"
-	quest.1E03000000000005.quest_desc: ["Blends ethanol and plant oil into biodiesel. This high-energy fuel powers the Diesel Generator, IE's best power source. Building a Refinery means you've mastered IE's fluid processing chain."]
-	quest.1E03000000000006.title: "Diesel Generator"
-	quest.1E03000000000006.quest_desc: ["The most powerful IE generator. Burns biodiesel to produce substantial Forge Energy. Connect it to MV or HV accumulators to power your entire factory."]
-	quest.1E03000000000007.title: "Arc Furnace"
-	quest.1E03000000000007.quest_desc: ["An industrial-scale smelter that processes ores, alloys, and recycling in bulk. In the arms pipeline, the Arc Furnace produces gunmetal ingots and other specialized alloys needed for weapon components. Requires significant power but replaces multiple furnaces and kilns."]
-	quest.1E03000000000008.title: "Excavator"
-	quest.1E03000000000008.quest_desc: ["A massive multiblock mining machine that extracts ore veins from underground deposits. Use the Core Sample Drill first to locate veins, then build the Excavator above them for automated resource extraction."]
-	quest.1E04000000000001.title: "Conveyor Belts"
-	quest.1E04000000000001.quest_desc: ["Move items automatically between machines, hoppers, and chests. Place them on any surface and they'll push items in the direction they face. Vertical, dropping, and splitting variants let you build complex sorting lines."]
-	quest.1E04000000000002.title: "Fluid Pipes"
-	quest.1E04000000000002.quest_desc: ["Transfer fluids between tanks, machines, and the Refinery chain. IE pipes auto-connect and support pump-assisted flow for longer distances. Essential for any biodiesel or juice production setup."]
-	quest.1E04000000000003.title: "Silo"
-	quest.1E04000000000003.quest_desc: ["A large multiblock that stores up to 41,472 items of a single type. Build it from sheet metal in a 3x3 footprint, 5 blocks tall. Attach conveyors or hoppers to automate input and output."]
-	quest.1E04000000000004.title: "Tank"
-	quest.1E04000000000004.quest_desc: ["Stores up to 512 buckets of any fluid. Same construction style as the Silo — sheet metal walls with a 3x3 footprint. Connect fluid pipes to manage your creosote, biodiesel, or juice reserves."]
-	quest.1E04000000000005.title: "Item Router"
-	quest.1E04000000000005.quest_desc: ["Filters and distributes items across multiple outputs based on configurable rules. Useful for sorting ore processing outputs or directing pressed components to the right storage."]
-	quest.1E05000000000001.title: "Blueprint: Firearms"
-	quest.1E05000000000001.quest_desc: ["Acquire the Firearms blueprint from the Engineer's Workbench. IE's blueprint system replaces the standard gun crafting — all Point Blank weapons are manufactured using IE materials and the Metal Press."]
-	quest.1E05000000000002.title: "Craft a Pistol"
-	quest.1E05000000000002.quest_desc: ["Your first firearm. Pistols require steel components, treated wood grips, and pressed metal parts. Compact and reliable — a good sidearm while you work toward heavier hardware."]
-	quest.1E05000000000003.title: "Pistol Ammunition"
-	quest.1E05000000000003.quest_desc: ["Ammunition is consumed on use and must be manufactured in bulk. Set up a pressing line for casings and projectiles to keep your sidearm loaded. The same manufacturing principles apply to all weapon calibers."]
-	quest.1E05000000000004.title: "Craft a Rifle"
-	quest.1E05000000000004.quest_desc: ["Rifles demand more materials than pistols — steel barrels, mechanical components, and electronic parts for optics compatibility. Higher damage and range make them worth the investment."]
-	quest.1E05000000000005.title: "Craft a Shotgun"
-	quest.1E05000000000005.quest_desc: ["Shotguns use wider steel barrels and reinforced stocks. Devastating at close range with spread patterns that clear groups of mobs efficiently."]
-	quest.1E05000000000006.title: "Heavy Ordnance"
-	quest.1E05000000000006.quest_desc: ["Machine guns and launchers sit at the top of the arms tree. They consume significant IE resources — steel plates, electronic components, and osmium ingots — but deliver unmatched firepower."]
-	quest.1E05000000000007.title: "Blueprint: Scopes"
-	quest.1E05000000000007.quest_desc: ["Scopes and optics are crafted from glass panes, electronic components, and osmium. Each scope type offers different zoom levels and reticle styles for various combat ranges."]
-	quest.1E05000000000008.title: "Blueprint: Attachments"
-	quest.1E05000000000008.quest_desc: ["Suppressors, grips, and muzzle devices modify weapon handling. Suppressors reduce noise, grips improve stability, and muzzle brakes control recoil. All crafted from steel and aluminum on the workbench."]
-	quest.1E06000000000001.title: "Squeeze a Fruit"
-	quest.1E06000000000001.quest_desc: ["Feed any fruit into the Squeezer to extract its juice. Each fruit produces a unique juice with distinct potion-like effects — apple juice grants bonus health and luck, while melon juice reduces gravity. Check JEI for the full list of supported fruits."]
-	quest.1E06000000000002.title: "Bottled Juice"
-	quest.1E06000000000002.quest_desc: ["Fill glass bottles from juice fluid to create drinkable potions. Each juice provides attribute modifiers and status effects when consumed. Bottled juice stacks and is easy to carry into combat or exploration."]
-	quest.1E06000000000003.title: "Potency Levels"
-	quest.1E06000000000003.quest_desc: ["Juices come in three potency tiers. Potency I is standard strength, II provides 1.5x effects, and III delivers double potency. Higher tiers require additional processing or concentrated fruit inputs."]
-	quest.1E06000000000004.title: "Juice Pouring"
-	quest.1E06000000000004.quest_desc: ["Pour juice from a bucket to create a fluid block in the world. Any entity that walks through or falls into the liquid receives its effects. Use this to create buff zones for allies or add environmental effects to your base."]
-	quest.1E07000000000001.title: "Blackjack Table"
-	quest.1E07000000000001.quest_desc: ["A multiplayer card game supporting up to four players. Place any item stack as your bet — if you win, the table doubles it. This makes blackjack a powerful item duplicator for rare tools, filled backpacks, or valuable materials. Hit or stand against the dealer, and blackjack pays 1.5x. Built from wool, planks, and gold."]
-	quest.1E07000000000002.title: "Blank Mold"
-	quest.1E07000000000002.quest_desc: ["Craft a blank mold at the Engineer's Workbench using steel plates and a wirecutter. This mold is the starting point for the coin minting pipeline — it's used to stamp out coin dies for each metal type."]
-	quest.1E07000000000003.title: "Coin Dies"
-	quest.1E07000000000003.quest_desc: ["Produce coin dies from the blank mold at the workbench. Each die — copper, nickel, and silver — has 1,000 uses before it wears out. You'll need one die per coin denomination."]
-	quest.1E07000000000004.title: "Anneal Blanks"
-	quest.1E07000000000004.quest_desc: ["Heat-treat raw coin blanks in the Alloy Smelter with coke dust. Annealing hardens the metal and prepares it for the press. The process takes 100 ticks per blank — batch production is recommended."]
-	quest.1E07000000000005.title: "Mint Coins"
-	quest.1E07000000000005.quest_desc: ["Stamp annealed blanks in the Metal Press using your coin dies. Copper coins are the base currency, nickel coins are worth 2x, and silver coins 3x. Higher denominations multiply your gambling payouts."]
-	quest.1E07000000000006.title: "Slot Machine"
-	quest.1E07000000000006.quest_desc: ["A placeable gambling machine with four win tiers — from small payouts to a full jackpot with particle effects and rare loot. Insert coins, pull the lever, and test your luck. Crafted from iron blocks, gold, redstone, and an electronic component."]
-	quest.1E08000000000001.title: "Mining Drill"
-	quest.1E08000000000001.quest_desc: ["A powered handheld mining tool that chews through stone and ore faster than diamond picks. Requires a drill head and power from an IE capacitor backpack or external charger. Auger heads can be upgraded for wider mining patterns."]
-	quest.1E08000000000002.title: "Buzzsaw"
-	quest.1E08000000000002.quest_desc: ["A powered saw that fells entire trees in one cut. Like the drill, it runs on stored Forge Energy and accepts interchangeable blade attachments for different wood types and cutting speeds."]
-	quest.1E08000000000003.title: "Skyhook"
-	quest.1E08000000000003.quest_desc: ["Clips onto overhead IE wires and rides them like a zipline. Connect wire networks across your base or build long-range transport lines between locations. A fast, satisfying way to travel without elytra."]
-	quest.1E08000000000004.title: "Capacitor Backpack"
-	quest.1E08000000000004.quest_desc: ["A wearable battery that powers your drill, buzzsaw, and other IE tools on the go. Charges from any IE power source and eliminates the need to return to base for tool recharging."]
-	quest.1E08000000000005.title: "Improved Blast Furnace"
-	quest.1E08000000000005.quest_desc: ["The upgraded blast furnace adds hopper inputs and outputs for fully automated steel production. Feed it iron and coal coke from conveyors and collect steel ingots without manual interaction. A meaningful upgrade once your factory is running."]
-	quest.1E02000000000006.title: "Garden Cloche"
-	quest.1E02000000000006.quest_desc: ["An automated indoor crop grower. Place it, supply power and water, add a soil block and a seed, and it grows crops continuously. Especially useful for hemp — IE needs hemp fiber for insulation, fabric, and several blueprint recipes."]
-	quest.1E05000000000009.title: "Bottling Machine"
-	quest.1E05000000000009.quest_desc: ["A multiblock that combines fluids with solid items. Its primary use in the arms pipeline is producing duraplast plates from liquid resin and a plate mold. Also used for filling bottles, canisters, and ammunition shells."]
-	quest.1E0500000000000A.title: "Duraplast Sheet"
-	quest.1E0500000000000A.quest_desc: ["A tough plastic plate produced in the Bottling Machine from resin and a plate mold. Duraplast is required for heavy weapon frames, reinforced housings, and advanced machine components. The mold is returned after each press."]
-	quest.1E0500000000000B.title: "Electronic Component"
-	quest.1E0500000000000B.quest_desc: ["Craft an electronic component at the Engineer's Workbench using the components blueprint. Requires a treated wood slab, nether quartz, redstone, and electrum wire. These components appear in nearly every advanced IE recipe — weapons, turrets, and precision machinery all need them."]
-	quest.1E0500000000000C.title: "Circuit Board"
-	quest.1E0500000000000C.quest_desc: ["A printed circuit board crafted at the workbench from a plastic plate and copper plate. Circuit boards are the highest-tier crafting component — required for heavy ordnance, the slot machine, and advanced electronic systems."]
 }

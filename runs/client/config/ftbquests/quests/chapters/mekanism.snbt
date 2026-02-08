@@ -7,14 +7,6 @@
 		id: "mekanism:steel_casing"
 	}
 	id: "23983F4DC524B14B"
-	images: [{
-		height: 1.0d
-		image: "mekanismtools:item/osmium/paxel"
-		rotation: 0.0d
-		width: 1.0d
-		x: -8.5d
-		y: -3.0d
-	}]
 	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -177,8 +169,8 @@
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 1.2d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4274E777FB60BA28"]
@@ -354,8 +346,8 @@
 				item: { count: 1, id: "mekanism:energized_smelter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -3.5999999999999996d
+			y: -0.6d
 		}
 		{
 			dependencies: ["4935209D870E25F2"]
@@ -824,37 +816,6 @@
 			y: 5.0d
 		}
 		{
-			icon: {
-				id: "mekanism:creative_energy_cube"
-			}
-			id: "58B125BD4876054C"
-			rewards: [
-				{
-					id: "457FAB2DDE9FBC18"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
-					type: "item"
-				}
-				{
-					id: "289C97B3D45F7CEA"
-					type: "xp"
-					xp: 5
-				}
-			]
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "77329B944064E893"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
-			}]
-			x: -10.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["58B125BD4876054C"]
 			id: "6F62B5510FA881CD"
 			rewards: [
 				{
@@ -876,13 +837,14 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
 				id: "52967F83338A3AC3"
 				item: { count: 1, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -12.0d
 			y: -2.0d
 		}
 		{
@@ -1687,8 +1649,8 @@
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 1.2d
+			y: -4.2d
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
@@ -2974,8 +2936,8 @@
 				item: { count: 1, id: "mekanism:bio_fuel" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4274E777FB60BA28"]
@@ -3104,8 +3066,8 @@
 				item: { count: 1, id: "mekanism:hdpe_pellet" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 3.5999999999999996d
+			y: -6.0d
 		}
 		{
 			id: "01A90E2541C91DB2"
@@ -3169,8 +3131,8 @@
 				item: { count: 1, id: "mekanism:dust_refined_obsidian" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4274E777FB60BA28"]
