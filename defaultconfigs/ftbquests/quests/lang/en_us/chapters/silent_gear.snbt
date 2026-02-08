@@ -1,0 +1,452 @@
+{
+	// Silent Gear Chapter
+	chapter.1D42B373285DEF81.title: "Silent Gear"
+
+	// Introduction
+	quest.52EB902E76829EBB.title: "Getting Started with Silent Gear"
+	quest.52EB902E76829EBB.quest_subtitle: "The customizable gear mod"
+	quest.52EB902E76829EBB.quest_desc: [
+		"Silent Gear is a powerful tool and armor customization mod. Unlike vanilla gear, Silent Gear items are built from individual parts, each contributing unique stats and traits."
+		""
+		"Your first step is simple: obtain any tool. This unlocks the path to creating your own customized gear with materials of your choice."
+	]
+	task.335C00992014176A.title: "I have obtained a tool"
+
+	// Templates and Parts
+	quest.7B690431CF1B87D0.title: "Template Boards"
+	quest.7B690431CF1B87D0.quest_subtitle: "The foundation of part crafting"
+	quest.7B690431CF1B87D0.quest_desc: [
+		"Template Boards are crafted from planks and used to create Templates. Templates are then combined with materials to create tool parts."
+		""
+		"Craft a Pickaxe Template and use it with your chosen material to create a Pickaxe Head - the main component of your first Silent Gear tool."
+	]
+
+	quest.15DE3BF0CBD8E0B4.title: "Your First Silent Gear Tool"
+	quest.15DE3BF0CBD8E0B4.quest_subtitle: "Assemble the parts"
+	quest.15DE3BF0CBD8E0B4.quest_desc: [
+		"Combine your crafted parts in a crafting grid to create a Silent Gear tool. A basic pickaxe needs a Pickaxe Head and a Rod."
+		""
+		"The stats of your tool depend entirely on the materials you used. Experiment with different materials to find the best combinations!"
+	]
+	task.2ADE9DBE9448AC7F.title: "I have crafted a Silent Gear pickaxe"
+
+	// Blueprint System
+	quest.64AB1E133E218173.title: "Blueprint Paper"
+	quest.64AB1E133E218173.quest_subtitle: "Unlocking advanced crafting"
+	quest.64AB1E133E218173.quest_desc: [
+		"Blueprint Paper is crafted from paper and dye. It's used to create Blueprints, which are reusable patterns for crafting tool parts."
+		""
+		"Unlike Templates which are consumed, Blueprints can be used indefinitely. Collect 8 Blueprint Paper to start your blueprint collection."
+	]
+
+	quest.7860FD3D3273351F.title: "Blueprint Book"
+	quest.7860FD3D3273351F.quest_subtitle: "Organize your blueprints"
+	quest.7860FD3D3273351F.quest_desc: [
+		"The Blueprint Book stores all your blueprints in one convenient item. Simply right-click to open and access any stored blueprint."
+		""
+		"This is essential for keeping your inventory organized as you collect more blueprints."
+	]
+
+	// Weapon Blueprints
+	quest.0DF4B01CC5B49E4E.title: "Sword Blueprint"
+	quest.0DF4B01CC5B49E4E.quest_subtitle: "The reliable choice"
+	quest.0DF4B01CC5B49E4E.quest_desc: [
+		"The Sword is your standard melee weapon with balanced damage and attack speed. It's effective against most enemies."
+		""
+		"Silent Gear swords can be enhanced with coatings, tips, and other upgrades to surpass vanilla swords significantly."
+	]
+
+	quest.3722B43822F80470.title: "Katana Blueprint"
+	quest.3722B43822F80470.quest_subtitle: "Release your inner samurai"
+	quest.3722B43822F80470.quest_desc: [
+		"The Katana deals more damage than a standard sword but attacks slightly slower. It's ideal for players who prefer heavy hits over rapid strikes."
+		""
+		"Its elegant design makes it a favorite among warriors who value both form and function."
+	]
+
+	quest.39B85DB54B1037FE.title: "Machete Blueprint"
+	quest.39B85DB54B1037FE.quest_subtitle: "Thick and fast"
+	quest.39B85DB54B1037FE.quest_desc: [
+		"The Machete attacks faster than a sword but deals slightly less damage per hit. It also clears vegetation quickly."
+		""
+		"Perfect for jungle exploration or players who prefer a rapid attack style."
+	]
+
+	quest.405DCD3E36232EEA.title: "Spear Blueprint"
+	quest.405DCD3E36232EEA.quest_subtitle: "Release your inner Spartan"
+	quest.405DCD3E36232EEA.quest_desc: [
+		"The Spear has less damage than a sword but significantly longer reach. Keep enemies at bay while dealing consistent damage."
+		""
+		"Excellent for fighting dangerous mobs that you'd rather not get close to."
+	]
+
+	quest.0D26E5EF6CFCFDBF.title: "Knife Blueprint"
+	quest.0D26E5EF6CFCFDBF.quest_subtitle: "Quick and precise"
+	quest.0D26E5EF6CFCFDBF.quest_desc: [
+		"The Knife has higher durability than a dagger but lower damage and speed. It's a utility weapon that can also harvest certain drops."
+		""
+		"Useful for both combat and resource gathering."
+	]
+
+	quest.3D2C6FF462B17205.title: "Dagger Blueprint"
+	quest.3D2C6FF462B17205.quest_subtitle: "Death by a thousand cuts"
+	quest.3D2C6FF462B17205.quest_desc: [
+		"The Dagger has low damage but extremely high attack speed. It also reduces the invincibility time of targets, allowing more hits."
+		""
+		"Devastating when combined with effects that trigger on-hit."
+	]
+
+	// Tool Blueprints
+	quest.766C80E5D7B7A916.title: "Pickaxe Blueprint"
+	quest.766C80E5D7B7A916.quest_subtitle: "The miner's best friend"
+	quest.766C80E5D7B7A916.quest_desc: [
+		"The Pickaxe is essential for mining stone, ores, and other hard materials. Silent Gear pickaxes can far exceed vanilla diamond tools."
+		""
+		"Craft with high-tier materials for faster mining speeds and greater durability."
+	]
+
+	quest.52CDB46F6CBF007B.title: "Shovel Blueprint"
+	quest.52CDB46F6CBF007B.quest_subtitle: "Dig it!"
+	quest.52CDB46F6CBF007B.quest_desc: [
+		"The Shovel quickly breaks dirt, sand, gravel, and other soft materials. Essential for landscaping and excavation projects."
+		""
+		"Higher tier materials provide faster digging and longer-lasting tools."
+	]
+
+	quest.69383DA579901E7E.title: "Axe Blueprint"
+	quest.69383DA579901E7E.quest_subtitle: "Timber!"
+	quest.69383DA579901E7E.quest_desc: [
+		"The Axe cuts wood quickly and doubles as a powerful weapon. It deals more damage than a sword but attacks slower."
+		""
+		"Essential for any base builder or lumberjack."
+	]
+
+	quest.63CAD77A4488F2CE.title: "Paxel Blueprint"
+	quest.63CAD77A4488F2CE.quest_subtitle: "Pickaxe + Axe + Shovel"
+	quest.63CAD77A4488F2CE.quest_desc: [
+		"The Paxel combines pickaxe, axe, and shovel into one tool. It can mine any block that those three tools can break."
+		""
+		"Requires more materials to craft but saves valuable inventory space."
+	]
+
+	quest.262036FE8E87F50A.title: "Hammer Blueprint"
+	quest.262036FE8E87F50A.quest_subtitle: "3x3 Mining"
+	quest.262036FE8E87F50A.quest_desc: [
+		"The Hammer mines a 3x3 area of stone and ores. Perfect for strip mining or clearing large areas quickly."
+		""
+		"Uses more durability but dramatically increases mining efficiency."
+	]
+
+	quest.3F39BEB788175CEF.title: "Excavator Blueprint"
+	quest.3F39BEB788175CEF.quest_subtitle: "3x3 Digging"
+	quest.3F39BEB788175CEF.quest_desc: [
+		"The Excavator digs a 3x3 area of soft materials like dirt and sand. Essential for large excavation projects."
+		""
+		"Pairs perfectly with the Hammer for complete 3x3 tool coverage."
+	]
+
+	quest.427516AA3E8C9442.title: "Mattock Blueprint"
+	quest.427516AA3E8C9442.quest_subtitle: "The versatile hoe"
+	quest.427516AA3E8C9442.quest_desc: [
+		"The Mattock functions as both a hoe and a shovel. Till soil and dig soft blocks with one tool."
+		""
+		"Ideal for farmers who need versatility in the field."
+	]
+
+	quest.083ABBA1C45FF960.title: "Sickle Blueprint"
+	quest.083ABBA1C45FF960.quest_subtitle: "Harvest in style"
+	quest.083ABBA1C45FF960.quest_desc: [
+		"The Sickle harvests crops and cuts plants in an area. Much more efficient than breaking plants one by one."
+		""
+		"A must-have for any serious farmer."
+	]
+
+	quest.67216EC5274F08B9.title: "Shears Blueprint"
+	quest.67216EC5274F08B9.quest_subtitle: "For wool and leaves"
+	quest.67216EC5274F08B9.quest_desc: [
+		"Silent Gear Shears function like vanilla shears but can be made from any material. Higher tiers last much longer."
+		""
+		"Essential for collecting wool, leaves, and other shear-harvestable blocks."
+	]
+
+	quest.462C1F75A2FB9F02.title: "Fishing Rod Blueprint"
+	quest.462C1F75A2FB9F02.quest_subtitle: "Gone fishing"
+	quest.462C1F75A2FB9F02.quest_desc: [
+		"The Silent Gear Fishing Rod can be enhanced with better materials for increased durability and luck."
+		""
+		"Higher tier materials may improve your fishing results."
+	]
+
+	// Ranged Blueprints
+	quest.6D9CDB4D81DC164D.title: "Bow Blueprint"
+	quest.6D9CDB4D81DC164D.quest_subtitle: "Classic ranged combat"
+	quest.6D9CDB4D81DC164D.quest_desc: [
+		"The Silent Gear Bow can be customized with various materials affecting draw speed, damage, and durability."
+		""
+		"Combine with Silent Gear arrows for maximum effectiveness."
+	]
+
+	quest.1E8357755479E259.title: "Crossbow Blueprint"
+	quest.1E8357755479E259.quest_subtitle: "Powerful and precise"
+	quest.1E8357755479E259.quest_desc: [
+		"The Crossbow takes longer to load but deals consistent damage regardless of draw time. Stays loaded when not in use."
+		""
+		"Ideal for ambushes and planned engagements."
+	]
+
+	quest.1E2F1E036716C031.title: "Slingshot Blueprint"
+	quest.1E2F1E036716C031.quest_subtitle: "Simple but effective"
+	quest.1E2F1E036716C031.quest_desc: [
+		"The Slingshot fires pebbles and other small items. A cheap ranged option that uses common ammunition."
+		""
+		"Good for early game ranged combat before you have arrows."
+	]
+
+	quest.3844877F6C1AFE77.title: "Arrow Blueprint"
+	quest.3844877F6C1AFE77.quest_subtitle: "Custom ammunition"
+	quest.3844877F6C1AFE77.quest_desc: [
+		"Silent Gear Arrows can be crafted from various materials, affecting their damage and special properties."
+		""
+		"High-tier arrows deal significantly more damage than vanilla arrows."
+	]
+
+	quest.3F56A5253D477B97.title: "Fletching Blueprint"
+	quest.3F56A5253D477B97.quest_subtitle: "Arrow flight control"
+	quest.3F56A5253D477B97.quest_desc: [
+		"Fletching is the feather or fin part of an arrow. Different materials affect arrow accuracy and flight characteristics."
+		""
+		"Experiment with different fletching materials for optimal arrow performance."
+	]
+
+	// Armor Blueprints
+	quest.6E2806D8DC61C46F.title: "Helmet Blueprint"
+	quest.6E2806D8DC61C46F.quest_subtitle: "Protect your head"
+	quest.6E2806D8DC61C46F.quest_desc: [
+		"Silent Gear helmets can be crafted from any compatible material. Mix and match parts for optimal protection and traits."
+		""
+		"Don't forget you can add linings for extra comfort and bonuses."
+	]
+
+	quest.35E8C65CCA676E76.title: "Chestplate Blueprint"
+	quest.35E8C65CCA676E76.quest_subtitle: "Core protection"
+	quest.35E8C65CCA676E76.quest_desc: [
+		"The Chestplate provides the most armor points of any armor piece. Invest in quality materials here for maximum protection."
+		""
+		"Higher tier materials provide better armor toughness and durability."
+	]
+
+	quest.22C51025DC42CDE2.title: "Leggings Blueprint"
+	quest.22C51025DC42CDE2.quest_subtitle: "Leg protection"
+	quest.22C51025DC42CDE2.quest_desc: [
+		"Leggings provide solid protection for your lower body. Second only to the chestplate in armor value."
+		""
+		"Consider mobility-enhancing traits for your leggings."
+	]
+
+	quest.6912C0E3D092DD27.title: "Boots Blueprint"
+	quest.6912C0E3D092DD27.quest_subtitle: "Stay grounded"
+	quest.6912C0E3D092DD27.quest_desc: [
+		"Boots protect your feet and can provide movement-related bonuses depending on materials used."
+		""
+		"Some materials provide fall damage reduction or other mobility benefits."
+	]
+
+	quest.5AB8651FCB1E2F72.title: "Elytra Blueprint"
+	quest.5AB8651FCB1E2F72.quest_subtitle: "Take flight"
+	quest.5AB8651FCB1E2F72.quest_desc: [
+		"Silent Gear Elytra can be repaired with materials instead of phantom membranes. Customize durability and traits."
+		""
+		"A significant upgrade over vanilla elytra for frequent flyers."
+	]
+
+	// Defense and Accessories
+	quest.78C112170E17FBF4.title: "Shield Blueprint"
+	quest.78C112170E17FBF4.quest_subtitle: "Block incoming attacks"
+	quest.78C112170E17FBF4.quest_desc: [
+		"Silent Gear shields block damage and can be customized with various materials for durability and special traits."
+		""
+		"Essential for melee combat survival."
+	]
+
+	quest.74FA25B2E087BEC4.title: "Ring Blueprint"
+	quest.74FA25B2E087BEC4.quest_subtitle: "Accessory slot item"
+	quest.74FA25B2E087BEC4.quest_desc: [
+		"Rings are accessory items that provide passive bonuses based on their materials. Requires a curios slot to wear."
+		""
+		"Experiment with different materials for various passive effects."
+	]
+
+	quest.21234BB40DB05C78.title: "Bracelet Blueprint"
+	quest.21234BB40DB05C78.quest_subtitle: "Wrist protection"
+	quest.21234BB40DB05C78.quest_desc: [
+		"Bracelets are accessory items worn on your wrist. They provide passive bonuses based on crafting materials."
+		""
+		"Another way to gain material traits without using armor slots."
+	]
+
+	quest.2098D8BFADB55D2A.title: "Lining Blueprint"
+	quest.2098D8BFADB55D2A.quest_subtitle: "Inner armor layer"
+	quest.2098D8BFADB55D2A.quest_desc: [
+		"Linings are added inside armor pieces for extra protection or special traits. They don't affect the outer appearance."
+		""
+		"A way to add another material's traits to your armor."
+	]
+
+	// Upgrade Blueprints
+	quest.657B3116A6419420.title: "Rod Blueprint"
+	quest.657B3116A6419420.quest_subtitle: "Tool handles"
+	quest.657B3116A6419420.quest_desc: [
+		"Rods form the handle of tools. Different materials affect tool durability, attack speed, and provide unique traits."
+		""
+		"Don't overlook the rod - it contributes significantly to your tool's performance."
+	]
+
+	quest.158B24939A269D83.title: "Tip Blueprint"
+	quest.158B24939A269D83.quest_subtitle: "Upgrade mining level"
+	quest.158B24939A269D83.quest_desc: [
+		"Tips are upgrades that increase a tool's mining level. Add a diamond tip to an iron pickaxe to mine obsidian!"
+		""
+		"A cost-effective way to upgrade tools without rebuilding them entirely."
+	]
+
+	quest.0947B4ED95B0267E.title: "Coating Blueprint"
+	quest.0947B4ED95B0267E.quest_subtitle: "Surface treatment"
+	quest.0947B4ED95B0267E.quest_desc: [
+		"Coatings add a layer of material to tools and weapons. Netherite coating is particularly effective."
+		""
+		"Adds the coating material's traits without changing the base tool."
+	]
+
+	quest.6BFD7854F078BF16.title: "Grip Blueprint"
+	quest.6BFD7854F078BF16.quest_subtitle: "Handle comfort"
+	quest.6BFD7854F078BF16.quest_desc: [
+		"Grips wrap around tool handles for better control. They can affect attack speed and add material traits."
+		""
+		"A leather grip improves handling on most tools."
+	]
+
+	quest.22A0A9C81A5C85A1.title: "Binding Blueprint"
+	quest.22A0A9C81A5C85A1.quest_subtitle: "Hold it together"
+	quest.22A0A9C81A5C85A1.quest_desc: [
+		"Bindings connect tool heads to rods. They add durability and can provide additional traits."
+		""
+		"Often overlooked but can significantly improve tool longevity."
+	]
+
+	// Machines
+	quest.2EB96FF06627FD9A.title: "Salvager"
+	quest.2EB96FF06627FD9A.quest_subtitle: "Recycle your gear"
+	quest.2EB96FF06627FD9A.quest_desc: [
+		"The Salvager breaks down gear into component materials. Put in diamond boots, get diamonds back."
+		""
+		"Essential for recovering materials from unwanted equipment. Works on both vanilla and Silent Gear items."
+	]
+
+	quest.6A393C7A24899E3E.title: "Material Grader"
+	quest.6A393C7A24899E3E.quest_subtitle: "Quality matters"
+	quest.6A393C7A24899E3E.quest_desc: [
+		"The Material Grader assigns grades to materials. Higher grades provide better stats when crafting."
+		""
+		"Place an ingot with a Grader Catalyst to roll for a grade. The best possible grade is MAX."
+	]
+
+	quest.3930404D5C8B44EB.title: "Metal Alloyer"
+	quest.3930404D5C8B44EB.quest_subtitle: "Create custom alloys"
+	quest.3930404D5C8B44EB.quest_desc: [
+		"The Metal Alloyer combines metals into powerful alloys. This is the only way to create Tyrian Steel!"
+		""
+		"Experiment with different metal combinations to discover all available alloys."
+	]
+
+	quest.7C3D763CF22D167A.title: "Starlight Charger"
+	quest.7C3D763CF22D167A.quest_subtitle: "Enchant with starlight"
+	quest.7C3D763CF22D167A.quest_desc: [
+		"The Starlight Charger adds the Star Charged property to materials. Build a structure with the charger in the center, pillars at corners with caps."
+		""
+		"Only works at night under open sky. Requires charger catalysts to process materials."
+	]
+
+	// Grader Catalysts
+	quest.6B78378BC8036227.title: "Tier 1 Grader Catalyst"
+	quest.6B78378BC8036227.quest_subtitle: "Glowing Dust"
+	quest.6B78378BC8036227.quest_desc: [
+		"Glowing Dust is the basic catalyst for the Material Grader. It provides a chance at lower grades."
+		""
+		"Craft from glowstone and other materials. One catalyst is consumed per grading attempt."
+	]
+
+	quest.002D65E4D7E8F62B.title: "Tier 2 Grader Catalyst"
+	quest.002D65E4D7E8F62B.quest_subtitle: "Blazing Dust"
+	quest.002D65E4D7E8F62B.quest_desc: [
+		"Blazing Dust improves your chances of getting higher grades from the Material Grader."
+		""
+		"Requires blaze powder and other nether materials to craft."
+	]
+
+	quest.7D690A7D0FF6E328.title: "Tier 3 Grader Catalyst"
+	quest.7D690A7D0FF6E328.quest_subtitle: "Glittery Dust"
+	quest.7D690A7D0FF6E328.quest_desc: [
+		"Glittery Dust is the best catalyst, providing the highest chance at MAX grade materials."
+		""
+		"Expensive to craft but worth it for endgame gear."
+	]
+
+	// Starlight Charger Pillar Caps
+	quest.7E13007340A818C5.title: "Tier 1 Charger Pillar Cap"
+	quest.7E13007340A818C5.quest_subtitle: "Crimson Steel"
+	quest.7E13007340A818C5.quest_desc: [
+		"Crimson Steel Blocks serve as Tier 1 pillar caps for the Starlight Charger structure."
+		""
+		"Place one on top of each corner pillar of your charger structure."
+	]
+
+	quest.29131C3532610ADF.title: "Tier 2 Charger Pillar Cap"
+	quest.29131C3532610ADF.quest_subtitle: "Azure Electrum"
+	quest.29131C3532610ADF.quest_desc: [
+		"Azure Electrum Blocks are Tier 2 pillar caps. They improve charger efficiency over Crimson Steel."
+		""
+		"Requires azure silver from the End dimension."
+	]
+
+	quest.3B560B2ECE331CAF.title: "Tier 3 Charger Pillar Cap"
+	quest.3B560B2ECE331CAF.quest_subtitle: "Tyrian Steel"
+	quest.3B560B2ECE331CAF.quest_desc: [
+		"Tyrian Steel Blocks are the best pillar caps. Maximum starlight charging efficiency."
+		""
+		"Tyrian Steel can only be created in the Metal Alloyer."
+	]
+
+	// Starlight Charger Catalysts
+	quest.48D358470A019E7A.title: "Tier 1 Charger Catalyst"
+	quest.48D358470A019E7A.quest_subtitle: "Blaze Gold Dust"
+	quest.48D358470A019E7A.quest_desc: [
+		"Blaze Gold Dust is consumed when star charging materials. Basic tier with lower efficiency."
+		""
+		"Create Blaze Gold in the Metal Alloyer from gold and blaze powder."
+	]
+
+	quest.2BF119DD5D977409.title: "Tier 2 Charger Catalyst"
+	quest.2BF119DD5D977409.quest_subtitle: "Azure Silver Dust"
+	quest.2BF119DD5D977409.quest_desc: [
+		"Azure Silver Dust provides improved star charging. Found in the End dimension."
+		""
+		"Mine Azure Silver Ore in the End and process into dust."
+	]
+
+	quest.0FEAD3CA2CC4A8B1.title: "Tier 3 Charger Catalyst"
+	quest.0FEAD3CA2CC4A8B1.quest_subtitle: "Starmetal Dust"
+	quest.0FEAD3CA2CC4A8B1.quest_desc: [
+		"Starmetal Dust is the ultimate charger catalyst. Maximum star charging efficiency."
+		""
+		"Created from the rarest Silent Gear materials."
+	]
+
+	// Repair Kit
+	quest.11B0B93D725ABE43.title: "Repair Kit"
+	quest.11B0B93D725ABE43.quest_subtitle: "No anvil required"
+	quest.11B0B93D725ABE43.quest_desc: [
+		"Repair Kits restore durability to Silent Gear items without an anvil. Fill the kit with materials, then combine with the damaged item."
+		""
+		"Different tier kits repair different amounts. Higher tiers like Crimson and Azure kits are more efficient."
+	]
+}

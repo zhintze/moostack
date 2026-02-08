@@ -10,7 +10,7 @@
 		id: "pneumaticcraft:pneumatic_wrench"
 	}
 	id: "5E31DF282998B992"
-	order_index: 16
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
@@ -550,7 +550,7 @@
 				}
 			]
 			x: 13.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1BADBB34A86270DE"]

@@ -1,6 +1,5 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_dependencies: ["0ECEB17B7C8ADD33"]
 	default_quest_shape: ""
 	filename: "corail_tombstone"
 	group: ""

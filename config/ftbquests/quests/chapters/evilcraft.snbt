@@ -7,7 +7,7 @@
 		id: "evilcraft:dark_power_gem"
 	}
 	id: "3456E0C530C0038E"
-	order_index: 15
+	order_index: 16
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -544,7 +544,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3A5FD8469B39E661", "17DC7F2A51CD0E61"]
+			dependencies: [
+				"3A5FD8469B39E661"
+				"17DC7F2A51CD0E61"
+			]
 			id: "3D4F42EE155B91AE"
 			min_width: 300
 			rewards: [
@@ -632,7 +635,7 @@
 				item: { count: 1, id: "evilcraft:blook" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -757,7 +760,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["716FE06BF0A3EC6E", "5F5FB5699AD4BB0F"]
+			dependencies: [
+				"716FE06BF0A3EC6E"
+				"5F5FB5699AD4BB0F"
+			]
 			id: "5B9749E30099FF8E"
 			min_width: 300
 			rewards: [
@@ -967,7 +973,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["50B200AF8C08AA76", "024E7D25DBAB3E06"]
+			dependencies: [
+				"50B200AF8C08AA76"
+				"024E7D25DBAB3E06"
+			]
 			icon: {
 				id: "evilcraft:spirit_furnace"
 			}
@@ -1202,7 +1211,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["5E01C6FB7C078C60"]
 			dependencies: ["7FB2BC315140D738"]
 			id: "0D1E3481748ADFB4"
 			min_width: 300
@@ -1319,7 +1327,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7EB4BD84F387A080"]
 			dependencies: ["02779311D8165784"]
 			icon: {
 				id: "evilcraft:sanguinary_pedestal_0"
@@ -1487,8 +1494,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["26AABB7B3D613EC8", "1AD71EF270AA871E"]
-			dependency_requirement: "one_completed"
+			dependencies: [
+				"26AABB7B3D613EC8"
+				"1AD71EF270AA871E"
+			]
 			dependency_requirement: "one_completed"
 			id: "132F499850280976"
 			min_width: 300
@@ -1562,7 +1571,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["132F499850280976", "5E8CA73483C49ED9"]
+			dependencies: [
+				"132F499850280976"
+				"5E8CA73483C49ED9"
+			]
 			id: "6E3119FB56DD9904"
 			min_width: 300
 			rewards: [

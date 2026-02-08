@@ -1,6 +1,5 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_dependencies: ["0ECEB17B7C8ADD33"]
 	default_quest_shape: ""
 	filename: "immersive_engineering"
 	group: ""
@@ -73,7 +72,10 @@
 		{
 			dependencies: ["1E01000000000002"]
 			icon: {
-				id: "immersiveengineering:alloy_kiln"
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:alloy_kiln"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1E01000000000004"
 			rewards: [{
@@ -83,7 +85,7 @@
 			}]
 			tasks: [{
 				id: "1E010000000000A4"
-				item: { count: 1, id: "immersiveengineering:alloy_kiln" }
+				item: { components: { "ftbquests:missing_item": "immersiveengineering:alloy_kiln" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -533,7 +535,10 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["1E0500000000000A", "1E0500000000000C"]
+			dependencies: [
+				"1E0500000000000A"
+				"1E0500000000000C"
+			]
 			icon: {
 				id: "immersiveengineering:blueprint"
 			}

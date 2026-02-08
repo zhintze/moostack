@@ -7,7 +7,6 @@
 		id: "occultism:dictionary_of_spirits"
 	}
 	id: "0C00000000000000"
-	images: [ ]
 	order_index: 10
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -259,7 +258,7 @@
 			tasks: [
 				{
 					id: "0C020000000006A1"
-					item: { count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					item: { components: { "occultism:spirit_name": "Hrothvellkylle" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{

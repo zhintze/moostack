@@ -56,12 +56,14 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "26084080CB6A3A08"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 0.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0ECEB17B7C8ADD33"]
@@ -78,12 +80,14 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "69A446EFA01FD281"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0ECEB17B7C8ADD33"]
@@ -100,12 +104,14 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "5B802D09984BF70C"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0ECEB17B7C8ADD33"]
@@ -288,12 +294,14 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "1458D40D0CD8DE11"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -2.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0ECEB17B7C8ADD33"]
@@ -311,12 +319,14 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "64CE83BCD6C05863"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 0.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["0ECEB17B7C8ADD33"]
@@ -325,27 +335,22 @@
 			}
 			id: "516E80B59105117A"
 			min_width: 300
-			rewards: [
-				{
-					id: "4E29CBBC95096C2A"
-					type: "xp"
-					xp: 50
+			rewards: [{
+				id: "37BB269FC27EA720"
+				item: {
+					count: 1
+					id: "mighty_mail:oak_mail_box"
 				}
-				{
-					id: "37BB269FC27EA720"
-					item: {
-						count: 1
-						id: "mighty_mail:oak_mail_box"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "26DAA394F28C4A16"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 2.25d
+			y: -1.5d
 		}
 	]
 }

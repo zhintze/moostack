@@ -1,6 +1,5 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_dependencies: ["0ECEB17B7C8ADD33"]
 	default_quest_shape: ""
 	filename: "irons_spells"
 	group: ""
@@ -21,7 +20,7 @@
 		id: "irons_spellbooks:scroll"
 	}
 	id: "1A2B3C4D5E6F7890"
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -152,24 +151,14 @@
 		{
 			dependencies: ["0001000000000002"]
 			id: "5AE21A2712A82D62"
-			rewards: [
-				{
-					id: "0D7128938F540DA1"
-					item: {
-						count: 1
-						id: "irons_spellbooks:oakskin_elixir"
-					}
-					type: "item"
+			rewards: [{
+				id: "0D7128938F540DA1"
+				item: {
+					count: 1
+					id: "irons_spellbooks:oakskin_elixir"
 				}
-				{
-					id: "0002000000000105"
-					item: {
-						count: 1
-						id: "irons_spellbooks:evasion_elixir"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
