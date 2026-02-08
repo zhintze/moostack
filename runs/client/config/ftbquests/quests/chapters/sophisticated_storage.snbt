@@ -180,10 +180,10 @@
 			dependencies: ["5501000000000300"]
 			id: "5502000000000100"
 			rewards: [{
-					id: "55020000000001B1"
-					type: "xp"
-					xp: 100
-				}]
+				id: "55020000000001B1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [{
@@ -198,10 +198,10 @@
 			dependencies: ["5502000000000100"]
 			id: "5502000000000200"
 			rewards: [{
-					id: "55020000000002B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55020000000002B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55020000000002A1"
 				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
@@ -214,10 +214,10 @@
 			dependencies: ["5502000000000100"]
 			id: "5502000000000300"
 			rewards: [{
-					id: "55020000000003B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55020000000003B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55020000000003A1"
 				item: { count: 1, id: "sophisticatedstorage:storage_link" }
@@ -229,10 +229,10 @@
 		{
 			id: "5503000000000100"
 			rewards: [{
-					id: "55030000000001B1"
-					type: "xp"
-					xp: 25
-				}]
+				id: "55030000000001B1"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -402,10 +402,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5504000000000200"
 			rewards: [{
-					id: "55040000000002B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000002B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000002A1"
 				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
@@ -419,10 +419,10 @@
 			id: "5504000000000300"
 			optional: true
 			rewards: [{
-					id: "55040000000003B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000003B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000003A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_pickup_upgrade" }
@@ -435,10 +435,10 @@
 			dependencies: ["5504000000000200"]
 			id: "5504000000000400"
 			rewards: [{
-					id: "55040000000004B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000004B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000004A1"
 				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
@@ -452,10 +452,10 @@
 			id: "5504000000000500"
 			optional: true
 			rewards: [{
-					id: "55040000000005B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000005B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000005A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
@@ -468,10 +468,10 @@
 			dependencies: ["5504000000000400"]
 			id: "5504000000000600"
 			rewards: [{
-					id: "55040000000006B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000006B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000006A1"
 				item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
@@ -485,10 +485,10 @@
 			id: "5504000000000700"
 			optional: true
 			rewards: [{
-					id: "55040000000007B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000007B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000007A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_filter_upgrade" }
@@ -501,10 +501,10 @@
 			dependencies: ["5504000000000600"]
 			id: "5504000000000800"
 			rewards: [{
-					id: "55040000000008B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000008B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000008A1"
 				item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
@@ -518,10 +518,10 @@
 			id: "5504000000000900"
 			optional: true
 			rewards: [{
-					id: "55040000000009B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55040000000009B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55040000000009A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_void_upgrade" }
@@ -534,10 +534,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5505000000000100"
 			rewards: [{
-					id: "55050000000001B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000001B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000001A1"
 				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
@@ -551,10 +551,10 @@
 			id: "5505000000000200"
 			optional: true
 			rewards: [{
-					id: "55050000000002B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000002B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000002A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_feeding_upgrade" }
@@ -567,10 +567,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5505000000000300"
 			rewards: [{
-					id: "55050000000003B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000003B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000003A1"
 				item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
@@ -584,10 +584,10 @@
 			id: "5505000000000400"
 			optional: true
 			rewards: [{
-					id: "55050000000004B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000004B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000004A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_refill_upgrade" }
@@ -600,10 +600,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5505000000000500"
 			rewards: [{
-					id: "55050000000005B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000005B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000005A1"
 				item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
@@ -617,10 +617,10 @@
 			id: "5505000000000600"
 			optional: true
 			rewards: [{
-					id: "55050000000006B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000006B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000006A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
@@ -633,10 +633,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5505000000000700"
 			rewards: [{
-					id: "55050000000007B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000007B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000007A1"
 				item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
@@ -649,10 +649,10 @@
 			dependencies: ["5505000000000700"]
 			id: "5505000000000800"
 			rewards: [{
-					id: "55050000000008B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000008B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000008A1"
 				item: { count: 1, id: "sophisticatedbackpacks:pump_upgrade" }
@@ -666,10 +666,10 @@
 			id: "5505000000000900"
 			optional: true
 			rewards: [{
-					id: "55050000000009B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55050000000009B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55050000000009A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_pump_upgrade" }
@@ -682,10 +682,10 @@
 			dependencies: ["5505000000000700"]
 			id: "5505000000000A00"
 			rewards: [{
-					id: "5505000000000AB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5505000000000AB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5505000000000AA1"
 				item: { count: 1, id: "sophisticatedbackpacks:battery_upgrade" }
@@ -698,10 +698,10 @@
 			dependencies: ["5505000000000800"]
 			id: "5505000000000B00"
 			rewards: [{
-					id: "5505000000000BB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5505000000000BB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5505000000000BA1"
 				item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
@@ -714,10 +714,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000100"
 			rewards: [{
-					id: "55060000000001B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000001B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000001A1"
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
@@ -730,10 +730,10 @@
 			dependencies: ["5506000000000100"]
 			id: "5506000000000200"
 			rewards: [{
-					id: "55060000000002B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000002B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000002A1"
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }
@@ -746,10 +746,10 @@
 			dependencies: ["5506000000000200"]
 			id: "5506000000000300"
 			rewards: [{
-					id: "55060000000003B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000003B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000003A1"
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
@@ -762,10 +762,10 @@
 			dependencies: ["5506000000000300"]
 			id: "5506000000000400"
 			rewards: [{
-					id: "55060000000004B1"
-					type: "xp"
-					xp: 100
-				}]
+				id: "55060000000004B1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -780,10 +780,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000500"
 			rewards: [{
-					id: "55060000000005B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000005B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000005A1"
 				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
@@ -796,10 +796,10 @@
 			dependencies: ["5506000000000500"]
 			id: "5506000000000600"
 			rewards: [{
-					id: "55060000000006B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000006B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000006A1"
 				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
@@ -812,10 +812,10 @@
 			dependencies: ["5506000000000500"]
 			id: "5506000000000700"
 			rewards: [{
-					id: "55060000000007B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000007B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000007A1"
 				item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
@@ -829,10 +829,10 @@
 			id: "5506000000000800"
 			optional: true
 			rewards: [{
-					id: "55060000000008B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55060000000008B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55060000000008A1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_compacting_upgrade" }
@@ -845,10 +845,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000900"
 			rewards: [{
-					id: "55060000000009B1"
-					type: "xp"
-					xp: 100
-				}]
+				id: "55060000000009B1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "55060000000009A1"
 				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
@@ -861,10 +861,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000A00"
 			rewards: [{
-					id: "5506000000000AB1"
-					type: "xp"
-					xp: 100
-				}]
+				id: "5506000000000AB1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5506000000000AA1"
 				item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }
@@ -877,10 +877,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000B00"
 			rewards: [{
-					id: "5506000000000BB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5506000000000BB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5506000000000BA1"
 				item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
@@ -894,10 +894,10 @@
 			id: "5506000000000C00"
 			optional: true
 			rewards: [{
-					id: "5506000000000CB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5506000000000CB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5506000000000CA1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_deposit_upgrade" }
@@ -910,10 +910,10 @@
 			dependencies: ["5504000000000100"]
 			id: "5506000000000D00"
 			rewards: [{
-					id: "5506000000000DB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5506000000000DB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5506000000000DA1"
 				item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
@@ -927,10 +927,10 @@
 			id: "5506000000000E00"
 			optional: true
 			rewards: [{
-					id: "5506000000000EB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5506000000000EB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5506000000000EA1"
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_restock_upgrade" }
@@ -946,10 +946,10 @@
 			}
 			id: "5506000000000F00"
 			rewards: [{
-					id: "5506000000000FB1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "5506000000000FB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "5506000000000FA1"
 				item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" }
@@ -965,10 +965,10 @@
 			}
 			id: "5507000000000100"
 			rewards: [{
-					id: "55070000000001B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000001B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000001A1"
 				item: { count: 1, id: "sophisticatedstorage:compression_upgrade" }
@@ -980,23 +980,26 @@
 		{
 			dependencies: ["5504000000000100"]
 			icon: {
-				id: "sophisticatedbackpacks:chipped_upgrade"
+				components: {
+					"ftbquests:missing_item": "sophisticatedbackpacks:chipped_upgrade"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "5507000000000200"
 			rewards: [{
-					id: "55070000000002B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000002B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [
 				{
 					id: "55070000000002A1"
-					item: { count: 1, id: "sophisticatedbackpacks:chipped_upgrade" }
+					item: { components: { "ftbquests:missing_item": "sophisticatedbackpacks:chipped_upgrade" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "55070000000002A2"
-					item: { count: 1, id: "sophisticatedstorage:chipped_upgrade" }
+					item: { components: { "ftbquests:missing_item": "sophisticatedstorage:chipped_upgrade" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -1010,10 +1013,10 @@
 			}
 			id: "5507000000000300"
 			rewards: [{
-					id: "55070000000003B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000003B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000003A1"
 				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
@@ -1029,10 +1032,10 @@
 			}
 			id: "5507000000000400"
 			rewards: [{
-					id: "55070000000004B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000004B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000004A1"
 				item: { count: 1, id: "sophisticatedstorage:crafting_upgrade" }
@@ -1048,10 +1051,10 @@
 			}
 			id: "5507000000000500"
 			rewards: [{
-					id: "55070000000005B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000005B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000005A1"
 				item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" }
@@ -1067,10 +1070,10 @@
 			}
 			id: "5507000000000600"
 			rewards: [{
-					id: "55070000000006B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000006B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000006A1"
 				item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" }
@@ -1086,10 +1089,10 @@
 			}
 			id: "5507000000000700"
 			rewards: [{
-					id: "55070000000007B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000007B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000007A1"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
@@ -1105,10 +1108,10 @@
 			}
 			id: "5507000000000800"
 			rewards: [{
-					id: "55070000000008B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000008B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000008A1"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_2" }
@@ -1124,10 +1127,10 @@
 			}
 			id: "5507000000000900"
 			rewards: [{
-					id: "55070000000009B1"
-					type: "xp"
-					xp: 50
-				}]
+				id: "55070000000009B1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "55070000000009A1"
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_3" }
@@ -1143,10 +1146,10 @@
 			}
 			id: "5507000000000A00"
 			rewards: [{
-					id: "5507000000000AB1"
-					type: "xp"
-					xp: 100
-				}]
+				id: "5507000000000AB1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
