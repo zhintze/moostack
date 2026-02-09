@@ -6,9 +6,9 @@
 //   - Silver: Immersive Engineering (hide Occultism silver)
 //   - Sulfur: Mekanism (hide Blood Magic sulfur, IE sulfur)
 //   - Steel: Mekanism (hide IE + Ad Astra + Epic Knights steel), Ad Astra Mekanized plates/rods (hide IE plates/sticks)
-//   - Iron: Vanilla ingot, Create sheets (hide IE plate_iron, Epic Knights iron_plate, ChemLib iron_plate)
-//   - Copper: Vanilla ingot, Create sheets (hide IE plate_copper, ChemLib copper_plate)
-//   - Gold: Vanilla ingot, Create golden_sheet (hide IE plate_gold, ChemLib gold_plate)
+//   - Iron: Vanilla ingot, Mekanism dust, Create sheets (hide IE dust_iron, plate_iron, Epic Knights iron_plate, ChemLib iron_plate)
+//   - Copper: Vanilla ingot, Mekanism dust, Create sheets (hide IE dust_copper, plate_copper, ChemLib copper_plate)
+//   - Gold: Vanilla ingot, Mekanism dust, Create golden_sheet (hide IE dust_gold, plate_gold, ChemLib gold_plate)
 //   - Bronze: Mekanism (hide Epic Knights, IE, Silent Gear bronze)
 //   - Tin: Mekanism (hide Epic Knights tin items)
 //   - Zinc: Create (hide ChemLib zinc items)
@@ -77,6 +77,21 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('magistuarmory:steel_nugget')
     event.remove('magistuarmory:steel_plate')
     event.remove('magistuarmory:small_steel_plate')
+
+    // ===========================================
+    // IRON DUST: Hide IE iron dust (using Mekanism dust_iron)
+    // ===========================================
+    event.remove('immersiveengineering:dust_iron')
+
+    // ===========================================
+    // COPPER DUST: Hide IE copper dust (using Mekanism dust_copper)
+    // ===========================================
+    event.remove('immersiveengineering:dust_copper')
+
+    // ===========================================
+    // GOLD DUST: Hide IE gold dust (using Mekanism dust_gold)
+    // ===========================================
+    event.remove('immersiveengineering:dust_gold')
 
     // ===========================================
     // IRON SHEETS: Hide IE, Epic Knights, and ChemLib iron plates (using Create iron_sheet)

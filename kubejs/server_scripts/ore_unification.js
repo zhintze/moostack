@@ -10,9 +10,9 @@
 //   - Platinum: ChemLib Mekanized (sole owner)
 //   - Sulfur: Mekanism
 //   - Steel: Mekanism (ingot, dust, nugget, block), Ad Astra Mekanized (sheets, rods)
-//   - Iron: Vanilla (ingot), Create (sheets), Ad Astra Mekanized (rods)
-//   - Copper: Vanilla (ingot), Create (sheets)
-//   - Gold: Vanilla (ingot), Create (golden_sheet)
+//   - Iron: Vanilla (ingot), Mekanism (dust), Create (sheets), Ad Astra Mekanized (rods)
+//   - Copper: Vanilla (ingot), Mekanism (dust), Create (sheets)
+//   - Gold: Vanilla (ingot), Mekanism (dust), Create (golden_sheet)
 //   - Bronze: Mekanism (ingot, nugget, dust, block), Epic Knights Antique Legacy (sheets via Create press)
 //   - Zinc: Create
 //
@@ -255,6 +255,39 @@ ServerEvents.recipes(event => {
     // NOTE: Cannot use output-based removal - items may not exist and cause crash
     // Using ID-based regex removal which is safe even if no recipes match
     event.remove({ id: /^magistuarmory:.*steel.*/ })
+
+    // ===========================================
+    // IRON DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE iron dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_iron',
+        'mekanism:dust_iron'
+    )
+
+    // ===========================================
+    // COPPER DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE copper dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_copper',
+        'mekanism:dust_copper'
+    )
+
+    // ===========================================
+    // GOLD DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE gold dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_gold',
+        'mekanism:dust_gold'
+    )
 
     // ===========================================
     // BRONZE: Use Mekanism as canonical (Epic Knights Antique Legacy -> Mekanism)
@@ -595,6 +628,27 @@ ServerEvents.recipes(event => {
         '#c:dusts/sulfur'
     )
 
+    // Iron dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_iron',
+        '#c:dusts/iron'
+    )
+
+    // Copper dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_copper',
+        '#c:dusts/copper'
+    )
+
+    // Gold dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_gold',
+        '#c:dusts/gold'
+    )
+
     // Sulfur inputs: replace specific IE items with tag
     event.replaceInput(
         { not: { id: /^immersiveengineering:.*/ } },
@@ -858,6 +912,18 @@ ServerEvents.tags('item', event => {
     safeAdd('c:dusts/sulfur', 'mekanism:dust_sulfur')
     safeAdd('c:dusts/sulfur', 'bloodmagic:sulfur')
     safeAdd('c:dusts/sulfur', 'immersiveengineering:dust_sulfur')
+
+    // Iron dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/iron', 'mekanism:dust_iron')
+    safeAdd('c:dusts/iron', 'immersiveengineering:dust_iron')
+
+    // Copper dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/copper', 'mekanism:dust_copper')
+    safeAdd('c:dusts/copper', 'immersiveengineering:dust_copper')
+
+    // Gold dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/gold', 'mekanism:dust_gold')
+    safeAdd('c:dusts/gold', 'immersiveengineering:dust_gold')
 
     // Steel tags - ensure Mekanism, IE, Ad Astra Mekanized items are in tags
     // NOTE: magistuarmory steel items are intentionally NOT added - they are removed from the game
