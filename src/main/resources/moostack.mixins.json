@@ -12,7 +12,8 @@
     "client.ControllingKeyBindsListMixin",
     "client.MixinMinecraftEmptyHandFix",
     "client.EpicFightAnimationsMixin",
-    "client.EpicFightFlyingCorrectionMixin"
+    "client.EpicFightFlyingCorrectionMixin",
+    "client.EpicFightNullAnimationMixin"
   ],
   "injectors": {
     "defaultRequire": 1
