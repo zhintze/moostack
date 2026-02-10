@@ -1,0 +1,106 @@
+{
+	chapter.40477DB985504541.title: "Mekanism: Ore Processing"
+
+	// Section 1: Understanding Ore Processing
+	quest.0DD8C6C42FB136B1.title: "Ore Processing Overview"
+	quest.0DD8C6C42FB136B1.quest_desc: [
+		"Vanilla smelting gives you &e1 ingot per ore&r. &aMekanism&r can multiply this to &e2x, 3x, 4x, and even 5x&r. Each tier adds machines to the processing chain, but the output scales linearly — every tier is worth the investment."
+		""
+		"&eStart with 2x ore doubling.&r It requires only one machine and immediately doubles all your ore output. Work your way down through 3x, 4x, and 5x as you grow your power and chemical infrastructure."
+	]
+	// Section 2: 2x Ore Doubling
+	quest.1AC23FEAE245D3B3.title: "Enrichment Chamber"
+	quest.1AC23FEAE245D3B3.quest_desc: [
+		"The &3Enrichment Chamber&r is your first and most important ore processing upgrade. Feed in any raw ore and receive &e2 dust&r per ore. Smelt the dust in a furnace or &3Energized Smelter&r for &e2 ingots per ore&r — double the vanilla rate."
+		""
+		"&eProcessing chain:&r Ore → &3Enrichment Chamber&r → 2 Dust → Furnace → &e2 Ingots&r. This single machine immediately doubles all your ore output. Build this before anything else in &aMekanism&r."
+	]
+	quest.2B3DF19C6B959397.title: "Energized Smelter"
+	quest.2B3DF19C6B959397.quest_desc: [
+		"The &3Energized Smelter&r is an electric furnace that runs on &aMekanism&r power. Faster than a vanilla furnace when upgraded, and accepts &3Speed Upgrades&r."
+		""
+		"&eOptional but convenient.&r A regular furnace works fine for smelting dust into ingots. The smelter just does it faster and integrates with your power grid."
+	]
+	// Section 3: 3x Ore Tripling
+	quest.46BFB09AEAC7D8CD.title: "Crusher"
+	quest.46BFB09AEAC7D8CD.quest_desc: [
+		"The &3Crusher&r grinds clumps into dirty dust. In the 3x ore processing chain, it sits between the &3Purification Chamber&r and the &3Enrichment Chamber&r."
+		""
+		"&eProcessing role:&r Clumps → &3Crusher&r → Dirty Dust. The crusher also has many other uses — grinding cobblestone to sand, making bio fuel from plants, and processing various materials."
+	]
+	quest.62E53C0374870868.title: "Oxygen Supply"
+	quest.62E53C0374870868.quest_desc: [
+		"The &3Electrolytic Separator&r splits water into &3Hydrogen&r and &3Oxygen&r. The &3Purification Chamber&r requires oxygen to process ores into clumps."
+		""
+		"Pipe water into the separator, then pipe oxygen to your &3Purification Chamber&r. &eSave the hydrogen&r — it fuels the &3Gas Burning Generator&r and the &3Jetpack&r."
+	]
+	quest.69A70807288916E6.title: "Purification Chamber"
+	quest.69A70807288916E6.quest_desc: [
+		"The &3Purification Chamber&r upgrades ore processing to &e3x&r. Feed in raw ore plus &3Oxygen&r gas, and receive 3 clumps per ore. Run the clumps through a &3Crusher&r and &3Enrichment Chamber&r to finish."
+		""
+		"&eFull 3x chain:&r Ore + O₂ → &3Purification Chamber&r → 3 Clumps → &3Crusher&r → 3 Dirty Dust → &3Enrichment Chamber&r → 3 Dust → Furnace → &e3 Ingots&r. Three machines total, 50% more output than 2x."
+	]
+	// Section 4: 4x Ore Quadrupling
+	quest.66A0A9001D1ABC75.title: "Hydrogen Chloride"
+	quest.66A0A9001D1ABC75.quest_desc: [
+		"&3Hydrogen Chloride&r (HCl) gas is the chemical input for 4x ore processing. Produce it in a &3Chemical Infuser&r by combining &3Hydrogen&r and &3Chlorine&r gas."
+		""
+		"Get hydrogen from your &3Electrolytic Separator&r (water splitting). Get chlorine by processing &3Salt&r in a &3Chemical Oxidizer&r, or by using an alternative sulfuric acid method."
+	]
+	quest.1761D68B7D161BE2.title: "Chemical Injection Chamber"
+	quest.1761D68B7D161BE2.quest_desc: [
+		"The &3Chemical Injection Chamber&r upgrades ore processing to &e4x&r. Feed in raw ore plus &3Hydrogen Chloride&r gas and receive 4 shards per ore. Run the shards through the existing 3x chain."
+		""
+		"&eFull 4x chain:&r Ore + HCl → &3Chemical Injection Chamber&r → 4 Shards → &3Purification Chamber&r → 4 Clumps → &3Crusher&r → 4 Dirty Dust → &3Enrichment Chamber&r → 4 Dust → Furnace → &e4 Ingots&r. Four machines total."
+	]
+	quest.60C90C0F6FFCE4EC.title: "Sulfuric Acid Method"
+	quest.60C90C0F6FFCE4EC.quest_desc: [
+		"An alternative method to produce &3Hydrogen Chloride&r. Use a &3Chemical Oxidizer&r to convert &3Sulfur Dust&r into &3Sulfur Dioxide&r gas, then combine it with water in a &3Chemical Infuser&r to make &3Sulfuric Acid&r."
+		""
+		"&eThe sulfuric acid method&r is useful if you have abundant sulfur from crusher byproducts. Either method produces the same HCl gas for the &3Chemical Injection Chamber&r."
+	]
+	// Section 5: 5x Ore Quintupling
+	quest.1C2F4C8C1E4E8955.title: "Chemical Washer"
+	quest.1C2F4C8C1E4E8955.quest_desc: [
+		"The &3Chemical Washer&r cleans dirty ore slurry into clean ore slurry using water. This is a critical step in the 5x processing chain between the &3Chemical Dissolution Chamber&r and the &3Chemical Crystallizer&r."
+		""
+		"Pipe in water and dirty slurry. Clean slurry comes out the other side. &eThe washer consumes a lot of water&r — keep a steady supply or use an &3Electric Pump&r on an infinite water source."
+	]
+	quest.6064E7C8C5CEF239.title: "Chemical Crystallizer"
+	quest.6064E7C8C5CEF239.quest_desc: [
+		"The &3Chemical Crystallizer&r converts clean ore slurry into solid crystals. These crystals feed into the &3Chemical Injection Chamber&r to continue down the processing chain."
+		""
+		"This machine is also used for crystallizing other chemicals like &3Lithium&r, &3Antimatter&r, and various pellets. &eA versatile machine&r that you will use beyond just ore processing."
+	]
+	quest.350D292DAF03F5E7.title: "Sulfuric Acid"
+	quest.350D292DAF03F5E7.quest_desc: [
+		"The 5x ore processing chain requires &3Sulfuric Acid&r to dissolve ores in the &3Chemical Dissolution Chamber&r. Produce sulfuric acid by oxidizing &3Sulfur Dust&r into &3Sulfur Dioxide&r gas, then combining it with water vapor."
+		""
+		"&3Chemical Oxidizer&r: Sulfur → SO₂. &3Chemical Infuser&r: SO₂ + Water Vapor → &3Sulfuric Acid&r. &eSulfur is abundant&r — crush gunpowder, or find it as a byproduct of other Mekanism processes."
+	]
+	quest.1CF865FE50F9F512.title: "Chemical Dissolution Chamber"
+	quest.1CF865FE50F9F512.quest_desc: [
+		"The &3Chemical Dissolution Chamber&r is the pinnacle of &aMekanism&r ore processing — &e5x ore multiplication&r. Feed in raw ore plus &3Sulfuric Acid&r and receive dirty ore slurry. Process through the &3Chemical Washer&r and &3Chemical Crystallizer&r to get 5 crystals."
+		""
+		"&eFull 5x chain:&r Ore + H₂SO₄ → &3Dissolution Chamber&r → Dirty Slurry → &3Chemical Washer&r → Clean Slurry → &3Chemical Crystallizer&r → 5 Crystals → &3Injection Chamber&r → 5 Shards → &3Purification Chamber&r → 5 Clumps → &3Crusher&r → 5 Dirty Dust → &3Enrichment Chamber&r → 5 Dust → Furnace → &e5 Ingots&r."
+	]
+	quest.743F095ABD057FD4.title: "Thermal Evaporation Reference"
+	quest.743F095ABD057FD4.quest_desc: [
+		"For advanced chemical production involving &3Brine&r and &3Lithium&r, you will need a &3Thermal Evaporation Plant&r. This multiblock structure is covered in the &aMekanism: Nuclear&r chapter."
+		""
+		"&eThe Thermal Evaporation Plant&r evaporates water into brine, and brine into lithium. Lithium is used for tritium production in fusion reactors, and brine has various industrial uses."
+	]
+	// Section 6: Bonus Processing
+	quest.2AAB0DF4FDD8944C.title: "Osmium Compressor"
+	quest.2AAB0DF4FDD8944C.quest_desc: [
+		"The &3Osmium Compressor&r combines &3Liquid Osmium&r with &3Obsidian Dust&r to create &3Refined Obsidian Ingots&r — one of the strongest materials in &aMekanism&r. Used in advanced circuits and high-tier recipes."
+		""
+		"Feed osmium ingots into the compressor's chemical slot to generate liquid osmium, then supply obsidian dust. &eRefined obsidian&r is required for &3Alloy Atomic&r and many endgame components."
+	]
+	quest.27FCEF9D7303CC3B.title: "Combiner"
+	quest.27FCEF9D7303CC3B.quest_desc: [
+		"The &3Combiner&r reverses ore processing — it combines dust and cobblestone back into ore blocks. Useful for creating ores you cannot find naturally, or for processing compatibility."
+		""
+		"&eA niche but handy machine.&r If you have excess dust from one processing tier and want to re-process at a higher tier, the combiner lets you convert back to raw ore."
+	]
+}
