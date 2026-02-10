@@ -1040,7 +1040,7 @@ QUESTS.append({
     "desc": [
         "You already have the &3Enrichment Chamber&r — that is all you need for Tier 1 ore processing. Feed in raw ore to get dust, then smelt the dust into ingots.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_2x.png width:350 height:210 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_2x.png width:400 height:216 align:center fit:true}",
         "",
         "&eYields:&r Silk-touched &eore blocks&r give &e2 dust per ore (×2)&r. Mined &eraw ore&r gives &e4 dust per 3 raw (×1.33)&r. Silk Touch pays off starting here!"
     ],
@@ -1062,7 +1062,7 @@ QUESTS.append({
     "desc": [
         "Craft a &3Purification Chamber&r -- Tier 2 ore processing. Feed in ore plus &3Oxygen&r gas to produce clumps, then run them through your existing &3Crusher&r and &3Enrichment Chamber&r.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_3x.png width:350 height:355 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_3x.png width:400 height:372 align:center fit:true}",
         "",
         "&eYou already have everything except the Purification Chamber.&r Pipe Oxygen from your &3Electrolytic Separator&r. &eOre blocks&r give &e3 clumps (x3)&r. &eRaw ore&r gives &e2 clumps (x2)&r."
     ],
@@ -1084,7 +1084,7 @@ QUESTS.append({
     "desc": [
         "Craft a &3Chemical Injection Chamber&r -- Tier 3 ore processing. Feed in ore plus &3Hydrogen Chloride (HCl)&r gas to produce shards, then run them through your existing 3x chain.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_4x.png width:350 height:485 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_4x.png width:400 height:524 align:center fit:true}",
         "",
         "&eYou already have the Chemical Infuser and Electrolytic Separator.&r Produce HCl by combining Hydrogen + Chlorine in the Chemical Infuser. Chlorine comes from oxidizing Salt. &eOre blocks&r give &e4 shards (x4)&r."
     ],
@@ -1106,7 +1106,7 @@ QUESTS.append({
     "desc": [
         "Build the final three machines: &3Chemical Dissolution Chamber&r, &3Chemical Washer&r, and &3Chemical Crystallizer&r. Feed ore plus &3Sulfuric Acid&r into the Dissolution Chamber to produce slurry, wash it, crystallize it, then run crystals through your existing 4x chain.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_5x.png width:350 height:560 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_5x.png width:400 height:628 align:center fit:true}",
         "",
         "&eSulfuric Acid:&r Oxidize Sulfur Dust into SO2, then combine SO2 + Water Vapor in your Chemical Infuser. &eOre blocks&r give &e5 crystals (x5)&r. &eRaw ore&r gives &e10 crystals per 3 raw (x3.33)&r."
     ],
@@ -1283,7 +1283,7 @@ QUESTS.append({
     "desc": [
         "Combine &3Uranium Oxide (UO2)&r with &3Hydrofluoric Acid (HF)&r in a &3Chemical Infuser&r to produce &3Uranium Hexafluoride (UF6)&r. This gas is the precursor to fissile fuel.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:350 height:370 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:320 align:center fit:true}",
         "",
         "&eUF6 must be enriched in an Isotopic Centrifuge to become usable fissile fuel.&r HF comes from combining Fluorite with &3Sulfuric Acid&r in a &3Chemical Infuser&r."
     ],
@@ -1302,7 +1302,7 @@ QUESTS.append({
     "desc": [
         "Craft an &3Isotopic Centrifuge&r and use it to enrich &3Uranium Hexafluoride (UF6)&r into &3Fissile Fuel&r. This is the final fuel product that powers the fission reactor.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:350 height:370 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:320 align:center fit:true}",
         "",
         "&eThe centrifuge also produces Nuclear Waste as a byproduct.&r Store or void the waste — you will need fissile fuel flowing continuously to your reactor."
     ],
@@ -1360,7 +1360,7 @@ QUESTS.append({
     "desc": [
         "Build a complete &3Fission Reactor&r — a multiblock structure that produces massive amounts of heat by splitting uranium atoms. The heat converts water into steam for the Industrial Turbine.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_loop.png width:350 height:240 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_loop.png width:400 height:212 align:center fit:true}",
         "",
         "&cWARNING: Fission reactors can melt down if not properly cooled!&r Always build safety systems (redstone shutoff, SCRAM button) before activating. &eStart with a small reactor and scale up carefully.&r"
     ],
@@ -1561,64 +1561,64 @@ QUESTS.append({
     "rewards": [xp_reward(reward_id(9, 19, 1), 500)],
 })
 
-# S9.20: Boiler Valves (optional)
+# S9.20: Sodium Production (upgrade from water cooling)
 QUESTS.append({
     "section": 9, "num": 20,
-    "title": "Boiler Valves",
+    "title": "Sodium Production",
     "desc": [
-        "Craft 4 &3Boiler Valves&r for the &3Thermoelectric Boiler&r multiblock. The boiler converts water into steam using heat from various sources, as an alternative to direct reactor steam.",
+        "Produce &3Sodium&r gas by processing &3Salt&r in a &3Chemical Oxidizer&r. Sodium is a superior coolant for the fission reactor — it absorbs more heat than water, enabling higher burn rates and more efficient power generation.",
         "",
-        "&eOptional — most setups pipe steam directly from the reactor.&r The boiler is useful for more complex heat management setups."
+        "&eSalt can be found by mining or produced renewably via the Thermal Evaporation Plant&r (evaporate water into brine, yielding salt as a byproduct). You already have a Chemical Oxidizer from fission fuel processing."
     ],
-    "icon": None,
-    "shape": "pentagon", "size": 1.0,
+    "icon": {"id": "mekanism:chemical_oxidizer"},
+    "shape": "pentagon", "size": 1.2,
     "x": 12.0, "y": 19.0,
     "deps": [quest_id(9, 10)],
-    "optional": True,
-    "tasks": [item_task(task_id(9, 20, 1), "mekanism:boiler_valve", 4)],
-    "rewards": [xp_reward(reward_id(9, 20, 1), 50)],
+    "tasks": [item_task(task_id(9, 20, 1), "mekanism:salt", 16)],
+    "rewards": [xp_reward(reward_id(9, 20, 1), 75)],
 })
 
-# S9.21: Boiler Internals (optional)
+# S9.21: Boiler Components (merged valves + internals)
 QUESTS.append({
     "section": 9, "num": 21,
-    "title": "Boiler Internals",
+    "title": "Boiler Components",
     "desc": [
-        "Craft a &3Superheating Element&r and &3Pressure Dispersers&r for the boiler interior. The superheating element provides the heat source, and dispersers spread steam evenly.",
+        "Craft the core components for the &3Thermoelectric Boiler&r multiblock. &3Boiler Valves&r handle heated sodium input, cooled sodium output, water input, and steam output.",
         "",
-        "&eThe boiler is a 3x3x4+ structure.&r Superheating elements go in the bottom section, dispersers in the middle, and the top collects steam."
+        "&3Superheating Elements&r go in the bottom section to transfer heat from sodium. &3Pressure Dispersers&r spread steam evenly across the upper collection section."
     ],
     "icon": None,
     "shape": "pentagon", "size": 1.0,
     "x": 12.0, "y": 20.5,
-    "deps": [quest_id(9, 10)],
-    "optional": True,
+    "deps": [quest_id(9, 20)],
     "tasks": [
-        item_task(task_id(9, 21, 1), "mekanism:superheating_element"),
-        item_task(task_id(9, 21, 2), "mekanism:pressure_disperser"),
+        item_task(task_id(9, 21, 1), "mekanism:boiler_valve", 4),
+        item_task(task_id(9, 21, 2), "mekanism:superheating_element"),
+        item_task(task_id(9, 21, 3), "mekanism:pressure_disperser"),
     ],
-    "rewards": [xp_reward(reward_id(9, 21, 1), 50)],
+    "rewards": [xp_reward(reward_id(9, 21, 1), 75)],
 })
 
-# S9.22: Thermoelectric Boiler (optional)
+# S9.22: Thermoelectric Boiler (sodium coolant loop)
 QUESTS.append({
     "section": 9, "num": 22,
     "title": "Thermoelectric Boiler",
     "desc": [
-        "Build a complete &3Thermoelectric Boiler&r — an optional multiblock that converts heated coolant into steam. Useful for advanced reactor cooling loops.",
+        "Build a complete &3Thermoelectric Boiler&r and connect the &3sodium coolant loop&r. The boiler receives heated sodium from the fission reactor, converts water into steam for the turbine, and returns cooled sodium back to the reactor.",
         "",
-        "&eOptional for most setups.&r Direct water cooling in the fission reactor already produces steam. The boiler shines in larger, more complex nuclear installations."
+        "{image:moostack:textures/questpics/mekanism/sodium_loop.png width:400 height:444 align:center fit:true}",
+        "",
+        "&eMinimum 3x3x4 structure.&r Pipe sodium from reactor ports → boiler valves → back to reactor. Steam output goes to the Industrial Turbine. &3This upgrade significantly increases your reactor's power output.&r"
     ],
     "icon": None,
     "shape": "octagon", "size": 1.5,
     "x": 12.0, "y": 22.0,
-    "deps": [quest_id(9, 20), quest_id(9, 21)],
-    "optional": True,
+    "deps": [quest_id(9, 21), quest_id(9, 19)],
     "tasks": [
         item_task(task_id(9, 22, 1), "mekanism:boiler_casing", 24),
         item_task(task_id(9, 22, 2), "mekanism:boiler_valve", 2),
     ],
-    "rewards": [xp_reward(reward_id(9, 22, 1), 150)],
+    "rewards": [xp_reward(reward_id(9, 22, 1), 300)],
 })
 
 # --- Fusion Reactor (y: 10-22) ---
