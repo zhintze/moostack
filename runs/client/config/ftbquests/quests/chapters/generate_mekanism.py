@@ -1040,7 +1040,7 @@ QUESTS.append({
     "desc": [
         "You already have the &3Enrichment Chamber&r — that is all you need for Tier 1 ore processing. Feed in raw ore to get dust, then smelt the dust into ingots.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_2x.png width:400 height:92 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_2x.png width:350 height:210 align:center fit:true}",
         "",
         "&eYields:&r Silk-touched &eore blocks&r give &e2 dust per ore (×2)&r. Mined &eraw ore&r gives &e4 dust per 3 raw (×1.33)&r. Silk Touch pays off starting here!"
     ],
@@ -1062,7 +1062,7 @@ QUESTS.append({
     "desc": [
         "Craft a &3Purification Chamber&r -- Tier 2 ore processing. Feed in ore plus &3Oxygen&r gas to produce clumps, then run them through your existing &3Crusher&r and &3Enrichment Chamber&r.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_3x.png width:400 height:184 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_3x.png width:350 height:355 align:center fit:true}",
         "",
         "&eYou already have everything except the Purification Chamber.&r Pipe Oxygen from your &3Electrolytic Separator&r. &eOre blocks&r give &e3 clumps (x3)&r. &eRaw ore&r gives &e2 clumps (x2)&r."
     ],
@@ -1084,7 +1084,7 @@ QUESTS.append({
     "desc": [
         "Craft a &3Chemical Injection Chamber&r -- Tier 3 ore processing. Feed in ore plus &3Hydrogen Chloride (HCl)&r gas to produce shards, then run them through your existing 3x chain.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_4x.png width:400 height:191 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_4x.png width:350 height:485 align:center fit:true}",
         "",
         "&eYou already have the Chemical Infuser and Electrolytic Separator.&r Produce HCl by combining Hydrogen + Chlorine in the Chemical Infuser. Chlorine comes from oxidizing Salt. &eOre blocks&r give &e4 shards (x4)&r."
     ],
@@ -1106,7 +1106,7 @@ QUESTS.append({
     "desc": [
         "Build the final three machines: &3Chemical Dissolution Chamber&r, &3Chemical Washer&r, and &3Chemical Crystallizer&r. Feed ore plus &3Sulfuric Acid&r into the Dissolution Chamber to produce slurry, wash it, crystallize it, then run crystals through your existing 4x chain.",
         "",
-        "{image:moostack:textures/questpics/mekanism/ore_5x.png width:400 height:267 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/ore_5x.png width:350 height:560 align:center fit:true}",
         "",
         "&eSulfuric Acid:&r Oxidize Sulfur Dust into SO2, then combine SO2 + Water Vapor in your Chemical Infuser. &eOre blocks&r give &e5 crystals (x5)&r. &eRaw ore&r gives &e10 crystals per 3 raw (x3.33)&r."
     ],
@@ -1283,7 +1283,7 @@ QUESTS.append({
     "desc": [
         "Combine &3Uranium Oxide (UO2)&r with &3Hydrofluoric Acid (HF)&r in a &3Chemical Infuser&r to produce &3Uranium Hexafluoride (UF6)&r. This gas is the precursor to fissile fuel.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:213 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:350 height:370 align:center fit:true}",
         "",
         "&eUF6 must be enriched in an Isotopic Centrifuge to become usable fissile fuel.&r HF comes from combining Fluorite with &3Sulfuric Acid&r in a &3Chemical Infuser&r."
     ],
@@ -1302,7 +1302,7 @@ QUESTS.append({
     "desc": [
         "Craft an &3Isotopic Centrifuge&r and use it to enrich &3Uranium Hexafluoride (UF6)&r into &3Fissile Fuel&r. This is the final fuel product that powers the fission reactor.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:213 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_fuel.png width:350 height:370 align:center fit:true}",
         "",
         "&eThe centrifuge also produces Nuclear Waste as a byproduct.&r Store or void the waste — you will need fissile fuel flowing continuously to your reactor."
     ],
@@ -1360,7 +1360,7 @@ QUESTS.append({
     "desc": [
         "Build a complete &3Fission Reactor&r — a multiblock structure that produces massive amounts of heat by splitting uranium atoms. The heat converts water into steam for the Industrial Turbine.",
         "",
-        "{image:moostack:textures/questpics/mekanism/fission_loop.png width:400 height:122 align:center fit:true}",
+        "{image:moostack:textures/questpics/mekanism/fission_loop.png width:350 height:240 align:center fit:true}",
         "",
         "&cWARNING: Fission reactors can melt down if not properly cooled!&r Always build safety systems (redstone shutoff, SCRAM button) before activating. &eStart with a small reactor and scale up carefully.&r"
     ],

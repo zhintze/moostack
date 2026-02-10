@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate detailed Mekanism ore processing and nuclear flowchart diagrams.
 
-Shows full machine names, all chemical inputs/outputs, production sub-chains,
+Redesigned for FTB Quests: 3 nodes per row, high resolution.
+Shows full machine names, chemical inputs/outputs, production sub-chains,
 and raw ore vs ore block yield ratios.
 
 Prerequisites:
@@ -45,9 +46,10 @@ INFO_BORDER = (100, 100, 100, 255)
 
 # -- Layout ----------------------------------------------------------------
 
-ITEM_SIZE = 56
-MARGIN = 30
-ARROW_HEAD = 6
+ITEM_SIZE = 80
+MARGIN = 40
+ARROW_HEAD = 9
+CANVAS_W = 700  # 3 nodes per row at high res
 
 # -- Fonts -----------------------------------------------------------------
 
@@ -60,11 +62,11 @@ def _get_font(size, bold=False):
             return ImageFont.truetype(p, size)
     return ImageFont.load_default()
 
-FONT_TITLE = _get_font(18, bold=True)
-FONT_SUBTITLE = _get_font(13)
-FONT_LABEL = _get_font(12)
-FONT_CHEM = _get_font(11)
-FONT_INFO = _get_font(11)
+FONT_TITLE = _get_font(26, bold=True)
+FONT_SUBTITLE = _get_font(19)
+FONT_LABEL = _get_font(18)
+FONT_CHEM = _get_font(16)
+FONT_INFO = _get_font(14)
 
 # -- Helpers ---------------------------------------------------------------
 
@@ -104,10 +106,10 @@ def _draw_arrow_down(draw, x, y1, y2):
                   (x + ARROW_HEAD, y2 - ARROW_HEAD)], fill=ARROW_COLOR)
 
 
-def _row_xs(n, width):
-    """Evenly-spaced x centers for n nodes within canvas width."""
-    usable = width - 2 * MARGIN
-    sp = usable / n
+def _grid_xs(n=3):
+    """First n positions of a 3-column grid for consistent alignment."""
+    usable = CANVAS_W - 2 * MARGIN
+    sp = usable / 3
     return [int(MARGIN + sp * (i + 0.5)) for i in range(n)]
 
 
@@ -119,39 +121,39 @@ def draw_node(img, draw, cx, cy, ns, item, lines, is_machine=False,
         icon = load_item(ns, item)
         img.paste(icon, (cx - ITEM_SIZE // 2, cy - ITEM_SIZE // 2), icon)
     color = MACHINE_COLOR if is_machine else LABEL_COLOR
-    ly = cy + ITEM_SIZE // 2 + 4
+    ly = cy + ITEM_SIZE // 2 + 6
     for ln in lines:
         tw, th = _tsz(draw, ln, FONT_LABEL)
         draw.text((cx - tw // 2, ly), ln, fill=color, font=FONT_LABEL)
-        ly += th + 2
+        ly += th + 3
     if chem_input:
         top = cy - ITEM_SIZE // 2
-        ab = top - 3
-        at = ab - 14
-        draw.line([(cx, at), (cx, ab)], fill=CHEM_COLOR, width=1)
-        draw.polygon([(cx, ab), (cx - 3, ab - 5), (cx + 3, ab - 5)],
+        ab = top - 5
+        at = ab - 20
+        draw.line([(cx, at), (cx, ab)], fill=CHEM_COLOR, width=2)
+        draw.polygon([(cx, ab), (cx - 4, ab - 7), (cx + 4, ab - 7)],
                      fill=CHEM_COLOR)
         tw, th = _tsz(draw, chem_input, FONT_CHEM)
-        draw.text((cx - tw // 2, at - th - 2), chem_input,
+        draw.text((cx - tw // 2, at - th - 3), chem_input,
                   fill=CHEM_COLOR, font=FONT_CHEM)
 
 
 def draw_h_conn(draw, cx1, cy, cx2, label=None):
     """Horizontal arrow between two node centers, with optional label."""
-    x1 = cx1 + ITEM_SIZE // 2 + 4
-    x2 = cx2 - ITEM_SIZE // 2 - 4
+    x1 = cx1 + ITEM_SIZE // 2 + 6
+    x2 = cx2 - ITEM_SIZE // 2 - 6
     _draw_arrow_right(draw, x1, cy, x2)
     if label:
         mid = (x1 + x2) // 2
         tw, th = _tsz(draw, label, FONT_CHEM)
-        draw.text((mid - tw // 2, cy - th - 5), label,
+        draw.text((mid - tw // 2, cy - th - 6), label,
                   fill=CHEM_COLOR, font=FONT_CHEM)
 
 
 def draw_row_conn(draw, fcx, fcy, tcx, tcy):
     """L-shaped connector from bottom of one node to top of another."""
-    y1 = fcy + ITEM_SIZE // 2 + 4
-    y2 = tcy - ITEM_SIZE // 2 - 4
+    y1 = fcy + ITEM_SIZE // 2 + 6
+    y2 = tcy - ITEM_SIZE // 2 - 6
     if abs(fcx - tcx) < 4:
         _draw_arrow_down(draw, fcx, y1, y2)
     else:
@@ -164,10 +166,10 @@ def draw_row_conn(draw, fcx, fcy, tcx, tcy):
 def draw_result_box(draw, cx, cy, text):
     """Text-only result node with colored border."""
     tw, th = _tsz(draw, text, FONT_LABEL)
-    pad = 8
+    pad = 10
     x1, y1 = cx - tw // 2 - pad, cy - th // 2 - pad
     x2, y2 = cx + tw // 2 + pad, cy + th // 2 + pad
-    draw.rounded_rectangle([x1, y1, x2, y2], radius=4,
+    draw.rounded_rectangle([x1, y1, x2, y2], radius=5,
                            outline=RESULT_COLOR, width=2)
     draw.text((cx - tw // 2, cy - th // 2), text,
               fill=RESULT_COLOR, font=FONT_LABEL)
@@ -175,9 +177,9 @@ def draw_result_box(draw, cx, cy, text):
 
 def draw_info_box(draw, x, y, width, lines, title=None):
     """Bordered info box with title and text lines. Returns box height."""
-    lh = 16
-    pad = 8
-    title_h = 18 if title else 0
+    lh = 22
+    pad = 12
+    title_h = 28 if title else 0
     h = pad * 2 + title_h + len(lines) * lh
     draw.rectangle([x, y, x + width, y + h], fill=INFO_BG,
                    outline=INFO_BORDER, width=1)
@@ -191,16 +193,20 @@ def draw_info_box(draw, x, y, width, lines, title=None):
     return h
 
 
-def draw_byproduct(draw, cx, cy, text):
-    """Small annotation below a node showing a byproduct output."""
+def draw_byproduct(draw, cx, cy, text, below_labels=0):
+    """Small annotation below a node showing a byproduct output.
+    below_labels: number of label lines to skip past (0 = directly below icon).
+    """
     bot = cy + ITEM_SIZE // 2
-    ab = bot + 3
-    ae = ab + 12
-    draw.line([(cx, ab), (cx, ae)], fill=CHEM_COLOR, width=1)
-    draw.polygon([(cx, ae), (cx - 3, ae - 5), (cx + 3, ae - 5)],
+    if below_labels:
+        bot += 6 + below_labels * 23  # skip past label text
+    ab = bot + 5
+    ae = ab + 18
+    draw.line([(cx, ab), (cx, ae)], fill=CHEM_COLOR, width=2)
+    draw.polygon([(cx, ae), (cx - 4, ae - 7), (cx + 4, ae - 7)],
                  fill=CHEM_COLOR)
     tw, _ = _tsz(draw, text, FONT_CHEM)
-    draw.text((cx - tw // 2, ae + 2), text, fill=CHEM_COLOR, font=FONT_CHEM)
+    draw.text((cx - tw // 2, ae + 3), text, fill=CHEM_COLOR, font=FONT_CHEM)
 
 
 # -- Row-drawing helper ----------------------------------------------------
@@ -208,7 +214,6 @@ def draw_byproduct(draw, cx, cy, text):
 def _draw_chain_row(img, draw, nodes, xs, cy):
     """Draw a row of nodes with horizontal arrows between them.
     nodes: list of (ns, item, label_lines, is_machine, chem_input, arrow_label)
-    arrow_label on a node means the arrow FROM this node has that label.
     """
     for i, (ns, item, labels, mach, chem, albl) in enumerate(nodes):
         draw_node(img, draw, xs[i], cy, ns, item, labels, mach, chem)
@@ -219,79 +224,93 @@ def _draw_chain_row(img, draw, nodes, xs, cy):
 # -- Diagram Generators ----------------------------------------------------
 
 def generate_ore_2x():
-    """Tier 1: Enrichment — simplest ore processing."""
-    W, H = 850, 195
+    """Tier 1: Enrichment — 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y = 130, 310
+    H = 420
     img = Image.new("RGBA", (W, H), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    _center_text(draw, W // 2, 12, "Tier 1: Enrichment", FONT_TITLE,
+    _center_text(draw, W // 2, 15, "Tier 1: Enrichment", FONT_TITLE,
                  RESULT_COLOR)
-    _center_text(draw, W // 2, 38,
+    _center_text(draw, W // 2, 48,
                  "Ore Block \u2192 \u00d72  |  Raw Ore: 3 \u2192 4 Dust (\u00d71.33)",
                  FONT_SUBTITLE, RATIO_COLOR)
 
-    cy = 108
-    xs = _row_xs(5, W)  # 5th slot for result box
+    xs = _grid_xs(3)
 
-    nodes = [
+    # Row 1: Raw Ore → Enrichment Chamber → Iron Dust
+    r1 = [
         ("minecraft", "raw_iron", ["Raw Iron Ore"], False, None, None),
         ("mekanism", "enrichment_chamber", ["Enrichment", "Chamber"],
          True, None, None),
         ("mekanism", "dust_iron", ["Iron Dust"], False, None, None),
-        ("mekanism", "energized_smelter", ["Energized", "Smelter"],
-         True, None, None),
     ]
-    _draw_chain_row(img, draw, nodes, xs, cy)
-    # Arrow to result box
-    draw_h_conn(draw, xs[3], cy, xs[4])
-    draw_result_box(draw, xs[4], cy, "Iron Ingot")
+    _draw_chain_row(img, draw, r1, xs, r1y)
+
+    # Row 2: Energized Smelter → Iron Ingot (result)
+    r2xs = _grid_xs(2)
+    draw_node(img, draw, r2xs[0], r2y, "mekanism", "energized_smelter",
+              ["Energized", "Smelter"], True)
+    draw_h_conn(draw, r2xs[0], r2y, r2xs[1])
+    draw_result_box(draw, r2xs[1], r2y, "Iron Ingot")
+
+    # Connector: Iron Dust → Energized Smelter
+    draw_row_conn(draw, xs[2], r1y, r2xs[0], r2y)
 
     return img
 
 
 def generate_ore_3x():
-    """Tier 2: Purification — adds Purification Chamber + Crusher."""
-    W, H = 850, 390
+    """Tier 2: Purification — 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y, r3y = 140, 320, 500
+    H = 710
     img = Image.new("RGBA", (W, H), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    _center_text(draw, W // 2, 12, "Tier 2: Purification", FONT_TITLE,
+    _center_text(draw, W // 2, 15, "Tier 2: Purification", FONT_TITLE,
                  RESULT_COLOR)
-    _center_text(draw, W // 2, 38,
+    _center_text(draw, W // 2, 48,
                  "Ore Block \u2192 \u00d73  |  Raw Ore \u2192 \u00d72",
                  FONT_SUBTITLE, RATIO_COLOR)
 
-    # Row 1
-    r1y = 105
-    r1x = _row_xs(4, W)
+    xs = _grid_xs(3)
+
+    # Row 1: Raw Ore → Purification Chamber (Oxygen) → Iron Clump
     r1 = [
         ("minecraft", "raw_iron", ["Raw Iron Ore"], False, None, None),
         ("mekanism", "purification_chamber", ["Purification", "Chamber"],
          True, "Oxygen", None),
         ("mekanism", "clump_iron", ["Iron Clump"], False, None, None),
-        ("mekanism", "crusher", ["Crusher"], True, None, None),
     ]
-    _draw_chain_row(img, draw, r1, r1x, r1y)
+    _draw_chain_row(img, draw, r1, xs, r1y)
 
-    # Row 2
-    r2y = 240
-    r2x = _row_xs(4, W)
+    # Row 2: Crusher → Dirty Iron Dust → Enrichment Chamber
     r2 = [
+        ("mekanism", "crusher", ["Crusher"], True, None, None),
         ("mekanism", "dirty_dust_iron", ["Dirty Iron", "Dust"],
          False, None, None),
         ("mekanism", "enrichment_chamber", ["Enrichment", "Chamber"],
          True, None, None),
+    ]
+    _draw_chain_row(img, draw, r2, xs, r2y)
+
+    # Row 3: Iron Dust → Energized Smelter
+    r3xs = _grid_xs(2)
+    r3 = [
         ("mekanism", "dust_iron", ["Iron Dust"], False, None, None),
         ("mekanism", "energized_smelter", ["Energized", "Smelter"],
          True, None, None),
     ]
-    _draw_chain_row(img, draw, r2, r2x, r2y)
+    _draw_chain_row(img, draw, r3, r3xs, r3y)
 
-    # Connector row 1 → row 2
-    draw_row_conn(draw, r1x[3], r1y, r2x[0], r2y)
+    # Connectors
+    draw_row_conn(draw, xs[2], r1y, xs[0], r2y)
+    draw_row_conn(draw, xs[2], r2y, r3xs[0], r3y)
 
     # Info box
-    draw_info_box(draw, MARGIN, H - 65, W - 2 * MARGIN,
+    draw_info_box(draw, MARGIN, H - 80, W - 2 * MARGIN,
                   ["Water \u2192 Electrolytic Separator "
                    "\u2192 Oxygen + Hydrogen"],
                   title="Oxygen Production:")
@@ -300,122 +319,142 @@ def generate_ore_3x():
 
 
 def generate_ore_4x():
-    """Tier 3: Chemical Injection — adds Injection Chamber."""
-    W, H = 900, 430
+    """Tier 3: Chemical Injection — 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y, r3y, r4y = 140, 320, 500, 680
+    H = 970
     img = Image.new("RGBA", (W, H), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    _center_text(draw, W // 2, 12, "Tier 3: Chemical Injection", FONT_TITLE,
+    _center_text(draw, W // 2, 15, "Tier 3: Chemical Injection", FONT_TITLE,
                  RESULT_COLOR)
-    _center_text(draw, W // 2, 38,
+    _center_text(draw, W // 2, 48,
                  "Ore Block \u2192 \u00d74  |  Raw Ore: 3 \u2192 4 Shards (\u00d71.33)",
                  FONT_SUBTITLE, RATIO_COLOR)
 
-    # Row 1: 5 nodes
-    r1y = 105
-    r1x = _row_xs(5, W)
+    xs = _grid_xs(3)
+
+    # Row 1: Raw Ore → Chemical Injection (HCl) → Iron Shard
     r1 = [
         ("minecraft", "raw_iron", ["Raw Iron Ore"], False, None, None),
         ("mekanism", "chemical_injection_chamber",
          ["Chemical Injection", "Chamber"], True, "HCl", None),
         ("mekanism", "shard_iron", ["Iron Shard"], False, None, None),
-        ("mekanism", "purification_chamber", ["Purification", "Chamber"],
-         True, "Oxygen", None),
-        ("mekanism", "clump_iron", ["Iron Clump"], False, None, None),
     ]
-    _draw_chain_row(img, draw, r1, r1x, r1y)
+    _draw_chain_row(img, draw, r1, xs, r1y)
 
-    # Row 2: 5 nodes
-    r2y = 250
-    r2x = _row_xs(5, W)
+    # Row 2: Purification (Oxygen) → Iron Clump → Crusher
     r2 = [
-        ("mekanism", "crusher", ["Crusher"], True, None, None),
-        ("mekanism", "dirty_dust_iron", ["Dirty Iron", "Dust"],
-         False, None, None),
-        ("mekanism", "enrichment_chamber", ["Enrichment", "Chamber"],
-         True, None, None),
-        ("mekanism", "dust_iron", ["Iron Dust"], False, None, None),
-        ("mekanism", "energized_smelter", ["Energized", "Smelter"],
-         True, None, None),
-    ]
-    _draw_chain_row(img, draw, r2, r2x, r2y)
-
-    # Connector row 1 → row 2
-    draw_row_conn(draw, r1x[4], r1y, r2x[0], r2y)
-
-    # Info box
-    draw_info_box(draw, MARGIN, H - 80, W - 2 * MARGIN, [
-        "H\u2082 + Cl\u2082 \u2192 Chemical Infuser \u2192 HCl",
-        "H\u2082: Water \u2192 Electrolytic Separator \u2192 Hydrogen",
-        "Cl\u2082: Brine (Salt + Water) \u2192 Electrolytic Separator "
-        "\u2192 Chlorine + Sodium",
-    ], title="HCl Production:")
-
-    return img
-
-
-def generate_ore_5x():
-    """Tier 4: Chemical Dissolution — full 5x chain."""
-    W, H = 900, 600
-    img = Image.new("RGBA", (W, H), BG_COLOR)
-    draw = ImageDraw.Draw(img)
-
-    _center_text(draw, W // 2, 12, "Tier 4: Chemical Dissolution",
-                 FONT_TITLE, RESULT_COLOR)
-    _center_text(draw, W // 2, 38,
-                 "Ore Block \u2192 \u00d75  |  Raw Ore: 3 \u2192 10 Crystals (\u00d73.33)",
-                 FONT_SUBTITLE, RATIO_COLOR)
-
-    # Row 1: 5 nodes (dissolution phase)
-    r1y = 105
-    r1x = _row_xs(5, W)
-    r1 = [
-        ("minecraft", "raw_iron", ["Raw Iron Ore"], False, None, None),
-        ("mekanism", "chemical_dissolution_chamber",
-         ["Chemical", "Dissolution", "Chamber"],
-         True, "Sulfuric Acid", "Ore Slurry"),
-        ("mekanism", "chemical_washer", ["Chemical", "Washer"],
-         True, "Water", "Clean Slurry"),
-        ("mekanism", "chemical_crystallizer", ["Chemical", "Crystallizer"],
-         True, None, None),
-        ("mekanism", "crystal_iron", ["Iron Crystal"], False, None, None),
-    ]
-    _draw_chain_row(img, draw, r1, r1x, r1y)
-
-    # Row 2: 5 nodes (injection + purification phase)
-    r2y = 260
-    r2x = _row_xs(5, W)
-    r2 = [
-        ("mekanism", "chemical_injection_chamber",
-         ["Chemical Injection", "Chamber"], True, "HCl", None),
-        ("mekanism", "shard_iron", ["Iron Shard"], False, None, None),
         ("mekanism", "purification_chamber", ["Purification", "Chamber"],
          True, "Oxygen", None),
         ("mekanism", "clump_iron", ["Iron Clump"], False, None, None),
         ("mekanism", "crusher", ["Crusher"], True, None, None),
     ]
-    _draw_chain_row(img, draw, r2, r2x, r2y)
+    _draw_chain_row(img, draw, r2, xs, r2y)
 
-    # Row 3: 4 nodes (enrichment + smelting)
-    r3y = 400
-    r3x = _row_xs(4, W)
+    # Row 3: Dirty Iron Dust → Enrichment Chamber → Iron Dust
     r3 = [
         ("mekanism", "dirty_dust_iron", ["Dirty Iron", "Dust"],
          False, None, None),
         ("mekanism", "enrichment_chamber", ["Enrichment", "Chamber"],
          True, None, None),
         ("mekanism", "dust_iron", ["Iron Dust"], False, None, None),
+    ]
+    _draw_chain_row(img, draw, r3, xs, r3y)
+
+    # Row 4: Energized Smelter (single node)
+    draw_node(img, draw, xs[0], r4y, "mekanism", "energized_smelter",
+              ["Energized", "Smelter"], True)
+
+    # Connectors
+    draw_row_conn(draw, xs[2], r1y, xs[0], r2y)
+    draw_row_conn(draw, xs[2], r2y, xs[0], r3y)
+    draw_row_conn(draw, xs[2], r3y, xs[0], r4y)
+
+    # Info box (5 lines: title + 4 content = ~140px tall)
+    draw_info_box(draw, MARGIN, H - 155, W - 2 * MARGIN, [
+        "H\u2082 + Cl\u2082 \u2192 Chemical Infuser \u2192 HCl",
+        "H\u2082: Water \u2192 Electrolytic Separator \u2192 Hydrogen",
+        "Cl\u2082: Brine (Salt + Water) \u2192 Electrolytic Separator",
+        "     \u2192 Chlorine + Sodium",
+    ], title="HCl Production:")
+
+    return img
+
+
+def generate_ore_5x():
+    """Tier 4: Chemical Dissolution — 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y, r3y, r4y, r5y = 165, 345, 525, 705, 885
+    H = 1120
+    img = Image.new("RGBA", (W, H), BG_COLOR)
+    draw = ImageDraw.Draw(img)
+
+    _center_text(draw, W // 2, 15, "Tier 4: Chemical Dissolution",
+                 FONT_TITLE, RESULT_COLOR)
+    _center_text(draw, W // 2, 48,
+                 "Ore Block \u2192 \u00d75  |  Raw Ore: 3 \u2192 10 Crystals (\u00d73.33)",
+                 FONT_SUBTITLE, RATIO_COLOR)
+
+    xs = _grid_xs(3)
+
+    # Row 1: Raw Ore → Dissolution (Sulfuric Acid) → Washer (Water)
+    r1 = [
+        ("minecraft", "raw_iron", ["Raw Iron Ore"], False, None, None),
+        ("mekanism", "chemical_dissolution_chamber",
+         ["Chemical", "Dissolution Chamber"],
+         True, "Sulfuric Acid", "Ore Slurry"),
+        ("mekanism", "chemical_washer", ["Chemical", "Washer"],
+         True, "Water", "Clean Slurry"),
+    ]
+    _draw_chain_row(img, draw, r1, xs, r1y)
+
+    # Row 2: Crystallizer → Iron Crystal → Injection (HCl)
+    r2 = [
+        ("mekanism", "chemical_crystallizer", ["Chemical", "Crystallizer"],
+         True, None, None),
+        ("mekanism", "crystal_iron", ["Iron Crystal"], False, None, None),
+        ("mekanism", "chemical_injection_chamber",
+         ["Chemical Injection", "Chamber"], True, "HCl", None),
+    ]
+    _draw_chain_row(img, draw, r2, xs, r2y)
+
+    # Row 3: Iron Shard → Purification (Oxygen) → Iron Clump
+    r3 = [
+        ("mekanism", "shard_iron", ["Iron Shard"], False, None, None),
+        ("mekanism", "purification_chamber", ["Purification", "Chamber"],
+         True, "Oxygen", None),
+        ("mekanism", "clump_iron", ["Iron Clump"], False, None, None),
+    ]
+    _draw_chain_row(img, draw, r3, xs, r3y)
+
+    # Row 4: Crusher → Dirty Iron Dust → Enrichment Chamber
+    r4 = [
+        ("mekanism", "crusher", ["Crusher"], True, None, None),
+        ("mekanism", "dirty_dust_iron", ["Dirty Iron", "Dust"],
+         False, None, None),
+        ("mekanism", "enrichment_chamber", ["Enrichment", "Chamber"],
+         True, None, None),
+    ]
+    _draw_chain_row(img, draw, r4, xs, r4y)
+
+    # Row 5: Iron Dust → Energized Smelter
+    r5xs = _grid_xs(2)
+    r5 = [
+        ("mekanism", "dust_iron", ["Iron Dust"], False, None, None),
         ("mekanism", "energized_smelter", ["Energized", "Smelter"],
          True, None, None),
     ]
-    _draw_chain_row(img, draw, r3, r3x, r3y)
+    _draw_chain_row(img, draw, r5, r5xs, r5y)
 
     # Connectors
-    draw_row_conn(draw, r1x[4], r1y, r2x[0], r2y)
-    draw_row_conn(draw, r2x[4], r2y, r3x[0], r3y)
+    draw_row_conn(draw, xs[2], r1y, xs[0], r2y)
+    draw_row_conn(draw, xs[2], r2y, xs[0], r3y)
+    draw_row_conn(draw, xs[2], r3y, xs[0], r4y)
+    draw_row_conn(draw, xs[2], r4y, r5xs[0], r5y)
 
     # Info box
-    draw_info_box(draw, MARGIN, H - 95, W - 2 * MARGIN, [
+    draw_info_box(draw, MARGIN, H - 120, W - 2 * MARGIN, [
         "Sulfur \u2192 Chemical Oxidizer \u2192 SO\u2082",
         "SO\u2082 + O\u2082 \u2192 Chemical Infuser \u2192 SO\u2083",
         "SO\u2083 + H\u2082O (steam) \u2192 Chemical Infuser"
@@ -427,83 +466,67 @@ def generate_ore_5x():
 
 
 def generate_fission_fuel():
-    """Fission fuel production — two paths merge at Chemical Infuser."""
-    W, H = 900, 480
+    """Fission fuel production — two paths merge, 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y, r3y = 120, 300, 490
+    H = 740
     img = Image.new("RGBA", (W, H), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    _center_text(draw, W // 2, 12, "Fission Fuel Production",
+    _center_text(draw, W // 2, 15, "Fission Fuel Production",
                  FONT_TITLE, RESULT_COLOR)
 
-    # --- Path A (top): Yellow Cake → Oxidizer → UO₂ ---
-    ay = 90
-    a1x, a2x = 140, 340
-    draw_node(img, draw, a1x, ay, "mekanism", "yellow_cake_uranium",
-              ["Yellow Cake", "Uranium"], False)
-    draw_node(img, draw, a2x, ay, "mekanism", "chemical_oxidizer",
-              ["Chemical", "Oxidizer"], True)
-    draw_h_conn(draw, a1x, ay, a2x)
+    xs = _grid_xs(3)
 
-    # UO₂ label to the right of Oxidizer
-    uo2_lbl_x = a2x + ITEM_SIZE // 2 + 10
-    draw.text((uo2_lbl_x, ay - 7), "UO\u2082 \u2193",
+    # Row 1 (Path A): Yellow Cake → Chemical Oxidizer
+    r1xs = _grid_xs(2)
+    draw_node(img, draw, r1xs[0], r1y, "mekanism", "yellow_cake_uranium",
+              ["Yellow Cake", "Uranium"], False)
+    draw_node(img, draw, r1xs[1], r1y, "mekanism", "chemical_oxidizer",
+              ["Chemical", "Oxidizer"], True)
+    draw_h_conn(draw, r1xs[0], r1y, r1xs[1])
+    # UO₂ output annotation (right side, so merge connector below is clear)
+    uo2_x = r1xs[1] + ITEM_SIZE // 2 + 10
+    draw.text((uo2_x, r1y - 8), "\u2192 UO\u2082",
               fill=CHEM_COLOR, font=FONT_CHEM)
 
-    # --- Path B (bottom): Fluorite text → Dissolution → HF ---
-    by_ = 290
-    b1x, b2x = 140, 340
-    # Fluorite has no render — draw text node
-    _center_text(draw, b1x, by_ - 7, "Fluorite", FONT_LABEL, LABEL_COLOR)
-    draw_node(img, draw, b2x, by_, "mekanism",
+    # Row 2 (Path B): Fluorite → Chemical Dissolution (Sulfuric Acid)
+    r2xs = _grid_xs(2)
+    # Fluorite text node (no item render)
+    _center_text(draw, r2xs[0], r2y - 10, "Fluorite", FONT_LABEL,
+                 LABEL_COLOR)
+    draw_node(img, draw, r2xs[1], r2y, "mekanism",
               "chemical_dissolution_chamber",
-              ["Chemical", "Dissolution", "Chamber"], True,
+              ["Chemical", "Dissolution Chamber"], True,
               chem_input="Sulfuric Acid")
     # Arrow from fluorite text to dissolution
-    _draw_arrow_right(draw, b1x + 30, by_, b2x - ITEM_SIZE // 2 - 4)
-
-    # HF label to the right of Dissolution
-    hf_lbl_x = b2x + ITEM_SIZE // 2 + 10
-    draw.text((hf_lbl_x, by_ - 7), "HF \u2191",
+    _draw_arrow_right(draw, r2xs[0] + 40, r2y,
+                      r2xs[1] - ITEM_SIZE // 2 - 6)
+    # HF output annotation (right side)
+    hf_x = r2xs[1] + ITEM_SIZE // 2 + 10
+    draw.text((hf_x, r2y - 8), "\u2192 HF",
               fill=CHEM_COLOR, font=FONT_CHEM)
 
-    # --- Merge: Chemical Infuser ---
-    my = 190
-    mx = 520
-    draw_node(img, draw, mx, my, "mekanism", "chemical_infuser",
+    # Row 3 (Merge): Chemical Infuser → Isotopic Centrifuge → Fissile Fuel
+    draw_node(img, draw, xs[0], r3y, "mekanism", "chemical_infuser",
               ["Chemical", "Infuser"], True)
-
-    # Connector from Oxidizer down-right to Infuser (labeled UO₂)
-    draw_row_conn(draw, a2x, ay, mx, my)
-    # Connector from Dissolution up-right to Infuser (labeled HF)
-    # Custom: draw from bottom-of-dissolution up to infuser
-    d_top = by_ - ITEM_SIZE // 2 - 4
-    i_bot = my + ITEM_SIZE // 2 + 4
-    mid_y2 = (i_bot + d_top) // 2
-    draw.line([(b2x, d_top), (b2x, mid_y2)], fill=ARROW_COLOR, width=2)
-    draw.line([(b2x, mid_y2), (mx, mid_y2)], fill=ARROW_COLOR, width=2)
-    # Arrow going up into infuser
-    draw.line([(mx, mid_y2), (mx, i_bot)], fill=ARROW_COLOR, width=2)
-    draw.polygon([(mx, i_bot), (mx - ARROW_HEAD, i_bot + ARROW_HEAD),
-                  (mx + ARROW_HEAD, i_bot + ARROW_HEAD)], fill=ARROW_COLOR)
-
-    # --- Continue: Infuser → Centrifuge → Fissile Fuel ---
-    cx_ = 680
-    draw_node(img, draw, cx_, my, "mekanism", "isotopic_centrifuge",
+    draw_node(img, draw, xs[1], r3y, "mekanism", "isotopic_centrifuge",
               ["Isotopic", "Centrifuge"], True)
-    draw_h_conn(draw, mx, my, cx_, label="UF\u2086")
+    draw_h_conn(draw, xs[0], r3y, xs[1], label="UF\u2086")
+    draw_h_conn(draw, xs[1], r3y, xs[2])
+    draw_result_box(draw, xs[2], r3y, "Fissile Fuel")
 
-    # Result: Fissile Fuel
-    rx = 830
-    draw_h_conn(draw, cx_, my, rx)
-    draw_result_box(draw, rx, my, "Fissile Fuel")
+    # Nuclear Waste byproduct below centrifuge (past 2 label lines)
+    draw_byproduct(draw, xs[1], r3y, "Nuclear Waste", below_labels=2)
 
-    # Byproduct: Nuclear Waste below centrifuge
-    draw_byproduct(draw, cx_, my, "Nuclear Waste")
+    # Merge connectors: Oxidizer → Infuser, Dissolution → Infuser
+    draw_row_conn(draw, r1xs[1], r1y, xs[0], r3y)
+    draw_row_conn(draw, r2xs[1], r2y, xs[0], r3y)
 
-    # Info box
-    draw_info_box(draw, MARGIN, H - 80, W - 2 * MARGIN, [
+    # Info box (below Nuclear Waste annotation)
+    draw_info_box(draw, MARGIN, H - 100, W - 2 * MARGIN, [
         "Yellow Cake: Uranium Ore \u2192 Enrichment Chamber"
-        " \u2192 Yellow Cake Uranium",
+        " \u2192 Yellow Cake",
         "Sulfuric Acid: see Tier 4 ore processing diagram",
     ], title="Prerequisites:")
 
@@ -511,43 +534,44 @@ def generate_fission_fuel():
 
 
 def generate_fission_loop():
-    """Nuclear power cycle — reactor + turbine loop."""
-    W, H = 850, 260
+    """Nuclear power cycle — reactor + turbine, 3 per row layout."""
+    W = CANVAS_W
+    r1y, r2y = 140, 370
+    H = 480
     img = Image.new("RGBA", (W, H), BG_COLOR)
     draw = ImageDraw.Draw(img)
 
-    _center_text(draw, W // 2, 12, "Nuclear Power Cycle",
+    _center_text(draw, W // 2, 15, "Nuclear Power Cycle",
                  FONT_TITLE, RESULT_COLOR)
 
-    cy = 120
-    xs = _row_xs(4, W)
+    xs = _grid_xs(3)
 
+    # Row 1: Fissile Fuel → Fission Reactor (+ Water) → Industrial Turbine
     # Node 0: text-only "Fissile Fuel"
-    _center_text(draw, xs[0], cy - 7, "Fissile", FONT_LABEL, LABEL_COLOR)
-    _center_text(draw, xs[0], cy + 7, "Fuel", FONT_LABEL, LABEL_COLOR)
+    _center_text(draw, xs[0], r1y - 10, "Fissile", FONT_LABEL, LABEL_COLOR)
+    _center_text(draw, xs[0], r1y + 10, "Fuel", FONT_LABEL, LABEL_COLOR)
 
-    # Node 1: Fission Reactor
-    draw_node(img, draw, xs[1], cy, "mekanismgenerators",
+    draw_node(img, draw, xs[1], r1y, "mekanismgenerators",
               "fission_reactor_casing",
               ["Fission", "Reactor"], True, chem_input="+ Water")
-
-    # Node 2: Industrial Turbine
-    draw_node(img, draw, xs[2], cy, "mekanismgenerators",
+    draw_node(img, draw, xs[2], r1y, "mekanismgenerators",
               "turbine_casing",
               ["Industrial", "Turbine"], True)
 
-    # Node 3: Energy output
-    draw_node(img, draw, xs[3], cy, "mekanism", "ultimate_energy_cube",
+    # Arrows
+    _draw_arrow_right(draw, xs[0] + 40, r1y, xs[1] - ITEM_SIZE // 2 - 6)
+    draw_h_conn(draw, xs[1], r1y, xs[2], label="Steam")
+
+    # Byproducts (past 2 label lines so they don't overlap)
+    draw_byproduct(draw, xs[1], r1y, "Nuclear Waste", below_labels=2)
+    draw_byproduct(draw, xs[2], r1y, "Water (recycle)", below_labels=2)
+
+    # Row 2: Energy Output (single node)
+    draw_node(img, draw, xs[0], r2y, "mekanism", "ultimate_energy_cube",
               ["Energy", "Output"], False)
 
-    # Arrows
-    _draw_arrow_right(draw, xs[0] + 30, cy, xs[1] - ITEM_SIZE // 2 - 4)
-    draw_h_conn(draw, xs[1], cy, xs[2], label="Steam")
-    draw_h_conn(draw, xs[2], cy, xs[3])
-
-    # Byproduct annotations
-    draw_byproduct(draw, xs[1], cy, "Nuclear Waste")
-    draw_byproduct(draw, xs[2], cy, "Water (recycle)")
+    # Connector: Turbine → Energy Output
+    draw_row_conn(draw, xs[2], r1y, xs[0], r2y)
 
     return img
 
