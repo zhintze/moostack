@@ -335,6 +335,13 @@
 	quest.02F39E49BDF51550.title: "Contraption Controls"
 	quest.0306D25C7407FE88.quest_desc: ["Receives laser beam to ignite fusion reaction. Place in the fusion reactor frame facing your laser array. Requires massive energy burst to trigger ignition with filled hohlraum inside reactor."]
 	quest.0306D25C7407FE88.title: "Laser Focus Matrix"
+	quest.031DD8A555690FE0.quest_desc: [
+		"The &3Farming Unit&r enables automatic tilling, planting, and harvesting with the MekaTool."
+		""
+		"Right-click farmland to till, plant seeds, and harvest mature crops in an area."
+		""
+		"&eInstall at the Modification Station.&r Each module level increases the farming radius. Replants crops automatically after harvesting."
+	]
 	quest.03250A0202C25E80.quest_desc: [
 		"&bMarid Essence&f creates &eBlue Chalk&f for water-aligned rituals."
 		""
@@ -1581,6 +1588,15 @@
 		"Charge at a charging station and load ammo to fire. Different ammo types affect damage and behavior."
 	]
 	quest.111BBAB9A78444A4.title: "Minigun"
+	quest.1142C402F6F0D12C.quest_desc: [
+		"The &3Painting Machine&r applies pigment to compatible blocks — recolor wool, concrete, glass, and more without re-crafting. "
+		""
+		"The &3Pigment Extractor&r turns any dye into liquid pigment. "
+		""
+		"You can extract pigments from dyes, blend custom colors, then apply them to blocks for decorative building. "
+		""
+		"blending custom colors with the &3Pigment Mixer&r will come after you've unlocked HDPE Pellets."
+	]
 	quest.11477CEB3B055054.quest_desc: [
 		"Craft the &3Metallurgic Infuser&r -- your first &aMekanism&r machine. Connect it to your &3Heat Generator&r for power, then combine infusion materials (coal, redstone, diamond, etc.) with metals to produce alloys, circuits, and steel."
 		""
@@ -1655,6 +1671,11 @@
 	quest.12175A15A5259430.title: "Tier 4 Altar"
 	quest.121FF0D9B07F82F8.quest_desc: ["Requires Demonic Slate. Maximum LP storage for endgame content."]
 	quest.121FF0D9B07F82F8.title: "Master Orb"
+	quest.12241DF805F55F8F.quest_desc: [
+		"The &3Chargepad&r is a wireless charging station that recharges any &4RF-powered&r item in your inventory while you stand on it. "
+		""
+		"&eJust stand on it and everything charges automatically.&r No need to manually insert items into an energy cube. Place one in your base entrance for hands-free recharging."
+	]
 	quest.12274935C3D20C74.quest_desc: ["There is tons of different Building Blocks you can use, lots of the &6&lCreate&r Casings look clean and Concretes can help give a more slick look. \\n\\nYou can also use Doors and Trapdoors within the &5Train&r which can also be used when the &5Train&r is moving. \\n\\nWhat about making it look pretty? Well Stairs, Slabs, and Trapdoors help give Shape to it as well as the Flywheel or &dCogs&r give nice round edges. \\n\\nHeck you can even put a Campfire on it to make a Steam Engine!"]
 	quest.12274935C3D20C74.title: "Decorating your &5Train&r"
 	quest.12282CBB658F1132.quest_desc: [
@@ -2167,6 +2188,13 @@
 		"&eInstall in any MekaSuit piece at the Modification Station.&r Stack multiple units for even more capacity."
 	]
 	quest.19EA0009BFA2B20B.title: "Energy Unit Module"
+	quest.1A00A24E5E1FAFE6.quest_desc: [
+		"Craft a &3Personal Chest&r — a locked chest that only you can open. "
+		""
+		"Other players cannot access its contents, even with hoppers or pipes."
+		""
+		"&eUseful on multiplayer servers for securing valuables.&r Functions like a normal chest otherwise."
+	]
 	quest.1A01AFCD0BB97901.quest_desc: [
 		"Obtain a Dagger Blueprint from Silent Gear to begin training the dagger combat style."
 		""
@@ -2903,6 +2931,13 @@
 	quest.23820B0DCEC022D1.quest_subtitle: "Breed: Resin Bee + Lumber Bee"
 	quest.23820B0DCEC022D1.subtitle: "Breed: Resin Bee + Lumber Bee"
 	quest.23820B0DCEC022D1.title: "Plastic Bee"
+	quest.23A85A8655A63C51.quest_desc: [
+		"Craft a &3Chemical Crystallizer&r. It converts chemical gases into solid materials. "
+		""
+		"Crystallize &6Lithium&r gas into &6Lithium Dust&r, a key ingredient in &5Induction Matrix&r components. "
+		""
+		"The Crystallizer is also used later in the nuclear waste processing for plutonium and polonium pellets."
+	]
 	quest.23B68F19A04AF5D7.quest_desc: ["Prevents knockback from attacks. Provides stability during combat and explosions. Important for melee combat."]
 	quest.23B68F19A04AF5D7.quest_subtitle: "Leggings"
 	quest.23B68F19A04AF5D7.title: "Gyroscopic Stabilization Module"
@@ -2984,6 +3019,13 @@
 		"Large Bloodstone Bricks are decorative and used in altar construction. The Sanguine Reverter processes materials."
 	]
 	quest.25343A0C4C22AA60.title: "Advanced Materials"
+	quest.2546ED40EB081B7B.quest_desc: [
+		"The &3Silk Touch Unit&r enables silk touch harvesting on the MekaTool."
+		""
+		"Mine ore blocks whole for maximum yield through 2x–5x ore processing."
+		""
+		"&eInstall at the Modification Station.&r Silk-touched ore blocks give significantly more output at every processing tier."
+	]
 	quest.257496490571FF51.quest_desc: [
 		"Craft the full &3MekaSuit&r — helmet, bodyarmor, pants, and boots. The ultimate armor set in &aMekanism&r, powered by RF with modular upgrades for flight, radiation shielding, and more."
 		""
@@ -3558,6 +3600,13 @@
 	quest.2DFFEB29B6CBFD99.quest_subtitle: "Breed: Iron + Blue Banded Bee"
 	quest.2DFFEB29B6CBFD99.subtitle: "Breed: Iron + Blue Banded Bee"
 	quest.2DFFEB29B6CBFD99.title: "Lead Bee"
+	quest.2E15F371FA81F4B9.quest_desc: [
+		"Say hello to &5Robit&r: The portable robotic companion that follows you around and provides a mobile crafting table, furnace, anvil, and inventory. "
+		""
+		"Place it on a &3Chargepad&r to deploy and recharge it."
+		""
+		"&eRight-click Robit to access its GUI with multiple tabs.&r It returns to its home chargepad when low on power. Name it with a Name Tag to personalize your mechanical friend."
+	]
 	quest.2E51F09F6D9E5EF8.quest_desc: ["This is the Breeder Bee."]
 	quest.2E51F09F6D9E5EF8.quest_subtitle: "Breed: Lead + Diamond | Breed: Lead + Platinum"
 	quest.2E51F09F6D9E5EF8.subtitle: "Breed: Lead + Diamond | Breed: Lead + Platinum"
@@ -3815,6 +3864,15 @@
 	quest.3195A7AA874163CD.quest_subtitle: "ME Storage &mCells&r Drawers"
 	quest.31BAC57972148E1F.quest_subtitle: "Tier: &a2"
 	quest.31BAC57972148E1F.title: "Coral Seeds"
+	quest.31CB1E157ED9F5DF.quest_desc: [
+		"Craft a &3Basic Bin&r — a simple block-based item storage that holds a large quantity of a single item type. "
+		""
+		"Right-click to insert, shift-right-click to extract. Perfect for buffering machine outputs."
+		""
+		"&eBins are tiered just like all Mekanism machines.&r "
+		""
+		"Basic holds &24,096&r items, scaling up to &5262,144&r at ultimate tier. They work with Logistical Transporters and hoppers for automatic I/O."
+	]
 	quest.31E3A402304D29A1.quest_desc: [
 		"Craft an &3Induction Port&r — the I/O block for the &3Induction Matrix&r multiblock. Ports allow energy to flow into and out of the matrix. At least two are needed (one input, one output)."
 		""
@@ -3829,6 +3887,13 @@
 		"Latex is the foundation of Industrial Foregoing's progression."
 	]
 	quest.321FA7348E532F4E.title: "Latex"
+	quest.322D39F4E17071AF.quest_desc: [
+		"The &3Blasting Unit&r enables area-of-effect mining with the MekaTool. "
+		""
+		"Break multiple blocks in a radius with each swing."
+		""
+		"&eInstall at the Modification Station.&r Each module level increases the blast radius. Pairs well with Excavation Escalation for rapid large-scale excavation."
+	]
 	quest.32410EC32969BE5F.quest_desc: [
 		"Craft a &3Basic Fluid Tank&r — stores any fluid (water, lava, brine, etc.). Useful for buffering fluid inputs to machines."
 		""
@@ -4326,7 +4391,7 @@
 	quest.3ABD696164C15C17.quest_desc: ["Wireless redstone transmission. Set frequency with two items. Pairs send/receive."]
 	quest.3ABD696164C15C17.title: "Redstone Link"
 	quest.3ACA92380FBD9355.quest_desc: [
-		"Craft an &3Excavation Escalation Module&r — dramatically increases the mining speed of the MekaTool. Stack multiple for even faster digging."
+		"The &3Excavation Escalation Unit&r dramatically increases the mining speed of the MekaTool. Stack multiple for even faster digging."
 		""
 		"&eInstall at the Modification Station.&r Each module level increases mining speed. At max level, the MekaTool mines nearly instantly."
 	]
@@ -4561,6 +4626,16 @@
 	quest.3E5BE6D6422F682C.title: "Turbine I/O"
 	quest.3E6706BC4C318A40.quest_desc: ["The Sewer is used to make Sewage, which is used to make Fertilizer."]
 	quest.3E6706BC4C318A40.title: "Sewer"
+	quest.3E71DF542301E89F.quest_desc: [
+		"Produce &3HDPE Pellets&r — the foundation of Mekanism's plastics chain. "
+		""
+		"Feed the &5Pressurized Reaction Chamber (PRC)&r a Substrate, Water, and Ethylene gas to produce pellets."
+		""
+		"Oxidize &2Bio Fuel&r in the Chemical Oxidizer to get Ethylene. "
+		""
+		"Press HDPE pellets into &3HDPE Sheets&r at a Metallurgic Infuser, or into &3HDPE Rods&r — both are used in advanced mekasuit and mekatool crafting recipes."
+	]
+	quest.3E71DF542301E89F.title: "HDPE Pellets \\& Plastic"
 	quest.3E77627AE5137576.quest_desc: [
 		"Craft a &3Basic Tier Installer&r — upgrades a machine from basic to advanced tier in-place. No need to break and re-craft the machine. Just shift-right-click the machine with the installer."
 		""
@@ -5294,6 +5369,11 @@
 		"Craft from an Endshelf, End Rods, and Ender Pearls."
 	]
 	quest.4A59DF02128DA9F3.title: "Craft Pearl Endshelf"
+	quest.4A79830A62D89D65.quest_desc: [
+		"Craft a &3Cardboard Box&r — wraps any block (including machines with their contents) into a portable item. "
+		""
+		"Place it on a machine to &epick it up with inventory, upgrades, and configuration intact&r. Perfect for relocating fully configured machines without losing settings or stored items."
+	]
 	quest.4A86BF284E35C5B4.quest_desc: ["Transfers items between marked inventories. Select inputs/outputs with wrench. Fast item routing."]
 	quest.4A86BF284E35C5B4.title: "Mechanical Arm"
 	quest.4A8C60412E59E971.quest_desc: [
@@ -8278,7 +8358,7 @@
 		""
 		"&cNuclear power is dangerous.&r Radiation, meltdowns, and waste are all real hazards. But the power output is unmatched. &eProceed with caution and always build safety systems.&r"
 	]
-	quest.6217A80B010BC448.title: "Sulfur \\& Chemicals"
+	quest.6217A80B010BC448.title: "Nuclear Power"
 	quest.623F6154E0FF33DD.quest_desc: [
 		"Craft the core components for the &3Thermoelectric Boiler&r multiblock. &3Boiler Valves&r handle heated sodium input, cooled sodium output, water input, and steam output."
 		""
