@@ -1,189 +1,138 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	filename: "mekanism"
 	group: ""
 	icon: {
 		id: "mekanism:steel_casing"
 	}
-	id: "A100000000000000"
-	images: [ ]
-	title: "Mekanism"
+	id: "0D96481A898A125C"
 	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Mine and smelt &3Osmium Ore&r to obtain your first &3Osmium Ingots&r. Osmium is the foundation material for everything in &aMekanism&r — machines, circuits, tools, and alloys all start here."
-				""
-				"Osmium ore generates at all depths, similar to iron. &eSmelt it in a regular furnace to get started.&r Later, use an Enrichment Chamber to double your ore output."
-			]
-			id: "A101000000000100"
-			title: "Osmium Ingot"
+			id: "0E15FD2E7D4DBB58"
 			rewards: [{
-				id: "A1010000000001B1"
+				id: "3576AD6D685CA0A3"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
-				id: "A1010000000001A1"
+				id: "09C0A62B160B581D"
 				item: { count: 1, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -16.5d
+			y: 2.2d
 		}
 		{
-			dependencies: ["A101000000000100"]
-			description: [
-				"Craft a &3Heat Generator&r -- your first power source! It produces RF by burning solid fuels (coal, planks, sticks) or passively from adjacent lava. &eYou need power to run the Metallurgic Infuser and all other Mekanism machines.&r"
-				""
-				"&eSurround it with lava source blocks for maximum passive output.&r A reliable generator that works from the very start."
-			]
-			id: "A101000000000200"
-			title: "Heat Generator"
+			dependencies: ["0E15FD2E7D4DBB58"]
+			id: "6BBACD5BE4234629"
 			rewards: [{
-				id: "A1010000000002B1"
+				id: "5AB3376E7F70FEBF"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
-				id: "A1010000000002A1"
+				id: "46AE9033A063F9E6"
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -13.5d
+			y: 2.25d
 		}
 		{
-			dependencies: [
-				"A101000000000100"
-				"A101000000000200"
-			]
-			description: [
-				"Craft the &3Metallurgic Infuser&r -- your first &aMekanism&r machine. Connect it to your &3Heat Generator&r for power, then combine infusion materials (coal, redstone, diamond, etc.) with metals to produce alloys, circuits, and steel."
-				""
-				"Feed it coal or charcoal as infusion fuel, then insert iron ingots to make &3Steel Ingots&r. &eThis single machine unlocks the entire Mekanism tech tree.&r"
-			]
-			id: "A101000000000300"
-			title: "Metallurgic Infuser"
+			dependencies: ["6BBACD5BE4234629"]
+			id: "0770166A722C57F8"
 			rewards: [{
-				id: "A1010000000003B1"
+				id: "272E7E137FE08226"
 				type: "xp"
 				xp: 50
 			}]
-			shape: "octagon"
+			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1010000000003A1"
+				id: "63113A1807C0DCC7"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -11.25d
+			y: 2.25d
 		}
 		{
-			dependencies: ["A101000000000300"]
-			description: [
-				"Produce a &3Steel Ingot&r by infusing an iron ingot with coal in the &3Metallurgic Infuser&r. Steel is the backbone of &aMekanism&r's machine casings, pipes, and tools."
-				""
-				"&eKeep a large stock of steel.&r You will need it for the &3Steel Casing&r and nearly every machine recipe. Coal, charcoal, and coal blocks all work as infusion fuel."
-			]
-			id: "A101000000000400"
-			title: "Steel Ingot"
+			dependencies: ["0770166A722C57F8"]
+			id: "37C82B846AA1F7BA"
 			rewards: [{
-				id: "A1010000000004B1"
+				id: "75D12E41A86F3289"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "diamond"
-			size: 1.2d
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
-				id: "A1010000000004A1"
+				id: "0F2D2EA0AD2FA357"
 				item: { count: 1, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.25d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A101000000000300"]
-			description: [
-				"Produce an &3Infused Alloy&r by infusing iron with redstone in the &3Metallurgic Infuser&r. This is the basic-tier alloy used in circuits, energy tablets, and many machine recipes."
-				""
-				"Infused Alloys are consumed constantly throughout Mekanism progression. &eBatch-produce them whenever you have spare redstone.&r"
-				""
-				"&eThis milestone unlocks:&r Basic Control Circuits, Energy Tablets, and all basic-tier crafting."
-			]
-			id: "A101000000000500"
-			title: "Infused Alloy"
+			dependencies: ["0770166A722C57F8"]
+			id: "3FF7D11A01AFC841"
 			rewards: [{
-				id: "A1010000000005B1"
+				id: "66125CABE1744C30"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1010000000005A1"
+				id: "4BE14880519FD4BE"
 				item: { count: 1, id: "mekanism:alloy_infused" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -8.25d
+			y: 2.25d
 		}
 		{
-			dependencies: ["A101000000000500"]
-			description: [
-				"Produce a &3Basic Control Circuit&r by infusing osmium with redstone in the &3Metallurgic Infuser&r. Circuits are the brains of every &aMekanism&r machine."
-				""
-				"&eYou will need many of these.&r Every machine, energy cube, and factory requires at least one basic circuit."
-				""
-				"&eThis milestone unlocks:&r Steel Casing and all basic-tier machines."
-			]
-			id: "A101000000000600"
-			title: "Basic Control Circuit"
+			dependencies: ["3FF7D11A01AFC841"]
+			id: "590D3A77D02611E1"
 			rewards: [{
-				id: "A1010000000006B1"
+				id: "0A2FC8281C24231C"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1010000000006A1"
+				id: "55D2059AA00C90D2"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.0d
+			x: -4.5d
+			y: 2.25d
 		}
 		{
 			dependencies: [
-				"A101000000000400"
-				"A101000000000600"
+				"37C82B846AA1F7BA"
+				"590D3A77D02611E1"
 			]
-			description: [
-				"Craft a &3Steel Casing&r — the universal machine frame for &aMekanism&r. Every single Mek machine requires at least one steel casing in its recipe."
-				""
-				"Made from steel ingots, glass, and osmium ingots. &eStock up on these early — you will burn through dozens as you build out your factory.&r This is the gateway to all core machines."
-			]
-			id: "A101000000000700"
-			title: "Steel Casing"
+			id: "2942FFCBBE545D74"
 			rewards: [{
-				id: "A1010000000007B1"
+				id: "47C46A9FA54AB0D3"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "A1010000000007A1"
+				id: "19FE6A4794A6D721"
 				item: { count: 1, id: "mekanism:steel_casing" }
 				type: "item"
 			}]
@@ -191,295 +140,219 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft an &3Enrichment Chamber&r — the ore-doubling machine. Every ore block becomes two dust instead of one, effectively doubling your mining output from the start."
-				""
-				"Beyond ores, it enriches many materials: coal into compressed carbon, redstone into enriched redstone, and more. &eThis is usually the first machine you should build after the Metallurgic Infuser.&r"
-			]
-			id: "A102000000000100"
-			title: "Enrichment Chamber"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "69FC6586A96143B5"
 			rewards: [{
-				id: "A1020000000001B1"
+				id: "5A752EBA743F4903"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
-				id: "A1020000000001A1"
+				id: "1477F40406A12E72"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft a &3Crusher&r — grinds items into dust and fragments. Its most important function is turning organic materials (crops, saplings, vines) into &3Bio Fuel&r for the Bio Generator."
-				""
-				"The Crusher also reverses ingots into dust and is a key component of 3x+ ore processing chains. &ePair it with a Bio Generator for easy early-game power.&r"
-			]
-			id: "A102000000000200"
-			title: "Crusher"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "44FC18E71EBFB577"
 			rewards: [{
-				id: "A1020000000002B1"
+				id: "156CC9FADFFE75D7"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1020000000002A1"
+				id: "7B50781F5F7DA665"
 				item: { count: 1, id: "mekanism:crusher" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -1.7999999999999998d
+			y: -2.4d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft an &3Electrolytic Separator&r — splits compounds into chemical components. Its primary use is electrolyzing water into &3Hydrogen&r and &3Oxygen&r gases."
-				""
-				"Hydrogen fuels the &3Gas-Burning Generator&r and the &3Jetpack&r. Oxygen is used in ore purification and chemical processes. &ePipe in water and power, then store or consume the gases.&r"
-			]
-			id: "A102000000000300"
-			title: "Electrolytic Separator"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "5E72E73CE620FEDE"
 			rewards: [{
-				id: "A1020000000003B1"
+				id: "4AD2C4FDD46084A7"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1020000000003A1"
+				id: "5B44A7402D3F783B"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -4.2d
+			y: -4.2d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft a &3Chemical Oxidizer&r — converts solid materials into gaseous form. Key uses include turning sulfur dust into &3Sulfur Dioxide&r and enriched materials into chemical gases."
-				""
-				"Part of the chemical processing pipeline alongside the &3Chemical Infuser&r. &eCheck JEI for which solids can be oxidized — it unlocks several advanced material chains.&r"
-			]
-			id: "A102000000000400"
-			title: "Chemical Oxidizer"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "6043544A9669DA77"
 			rewards: [{
-				id: "A1020000000004B1"
+				id: "60EC48E1C2A2A837"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.2d
 			tasks: [{
-				id: "A1020000000004A1"
+				id: "27D29C2D75BE9B82"
 				item: { count: 1, id: "mekanism:chemical_oxidizer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -0.6d
+			y: -1.2d
 		}
 		{
-			dependencies: ["A102000000000400"]
-			description: [
-				"Craft a &3Chemical Infuser&r — combines two input gases into a new output gas. For example, combining &3Hydrogen&r and &3Chlorine&r produces &3Hydrogen Chloride&r for 4x ore processing."
-				""
-				"This machine is essential for producing advanced chemicals like &3HCl&r, &3Sulfuric Acid&r, and &3D-T Fuel&r. &ePair it with the Oxidizer and Separator for a full gas processing setup.&r"
+			dependencies: [
+				"6043544A9669DA77"
+				"3F09B64B68B1E885"
 			]
-			id: "A102000000000500"
-			title: "Chemical Infuser"
+			id: "2001BD53A4E6680C"
 			rewards: [{
-				id: "A1020000000005B1"
+				id: "4FDFAFB78DD1D404"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
-				id: "A1020000000005A1"
+				id: "01FE2402490B31AF"
 				item: { count: 1, id: "mekanism:chemical_infuser" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 3.0d
+			y: -1.2d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft a &3Rotary Condensentrator&r — converts gases into fluids and fluids back into gases. Toggle between condensentrating and decondensentrating modes."
-				""
-				"This bridges &aMekanism&r's gas system with fluid-based mods and piping. &eEssential for interfacing chemical outputs with tanks and fluid pipes from other mods.&r"
-			]
-			id: "A102000000000600"
-			title: "Rotary Condensentrator"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "4CD1061DF76666B2"
 			rewards: [{
-				id: "A1020000000006B1"
+				id: "4A4DA76F356C1829"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.2d
 			tasks: [{
-				id: "A1020000000006A1"
+				id: "0DDF6D0C4361B0AD"
 				item: { count: 1, id: "mekanism:rotary_condensentrator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: -0.6d
+			y: 0.0d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft an &3Energized Smelter&r — an electric furnace that smelts with RF instead of coal. Faster than a vanilla furnace and can be upgraded with speed and energy upgrades."
-				""
-				"&eOptional but convenient.&r It handles the same recipes as a regular furnace but integrates cleanly into your Mekanism power grid."
-			]
-			id: "A102000000000700"
-			title: "Energized Smelter"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "03CB4DF78C127CE4"
 			optional: true
 			rewards: [{
-				id: "A1020000000007B1"
+				id: "6A9E75ABD5B69793"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.2d
 			tasks: [{
-				id: "A1020000000007A1"
+				id: "4C41E6B56AE96756"
 				item: { count: 1, id: "mekanism:energized_smelter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -4.2d
+			y: -1.2d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft a &3Precision Sawmill&r — yields 6 planks per log instead of 4, plus bonus sawdust for other recipes."
-				""
-				"A strict upgrade over hand-crafting wood. &eFeed it any log type for extra planks and free sawdust.&r"
-			]
-			id: "A102000000000800"
-			title: "Precision Sawmill"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "303A2F336643D7FB"
 			rewards: [{
-				id: "A1020000000008B1"
+				id: "1103071B610E5859"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 1.2d
 			tasks: [{
-				id: "A1020000000008A1"
+				id: "33D1F6ABD9749161"
 				item: { count: 1, id: "mekanism:precision_sawmill" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -0.6d
+			y: 1.2d
 		}
 		{
-			dependencies: ["A101000000000700"]
-			description: [
-				"Craft a &3Pressurized Reaction Chamber (PRC)&r — a triple-input machine that combines a solid item, a fluid, and a gas to produce outputs. Its most important recipe is creating &3HDPE Pellets&r for plastic sheets."
-				""
-				"The PRC is key to unlocking the plastics production chain. &eFeed it a substrate, water, and hydrogen to produce HDPE and Ethylene.&r"
-			]
-			id: "A102000000000900"
-			title: "Pressurized Reaction Chamber"
+			dependencies: ["2942FFCBBE545D74"]
+			id: "7B8B527F7010A010"
 			rewards: [{
-				id: "A1020000000009B1"
+				id: "272DD89EBB03F105"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "hexagon"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
-				id: "A1020000000009A1"
+				id: "648D93651F24844F"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 0.6d
+			y: -3.0d
 		}
 		{
-			dependencies: ["A101000000000500"]
-			description: [
-				"Produce a &3Reinforced Alloy&r by infusing an &3Infused Alloy&r with diamond in the &3Metallurgic Infuser&r. This is the mid-tier alloy required for advanced circuits and mid-tier machines."
-				""
-				"&eEnrich diamonds first for better efficiency.&r Reinforced Alloys are used in Advanced Control Circuits and many mid-tier recipes."
-				""
-				"&eThis milestone unlocks:&r Advanced Control Circuits, mid-tier machine upgrades."
-			]
-			id: "A103000000000100"
-			title: "Reinforced Alloy"
+			dependencies: ["267AEEFD37B7C6BE"]
+			id: "0E85E58F5488959F"
 			rewards: [{
-				id: "A1030000000001B1"
+				id: "1782003315ED133B"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1030000000001A1"
+				id: "17C45CDCC88FF2AE"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 4.5d
+			y: 2.25d
 		}
 		{
-			dependencies: [
-				"A101000000000600"
-				"A103000000000100"
-			]
-			description: [
-				"Craft an &3Advanced Control Circuit&r using a &3Reinforced Alloy&r and a &3Basic Control Circuit&r in the &3Metallurgic Infuser&r. Required for mid-tier machines and factories."
-				""
-				"&ePrepare enriched diamond and infused alloy in bulk before upgrading.&r"
-				""
-				"&eThis milestone unlocks:&r 4x ore processing, Advanced Solar Generator, factory upgrades."
-			]
-			id: "A103000000000200"
-			title: "Advanced Control Circuit"
+			dependencies: ["590D3A77D02611E1"]
+			id: "267AEEFD37B7C6BE"
 			rewards: [{
-				id: "A1030000000002B1"
+				id: "43A52506020C6CDE"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1030000000002A1"
+				id: "7E21741C4F7FB0E2"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 0.75d
+			y: 2.25d
 		}
 		{
-			dependencies: ["A103000000000200"]
-			description: [
-				"Craft an &3Osmium Compressor&r — combines liquid osmium with obsidian dust to create &3Refined Obsidian Ingots&r. Refined obsidian is one of the strongest materials in &aMekanism&r."
-				""
-				"Feed osmium ingots into the chemical slot to generate liquid osmium, then supply obsidian dust. &eRefined obsidian is required for Atomic Alloy — the endgame material.&r"
-			]
-			id: "A103000000000300"
-			title: "Osmium Compressor"
+			dependencies: ["267AEEFD37B7C6BE"]
+			id: "7530B7C233730A89"
 			rewards: [
 				{
-					id: "A1030000000003B1"
+					id: "3E70A3AB16E7210A"
 					type: "xp"
 					xp: 75
 				}
 				{
 					count: 8
-					id: "A1030000000003B2"
+					id: "58AC3CB55A2F7426"
 					item: {
 						count: 1
 						id: "mekanism:dust_obsidian"
@@ -488,245 +361,141 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
-				id: "A1030000000003A1"
+				id: "52C9B67BA63075F1"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.75d
 		}
 		{
-			dependencies: ["A103000000000300"]
-			description: [
-				"Produce a &3Refined Obsidian Ingot&r using the &3Osmium Compressor&r. This ultra-strong material is required for crafting &3Atomic Alloy&r — the key to elite-tier Mekanism."
-				""
-				"&eCrush obsidian in the Crusher to get obsidian dust, then compress it with liquid osmium.&r Stock up — you will need many refined obsidian ingots for the advanced tech tree."
-				""
-				"&eThis milestone unlocks:&r Atomic Alloy, the path to elite and ultimate tiers."
-			]
+			dependencies: ["7530B7C233730A89"]
 			icon: {
 				id: "mekanism:ingot_refined_obsidian"
 			}
-			id: "A103000000000400"
-			title: "Refined Obsidian Ingot"
+			id: "3016B0C2EE873B85"
 			rewards: [{
-				id: "A1030000000004B1"
+				id: "220F444244AB1C33"
 				type: "xp"
 				xp: 50
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1030000000004A1"
-				type: "checkmark"
+				id: "7161F02729E56FD6"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 5.25d
+			y: 3.75d
 		}
 		{
 			dependencies: [
-				"A103000000000100"
-				"A103000000000400"
+				"3016B0C2EE873B85"
+				"2532888825D767D2"
 			]
-			description: [
-				"Produce an &3Atomic Alloy&r by infusing a &3Reinforced Alloy&r with &3Refined Obsidian&r in the &3Metallurgic Infuser&r. This is the endgame alloy — the most powerful crafting material in &aMekanism&r."
-				""
-				"&eAtomic Alloys are expensive to produce.&r Each one requires reinforced alloy + refined obsidian. Craft them only when you are ready to build elite-tier equipment."
-				""
-				"&eThis milestone unlocks:&r Elite Control Circuits, Teleporter, Atomic Disassembler, and ultimate-tier progression."
-			]
-			id: "A104000000000100"
-			title: "Atomic Alloy"
+			id: "0E70B0D3227BD200"
 			rewards: [{
-				id: "A1040000000001B1"
+				id: "77A9B184447E26FB"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1040000000001A1"
+				id: "4C682BFBE4F99DDC"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 8.25d
+			y: 2.25d
 		}
 		{
-			dependencies: [
-				"A103000000000200"
-				"A104000000000100"
-			]
-			description: [
-				"Craft an &3Elite Control Circuit&r using an &3Atomic Alloy&r and an &3Advanced Control Circuit&r in the &3Metallurgic Infuser&r. These power elite-tier factories, machines, and high-capacity storage."
-				""
-				"&eStart stockpiling obsidian and diamonds — the top tiers consume expensive materials.&r"
-				""
-				"&eThis milestone unlocks:&r Induction Matrix, 5x ore processing, Digital Miner."
-			]
-			id: "A104000000000200"
-			title: "Elite Control Circuit"
+			dependencies: ["0E85E58F5488959F"]
+			id: "2532888825D767D2"
 			rewards: [{
-				id: "A1040000000002B1"
+				id: "4FE9FFC700E55B70"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1040000000002A1"
+				id: "202AEE1D1B9DECAE"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 6.0d
+			y: 2.25d
 		}
 		{
 			dependencies: [
-				"A104000000000200"
-				"A106000000000300"
+				"3F09B64B68B1E885"
+				"61A672B6877F3198"
 			]
-			description: [
-				"Craft an &3Induction Port&r — the I/O block for the &3Induction Matrix&r multiblock. Ports allow energy to flow into and out of the matrix. At least two are needed (one input, one output)."
-				""
-				"Right-click a port to toggle between input and output mode. &eThe Induction Matrix is Mekanism's ultimate energy storage — massive RF in a multiblock structure.&r"
-			]
-			id: "A104000000000300"
-			title: "Induction Port"
+			id: "551B82B4524DE082"
 			rewards: [{
-				id: "A1040000000003B1"
-				type: "xp"
-				xp: 75
-			}]
-			shape: "hexagon"
-			size: 1.2d
-			tasks: [{
-				id: "A1040000000003A1"
-				item: { count: 1, id: "mekanism:induction_port" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["A104000000000300"]
-			description: [
-				"Craft a &3Basic Induction Cell&r (energy storage) and a &3Basic Induction Provider&r (transfer rate). These go inside the Induction Matrix to determine its capacity and throughput."
-				""
-				"&eCells store energy, providers control throughput.&r Balance them based on your needs. Both come in Basic, Advanced, Elite, and Ultimate tiers."
-			]
-			id: "A104000000000400"
-			title: "Induction Cell & Provider"
-			rewards: [{
-				id: "A1040000000004B1"
-				type: "xp"
-				xp: 75
-			}]
-			shape: "square"
-			size: 1.0d
-			tasks: [
-				{
-					id: "A1040000000004A1"
-					item: { count: 1, id: "mekanism:basic_induction_cell" }
-					type: "item"
-				}
-				{
-					id: "A1040000000004A2"
-					item: { count: 1, id: "mekanism:basic_induction_provider" }
-					type: "item"
-				}
-			]
-			x: 17.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["A104000000000400"]
-			description: [
-				"Build a complete &3Induction Matrix&r — a 3x3x3 multiblock energy storage structure. You need 18 &3Induction Casings&r for the frame, 2 &3Induction Ports&r for I/O, plus cells and providers inside."
-				""
-				"&eThis is the definitive Mekanism power storage solution.&r Even a basic matrix dwarfs energy cubes in capacity. Expand with higher-tier cells and providers as your power needs grow."
-			]
-			id: "A104000000000500"
-			title: "Induction Matrix"
-			rewards: [{
-				id: "A1040000000005B1"
+				id: "4A3D7B29EA96D9EB"
 				type: "xp"
 				xp: 200
 			}]
 			shape: "octagon"
-			size: 1.75d
+			size: 2.0d
 			tasks: [
 				{
 					count: 18L
-					id: "A1040000000005A1"
+					id: "39BEAF4FBBE374F4"
 					item: { count: 1, id: "mekanism:induction_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A1040000000005A2"
+					id: "6BAE644F221E318D"
 					item: { count: 1, id: "mekanism:induction_port" }
 					type: "item"
 				}
 				{
-					id: "A1040000000005A3"
+					id: "6B0AB2D25D78A680"
 					item: { count: 1, id: "mekanism:basic_induction_cell" }
 					type: "item"
 				}
 				{
-					id: "A1040000000005A4"
+					id: "5554F3141DA97BE6"
 					item: { count: 1, id: "mekanism:basic_induction_provider" }
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"A104000000000200"
-				"A104000000000100"
-			]
-			description: [
-				"Craft an &3Ultimate Control Circuit&r using an &3Atomic Alloy&r and an &3Elite Control Circuit&r in the &3Metallurgic Infuser&r. The pinnacle of Mekanism circuit technology."
-				""
-				"&eUltimate circuits are expensive — each requires atomic alloy.&r Craft them only when ready to build ultimate-tier equipment."
-				""
-				"&eThis milestone unlocks:&r Teleporter, QIO, SPS, MekaSuit."
-			]
-			id: "A105000000000100"
-			title: "Ultimate Control Circuit"
+			dependencies: ["0E70B0D3227BD200"]
+			id: "61A672B6877F3198"
 			rewards: [{
-				id: "A1050000000001B1"
+				id: "33AC437A1BC6F99A"
 				type: "xp"
 				xp: 200
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1050000000001A1"
+				id: "1FA810E7ECC37DE7"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 9.75d
+			y: 2.25d
 		}
 		{
-			dependencies: [
-				"A105000000000100"
-				"A104000000000100"
-			]
-			description: [
-				"Build a &3Teleporter&r — instant point-to-point travel across any distance or dimension. Place the teleporter block and surround it with 9 &3Teleporter Frames&r to form the pad."
-				""
-				"Link two teleporters by setting the same frequency in both GUIs. &eRequires significant RF per teleport — keep an energy buffer nearby.&r"
-			]
-			id: "A105000000000200"
-			title: "Teleporter"
+			dependencies: ["61A672B6877F3198"]
+			icon: {
+				id: "mekanism:teleporter"
+			}
+			id: "46AD2D485722C32D"
 			rewards: [{
-				id: "A1050000000002B1"
+				id: "665507A922719FF4"
 				type: "xp"
 				xp: 150
 			}]
@@ -734,31 +503,25 @@
 			size: 1.2d
 			tasks: [
 				{
-					id: "A1050000000002A1"
+					id: "3F0153C5828D25DD"
 					item: { count: 1, id: "mekanism:teleporter" }
 					type: "item"
 				}
 				{
 					count: 9L
-					id: "A1050000000002A2"
+					id: "124D2A928C8CCFA0"
 					item: { count: 1, id: "mekanism:teleporter_frame" }
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.4d
 		}
 		{
-			dependencies: ["A105000000000100"]
-			description: [
-				"Craft two &3Quantum Entangloporter&r blocks — wireless transport of items, fluids, gases, energy, and heat across any distance and dimension. Set the same frequency on both and they share instantly."
-				""
-				"&eThe ultimate logistics solution.&r One at your power plant, another at a remote outpost — everything flows seamlessly. Expensive but worth every ingot."
-			]
-			id: "A105000000000300"
-			title: "Quantum Entangloporter"
+			dependencies: ["61A672B6877F3198"]
+			id: "6ED021F17831A1B2"
 			rewards: [{
-				id: "A1050000000003B1"
+				id: "6B35B21DC4A66306"
 				type: "xp"
 				xp: 200
 			}]
@@ -766,232 +529,169 @@
 			size: 1.2d
 			tasks: [{
 				count: 2L
-				id: "A1050000000003A1"
+				id: "3B0F3ABD09164DB8"
 				item: { count: 1, id: "mekanism:quantum_entangloporter" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 12.0d
+			y: 3.5999999999999996d
 		}
 		{
-			dependencies: ["A101000000000500"]
-			description: [
-				"Craft an &3Energy Tablet&r — a portable energy storage item and essential crafting component. Energy Tablets appear in recipes for cables, energy cubes, generators, and many machines."
-				""
-				"&eCraft several of these.&r They are used constantly in &aMekanism&r recipes. The tablet can also be charged and used as a portable RF battery."
-			]
-			id: "A106000000000100"
-			title: "Energy Tablet"
+			dependencies: ["3FF7D11A01AFC841"]
+			id: "7ED37C98F7715560"
 			rewards: [{
-				id: "A1060000000001B1"
+				id: "51A2A756DED2729D"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "octagon"
-			size: 1.2d
+			size: 2.0d
 			tasks: [{
-				id: "A1060000000001A1"
+				id: "58B202A31A5D3EA9"
 				item: { count: 1, id: "mekanism:energy_tablet" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["A106000000000100"]
-			description: [
-				"Craft a &3Basic Universal Cable&r — the standard power cable. Transfers RF/FE between generators, energy cubes, and machines. Compatible with power from other mods."
-				""
-				"Cables are tiered: Basic through Ultimate for increasing transfer rates. &eJust connect and go — no configuration needed.&r"
-			]
-			id: "A106000000000200"
-			title: "Basic Universal Cable"
+			dependencies: ["60E2554AAB3E1FE9"]
+			id: "046FED53BB3F8E69"
 			rewards: [{
-				id: "A1060000000002B1"
+				id: "70513637920D415B"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000002A1"
+				id: "6123124335E76426"
 				item: { count: 1, id: "mekanism:basic_universal_cable" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: -10.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A106000000000100"]
-			description: [
-				"Craft a &3Basic Energy Cube&r — a block-form energy storage unit. Stores RF and distributes it to adjacent machines or through cables."
-				""
-				"Energy Cubes retain their charge when broken. &eUpgrade through tiers for exponentially more storage.&r Great for buffering generator output."
-			]
-			id: "A106000000000300"
-			title: "Basic Energy Cube"
+			dependencies: ["7ED37C98F7715560"]
+			id: "16907904371909B9"
 			rewards: [{
-				id: "A1060000000003B1"
+				id: "70C3055DB4F0CD9F"
 				type: "xp"
 				xp: 25
 			}]
-			shape: "rsquare"
-			size: 1.0d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
-				id: "A1060000000003A1"
+				id: "73BC42ED349DA58B"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["A106000000000100"]
-			description: [
-				"Craft a &3Solar Generator&r — a passive power source that produces RF from sunlight. No fuel needed — just place it under open sky."
-				""
-				"Output is modest but completely free. &eA good starter generator to supplement fuel-based power.&r"
-			]
-			id: "A106000000000400"
-			title: "Solar Generator"
+			dependencies: ["7ED37C98F7715560"]
+			id: "0D5B7022F7799CE2"
 			rewards: [{
-				id: "A1060000000004B1"
+				id: "5EA0AA5CEDE432E6"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000004A1"
+				id: "0AD689762F02125C"
 				item: { count: 1, id: "mekanismgenerators:solar_generator" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["A106000000000100"]
-			description: [
-				"Craft a &3Wind Generator&r — produces RF based on altitude. The higher you place it, the more power it generates. Works day and night."
-				""
-				"&ePlace these on top of tall towers or mountains for maximum output.&r At Y=200+, a single wind generator can rival several solar panels."
-			]
-			id: "A106000000000500"
-			title: "Wind Generator"
+			dependencies: ["7ED37C98F7715560"]
+			id: "4576ACEB4D449E4C"
 			rewards: [{
-				id: "A1060000000005B1"
+				id: "1629AC4B3CAAC89E"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000005A1"
+				id: "205AA6335193C375"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"A106000000000100"
-				"A102000000000200"
-			]
-			description: [
-				"Craft a &3Bio Generator&r — burns &3Bio Fuel&r to produce RF. Bio Fuel is made by crushing organic materials in the &3Crusher&r."
-				""
-				"An excellent renewable power source — any farm output can become fuel. &ePipe Bio Fuel from a Crusher connected to a farm for fully automated green energy.&r"
-			]
-			id: "A106000000000600"
-			title: "Bio Generator"
+			dependencies: ["7ED37C98F7715560"]
+			id: "218CAE4A42D9E6D5"
 			rewards: [{
-				id: "A1060000000006B1"
+				id: "7149257045D7C180"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000006A1"
+				id: "5D4ADDAA9C58BFA1"
 				item: { count: 1, id: "mekanismgenerators:bio_generator" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"A106000000000100"
-				"A102000000000300"
-			]
-			description: [
-				"Craft a &3Gas-Burning Generator&r — burns Hydrogen gas for high RF output. Pipe in Hydrogen from an &3Electrolytic Separator&r for powerful, scalable energy."
-				""
-				"&eOne of the strongest mid-game generators.&r A single Separator feeding a Gas-Burning Generator can power a sizable factory."
-			]
-			id: "A106000000000700"
-			title: "Gas-Burning Generator"
+			dependencies: ["7ED37C98F7715560"]
+			id: "73F7C68B5B7BCA63"
 			rewards: [{
-				id: "A1060000000007B1"
+				id: "25D1A0DF4F2C27AC"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000007A1"
+				id: "1F1899CC9591E94E"
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -9.0d
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"A106000000000400"
-				"A103000000000200"
-			]
-			description: [
-				"Craft an &3Advanced Solar Generator&r — a 4-block tall solar array that produces significantly more RF than the basic model. Still completely passive."
-				""
-				"&eProduces roughly 4x the power of a basic Solar Generator.&r Combine several for a clean, renewable power farm."
-			]
-			id: "A106000000000800"
-			title: "Advanced Solar Generator"
+			dependencies: ["0D5B7022F7799CE2"]
+			id: "451DA8A8D785072D"
 			rewards: [{
-				id: "A1060000000008B1"
+				id: "39A72D8B3B897505"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1060000000008A1"
+				id: "3E8BFBAB6446F503"
 				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 6.5d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["A101000000000400"]
-			description: [
-				"Craft a &3Configurator&r — the essential multi-tool for &aMekanism&r. It configures machine side I/O, rotates blocks, and manages pipe routing."
-				""
-				"&eShift-right-click to cycle through modes.&r Use it on machine sides to set input/output colors, on pipes to configure routing, and on transporters to set filters."
-			]
-			id: "A107000000000100"
-			title: "Configurator"
+			dependencies: ["37C82B846AA1F7BA"]
+			id: "60E2554AAB3E1FE9"
 			rewards: [{
-				id: "A1070000000001B1"
+				id: "74173E7AC22F9CB0"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "octagon"
-			size: 1.2d
+			size: 2.0d
 			tasks: [{
-				id: "A1070000000001A1"
+				id: "1C365C596313E922"
 				item: { count: 1, id: "mekanism:configurator" }
 				type: "item"
 			}]
@@ -999,23 +699,17 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A107000000000100"]
-			description: [
-				"Craft a &3Basic Mechanical Pipe&r — the standard fluid transport pipe. Connects to tanks, machines, and any block that holds fluids."
-				""
-				"Upgradeable to Advanced, Elite, and Ultimate tiers. &eUse the Configurator to set pull mode on the pipe end connected to a fluid source.&r"
-			]
-			id: "A107000000000200"
-			title: "Basic Mechanical Pipe"
+			dependencies: ["60E2554AAB3E1FE9"]
+			id: "4B0FDC5F1EF85CD0"
 			rewards: [{
-				id: "A1070000000002B1"
+				id: "3E26765A60428885"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000002A1"
+				id: "1DC21A79AA34FFD6"
 				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
 				type: "item"
 			}]
@@ -1023,23 +717,17 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["A107000000000100"]
-			description: [
-				"Craft a &3Basic Pressurized Tube&r — transports gases between machines, chemical tanks, and generators. Essential for moving Hydrogen, Oxygen, and other chemical outputs."
-				""
-				"Like all Mekanism pipes, tubes support tiered upgrades for increased flow rate. &eConnect to a gas output, then use the Configurator to set pull mode if needed.&r"
-			]
-			id: "A107000000000300"
-			title: "Basic Pressurized Tube"
+			dependencies: ["60E2554AAB3E1FE9"]
+			id: "5A88F3217C86B483"
 			rewards: [{
-				id: "A1070000000003B1"
+				id: "278B2D4D99B402C6"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000003A1"
+				id: "6498A2276C2993D7"
 				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 				type: "item"
 			}]
@@ -1047,47 +735,35 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["A107000000000100"]
-			description: [
-				"Craft a &3Basic Logistical Transporter&r — the item transport pipe. Moves items between inventories with visible item travel along the pipe."
-				""
-				"Transporters support color-coded routing and item filters via the Configurator. &eSet a transporter to pull mode to extract items automatically.&r"
-			]
-			id: "A107000000000400"
-			title: "Basic Logistical Transporter"
+			dependencies: ["60E2554AAB3E1FE9"]
+			id: "53144332C5DB2BF8"
 			rewards: [{
-				id: "A1070000000004B1"
+				id: "705810B996FC57AD"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000004A1"
+				id: "2944CD40CC50B33D"
 				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -3.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A107000000000100"]
-			description: [
-				"Craft a &3Basic Thermodynamic Conductor&r — transfers heat between machines. Some Mekanism machines produce or consume heat."
-				""
-				"Heat transfer is used in the &3Fuelwood Heater&r, &3Resistive Heater&r, and certain advanced setups. &eNiche but important for optimizing specific machine chains.&r"
-			]
-			id: "A107000000000500"
-			title: "Basic Thermodynamic Conductor"
+			dependencies: ["60E2554AAB3E1FE9"]
+			id: "33255B48734A9628"
 			rewards: [{
-				id: "A1070000000005B1"
+				id: "14831193D3C0542C"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000005A1"
+				id: "29B238D04AAA0024"
 				item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
 				type: "item"
 			}]
@@ -1095,22 +771,16 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["A107000000000200"]
-			description: [
-				"Craft a &3Basic Fluid Tank&r — stores any fluid (water, lava, brine, etc.). Useful for buffering fluid inputs to machines."
-				""
-				"&eTiered upgrades increase capacity significantly.&r Place a bucket in the GUI to fill or empty manually, or pipe fluids in and out."
-			]
-			id: "A107000000000600"
-			title: "Basic Fluid Tank"
+			dependencies: ["4B0FDC5F1EF85CD0"]
+			id: "29342D78A9423D9F"
 			rewards: [{
-				id: "A1070000000006B1"
+				id: "5800479240851074"
 				type: "xp"
 				xp: 25
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000006A1"
+				id: "49E9E954B011CC42"
 				item: { count: 1, id: "mekanism:basic_fluid_tank" }
 				type: "item"
 			}]
@@ -1118,22 +788,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["A107000000000300"]
-			description: [
-				"Craft a &3Basic Chemical Tank&r — stores gases produced by your chemical machines. Buffer Hydrogen, Oxygen, or any other Mekanism gas."
-				""
-				"Tanks are tiered for increasing capacity. &eAlways buffer gas outputs to prevent machines from stalling when downstream is full.&r"
-			]
-			id: "A107000000000700"
-			title: "Basic Chemical Tank"
+			dependencies: ["5A88F3217C86B483"]
+			id: "6C45ADDB96834882"
 			rewards: [{
-				id: "A1070000000007B1"
+				id: "56BF589DBF062062"
 				type: "xp"
 				xp: 25
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000007A1"
+				id: "08D4373EED42499B"
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
 				type: "item"
 			}]
@@ -1141,202 +805,142 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"A101000000000700"
-				"A101000000000500"
-			]
-			description: [
-				"Craft a &3Speed Upgrade&r — insert it into any &aMekanism&r machine to increase its processing speed. Each machine accepts up to 8 speed upgrades."
-				""
-				"&eSpeed upgrades increase power consumption proportionally.&r Balance speed with energy upgrades for the sweet spot between performance and power draw."
-			]
-			id: "A107000000000800"
-			title: "Speed Upgrade"
+			dependencies: ["65412AEE35CE41DC"]
+			id: "4E440AF2C12D1D97"
 			rewards: [{
-				id: "A1070000000008B1"
+				id: "0450A5F0FC81750A"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000008A1"
+				id: "52D3AA6C8E048A73"
 				item: { count: 1, id: "mekanism:upgrade_speed" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -12.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"A101000000000700"
-				"A101000000000500"
-			]
-			description: [
-				"Craft an &3Energy Upgrade&r — reduces machine power consumption. Each machine accepts up to 8 energy upgrades."
-				""
-				"&ePair energy upgrades with speed upgrades to offset the increased power draw.&r A fully speed-upgraded machine with energy upgrades runs fast without draining your grid."
-			]
-			id: "A107000000000900"
-			title: "Energy Upgrade"
+			dependencies: ["3FF7D11A01AFC841"]
+			id: "65412AEE35CE41DC"
 			rewards: [{
-				id: "A1070000000009B1"
+				id: "4BBD974E04FD0648"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "A1070000000009A1"
+				id: "492D99B3CA7464B9"
 				item: { count: 1, id: "mekanism:upgrade_energy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -12.0d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"A101000000000700"
-				"A101000000000500"
-			]
-			description: [
-				"Craft a &3Muffling Upgrade&r — silences machine noise. Mekanism machines can be quite loud."
-				""
-				"&eInstall 4 muffling upgrades for complete silence.&r Essential for machines near your living quarters."
-			]
-			id: "A107000000000A00"
-			title: "Muffling Upgrade"
+			dependencies: ["65412AEE35CE41DC"]
+			id: "38AE2665867F8845"
 			rewards: [{
-				id: "A107000000000AB1"
+				id: "2CE61D96EC0D4602"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "A107000000000AA1"
+				id: "3E30CBB231CF68A5"
 				item: { count: 1, id: "mekanism:upgrade_muffling" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -12.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"A101000000000700"
-				"A101000000000500"
-			]
-			description: [
-				"Craft a &3Chemical Upgrade&r — reduces gas consumption in chemical-processing machines."
-				""
-				"&eParticularly valuable for the Chemical Infuser and PRC.&r Reduces waste and extends your gas reserves."
-			]
-			id: "A107000000000B00"
-			title: "Chemical Upgrade"
+			dependencies: ["65412AEE35CE41DC"]
+			id: "0A87CE57EC50F7F1"
 			rewards: [{
-				id: "A107000000000BB1"
+				id: "5297FF1B61346F98"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "A107000000000BA1"
+				id: "55193C054976C84A"
 				item: { count: 1, id: "mekanism:upgrade_chemical" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -11.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"A101000000000700"
-				"A101000000000500"
-			]
-			description: [
-				"Craft a &3Filter Upgrade&r — enables tag-based filtering in compatible machines like the Digital Miner and logistical sorters."
-				""
-				"&eAllows filtering by tags like 'c:ingots' instead of individual items.&r Makes automation more flexible."
-			]
-			id: "A107000000000C00"
-			title: "Filter Upgrade"
+			dependencies: ["65412AEE35CE41DC"]
+			id: "11DF7B751A275F61"
 			rewards: [{
-				id: "A107000000000CB1"
+				id: "434B545525063352"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
-				id: "A107000000000CA1"
+				id: "32821460D22175B8"
 				item: { count: 1, id: "mekanism:upgrade_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: -12.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["A101000000000600"]
-			description: [
-				"Craft a &3Basic Tier Installer&r — upgrades a machine from basic to advanced tier in-place. No need to break and re-craft. Just shift-right-click the machine."
-				""
-				"Tier installers are available for each tier. &eThis saves you from losing machine contents or reconfiguring side I/O when upgrading.&r"
-			]
-			id: "A107000000000D00"
-			title: "Basic Tier Installer"
+			dependencies: ["590D3A77D02611E1"]
+			id: "10C3D513F8D12858"
 			rewards: [{
-				id: "A107000000000DB1"
+				id: "455714830F3D1DF9"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A107000000000DA1"
+				id: "49EE07099FE6D956"
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["A107000000000700"]
-			description: [
-				"Craft a &3Jetpack&r -- a hydrogen-powered personal flight device worn in the chestplate slot. Fill it with &3Hydrogen&r gas from the &3Electrolytic Separator&r and store it in a &3Chemical Tank&r."
-				""
-				"Hold jump to ascend, release to descend. &eToggle hover mode with the armor mode key to maintain altitude automatically.&r"
+			dependencies: [
+				"6C45ADDB96834882"
+				"5E72E73CE620FEDE"
 			]
-			id: "A107000000000E00"
-			title: "Jetpack"
+			id: "22CAE0462BEDD87F"
 			rewards: [{
-				id: "A107000000000EB1"
+				id: "1C106D9CE7F0720C"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "diamond"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
-				id: "A107000000000EA1"
+				id: "09DD7C9D0810E6EB"
 				item: { count: 1, id: "mekanism:jetpack" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
-				"A107000000000600"
-				"A107000000000700"
+				"29342D78A9423D9F"
+				"6C45ADDB96834882"
 			]
-			description: [
-				"Build a &3Dynamic Tank&r -- a scalable multiblock that stores massive amounts of fluid or gas. Size it from 3x3x3 up to 18x18x18 for enormous capacity."
-				""
-				"&eDynamic Tanks replace individual fluid and chemical tanks when you need bulk storage.&r Use Dynamic Valves for I/O."
-			]
-			id: "A107000000000F00"
-			title: "Dynamic Tank"
+			id: "1762A8C7464DD39C"
 			rewards: [{
-				id: "A107000000000FB1"
+				id: "243F8656297A1140"
 				type: "xp"
 				xp: 100
 			}]
@@ -1345,13 +949,13 @@
 			tasks: [
 				{
 					count: 12L
-					id: "A107000000000FA1"
+					id: "4F927568CCFED77F"
 					item: { count: 1, id: "mekanism:dynamic_tank" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A107000000000FA2"
+					id: "74D1C3CBC7C211A2"
 					item: { count: 1, id: "mekanism:dynamic_valve" }
 					type: "item"
 				}
@@ -1360,54 +964,40 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["A102000000000100"]
-			description: [
-				"&aMekanism&r's ore processing system multiplies your mining output from &e2x&r up to &e5x&r ingots per ore. Each tier adds more machines to the chain but dramatically increases yield."
-				""
-				"&e2x:&r Enrichment Chamber only. &e3x:&r +Purification Chamber, Crusher. &e4x:&r +Chemical Injection Chamber. &e5x:&r +Dissolution Chamber, Washer, Crystallizer. Build upward through the tiers as you progress."
-			]
+			dependencies: ["69FC6586A96143B5"]
 			icon: {
 				id: "mekanism:enrichment_chamber"
 			}
-			id: "A108000000000100"
-			title: "Ore Processing Overview"
+			id: "0E8F76862A09B294"
 			rewards: [{
-				id: "A1080000000001B1"
+				id: "59A6609DA6E1FED2"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
-				id: "A1080000000001A1"
+				id: "474473AA14EC32F1"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -6.0d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["A108000000000100"]
-			description: [
-				"You already have the &3Enrichment Chamber&r — that is all you need for Tier 1 ore processing. Feed in raw ore to get dust, then smelt the dust into ingots."
-				""
-				"{image:moostack:textures/questpics/mekanism/ore_2x.png width:400 height:216 align:center fit:true}"
-				""
-				"&eYields:&r Silk-touched &eore blocks&r give &e2 dust per ore (×2)&r. Mined &eraw ore&r gives &e4 dust per 3 raw (×1.33)&r. Silk Touch pays off starting here!"
-			]
+			dependencies: ["0E8F76862A09B294"]
 			icon: {
 				id: "mekanism:dust_iron"
 			}
-			id: "A108000000000200"
-			title: "2x Ore Doubling"
+			id: "1397CA5520A1F98F"
 			rewards: [
 				{
-					id: "A1080000000002B1"
+					id: "1B43F543BBA550B3"
 					type: "xp"
 					xp: 50
 				}
 				{
 					count: 16
-					id: "A1080000000002B2"
+					id: "63E800FEE7C43960"
 					item: {
 						count: 1
 						id: "minecraft:raw_iron"
@@ -1418,36 +1008,28 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1080000000002A1"
+				id: "692C31012CC0DD45"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -7.5d
 		}
 		{
 			dependencies: [
-				"A108000000000200"
-				"A102000000000200"
-				"A102000000000300"
+				"1397CA5520A1F98F"
+				"44FC18E71EBFB577"
+				"5E72E73CE620FEDE"
 			]
-			description: [
-				"Craft a &3Purification Chamber&r -- Tier 2 ore processing. Feed in ore plus &3Oxygen&r gas to produce clumps, then run them through your existing &3Crusher&r and &3Enrichment Chamber&r."
-				""
-				"{image:moostack:textures/questpics/mekanism/ore_3x.png width:400 height:372 align:center fit:true}"
-				""
-				"&eYou already have everything except the Purification Chamber.&r Pipe Oxygen from your &3Electrolytic Separator&r. &eOre blocks&r give &e3 clumps (x3)&r. &eRaw ore&r gives &e2 clumps (x2)&r."
-			]
-			id: "A108000000000300"
-			title: "3x: Purification"
+			id: "6C2833454954F130"
 			rewards: [
 				{
-					id: "A1080000000003B1"
+					id: "0CB2E7A21E4CB26A"
 					type: "xp"
 					xp: 100
 				}
 				{
 					count: 8
-					id: "A1080000000003B2"
+					id: "7C84A83F3012E0C6"
 					item: {
 						count: 1
 						id: "minecraft:raw_gold"
@@ -1458,7 +1040,7 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1080000000003A1"
+				id: "061C9FB674272821"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
 			}]
@@ -1467,28 +1049,19 @@
 		}
 		{
 			dependencies: [
-				"A108000000000300"
-				"A102000000000500"
-				"A103000000000200"
+				"6C2833454954F130"
+				"2001BD53A4E6680C"
 			]
-			description: [
-				"Craft a &3Chemical Injection Chamber&r -- Tier 3 ore processing. Feed in ore plus &3Hydrogen Chloride (HCl)&r gas to produce shards, then run them through your existing 3x chain."
-				""
-				"{image:moostack:textures/questpics/mekanism/ore_4x.png width:400 height:524 align:center fit:true}"
-				""
-				"&eYou already have the Chemical Infuser and Electrolytic Separator.&r Produce HCl by combining Hydrogen + Chlorine in the Chemical Infuser. Chlorine comes from oxidizing Salt. &eOre blocks&r give &e4 shards (x4)&r."
-			]
-			id: "A108000000000400"
-			title: "4x: Chemical Injection"
+			id: "3AAABF21F9976688"
 			rewards: [
 				{
-					id: "A1080000000004B1"
+					id: "695F1228D15A92FA"
 					type: "xp"
 					xp: 200
 				}
 				{
 					count: 32
-					id: "A1080000000004B2"
+					id: "1B8870A6DC1F8948"
 					item: {
 						count: 1
 						id: "minecraft:raw_copper"
@@ -1499,37 +1072,28 @@
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1080000000004A1"
+				id: "4125B165A4E2FAB0"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.75d
 			y: -7.5d
 		}
 		{
 			dependencies: [
-				"A108000000000400"
-				"A102000000000400"
-				"A104000000000200"
+				"3AAABF21F9976688"
+				"61A672B6877F3198"
 			]
-			description: [
-				"Build the final three machines: &3Chemical Dissolution Chamber&r, &3Chemical Washer&r, and &3Chemical Crystallizer&r. Feed ore plus &3Sulfuric Acid&r into the Dissolution Chamber to produce slurry, wash it, crystallize it, then run crystals through your existing 4x chain."
-				""
-				"{image:moostack:textures/questpics/mekanism/ore_5x.png width:400 height:628 align:center fit:true}"
-				""
-				"&eSulfuric Acid:&r Oxidize Sulfur Dust into SO2, then combine SO2 + Water Vapor in your Chemical Infuser. &eOre blocks&r give &e5 crystals (x5)&r. &eRaw ore&r gives &e10 crystals per 3 raw (x3.33)&r."
-			]
-			id: "A108000000000500"
-			title: "5x: Full Dissolution"
+			id: "68872E632DD93655"
 			rewards: [
 				{
-					id: "A1080000000005B1"
+					id: "0DA6A7DC2ED71A2B"
 					type: "xp"
 					xp: 300
 				}
 				{
 					count: 32
-					id: "A1080000000005B2"
+					id: "6D2BCB9ACF100B54"
 					item: {
 						count: 1
 						id: "minecraft:raw_iron"
@@ -1538,162 +1102,108 @@
 				}
 			]
 			shape: "octagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [
 				{
-					id: "A1080000000005A1"
+					id: "5A3A2E0EA435B0F4"
 					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
 					type: "item"
 				}
 				{
-					id: "A1080000000005A2"
+					id: "29DEFA69FED5580A"
 					item: { count: 1, id: "mekanism:chemical_washer" }
 					type: "item"
 				}
 				{
-					id: "A1080000000005A3"
+					id: "00A1AE777E636AA8"
 					item: { count: 1, id: "mekanism:chemical_crystallizer" }
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -8.5d
+			x: 9.75d
+			y: -7.5d
 		}
 		{
-			dependencies: ["A108000000000500"]
-			description: [
-				"Build a &3Thermal Evaporation Plant&r -- a multiblock that uses solar heat to evaporate water into &3Brine&r, and brine into &3Lithium&r. Essential for fusion fuel production and advanced chemical processes."
-				""
-				"&eThe TEP is a 4x4 base, up to 18 blocks tall.&r Place it in a desert or at high altitude for maximum heat. Thermal evaporation blocks, a controller, and valves form the structure."
-			]
-			id: "A108000000000600"
-			title: "Brine & Lithium"
+			dependencies: ["267AEEFD37B7C6BE"]
+			id: "3F09B64B68B1E885"
 			rewards: [{
-				id: "A1080000000006B1"
+				id: "1406910333255550"
 				type: "xp"
 				xp: 200
 			}]
-			shape: "octagon"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [
 				{
 					count: 33L
-					id: "A1080000000006A1"
+					id: "7D99F66D67479542"
 					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
 					type: "item"
 				}
 				{
-					id: "A1080000000006A2"
+					id: "4ABF2F054561B862"
 					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
 					type: "item"
 				}
 				{
-					id: "A1080000000006A3"
+					id: "1F2DAF54A2F3DB14"
 					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -8.5d
+			x: 1.5d
+			y: 0.75d
 		}
 		{
-			dependencies: ["A103000000000300"]
-			description: [
-				"Produce a &3Refined Obsidian Ingot&r using the &3Osmium Compressor&r on the core spine. Refined Obsidian is needed for &3Atomic Alloy&r, which unlocks elite and ultimate tier machines."
-				""
-				"&eCrush obsidian in the Crusher for obsidian dust, then compress with liquid osmium.&r Stock up -- you will need many refined obsidian ingots for the advanced tech tree."
-			]
-			icon: {
-				id: "mekanism:ingot_refined_obsidian"
-			}
-			id: "A108000000000700"
-			title: "Refined Obsidian"
-			rewards: [{
-				id: "A1080000000007B1"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "diamond"
-			size: 1.2d
-			tasks: [{
-				id: "A1080000000007A1"
-				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["A108000000000400"]
-			description: [
-				"The &3Combiner&r reverses ore processing -- it combines dust and cobblestone back into ore blocks. Useful if you have excess dust and want to re-process at a higher tier."
-				""
-				"&eA niche but handy machine.&r Convert dust back to raw ore to re-process at 3x, 4x, or 5x for maximum yield."
-			]
-			id: "A108000000000800"
-			title: "Combiner"
+			dependencies: ["3AAABF21F9976688"]
+			id: "4A9A018295BA6C53"
 			optional: true
 			rewards: [{
-				id: "A1080000000008B1"
+				id: "45FE5D182C2F25BA"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
-				id: "A1080000000008A1"
+				id: "3E75C88EAB607454"
 				item: { count: 1, id: "mekanism:combiner" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: -7.5d
+			x: 8.5d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"A102000000000400"
-				"A102000000000500"
-			]
-			description: [
-				"The nuclear path begins with &3Sulfur&r and the chemical processing machines from the core spine. You need a &3Chemical Oxidizer&r and &3Chemical Infuser&r to produce the gases required for nuclear fuel."
-				""
-				"&cNuclear power is dangerous.&r Radiation, meltdowns, and waste are all real hazards. But the power output is unmatched. &eProceed with caution and always build safety systems.&r"
-			]
+			dependencies: ["2001BD53A4E6680C"]
 			icon: {
 				id: "mekanism:dust_sulfur"
 			}
-			id: "A109000000000100"
-			title: "Sulfur & Chemicals"
+			id: "6217A80B010BC448"
 			rewards: [{
-				id: "A1090000000001B1"
+				id: "48AAB53E46A05FD2"
 				type: "xp"
 				xp: 25
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
-				id: "A1090000000001A1"
+				id: "385A42EB66135905"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
-			description: [
-				"Mine and smelt &3Uranium Ore&r to obtain &3Uranium Ingots&r. Uranium is the primary fuel source for &aMekanism&r's fission reactor."
-				""
-				"Uranium ore is rarer than most ores. &eUse the Digital Miner or Fortune pickaxe to maximize yields.&r You will need a steady supply for sustained nuclear power."
-			]
-			id: "A109000000000200"
-			title: "Uranium Ore"
+			id: "1E28F7AFE9CD9318"
 			rewards: [{
-				id: "A1090000000002B1"
+				id: "3015812634791A0E"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000002A1"
+				id: "5BAFF3E0B88690B7"
 				item: { count: 1, id: "mekanism:ingot_uranium" }
 				type: "item"
 			}]
@@ -1701,22 +1211,16 @@
 			y: 10.0d
 		}
 		{
-			description: [
-				"Mine &3Fluorite Ore&r to obtain &3Fluorite Gems&r. Fluorite is combined with sulfuric acid to produce &3Hydrofluoric Acid&r gas, a key component of uranium enrichment."
-				""
-				"Fluorite generates in the deepslate layer. &eEnrich fluorite in the Enrichment Chamber for bonus yield.&r"
-			]
-			id: "A109000000000300"
-			title: "Fluorite"
+			id: "45692D301B8B88FA"
 			rewards: [{
-				id: "A1090000000003B1"
+				id: "1B613C8C13E975E8"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000003A1"
+				id: "5839AD83E7245B18"
 				item: { count: 1, id: "mekanism:fluorite_gem" }
 				type: "item"
 			}]
@@ -1724,26 +1228,17 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"A109000000000200"
-				"A102000000000100"
-			]
-			description: [
-				"Produce &3Yellowcake Uranium&r by enriching uranium ingots in the &3Enrichment Chamber&r. This is the first step in the nuclear fuel production chain."
-				""
-				"&eYellowcake is combined with Hydrofluoric Acid to produce Uranium Hexafluoride gas.&r Keep a stockpile of uranium ingots for continuous fuel production."
-			]
-			id: "A109000000000400"
-			title: "Yellowcake Uranium"
+			dependencies: ["1E28F7AFE9CD9318"]
+			id: "0210C12D139FAF49"
 			rewards: [{
-				id: "A1090000000004B1"
+				id: "2251BD33D931C784"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "square"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000004A1"
+				id: "0D6CA40E369252B8"
 				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
 				type: "item"
 			}]
@@ -1752,28 +1247,22 @@
 		}
 		{
 			dependencies: [
-				"A109000000000300"
-				"A109000000000100"
-			]
-			description: [
-				"Produce &3Hydrofluoric Acid&r (HF) gas by combining &3Fluorite&r with &3Sulfuric Acid&r in a &3Chemical Infuser&r. HF is needed to convert yellowcake uranium into uranium hexafluoride."
-				""
-				"&eSulfuric Acid&r is made by oxidizing sulfur dust into SO2, then infusing it with water vapor. You already have the machines from the core spine."
+				"45692D301B8B88FA"
+				"6217A80B010BC448"
 			]
 			icon: {
 				id: "mekanism:chemical_infuser"
 			}
-			id: "A109000000000500"
-			title: "Hydrofluoric Acid"
+			id: "6F770FE848EFAB8D"
 			rewards: [{
-				id: "A1090000000005B1"
+				id: "734DB2FCCDA80BD2"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "square"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000005A1"
+				id: "66E8F7C2B195716F"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -1781,55 +1270,39 @@
 		}
 		{
 			dependencies: [
-				"A109000000000400"
-				"A109000000000500"
-			]
-			description: [
-				"Combine &3Uranium Oxide (UO2)&r with &3Hydrofluoric Acid (HF)&r in a &3Chemical Infuser&r to produce &3Uranium Hexafluoride (UF6)&r. This gas is the precursor to fissile fuel."
-				""
-				"{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:320 align:center fit:true}"
-				""
-				"&eUF6 must be enriched in an Isotopic Centrifuge to become usable fissile fuel.&r HF comes from combining Fluorite with &3Sulfuric Acid&r in a &3Chemical Infuser&r."
+				"0210C12D139FAF49"
+				"6F770FE848EFAB8D"
 			]
 			icon: {
 				id: "mekanism:chemical_infuser"
 			}
-			id: "A109000000000600"
-			title: "Uranium Hexafluoride"
+			id: "406B1A34FE66141A"
 			rewards: [{
-				id: "A1090000000006B1"
+				id: "72EC937E578E8447"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000006A1"
+				id: "2638FC6DD4A44636"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["A109000000000600"]
-			description: [
-				"Craft an &3Isotopic Centrifuge&r and use it to enrich &3Uranium Hexafluoride (UF6)&r into &3Fissile Fuel&r. This is the final fuel product that powers the fission reactor."
-				""
-				"{image:moostack:textures/questpics/mekanism/fission_fuel.png width:400 height:320 align:center fit:true}"
-				""
-				"&eThe centrifuge also produces Nuclear Waste as a byproduct.&r Store or void the waste — you will need fissile fuel flowing continuously to your reactor."
-			]
-			id: "A109000000000700"
-			title: "Fissile Fuel"
+			dependencies: ["406B1A34FE66141A"]
+			id: "54039274FDD2B8F8"
 			rewards: [{
-				id: "A1090000000007B1"
+				id: "260A598D89DBED9C"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "A1090000000007A1"
+				id: "6AF6C1316FB4B241"
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
 				type: "item"
 			}]
@@ -1837,16 +1310,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["A109000000000700"]
-			description: [
-				"Craft &3Fission Fuel Assemblies&r and &3Control Rod Assemblies&r — the internal components of the fission reactor. Fuel assemblies hold the fissile fuel, and control rods regulate the reaction rate."
-				""
-				"&eControl rods sit on top of fuel assemblies inside the reactor.&r More fuel assemblies increase output but require more cooling. Balance power with safety."
-			]
-			id: "A109000000000800"
-			title: "Fuel & Control Assemblies"
+			dependencies: ["54039274FDD2B8F8"]
+			id: "7E3D584123FB8A8B"
 			rewards: [{
-				id: "A1090000000008B1"
+				id: "46F4F1278B4CC065"
 				type: "xp"
 				xp: 100
 			}]
@@ -1854,12 +1321,12 @@
 			size: 1.2d
 			tasks: [
 				{
-					id: "A1090000000008A1"
+					id: "2D28F642B3F1599C"
 					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
 					type: "item"
 				}
 				{
-					id: "A1090000000008A2"
+					id: "4881DDC729FEB9EB"
 					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
 					type: "item"
 				}
@@ -1868,16 +1335,10 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["A109000000000800"]
-			description: [
-				"Craft 4 &3Fission Reactor Ports&r — the I/O blocks for the fission reactor multiblock. Ports handle fuel input, coolant input, steam/heated coolant output, and waste output."
-				""
-				"&eYou need at least 2 ports (fuel in, steam out) but 4 gives you full control.&r Right-click to toggle between input and output mode."
-			]
-			id: "A109000000000900"
-			title: "Reactor Ports"
+			dependencies: ["7E3D584123FB8A8B"]
+			id: "0E9E8AF39035F5D5"
 			rewards: [{
-				id: "A1090000000009B1"
+				id: "424BBE2961577705"
 				type: "xp"
 				xp: 75
 			}]
@@ -1885,7 +1346,7 @@
 			size: 1.0d
 			tasks: [{
 				count: 4L
-				id: "A1090000000009A1"
+				id: "45D75BFA9A110389"
 				item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
 				type: "item"
 			}]
@@ -1894,20 +1355,12 @@
 		}
 		{
 			dependencies: [
-				"A109000000000800"
-				"A109000000000900"
+				"7E3D584123FB8A8B"
+				"0E9E8AF39035F5D5"
 			]
-			description: [
-				"Build a complete &3Fission Reactor&r — a multiblock structure that produces massive amounts of heat by splitting uranium atoms. The heat converts water into steam for the Industrial Turbine."
-				""
-				"{image:moostack:textures/questpics/mekanism/fission_loop.png width:400 height:212 align:center fit:true}"
-				""
-				"&cWARNING: Fission reactors can melt down if not properly cooled!&r Always build safety systems (redstone shutoff, SCRAM button) before activating. &eStart with a small reactor and scale up carefully.&r"
-			]
-			id: "A109000000000A00"
-			title: "Fission Reactor"
+			id: "2049EE661942C31A"
 			rewards: [{
-				id: "A109000000000AB1"
+				id: "1E3BFA772BE771C2"
 				type: "xp"
 				xp: 300
 			}]
@@ -1916,23 +1369,23 @@
 			tasks: [
 				{
 					count: 26L
-					id: "A109000000000AA1"
+					id: "112A36BEE675EB63"
 					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A109000000000AA2"
+					id: "28F659B02293E402"
 					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
 					type: "item"
 				}
 				{
-					id: "A109000000000AA3"
+					id: "251F27D5AE4F3152"
 					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
 					type: "item"
 				}
 				{
-					id: "A109000000000AA4"
+					id: "6C1CCBBADEBC5AB0"
 					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
 					type: "item"
 				}
@@ -1941,23 +1394,17 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000000800"]
-			description: [
-				"Craft a &3Fission Reactor Logic Adapter&r — connects the reactor to redstone circuits. Essential for automated safety systems that monitor reactor temperature and damage."
-				""
-				"&eThe logic adapter outputs a redstone signal based on reactor status.&r Use it to trigger alarms or automatic SCRAM when temperature exceeds safe limits."
-			]
-			id: "A109000000000B00"
-			title: "Logic Adapter"
+			dependencies: ["7E3D584123FB8A8B"]
+			id: "7271FBF4B8594502"
 			rewards: [{
-				id: "A109000000000BB1"
+				id: "03DAC47BA88E3C6B"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A109000000000BA1"
+				id: "2F0875201994F557"
 				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
 				type: "item"
 			}]
@@ -1965,16 +1412,10 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["A109000000000B00"]
-			description: [
-				"Build a redstone safety circuit using 2 &3Logic Adapters&r and a &3Repeater&r. One adapter monitors reactor damage, the other controls the fuel injection rate."
-				""
-				"&cNever run a fission reactor without a safety shutoff!&r Wire the damage output to disable fuel injection when damage exceeds a threshold. &eA simple comparator circuit saves you from catastrophic meltdown.&r"
-			]
-			id: "A109000000000C00"
-			title: "Redstone Safety"
+			dependencies: ["7271FBF4B8594502"]
+			id: "3A6002582F769548"
 			rewards: [{
-				id: "A109000000000CB1"
+				id: "561DB98C7CD20533"
 				type: "xp"
 				xp: 75
 			}]
@@ -1983,12 +1424,12 @@
 			tasks: [
 				{
 					count: 2L
-					id: "A109000000000CA1"
+					id: "28B34530B24FD8ED"
 					item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
 					type: "item"
 				}
 				{
-					id: "A109000000000CA2"
+					id: "0B66EB8FA97A40F3"
 					item: { count: 1, id: "minecraft:repeater" }
 					type: "item"
 				}
@@ -1997,23 +1438,17 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000000B00"]
-			description: [
-				"Build an emergency SCRAM button using a &3Daylight Detector&r or lever connected to your reactor safety circuit. One press should immediately halt all fuel injection."
-				""
-				"&cKeep a SCRAM button accessible at all times near your reactor.&r In an emergency, you need to shut down instantly. &eA daylight detector also provides automatic day/night cycling if desired.&r"
-			]
-			id: "A109000000000D00"
-			title: "Emergency SCRAM"
+			dependencies: ["7271FBF4B8594502"]
+			id: "2D9F928F41F39EB0"
 			rewards: [{
-				id: "A109000000000DB1"
+				id: "69B62DC15C6FA279"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A109000000000DA1"
+				id: "6BAB4B1309F09696"
 				item: { count: 1, id: "minecraft:daylight_detector" }
 				type: "item"
 			}]
@@ -2021,16 +1456,10 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["A109000000000A00"]
-			description: [
-				"Craft a full &3Hazmat Suit&r — mask, gown, pants, and boots. This suit protects you from &cradiation&r emitted by nuclear waste, spent fuel, and reactor components."
-				""
-				"&cWithout a hazmat suit, radiation exposure will damage and eventually kill you.&r &eAlways wear it when handling radioactive materials or working near active reactors.&r"
-			]
-			id: "A109000000000E00"
-			title: "Hazmat Suit"
+			dependencies: ["2049EE661942C31A"]
+			id: "1FD2CC88DF5AD571"
 			rewards: [{
-				id: "A109000000000EB1"
+				id: "50F52EFE40160D7F"
 				type: "xp"
 				xp: 100
 			}]
@@ -2038,22 +1467,22 @@
 			size: 1.2d
 			tasks: [
 				{
-					id: "A109000000000EA1"
+					id: "67CFA762389892CA"
 					item: { count: 1, id: "mekanism:hazmat_mask" }
 					type: "item"
 				}
 				{
-					id: "A109000000000EA2"
+					id: "5FEAF5F3D9E0B285"
 					item: { count: 1, id: "mekanism:hazmat_gown" }
 					type: "item"
 				}
 				{
-					id: "A109000000000EA3"
+					id: "0373F16EDA65C58B"
 					item: { count: 1, id: "mekanism:hazmat_pants" }
 					type: "item"
 				}
 				{
-					id: "A109000000000EA4"
+					id: "7E48F79EE2B96C33"
 					item: { count: 1, id: "mekanism:hazmat_boots" }
 					type: "item"
 				}
@@ -2062,42 +1491,30 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000000A00"]
-			description: [
-				"Your fission reactor produces heated coolant (or steam if using water coolant). This steam drives the &3Industrial Turbine&r — a massive multiblock that converts steam into RF at incredible rates."
-				""
-				"&ePipe steam from the reactor to the turbine using Mechanical Pipes.&r The turbine is the primary power conversion method for nuclear energy."
-			]
+			dependencies: ["2049EE661942C31A"]
 			icon: {
 				id: "mekanism:basic_mechanical_pipe"
 			}
-			id: "A109000000000F00"
-			title: "Steam Generation"
+			id: "3EF34EEA8AC3C588"
 			rewards: [{
-				id: "A109000000000FB1"
+				id: "521F5BD9F2E246D8"
 				type: "xp"
 				xp: 50
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A109000000000FA1"
+				id: "7E43DD8D629A6E5D"
 				type: "checkmark"
 			}]
 			x: 8.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["A109000000000F00"]
-			description: [
-				"Craft &3Turbine Valves&r (steam input) and &3Turbine Vents&r (water output). Valves accept steam from the reactor, and vents exhaust the cooled water back."
-				""
-				"&eYou need at least one valve and one vent.&r Place valves where steam pipes connect, and vents where water returns. Multiple of each improves throughput."
-			]
-			id: "A109000000001000"
-			title: "Turbine Valves & Vents"
+			dependencies: ["3EF34EEA8AC3C588"]
+			id: "7E7AF7081EBE5EDE"
 			rewards: [{
-				id: "A1090000000010B1"
+				id: "1A1509B5E00DDBB9"
 				type: "xp"
 				xp: 75
 			}]
@@ -2106,12 +1523,12 @@
 			tasks: [
 				{
 					count: 2L
-					id: "A1090000000010A1"
+					id: "6C29B19C0F9738CD"
 					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
 					type: "item"
 				}
 				{
-					id: "A1090000000010A2"
+					id: "6D150A7D3448E787"
 					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
 					type: "item"
 				}
@@ -2120,16 +1537,10 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000000F00"]
-			description: [
-				"Craft &3Turbine Rotors&r, &3Turbine Blades&r, and a &3Rotational Complex&r — the spinning components inside the turbine. Steam pushes the blades, which spin the rotors to generate power."
-				""
-				"&eStack rotors vertically with 2 blades each.&r The rotational complex sits on top connecting rotors to the electromagnetic coils. More rotors = more steam capacity."
-			]
-			id: "A109000000001100"
-			title: "Turbine Internals"
+			dependencies: ["3EF34EEA8AC3C588"]
+			id: "745B26CA80044950"
 			rewards: [{
-				id: "A1090000000011B1"
+				id: "6F2E2B89C323ADF1"
 				type: "xp"
 				xp: 75
 			}]
@@ -2138,18 +1549,18 @@
 			tasks: [
 				{
 					count: 2L
-					id: "A1090000000011A1"
+					id: "351DF29F0D65A25D"
 					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "A1090000000011A2"
+					id: "46CB3C988D46EA86"
 					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
 					type: "item"
 				}
 				{
-					id: "A1090000000011A3"
+					id: "3B5702991F483DAF"
 					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
 					type: "item"
 				}
@@ -2158,16 +1569,10 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000000F00"]
-			description: [
-				"Craft &3Pressure Dispersers&r, &3Electromagnetic Coils&r, and a &3Saturating Condenser&r. Dispersers spread steam evenly, coils convert rotation to RF, and the condenser reclaims water."
-				""
-				"&eFill the layer above the rotational complex with pressure dispersers.&r Place coils above that, then the condenser. This completes the power conversion chain."
-			]
-			id: "A109000000001200"
-			title: "Turbine Components"
+			dependencies: ["3EF34EEA8AC3C588"]
+			id: "3CF059D01E1F265F"
 			rewards: [{
-				id: "A1090000000012B1"
+				id: "1B85F67C973B3BDE"
 				type: "xp"
 				xp: 75
 			}]
@@ -2175,18 +1580,18 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "A1090000000012A1"
+					id: "41E4EEAE0B261839"
 					item: { count: 1, id: "mekanism:pressure_disperser" }
 					type: "item"
 				}
 				{
-					id: "A1090000000012A2"
+					id: "7DFCEA557501AF8C"
 					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
 					type: "item"
 				}
 				{
-					id: "A1090000000012A3"
-					item: { count: 1, id: "mekanism:saturating_condenser" }
+					id: "16779C3A9EE0E785"
+					item: { components: { "ftbquests:missing_item": "mekanism:saturating_condenser" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -2195,19 +1600,13 @@
 		}
 		{
 			dependencies: [
-				"A109000000001000"
-				"A109000000001100"
-				"A109000000001200"
+				"7E7AF7081EBE5EDE"
+				"745B26CA80044950"
+				"3CF059D01E1F265F"
 			]
-			description: [
-				"Build a complete &3Industrial Turbine&r — the massive multiblock that converts steam from fission into RF. A properly sized turbine can produce millions of RF/tick."
-				""
-				"&eMinimum 5x5x5 structure.&r Turbine casing forms the shell, with rotors, dispersers, coils, and condenser inside. Pipe steam in through valves and water out through vents."
-			]
-			id: "A109000000001300"
-			title: "Industrial Turbine"
+			id: "3617D3841B23FE9C"
 			rewards: [{
-				id: "A1090000000013B1"
+				id: "05E0B1A8E9F4889C"
 				type: "xp"
 				xp: 500
 			}]
@@ -2216,54 +1615,54 @@
 			tasks: [
 				{
 					count: 52L
-					id: "A1090000000013A1"
+					id: "4D2597577131D862"
 					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A1090000000013A2"
+					id: "4409C3F7B9272510"
 					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A1090000000013A3"
+					id: "61DA9A431E8BA8B7"
 					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
 					type: "item"
 				}
 				{
 					count: 5L
-					id: "A1090000000013A4"
+					id: "52A03D377132BF30"
 					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
 					type: "item"
 				}
 				{
 					count: 10L
-					id: "A1090000000013A5"
+					id: "4974C540B6BE3CCF"
 					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
 					type: "item"
 				}
 				{
-					id: "A1090000000013A6"
+					id: "1301CCD1D79297BE"
 					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
 					type: "item"
 				}
 				{
 					count: 9L
-					id: "A1090000000013A7"
+					id: "316537ED9BE11AEC"
 					item: { count: 1, id: "mekanism:pressure_disperser" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "A1090000000013A8"
+					id: "04761E08F4841BA9"
 					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
 					type: "item"
 				}
 				{
-					id: "A1090000000013A9"
-					item: { count: 1, id: "mekanism:saturating_condenser" }
+					id: "5C5FF4ACCE982A0C"
+					item: { components: { "ftbquests:missing_item": "mekanism:saturating_condenser" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -2271,19 +1670,13 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["A109000000000A00"]
-			description: [
-				"Produce &3Sodium&r gas by processing &3Salt&r in a &3Chemical Oxidizer&r. Sodium is a superior coolant for the fission reactor — it absorbs more heat than water, enabling higher burn rates and more efficient power generation."
-				""
-				"&eSalt can be found by mining or produced renewably via the Thermal Evaporation Plant&r (evaporate water into brine, yielding salt as a byproduct). You already have a Chemical Oxidizer from fission fuel processing."
-			]
+			dependencies: ["2049EE661942C31A"]
 			icon: {
 				id: "mekanism:chemical_oxidizer"
 			}
-			id: "A109000000001400"
-			title: "Sodium Production"
+			id: "77FFDCCB8E6D7F9F"
 			rewards: [{
-				id: "A1090000000014B1"
+				id: "3A9172F76294E1F1"
 				type: "xp"
 				xp: 75
 			}]
@@ -2291,7 +1684,7 @@
 			size: 1.2d
 			tasks: [{
 				count: 16L
-				id: "A1090000000014A1"
+				id: "1C6DCC8DBE814A3F"
 				item: { count: 1, id: "mekanism:salt" }
 				type: "item"
 			}]
@@ -2299,16 +1692,10 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000001400"]
-			description: [
-				"Craft the core components for the &3Thermoelectric Boiler&r multiblock. &3Boiler Valves&r handle heated sodium input, cooled sodium output, water input, and steam output."
-				""
-				"&3Superheating Elements&r go in the bottom section to transfer heat from sodium. &3Pressure Dispersers&r spread steam evenly across the upper collection section."
-			]
-			id: "A109000000001500"
-			title: "Boiler Components"
+			dependencies: ["77FFDCCB8E6D7F9F"]
+			id: "623F6154E0FF33DD"
 			rewards: [{
-				id: "A1090000000015B1"
+				id: "5133A8D13EEF8BF6"
 				type: "xp"
 				xp: 75
 			}]
@@ -2317,17 +1704,17 @@
 			tasks: [
 				{
 					count: 4L
-					id: "A1090000000015A1"
+					id: "5699ADD5A4C63AB8"
 					item: { count: 1, id: "mekanism:boiler_valve" }
 					type: "item"
 				}
 				{
-					id: "A1090000000015A2"
+					id: "1E6D9EA9C8F6CFBA"
 					item: { count: 1, id: "mekanism:superheating_element" }
 					type: "item"
 				}
 				{
-					id: "A1090000000015A3"
+					id: "281F03F770356DE1"
 					item: { count: 1, id: "mekanism:pressure_disperser" }
 					type: "item"
 				}
@@ -2337,20 +1724,12 @@
 		}
 		{
 			dependencies: [
-				"A109000000001500"
-				"A109000000001300"
+				"623F6154E0FF33DD"
+				"3617D3841B23FE9C"
 			]
-			description: [
-				"Build a complete &3Thermoelectric Boiler&r and connect the &3sodium coolant loop&r. The boiler receives heated sodium from the fission reactor, converts water into steam for the turbine, and returns cooled sodium back to the reactor."
-				""
-				"{image:moostack:textures/questpics/mekanism/sodium_loop.png width:400 height:444 align:center fit:true}"
-				""
-				"&eMinimum 3x3x4 structure.&r Pipe sodium from reactor ports → boiler valves → back to reactor. Steam output goes to the Industrial Turbine. &3This upgrade significantly increases your reactor's power output.&r"
-			]
-			id: "A109000000001600"
-			title: "Thermoelectric Boiler"
+			id: "2D3D053691C7C5C2"
 			rewards: [{
-				id: "A1090000000016B1"
+				id: "0D8A4235EED52FFF"
 				type: "xp"
 				xp: 300
 			}]
@@ -2359,13 +1738,13 @@
 			tasks: [
 				{
 					count: 24L
-					id: "A1090000000016A1"
+					id: "3F25059A68B0C28A"
 					item: { count: 1, id: "mekanism:boiler_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A1090000000016A2"
+					id: "598B11BE823736D2"
 					item: { count: 1, id: "mekanism:boiler_valve" }
 					type: "item"
 				}
@@ -2374,49 +1753,36 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["A108000000000600"]
-			description: [
-				"Produce &3Deuterium&r gas by electrolyzing &3Heavy Water&r in an &3Electrolytic Separator&r. Heavy water is obtained by pumping regular water through the &3Thermal Evaporation Plant&r."
-				""
-				"&eTEP evaporates water into brine, then a second TEP evaporates brine into lithium.&r Heavy water is a byproduct of the brine process. Deuterium is half of D-T fusion fuel."
-			]
 			icon: {
 				id: "mekanism:electrolytic_separator"
 			}
-			id: "A109000000001700"
-			title: "Deuterium"
+			id: "2226CCD2AD616803"
 			rewards: [{
-				id: "A1090000000017B1"
+				id: "78CD0D22551CBB40"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000017A1"
+				id: "77D275B6B2D4D46B"
 				type: "checkmark"
 			}]
 			x: 16.0d
 			y: 13.0d
 		}
 		{
-			dependencies: ["A109000000001700"]
-			description: [
-				"Produce &3Tritium&r by exposing &3Lithium&r to solar neutron radiation in a &3Solar Neutron Activator&r. Tritium is the other half of D-T fusion fuel."
-				""
-				"&eLithium comes from evaporating brine in the TEP.&r The Solar Neutron Activator needs clear sky access. Use a &3Rotary Condensentrator&r to convert gases to fluids if needed for storage."
-			]
-			id: "A109000000001800"
-			title: "Tritium"
+			dependencies: ["2226CCD2AD616803"]
+			id: "0246DEDBB36A03C2"
 			rewards: [{
-				id: "A1090000000018B1"
+				id: "358BFBB661F74326"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000018A1"
+				id: "6EB79FCEA8677138"
 				item: { count: 1, id: "mekanism:solar_neutron_activator" }
 				type: "item"
 			}]
@@ -2425,51 +1791,39 @@
 		}
 		{
 			dependencies: [
-				"A109000000001700"
-				"A109000000001800"
-			]
-			description: [
-				"Combine &3Deuterium&r and &3Tritium&r gases in a &3Chemical Infuser&r to produce &3D-T Fuel&r — the fuel for the fusion reactor. This is the most energy-dense fuel in &aMekanism&r."
-				""
-				"&eStore D-T fuel in chemical tanks before feeding it to the fusion reactor.&r You need a steady supply of both deuterium and tritium for continuous fusion power."
+				"2226CCD2AD616803"
+				"0246DEDBB36A03C2"
 			]
 			icon: {
 				id: "mekanism:chemical_infuser"
 			}
-			id: "A109000000001900"
-			title: "D-T Fuel"
+			id: "36D33364B00E4365"
 			rewards: [{
-				id: "A1090000000019B1"
+				id: "00FC8D5905F94D0F"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A1090000000019A1"
+				id: "004F5174C63ACA8E"
 				type: "checkmark"
 			}]
 			x: 17.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["A109000000001900"]
-			description: [
-				"Craft a &3Hohlraum&r — a specialized container that holds D-T fuel for fusion reactor ignition. The hohlraum must be filled with D-T fuel and placed inside the reactor to start the fusion process."
-				""
-				"&eFill the hohlraum by placing it in a chemical tank containing D-T fuel.&r Once full, insert it into the fusion reactor GUI to prepare for ignition."
-			]
-			id: "A109000000001A00"
-			title: "Hohlraum"
+			dependencies: ["36D33364B00E4365"]
+			id: "40AE59C1D6144B8A"
 			rewards: [{
-				id: "A109000000001AB1"
+				id: "5781B277B1A3BD09"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A109000000001AA1"
+				id: "53B363EE93B0D16D"
 				item: { count: 1, id: "mekanismgenerators:hohlraum" }
 				type: "item"
 			}]
@@ -2477,22 +1831,16 @@
 			y: 19.0d
 		}
 		{
-			description: [
-				"Craft a &3Laser&r — a directed energy device that fires a beam of concentrated RF. Lasers are used to provide the ignition energy for the fusion reactor via a &3Laser Amplifier&r."
-				""
-				"&eLasers consume massive amounts of power.&r Point them at a Laser Amplifier to charge it up, then release the stored energy to ignite fusion."
-			]
-			id: "A109000000001B00"
-			title: "Laser"
+			id: "53974058ECE1D565"
 			rewards: [{
-				id: "A109000000001BB1"
+				id: "751FBFCD39EDADD3"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A109000000001BA1"
+				id: "00A02CB25D873BE0"
 				item: { count: 1, id: "mekanism:laser" }
 				type: "item"
 			}]
@@ -2500,23 +1848,17 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["A109000000001B00"]
-			description: [
-				"Craft a &3Laser Amplifier&r — stores energy from lasers and releases it in a concentrated burst. This is required to provide the enormous ignition energy for the fusion reactor."
-				""
-				"&ePoint your laser at the amplifier and wait for it to charge.&r Once it reaches the ignition threshold, aim the amplifier at the fusion reactor's Laser Focus Matrix to start fusion."
-			]
-			id: "A109000000001C00"
-			title: "Laser Amplifier"
+			dependencies: ["53974058ECE1D565"]
+			id: "6CCB1923A9A323DD"
 			rewards: [{
-				id: "A109000000001CB1"
+				id: "3F1EDB4BE4009753"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A109000000001CA1"
+				id: "225429B608A7878D"
 				item: { count: 1, id: "mekanism:laser_amplifier" }
 				type: "item"
 			}]
@@ -2524,16 +1866,10 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["A109000000001900"]
-			description: [
-				"Craft 3 &3Fusion Reactor Ports&r — the I/O blocks for the fusion reactor multiblock. Ports handle D-T fuel input, steam/energy output, and optional water input for steam generation."
-				""
-				"&eRight-click to toggle between input and output mode.&r You need at minimum a fuel input port and an energy/steam output port."
-			]
-			id: "A109000000001D00"
-			title: "Fusion Reactor Ports"
+			dependencies: ["36D33364B00E4365"]
+			id: "63373943F13BB402"
 			rewards: [{
-				id: "A109000000001DB1"
+				id: "25A14AC5D95EB563"
 				type: "xp"
 				xp: 100
 			}]
@@ -2541,7 +1877,7 @@
 			size: 1.0d
 			tasks: [{
 				count: 3L
-				id: "A109000000001DA1"
+				id: "3C06E42374182BE0"
 				item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
 				type: "item"
 			}]
@@ -2549,23 +1885,17 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["A109000000001900"]
-			description: [
-				"Craft a &3Laser Focus Matrix&r — the ignition point of the fusion reactor. The Laser Amplifier fires its stored energy at this block to initiate the fusion reaction."
-				""
-				"&ePlace the focus matrix in the reactor frame facing the laser amplifier.&r It replaces one of the frame blocks. Once ignited, fusion sustains itself as long as fuel flows."
-			]
-			id: "A109000000001E00"
-			title: "Laser Focus Matrix"
+			dependencies: ["36D33364B00E4365"]
+			id: "16CA60CEC9FA4E75"
 			rewards: [{
-				id: "A109000000001EB1"
+				id: "029AF3C3079227A1"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "pentagon"
 			size: 1.0d
 			tasks: [{
-				id: "A109000000001EA1"
+				id: "73E89E58B043F4C2"
 				item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
 				type: "item"
 			}]
@@ -2574,20 +1904,14 @@
 		}
 		{
 			dependencies: [
-				"A109000000001A00"
-				"A109000000001C00"
-				"A109000000001D00"
-				"A109000000001E00"
+				"40AE59C1D6144B8A"
+				"6CCB1923A9A323DD"
+				"63373943F13BB402"
+				"16CA60CEC9FA4E75"
 			]
-			description: [
-				"Build a complete &3Fusion Reactor&r — the ultimate power source in &aMekanism&r. Fuses deuterium and tritium to produce staggering amounts of energy. The reactor is a hollow 5x5x5 multiblock."
-				""
-				"&eIgnite with a charged Laser Amplifier aimed at the Focus Matrix.&r Once running, fusion produces enough power for an entire mega-base. The pinnacle of Mekanism engineering."
-			]
-			id: "A109000000001F00"
-			title: "Fusion Reactor"
+			id: "2E8D588E744CFD87"
 			rewards: [{
-				id: "A109000000001FB1"
+				id: "4FE2CD3E2CE9080A"
 				type: "xp"
 				xp: 500
 			}]
@@ -2595,24 +1919,24 @@
 			size: 1.75d
 			tasks: [
 				{
-					id: "A109000000001FA1"
+					id: "4A6FE769844A87B8"
 					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
 					type: "item"
 				}
 				{
 					count: 36L
-					id: "A109000000001FA2"
+					id: "45544525E45BDECD"
 					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{
 					count: 3L
-					id: "A109000000001FA3"
+					id: "4C0B91A7BDE20B05"
 					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
 					type: "item"
 				}
 				{
-					id: "A109000000001FA4"
+					id: "0B714DFB2FB3A789"
 					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
 					type: "item"
 				}
@@ -2621,23 +1945,17 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["A109000000000A00"]
-			description: [
-				"Craft a &3Radioactive Waste Barrel&r — stores radioactive waste safely. Your fission reactor produces nuclear waste that must be contained or processed."
-				""
-				"&cDo not let radioactive waste leak!&r Barrels prevent radiation from spreading. &eProcess waste into plutonium and polonium for advanced materials.&r"
-			]
-			id: "A10A000000000100"
-			title: "Radioactive Waste Barrel"
+			dependencies: ["2049EE661942C31A"]
+			id: "3C051DFDDCB76492"
 			rewards: [{
-				id: "A10A0000000001B1"
+				id: "760D7220DC785856"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A10A0000000001A1"
+				id: "56BD16D02FA1B5D7"
 				item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
 				type: "item"
 			}]
@@ -2645,75 +1963,57 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["A10A000000000100"]
-			description: [
-				"Process nuclear waste in an &3Isotopic Centrifuge&r to extract &3Plutonium&r. This radioactive material is a key ingredient for the antimatter production chain."
-				""
-				"&ePlutonium is produced by centrifuging spent nuclear waste.&r Handle with hazmat protection. It will be compressed into pellets for the SPS."
-			]
+			dependencies: ["3C051DFDDCB76492"]
 			icon: {
 				id: "mekanism:isotopic_centrifuge"
 			}
-			id: "A10A000000000200"
-			title: "Plutonium"
+			id: "0DB9258FBA553516"
 			rewards: [{
-				id: "A10A0000000002B1"
+				id: "592198CD72C15E89"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000002A1"
+				id: "11A410089B64E5F4"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 25.0d
 		}
 		{
-			dependencies: ["A10A000000000100"]
-			description: [
-				"Expose nuclear waste to solar neutron radiation in a &3Solar Neutron Activator&r to produce &3Polonium&r. Another critical ingredient for antimatter pellets."
-				""
-				"&eThe Solar Neutron Activator needs clear sky access.&r Polonium and plutonium combine to form antimatter — the ultimate crafting material."
-			]
+			dependencies: ["3C051DFDDCB76492"]
 			icon: {
 				id: "mekanism:solar_neutron_activator"
 			}
-			id: "A10A000000000300"
-			title: "Polonium"
+			id: "73D7F50D6BA69A49"
 			rewards: [{
-				id: "A10A0000000003B1"
+				id: "33F7FB4AEB923B9E"
 				type: "xp"
 				xp: 75
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000003A1"
+				id: "288B54812EF11BB5"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 25.0d
 		}
 		{
-			dependencies: ["A10A000000000200"]
-			description: [
-				"Compress &3Plutonium&r gas into a &3Plutonium Pellet&r using the &3Chemical Crystallizer&r. Pellets are the solid form needed for antimatter production."
-				""
-				"&eEach pellet requires a significant amount of plutonium gas.&r Ensure your waste processing pipeline is running efficiently."
-			]
-			id: "A10A000000000400"
-			title: "Plutonium Pellet"
+			dependencies: ["0DB9258FBA553516"]
+			id: "2B708366E25A6B1D"
 			rewards: [{
-				id: "A10A0000000004B1"
+				id: "4F23300BDB6A02A6"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "pentagon"
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000004A1"
+				id: "2A2E73DE0A9158CF"
 				item: { count: 1, id: "mekanism:pellet_plutonium" }
 				type: "item"
 			}]
@@ -2721,23 +2021,17 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["A10A000000000300"]
-			description: [
-				"Compress &3Polonium&r gas into a &3Polonium Pellet&r using the &3Chemical Crystallizer&r. Combined with plutonium pellets, these form antimatter."
-				""
-				"&ePolonim pellets are equally important as plutonium pellets.&r Both are needed in equal amounts for antimatter production."
-			]
-			id: "A10A000000000500"
-			title: "Polonium Pellet"
+			dependencies: ["73D7F50D6BA69A49"]
+			id: "7A1849846C2FF5CB"
 			rewards: [{
-				id: "A10A0000000005B1"
+				id: "5533776575FD2F2A"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "pentagon"
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000005A1"
+				id: "7B3183687A3ABB0B"
 				item: { count: 1, id: "mekanism:pellet_polonium" }
 				type: "item"
 			}]
@@ -2746,25 +2040,19 @@
 		}
 		{
 			dependencies: [
-				"A10A000000000400"
-				"A10A000000000500"
+				"2B708366E25A6B1D"
+				"7A1849846C2FF5CB"
 			]
-			description: [
-				"Produce an &3Antimatter Pellet&r by combining &3Plutonium Pellet&r and &3Polonium Pellet&r in the SPS (once built). Antimatter is the rarest and most powerful material in &aMekanism&r."
-				""
-				"&eAntimatter pellets are required for MekaSuit, MekaTool, and the Antiprotonic Nucleosynthesizer.&r This is the endgame material."
-			]
-			id: "A10A000000000600"
-			title: "Antimatter Pellet"
+			id: "411BDF3FA1101341"
 			rewards: [{
-				id: "A10A0000000006B1"
+				id: "0AECE611C053B3E3"
 				type: "xp"
 				xp: 300
 			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A10A0000000006A1"
+				id: "66E57E89FD429126"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
 				type: "item"
 			}]
@@ -2773,18 +2061,12 @@
 		}
 		{
 			dependencies: [
-				"A10A000000000600"
-				"A105000000000100"
+				"411BDF3FA1101341"
+				"61A672B6877F3198"
 			]
-			description: [
-				"Build the &3Supercritical Phase Shifter (SPS)&r — the most advanced multiblock in &aMekanism&r. It converts polonium into antimatter using extreme amounts of energy."
-				""
-				"&eThe SPS is a 7x7x7 hollow structure requiring 122 SPS casings, 4 ports, and 2 supercharged coils.&r This is the ultimate crafting challenge. Requires ultimate circuits from the core spine."
-			]
-			id: "A10A000000000700"
-			title: "Supercritical Phase Shifter"
+			id: "59638F0493C3350E"
 			rewards: [{
-				id: "A10A0000000007B1"
+				id: "3D996320EF70D60E"
 				type: "xp"
 				xp: 500
 			}]
@@ -2793,19 +2075,19 @@
 			tasks: [
 				{
 					count: 122L
-					id: "A10A0000000007A1"
+					id: "606CF2CB6714B9B8"
 					item: { count: 1, id: "mekanism:sps_casing" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "A10A0000000007A2"
+					id: "2481D4F1DCAF6AEC"
 					item: { count: 1, id: "mekanism:sps_port" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "A10A0000000007A3"
+					id: "136CEEB3F21000BE"
 					item: { count: 1, id: "mekanism:supercharged_coil" }
 					type: "item"
 				}
@@ -2814,23 +2096,17 @@
 			y: 30.0d
 		}
 		{
-			dependencies: ["A10A000000000600"]
-			description: [
-				"Craft an &3Antiprotonic Nucleosynthesizer&r — uses antimatter to transmute elements. This machine can create materials that cannot be found naturally, including rare earth elements."
-				""
-				"&eThe nucleosynthesizer is the ultimate crafting machine.&r Feed it antimatter pellets and a base material to produce exotic outputs. Check JEI for transmutation recipes."
-			]
-			id: "A10A000000000800"
-			title: "Antiprotonic Nucleosynthesizer"
+			dependencies: ["411BDF3FA1101341"]
+			id: "56D2A373D338BE6D"
 			rewards: [{
-				id: "A10A0000000008B1"
+				id: "2B1D1077239EA6F5"
 				type: "xp"
 				xp: 300
 			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A10A0000000008A1"
+				id: "36CD628733EC3E67"
 				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
 				type: "item"
 			}]
@@ -2838,26 +2114,17 @@
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"A109000000000A00"
-				"A104000000000200"
-			]
-			description: [
-				"Craft a &3Digital Miner&r — an automated mining machine that teleports ores directly into its inventory. Configure filters to target specific ores, set a mining radius, and let it work."
-				""
-				"&eThe Digital Miner replaces manual branch mining entirely.&r Set up ore filters, provide power, and it will extract every matching ore in range. Requires an elite control circuit."
-			]
-			id: "A10A000000000900"
-			title: "Digital Miner"
+			dependencies: ["2049EE661942C31A"]
+			id: "76B465FC6F5DF8A6"
 			rewards: [{
-				id: "A10A0000000009B1"
+				id: "4D2AD90ED68605D1"
 				type: "xp"
 				xp: 200
 			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A10A0000000009A1"
+				id: "28D6CD0A5EBFA8F5"
 				item: { count: 1, id: "mekanism:digital_miner" }
 				type: "item"
 			}]
@@ -2866,25 +2133,19 @@
 		}
 		{
 			dependencies: [
-				"A109000000000A00"
-				"A104000000000100"
+				"2049EE661942C31A"
+				"0E70B0D3227BD200"
 			]
-			description: [
-				"Craft an &3Atomic Disassembler&r — an all-in-one RF-powered tool that mines, farms, and fights. It functions as a pickaxe, shovel, axe, and sword simultaneously."
-				""
-				"&eCharge it in an energy cube or Induction Matrix.&r Toggle between normal, vein mining, and extended modes. The ultimate multi-tool before MekaTool."
-			]
-			id: "A10A000000000A00"
-			title: "Atomic Disassembler"
+			id: "3A07C720AFDE2DD1"
 			rewards: [{
-				id: "A10A000000000AB1"
+				id: "644C78D234DB9349"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A10A000000000AA1"
+				id: "3CF3641053F20137"
 				item: { count: 1, id: "mekanism:atomic_disassembler" }
 				type: "item"
 			}]
@@ -2892,64 +2153,46 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["A10A000000000600"]
-			description: [
-				"Craft the &3MekaTool&r — the ultimate multi-tool in &aMekanism&r. It combines the functions of the Atomic Disassembler with modular upgrades like vein mining, teleportation, and farming."
-				""
-				"&eRequires antimatter pellets to craft.&r Install modules at the &3Modification Station&r to customize its abilities. The MekaTool is the pinnacle of Mekanism tool technology."
-			]
-			id: "A10A000000000B00"
-			title: "MekaTool"
+			dependencies: ["411BDF3FA1101341"]
+			id: "0590ECBFD4FE6CB2"
 			rewards: [{
-				id: "A10A000000000BB1"
+				id: "4B1DD1048B01FB91"
 				type: "xp"
 				xp: 300
 			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A10A000000000BA1"
+				id: "268D7DC2F35247F9"
 				item: { count: 1, id: "mekanism:meka_tool" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 28.0d
+			x: 1.5d
+			y: 30.0d
 		}
 		{
-			dependencies: ["A109000000000A00"]
-			description: [
-				"Craft a &3Modification Station&r — the module installer for MekaSuit and MekaTool. Place your equipment and available modules in the GUI to install or remove upgrades."
-				""
-				"&eEach piece of MekaSuit and the MekaTool has specific module slots.&r Check the GUI to see which modules can be installed in each slot."
-			]
-			id: "A10A000000000C00"
-			title: "Modification Station"
+			dependencies: ["2049EE661942C31A"]
+			id: "5A749804E1DF9244"
 			rewards: [{
-				id: "A10A000000000CB1"
+				id: "364153C580FC9D12"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "square"
 			size: 1.2d
 			tasks: [{
-				id: "A10A000000000CA1"
+				id: "1BCEEAA1CB6EBF54"
 				item: { count: 1, id: "mekanism:modification_station" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 26.0d
+			x: 0.6d
+			y: 25.2d
 		}
 		{
-			dependencies: ["A10A000000000600"]
-			description: [
-				"Craft the full &3MekaSuit&r — helmet, bodyarmor, pants, and boots. The ultimate armor set in &aMekanism&r, powered by RF with modular upgrades for flight, radiation shielding, and more."
-				""
-				"&eRequires antimatter pellets to craft.&r Each piece has module slots. Install modules at the Modification Station to unlock abilities like jetpack flight, gravitational modulation, and vision enhancement."
-			]
-			id: "A10A000000000D00"
-			title: "MekaSuit"
+			dependencies: ["411BDF3FA1101341"]
+			id: "257496490571FF51"
 			rewards: [{
-				id: "A10A000000000DB1"
+				id: "14DA73AE734E94EC"
 				type: "xp"
 				xp: 500
 			}]
@@ -2957,22 +2200,22 @@
 			size: 1.75d
 			tasks: [
 				{
-					id: "A10A000000000DA1"
+					id: "1CF071B12DD951DA"
 					item: { count: 1, id: "mekanism:mekasuit_helmet" }
 					type: "item"
 				}
 				{
-					id: "A10A000000000DA2"
+					id: "11BF40DB766759AB"
 					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
 					type: "item"
 				}
 				{
-					id: "A10A000000000DA3"
+					id: "2ACC24AFBEF0A68D"
 					item: { count: 1, id: "mekanism:mekasuit_pants" }
 					type: "item"
 				}
 				{
-					id: "A10A000000000DA4"
+					id: "50EA6AB43D37F6A0"
 					item: { count: 1, id: "mekanism:mekasuit_boots" }
 					type: "item"
 				}
@@ -2982,25 +2225,19 @@
 		}
 		{
 			dependencies: [
-				"A109000000000A00"
-				"A105000000000100"
+				"2049EE661942C31A"
+				"61A672B6877F3198"
 			]
-			description: [
-				"Craft a &3QIO Drive Array&r — the core of Mekanism's wireless storage network. Insert QIO drives to create a digital storage system accessible from anywhere."
-				""
-				"&eThe QIO system is Mekanism's answer to AE2 and Refined Storage.&r Drive arrays hold the storage drives, while dashboards and portable units provide access."
-			]
-			id: "A10A000000000E00"
-			title: "QIO Drive Array"
+			id: "4539A755F2EC53BF"
 			rewards: [{
-				id: "A10A000000000EB1"
+				id: "6D9A0860DA914DA9"
 				type: "xp"
 				xp: 200
 			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "A10A000000000EA1"
+				id: "63DC6EE6560D9B6E"
 				item: { count: 1, id: "mekanism:qio_drive_array" }
 				type: "item"
 			}]
@@ -3008,23 +2245,17 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["A10A000000000E00"]
-			description: [
-				"Craft a &3QIO Drive&r — the storage medium for the QIO system. Insert drives into the Drive Array to add item storage capacity."
-				""
-				"&eHigher-tier drives hold more items and types.&r Start with base drives and upgrade as your storage needs grow."
-			]
-			id: "A10A000000000F00"
-			title: "QIO Drive"
+			dependencies: ["4539A755F2EC53BF"]
+			id: "1E7045DEAC441E6B"
 			rewards: [{
-				id: "A10A000000000FB1"
+				id: "2E71DF47515507EF"
 				type: "xp"
 				xp: 100
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A10A000000000FA1"
+				id: "06817878E8B87003"
 				item: { count: 1, id: "mekanism:qio_drive_base" }
 				type: "item"
 			}]
@@ -3032,16 +2263,10 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["A10A000000000E00"]
-			description: [
-				"Craft a &3QIO Importer&r and &3QIO Exporter&r — these blocks connect your QIO frequency to the physical world. The importer pulls items into QIO storage, and the exporter pushes items out."
-				""
-				"&ePlace importers on chests or machine outputs to auto-store items.&r Place exporters to auto-supply machines with materials from QIO."
-			]
-			id: "A10A000000001000"
-			title: "QIO Import/Export"
+			dependencies: ["4539A755F2EC53BF"]
+			id: "33482C99FFF0692F"
 			rewards: [{
-				id: "A10A0000000010B1"
+				id: "5B67659BA6E414FE"
 				type: "xp"
 				xp: 100
 			}]
@@ -3049,12 +2274,12 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "A10A0000000010A1"
+					id: "7573CE3AE43198EA"
 					item: { count: 1, id: "mekanism:qio_importer" }
 					type: "item"
 				}
 				{
-					id: "A10A0000000010A2"
+					id: "13391ACA6E39AF02"
 					item: { count: 1, id: "mekanism:qio_exporter" }
 					type: "item"
 				}
@@ -3063,23 +2288,17 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["A10A000000000E00"]
-			description: [
-				"Craft a &3QIO Dashboard&r — a block that provides a crafting-table-like interface to your entire QIO storage network. Access all stored items and craft directly from QIO inventory."
-				""
-				"&ePlace the dashboard anywhere and set it to the same QIO frequency.&r It acts as a universal crafting terminal for your wireless storage."
-			]
-			id: "A10A000000001100"
-			title: "QIO Dashboard"
+			dependencies: ["4539A755F2EC53BF"]
+			id: "295876E28DB35C1E"
 			rewards: [{
-				id: "A10A0000000011B1"
+				id: "2BB5683F6E4318A0"
 				type: "xp"
 				xp: 150
 			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
-				id: "A10A0000000011A1"
+				id: "1D19364567F53999"
 				item: { count: 1, id: "mekanism:qio_dashboard" }
 				type: "item"
 			}]
@@ -3087,23 +2306,17 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["A10A000000000E00"]
-			description: [
-				"Craft a &3Portable QIO Dashboard&r — access your entire QIO storage network from your inventory, anywhere in any dimension. The ultimate portable storage solution."
-				""
-				"&eSet the frequency and carry it with you.&r Open it like a backpack to access all QIO-stored items on the go. No more running back to base for materials."
-			]
-			id: "A10A000000001200"
-			title: "Portable QIO Dashboard"
+			dependencies: ["4539A755F2EC53BF"]
+			id: "1FC2621B287687A4"
 			rewards: [{
-				id: "A10A0000000012B1"
+				id: "7D7F508B8F47F7C3"
 				type: "xp"
 				xp: 200
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000012A1"
+				id: "497E4AE11B5261D5"
 				item: { count: 1, id: "mekanism:portable_qio_dashboard" }
 				type: "item"
 			}]
@@ -3111,22 +2324,16 @@
 			y: 29.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft an &3Energy Unit Module&r — increases the energy capacity of your MekaSuit. More energy means longer operation between charges."
-				""
-				"&eInstall in any MekaSuit piece at the Modification Station.&r Stack multiple units for even more capacity."
-			]
-			id: "A10A000000001300"
-			title: "Energy Unit Module"
+			dependencies: ["257496490571FF51"]
+			id: "01E7A89ACCB0EE44"
 			rewards: [{
-				id: "A10A0000000013B1"
+				id: "6D925DA896CB6240"
 				type: "xp"
 				xp: 50
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000013A1"
+				id: "6F12C65B109A642F"
 				item: { count: 1, id: "mekanism:module_energy_unit" }
 				type: "item"
 			}]
@@ -3134,22 +2341,16 @@
 			y: 31.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft a &3Radiation Shielding Module&r — protects you from radiation when installed in MekaSuit. Replaces the need for a full hazmat suit."
-				""
-				"&eInstall in the MekaSuit bodyarmor.&r Essential if you work near reactors and radioactive materials regularly."
-			]
-			id: "A10A000000001400"
-			title: "Radiation Shielding Module"
+			dependencies: ["257496490571FF51"]
+			id: "5D40D1D3974ECBAE"
 			rewards: [{
-				id: "A10A0000000014B1"
+				id: "2EB05DCDA43DA625"
 				type: "xp"
 				xp: 50
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000014A1"
+				id: "2518FE395D216832"
 				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
 				type: "item"
 			}]
@@ -3157,22 +2358,16 @@
 			y: 32.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft a &3Jetpack Module&r — provides hydrogen-free flight when installed in MekaSuit pants. Uses RF instead of hydrogen gas."
-				""
-				"&eA major upgrade over the standalone Jetpack.&r No fuel management needed, just keep your MekaSuit charged."
-			]
-			id: "A10A000000001500"
-			title: "Jetpack Module"
+			dependencies: ["257496490571FF51"]
+			id: "168D8E7C0541C208"
 			rewards: [{
-				id: "A10A0000000015B1"
+				id: "08386C612D6B09A9"
 				type: "xp"
 				xp: 75
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000015A1"
+				id: "2748E44BEE77D149"
 				item: { count: 1, id: "mekanism:module_jetpack_unit" }
 				type: "item"
 			}]
@@ -3180,22 +2375,16 @@
 			y: 33.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft a &3Gravitational Modulating Module&r — enables creative-mode-like flight when installed in MekaSuit pants. Fly freely in any direction."
-				""
-				"&eThe ultimate flight module.&r No fuel, no altitude limits, just pure RF-powered creative flight. Very power-hungry though — pair with Energy Units."
-			]
-			id: "A10A000000001600"
-			title: "Gravitational Modulating Module"
+			dependencies: ["257496490571FF51"]
+			id: "484AACB215BF3FE6"
 			rewards: [{
-				id: "A10A0000000016B1"
+				id: "1403819F7CCEB947"
 				type: "xp"
 				xp: 100
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000016A1"
+				id: "48E47FBB84AD41EE"
 				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
 				type: "item"
 			}]
@@ -3203,22 +2392,16 @@
 			y: 31.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft an &3Elytra Module&r — enables elytra gliding when installed in MekaSuit bodyarmor. No need for a separate elytra — it's built into your powered armor."
-				""
-				"&eCombine with the Jetpack module for powered elytra flight.&r Boost forward with the jetpack while gliding for maximum speed."
-			]
-			id: "A10A000000001700"
-			title: "Elytra Module"
+			dependencies: ["257496490571FF51"]
+			id: "39BFDF1538D5C980"
 			rewards: [{
-				id: "A10A0000000017B1"
+				id: "0D56E31C3E49B6FE"
 				type: "xp"
 				xp: 75
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000017A1"
+				id: "1A22BD8EAE2C9A32"
 				item: { count: 1, id: "mekanism:module_elytra_unit" }
 				type: "item"
 			}]
@@ -3226,22 +2409,16 @@
 			y: 32.0d
 		}
 		{
-			dependencies: ["A10A000000000D00"]
-			description: [
-				"Craft a &3Vision Enhancement Module&r — provides night vision when installed in MekaSuit helmet. See clearly in complete darkness without torches or potions."
-				""
-				"&eToggle it on and off as needed.&r No duration limit — it runs as long as your MekaSuit has power."
-			]
-			id: "A10A000000001800"
-			title: "Vision Enhancement Module"
+			dependencies: ["257496490571FF51"]
+			id: "6699CC1A34C528F8"
 			rewards: [{
-				id: "A10A0000000018B1"
+				id: "08A11EBC3DDF83A1"
 				type: "xp"
 				xp: 50
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000018A1"
+				id: "2F8E1CA62E7B3986"
 				item: { count: 1, id: "mekanism:module_vision_enhancement_unit" }
 				type: "item"
 			}]
@@ -3249,27 +2426,21 @@
 			y: 33.0d
 		}
 		{
-			dependencies: ["A10A000000000B00"]
-			description: [
-				"Craft an &3Excavation Escalation Module&r — dramatically increases the mining speed of the MekaTool. Stack multiple for even faster digging."
-				""
-				"&eInstall at the Modification Station.&r Each module level increases mining speed. At max level, the MekaTool mines nearly instantly."
-			]
-			id: "A10A000000001900"
-			title: "Excavation Escalation Module"
+			dependencies: ["0590ECBFD4FE6CB2"]
+			id: "3ACA92380FBD9355"
 			rewards: [{
-				id: "A10A0000000019B1"
+				id: "7D1EA268B83A24EF"
 				type: "xp"
 				xp: 75
 			}]
 			size: 1.0d
 			tasks: [{
-				id: "A10A0000000019A1"
+				id: "75809D6AACF07CE5"
 				item: { count: 1, id: "mekanism:module_excavation_escalation_unit" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 31.0d
+			x: 1.5d
+			y: 32.0d
 		}
 	]
 }
