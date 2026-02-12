@@ -1,0 +1,668 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "securitycraft"
+	group: ""
+	icon: {
+		id: "securitycraft:keypad"
+	}
+	id: "5C00000000000000"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "securitycraft:door_indestructible_iron_item"
+			}
+			id: "5C01000000000100"
+			rewards: [{
+				id: "5C010000000001B1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5C010000000001A1"
+				item: { count: 1, id: "securitycraft:door_indestructible_iron_item" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5C01000000000100"]
+			id: "5C01000000000200"
+			rewards: [{
+				id: "5C010000000002B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5C010000000002A1"
+				item: { count: 1, id: "securitycraft:universal_block_modifier" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C01000000000200"]
+			id: "5C01000000000300"
+			rewards: [{
+				id: "5C010000000003B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1EF7000D233B3037"
+				item: { count: 1, id: "securitycraft:universal_block_reinforcer_lvl1" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C01000000000300"]
+			icon: {
+				id: "securitycraft:keypad"
+			}
+			id: "5C01000000000400"
+			rewards: [{
+				id: "5C010000000004B1"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5C010000000004A1"
+					item: { count: 1, id: "securitycraft:keypad_frame" }
+					type: "item"
+				}
+				{
+					id: "180D8624D278DA42"
+					item: { count: 1, id: "securitycraft:keypad_item" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C01000000000400"]
+			icon: {
+				id: "securitycraft:keycard_reader"
+			}
+			id: "5C02000000000100"
+			rewards: [{
+				id: "5C020000000001B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5C020000000001A1"
+					item: { count: 1, id: "securitycraft:keycard_reader" }
+					type: "item"
+				}
+				{
+					id: "5C020000000001A2"
+					item: { count: 1, id: "securitycraft:keycard_lv1" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C02000000000100"]
+			id: "5C02000000000200"
+			rewards: [{
+				id: "5C020000000002B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C020000000002A1"
+				item: { count: 1, id: "securitycraft:retinal_scanner" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C02000000000100"]
+			id: "5C02000000000300"
+			rewards: [{
+				id: "5C020000000003B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C020000000003A1"
+				item: { count: 1, id: "securitycraft:keypad_chest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C02000000000100"]
+			id: "5C02000000000400"
+			optional: true
+			rewards: [{
+				id: "5C020000000004B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5C020000000004A1"
+				item: { count: 1, id: "securitycraft:keypad_furnace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C02000000000100"]
+			id: "5C02000000000500"
+			rewards: [{
+				id: "5C020000000005B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C020000000005A1"
+				item: { count: 1, id: "securitycraft:scanner_door_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C02000000000100"]
+			id: "5C02000000000600"
+			rewards: [{
+				id: "5C020000000006B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C020000000006A1"
+				item: { count: 1, id: "securitycraft:keypad_door_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C02000000000200"]
+			id: "5C02000000000700"
+			rewards: [{
+				id: "5C020000000007B1"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "5C020000000007A1"
+				item: { count: 1, id: "securitycraft:inventory_scanner" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C01000000000400"]
+			id: "5C03000000000100"
+			rewards: [{
+				id: "5C030000000001B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5C030000000001A1"
+				item: { count: 1, id: "securitycraft:mine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C03000000000100"]
+			icon: {
+				id: "securitycraft:dirt_mine"
+			}
+			id: "5C03000000000200"
+			optional: true
+			rewards: [{
+				id: "5C030000000002B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					id: "5C030000000002A1"
+					item: { count: 1, id: "securitycraft:dirt_mine" }
+					type: "item"
+				}
+				{
+					id: "5C030000000002A2"
+					item: { count: 1, id: "securitycraft:stone_mine" }
+					type: "item"
+				}
+				{
+					id: "5C030000000002A3"
+					item: { count: 1, id: "securitycraft:cobblestone_mine" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C03000000000100"]
+			id: "5C03000000000300"
+			rewards: [{
+				id: "5C030000000003B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C030000000003A1"
+				item: { count: 1, id: "securitycraft:bouncing_betty" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C03000000000100"]
+			id: "5C03000000000400"
+			rewards: [{
+				id: "5C030000000004B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C030000000004A1"
+				item: { count: 1, id: "securitycraft:claymore" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C03000000000300"]
+			id: "5C03000000000500"
+			rewards: [{
+				id: "5C030000000005B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C030000000005A1"
+				item: { count: 1, id: "securitycraft:wire_cutters" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C03000000000400"]
+			id: "5C03000000000600"
+			rewards: [{
+				id: "5C030000000006B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C030000000006A1"
+				item: { count: 1, id: "securitycraft:cage_trap" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C03000000000400"]
+			id: "5C03000000000700"
+			rewards: [{
+				id: "5C030000000007B1"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				count: 2L
+				id: "5C030000000007A1"
+				item: { count: 1, id: "securitycraft:laser_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5C03000000000600"
+				"5C03000000000700"
+			]
+			id: "5C03000000000800"
+			rewards: [{
+				id: "5C030000000008B1"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5C030000000008A1"
+				item: { count: 1, id: "securitycraft:ims" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C01000000000400"]
+			id: "5C04000000000100"
+			rewards: [{
+				id: "5C040000000001B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C040000000001A1"
+				item: { count: 1, id: "securitycraft:security_camera" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C04000000000100"]
+			id: "5C04000000000200"
+			rewards: [{
+				id: "5C040000000002B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C040000000002A1"
+				item: { count: 1, id: "securitycraft:camera_monitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C04000000000100"]
+			id: "5C04000000000400"
+			rewards: [{
+				id: "5C040000000004B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C040000000004A1"
+				item: { count: 1, id: "securitycraft:portable_radar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C04000000000100"]
+			id: "5C04000000000500"
+			rewards: [{
+				id: "5C040000000005B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C040000000005A1"
+				item: { count: 1, id: "securitycraft:username_logger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C04000000000400"]
+			id: "5C04000000000600"
+			optional: true
+			rewards: [{
+				id: "5C040000000006B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C040000000006A1"
+				item: { count: 1, id: "securitycraft:panic_button" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5C04000000000200"
+				"5C04000000000500"
+			]
+			id: "5C04000000000700"
+			rewards: [{
+				id: "5C040000000007B1"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5C040000000007A1"
+				item: { count: 1, id: "securitycraft:alarm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C01000000000400"]
+			icon: {
+				id: "securitycraft:electrified_iron_fence"
+			}
+			id: "5C05000000000100"
+			rewards: [{
+				id: "5C050000000001B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5C050000000001A1"
+					item: { count: 1, id: "securitycraft:electrified_iron_fence" }
+					type: "item"
+				}
+				{
+					id: "5C050000000001A2"
+					item: { count: 1, id: "securitycraft:reinforced_fence_gate" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C05000000000100"]
+			id: "5C05000000000200"
+			optional: true
+			rewards: [{
+				id: "5C050000000002B1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5C050000000002A1"
+				item: { count: 1, id: "securitycraft:reinforced_iron_bars" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C05000000000100"]
+			id: "5C05000000000300"
+			rewards: [{
+				id: "5C050000000003B1"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5C050000000003A1"
+				item: { count: 1, id: "securitycraft:sentry" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C05000000000300"]
+			id: "5C05000000000400"
+			rewards: [{
+				id: "5C050000000004B1"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "5C050000000004A1"
+				item: { count: 1, id: "securitycraft:trophy_system" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C05000000000300"]
+			id: "5C05000000000500"
+			rewards: [{
+				id: "5C050000000005B1"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "5C050000000005A1"
+				item: { count: 1, id: "securitycraft:projector" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C05000000000100"]
+			id: "5C05000000000600"
+			rewards: [{
+				id: "5C050000000006B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C050000000006A1"
+				item: { count: 1, id: "securitycraft:universal_block_remover" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C05000000000300"]
+			id: "5C05000000000700"
+			rewards: [{
+				id: "5C050000000007B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C050000000007A1"
+				item: { count: 1, id: "securitycraft:whitelist_module" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C05000000000700"]
+			id: "5C05000000000800"
+			rewards: [{
+				id: "5C050000000008B1"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "5C050000000008A1"
+				item: { count: 1, id: "securitycraft:disguise_module" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C05000000000400"]
+			id: "5C05000000000900"
+			rewards: [{
+				id: "5C050000000009B1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5C050000000009A1"
+				item: { count: 1, id: "securitycraft:rift_stabilizer" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5C05000000000600"
+				"5C05000000000800"
+			]
+			id: "5C05000000000A00"
+			rewards: [{
+				id: "5C05000000000AB1"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "5C05000000000AA1"
+				item: { count: 1, id: "securitycraft:codebreaker" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C05000000000A00"]
+			id: "5C05000000000B00"
+			rewards: [{
+				id: "5C05000000000BB1"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5C05000000000BA1"
+				item: { count: 1, id: "securitycraft:universal_owner_changer" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+	]
+}

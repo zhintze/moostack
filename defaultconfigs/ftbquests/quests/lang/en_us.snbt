@@ -16,6 +16,7 @@
 	chapter.492649F619082A45.title: "Aquaculture"
 	chapter.4FACE7A7426CE1A5.title: "Epic Fight"
 	chapter.5347000000000000.title: "Silent Gear"
+	chapter.5C00000000000000.title: "SecurityCraft"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
 	chapter.5F00000000000000.title: "RFTools"
@@ -7542,6 +7543,222 @@
 		"Without the focus, spirits are aggressive and will attack you. Freezing them first makes capture safe and reliable."
 	]
 	quest.5BFE1F271055B8EB.title: "Vengeance Focus"
+	quest.5C01000000000100.quest_desc: [
+		"Craft a &3Reinforced Iron Door&r — an unbreakable variant of the standard iron door. Only the player who placed it can open or remove it."
+		""
+		"This is the core concept behind &aSecurityCraft&r. Every block you place is owned by you and cannot be broken by other players."
+	]
+	quest.5C01000000000100.title: "Reinforced Door"
+	quest.5C01000000000200.quest_desc: [
+		"The &3Universal Block Modifier&r is SecurityCraft's wrench. Right-click any SecurityCraft block to add or remove modules that change its behavior."
+		""
+		"Most SecurityCraft blocks accept modules — keep this tool on hand whenever you're setting up security."
+	]
+	quest.5C01000000000200.title: "Block Modifier"
+	quest.5C01000000000300.quest_desc: [
+		"The &3Universal Block Reinforcer&r converts vanilla blocks into their reinforced, unbreakable counterparts. Right-click to open its GUI and place a vanilla block in the top slot to reinforce it."
+		""
+		"You can also break a placed block while holding the reinforcer to reinforce it in-world. Only vanilla blocks are supported — stone, planks, glass, wool, concrete, and similar."
+	]
+	quest.5C01000000000300.title: "Block Reinforcer"
+	quest.5C01000000000400.quest_desc: [
+		"The &3Keypad&r is made by placing a &3Frame&r and right-clicking it with a &3Key Panel&r. Set a numeric code and only players who know it can activate the redstone signal."
+		""
+		"This frame-and-panel system is how all password-protected blocks are created in &aSecurityCraft&r — chests, furnaces, and doors all work the same way."
+	]
+	quest.5C01000000000400.title: "Keypad"
+	quest.5C02000000000100.quest_desc: [
+		"The &3Keycard Reader&r accepts keycards of a specific level to emit a redstone signal. Set the required level, then distribute matching keycards to authorized players."
+		""
+		"Keycards come in five levels. The reader's owner configures which level it accepts — useful for tiered access zones."
+	]
+	quest.5C02000000000100.title: "Keycard Reader"
+	quest.5C02000000000200.quest_desc: [
+		"The &3Retinal Scanner&r emits a redstone signal only when its owner looks at it. No passwords or items required — pure biometric security."
+		""
+		"Ideal for personal areas where only you need access. Combine with a door for a hands-free entry system."
+	]
+	quest.5C02000000000200.title: "Retinal Scanner"
+	quest.5C02000000000300.quest_desc: [
+		"The &3Keypad Chest&r is created by right-clicking a vanilla chest with a &3Key Panel&r. It requires a password to open — only the owner can set or change the code."
+		""
+		"Any items already in the chest are preserved during conversion. Other players with the code can access the contents."
+	]
+	quest.5C02000000000300.title: "Password Chest"
+	quest.5C02000000000400.quest_desc: [
+		"The &3Keypad Furnace&r is created by right-clicking a vanilla furnace with a &3Key Panel&r. It requires a password to access, protecting your smelting operations."
+		""
+		"Like the keypad chest, any items already in the furnace are preserved during conversion. A niche security block for shared bases."
+	]
+	quest.5C02000000000400.title: "Password Furnace"
+	quest.5C02000000000500.quest_desc: [
+		"The &3Scanner Door&r combines a retinal scanner with a door in a single block. It opens automatically when its owner approaches."
+		""
+		"The most convenient personal door — no passwords, no keycards, just walk up and it opens for you."
+	]
+	quest.5C02000000000500.title: "Scanner Door"
+	quest.5C02000000000600.quest_desc: [
+		"The &3Keypad Door&r is a door with a built-in keypad. Enter the correct password and the door opens temporarily before closing again."
+		""
+		"Useful for shared entrances where multiple players need access. Share the code with your team."
+	]
+	quest.5C02000000000600.title: "Keypad Door"
+	quest.5C02000000000700.quest_desc: [
+		"Place two &3Inventory Scanners&r facing each other to create a scanning gate. Any player walking through is scanned for prohibited items."
+		""
+		"Configure the scanner to detect specific items. If a match is found, it emits a redstone signal — connect it to an alarm or trap."
+	]
+	quest.5C02000000000700.title: "Inventory Scanner"
+	quest.5C03000000000100.quest_desc: [
+		"The &3Mine&r is a pressure-plate explosive that detonates when any entity steps on it. It looks like a stone pressure plate but packs a punch."
+		""
+		"Place mines around your base perimeter for a simple but effective defense. They will not harm the player who placed them."
+	]
+	quest.5C03000000000100.title: "Mine"
+	quest.5C03000000000200.quest_desc: [
+		"&3Disguised Mines&r look identical to common blocks — dirt, stone, and cobblestone — making them nearly invisible to unsuspecting players."
+		""
+		"Craft all three variants to cover different terrain types. Place them in natural-looking areas for maximum deception."
+	]
+	quest.5C03000000000200.title: "Disguised Mines"
+	quest.5C03000000000300.quest_desc: [
+		"The &3Bouncing Betty&r is a mine that launches into the air before detonating, dealing damage in a wider radius than a standard mine."
+		""
+		"More dangerous than a basic mine but also more noticeable. Best placed in enclosed spaces where the bounce adds to the blast effectiveness."
+	]
+	quest.5C03000000000300.title: "Bouncing Betty"
+	quest.5C03000000000400.quest_desc: [
+		"The &3Claymore&r is a directional explosive with a built-in tripwire. When an entity crosses the laser, the claymore detonates in a focused cone."
+		""
+		"Unlike mines, claymores are placed against walls and fire outward. Position them in corridors and doorways for targeted defense."
+	]
+	quest.5C03000000000400.title: "Claymore"
+	quest.5C03000000000500.quest_desc: [
+		"&3Wire Cutters&r safely disarm mines, claymores, and cage traps without triggering them. Essential for rearranging your defenses."
+		""
+		"Right-click any armed trap to disarm and retrieve it. Without wire cutters, you would need to trigger the trap to remove it."
+	]
+	quest.5C03000000000500.title: "Wire Cutters"
+	quest.5C03000000000600.quest_desc: [
+		"The &3Cage Trap&r is a non-lethal trap that encases the triggering entity in reinforced blocks, trapping them in place."
+		""
+		"A humane alternative to mines — capture intruders alive. The trapped entity cannot break the reinforced cage without help."
+	]
+	quest.5C03000000000600.title: "Cage Trap"
+	quest.5C03000000000700.quest_desc: [
+		"Place two &3Laser Blocks&r within five blocks of each other to create a visible laser beam between them. Any entity crossing the beam triggers a redstone signal."
+		""
+		"Connect the redstone output to alarms, traps, or doors. The laser is visible, so it works both as a deterrent and a detection system."
+	]
+	quest.5C03000000000700.title: "Laser Tripwire"
+	quest.5C03000000000800.quest_desc: [
+		"The &3Intelligent Munitions System&r is an autonomous area-denial device. It detects nearby hostile entities and launches explosive projectiles at them."
+		""
+		"The IMS carries four charges before needing to be replaced. Position it in high-traffic defense zones for automated protection."
+	]
+	quest.5C03000000000800.title: "IMS"
+	quest.5C04000000000100.quest_desc: [
+		"The &3Security Camera&r lets you view its surroundings remotely. Place it on a wall and access the feed from a Camera Monitor."
+		""
+		"The camera provides a fixed view of the area where it is placed. Set up multiple cameras to monitor different parts of your base."
+	]
+	quest.5C04000000000100.title: "Security Camera"
+	quest.5C04000000000200.quest_desc: [
+		"The &3Camera Monitor&r displays feeds from all your placed security cameras in a single interface. Right-click to cycle between camera views."
+		""
+		"Carry the monitor with you or keep it at your command center. It shows all cameras you own, regardless of distance."
+	]
+	quest.5C04000000000200.title: "Camera Monitor"
+	quest.5C04000000000400.quest_desc: [
+		"The &3Portable Radar&r detects players within a configurable range and sends a chat notification to its owner when someone is detected."
+		""
+		"Set the detection radius and place it near entry points. You will receive alerts even when far away from the radar."
+	]
+	quest.5C04000000000400.title: "Portable Radar"
+	quest.5C04000000000500.quest_desc: [
+		"The &3Username Logger&r silently records the name of any player who walks over it. Check the log to see who has been in the area."
+		""
+		"Place it in doorways or corridors to track movement. Unlike the radar, it does not alert the owner in real time — check it manually."
+	]
+	quest.5C04000000000500.title: "Username Logger"
+	quest.5C04000000000600.quest_desc: [
+		"The &3Panic Button&r emits a redstone signal when pressed. It can be configured to only respond to its owner."
+		""
+		"Connect it to alarms, lockdown doors, or trap systems. A simple emergency switch for when things go wrong."
+	]
+	quest.5C04000000000600.title: "Panic Button"
+	quest.5C04000000000700.quest_desc: [
+		"The &3Alarm&r produces a loud, repeating sound when powered by redstone. Connect it to sensors, tripwires, or panic buttons."
+		""
+		"The alarm is audible from a significant distance. Combine with cameras and radar for a complete monitoring system."
+	]
+	quest.5C04000000000700.title: "Alarm"
+	quest.5C05000000000100.quest_desc: [
+		"The &3Electrified Iron Fence&r and its gate variant damage any entity that touches them. They function as a lethal perimeter barrier."
+		""
+		"Surround your base with electrified fencing to keep mobs and unauthorized players out. The gate allows the owner to pass safely."
+	]
+	quest.5C05000000000100.title: "Electrified Fence"
+	quest.5C05000000000200.quest_desc: [
+		"&3Reinforced Iron Bars&r are an unbreakable version of vanilla iron bars. Only the owner can remove them."
+		""
+		"Use them for windows and viewing ports in secure rooms. They provide visibility while maintaining structural integrity."
+	]
+	quest.5C05000000000200.title: "Reinforced Iron Bars"
+	quest.5C05000000000300.quest_desc: [
+		"The &3Sentry&r is an automated turret that fires at hostile entities within range. Place it and it begins guarding immediately."
+		""
+		"Sentries can be configured with modules to change their targeting behavior. Use the whitelist module to prevent friendly fire."
+	]
+	quest.5C05000000000300.title: "Sentry"
+	quest.5C05000000000400.quest_desc: [
+		"The &3Trophy System&r uses laser technology to intercept and destroy incoming projectiles — arrows, fireballs, and other threats."
+		""
+		"Place it on rooftops or near entrances to protect against ranged attacks. It provides a defensive umbrella over a small area."
+	]
+	quest.5C05000000000400.title: "Trophy System"
+	quest.5C05000000000500.quest_desc: [
+		"The &3Projector&r creates fake blocks that look real but have no collision. Entities pass through them as if they were air."
+		""
+		"Use projections to create decoy walls, hidden passages, or illusory floors over trap pits. A powerful tool for deception."
+	]
+	quest.5C05000000000500.title: "Projector"
+	quest.5C05000000000600.quest_desc: [
+		"The &3Universal Block Remover&r is the only tool that can break SecurityCraft blocks placed by you. Without it, reinforced blocks are permanent."
+		""
+		"Keep this tool safe — if you need to renovate or relocate your security setup, this is the only way to reclaim your blocks."
+	]
+	quest.5C05000000000600.title: "Block Remover"
+	quest.5C05000000000700.quest_desc: [
+		"The &3Whitelist Module&r allows specific players to bypass security blocks. Add player names to the module, then insert it using the Block Modifier."
+		""
+		"Essential for multiplayer — whitelist your teammates on sentries, keypads, and fences so your defenses do not target allies."
+	]
+	quest.5C05000000000700.title: "Whitelist Module"
+	quest.5C05000000000800.quest_desc: [
+		"The &3Disguise Module&r makes any SecurityCraft block look like a different block. The disguised block retains all its security functionality."
+		""
+		"Hide keypads inside walls, disguise sentries as decorative blocks, or camouflage laser blocks. Powerful for covert security setups."
+	]
+	quest.5C05000000000800.title: "Disguise Module"
+	quest.5C05000000000900.quest_desc: [
+		"The &3Rift Stabilizer&r prevents teleportation within its range — ender pearls, chorus fruit, and enderman teleportation are all blocked."
+		""
+		"Place it inside secure areas to prevent intruders from bypassing walls via teleportation. An essential counter to ender pearl exploits."
+	]
+	quest.5C05000000000900.title: "Rift Stabilizer"
+	quest.5C05000000000A00.quest_desc: [
+		"The &3Code Breaker&r opens any password-protected SecurityCraft block without knowing the code. It requires a nether star to craft."
+		""
+		"&eThis is an endgame tool with limited durability.&r Use it sparingly — each use consumes durability, and the crafting cost is steep."
+	]
+	quest.5C05000000000A00.title: "Code Breaker"
+	quest.5C05000000000B00.quest_desc: [
+		"The &3Universal Owner Changer&r transfers ownership of any SecurityCraft block to a different player. The ultimate administrative tool."
+		""
+		"Use it to hand off base sections to other players or reclaim blocks from inactive teammates. &eThis is the pinnacle of SecurityCraft mastery.&r"
+	]
+	quest.5C05000000000B00.title: "Owner Changer"
 	quest.5C22E3103544B120.quest_desc: [
 		"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
 		""
