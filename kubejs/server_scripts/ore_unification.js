@@ -216,18 +216,37 @@ ServerEvents.recipes(event => {
         'adastramekanized:steel_sheet'
     )
 
-    // Replace IE steel stick outputs with Ad Astra Mekanized steel rod
+    // Remove IE stick shaped crafting recipes - rods are Create C&A rolling-machine only
+    event.remove({ output: 'immersiveengineering:stick_steel', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'immersiveengineering:stick_iron', type: 'minecraft:crafting_shaped' })
+
+    // Remove C&A's built-in iron rod rolling recipe (we provide our own via adastramekanized)
+    event.remove({ output: 'createaddition:iron_rod' })
+
+    // Replace remaining IE steel stick outputs (machine recipes) with Ad Astra Mekanized steel rod
     event.replaceOutput(
         { id: /^immersiveengineering:.*/ },
         'immersiveengineering:stick_steel',
         'adastramekanized:steel_rod'
     )
 
-    // Replace IE iron stick outputs with Ad Astra Mekanized iron rod
+    // Replace remaining IE iron stick outputs (machine recipes) with Ad Astra Mekanized iron rod
     event.replaceOutput(
         { id: /^immersiveengineering:.*/ },
         'immersiveengineering:stick_iron',
         'adastramekanized:iron_rod'
+    )
+
+    // Replace C&A iron rod inputs/outputs with canonical Ad Astra Mekanized iron rod
+    event.replaceOutput(
+        { id: /^createaddition:.*/ },
+        'createaddition:iron_rod',
+        'adastramekanized:iron_rod'
+    )
+    event.replaceInput(
+        { id: /^createaddition:.*/ },
+        'createaddition:iron_rod',
+        '#c:rods/iron'
     )
 
     // Replace Ad Astra Mekanized steel ingot outputs with Mekanism
@@ -944,6 +963,7 @@ ServerEvents.tags('item', event => {
     safeAdd('c:rods/steel', 'adastramekanized:steel_rod')
     safeAdd('c:rods/iron', 'immersiveengineering:stick_iron')
     safeAdd('c:rods/iron', 'adastramekanized:iron_rod')
+    safeAdd('c:rods/iron', 'createaddition:iron_rod')
 
     // Bronze tags - ensure Mekanism, Epic Knights, IE, and Silent Gear items are in tags
     safeAdd('c:ingots/bronze', 'mekanism:ingot_bronze')

@@ -69,6 +69,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('immersiveengineering:plate_steel')
     event.remove('immersiveengineering:stick_steel')
     event.remove('immersiveengineering:stick_iron')
+    event.remove('createaddition:iron_rod')
     event.remove('adastramekanized:steel_ingot')
     event.remove('adastramekanized:steel_nugget')
     event.remove('adastramekanized:steel_block')

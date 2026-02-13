@@ -10,9 +10,9 @@
 //   - Platinum: ChemLib Mekanized (sole owner)
 //   - Sulfur: Mekanism
 //   - Steel: Mekanism (ingot, dust, nugget, block), Ad Astra Mekanized (sheets, rods)
-//   - Iron: Vanilla (ingot), Create (sheets), Ad Astra Mekanized (rods)
-//   - Copper: Vanilla (ingot), Create (sheets)
-//   - Gold: Vanilla (ingot), Create (golden_sheet)
+//   - Iron: Vanilla (ingot), Mekanism (dust), Create (sheets), Ad Astra Mekanized (rods)
+//   - Copper: Vanilla (ingot), Mekanism (dust), Create (sheets)
+//   - Gold: Vanilla (ingot), Mekanism (dust), Create (golden_sheet)
 //   - Bronze: Mekanism (ingot, nugget, dust, block), Epic Knights Antique Legacy (sheets via Create press)
 //   - Zinc: Create
 //
@@ -216,18 +216,37 @@ ServerEvents.recipes(event => {
         'adastramekanized:steel_sheet'
     )
 
-    // Replace IE steel stick outputs with Ad Astra Mekanized steel rod
+    // Remove IE stick shaped crafting recipes - rods are Create C&A rolling-machine only
+    event.remove({ output: 'immersiveengineering:stick_steel', type: 'minecraft:crafting_shaped' })
+    event.remove({ output: 'immersiveengineering:stick_iron', type: 'minecraft:crafting_shaped' })
+
+    // Remove C&A's built-in iron rod rolling recipe (we provide our own via adastramekanized)
+    event.remove({ output: 'createaddition:iron_rod' })
+
+    // Replace remaining IE steel stick outputs (machine recipes) with Ad Astra Mekanized steel rod
     event.replaceOutput(
         { id: /^immersiveengineering:.*/ },
         'immersiveengineering:stick_steel',
         'adastramekanized:steel_rod'
     )
 
-    // Replace IE iron stick outputs with Ad Astra Mekanized iron rod
+    // Replace remaining IE iron stick outputs (machine recipes) with Ad Astra Mekanized iron rod
     event.replaceOutput(
         { id: /^immersiveengineering:.*/ },
         'immersiveengineering:stick_iron',
         'adastramekanized:iron_rod'
+    )
+
+    // Replace C&A iron rod inputs/outputs with canonical Ad Astra Mekanized iron rod
+    event.replaceOutput(
+        { id: /^createaddition:.*/ },
+        'createaddition:iron_rod',
+        'adastramekanized:iron_rod'
+    )
+    event.replaceInput(
+        { id: /^createaddition:.*/ },
+        'createaddition:iron_rod',
+        '#c:rods/iron'
     )
 
     // Replace Ad Astra Mekanized steel ingot outputs with Mekanism
@@ -255,6 +274,39 @@ ServerEvents.recipes(event => {
     // NOTE: Cannot use output-based removal - items may not exist and cause crash
     // Using ID-based regex removal which is safe even if no recipes match
     event.remove({ id: /^magistuarmory:.*steel.*/ })
+
+    // ===========================================
+    // IRON DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE iron dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_iron',
+        'mekanism:dust_iron'
+    )
+
+    // ===========================================
+    // COPPER DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE copper dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_copper',
+        'mekanism:dust_copper'
+    )
+
+    // ===========================================
+    // GOLD DUST: Use Mekanism as canonical (IE -> Mekanism)
+    // ===========================================
+
+    // Replace IE gold dust outputs with Mekanism
+    event.replaceOutput(
+        { id: /^immersiveengineering:.*/ },
+        'immersiveengineering:dust_gold',
+        'mekanism:dust_gold'
+    )
 
     // ===========================================
     // BRONZE: Use Mekanism as canonical (Epic Knights Antique Legacy -> Mekanism)
@@ -595,6 +647,27 @@ ServerEvents.recipes(event => {
         '#c:dusts/sulfur'
     )
 
+    // Iron dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_iron',
+        '#c:dusts/iron'
+    )
+
+    // Copper dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_copper',
+        '#c:dusts/copper'
+    )
+
+    // Gold dust inputs: replace specific IE items with tag
+    event.replaceInput(
+        { not: { id: /^immersiveengineering:.*/ } },
+        'immersiveengineering:dust_gold',
+        '#c:dusts/gold'
+    )
+
     // Sulfur inputs: replace specific IE items with tag
     event.replaceInput(
         { not: { id: /^immersiveengineering:.*/ } },
@@ -859,6 +932,18 @@ ServerEvents.tags('item', event => {
     safeAdd('c:dusts/sulfur', 'bloodmagic:sulfur')
     safeAdd('c:dusts/sulfur', 'immersiveengineering:dust_sulfur')
 
+    // Iron dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/iron', 'mekanism:dust_iron')
+    safeAdd('c:dusts/iron', 'immersiveengineering:dust_iron')
+
+    // Copper dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/copper', 'mekanism:dust_copper')
+    safeAdd('c:dusts/copper', 'immersiveengineering:dust_copper')
+
+    // Gold dust tags - ensure both Mekanism and IE items are in tags
+    safeAdd('c:dusts/gold', 'mekanism:dust_gold')
+    safeAdd('c:dusts/gold', 'immersiveengineering:dust_gold')
+
     // Steel tags - ensure Mekanism, IE, Ad Astra Mekanized items are in tags
     // NOTE: magistuarmory steel items are intentionally NOT added - they are removed from the game
     safeAdd('c:ingots/steel', 'mekanism:ingot_steel')
@@ -878,6 +963,7 @@ ServerEvents.tags('item', event => {
     safeAdd('c:rods/steel', 'adastramekanized:steel_rod')
     safeAdd('c:rods/iron', 'immersiveengineering:stick_iron')
     safeAdd('c:rods/iron', 'adastramekanized:iron_rod')
+    safeAdd('c:rods/iron', 'createaddition:iron_rod')
 
     // Bronze tags - ensure Mekanism, Epic Knights, IE, and Silent Gear items are in tags
     safeAdd('c:ingots/bronze', 'mekanism:ingot_bronze')
