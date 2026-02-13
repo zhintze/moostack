@@ -2,6 +2,7 @@
 	chapter.004F28C5C85F467B.title: "Blood Magic"
 	chapter.02FF33D22B10EA88.title: "The Class Registry"
 	chapter.07210DDF872160BA.title: "Applied Energistics 2"
+	chapter.08D396982A9F2439.title: "Ad Astra Mekanized"
 	chapter.0C00000000000000.title: "Occultism"
 	chapter.0D96481A898A125C.title: "Mekanism"
 	chapter.100C477F4E63F20A.title: "Create"
@@ -22,6 +23,7 @@
 	chapter.5F00000000000000.title: "RFTools"
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'N Spellbooks"
+	chapter.AD00000000000000.title: "Ad Astra Mekanized"
 	chapter.C000000000000000.title: "Corail Tombstone"
 	quest.0001000000000001.quest_desc: ["Iron's Spells uses spell scrolls as consumable magic. Craft scrolls at the Scroll Forge using paper, ink, and a Focus item to inscribe specific spells."]
 	quest.0001000000000001.title: "Spell Scroll System"
@@ -260,6 +262,12 @@
 	quest.0133DA323E24A455.title: "Electrolytic Breathing Module"
 	quest.014262BDF1BBA54D.quest_desc: ["Uses crimson/nether items to generate power for the Mycelial Reactor."]
 	quest.014262BDF1BBA54D.title: "Mycelial Crimed Generator"
+	quest.01918212BE658C67.quest_desc: [
+		"The &3Desh Tank&r is the Tier 2 fuel tank. Holds 3,000 mB of fuel — use &3Liquid Propane&r for Tier 2 launches."
+		""
+		"Higher-density fuel for longer-range missions to the inner planets."
+	]
+	quest.01918212BE658C67.title: "Desh Tank"
 	quest.01D6B4F312C60942.quest_desc: [
 		"&aMekanism&r's ore processing system multiplies your mining output from &e2x&r up to &e5x&r ingots per ore. Each tier adds more machines to the chain but dramatically increases yield."
 		""
@@ -355,6 +363,12 @@
 		"&eA major upgrade over the standalone Jetpack.&r No fuel management needed, just keep your MekaSuit charged."
 	]
 	quest.032CD777CE8F1B67.title: "Jetpack Module"
+	quest.035C08A1F2A6F0F9.quest_desc: [
+		"The &3Steel Rocket&r is your first spacecraft. Assemble it at the NASA Workbench from a nose cone, steel engine, steel fuel tank, fins, and oxygen gear."
+		""
+		"Place on a &3Launch Pad&r, fuel with 3,000 mB of Liquid Ethanol, board, and hold Space to initiate a 10-second countdown. &eThe Moon awaits&r."
+	]
+	quest.035C08A1F2A6F0F9.title: "Steel Rocket"
 	quest.0365F76E7741AF2C.quest_desc: [
 		"Craft a &3Basic Induction Cell&r (energy storage) and a &3Basic Induction Provider&r (transfer rate). These go inside the Induction Matrix to determine its capacity and throughput."
 		""
@@ -649,6 +663,12 @@
 		"&eThe boiler is a 3x3x4+ structure.&r Superheating elements go in the bottom section, dispersers in the middle, and the top collects steam."
 	]
 	quest.0908AA2C0DDFDF66.title: "Boiler Internals"
+	quest.0920F669F4AAE603.quest_desc: [
+		"The &3Calorite Rocket&r is the ultimate spacecraft. All destinations in the solar system are now accessible — Moon, Mars, Venus, Mercury, Glacio, and Earth Orbit."
+		""
+		"At the planet selection screen, a mysterious &e???&r option appears. Exoplanets beyond our solar system await the bold."
+	]
+	quest.0920F669F4AAE603.title: "Calorite Rocket"
 	quest.09223F02621781BF.quest_subtitle: "Breed: Iron + Mason Bee"
 	quest.09223F02621781BF.subtitle: "Breed: Iron + Mason Bee"
 	quest.09223F02621781BF.title: "Silver Bee"
@@ -1164,6 +1184,12 @@
 	quest.0C39FFDCC46BBD04.quest_desc: ["Catch 5 Arapaima. One of the largest freshwater fish, found in jungle biomes."]
 	quest.0C39FFDCC46BBD04.quest_subtitle: "Predator Fish"
 	quest.0C39FFDCC46BBD04.title: "Arapaima Collection"
+	quest.0C45AE04F373E488.quest_desc: [
+		"The &3Etrionic Core&r is an advanced power component crafted from Etrium. Used in high-tier machines and the Etrionic Capacitor."
+		""
+		"Represents the bridge between space materials and advanced energy systems."
+	]
+	quest.0C45AE04F373E488.title: "Etrionic Core"
 	quest.0C596CB7C7C24615.quest_desc: [
 		"Soul-Touched Deepshelves provide 5 &aEterna&r (max 75), 15% &4Quanta&r, and 5% &5Arcana&r. The increased &aEterna&r cap allows access to higher enchantment levels."
 		""
@@ -1309,6 +1335,12 @@
 	]
 	quest.0DFA4ACFF22B3B65.quest_subtitle: "Arena Champion"
 	quest.0DFA4ACFF22B3B65.title: "Murmillo Gladiator"
+	quest.0DFCD70F7D94C55C.quest_desc: [
+		"The &3Jet Suit&r is the pinnacle of space suit technology. Built-in flight capability using Nitrogen gas, 8,000 mB oxygen capacity, and maximum protection."
+		""
+		"Requires Calorite components. &eThe ultimate equipment for planetary exploration and orbital construction&r."
+	]
+	quest.0DFCD70F7D94C55C.title: "Jet Suit"
 	quest.0E15FD2E7D4DBB58.quest_desc: [
 		"Mine and smelt &3Osmium Ore&r to obtain your first &3Osmium Ingots&r. Osmium is the foundation material for everything in &aMekanism&r — machines, circuits, tools, and alloys all start here."
 		""
@@ -1476,6 +1508,12 @@
 		"&eThis milestone unlocks:&r Elite Control Circuits, Teleporter, Atomic Disassembler, and ultimate-tier progression."
 	]
 	quest.0F2033D6A1C4E6A8.title: "Atomic Alloy"
+	quest.0F48D249CD996D1E.quest_desc: [
+		"The &3Oxygen Gear&r is the core component for space suit life support. It processes oxygen from your gas tank into breathable air."
+		""
+		"Requires a &3Mekanism Electrolytic Separator&r to split water into hydrogen and oxygen first."
+	]
+	quest.0F48D249CD996D1E.title: "Oxygen Gear"
 	quest.0F77A9AD1F422537.quest_desc: [
 		"Glowing Hellshelves provide 5 &aEterna&r (max 60), 7.5% &4Quanta&r, and 5% &5Arcana&r. They are the advanced Hellshelf path endpoint before Deepshelf convergence. "
 		""
@@ -1589,6 +1627,12 @@
 		"Charge at a charging station and load ammo to fire. Different ammo types affect damage and behavior."
 	]
 	quest.111BBAB9A78444A4.title: "Minigun"
+	quest.112B6E550F86C719.quest_desc: [
+		"&3Mercury&r is a scorched, airless world with extreme day-side temperatures. Nickel, Iron, and Etrium ores can be found here."
+		""
+		"&eFire damage during the day is severe&r — time your surface expeditions carefully or bring fire resistance."
+	]
+	quest.112B6E550F86C719.title: "Mercury"
 	quest.1142C402F6F0D12C.quest_desc: [
 		"The &3Painting Machine&r applies pigment to compatible blocks — recolor wool, concrete, glass, and more without re-crafting. "
 		""
@@ -1743,6 +1787,12 @@
 		"Both the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."
 	]
 	quest.1348995F64A94396.quest_subtitle: "Download more VRAM"
+	quest.1375FCBC1C21908C.quest_desc: [
+		"&3Calorite Ore&r is found only on Venus — the hottest planet at 464 degrees with corrosive acid rain. This ultimate material enables Tier 4 rocketry."
+		""
+		"Mine quickly and return to orbit. &eThe Netherite Space Suit provides fire resistance for Venus operations&r."
+	]
+	quest.1375FCBC1C21908C.title: "Calorite Ore"
 	quest.138C7E96BBBD3EEE.quest_desc: ["Damage scales with stored demon will. Collects will from kills automatically."]
 	quest.138C7E96BBBD3EEE.title: "Sentient Sword"
 	quest.13934DDB2428C1B7.quest_desc: [
@@ -1804,6 +1854,12 @@
 	quest.141D68BAD039784B.quest_desc: ["I/O for the thermoelectric boiler. Configure for water input, heated coolant input (from sodium reactor loop), or steam output. Place in walls of the multiblock."]
 	quest.141D68BAD039784B.quest_subtitle: "Optional"
 	quest.141D68BAD039784B.title: "Boiler Valve"
+	quest.1424B805C2668794.quest_desc: [
+		"The &3Space Suit&r is a full four-piece armor set that provides oxygen breathing and basic protection on airless worlds. Fill a &3Gas Tank&r with oxygen and equip it."
+		""
+		"The chestplate holds 2,000 mB of oxygen. &eUpgrade to Netherite or Jet variants later for more capacity and fire resistance&r."
+	]
+	quest.1424B805C2668794.title: "Space Suit"
 	quest.142A03950654FF39.quest_desc: [
 		"Use a &9rain-charged Weather Container&r in the Environmental Accumulator to create an &9Eternal Water Block&r or an &9Eternal Water Bucket&r. Both provide infinite water — extremely useful utility items."
 		""
@@ -1890,6 +1946,12 @@
 		"It combines a diamond with grave magic to create a powerful crafting component for high-tier items."
 	]
 	quest.155ABD22CC4621A3.title: "Impregnated Diamond"
+	quest.1573224D400EA477.quest_desc: [
+		"&3Ostrum Ore&r is found on Mars. This heat-resistant metal is essential for Tier 3 rocket construction — the fireproof Ostrum Rocket."
+		""
+		"Mars also has Diamond, Osmium, and Desh deposits worth mining."
+	]
+	quest.1573224D400EA477.title: "Ostrum Ore"
 	quest.158BB749BCB514B2.quest_desc: [
 		"Aquaculture expands Minecraft's fishing system with new fish species, specialized equipment, and rewarding progression."
 		""
@@ -2069,6 +2131,12 @@
 	quest.17989643018D00C1.quest_desc: ["Do Hives annoy you when they drip? If so, you're in luck because there's an easy solution.\\n\\nYou can place a &eSponge&r in the Bottle slot of an Advanced Hive to stop it from dripping."]
 	quest.17989643018D00C1.quest_subtitle: "You got no Drip"
 	quest.17989643018D00C1.title: "Stopping Dripping"
+	quest.17BDDF285A7BF6E8.quest_desc: [
+		"The &3Desh Rocket&r is your Tier 2 spacecraft. Reaches Mars and Mercury — planets with valuable ores and harsh conditions."
+		""
+		"Fuel with 3,000 mB of Liquid Propane. Mars has Ostrum, Mercury has Nickel and Iron. &eBring oxygen and supplies&r."
+	]
+	quest.17BDDF285A7BF6E8.title: "Desh Rocket"
 	quest.17DC7F2A51CD0E61.quest_desc: [
 		"Grow your Undead Sapling and harvest &e8 Undead Logs&r. These logs craft into Undead Planks, which are the primary building material for advanced EvilCraft structures."
 		""
@@ -2660,6 +2728,12 @@
 	quest.1EBD5E4410A6DF34.quest_subtitle: "Convert: Wither Skeleton Bee + Soulium Block"
 	quest.1EBD5E4410A6DF34.subtitle: "Convert: Ghostly Bee + Soulium Dagger"
 	quest.1EBD5E4410A6DF34.title: "Soulium Bee"
+	quest.1EE10E7649BE7BA9.quest_desc: [
+		"&3Cheese Ore&r is found exclusively on the Moon. Mine it for a renewable food source during lunar expeditions."
+		""
+		"The Moon really is made of cheese — at least partially."
+	]
+	quest.1EE10E7649BE7BA9.title: "Cheese"
 	quest.1EEC5622F2A9A163.quest_subtitle: "Picks up nearby items"
 	quest.1F0576BFA4F7A057.quest_desc: [
 		"Install utility upgrades. &3Charging&r lets armor recharge from tubes you walk past. &3Elytra&r enables gliding with the chestplate. &3Scuba&r provides underwater breathing. &3Magnet&r attracts nearby items. &3Gilded&r pacifies Piglins."
@@ -2703,6 +2777,12 @@
 		" - Absorption II (3:00)"
 	]
 	quest.1F88C697817A7680.title: "&aInferium Apple"
+	quest.1FAB7F02E2768319.quest_desc: [
+		"&3Ostrum Ingots&r are smelted from Mars-mined Ostrum Ore. Heat-resistant alloy used for Tier 3 rocket components."
+		""
+		"The Ostrum Rocket is fireproof — essential for Venus where acid rain melts lesser materials."
+	]
+	quest.1FAB7F02E2768319.title: "Ostrum Ingot"
 	quest.1FC2621B287687A4.quest_desc: [
 		"Craft a &3Portable QIO Dashboard&r — access your entire QIO storage network from your inventory, anywhere in any dimension. The ultimate portable storage solution."
 		""
@@ -2770,6 +2850,12 @@
 	]
 	quest.2077D64428E9C067.quest_subtitle: "This has a use outside of crafting cables."
 	quest.2077D64428E9C067.title: "Forgot to Mention"
+	quest.20C2C426DC03E89D.quest_desc: [
+		"&3Etrium Ingots&r are smelted from Etrium Ore. Used in sheets, rods, and advanced components across multiple rocket tiers."
+		""
+		"A cross-tier material — stockpile it from every planet where it appears."
+	]
+	quest.20C2C426DC03E89D.title: "Etrium Ingot"
 	quest.20C6C2A1580635B4.quest_desc: [
 		"Build a complete &3Fission Reactor&r — a multiblock structure that produces massive amounts of heat by splitting uranium atoms. The heat converts water into steam for the Industrial Turbine."
 		""
@@ -3191,12 +3277,24 @@
 	quest.27EC4B15DA344B2F.title: "Bell Cuirass Armor"
 	quest.27EFE30ADE855643.quest_desc: ["Assembles trains and sets schedules. Place on track. Click with wrench to access."]
 	quest.27EFE30ADE855643.title: "Train Station"
+	quest.27F1AB4DBE9299EA.quest_desc: [
+		"The &3Desh Engine&r is the Tier 2 rocket engine. More powerful than steel, it can reach Mars and Mercury."
+		""
+		"Requires an Engine Frame and Desh components. Built at the NASA Workbench."
+	]
+	quest.27F1AB4DBE9299EA.title: "Desh Engine"
 	quest.2802086803DD5FAA.quest_desc: [
 		"Obtain &3Compressed Iron Seeds&r from &aMystical Agriculture&r. Growing compressed iron provides a renewable supply without constant smelting."
 		""
 		"Plant, harvest, and never run out of your most-used material."
 	]
 	quest.2802086803DD5FAA.title: "Compressed Iron Seeds"
+	quest.2804419CD7EDF975.quest_desc: [
+		"&3Desh Ingots&r are smelted from Moon-mined Desh Ore. The primary material for Tier 2 rocket components."
+		""
+		"Process into sheets and rods via Create pressing and rolling for engine and tank construction."
+	]
+	quest.2804419CD7EDF975.title: "Desh Ingot"
 	quest.281AAC27DEBEE84D.quest_desc: [
 		"The Divination Sigil shows your current LP and altar status when held."
 		"Essential for monitoring your blood network. Shift-right-click an altar to bind it for remote monitoring."
@@ -3438,6 +3536,12 @@
 	quest.2AEEDCC6826CF4AB.title: "Oily Bee"
 	quest.2B0553F307A024F7.quest_subtitle: "Tier: &c5"
 	quest.2B0553F307A024F7.title: "Platinum Seeds"
+	quest.2B177000C5745E1E.quest_desc: [
+		"The &3Rocket Fin&r provides stability during launch and re-entry. Every rocket requires fins for controlled flight."
+		""
+		"Shared across all rocket tiers — build extras to keep a supply ready."
+	]
+	quest.2B177000C5745E1E.title: "Rocket Fin"
 	quest.2B31E6C1707D8195.quest_desc: [
 		"The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f."
 		""
@@ -3618,6 +3722,12 @@
 	]
 	quest.2E68E1D96B25336D.title: "Demonic Meat"
 	quest.2E6F1C8718EB8C66.title: "Blood Upgrade Orb"
+	quest.2E74AE2A7CC63735.quest_desc: [
+		"The &3Ostrum Rocket&r is your Tier 3 spacecraft — fireproof and built for hostile worlds. Venus and Glacio are now within reach."
+		""
+		"Venus has Calorite — the final tier metal. &eBeware acid rain on Venus and freezing temperatures on Glacio&r."
+	]
+	quest.2E74AE2A7CC63735.title: "Ostrum Rocket"
 	quest.2E8D588E744CFD87.quest_desc: [
 		"Build a complete &3Fusion Reactor&r — the ultimate power source in &aMekanism&r. Fuses deuterium and tritium to produce staggering amounts of energy. The reactor is a hollow 5x5x5 multiblock."
 		""
@@ -3638,6 +3748,12 @@
 	]
 	quest.2EBDD109A4D51270.quest_subtitle: "Warrior of the Rising Sun"
 	quest.2EBDD109A4D51270.title: "Gold Samurai Set"
+	quest.2EDA50BA4F70A6B8.quest_desc: [
+		"The &3Calorite Tank&r is the Tier 4 fuel tank. Holds 3,000 mB of fuel — use &3Liquid Methane&r for maximum efficiency."
+		""
+		"With efficient fuel tags, the Calorite Rocket consumes only 2,000 mB per launch."
+	]
+	quest.2EDA50BA4F70A6B8.title: "Calorite Tank"
 	quest.2EF482CAF235AA03.quest_desc: ["Creates schematic blueprints. Place empty schematic, select area. Saves structure."]
 	quest.2EF482CAF235AA03.title: "Schematic Table"
 	quest.2F16B6A173525277.quest_desc: [
@@ -3821,6 +3937,12 @@
 		"Pairs well with logistics frames for automated storage."
 	]
 	quest.30F74A84575DEE93.title: "Smart Chest"
+	quest.3128EC4EAD376AA0.quest_desc: [
+		"The &3Ostrum Tank&r is the Tier 3 fuel tank. Holds 3,000 mB — fueled with &3Liquid Ethylene&r for hostile world missions."
+		""
+		"Ostrum construction withstands Venus's extreme 464 degrees surface temperature."
+	]
+	quest.3128EC4EAD376AA0.title: "Ostrum Tank"
 	quest.3142A40E1EAEBAA3.quest_desc: [
 		"The Dowsing Rod gives you Magic Find and Scrying when used."
 		""
@@ -4001,6 +4123,12 @@
 	quest.3466C70EB256026B.quest_subtitle: "Spawn egg only (from loot)"
 	quest.3466C70EB256026B.subtitle: "Spawn egg only (from loot)"
 	quest.3466C70EB256026B.title: "Fire Essence Bee"
+	quest.347BD37A72DFB785.quest_desc: [
+		"&3Glacio&r is a frozen world with a thin atmosphere and permafrost terrain. Etrium, Lapis, Silver, and Iron ores are present."
+		""
+		"The thin atmosphere is not breathable — oxygen equipment is still required."
+	]
+	quest.347BD37A72DFB785.title: "Glacio"
 	quest.3499A5936E40EEBE.quest_desc: [
 		"Craft &cBlook&r — a blood-infused book. Blook is consumed by the Purifier to absorb enchantments. One Blook removes one enchantment."
 		""
@@ -4047,6 +4175,12 @@
 	quest.3526D444F81AD6D9.quest_desc: ["Increases Meka-Tool combat damage. Stack for higher damage output. Transforms the tool into an effective weapon."]
 	quest.3526D444F81AD6D9.quest_subtitle: "Meka-Tool"
 	quest.3526D444F81AD6D9.title: "Attack Amplification Module"
+	quest.3529F6A96E3B70A4.quest_desc: [
+		"The &3Gravity Normalizer&r adjusts gravity in its area to Earth-normal levels. Useful on the Moon where 1/6 gravity makes movement unpredictable."
+		""
+		"Requires FE power. Place in your Moon or Mars base for comfortable operation."
+	]
+	quest.3529F6A96E3B70A4.title: "Gravity Normalizer"
 	quest.3543563DF036D461.quest_desc: [
 		"&bDragonyst Dust&f creates &eMagenta Chalk&f for draconic rituals."
 		""
@@ -4238,6 +4372,12 @@
 	]
 	quest.38DBBCC1A0C2B1FF.title: "5x: Full Dissolution"
 	quest.38E44223347DA798.quest_subtitle: "Places blocks from your inventory"
+	quest.38FB03D6124774A4.quest_desc: [
+		"The &3NASA Workbench&r is the cornerstone of &aAd Astra Mekanized&r. This 7x7 crafting station assembles rockets from components — nose cones, engines, fuel tanks, and fins."
+		""
+		"All rocket tiers are built here. &eCreate Mechanical Crafters can automate these recipes&r if connected properly."
+	]
+	quest.38FB03D6124774A4.title: "NASA Workbench"
 	quest.38FF05B6A26DB2EC.quest_desc: ["Uses lava and magma-related items for power generation."]
 	quest.38FF05B6A26DB2EC.title: "Mycelial Magma Generator"
 	quest.390E3B970CAF2964.quest_desc: [
@@ -5406,6 +5546,12 @@
 	]
 	quest.4AF0A63488291DF4.quest_subtitle: "Veteran's Mail"
 	quest.4AF0A63488291DF4.title: "Hamata Armor"
+	quest.4AF27676D0509E95.quest_desc: [
+		"The &3Fan&r circulates air through oxygen distribution systems. Required component for the Oxygen Distributor."
+		""
+		"Compact and inexpensive — craft a few spares for multi-room base setups."
+	]
+	quest.4AF27676D0509E95.title: "Fan"
 	quest.4B0FDC5F1EF85CD0.quest_desc: [
 		"Craft a &3Basic Mechanical Pipe&r — the standard fluid transport pipe. Connects to tanks, machines, and any block that holds fluids."
 		""
@@ -5437,6 +5583,12 @@
 		"&ePlace the dashboard anywhere and set it to the same QIO frequency.&r It acts as a universal crafting terminal for your wireless storage."
 	]
 	quest.4B8035A03AF7A695.title: "QIO Dashboard"
+	quest.4B89634DF21AB4CD.quest_desc: [
+		"The &3Wireless Power Relay&r transmits FE/RF power without cables. Useful for powering remote equipment on planetary surfaces."
+		""
+		"Made with Ostrum components. Place in line-of-sight for reliable power transmission."
+	]
+	quest.4B89634DF21AB4CD.title: "Wireless Power Relay"
 	quest.4B988D786ABF369F.quest_desc: [
 		"Craft a &3Bio Generator&r — burns &3Bio Fuel&r to produce RF. Bio Fuel is made by crushing organic materials (crops, seeds, saplings, vines) in the &3Crusher&r."
 		""
@@ -5536,6 +5688,12 @@
 		"Great for mobility and reaching high places. Costs LP per use."
 	]
 	quest.4C6B73322F56BE05.title: "Air Sigil"
+	quest.4C7454B5FA293A81.quest_desc: [
+		"The &3Rocket Nose Cone&r sits at the top of every rocket. It provides aerodynamic shaping for atmospheric exit."
+		""
+		"One nose cone is shared across all rocket tiers."
+	]
+	quest.4C7454B5FA293A81.title: "Rocket Nose Cone"
 	quest.4C77ABCD41383F32.quest_desc: ["&cBlaze Cakes&r can be used to &bSuper-Heat&r &cBlaze Burners&r! A Heat that has never been seen before! \\n\\nBut how do we Bake them? \\n\\nFirst, we'll need to make the &4Blaze Cake Base&r. To get it, process an Egg, Sugar, and &4Cinder Flour&r in a Mechanical Press and Basin. \\n\\n&4Cinder Flour&r is created by Crushing &4Netherrack&r through two Crushing Wheels. \\n\\nThen, once we have our &4Blaze Cake Base&r, we can fill it with &cLava&r from a &bSpout&r to make our &cBlaze Cake&r!"]
 	quest.4C77ABCD41383F32.title: "&cBlaze Cakes"
 	quest.4C873491F6F0FFAF.quest_desc: [
@@ -5701,6 +5859,12 @@
 	quest.4F7547FCD77F55DA.title: "Building a Worm Farm"
 	quest.4F8119B6298EA753.quest_subtitle: "Changes weather: clear, rain, or storm"
 	quest.4F8119B6298EA753.title: "Ritual of Cloudshaping"
+	quest.4F97D7BF13F5FADF.quest_desc: [
+		"The &3Ostrum Engine&r is the Tier 3 rocket engine. Heat-shielded for Venus atmospheric entry."
+		""
+		"Requires an Engine Frame and Ostrum components. Built at the NASA Workbench."
+	]
+	quest.4F97D7BF13F5FADF.title: "Ostrum Engine"
 	quest.4F9C8D90ACF563F5.quest_desc: ["Enables walking on water. Also increases swim speed. Useful for ocean exploration without flight."]
 	quest.4F9C8D90ACF563F5.quest_subtitle: "Leggings"
 	quest.4F9C8D90ACF563F5.title: "Hydrostatic Repulsor Module"
@@ -5857,6 +6021,12 @@
 	quest.5009000000000010.title: "Wilden Summon"
 	quest.500BEAD94C97DF96.quest_desc: ["Can be placed in a hive or centrifuge.\\n\\nWhen in a hive, it decreases the amount of time bees spend in the hive by 20%.\\n\\nWhen placed in a Centrifuge, it increases the processing speed.\\n\\nThese do stack."]
 	quest.500BEAD94C97DF96.quest_subtitle: "Sonic Bees"
+	quest.500E9F77A78442F0.quest_desc: [
+		"The &3Etrionic Capacitor&r is an advanced energy storage component built from the Etrionic Core. Used in high-tier space infrastructure."
+		""
+		"Represents mastery of Etrium-based power technology."
+	]
+	quest.500E9F77A78442F0.title: "Etrionic Capacitor"
 	quest.5010000000000001.quest_desc: ["Remote access to Enchanting Apparatus. Place near your apparatus to access recipes from anywhere in the same dimension."]
 	quest.5010000000000001.title: "Warp Index"
 	quest.5010000000000002.quest_desc: ["Cross-dimensional Warp Index. Access your Enchanting Apparatus from any dimension."]
@@ -7016,6 +7186,12 @@
 	quest.556F2C603CBA1EE9.title: "Magician Orb"
 	quest.55702BE0151D33FE.quest_desc: ["I/O blocks for the &bInduction Matrix&r multiblock. Place in walls of the structure. Configure for input or output. Need at least 2 ports (one in, one out) for functional storage."]
 	quest.55702BE0151D33FE.title: "Induction Port"
+	quest.5570DFE6B39DB6FF.quest_desc: [
+		"The &3Engine Frame&r is the structural base for all rocket engines. Every tier of engine requires one of these as a crafting component."
+		""
+		"Made from &3Iron Rods&r — use Create pressing and rolling to produce sheets and rods from ingots."
+	]
+	quest.5570DFE6B39DB6FF.title: "Engine Frame"
 	quest.55820773BDD5319D.quest_desc: [
 		"&bIndustrial Foregoing&r (IF for short) is a tech mod that adds many machines with various different uses."
 		""
@@ -7125,6 +7301,12 @@
 	]
 	quest.5706B5BFF072EBFC.title: "Aerial Interface"
 	quest.57167FE67CFAC255.quest_subtitle: "Used to add Bees to a Filter"
+	quest.571D753E9E55836D.quest_desc: [
+		"The &3Calorite Engine&r is the Tier 4 rocket engine — the most powerful propulsion system available. Reaches every destination in the solar system and beyond."
+		""
+		"Requires an Engine Frame and Calorite components. Built at the NASA Workbench."
+	]
+	quest.571D753E9E55836D.title: "Calorite Engine"
 	quest.57282D7E31EE61EE.quest_desc: [
 		"The &bIesnium Pickaxe&f is a powerful mining tool that automatically sees Otherworld blocks."
 		""
@@ -7381,6 +7563,12 @@
 		"Like all Mekanism pipes, tubes support tiered upgrades for increased flow rate. &eConnect to a gas output, then use the Configurator to set pull mode if needed.&r"
 	]
 	quest.5A88F3217C86B483.title: "Basic Pressurized Tube"
+	quest.5A96238A12640E31.quest_desc: [
+		"With the &3Calorite Rocket&r, the mysterious &e???&r destination on the planet selector unlocks access to exoplanets beyond our solar system — over 20 unique worlds to discover."
+		""
+		"Kepler-22b, Proxima b, TRAPPIST-1e, and more await. Each world has unique terrain, biomes, and resources. &eThe universe is yours to explore&r."
+	]
+	quest.5A96238A12640E31.title: "Beyond the Stars"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
 		"Naturally, AE2 provides its own way to dramatically speed up crystal growth."
 		""
@@ -7484,6 +7672,12 @@
 	quest.5B506D2E55CFFD56.title: "Tablet of Assistance"
 	quest.5B52389583A70E66.quest_subtitle: "Tier 5 Ore Seed"
 	quest.5B52389583A70E66.title: "Uraninite Seeds"
+	quest.5B63FFB69E66EE8C.quest_desc: [
+		"&3Desh Ore&r is found on the Moon's surface and in caves. This alien metal is the key material for Tier 2 rocket construction."
+		""
+		"Mine it and smelt into &3Desh Ingots&r. You will need significant quantities for the Desh Rocket."
+	]
+	quest.5B63FFB69E66EE8C.title: "Desh Ore"
 	quest.5B705CE593EAF545.quest_desc: [
 		"Craft a &3Compressed Iron Ingot&r by smelting iron in a blast furnace or using a pressure chamber later. This is the base material for nearly everything in &aPneumaticCraft&r."
 		""
@@ -7769,6 +7963,12 @@
 		"All cables can also be crafted with dye to colour them. Uncoloured ('Fluix') cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."
 	]
 	quest.5C22E3103544B120.title: "Basic Cabling"
+	quest.5C2731505A71E59A.quest_desc: [
+		"The &3Gas Tank&r holds 10,000 mB of Mekanism oxygen for space suit breathing. Fill it at a &3Chemical Tank&r and equip it in your suit."
+		""
+		"Carry spares — running out of oxygen on an airless world is fatal."
+	]
+	quest.5C2731505A71E59A.title: "Gas Tank"
 	quest.5C3C493FD6AA00A4.quest_desc: ["Shows altar LP level and tier. Essential for monitoring your altar status."]
 	quest.5C3C493FD6AA00A4.title: "Divination Sigil"
 	quest.5C3F60C7C92D6CBD.quest_desc: [
@@ -7881,6 +8081,12 @@
 		"A quality-of-life accessory for general traversal. Equip it in a Curios ring slot and forget about it. No blood cost to maintain."
 	]
 	quest.5D769BA3ED66C567.title: "Effortless Ring"
+	quest.5D8206EAD7606049.quest_desc: [
+		"&3Earth Orbit&r is a void dimension for constructing space stations. Zero gravity with Earth visible below and a sky of 100,000 stars."
+		""
+		"Build your orbital platform using oxygen distributors and gravity normalizers. The ultimate base of operations."
+	]
+	quest.5D8206EAD7606049.title: "Earth Orbit"
 	quest.5D89CC235FAC88A5.quest_desc: [
 		"Compress &3Polonium&r gas into a &3Polonium Pellet&r using the &3Chemical Crystallizer&r. Combined with plutonium pellets, these form antimatter."
 		""
@@ -8660,6 +8866,12 @@
 		"&eCrush obsidian in the Crusher for obsidian dust, then compress with liquid osmium.&r Stock up -- you will need many refined obsidian ingots for the advanced tech tree."
 	]
 	quest.62F7E915F1E9817A.title: "Refined Obsidian"
+	quest.632BC0A69B575B44.quest_desc: [
+		"Produce &3Liquid Methane&r — the Tier 4 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine Rotten Flesh + 100 mB Water + 10 mB Hydrogen to produce 300 mB Methane gas."
+		""
+		"Hydrogen comes from the &3Electrolytic Separator&r. Methane has 3x higher yield than other fuels — &emob farms make this very efficient&r."
+	]
+	quest.632BC0A69B575B44.title: "Liquid Methane"
 	quest.632BC46928CC9A8C.quest_desc: [
 		"The Enchanter's Mirror will apply a self spell when used."
 		""
@@ -8764,6 +8976,12 @@
 		"The recipe requires a captured &9Vengeance Spirit&r essence and significant blood. &eThis is the pinnacle of EvilCraft progression — everything beyond this point is endgame territory.&r"
 	]
 	quest.647A59ACEFF21808.title: "Garmonbozia"
+	quest.647D1138CBD31EFF.quest_desc: [
+		"Produce &3Liquid Ethylene&r — the Tier 3 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine Wheat Seeds + 100 mB Water + 20 mB Sulfuric Acid to produce Ethylene gas."
+		""
+		"Condensate via &3Rotary Condensentrator&r. &eAlternatively, crack Propane with Superheated Sodium in a Chemical Infuser for 1.5x yield&r."
+	]
+	quest.647D1138CBD31EFF.title: "Liquid Ethylene"
 	quest.6482A75510B3728D.quest_desc: [
 		"Install mobility upgrades in your armor. &3Jet Boots&r (tiers 1-5) provide increasingly powerful flight. &3Jumping Upgrades&r (tiers 1-4) boost jump height. &3Flippers&r increase swim speed, and &3Stomp&r creates a shockwave on landing."
 		""
@@ -9083,6 +9301,12 @@
 	quest.68CE30097BADE20E.title: "Searching for Nests"
 	quest.68CEB119BB4C3755.quest_subtitle: "Breed: Dark Blue Pigment + Dark Green Pigment"
 	quest.68CEB119BB4C3755.subtitle: "Breed: Dark Blue Pigment + Dark Green Pigment"
+	quest.68E9D4D9C2C13CB1.quest_desc: [
+		"The &3Large Gas Tank&r holds 50,000 mB of oxygen — five times the standard tank. Essential for extended planetary expeditions."
+		""
+		"Fill from your Mekanism oxygen network before departing."
+	]
+	quest.68E9D4D9C2C13CB1.title: "Large Gas Tank"
 	quest.690A7182899481CC.quest_desc: ["Catch 5 Boulti. An African tilapia species."]
 	quest.690A7182899481CC.quest_subtitle: "African Fish"
 	quest.690A7182899481CC.title: "Boulti Collection"
@@ -9245,6 +9469,12 @@
 	quest.6B7E13AB3BF2C5C8.quest_desc: ["Converts heat to steam. Can use direct heating elements or heated sodium from reactor loop. Alternative to direct reactor steam generation. Lower section heats water, upper section collects steam."]
 	quest.6B7E13AB3BF2C5C8.quest_subtitle: "Multiblock / Optional"
 	quest.6B7E13AB3BF2C5C8.title: "Thermoelectric Boiler"
+	quest.6BBA74206EF601EA.quest_desc: [
+		"The &3Netherite Space Suit&r is a fire-resistant upgrade with 4,000 mB oxygen capacity. Essential for Venus expeditions where acid rain and extreme heat are constant threats."
+		""
+		"Crafted by upgrading the standard Space Suit with Netherite ingots at a Smithing Table."
+	]
+	quest.6BBA74206EF601EA.title: "Netherite Space Suit"
 	quest.6BBACD5BE4234629.quest_desc: [
 		"Craft a &3Heat Generator&r -- your first power source! It produces RF by burning solid fuels (coal, planks, sticks) or passively from adjacent lava. &eYou need power to run the Metallurgic Infuser and all other Mekanism machines.&r"
 		""
@@ -9328,6 +9558,12 @@
 	quest.6C6C3E70AF1631E8.quest_desc: ["Catch 3 Obsidianfish. Found in the Basalt Deltas biome."]
 	quest.6C6C3E70AF1631E8.quest_subtitle: "Basalt Deltas"
 	quest.6C6C3E70AF1631E8.title: "Obsidianfish Collection"
+	quest.6C720600A3BF131E.quest_desc: [
+		"The &3Steel Sheetblock&r is a decorative building block made from nine steel sheets. Clean industrial aesthetic for bases and hangars."
+		""
+		"Multiple plating and panel variants exist — check JEI for the full set."
+	]
+	quest.6C720600A3BF131E.title: "Steel Sheetblock"
 	quest.6C76AB8A6110C0C7.quest_desc: [
 		"Blazing Hellshelves provide 5 &aEterna&r (max 60), 10% &4Quanta&r, and 5% &5Arcana&r. They offer a balanced stat spread useful for infusions requiring moderate amounts of all three stats. "
 		""
@@ -9832,12 +10068,24 @@
 		"This material is used to create &eOrange Chalk&f, needed for Afrit summoning rituals."
 	]
 	quest.74130EB1E4B8586D.title: "Cursed Honey"
+	quest.743ABB74DCAB5536.quest_desc: [
+		"The &3Steel Door&r is a reinforced door suitable for space bases. Helps maintain sealed rooms for oxygen distribution."
+		""
+		"Sliding door variants in multiple metals are also available — check JEI."
+	]
+	quest.743ABB74DCAB5536.title: "Steel Door"
 	quest.745B26CA80044950.quest_desc: [
 		"Craft &3Turbine Rotors&r, &3Turbine Blades&r, and a &3Rotational Complex&r — the spinning components inside the turbine. Steam pushes the blades, which spin the rotors to generate power."
 		""
 		"&eStack rotors vertically with 2 blades each.&r The rotational complex sits on top connecting rotors to the electromagnetic coils. More rotors = more steam capacity."
 	]
 	quest.745B26CA80044950.title: "Turbine Internals"
+	quest.745BF38ABF72BFCB.quest_desc: [
+		"The &3Steel Tank&r is the Tier 1 fuel tank. Holds 3,000 mB of liquid fuel — exactly enough for one launch."
+		""
+		"Fueled with &3Liquid Ethanol&r produced through ChemLib Mekanized chemistry."
+	]
+	quest.745BF38ABF72BFCB.title: "Steel Tank"
 	quest.7471CDF5166D38F0.quest_subtitle: "Grants creative flight to nearby players"
 	quest.7471CDF5166D38F0.title: "Ritual of Flight"
 	quest.747B6EAA50A5FC2C.quest_desc: [
@@ -9863,6 +10111,12 @@
 		"Transporters support color-coded routing and item filters via the Configurator. &eSet a transporter to pull mode to extract items automatically.&r"
 	]
 	quest.74D9483E3A9DB6DC.title: "Basic Logistical Transporter"
+	quest.74EC6AC2A5607E1A.quest_desc: [
+		"&3Etrium Ore&r appears on the Moon, Mars, and Glacio. A versatile space-age metal used for advanced electronics and the Etrionic power system."
+		""
+		"Smelt into ingots and process into sheets for various components."
+	]
+	quest.74EC6AC2A5607E1A.title: "Etrium Ore"
 	quest.74FC0DDDB91DB172.quest_desc: [
 		"To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world."
 		""
@@ -9888,6 +10142,12 @@
 	quest.753886906400F297.title: "Jetpack"
 	quest.754B8F1FBCD983C5.quest_desc: ["&eStock Tickers&r can be set to the &eNetwork&r by Right Clicking the &eStock Link &fwith the &eStock Ticker&r in Hand. \\n\\nThen, place down the &eStock Ticker&r and give it a &eStock Keeper&r by either placing down a &cBlaze Burner&r or a Mob on a Seat nearby. \\n\\nYou'll know they are a &eStock Keeper&r by their stereotypical &aGreen&r Visor. We can now Right Click the &eStock Keeper&r to view and order &eItems&r from our &eNetwork&r. \\n\\nWhen you order &eItems&r, they'll be placed into a &ePackage &ffrom a &ePackager &fbelow the &eStock Link&r."]
 	quest.754B8F1FBCD983C5.title: "&eStock Ticker"
+	quest.754E9252986FDD58.quest_desc: [
+		"The &3Oxygen Distributor&r creates breathable atmosphere inside sealed rooms. It uses flood-fill to detect enclosed spaces and fills them with invisible oxygen blocks."
+		""
+		"Requires continuous Mekanism oxygen supply and FE power. Use a &3Redstone Toggle Relay&r for on/off control."
+	]
+	quest.754E9252986FDD58.title: "Oxygen Distributor"
 	quest.75560045ED084900.quest_desc: [
 		"Most seeds are simple to make, but to make &9Mob Seeds&r, you'll need to head to the Nether to pick up some &8Soulium&r."
 		""
@@ -10002,6 +10262,12 @@
 	]
 	quest.77AFD6EF477973CD.quest_subtitle: "Horse Stats \\& Breeding"
 	quest.77AFD6EF477973CD.title: "Equestrian's Delight"
+	quest.77AFEFB6FC50C35F.quest_desc: [
+		"The &3Steel Engine&r is the Tier 1 rocket engine. Provides enough thrust to reach the Moon and low Earth orbit."
+		""
+		"Requires an &3Engine Frame&r and steel components. Built at the NASA Workbench."
+	]
+	quest.77AFEFB6FC50C35F.title: "Steel Engine"
 	quest.77B6A7151B3E5980.quest_desc: ["Mines connected ore blocks automatically. Breaks entire ore veins with one block. Essential for efficient mining."]
 	quest.77B6A7151B3E5980.quest_subtitle: "Meka-Tool / Optional"
 	quest.77B6A7151B3E5980.title: "Vein Mining Module"
@@ -10062,6 +10328,12 @@
 	]
 	quest.78B3F7AD4FC47CAA.quest_subtitle: "A magical and technological adventure awaits"
 	quest.78B3F7AD4FC47CAA.title: "Welcome to mooStack!"
+	quest.78CA03006E1CB387.quest_desc: [
+		"&3Calorite Ingots&r are smelted from Venus-mined Calorite Ore. The most advanced material in the solar system — used for Tier 4 rocket construction."
+		""
+		"The Calorite Rocket is fuel-efficient, using only 2,000 mB per launch with efficient fuels."
+	]
+	quest.78CA03006E1CB387.title: "Calorite Ingot"
 	quest.78CCD8075249E2B7.quest_subtitle: "Breed: Magmatic + Water"
 	quest.78CCD8075249E2B7.subtitle: "Breed: Magmatic + Water"
 	quest.78CCD8075249E2B7.title: "BreezBee"
@@ -10077,6 +10349,12 @@
 		"Configure it to search for specific ores or materials, then follow its guidance to find them. This is particularly useful for finding rare Occultism-specific resources."
 	]
 	quest.78ECC28DD4BA9696.title: "Divination Rod"
+	quest.78EDD74C23A37F6A.quest_desc: [
+		"Produce &3Liquid Ethanol&r — the Tier 1 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine a Potato + 100 mB Water + 20 mB Sulfuric Acid to produce Ethanol gas."
+		""
+		"Then use the &3Rotary Condensentrator&r in condensating mode to convert the gas to liquid. &eLook at your Rotary Condensentrator to complete this quest&r."
+	]
+	quest.78EDD74C23A37F6A.title: "Liquid Ethanol"
 	quest.78F20BAC5F8571D8.quest_desc: [
 		"Defeat 10 Strays to earn the Stamina Pillager skill book."
 		""
@@ -10131,6 +10409,12 @@
 		"A strict upgrade over hand-crafting wood. &eFeed it any log type for extra planks and free sawdust.&r"
 	]
 	quest.799C73ED6527EAB8.title: "Precision Sawmill"
+	quest.79C63DCA244D6652.quest_desc: [
+		"Produce &3Liquid Propane&r — the Tier 2 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine a Coal Block + 100 mB Water + 20 mB Sulfuric Acid to produce Propane gas."
+		""
+		"Condensate via &3Rotary Condensentrator&r. &eLook at your Rotary Condensentrator to complete this quest&r."
+	]
+	quest.79C63DCA244D6652.title: "Liquid Propane"
 	quest.79D2617E01481281.quest_desc: [
 		"To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f."
 		""
@@ -10139,6 +10423,12 @@
 	quest.79D2617E01481281.title: "Certus Quartz"
 	quest.79D6A251FE3761B3.quest_desc: ["When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees."]
 	quest.79D6A251FE3761B3.quest_subtitle: "Lures in a Slimy Bee in a Swamp Biome"
+	quest.79D878C0A90C6290.quest_desc: [
+		"The &3Launch Pad&r is a 3x3 multiblock platform where rockets dock and launch from. Place a rocket on top and fuel it before takeoff."
+		""
+		"Connect &3Mekanism Mechanical Pipes&r to the bottom of the pad for automated fueling. Sneak-right-click to open the rocket's fuel interface manually."
+	]
+	quest.79D878C0A90C6290.title: "Launch Pad"
 	quest.79E7D7C92B68DC80.quest_desc: ["Obtained via dusk rituals. Opens access to Tier 2 runes and demon infrastructure."]
 	quest.79E7D7C92B68DC80.title: "Demon Realm"
 	quest.79E9E184B19BFC97.quest_desc: [
@@ -11323,6 +11613,300 @@
 	quest.A10A000000001900.title: "Excavation Escalation Module"
 	quest.A13C7B3DACACA281.title: "Dark Aqua Pigment Bee"
 	quest.AB4DE330F2FACEA3.title: "Regenerative Bee"
+	quest.AD01000000000100.quest_desc: [
+		"The &3NASA Workbench&r is the cornerstone of &aAd Astra Mekanized&r. This 7x7 crafting station assembles rockets from components — nose cones, engines, fuel tanks, and fins."
+		""
+		"All rocket tiers are built here. &eCreate Mechanical Crafters can automate these recipes&r if connected properly."
+	]
+	quest.AD01000000000100.title: "NASA Workbench"
+	quest.AD01000000000200.quest_desc: [
+		"The &3Launch Pad&r is a 3x3 multiblock platform where rockets dock and launch from. Place a rocket on top and fuel it before takeoff."
+		""
+		"Connect &3Mekanism Mechanical Pipes&r to the bottom of the pad for automated fueling. Sneak-right-click to open the rocket's fuel interface manually."
+	]
+	quest.AD01000000000200.title: "Launch Pad"
+	quest.AD01000000000300.quest_desc: [
+		"The &3Engine Frame&r is the structural base for all rocket engines. Every tier of engine requires one of these as a crafting component."
+		""
+		"Made from &3Iron Rods&r — use Create pressing and rolling to produce sheets and rods from ingots."
+	]
+	quest.AD01000000000300.title: "Engine Frame"
+	quest.AD01000000000400.quest_desc: [
+		"The &3Rocket Nose Cone&r sits at the top of every rocket. It provides aerodynamic shaping for atmospheric exit."
+		""
+		"One nose cone is shared across all rocket tiers."
+	]
+	quest.AD01000000000400.title: "Rocket Nose Cone"
+	quest.AD01000000000500.quest_desc: [
+		"The &3Rocket Fin&r provides stability during launch and re-entry. Every rocket requires fins for controlled flight."
+		""
+		"Shared across all rocket tiers — build extras to keep a supply ready."
+	]
+	quest.AD01000000000500.title: "Rocket Fin"
+	quest.AD01000000000600.quest_desc: [
+		"The &3Gas Tank&r holds 10,000 mB of Mekanism oxygen for space suit breathing. Fill it at a &3Chemical Tank&r and equip it in your suit."
+		""
+		"Carry spares — running out of oxygen on an airless world is fatal."
+	]
+	quest.AD01000000000600.title: "Gas Tank"
+	quest.AD01000000000700.quest_desc: [
+		"The &3Large Gas Tank&r holds 50,000 mB of oxygen — five times the standard tank. Essential for extended planetary expeditions."
+		""
+		"Fill from your Mekanism oxygen network before departing."
+	]
+	quest.AD01000000000700.title: "Large Gas Tank"
+	quest.AD01000000000800.quest_desc: [
+		"The &3Oxygen Network Monitor&r displays the status of your oxygen distribution network — flow rates, connected distributors, and capacity."
+		""
+		"Place near your base's &3Oxygen Distributor&r to keep tabs on your life support system."
+	]
+	quest.AD01000000000800.title: "Oxygen Network Monitor"
+	quest.AD01000000000900.quest_desc: [
+		"The &3Steel Sheetblock&r is a decorative building block made from nine steel sheets. Clean industrial aesthetic for bases and hangars."
+		""
+		"Multiple plating and panel variants exist — check JEI for the full set."
+	]
+	quest.AD01000000000900.title: "Steel Sheetblock"
+	quest.AD01000000000A00.quest_desc: [
+		"The &3Steel Door&r is a reinforced door suitable for space bases. Helps maintain sealed rooms for oxygen distribution."
+		""
+		"Sliding door variants in multiple metals are also available — check JEI."
+	]
+	quest.AD01000000000A00.title: "Steel Door"
+	quest.AD02000000000100.quest_desc: [
+		"The &3Oxygen Gear&r is the core component for space suit life support. It processes oxygen from your gas tank into breathable air."
+		""
+		"Requires a &3Mekanism Electrolytic Separator&r to split water into hydrogen and oxygen first."
+	]
+	quest.AD02000000000100.title: "Oxygen Gear"
+	quest.AD02000000000200.quest_desc: [
+		"The &3Fan&r circulates air through oxygen distribution systems. Required component for the Oxygen Distributor."
+		""
+		"Compact and inexpensive — craft a few spares for multi-room base setups."
+	]
+	quest.AD02000000000200.title: "Fan"
+	quest.AD02000000000300.quest_desc: [
+		"The &3Space Suit&r is a full four-piece armor set that provides oxygen breathing and basic protection on airless worlds. Fill a &3Gas Tank&r with oxygen and equip it."
+		""
+		"The chestplate holds 2,000 mB of oxygen. &eUpgrade to Netherite or Jet variants later for more capacity and fire resistance&r."
+	]
+	quest.AD02000000000300.title: "Space Suit"
+	quest.AD02000000000400.quest_desc: [
+		"The &3Oxygen Distributor&r creates breathable atmosphere inside sealed rooms. It uses flood-fill to detect enclosed spaces and fills them with invisible oxygen blocks."
+		""
+		"Requires continuous Mekanism oxygen supply and FE power. Use a &3Redstone Toggle Relay&r for on/off control."
+	]
+	quest.AD02000000000400.title: "Oxygen Distributor"
+	quest.AD02000000000500.quest_desc: [
+		"The &3Gravity Normalizer&r adjusts gravity in its area to Earth-normal levels. Useful on the Moon where 1/6 gravity makes movement unpredictable."
+		""
+		"Requires FE power. Place in your Moon or Mars base for comfortable operation."
+	]
+	quest.AD02000000000500.title: "Gravity Normalizer"
+	quest.AD03000000000100.quest_desc: [
+		"The &3Steel Engine&r is the Tier 1 rocket engine. Provides enough thrust to reach the Moon and low Earth orbit."
+		""
+		"Requires an &3Engine Frame&r and steel components. Built at the NASA Workbench."
+	]
+	quest.AD03000000000100.title: "Steel Engine"
+	quest.AD03000000000200.quest_desc: [
+		"The &3Steel Tank&r is the Tier 1 fuel tank. Holds 3,000 mB of liquid fuel — exactly enough for one launch."
+		""
+		"Fueled with &3Liquid Ethanol&r produced through ChemLib Mekanized chemistry."
+	]
+	quest.AD03000000000200.title: "Steel Tank"
+	quest.AD03000000000300.quest_desc: [
+		"Produce &3Liquid Ethanol&r — the Tier 1 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine a Potato + 100 mB Water + 20 mB Sulfuric Acid to produce Ethanol gas."
+		""
+		"Then use the &3Rotary Condensentrator&r in condensating mode to convert the gas to liquid. &eLook at your Rotary Condensentrator to complete this quest&r."
+	]
+	quest.AD03000000000300.title: "Liquid Ethanol"
+	quest.AD03000000000400.quest_desc: [
+		"The &3Steel Rocket&r is your first spacecraft. Assemble it at the NASA Workbench from a nose cone, steel engine, steel fuel tank, fins, and oxygen gear."
+		""
+		"Place on a &3Launch Pad&r, fuel with 3,000 mB of Liquid Ethanol, board, and hold Space to initiate a 10-second countdown. &eThe Moon awaits&r."
+	]
+	quest.AD03000000000400.title: "Steel Rocket"
+	quest.AD03000000000500.quest_desc: [
+		"&3Desh Ore&r is found on the Moon's surface and in caves. This alien metal is the key material for Tier 2 rocket construction."
+		""
+		"Mine it and smelt into &3Desh Ingots&r. You will need significant quantities for the Desh Rocket."
+	]
+	quest.AD03000000000500.title: "Desh Ore"
+	quest.AD03000000000600.quest_desc: [
+		"&3Etrium Ore&r appears on the Moon, Mars, and Glacio. A versatile space-age metal used for advanced electronics and the Etrionic power system."
+		""
+		"Smelt into ingots and process into sheets for various components."
+	]
+	quest.AD03000000000600.title: "Etrium Ore"
+	quest.AD03000000000700.quest_desc: [
+		"&3Cheese Ore&r is found exclusively on the Moon. Mine it for a renewable food source during lunar expeditions."
+		""
+		"The Moon really is made of cheese — at least partially."
+	]
+	quest.AD03000000000700.title: "Cheese"
+	quest.AD03000000000800.quest_desc: [
+		"&3Etrium Ingots&r are smelted from Etrium Ore. Used in sheets, rods, and advanced components across multiple rocket tiers."
+		""
+		"A cross-tier material — stockpile it from every planet where it appears."
+	]
+	quest.AD03000000000800.title: "Etrium Ingot"
+	quest.AD03000000000900.quest_desc: [
+		"The &3Etrionic Core&r is an advanced power component crafted from Etrium. Used in high-tier machines and the Etrionic Capacitor."
+		""
+		"Represents the bridge between space materials and advanced energy systems."
+	]
+	quest.AD03000000000900.title: "Etrionic Core"
+	quest.AD04000000000100.quest_desc: [
+		"&3Desh Ingots&r are smelted from Moon-mined Desh Ore. The primary material for Tier 2 rocket components."
+		""
+		"Process into sheets and rods via Create pressing and rolling for engine and tank construction."
+	]
+	quest.AD04000000000100.title: "Desh Ingot"
+	quest.AD04000000000200.quest_desc: [
+		"The &3Desh Engine&r is the Tier 2 rocket engine. More powerful than steel, it can reach Mars and Mercury."
+		""
+		"Requires an Engine Frame and Desh components. Built at the NASA Workbench."
+	]
+	quest.AD04000000000200.title: "Desh Engine"
+	quest.AD04000000000300.quest_desc: [
+		"The &3Desh Tank&r is the Tier 2 fuel tank. Holds 3,000 mB of fuel — use &3Liquid Propane&r for Tier 2 launches."
+		""
+		"Higher-density fuel for longer-range missions to the inner planets."
+	]
+	quest.AD04000000000300.title: "Desh Tank"
+	quest.AD04000000000400.quest_desc: [
+		"Produce &3Liquid Propane&r — the Tier 2 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine a Coal Block + 100 mB Water + 20 mB Sulfuric Acid to produce Propane gas."
+		""
+		"Condensate via &3Rotary Condensentrator&r. &eLook at your Rotary Condensentrator to complete this quest&r."
+	]
+	quest.AD04000000000400.title: "Liquid Propane"
+	quest.AD04000000000500.quest_desc: [
+		"The &3Desh Rocket&r is your Tier 2 spacecraft. Reaches Mars and Mercury — planets with valuable ores and harsh conditions."
+		""
+		"Fuel with 3,000 mB of Liquid Propane. Mars has Ostrum, Mercury has Nickel and Iron. &eBring oxygen and supplies&r."
+	]
+	quest.AD04000000000500.title: "Desh Rocket"
+	quest.AD04000000000600.quest_desc: [
+		"&3Ostrum Ore&r is found on Mars. This heat-resistant metal is essential for Tier 3 rocket construction — the fireproof Ostrum Rocket."
+		""
+		"Mars also has Diamond, Osmium, and Desh deposits worth mining."
+	]
+	quest.AD04000000000600.title: "Ostrum Ore"
+	quest.AD04000000000700.quest_desc: [
+		"&3Mercury&r is a scorched, airless world with extreme day-side temperatures. Nickel, Iron, and Etrium ores can be found here."
+		""
+		"&eFire damage during the day is severe&r — time your surface expeditions carefully or bring fire resistance."
+	]
+	quest.AD04000000000700.title: "Mercury"
+	quest.AD04000000000800.quest_desc: [
+		"The &3Etrionic Capacitor&r is an advanced energy storage component built from the Etrionic Core. Used in high-tier space infrastructure."
+		""
+		"Represents mastery of Etrium-based power technology."
+	]
+	quest.AD04000000000800.title: "Etrionic Capacitor"
+	quest.AD05000000000100.quest_desc: [
+		"&3Ostrum Ingots&r are smelted from Mars-mined Ostrum Ore. Heat-resistant alloy used for Tier 3 rocket components."
+		""
+		"The Ostrum Rocket is fireproof — essential for Venus where acid rain melts lesser materials."
+	]
+	quest.AD05000000000100.title: "Ostrum Ingot"
+	quest.AD05000000000200.quest_desc: [
+		"The &3Ostrum Engine&r is the Tier 3 rocket engine. Heat-shielded for Venus atmospheric entry."
+		""
+		"Requires an Engine Frame and Ostrum components. Built at the NASA Workbench."
+	]
+	quest.AD05000000000200.title: "Ostrum Engine"
+	quest.AD05000000000300.quest_desc: [
+		"The &3Ostrum Tank&r is the Tier 3 fuel tank. Holds 3,000 mB — fueled with &3Liquid Ethylene&r for hostile world missions."
+		""
+		"Ostrum construction withstands Venus's extreme 464°C surface temperature."
+	]
+	quest.AD05000000000300.title: "Ostrum Tank"
+	quest.AD05000000000400.quest_desc: [
+		"Produce &3Liquid Ethylene&r — the Tier 3 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine Wheat Seeds + 100 mB Water + 20 mB Sulfuric Acid to produce Ethylene gas."
+		""
+		"Condensate via &3Rotary Condensentrator&r. &eAlternatively, crack Propane with Superheated Sodium in a Chemical Infuser for 1.5x yield&r."
+	]
+	quest.AD05000000000400.title: "Liquid Ethylene"
+	quest.AD05000000000500.quest_desc: [
+		"The &3Ostrum Rocket&r is your Tier 3 spacecraft — fireproof and built for hostile worlds. Venus and Glacio are now within reach."
+		""
+		"Venus has Calorite — the final tier metal. &eBeware acid rain on Venus and freezing temperatures on Glacio&r."
+	]
+	quest.AD05000000000500.title: "Ostrum Rocket"
+	quest.AD05000000000600.quest_desc: [
+		"&3Calorite Ore&r is found only on Venus — the hottest planet at 464°C with corrosive acid rain. This ultimate material enables Tier 4 rocketry."
+		""
+		"Mine quickly and return to orbit. &eThe Netherite Space Suit provides fire resistance for Venus operations&r."
+	]
+	quest.AD05000000000600.title: "Calorite Ore"
+	quest.AD05000000000700.quest_desc: [
+		"&3Glacio&r is a frozen world with a thin atmosphere and permafrost terrain. Etrium, Lapis, Silver, and Iron ores are present."
+		""
+		"The thin atmosphere is not breathable — oxygen equipment is still required."
+	]
+	quest.AD05000000000700.title: "Glacio"
+	quest.AD05000000000800.quest_desc: [
+		"The &3Netherite Space Suit&r is a fire-resistant upgrade with 4,000 mB oxygen capacity. Essential for Venus expeditions where acid rain and extreme heat are constant threats."
+		""
+		"Crafted by upgrading the standard Space Suit with Netherite ingots at a Smithing Table."
+	]
+	quest.AD05000000000800.title: "Netherite Space Suit"
+	quest.AD05000000000900.quest_desc: [
+		"The &3Wireless Power Relay&r transmits FE/RF power without cables. Useful for powering remote equipment on planetary surfaces."
+		""
+		"Made with Ostrum components. Place in line-of-sight for reliable power transmission."
+	]
+	quest.AD05000000000900.title: "Wireless Power Relay"
+	quest.AD06000000000100.quest_desc: [
+		"&3Calorite Ingots&r are smelted from Venus-mined Calorite Ore. The most advanced material in the solar system — used for Tier 4 rocket construction."
+		""
+		"The Calorite Rocket is fuel-efficient, using only 2,000 mB per launch with efficient fuels."
+	]
+	quest.AD06000000000100.title: "Calorite Ingot"
+	quest.AD06000000000200.quest_desc: [
+		"The &3Calorite Engine&r is the Tier 4 rocket engine — the most powerful propulsion system available. Reaches every destination in the solar system and beyond."
+		""
+		"Requires an Engine Frame and Calorite components. Built at the NASA Workbench."
+	]
+	quest.AD06000000000200.title: "Calorite Engine"
+	quest.AD06000000000300.quest_desc: [
+		"The &3Calorite Tank&r is the Tier 4 fuel tank. Holds 3,000 mB of fuel — use &3Liquid Methane&r for maximum efficiency."
+		""
+		"With efficient fuel tags, the Calorite Rocket consumes only 2,000 mB per launch."
+	]
+	quest.AD06000000000300.title: "Calorite Tank"
+	quest.AD06000000000400.quest_desc: [
+		"Produce &3Liquid Methane&r — the Tier 4 rocket fuel. In a &3Pressurized Reaction Chamber&r, combine Rotten Flesh + 100 mB Water + 10 mB Hydrogen to produce 300 mB Methane gas."
+		""
+		"Hydrogen comes from the &3Electrolytic Separator&r. Methane has 3x higher yield than other fuels — &emob farms make this very efficient&r."
+	]
+	quest.AD06000000000400.title: "Liquid Methane"
+	quest.AD06000000000500.quest_desc: [
+		"The &3Calorite Rocket&r is the ultimate spacecraft. All destinations in the solar system are now accessible — Moon, Mars, Venus, Mercury, Glacio, and Earth Orbit."
+		""
+		"At the planet selection screen, a mysterious &e???&r option appears. Exoplanets beyond our solar system await the bold."
+	]
+	quest.AD06000000000500.title: "Calorite Rocket"
+	quest.AD06000000000600.quest_desc: [
+		"&3Earth Orbit&r is a void dimension for constructing space stations. Zero gravity with Earth visible below and a sky of 100,000 stars."
+		""
+		"Build your orbital platform using oxygen distributors and gravity normalizers. The ultimate base of operations."
+	]
+	quest.AD06000000000600.title: "Earth Orbit"
+	quest.AD06000000000700.quest_desc: [
+		"The &3Jet Suit&r is the pinnacle of space suit technology. Built-in flight capability using Nitrogen gas, 8,000 mB oxygen capacity, and maximum protection."
+		""
+		"Requires Calorite components. &eThe ultimate equipment for planetary exploration and orbital construction&r."
+	]
+	quest.AD06000000000700.title: "Jet Suit"
+	quest.AD06000000000800.quest_desc: [
+		"With the &3Calorite Rocket&r, the mysterious &e???&r destination on the planet selector unlocks access to exoplanets beyond our solar system — over 20 unique worlds to discover."
+		""
+		"Kepler-22b, Proxima b, TRAPPIST-1e, and more await. Each world has unique terrain, biomes, and resources. &eThe universe is yours to explore&r."
+	]
+	quest.AD06000000000800.title: "Beyond the Stars"
 	quest.B392A920E35E6435.title: "Red Pigment Bee"
 	quest.C001000000000001.quest_desc: [
 		"When you die in this world, your items are stored in a grave at your death location. You also receive a Grave Key that marks the grave's position and allows retrieval."
@@ -12207,6 +12791,11 @@
 	task.7E0D9E6342295AB0.title: "Foreword on Channels"
 	task.7EB95246A2F0981D.title: "Acceleration Rune"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
+	task.AD030000000003A1.title: "Observe Rotary Condensentrator"
+	task.AD040000000004A1.title: "Observe Rotary Condensentrator"
+	task.AD050000000004A1.title: "Observe Rotary Condensentrator"
+	task.AD060000000004A1.title: "Observe Rotary Condensentrator"
+	task.AD060000000008A1.title: "Beyond the Stars"
 	task.C001000000000103.title: "Experience the Ghostly Shape effect after death"
 	task.C004000000000101.title: "Find and observe a Grave Soul"
 	task.C004000000000102.title: "Use an item on a Grave Soul"
