@@ -32,7 +32,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.5d
+			size: 3.0d
 			tasks: [{
 				id: "36DD8D81EC207361"
 				item: { count: 1, id: "adastramekanized:nasa_workbench" }
@@ -42,7 +42,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["38FB03D6124774A4"]
+			dependencies: [
+				"035C08A1F2A6F0F9"
+				"78EDD74C23A37F6A"
+			]
 			icon: {
 				id: "adastramekanized:launch_pad"
 			}
@@ -59,66 +62,8 @@
 				item: { count: 1, id: "adastramekanized:launch_pad" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 10.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["38FB03D6124774A4"]
-			icon: {
-				id: "adastramekanized:engine_frame"
-			}
-			id: "5570DFE6B39DB6FF"
-			rewards: [{
-				id: "447799E46DCDDDED"
-				type: "xp"
-				xp: 25
-			}]
-			size: 1.2d
-			tasks: [{
-				id: "75EA6377FF51A714"
-				item: { count: 1, id: "adastramekanized:engine_frame" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["38FB03D6124774A4"]
-			icon: {
-				id: "adastramekanized:rocket_nose_cone"
-			}
-			id: "4C7454B5FA293A81"
-			rewards: [{
-				id: "7BCE56BDAC564B07"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "38AE693F0AD882B1"
-				item: { count: 1, id: "adastramekanized:rocket_nose_cone" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["38FB03D6124774A4"]
-			icon: {
-				id: "adastramekanized:rocket_fin"
-			}
-			id: "2B177000C5745E1E"
-			rewards: [{
-				id: "642979F08CC2F373"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "7376FBB876E1621E"
-				item: { count: 1, id: "adastramekanized:rocket_fin" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["38FB03D6124774A4"]
@@ -136,8 +81,8 @@
 				item: { count: 1, id: "adastramekanized:gas_tank" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5C2731505A71E59A"]
@@ -150,14 +95,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "6AABEADF8B72EFA5"
 				item: { count: 1, id: "adastramekanized:large_gas_tank" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: -1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["38FB03D6124774A4"]
@@ -171,18 +116,19 @@
 				type: "xp"
 				xp: 25
 			}]
+			size: 1.2d
 			tasks: [{
 				id: "591AB45BD39D2BDC"
 				item: { count: 1, id: "adastramekanized:steel_sheetblock" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["38FB03D6124774A4"]
+			dependencies: ["6C720600A3BF131E"]
 			icon: {
-				id: "adastramekanized:steel_door"
+				id: "adastramekanized:iron_sliding_door"
 			}
 			id: "743ABB74DCAB5536"
 			optional: true
@@ -191,19 +137,17 @@
 				type: "xp"
 				xp: 25
 			}]
+			size: 1.2d
 			tasks: [{
-				id: "2910022355D769A9"
-				item: { count: 1, id: "adastramekanized:steel_door" }
+				id: "63CB0D8B29377BA4"
+				item: { count: 1, id: "adastramekanized:iron_sliding_door" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 7.199999999999999d
+			y: 2.4d
 		}
 		{
-			dependencies: [
-				"38FB03D6124774A4"
-				"5E72E73CE620FEDE"
-			]
+			dependencies: ["5C2731505A71E59A"]
 			icon: {
 				id: "adastramekanized:oxygen_gear"
 			}
@@ -213,14 +157,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			size: 1.2d
+			size: 1.0d
 			tasks: [{
 				id: "211AF790355E97EA"
 				item: { count: 1, id: "adastramekanized:oxygen_gear" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38FB03D6124774A4"]
@@ -233,19 +177,17 @@
 				type: "xp"
 				xp: 25
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "7A8017A0613B9A6E"
 				item: { count: 1, id: "adastramekanized:fan" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 2.5d
+			y: -0.02d
 		}
 		{
-			dependencies: [
-				"0F48D249CD996D1E"
-				"5C2731505A71E59A"
-			]
+			dependencies: ["0F48D249CD996D1E"]
 			icon: {
 				id: "adastramekanized:space_suit"
 			}
@@ -255,8 +197,8 @@
 				type: "xp"
 				xp: 75
 			}]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "pentagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "46930360D95A8139"
@@ -279,14 +221,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"0F48D249CD996D1E"
-				"4AF27676D0509E95"
-			]
+			dependencies: ["2804419CD7EDF975"]
 			icon: {
 				id: "adastramekanized:oxygen_distributor"
 			}
@@ -303,31 +242,33 @@
 				item: { count: 1, id: "adastramekanized:oxygen_distributor" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 15.0d
+			y: -3.75d
 		}
 		{
-			dependencies: ["754E9252986FDD58"]
+			dependencies: ["500E9F77A78442F0"]
 			icon: {
 				id: "adastramekanized:gravity_normalizer"
 			}
 			id: "3529F6A96E3B70A4"
+			optional: true
 			rewards: [{
 				id: "381C92B1691E50D7"
 				type: "xp"
 				xp: 50
 			}]
-			size: 1.2d
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "3D31C55CC57F0590"
 				item: { count: 1, id: "adastramekanized:gravity_normalizer" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: 27.75d
+			y: -8.25d
 		}
 		{
-			dependencies: ["5570DFE6B39DB6FF"]
+			dependencies: ["4AF27676D0509E95"]
 			icon: {
 				id: "adastramekanized:steel_engine"
 			}
@@ -337,14 +278,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "0195495B67EDBA2E"
 				item: { count: 1, id: "adastramekanized:steel_engine" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 5.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C2731505A71E59A"]
@@ -357,14 +298,14 @@
 				type: "xp"
 				xp: 50
 			}]
-			size: 1.2d
+			size: 1.0d
 			tasks: [{
 				id: "072FD6EF246F3C59"
 				item: { count: 1, id: "adastramekanized:steel_tank" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -380,8 +321,8 @@
 				type: "xp"
 				xp: 75
 			}]
-			shape: "diamond"
-			size: 1.2d
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "1C9EEA6D65547833"
 				observe_type: 0
@@ -389,17 +330,15 @@
 				to_observe: "mekanism:rotary_condensentrator"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"77AFEFB6FC50C35F"
 				"745BF38ABF72BFCB"
-				"78EDD74C23A37F6A"
-				"4C7454B5FA293A81"
-				"2B177000C5745E1E"
 				"1424B805C2668794"
+				"6C720600A3BF131E"
 			]
 			icon: {
 				id: "adastramekanized:tier_1_rocket"
@@ -411,57 +350,17 @@
 				xp: 150
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "0329E00510A750C6"
 				item: { count: 1, id: "adastramekanized:tier_1_rocket" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.25d
 			y: 0.0d
 		}
 		{
-			dependencies: ["035C08A1F2A6F0F9"]
-			icon: {
-				id: "adastramekanized:moon_desh_ore"
-			}
-			id: "5B63FFB69E66EE8C"
-			rewards: [{
-				id: "69773A111B547D91"
-				type: "xp"
-				xp: 50
-			}]
-			shape: "pentagon"
-			size: 1.2d
-			tasks: [{
-				id: "7BF30A4689E2D196"
-				item: { count: 1, id: "adastramekanized:moon_desh_ore" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["035C08A1F2A6F0F9"]
-			icon: {
-				id: "adastramekanized:moon_etrium_ore"
-			}
-			id: "74EC6AC2A5607E1A"
-			rewards: [{
-				id: "419D17EA253642A7"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "5F9FE9B624E3441F"
-				item: { count: 1, id: "adastramekanized:moon_etrium_ore" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["035C08A1F2A6F0F9"]
+			dependencies: ["79D878C0A90C6290"]
 			icon: {
 				id: "adastramekanized:cheese"
 			}
@@ -472,16 +371,17 @@
 				type: "xp"
 				xp: 25
 			}]
+			size: 1.2d
 			tasks: [{
 				id: "44621AB8DAB450A1"
 				item: { count: 1, id: "adastramekanized:cheese" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 12.75d
+			y: -1.5d
 		}
 		{
-			dependencies: ["74EC6AC2A5607E1A"]
+			dependencies: ["79D878C0A90C6290"]
 			icon: {
 				id: "adastramekanized:etrium_ingot"
 			}
@@ -497,8 +397,8 @@
 				item: { count: 1, id: "adastramekanized:etrium_ingot" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.0d
+			x: 13.2d
+			y: -4.8d
 		}
 		{
 			dependencies: ["20C2C426DC03E89D"]
@@ -511,18 +411,18 @@
 				type: "xp"
 				xp: 75
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "220EA36EA1C6C634"
 				item: { count: 1, id: "adastramekanized:etrionic_core" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -2.0d
+			x: 15.75d
+			y: -6.75d
 		}
 		{
-			dependencies: ["5B63FFB69E66EE8C"]
+			dependencies: ["79D878C0A90C6290"]
 			icon: {
 				id: "adastramekanized:desh_ingot"
 			}
@@ -538,14 +438,11 @@
 				item: { count: 1, id: "adastramekanized:desh_ingot" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 13.2d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"2804419CD7EDF975"
-				"5570DFE6B39DB6FF"
-			]
+			dependencies: ["2804419CD7EDF975"]
 			icon: {
 				id: "adastramekanized:desh_engine"
 			}
@@ -561,8 +458,8 @@
 				item: { count: 1, id: "adastramekanized:desh_engine" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 1.0d
+			x: 15.0d
+			y: 1.2d
 		}
 		{
 			dependencies: ["2804419CD7EDF975"]
@@ -581,8 +478,8 @@
 				item: { count: 1, id: "adastramekanized:desh_tank" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: -1.0d
+			x: 15.0d
+			y: -1.2d
 		}
 		{
 			dependencies: [
@@ -598,8 +495,8 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "diamond"
-			size: 1.2d
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "4327974485B7CED4"
 				observe_type: 0
@@ -607,16 +504,14 @@
 				to_observe: "mekanism:rotary_condensentrator"
 				type: "observation"
 			}]
-			x: 19.5d
-			y: 3.0d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"27F1AB4DBE9299EA"
 				"01918212BE658C67"
 				"79C63DCA244D6652"
-				"4C7454B5FA293A81"
-				"2B177000C5745E1E"
 			]
 			icon: {
 				id: "adastramekanized:tier_2_rocket"
@@ -628,55 +523,14 @@
 				xp: 200
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "1D9CCA7ED6A7E8E9"
 				item: { count: 1, id: "adastramekanized:tier_2_rocket" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 17.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["17BDDF285A7BF6E8"]
-			icon: {
-				id: "adastramekanized:mars_ostrum_ore"
-			}
-			id: "1573224D400EA477"
-			rewards: [{
-				id: "7914BD066600E0A9"
-				type: "xp"
-				xp: 75
-			}]
-			shape: "pentagon"
-			size: 1.2d
-			tasks: [{
-				id: "2F652AFFA41D05F3"
-				item: { count: 1, id: "adastramekanized:mars_ostrum_ore" }
-				type: "item"
-			}]
-			x: 25.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["17BDDF285A7BF6E8"]
-			icon: {
-				id: "adastramekanized:mercury_stone"
-			}
-			id: "112B6E550F86C719"
-			optional: true
-			rewards: [{
-				id: "4826642EF04B86F3"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "44E6D8033863DC9F"
-				item: { count: 1, id: "adastramekanized:mercury_stone" }
-				type: "item"
-			}]
-			x: 25.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["0C45AE04F373E488"]
@@ -689,17 +543,17 @@
 				type: "xp"
 				xp: 75
 			}]
-			size: 1.2d
+			size: 1.5d
 			tasks: [{
 				id: "4586C0574F569B33"
 				item: { count: 1, id: "adastramekanized:etrionic_capacitor" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: -3.0d
+			x: 25.5d
+			y: -6.75d
 		}
 		{
-			dependencies: ["1573224D400EA477"]
+			dependencies: ["17BDDF285A7BF6E8"]
 			icon: {
 				id: "adastramekanized:ostrum_ingot"
 			}
@@ -715,14 +569,11 @@
 				item: { count: 1, id: "adastramekanized:ostrum_ingot" }
 				type: "item"
 			}]
-			x: 28.0d
+			x: 20.4d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1FAB7F02E2768319"
-				"5570DFE6B39DB6FF"
-			]
+			dependencies: ["1FAB7F02E2768319"]
 			icon: {
 				id: "adastramekanized:ostrum_engine"
 			}
@@ -738,8 +589,8 @@
 				item: { count: 1, id: "adastramekanized:ostrum_engine" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 1.0d
+			x: 22.2d
+			y: 1.2d
 		}
 		{
 			dependencies: ["1FAB7F02E2768319"]
@@ -758,8 +609,8 @@
 				item: { count: 1, id: "adastramekanized:ostrum_tank" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: -1.0d
+			x: 22.2d
+			y: -1.2d
 		}
 		{
 			dependencies: [
@@ -775,8 +626,8 @@
 				type: "xp"
 				xp: 125
 			}]
-			shape: "diamond"
-			size: 1.2d
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "57BC1E8EC6B90AF2"
 				observe_type: 0
@@ -784,16 +635,15 @@
 				to_observe: "mekanism:rotary_condensentrator"
 				type: "observation"
 			}]
-			x: 30.5d
-			y: 3.0d
+			x: 23.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"4F97D7BF13F5FADF"
 				"3128EC4EAD376AA0"
 				"647D1138CBD31EFF"
-				"4C7454B5FA293A81"
-				"2B177000C5745E1E"
+				"6BBA74206EF601EA"
 			]
 			icon: {
 				id: "adastramekanized:tier_3_rocket"
@@ -805,58 +655,17 @@
 				xp: 300
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "016C23D4E622EC30"
 				item: { count: 1, id: "adastramekanized:tier_3_rocket" }
 				type: "item"
 			}]
-			x: 33.0d
+			x: 24.75d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2E74AE2A7CC63735"]
-			icon: {
-				id: "adastramekanized:venus_calorite_ore"
-			}
-			id: "1375FCBC1C21908C"
-			rewards: [{
-				id: "2FCB0099F7852BED"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "pentagon"
-			size: 1.2d
-			tasks: [{
-				id: "784A614CA6D682D1"
-				item: { count: 1, id: "adastramekanized:venus_calorite_ore" }
-				type: "item"
-			}]
-			x: 36.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E74AE2A7CC63735"]
-			icon: {
-				id: "adastramekanized:glacio_stone"
-			}
-			id: "347BD37A72DFB785"
-			optional: true
-			rewards: [{
-				id: "2C5D3D2C6F78A617"
-				type: "xp"
-				xp: 75
-			}]
-			tasks: [{
-				id: "12C46EB53AA76AC4"
-				item: { count: 1, id: "adastramekanized:glacio_stone" }
-				type: "item"
-			}]
-			x: 36.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1424B805C2668794"]
+			dependencies: ["1FAB7F02E2768319"]
 			icon: {
 				id: "adastramekanized:netherite_space_suit"
 			}
@@ -867,7 +676,7 @@
 				xp: 150
 			}]
 			shape: "pentagon"
-			size: 1.5d
+			size: 2.0d
 			tasks: [
 				{
 					id: "2CE8C0919F44E04D"
@@ -890,11 +699,14 @@
 					type: "item"
 				}
 			]
-			x: 28.0d
-			y: -6.0d
+			x: 22.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["1FAB7F02E2768319"]
+			dependencies: [
+				"0C45AE04F373E488"
+				"754E9252986FDD58"
+			]
 			icon: {
 				id: "adastramekanized:wireless_power_relay"
 			}
@@ -905,16 +717,17 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "12C4AA9319E3D236"
 				item: { count: 1, id: "adastramekanized:wireless_power_relay" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: -2.0d
+			x: 18.75d
+			y: -3.75d
 		}
 		{
-			dependencies: ["1375FCBC1C21908C"]
+			dependencies: ["2E74AE2A7CC63735"]
 			icon: {
 				id: "adastramekanized:calorite_ingot"
 			}
@@ -930,13 +743,13 @@
 				item: { count: 1, id: "adastramekanized:calorite_ingot" }
 				type: "item"
 			}]
-			x: 39.0d
+			x: 27.599999999999998d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"78CA03006E1CB387"
-				"5570DFE6B39DB6FF"
+				"500E9F77A78442F0"
 			]
 			icon: {
 				id: "adastramekanized:calorite_engine"
@@ -953,8 +766,8 @@
 				item: { count: 1, id: "adastramekanized:calorite_engine" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 1.0d
+			x: 29.4d
+			y: -1.2d
 		}
 		{
 			dependencies: ["78CA03006E1CB387"]
@@ -973,8 +786,8 @@
 				item: { count: 1, id: "adastramekanized:calorite_tank" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: -1.0d
+			x: 29.4d
+			y: 1.2d
 		}
 		{
 			dependencies: [
@@ -991,8 +804,8 @@
 				type: "xp"
 				xp: 200
 			}]
-			shape: "diamond"
-			size: 1.2d
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "1B261D065AA639C8"
 				observe_type: 0
@@ -1000,16 +813,14 @@
 				to_observe: "mekanism:rotary_condensentrator"
 				type: "observation"
 			}]
-			x: 41.5d
-			y: 3.0d
+			x: 30.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"571D753E9E55836D"
 				"2EDA50BA4F70A6B8"
 				"632BC0A69B575B44"
-				"4C7454B5FA293A81"
-				"2B177000C5745E1E"
 			]
 			icon: {
 				id: "adastramekanized:tier_4_rocket"
@@ -1027,15 +838,16 @@
 				item: { count: 1, id: "adastramekanized:tier_4_rocket" }
 				type: "item"
 			}]
-			x: 44.0d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0920F669F4AAE603"]
+			dependencies: ["79D878C0A90C6290"]
 			icon: {
-				id: "adastramekanized:etrionic_capacitor"
+				id: "adastramekanized:marked_iron_pillar"
 			}
 			id: "5D8206EAD7606049"
+			optional: true
 			rewards: [{
 				id: "0E8D702CE1068622"
 				type: "xp"
@@ -1048,13 +860,14 @@
 				id: "553A9571E22930CA"
 				type: "dimension"
 			}]
-			x: 47.0d
-			y: 0.0d
+			x: 12.75d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"1424B805C2668794"
 				"78CA03006E1CB387"
+				"500E9F77A78442F0"
+				"6BBA74206EF601EA"
 			]
 			icon: {
 				id: "adastramekanized:jet_suit"
@@ -1066,7 +879,7 @@
 				xp: 300
 			}]
 			shape: "pentagon"
-			size: 1.5d
+			size: 3.0d
 			tasks: [
 				{
 					id: "5E2D20FC4CABD823"
@@ -1089,13 +902,13 @@
 					type: "item"
 				}
 			]
-			x: 39.0d
-			y: -6.0d
+			x: 26.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0920F669F4AAE603"]
 			icon: {
-				id: "adastramekanized:calorite_engine"
+				id: "adastramekanized:astronomer_journal"
 			}
 			id: "5A96238A12640E31"
 			rewards: [{
@@ -1104,13 +917,13 @@
 				xp: 500
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				id: "0631AF292B2FA52D"
 				type: "checkmark"
 			}]
-			x: 47.0d
-			y: -2.5d
+			x: 36.0d
+			y: 0.0d
 		}
 	]
 }
