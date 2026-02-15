@@ -14,6 +14,7 @@
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
 	chapter.282448C70744895F.title: "Apotheosis Enchanting"
 	chapter.3456E0C530C0038E.title: "EvilCraft"
+	chapter.3513F80512D383A9.title: "Culinary Arts"
 	chapter.492649F619082A45.title: "Aquaculture"
 	chapter.4FACE7A7426CE1A5.title: "Epic Fight"
 	chapter.5347000000000000.title: "Silent Gear"
@@ -25,6 +26,7 @@
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells 'N Spellbooks"
 	chapter.AD00000000000000.title: "Ad Astra Mekanized"
 	chapter.C000000000000000.title: "Corail Tombstone"
+	chapter.F000000000000000.title: "Culinary Arts"
 	quest.0001000000000001.quest_desc: ["Iron's Spells uses spell scrolls as consumable magic. Craft scrolls at the Scroll Forge using paper, ink, and a Focus item to inscribe specific spells."]
 	quest.0001000000000001.title: "Spell Scroll System"
 	quest.0001000000000002.quest_desc: ["Arcane Essence drops from hostile mobs and magical creatures. This is the primary crafting material for spell-related items."]
@@ -522,6 +524,12 @@
 		"Bouncing, dropping, detection, blinking, and splitting upgrades each serve different purposes."
 	]
 	quest.06094615950AC062.title: "Other Conveyor Upgrades"
+	quest.0620BC687002FA4C.quest_desc: [
+		"Craft a &3Butcher Knife&r — the core tool of &aButchercraft&r. Right-click an animal to slaughter it and produce a carcass instead of standard drops."
+		""
+		"Additional specialized knives exist: &3Skinning Knife&r for hides, &3Gut Knife&r for organs, and &3Bone Saw&r for bone processing. Each yields different products from the same animal."
+	]
+	quest.0620BC687002FA4C.title: "Butcher Knife"
 	quest.0641F45BEA6C67E5.quest_subtitle: "Places water or extinguishes fire"
 	quest.06531A58975C09AB.quest_desc: [
 		"Craft a &3Gravitational Modulating Module&r — enables creative-mode-like flight when installed in MekaSuit pants. Fly freely in any direction."
@@ -604,6 +612,12 @@
 	quest.078B69E9362A5496.title: "Sulfuric Acid Setup"
 	quest.078C5B50CDC174CB.quest_desc: ["&aMechanical Bearings&r are the most simple forms of &aContraption&r movement. \\n\\nWhen given &dRotational Power&r from their bottom, they will rotate any Blocks above at the same Speed and Direction. \\nBlocks will automatically be &aGlued&r to the &aMechanical Bearing&r, but any other Blocks will need to be &aGlued&r to that Block to move as well! \\n\\nIf you use a &aMechanical Bearing&r within a &aContraption&r itself, it will try and keep the Block attached still instead of Rotating."]
 	quest.078C5B50CDC174CB.title: "&aMechanical Bearing"
+	quest.07C5558F20DCB8EE.quest_desc: [
+		"&3Salt&r ore generates in river biomes and is a key seasoning used across all food mods. Mine it when you find deposits near rivers."
+		""
+		"&eStock up on salt early — many recipes from Farmer's Delight, Extra Delight, and Brewin' and Chewin' require it as an ingredient.&r"
+	]
+	quest.07C5558F20DCB8EE.title: "Salt"
 	quest.07CE305C8C7AAAF5.quest_desc: ["Catch 5 Atlantic Halibut. A large flatfish found in cold waters."]
 	quest.07CE305C8C7AAAF5.quest_subtitle: "Cold Water Fish"
 	quest.07CE305C8C7AAAF5.title: "Atlantic Halibut Collection"
@@ -2200,6 +2214,12 @@
 	quest.18EB2170CAC48E99.title: "Teleportation Module"
 	quest.18F948FF9FE015FB.quest_subtitle: "Feed a Vanilla Bee TNT"
 	quest.18F948FF9FE015FB.title: "CreeBee"
+	quest.19205B1AD2C582F4.quest_desc: [
+		"Craft a &3Dough Shaping&r station to form dough into specific shapes before baking — loaves, rolls, baguettes, and pastry shells."
+		""
+		"The pipeline flows: grind grain at the &3Mortar&r → mix dough in the &3Mixing Bowl&r → shape at this station → bake in the &3Oven&r."
+	]
+	quest.19205B1AD2C582F4.title: "Dough Shaping"
 	quest.19542103E042BDB5.title: "Shadow-Walker Outfit"
 	quest.195D738428EE7F5F.quest_desc: ["Maximum will storage. Required for the most powerful sentient items."]
 	quest.195D738428EE7F5F.title: "Greater Tartaric Gem"
@@ -2351,6 +2371,12 @@
 		"Use them to connect your vortex tube to machines that need heat without placing them adjacent."
 	]
 	quest.1AF029024723BE5F.title: "Heat Pipe"
+	quest.1B0A5934DBD0CE45.quest_desc: [
+		"Craft a &3Mortar&r and a pestle to grind ingredients into flour, spice powders, and pastes. Pestles come in multiple material tiers — stone, granite, diorite, deepslate, and amethyst."
+		""
+		"&3Flour&r is a foundational ingredient for breads, pastries, and batters. &eHigher-tier pestles have more durability but produce the same results.&r"
+	]
+	quest.1B0A5934DBD0CE45.title: "Mortar \\& Pestle"
 	quest.1B15A18F49A553CE.quest_desc: [
 		"Build an emergency SCRAM button using a &3Daylight Detector&r or lever connected to your reactor safety circuit. One press should immediately halt all fuel injection."
 		""
@@ -2736,6 +2762,12 @@
 		"Right-click a block to create an array. Different items placed on arrays trigger different effects."
 	]
 	quest.1F3B9803AFAEED5F.title: "Arcane Ashes"
+	quest.1F4976E8BB051356.quest_desc: [
+		"Each cooking method has a complexity multiplier that affects food quality. Raw food scores 0.5x while advanced methods score much higher: &3Cutting Board&r 1.1x, &3Mixing Bowl&r 1.2x, &3Cooking Pot&r/&3Skillet&r 1.3x, &3Fermentation&r 1.4x, &3Oven&r 1.5x, multi-station 1.8x, and &3Feast&r 2.0x."
+		""
+		"&eHigher complexity means better hunger and saturation from each bite.&r Explore the cooking branches to unlock the most efficient food sources."
+	]
+	quest.1F4976E8BB051356.title: "Cooking Complexity"
 	quest.1F7591DB6D8EC1E7.quest_desc: [
 		"Buffs:"
 		""
@@ -3067,6 +3099,12 @@
 	quest.24E800EEC2CAD626.quest_desc: ["Audible radiation warning. Clicks when radiation is detected. Intensity indicates radiation level. Alternative to dosimeter for audio cues."]
 	quest.24E800EEC2CAD626.quest_subtitle: "Helmet"
 	quest.24E800EEC2CAD626.title: "Geiger Module"
+	quest.24EC23B36C6360AE.quest_desc: [
+		"Craft &3Rich Soil&r by combining dirt with organic matter like bone meal or compost. It boosts crop growth speed by 20% per random tick when placed under farmland."
+		""
+		"Place it beneath your crop rows for noticeably faster harvests. &eEspecially useful for slow-growing crops from Croptopia and Extra Delight.&r"
+	]
+	quest.24EC23B36C6360AE.title: "Rich Soil"
 	quest.2515569C8F052C94.quest_desc: [
 		"Craft a &3Portable QIO Dashboard&r — access your entire QIO storage network from your inventory, anywhere in any dimension. The ultimate portable storage solution."
 		""
@@ -3474,6 +3512,12 @@
 		"Heat transfer is used in the &3Fuelwood Heater&r, &3Resistive Heater&r, and certain advanced setups. &eNiche but important for optimizing specific machine chains.&r"
 	]
 	quest.2A5A8A9C5E9DE906.title: "Basic Thermodynamic Conductor"
+	quest.2A75E1AC1100FBBE.quest_desc: [
+		"Craft a &3Butcher Block&r — the main workstation for processing carcasses into specific meat cuts, organs, and bones. Different animals yield different products."
+		""
+		"Cow carcasses produce beef cuts, pig carcasses produce pork cuts, and so on. &eProcess carcasses here rather than carrying them around to avoid debuffs.&r"
+	]
+	quest.2A75E1AC1100FBBE.title: "Butcher Block"
 	quest.2A787B99A8B0C767.quest_desc: [
 		"A very important block and a very common one! Can be crafted or found in most Iron Spells Structures."
 		""
@@ -3499,6 +3543,12 @@
 		"&eEach pellet requires a significant amount of plutonium gas.&r Ensure your waste processing pipeline is running efficiently."
 	]
 	quest.2ACCD912A5631F68.title: "Plutonium Pellet"
+	quest.2ACE8F60906D1E2D.quest_desc: [
+		"Process blood fluid into &3Blood Sausage&r — mix blood with casings to form &3Blood Sausage Mix&r, link them into &3Linked Blood Sausage&r, then cook for &3Cooked Blood Sausage&r."
+		""
+		"Blood also produces &3Dried Blood&r and &3Blood Meal&r as byproducts. &eCooked blood sausage is a high-nutrition food that counts as unique for Spice of Life diversity.&r"
+	]
+	quest.2ACE8F60906D1E2D.title: "Blood Products"
 	quest.2AD68066C1948C90.quest_desc: [
 		"The most powerful spirits require the most valuable offerings."
 		""
@@ -3544,6 +3594,12 @@
 		"Eldritch is the last class, the most powerful of all Spells. They are crafted with Echo Shards and need to be learned from the Manuscript to use them. Each Manuscript is only one use."
 	]
 	quest.2B901ECF97FFA181.title: "Eldritch"
+	quest.2B9D12DA33D2F5FC.quest_desc: [
+		"Craft a &3Heating Cask&r or &3Ice Crate&r to control fermentation temperature. Some recipes require heat (mulled wines, warm spirits), others need cold (lagers, chilled drinks)."
+		""
+		"Place the cask or crate adjacent to a &3Keg&r to modify its temperature. &eAdvanced drinks like mead and vodka require specific temperature conditions to ferment.&r"
+	]
+	quest.2B9D12DA33D2F5FC.title: "Temperature Control"
 	quest.2B9D39DF72342BDB.quest_desc: [
 		"Produce a &3Reinforced Alloy&r by infusing an &3Infused Alloy&r with diamond in the &3Metallurgic Infuser&r. This is the mid-tier alloy required for advanced circuits and mid-tier machines."
 		""
@@ -3881,6 +3937,12 @@
 	]
 	quest.30A1B0A1B54A0AEE.quest_subtitle: "Danger awaits"
 	quest.30A1B0A1B54A0AEE.title: "Exploration Tips"
+	quest.30AADF9171919283.quest_desc: [
+		"Carrying a carcass in your inventory inflicts debuffs — &3Bloody&r, &3Dirty Hands&r, &3Blood Trail&r (leaves visible tracks), &3Pungent Reek&r, and &3Blood Lust&r. These trigger randomly at a 1/1000 tick chance."
+		""
+		"&eProcess carcasses quickly at workstations to minimize exposure, or wear protective gear to block the effects entirely.&r"
+	]
+	quest.30AADF9171919283.title: "Blood \\& Debuffs"
 	quest.30AC43222FF9B18A.quest_desc: ["&5Train Signals&r are used with &5Conductors&r who aren't Players. \\n\\nThey place just like &5Train Stations&f and &5Observers&r, but the way they are placed determines the Arrow placement. \\n\\nThe Arrows will restrict where &5Conductors&r can pass their &5Trains&r, if the Arrow is facing the opposite way, the &5Train&r won't pass. \\n\\nYou can add two Signals facing opposite directions to let &5Conductors&r pass wherever you want. \\n\\nWith a bunch of &5Signals&r we can make Stop Lights for &7Track&r intersections. Place the &5Signals&r to where there are Arrows on both sides of the intersection. \\n\\nThis will make it so &5Trains&r will stop if another &5Train&r is in the intersection. That prevents collisions which Derail &5Trains&r. Derailed &5Trains&r will need a Wrench to put them back on &7Track&r!"]
 	quest.30AC43222FF9B18A.title: "&5Train Signals"
 	quest.30B7AF815D9D7553.quest_desc: [
@@ -4059,6 +4121,12 @@
 		""
 		"This is useful for preventing storage cells from becoming full and blocking further items from being stored."
 	]
+	quest.33C62FA4D7682BA8.quest_desc: [
+		"Craft a &3Mixing Bowl&r — the entry workstation for &aExtra Delight&r. It combines multiple ingredients into batters, doughs, and mixes that feed into other workstations."
+		""
+		"Mixing Bowl recipes score 1.2x complexity in &aSpice of Life&r. &eMany advanced recipes start here before moving to the oven or chiller.&r"
+	]
+	quest.33C62FA4D7682BA8.title: "Mixing Bowl"
 	quest.33D23C65E7274A8F.quest_desc: [
 		"To awaken your Supremium Essence, you'll need to create a new Altar and 4 new Pedestals, as well as 4 &cEssence Vessels&r."
 		""
@@ -4357,6 +4425,12 @@
 	]
 	quest.390E3B970CAF2964.title: "Radioactive Waste Barrel"
 	quest.392869A1DEB7EE20.quest_subtitle: "Pulls target closer to the caster"
+	quest.3928D491045F113B.quest_desc: [
+		"&aFarmer's Delight&r adds wild crops to world generation — &3Wild Onions&r, &3Wild Tomatoes&r, &3Wild Cabbages&r, and &3Wild Rice&r in swamps. These are core ingredients for many FD recipes."
+		""
+		"Find and replant them on your farm. &eWild crops also appear in village farm plots.&r"
+	]
+	quest.3928D491045F113B.title: "Wild Delights"
 	quest.393A7BA6768A3F56.quest_desc: ["Uses enchanted items to generate power. Great for recycling enchanted gear."]
 	quest.393A7BA6768A3F56.title: "Mycelial Disenchantment Generator"
 	quest.3942D3442241613E.quest_desc: [
@@ -4462,6 +4536,12 @@
 		"&ePair energy upgrades with speed upgrades to offset the increased power draw.&r A fully speed-upgraded machine with energy upgrades runs fast without draining your grid."
 	]
 	quest.3A69A40E16D1AAE2.title: "Energy Upgrade"
+	quest.3A8A792E3EAB116C.quest_desc: [
+		"Brew your first &3Beer&r in the &3Keg&r — a straightforward recipe that demonstrates the fermentation workflow. Drinks are served in a &3Tankard&r which is returned after drinking."
+		""
+		"Beer provides moderate hunger and saturation. &eEach unique alcoholic drink counts separately for Spice of Life diversity — brew different types to maximize your score.&r"
+	]
+	quest.3A8A792E3EAB116C.title: "Beer"
 	quest.3A8C7877655CDB70.quest_desc: ["Catch 5 Box Turtles. A slow but rewarding catch."]
 	quest.3A8C7877655CDB70.quest_subtitle: "Turtle"
 	quest.3A8C7877655CDB70.title: "Box Turtle Collection"
@@ -4765,6 +4845,12 @@
 		"&eInstall at the Modification Station.&r Each module level increases mining speed. At max level, the MekaTool mines nearly instantly."
 	]
 	quest.3E893BB96578EFCA.title: "Excavation Escalation Module"
+	quest.3E8AA7E69A4F233C.quest_desc: [
+		"&aExtra Delight&r adds 7 farmable crops — &3Chili&r, &3Garlic&r, &3Ginger&r, &3Corn&r, &3Mint&r, &3Peanut&r, and &3Mallow Root&r. These are key ingredients for many ED-specific recipes."
+		""
+		"Find seeds in the world or through JEI recipes. &eCorn grows two blocks tall, similar to sugar cane.&r"
+	]
+	quest.3E8AA7E69A4F233C.title: "Extra Delight Crops"
 	quest.3E9DFBDB961CC35D.quest_desc: [
 		"Craft a &3Chemical Injection Chamber&r -- Tier 3 ore processing. Feed in ore plus &3Hydrogen Chloride (HCl)&r gas to produce shards, then run them through your existing 3x chain."
 		""
@@ -4909,6 +4995,12 @@
 		"Ideal for deep water fishing where fish may be found at lower depths."
 	]
 	quest.40C92D2CC221B090.title: "Heavy Hook"
+	quest.40D532AE75393B54.quest_desc: [
+		"Use the &3Keg&r to produce an unripe &3Cheese Wheel&r, then place it in the world and wait for it to ripen. Break the ripened wheel to collect &3Cheese Wedges&r — available in Flaxen and Scarlet varieties."
+		""
+		"&eCheese wedges are a high-saturation food and count as unique items for Spice of Life diversity.&r Both varieties have different nutritional values."
+	]
+	quest.40D532AE75393B54.title: "Cheese Making"
 	quest.40E4F1172A164DD1.quest_subtitle: "Chance to Spawn when breaking Cocoa Pods in a Jungle"
 	quest.40E4F1172A164DD1.title: "Sugarbag Bee"
 	quest.40E6CC6CADC092C7.quest_desc: [
@@ -4951,6 +5043,12 @@
 		"&cWithout a hazmat suit, radiation exposure will damage and eventually kill you.&r &eAlways wear it when handling radioactive materials or working near active reactors.&r"
 	]
 	quest.416D59C9C09B4528.title: "Hazmat Suit"
+	quest.4178288941161FB4.quest_desc: [
+		"Craft an &3Oven&r for baking — breads, pastries, cakes, and roasted dishes. Oven recipes score 1.5x complexity, a significant quality boost over cooking pot recipes."
+		""
+		"The oven is the centerpiece of &aExtra Delight&r's baking pipeline. &ePair it with the Dough Shaping station for the full bread-making workflow.&r"
+	]
+	quest.4178288941161FB4.title: "Oven"
 	quest.418E57E34FFC19E1.quest_desc: ["Suggestion: Use some sort of Wither-Proof Glass."]
 	quest.418E57E34FFC19E1.quest_subtitle: "Void Miner"
 	quest.418E57E34FFC19E1.title: "Laser Drill"
@@ -5033,6 +5131,12 @@
 		"The drop rate is very low (approximately 1 in 96 catches). Luck-enhancing gear improves your odds. Be patient."
 	]
 	quest.422D7945AA0DFB0C.title: "Neptune's Bounty"
+	quest.4249C8965D376B85.quest_desc: [
+		"Craft a &3Flint Knife&r — the starting tool for &aFarmer's Delight&r. It harvests straw from grass, carves pumpkins, and serves as the input tool for the &3Cutting Board&r."
+		""
+		"An iron or diamond knife works the same way but with more durability. &eYou will use a knife constantly throughout FD progression.&r"
+	]
+	quest.4249C8965D376B85.title: "Flint Knife"
 	quest.427C3AFC0FF131CD.quest_desc: [
 		"The Fluid Placer and Fluid Collector handle fluid automation."
 		""
@@ -5690,6 +5794,12 @@
 	quest.4CD1061DF76666B2.title: "Rotary Condensentrator"
 	quest.4CE571F942461909.quest_desc: ["The &bTier 2 Ritual Satchel&f holds more items and types for complex rituals."]
 	quest.4CE571F942461909.title: "Advanced Ritual Satchel"
+	quest.4D09980A8A8F44E5.quest_desc: [
+		"Craft a &3Chiller&r to make frozen treats — ice cream, popsicles, and chilled desserts. The cold counterpart to the &3Melting Pot&r."
+		""
+		"Frozen desserts are unique food items that add variety to your diet. &eCombine melted chocolate from the Melting Pot with the Chiller for premium desserts.&r"
+	]
+	quest.4D09980A8A8F44E5.title: "Chiller"
 	quest.4D0B6C089B1E4B3B.quest_desc: [
 		"The Scroll of Preservation maintains your experience and beneficial potion effects after death."
 		""
@@ -5748,6 +5858,12 @@
 		"&eSpeed upgrades increase power consumption proportionally.&r Balance speed with energy upgrades for the sweet spot between performance and power draw."
 	]
 	quest.4E440AF2C12D1D97.title: "Speed Upgrade"
+	quest.4E568E165B87F6F1.quest_desc: [
+		"&aCroptopia&r adds dozens of crops that spawn naturally in specific biomes. Break tall grass and vegetation to find wild seeds — each biome has different crop types available."
+		""
+		"Start collecting early while exploring. &eThe more unique ingredients you stockpile, the more recipes you can cook later.&r"
+	]
+	quest.4E568E165B87F6F1.title: "Wild Crops"
 	quest.4E719CDE89D63317.quest_desc: ["Enhanced rune variants. Significantly more effective than standard runes."]
 	quest.4E719CDE89D63317.title: "Tier 2 Runes"
 	quest.4E7990AEBCCC3C95.quest_subtitle: "Tier: &c5"
@@ -5761,6 +5877,12 @@
 	]
 	quest.4E8A05C3BFA80540.quest_subtitle: "Items as a file system"
 	quest.4E8A05C3BFA80540.title: "The Storage"
+	quest.4EB1CE0BDDEAB89D.quest_desc: [
+		"&3Fruit Trees&r generate naturally in biome-appropriate locations — orange trees in warm biomes, apple variants in temperate forests, banana and coconut in jungles, and more."
+		""
+		"Harvest fruit by breaking the leaf blocks. &ePlant saplings to grow your own orchard for a renewable fruit supply.&r"
+	]
+	quest.4EB1CE0BDDEAB89D.title: "Fruit Trees"
 	quest.4EB555D995329F96.quest_desc: [
 		"Lava Sponges are found in small structures in the Nether. They function like regular sponges but absorb lava instead of water."
 		""
@@ -6140,6 +6262,12 @@
 	quest.51DE3157DE3E57B8.title: "Auto-Crafting"
 	quest.51EA6B1452883AB2.quest_desc: ["Linear Chasis work like Puddy in real life, only connecting to each other. \\n\\nLinear Chasis, which are facing the same way, will automatically connect as if they were Glued. Other Linear Chasis or ones facing different ways, will not stick together. \\n\\nYou can then use Glue on the Top and Bottom of the Linear Chasis to connect a line of Blocks from it. So all Blocks on top of those will be Glued to the Linear Chasis. Very helpful for saving Glue! \\n\\nWith the Wrench you can set how many Blocks get Glued on the Top or Bottom of the Linear Chasis."]
 	quest.51EA6B1452883AB2.title: "&aLinear Chasis"
+	quest.5206FD8021BB573B.quest_desc: [
+		"Grow and harvest several different &aCroptopia&r crops to build a diverse pantry. Each unique ingredient opens up new recipe possibilities across all your cooking stations."
+		""
+		"Variety feeds directly into &aSpice of Life&r — the more unique ingredients in your meals, the higher your diversity score climbs."
+	]
+	quest.5206FD8021BB573B.title: "Stocking the Pantry"
 	quest.5229EE4867DCB2EB.quest_desc: ["Transmits rotation and moves items/entities. Place on two shafts with Andesite Casing."]
 	quest.5229EE4867DCB2EB.title: "Mechanical Belt"
 	quest.5233A447BAA4593C.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
@@ -6178,6 +6306,12 @@
 		"Each grave has a cooldown before it can be prayed at again. Knowledge points unlock perks in the Tombstone GUI."
 	]
 	quest.52CAC54AF7568E85.title: "Ankh of Prayer"
+	quest.52E91CAB3A841F15.quest_desc: [
+		"Craft a &3Pizza&r or &3Fiery Fondue Pot&r — feast blocks that serve multiple players from a single placement. Right-click to take a serving. Feasts score the highest &aSpice of Life&r complexity at 2.0x."
+		""
+		"Feast dishes represent the pinnacle of food quality. &eCombine diverse ingredients from all your food mods into a single feast for maximum nutrition and diversity.&r"
+	]
+	quest.52E91CAB3A841F15.title: "Feast Table"
 	quest.52EC3D68CF329D4C.quest_desc: ["Automates train routes. Add stations and conditions. Insert into station controller."]
 	quest.52EC3D68CF329D4C.title: "Train Schedule"
 	quest.52FFFA1D4A541236.quest_desc: [
@@ -7309,6 +7443,12 @@
 	quest.57A18F2E51952EB8.title: "&5Postboxes"
 	quest.57A7A5C79389A96A.quest_desc: ["Most Players will already know of &6&lCreate&r especially its billions of Addons! Not that many Mods have whole Modpacks based around them! \\n\\nIf you aren't used to &6&lCreate&r, these Quests should help you to learn the Mod. And with many &eItems &fand &6Machines&r there is a Ponder Option! Hold W while viewing the &eItem&r to watch a schematic that will teach you to understand the &eItem &for &6Machine&r. \\n\\nAnd trust me, you'll want to learn &6&lCreate&r, it is super useful! \\n\\nTo start you'll need &8Andesite&r and lots of it."]
 	quest.57A7A5C79389A96A.title: "&6&lCreate&r"
+	quest.57A9A9BE8F5AEEB6.quest_desc: [
+		"Brew an advanced spirit — &3Mead&r, &3Vodka&r, &3Saccharine Rum&r, or &3Strongroot Ale&r. Each requires specific ingredients and temperature conditions set by the &3Heating Cask&r or &3Ice Crate&r."
+		""
+		"There are 16 unique drinks in &aBrewin' and Chewin'&r. &eBrewing all of them is one of the fastest ways to build Spice of Life diversity.&r"
+	]
+	quest.57A9A9BE8F5AEEB6.title: "Spirit Cabinet"
 	quest.57ACD83205988834.quest_subtitle: "Breed: Ender + Gold"
 	quest.57ACD83205988834.subtitle: "Breed: Ender + Gold"
 	quest.57ACD83205988834.title: "Platinum Bee"
@@ -8039,6 +8179,12 @@
 		"Build your orbital platform using oxygen distributors and gravity normalizers. The ultimate base of operations."
 	]
 	quest.5D8206EAD7606049.title: "Earth Orbit"
+	quest.5D82253BA4788BA6.quest_desc: [
+		"Obtain the &3Gourmand's Tome&r from &aSpice of Life: Ascension&r. This book tracks your food diversity — a rolling window of the last 32 unique foods you have eaten."
+		""
+		"Eating a varied diet grants stacking benefit tiers at diversity scores of 10, 25, 50, 80, 120, and 175. &eOpen the tome to check your current score and see which foods you have eaten recently.&r"
+	]
+	quest.5D82253BA4788BA6.title: "Gourmand's Tome"
 	quest.5D89CC235FAC88A5.quest_desc: [
 		"Compress &3Polonium&r gas into a &3Polonium Pellet&r using the &3Chemical Crystallizer&r. Combined with plutonium pellets, these form antimatter."
 		""
@@ -8642,6 +8788,12 @@
 	quest.60695640A92CD248.title: "Uranium Hexafluoride"
 	quest.60719C4317D39E5A.quest_desc: ["Uses liquid meat and pink slime for power generation."]
 	quest.60719C4317D39E5A.title: "Mycelial Meatallurgic Generator"
+	quest.60A06557E265CFE2.quest_desc: [
+		"Craft a &3Meat Hook&r to hang carcasses for draining blood and producing premium cuts. The &3Grinder&r processes meat into ground products for sausages and patties."
+		""
+		"These two workstations complement the &3Butcher Block&r — hang, drain, then grind for maximum product variety."
+	]
+	quest.60A06557E265CFE2.title: "Meat Hook \\& Grinder"
 	quest.60B985069E0E643E.quest_subtitle: "Breed: Lava + Water"
 	quest.60B985069E0E643E.subtitle: "Breed: Lava + Water"
 	quest.60B985069E0E643E.title: "Obsidian Bee"
@@ -8907,6 +9059,12 @@
 		"However, it cannot rotate blocks attached to the ME network like a regular wrench, only dismantle them when sneaking."
 	]
 	quest.6431A384DDFBF439.title: "Network Tools"
+	quest.644D75C6B5A6ED09.quest_desc: [
+		"Craft the &3Butcher's Apron&r to prevent the Bloody effect. The full set includes &3Gloves&r (Dirty Hands), &3Mask&r (Pungent Reek), and &3Boots&r (Blood Trail)."
+		""
+		"&eWear the full set when butchering to work without debuffs.&r Each piece blocks one specific effect."
+	]
+	quest.644D75C6B5A6ED09.title: "Butcher's Gear"
 	quest.6460934E9F6D407E.quest_desc: [
 		"Craft &3Turbine Valves&r (steam input) and &3Turbine Vents&r (water output). Valves accept steam from the reactor, and vents exhaust the cooled water back."
 		""
@@ -9106,6 +9264,12 @@
 		"&e2x:&r Enrichment Chamber only. &e3x:&r +Purification Chamber, Crusher. &e4x:&r +Chemical Injection Chamber. &e5x:&r +Dissolution Chamber, Washer, Crystallizer. Build upward through the tiers as you progress."
 	]
 	quest.66E2231B4BB0445D.title: "Ore Processing Overview"
+	quest.66E347FE3C2D9A31.quest_desc: [
+		"Food gives full nutritional value when it makes up less than 10% of your rolling window. Above 40%, the same food gives zero value and inflicts &3Nausea&r."
+		""
+		"You cannot survive on steak alone. &eDiversify your diet across different meals and cooking methods to maintain peak nutrition.&r"
+	]
+	quest.66E347FE3C2D9A31.title: "Diminishing Returns"
 	quest.66F44F7C17F65BBA.quest_desc: ["Grants Haste effect. Drains LP continuously while enabled."]
 	quest.66F44F7C17F65BBA.title: "Fast Miner Sigil"
 	quest.6706C661FC4084F4.quest_desc: [
@@ -9292,6 +9456,12 @@
 		"Add an Ink to set the Rarity. Paper for the actual Scroll. Then the Item of what type of Spell you want (Blaze Rod for Fire, Poisonous Potato for Nature, ETC). Finally chose the Spell you want and it'll be created!"
 	]
 	quest.69838E3F12218D68.title: "Scroll Forge"
+	quest.699769BFE83D2835.quest_desc: [
+		"Craft a &3Cooking Pot&r and place it on a &3Stove&r or campfire. Add ingredients and a container (bowl or bottle), then wait for the meal to cook. This is the workhorse of &aFarmer's Delight&r."
+		""
+		"Cooking Pot recipes score 1.3x complexity — a major step up from furnace cooking. &eCheck JEI for the full list of pot recipes.&r"
+	]
+	quest.699769BFE83D2835.title: "Cooking Pot"
 	quest.69A04EB462756EED.quest_subtitle: "Targets the block beneath the player"
 	quest.69B30910BE314515.quest_subtitle: "Breed: Red Pigment + Black Pigment"
 	quest.69B30910BE314515.subtitle: "Breed: Red Pigment + Black Pigment"
@@ -9417,6 +9587,12 @@
 	quest.6B7E13AB3BF2C5C8.quest_desc: ["Converts heat to steam. Can use direct heating elements or heated sodium from reactor loop. Alternative to direct reactor steam generation. Lower section heats water, upper section collects steam."]
 	quest.6B7E13AB3BF2C5C8.quest_subtitle: "Multiblock / Optional"
 	quest.6B7E13AB3BF2C5C8.title: "Thermoelectric Boiler"
+	quest.6B8EE785E9965F8E.quest_desc: [
+		"Craft a &3Keg&r — the core fermentation block for &aBrewin' and Chewin'&r. Add ingredients and wait for fermentation to produce drinks and cheese. Place it in the world and interact to add recipes."
+		""
+		"Fermented products score 1.4x complexity in &aSpice of Life&r — higher than cooking pot recipes. &eEach drink is a unique food for diversity scoring.&r"
+	]
+	quest.6B8EE785E9965F8E.title: "Keg"
 	quest.6BBA74206EF601EA.quest_desc: [
 		"The &3Netherite Space Suit&r is a fire-resistant upgrade with 4,000 mB oxygen capacity. Essential for Venus expeditions where acid rain and extreme heat are constant threats."
 		""
@@ -9714,6 +9890,12 @@
 		"Keep one in your hotbar for instant teleportation without burning through pearls. The blood cost per throw is minimal."
 	]
 	quest.6E680C809E173108.title: "Blood Pearl"
+	quest.6E6CB43C833B318A.quest_desc: [
+		"Craft a &3Drying Rack&r for dehydrating foods — jerky, dried herbs, and preserved ingredients. Place items on the rack and wait for them to dry."
+		""
+		"Dried foods are lightweight, stack well, and count as unique items for &aSpice of Life&r diversity."
+	]
+	quest.6E6CB43C833B318A.title: "Drying Rack"
 	quest.6EAC81649890D9E8.quest_desc: ["Immersive Aircraft. Basic aircraft component. Generates thrust when connected to an engine."]
 	quest.6EAC81649890D9E8.title: "Propeller"
 	quest.6ED021F17831A1B2.quest_desc: [
@@ -10038,6 +10220,12 @@
 		"Works while mounted on contraptions. Deployers and Crushing Wheels also drop Experience Nuggets from kills."
 	]
 	quest.747B6EAA50A5FC2C.title: "Experience Lantern"
+	quest.74A6C0B0CF795190.quest_desc: [
+		"Craft a &3Melting Pot&r to melt chocolate, fats, and butter into liquid form for sauces and dessert recipes. Cocoa beans become cocoa butter, which produces chocolate syrups."
+		""
+		"&eChocolate-based desserts are high-complexity foods that contribute well to your Spice of Life diversity score.&r"
+	]
+	quest.74A6C0B0CF795190.title: "Melting Pot"
 	quest.74C9A7EF6D9E0CC3.quest_desc: ["Transfers FE between machines. No power loss. Made with Rolling Mill."]
 	quest.74C9A7EF6D9E0CC3.title: "Copper Wire"
 	quest.74D15068B4388FB5.quest_desc: ["Catch 5 Gar. A long-nosed predatory fish."]
@@ -10142,6 +10330,12 @@
 	quest.7680FDFB79037F03.title: "Tier 5 Altar"
 	quest.7698A68D56DEEDF1.quest_desc: ["Aircraft body structure. Determines vehicle type and passenger capacity."]
 	quest.7698A68D56DEEDF1.title: "Hull"
+	quest.76B29F230A01C2FB.quest_desc: [
+		"Craft a &3Skillet&r for frying — a different cooking method from the pot with its own set of recipes. Place it on a stove and add ingredients to fry."
+		""
+		"Skillet recipes also score 1.3x complexity. Between the pot and skillet, you have access to the majority of &aFarmer's Delight&r meals."
+	]
+	quest.76B29F230A01C2FB.title: "Skillet"
 	quest.76B465FC6F5DF8A6.quest_desc: [
 		"Craft a &3Digital Miner&r — an automated mining machine that teleports ores directly into its inventory. Configure filters to target specific ores, set a mining radius, and let it work."
 		""
@@ -10583,6 +10777,12 @@
 	quest.7DB3A0EF7C5A9A94.title: "Linothorax Armor"
 	quest.7DC044EFFDC208D7.quest_desc: ["Uses slime-related items to generate power for the Mycelial Reactor."]
 	quest.7DC044EFFDC208D7.title: "Mycelial Slimey Generator"
+	quest.7DDB8A933A1BDEF6.quest_desc: [
+		"Craft a &3Cutting Board&r and place it in the world. Right-click to place an ingredient on it, then hit it with a knife to slice. This produces intermediate ingredients like dough, sliced vegetables, and meat strips."
+		""
+		"Cutting Board recipes score 1.1x complexity in &aSpice of Life&r — a small but meaningful step up from raw crafting."
+	]
+	quest.7DDB8A933A1BDEF6.title: "Cutting Board"
 	quest.7DEF544F2ED35136.quest_desc: [
 		"Upgrade your Sanguinary Pedestal to &eTier 1&r by surrounding it with Dark Gems. The upgraded pedestal absorbs blood stains faster and from a wider radius."
 		""
@@ -12493,6 +12693,204 @@
 	]
 	quest.DC01000000000006.quest_subtitle: "Mighty Mail"
 	quest.DC01000000000006.title: "Player Mailbox"
+	quest.F001000000000100.quest_desc: [
+		"Obtain the &3Gourmand's Tome&r from &aSpice of Life: Ascension&r. This book tracks your food diversity — a rolling window of the last 32 unique foods you have eaten."
+		""
+		"Eating a varied diet grants stacking benefit tiers at diversity scores of 10, 25, 50, 80, 120, and 175. &eOpen the tome to check your current score and see which foods you have eaten recently.&r"
+	]
+	quest.F001000000000100.title: "Gourmand's Tome"
+	quest.F001000000000200.quest_desc: [
+		"Food gives full nutritional value when it makes up less than 10% of your rolling window. Above 40%, the same food gives zero value and inflicts &3Nausea&r."
+		""
+		"You cannot survive on steak alone. &eDiversify your diet across different meals and cooking methods to maintain peak nutrition.&r"
+	]
+	quest.F001000000000200.title: "Diminishing Returns"
+	quest.F001000000000300.quest_desc: [
+		"Each cooking method has a complexity multiplier that affects food quality. Raw food scores 0.5x while advanced methods score much higher: &3Cutting Board&r 1.1x, &3Mixing Bowl&r 1.2x, &3Cooking Pot&r/&3Skillet&r 1.3x, &3Fermentation&r 1.4x, &3Oven&r 1.5x, multi-station 1.8x, and &3Feast&r 2.0x."
+		""
+		"&eHigher complexity means better hunger and saturation from each bite.&r Explore the cooking branches to unlock the most efficient food sources."
+	]
+	quest.F001000000000300.title: "Cooking Complexity"
+	quest.F002000000000100.quest_desc: [
+		"&aCroptopia&r adds dozens of crops that spawn naturally in specific biomes. Break tall grass and vegetation to find wild seeds — each biome has different crop types available."
+		""
+		"Start collecting early while exploring. &eThe more unique ingredients you stockpile, the more recipes you can cook later.&r"
+	]
+	quest.F002000000000100.title: "Wild Crops"
+	quest.F002000000000200.quest_desc: [
+		"&3Fruit Trees&r generate naturally in biome-appropriate locations — orange trees in warm biomes, apple variants in temperate forests, banana and coconut in jungles, and more."
+		""
+		"Harvest fruit by breaking the leaf blocks. &ePlant saplings to grow your own orchard for a renewable fruit supply.&r"
+	]
+	quest.F002000000000200.title: "Fruit Trees"
+	quest.F002000000000300.quest_desc: [
+		"&3Salt&r ore generates in river biomes and is a key seasoning used across all food mods. Mine it when you find deposits near rivers."
+		""
+		"&eStock up on salt early — many recipes from Farmer's Delight, Extra Delight, and Brewin' and Chewin' require it as an ingredient.&r"
+	]
+	quest.F002000000000300.title: "Salt"
+	quest.F002000000000400.quest_desc: [
+		"Grow and harvest several different &aCroptopia&r crops to build a diverse pantry. Each unique ingredient opens up new recipe possibilities across all your cooking stations."
+		""
+		"Variety feeds directly into &aSpice of Life&r — the more unique ingredients in your meals, the higher your diversity score climbs."
+	]
+	quest.F002000000000400.title: "Stocking the Pantry"
+	quest.F003000000000100.quest_desc: [
+		"Craft a &3Flint Knife&r — the starting tool for &aFarmer's Delight&r. It harvests straw from grass, carves pumpkins, and serves as the input tool for the &3Cutting Board&r."
+		""
+		"An iron or diamond knife works the same way but with more durability. &eYou will use a knife constantly throughout FD progression.&r"
+	]
+	quest.F003000000000100.title: "Flint Knife"
+	quest.F003000000000200.quest_desc: [
+		"Craft a &3Cutting Board&r and place it in the world. Right-click to place an ingredient on it, then hit it with a knife to slice. This produces intermediate ingredients like dough, sliced vegetables, and meat strips."
+		""
+		"Cutting Board recipes score 1.1x complexity in &aSpice of Life&r — a small but meaningful step up from raw crafting."
+	]
+	quest.F003000000000200.title: "Cutting Board"
+	quest.F003000000000300.quest_desc: [
+		"Craft a &3Cooking Pot&r and place it on a &3Stove&r or campfire. Add ingredients and a container (bowl or bottle), then wait for the meal to cook. This is the workhorse of &aFarmer's Delight&r."
+		""
+		"Cooking Pot recipes score 1.3x complexity — a major step up from furnace cooking. &eCheck JEI for the full list of pot recipes.&r"
+	]
+	quest.F003000000000300.title: "Cooking Pot"
+	quest.F003000000000400.quest_desc: [
+		"Craft a &3Skillet&r for frying — a different cooking method from the pot with its own set of recipes. Place it on a stove and add ingredients to fry."
+		""
+		"Skillet recipes also score 1.3x complexity. Between the pot and skillet, you have access to the majority of &aFarmer's Delight&r meals."
+	]
+	quest.F003000000000400.title: "Skillet"
+	quest.F003000000000500.quest_desc: [
+		"Craft &3Rich Soil&r by combining dirt with organic matter like bone meal or compost. It boosts crop growth speed by 20% per random tick when placed under farmland."
+		""
+		"Place it beneath your crop rows for noticeably faster harvests. &eEspecially useful for slow-growing crops from Croptopia and Extra Delight.&r"
+	]
+	quest.F003000000000500.title: "Rich Soil"
+	quest.F003000000000600.quest_desc: [
+		"&aFarmer's Delight&r adds wild crops to world generation — &3Wild Onions&r, &3Wild Tomatoes&r, &3Wild Cabbages&r, and &3Wild Rice&r in swamps. These are core ingredients for many FD recipes."
+		""
+		"Find and replant them on your farm. &eWild crops also appear in village farm plots.&r"
+	]
+	quest.F003000000000600.title: "Wild Delights"
+	quest.F004000000000100.quest_desc: [
+		"Craft a &3Mixing Bowl&r — the entry workstation for &aExtra Delight&r. It combines multiple ingredients into batters, doughs, and mixes that feed into other workstations."
+		""
+		"Mixing Bowl recipes score 1.2x complexity in &aSpice of Life&r. &eMany advanced recipes start here before moving to the oven or chiller.&r"
+	]
+	quest.F004000000000100.title: "Mixing Bowl"
+	quest.F004000000000200.quest_desc: [
+		"Craft a &3Mortar&r and a pestle to grind ingredients into flour, spice powders, and pastes. Pestles come in multiple material tiers — stone, granite, diorite, deepslate, and amethyst."
+		""
+		"&3Flour&r is a foundational ingredient for breads, pastries, and batters. &eHigher-tier pestles have more durability but produce the same results.&r"
+	]
+	quest.F004000000000200.title: "Mortar & Pestle"
+	quest.F004000000000300.quest_desc: [
+		"Craft an &3Oven&r for baking — breads, pastries, cakes, and roasted dishes. Oven recipes score 1.5x complexity, a significant quality boost over cooking pot recipes."
+		""
+		"The oven is the centerpiece of &aExtra Delight&r's baking pipeline. &ePair it with the Dough Shaping station for the full bread-making workflow.&r"
+	]
+	quest.F004000000000300.title: "Oven"
+	quest.F004000000000400.quest_desc: [
+		"Craft a &3Dough Shaping&r station to form dough into specific shapes before baking — loaves, rolls, baguettes, and pastry shells."
+		""
+		"The pipeline flows: grind grain at the &3Mortar&r → mix dough in the &3Mixing Bowl&r → shape at this station → bake in the &3Oven&r."
+	]
+	quest.F004000000000400.title: "Dough Shaping"
+	quest.F004000000000500.quest_desc: [
+		"Craft a &3Drying Rack&r for dehydrating foods — jerky, dried herbs, and preserved ingredients. Place items on the rack and wait for them to dry."
+		""
+		"Dried foods are lightweight, stack well, and count as unique items for &aSpice of Life&r diversity."
+	]
+	quest.F004000000000500.title: "Drying Rack"
+	quest.F004000000000600.quest_desc: [
+		"Craft a &3Melting Pot&r to melt chocolate, fats, and butter into liquid form for sauces and dessert recipes. Cocoa beans become cocoa butter, which produces chocolate syrups."
+		""
+		"&eChocolate-based desserts are high-complexity foods that contribute well to your Spice of Life diversity score.&r"
+	]
+	quest.F004000000000600.title: "Melting Pot"
+	quest.F004000000000700.quest_desc: [
+		"Craft a &3Chiller&r to make frozen treats — ice cream, popsicles, and chilled desserts. The cold counterpart to the &3Melting Pot&r."
+		""
+		"Frozen desserts are unique food items that add variety to your diet. &eCombine melted chocolate from the Melting Pot with the Chiller for premium desserts.&r"
+	]
+	quest.F004000000000700.title: "Chiller"
+	quest.F004000000000800.quest_desc: [
+		"&aExtra Delight&r adds 7 farmable crops — &3Chili&r, &3Garlic&r, &3Ginger&r, &3Corn&r, &3Mint&r, &3Peanut&r, and &3Mallow Root&r. These are key ingredients for many ED-specific recipes."
+		""
+		"Find seeds in the world or through JEI recipes. &eCorn grows two blocks tall, similar to sugar cane.&r"
+	]
+	quest.F004000000000800.title: "Extra Delight Crops"
+	quest.F005000000000100.quest_desc: [
+		"Craft a &3Butcher Knife&r — the core tool of &aButchercraft&r. Right-click an animal to slaughter it and produce a carcass instead of standard drops."
+		""
+		"Additional specialized knives exist: &3Skinning Knife&r for hides, &3Gut Knife&r for organs, and &3Bone Saw&r for bone processing. Each yields different products from the same animal."
+	]
+	quest.F005000000000100.title: "Butcher Knife"
+	quest.F005000000000200.quest_desc: [
+		"Carrying a carcass in your inventory inflicts debuffs — &3Bloody&r, &3Dirty Hands&r, &3Blood Trail&r (leaves visible tracks), &3Pungent Reek&r, and &3Blood Lust&r. These trigger randomly at a 1/1000 tick chance."
+		""
+		"&eProcess carcasses quickly at workstations to minimize exposure, or wear protective gear to block the effects entirely.&r"
+	]
+	quest.F005000000000200.title: "Blood & Debuffs"
+	quest.F005000000000300.quest_desc: [
+		"Craft the &3Butcher's Apron&r to prevent the Bloody effect. The full set includes &3Gloves&r (Dirty Hands), &3Mask&r (Pungent Reek), and &3Boots&r (Blood Trail)."
+		""
+		"&eWear the full set when butchering to work without debuffs.&r Each piece blocks one specific effect."
+	]
+	quest.F005000000000300.title: "Butcher's Gear"
+	quest.F005000000000400.quest_desc: [
+		"Craft a &3Butcher Block&r — the main workstation for processing carcasses into specific meat cuts, organs, and bones. Different animals yield different products."
+		""
+		"Cow carcasses produce beef cuts, pig carcasses produce pork cuts, and so on. &eProcess carcasses here rather than carrying them around to avoid debuffs.&r"
+	]
+	quest.F005000000000400.title: "Butcher Block"
+	quest.F005000000000500.quest_desc: [
+		"Craft a &3Meat Hook&r to hang carcasses for draining blood and producing premium cuts. The &3Grinder&r processes meat into ground products for sausages and patties."
+		""
+		"These two workstations complement the &3Butcher Block&r — hang, drain, then grind for maximum product variety."
+	]
+	quest.F005000000000500.title: "Meat Hook & Grinder"
+	quest.F005000000000600.quest_desc: [
+		"Process blood fluid into &3Blood Sausage&r — mix blood with casings to form &3Blood Sausage Mix&r, link them into &3Linked Blood Sausage&r, then cook for &3Cooked Blood Sausage&r."
+		""
+		"Blood also produces &3Dried Blood&r and &3Blood Meal&r as byproducts. &eCooked blood sausage is a high-nutrition food that counts as unique for Spice of Life diversity.&r"
+	]
+	quest.F005000000000600.title: "Blood Products"
+	quest.F006000000000100.quest_desc: [
+		"Craft a &3Keg&r — the core fermentation block for &aBrewin' and Chewin'&r. Add ingredients and wait for fermentation to produce drinks and cheese. Place it in the world and interact to add recipes."
+		""
+		"Fermented products score 1.4x complexity in &aSpice of Life&r — higher than cooking pot recipes. &eEach drink is a unique food for diversity scoring.&r"
+	]
+	quest.F006000000000100.title: "Keg"
+	quest.F006000000000200.quest_desc: [
+		"Brew your first &3Beer&r in the &3Keg&r — a straightforward recipe that demonstrates the fermentation workflow. Drinks are served in a &3Tankard&r which is returned after drinking."
+		""
+		"Beer provides moderate hunger and saturation. &eEach unique alcoholic drink counts separately for Spice of Life diversity — brew different types to maximize your score.&r"
+	]
+	quest.F006000000000200.title: "Beer"
+	quest.F006000000000300.quest_desc: [
+		"Craft a &3Heating Cask&r or &3Ice Crate&r to control fermentation temperature. Some recipes require heat (mulled wines, warm spirits), others need cold (lagers, chilled drinks)."
+		""
+		"Place the cask or crate adjacent to a &3Keg&r to modify its temperature. &eAdvanced drinks like mead and vodka require specific temperature conditions to ferment.&r"
+	]
+	quest.F006000000000300.title: "Temperature Control"
+	quest.F006000000000400.quest_desc: [
+		"Use the &3Keg&r to produce an unripe &3Cheese Wheel&r, then place it in the world and wait for it to ripen. Break the ripened wheel to collect &3Cheese Wedges&r — available in Flaxen and Scarlet varieties."
+		""
+		"&eCheese wedges are a high-saturation food and count as unique items for Spice of Life diversity.&r Both varieties have different nutritional values."
+	]
+	quest.F006000000000400.title: "Cheese Making"
+	quest.F006000000000500.quest_desc: [
+		"Brew an advanced spirit — &3Mead&r, &3Vodka&r, &3Saccharine Rum&r, or &3Strongroot Ale&r. Each requires specific ingredients and temperature conditions set by the &3Heating Cask&r or &3Ice Crate&r."
+		""
+		"There are 16 unique drinks in &aBrewin' and Chewin'&r. &eBrewing all of them is one of the fastest ways to build Spice of Life diversity.&r"
+	]
+	quest.F006000000000500.title: "Spirit Cabinet"
+	quest.F006000000000600.quest_desc: [
+		"Craft a &3Pizza&r or &3Fiery Fondue Pot&r — feast blocks that serve multiple players from a single placement. Right-click to take a serving. Feasts score the highest &aSpice of Life&r complexity at 2.0x."
+		""
+		"Feast dishes represent the pinnacle of food quality. &eCombine diverse ingredients from all your food mods into a single feast for maximum nutrition and diversity.&r"
+	]
+	quest.F006000000000600.title: "Feast Table"
 	task.0001000000000101.title: "I understand the combat system"
 	task.0001000000000102.title: "I understand ability points"
 	task.0001000000000103.title: "I understand weapon styles"
@@ -12566,6 +12964,7 @@
 	task.263F0E416A8E1110.title: "Copper Comb"
 	task.26DAA394F28C4A16.title: "Claim your mailbox reward"
 	task.26FD5D4411242B25.title: "Living Helmet"
+	task.287AC9B62FD714E9.title: "Blood & Debuffs"
 	task.299DE26FF7293F34.title: "Electrum Comb"
 	task.29A584EC87B0C388.title: "Read about RFTools Power"
 	task.2B54A5BE4392F79C.title: "Occultism Mastery"
@@ -12574,6 +12973,7 @@
 	task.2CA0CD408983DB9B.title: "Run an assembly recipe successfully"
 	task.2CC38211F4C54ED8.title: "Draconic Comb"
 	task.2D780C226FCF4A03.title: "Strong Tau"
+	task.2DC4B2FC487F616C.title: "Diminishing Returns"
 	task.2EA19C4E46380CDA.title: "RuBee Comb"
 	task.2F13F6D6E170BBEC.title: "Master Blood Orb"
 	task.3083D90A0F79A772.title: "Supremium Tools and Weapons"
@@ -12622,6 +13022,7 @@
 	task.49E5D4B7057851E7.title: "Sacrificial Dagger"
 	task.4A26B1A6BDC9BEF2.title: "Self-Sacrifice Rune Tier 2"
 	task.4A6ADD52B113E3CA.title: "Leafcutter Bee"
+	task.4B21B4694D22D813.title: "Cooking Complexity"
 	task.4BC7F46B28DC6BA0.title: "Mason Bee"
 	task.4BD6380E3CB0AFA1.title: "Sacrifice Rune Tier 2"
 	task.4CDFCAAED8ABB615.title: "Blood Runes (8)"
@@ -12748,4 +13149,7 @@
 	task.DC01000000000204.title: "Acknowledge equipment slot systems"
 	task.DC01000000000205.title: "Acknowledge navigation tools"
 	task.DC01000000000206.title: "Claim your mailbox reward"
+	task.F0010000000002A1.title: "Diminishing Returns"
+	task.F0010000000003A1.title: "Cooking Complexity"
+	task.F0050000000002A1.title: "Blood & Debuffs"
 }

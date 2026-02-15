@@ -51,6 +51,10 @@ Each chapter MUST use a unique 2-4 character hex prefix for ALL its IDs. This pr
 | `5F01`-`5F04` | RFTools | Quest IDs (sections 1-4) |
 | `5C00` | SecurityCraft | Chapter ID |
 | `5C01`-`5C05` | SecurityCraft | Quest IDs (sections 1-5) |
+| `AD00` | Ad Astra Mekanized | Chapter ID |
+| `AD01`-`AD06` | Ad Astra Mekanized | Quest IDs (sections 1-6) |
+| `F000` | Culinary Arts | Chapter ID |
+| `F001`-`F006` | Culinary Arts | Quest IDs (sections 1-6) |
 
 **Note**: Many existing chapters use random hex IDs (like `796C5F40115A5AE3`) which are statistically unique. The prefix system is for chapters using structured/readable IDs.
 
